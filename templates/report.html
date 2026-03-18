@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify 每日輿情報告 - {{ report_date }}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1e2e 100%);
+            color: #e6edf3;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container { max-width: 900px; margin: 0 auto; }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(30, 215, 96, 0.15), rgba(30, 215, 96, 0.05));
+            border-radius: 16px;
+            border: 1px solid rgba(30, 215, 96, 0.2);
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1ed760;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .date {
+            font-size: 0.95rem;
+            color: #8b949e;
+        }
+
+        .card {
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* 情緒分佈圖表 */
+        .sentiment-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .sentiment-bar {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .sentiment-bar .label {
+            min-width: 60px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .sentiment-bar .bar-container {
+            flex: 1;
+            height: 28px;
+            background: #21262d;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .sentiment-bar .bar-fill {
+            height: 100%;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            padding-left: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: width 1s ease;
+        }
+
+        .bar-positive { background: linear-gradient(90deg, #1ed760, #1db954); }
+        .bar-neutral { background: linear-gradient(90deg, #58a6ff, #388bfd); }
+        .bar-negative { background: linear-gradient(90deg, #f85149, #da3633); }
+
+        /* 事件列表 */
+        .event-item {
+            padding: 1rem;
+            background: #0d1117;
+            border-radius: 8px;
+            margin-bottom: 0.8rem;
+            border-left: 3px solid #30363d;
+        }
+
+        .event-item.high { border-left-color: #f85149; }
+        .event-item.medium { border-left-color: #d29922; }
+        .event-item.low { border-left-color: #1ed760; }
+
+        .event-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .event-desc {
+            font-size: 0.85rem;
+            color: #8b949e;
+        }
+
+        .severity-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+
+        .severity-high { background: rgba(248, 81, 73, 0.2); color: #f85149; }
+        .severity-medium { background: rgba(210, 153, 34, 0.2); color: #d29922; }
+        .severity-low { background: rgba(30, 215, 96, 0.2); color: #1ed760; }
+
+        /* 關鍵字標籤 */
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .keyword-tag {
+            padding: 6px 14px;
+            background: rgba(30, 215, 96, 0.1);
+            border: 1px solid rgba(30, 215, 96, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #1ed760;
+        }
+
+        /* 每日摘要 */
+        .summary-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #c9d1d9;
+        }
+
+        /* 文章分析列表 */
+        .article-item {
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid #21262d;
+        }
+
+        .article-item:last-child { border-bottom: none; }
+
+        .article-title {
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-points {
+            font-size: 0.8rem;
+            color: #8b949e;
+        }
+
+        .sentiment-tag {
+            display: inline-block;
+            padding: 1px 8px;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .tag-positive { background: rgba(30, 215, 96, 0.15); color: #1ed760; }
+        .tag-negative { background: rgba(248, 81, 73, 0.15); color: #f85149; }
+        .tag-neutral { background: rgba(88, 166, 255, 0.15); color: #58a6ff; }
+
+        .footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: #484f58;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎵 Spotify 每日輿情報告</h1>
+            <p class="date">{{ report_date }}</p>
+        </div>
+
+        <!-- 整體情緒分佈 -->
+        <div class="card">
+            <h2>📊 情緒分佈</h2>
+            <div class="sentiment-bars">
+                <div class="sentiment-bar">
+                    <span class="label">😊 正面</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-positive" style="width: {{ (sentiment.positive_ratio * 100)|round }}%">
+                            {{ (sentiment.positive_ratio * 100)|round }}%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">😐 中性</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-neutral" style="width: {{ (sentiment.neutral_ratio * 100)|round }}%">
+                            {{ (sentiment.neutral_ratio * 100)|round }}%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">😟 負面</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-negative" style="width: {{ (sentiment.negative_ratio * 100)|round }}%">
+                            {{ (sentiment.negative_ratio * 100)|round }}%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 重大事件 -->
+        {% if events %}
+        <div class="card">
+            <h2>🔔 重大事件</h2>
+            {% for event in events %}
+            <div class="event-item {{ event.severity }}">
+                <div class="event-title">
+                    {{ event.title }}
+                    <span class="severity-badge severity-{{ event.severity }}">{{ event.severity|upper }}</span>
+                </div>
+                {% if event.description %}
+                <div class="event-desc">{{ event.description }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- 熱門關鍵字 -->
+        {% if keywords %}
+        <div class="card">
+            <h2>🔑 熱門關鍵字</h2>
+            <div class="keywords">
+                {% for keyword in keywords %}
+                <span class="keyword-tag">{{ keyword }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- 每日摘要 -->
+        <div class="card">
+            <h2>📝 每日摘要</h2>
+            <p class="summary-text">{{ daily_summary }}</p>
+        </div>
+
+        <!-- 文章分析 -->
+        {% if article_analyses %}
+        <div class="card">
+            <h2>📰 文章分析</h2>
+            {% for article in article_analyses %}
+            <div class="article-item">
+                <div class="article-title">
+                    {{ article.title }}
+                    <span class="sentiment-tag tag-{{ article.sentiment }}">{{ article.sentiment }}</span>
+                </div>
+                {% if article.key_points %}
+                <div class="article-points">
+                    {% for point in article.key_points %}
+                    • {{ point }}<br>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="footer">
+            Spotify 輿情自動監測系統 | 資料來源：Dcard、Google News
+        </div>
+    </div>
+</body>
+</html>

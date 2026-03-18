@@ -1,0 +1,29 @@
+# 環境變數
+python-dotenv>=1.0.0
+
+# HTTP 請求
+requests>=2.31.0
+
+# RSS 解析
+feedparser>=6.0.0
+
+# LLM - Google Gemini
+google-generativeai>=0.5.0
+
+# LINE Messaging API
+line-bot-sdk>=3.0.0
+
+# 排程
+APScheduler>=3.10.0
+
+# HTML 報告模板
+Jinja2>=3.1.0
+
+# 日誌格式化
+colorlog>=6.7.0
+
+# 搜尋引擎 (免金鑰)
+duckduckgo-search>=6.2.0
+
+# Apify SDK
+apify-client>=1.6.0

@@ -1,0 +1,70 @@
+# Spotify 自動化輿情與資訊追蹤系統 - Workspace Rules
+
+## 📌 專案背景與目標 (Project Context)
+- **專案名稱**：Spotify 輿情與活動自動化追蹤系統
+- **核心目標**：每日自動搜集 Spotify 相關的網路討論與新聞，透過 LLM 分析正負向情緒與重大事件，並彙整成網頁報告及 Line/Telegram 推播通知。
+- **開發語言**：Python 3.9+
+- **開發環境**：Antigravity IDE + MCP Servers
+
+## 🏗️ 架構與工作流程 (Architecture & Workflow)
+本專案嚴格遵循以下「5 大核心模組」，請在撰寫程式碼時保持高內聚、低耦合（模組化設計）：
+
+1. **搜集 (Collection)**
+   - **職責**：從多元資料來源搜集 Spotify 相關資訊。
+   - **已整合的資料來源**：
+     - `dcard_collector.py`：Dcard 台灣社群論壇（免費，無需金鑰）
+     - `news_collector.py`：Google News RSS（免費，無需金鑰）
+     - `duckduckgo_collector.py`：DuckDuckGo 新聞搜尋（免費，無需金鑰）
+     - `tavily_collector.py`：Tavily AI 搜尋引擎（需 API Key）
+     - `apify_collector.py`：Apify 雲端爬蟲 Server（需 API Token）
+   - **規範**：所有爬蟲或 API 呼叫必須繼承 `BaseCollector`，包含錯誤處理（Error Handling）與重試機制（Retry）。
+
+2. **分析 (Analysis)**
+   - **職責**：將原始文本交由 Google Gemini LLM 解析。
+   - **規範**：
+     - Prompt（提示詞）必須集中化管理於 `analyzers/prompts.py`。
+     - 輸出結果必須強制結構化（JSON 格式），包含：`"sentiment"` (正/負評)、`"events"` (重大事件)、`"trending_keywords"` (熱門關鍵字)。
+
+3. **報告 (Report)**
+   - **職責**：展示 LLM 的分析結果給最終使用者（HTML 儀表板）。
+   - **規範**：使用 Jinja2 模板引擎，報告生成至 `data/reports/` 目錄。
+
+4. **通知 (Notification)**
+   - **職責**：將緊急告警或每日總結推播至 LINE 與 Telegram。
+   - **已整合的推播管道**：
+     - `line_notifier.py`：LINE Messaging API（Push Message）
+     - `telegram_notifier.py`：Telegram Bot API
+   - **規範**：定義清晰的訊息模板（Message Templates），避免推播過度冗長的未排版文字。
+
+5. **排程 (Scheduler)**
+   - **職責**：定時執行上述流程，每日早上 09:00 (Asia/Taipei)。
+   - **規範**：使用 APScheduler。此模組作為系統的 Entry Point（進入點）調用其他 4 個模組。
+
+## 🔌 MCP Server 整合 (MCP Integration)
+本專案透過 Antigravity IDE 的 MCP 機制整合了以下外部服務：
+- **Apify MCP Server**（`@apify/actors-mcp-server`）：讓 AI 助手可直接呼叫 Apify 的 6000+ 個 Actor 進行雲端爬蟲。
+- 設定檔位於：`~/.gemini/antigravity/mcp_config.json`
+
+## 🔐 環境變數 (Environment Variables)
+所有金鑰統一管理於 `.env` 檔案，範本請參考 `.env.example`：
+| 變數名稱 | 用途 | 必填 |
+|---|---|---|
+| `GEMINI_API_KEY` | Google Gemini LLM | ✅ 必填 |
+| `LINE_CHANNEL_ACCESS_TOKEN` | LINE 推播 | ✅ 必填（至少 LINE 或 TG 擇一） |
+| `LINE_USER_ID` | LINE 推播對象 | ✅ 必填（至少 LINE 或 TG 擇一） |
+| `TELEGRAM_BOT_TOKEN` | Telegram 推播 | 選填 |
+| `TELEGRAM_CHAT_ID` | Telegram 推播對象 | 選填 |
+| `TAVILY_API_KEY` | Tavily 搜尋 | 選填 |
+| `APIFY_API_TOKEN` | Apify 雲端爬蟲 | 選填 |
+| `APIFY_ACTOR_ID` | Apify Actor 名稱 | 選填（預設 `apify/google-search-scraper`） |
+
+## 💻 程式碼撰寫規範 (Coding Guidelines)
+- **語言及註解**：使用 Python 進行開發，並一律使用繁體中文撰寫關鍵註解。
+- **環境變數 (Env Vars)**：所有敏感資訊**絕對不可**hardcode 在程式碼中，必須統一寫在 `.env` 檔案內。
+- **日誌 (Logging)**：系統自動化運行，因此必須導入妥善的 Logging 機制（至少包含 INFO 與 ERROR 等級），以便後續排錯。
+- **新增搜集來源**：新的搜集器必須繼承 `collectors/base_collector.py` 中的 `BaseCollector`，並在 `main.py` 的 `run_pipeline()` 中加入呼叫。
+
+## 🤖 給 AI 助手的指令
+- 當被要求「新增功能」時，請先釐清該功能屬於上述 5 大模組中的哪一個，並放在對應的檔案目錄下。
+- 若更動到 LLM 的分析邏輯，請務必確認 Prompt 輸出的資料格式依然符合後續「報表」與「通知」模組的要求。
+- 新增搜集器時，若該來源需要 API Key，必須同時更新 `config.py`、`.env.example`，且在 `main.py` 中用 `if config.XXX_KEY:` 條件判斷，確保使用者未設定金鑰時系統不會崩潰。

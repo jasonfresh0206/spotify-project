@@ -1,0 +1,21 @@
+# 敏感資訊 (絕對不可以上傳)
+.env
+
+# Python 快取檔案
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+venv/
+env/
+.venv/
+
+# 執行時產生的資料與日誌
+data/app.log
+data/reports/*.html
+data/reports/*.json
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
