@@ -11,10 +11,8 @@ venv/
 env/
 .venv/
 
-# 執行時產生的資料與日誌
+# 執行時產生的日誌（報告檔案允許上傳備份）
 data/app.log
-data/reports/*.html
-data/reports/*.json
 
 # 作業系統檔案
 .DS_Store
