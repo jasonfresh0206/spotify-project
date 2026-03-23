@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Pulse | Premium Dashboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --spotify-green: #1DB954;
+            --spotify-neon: #1ed760;
+            --bg-dark: #0a0a0c;
+            --glass-bg: rgba(20, 24, 32, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff;
+            --text-secondary: #94A3B8; /* Muted text light rule from UI UX Pro Max */
+            
+            /* 情緒顏色 */
+            --positive: #1ed760;
+            --neutral: #58a6ff;
+            --negative: #ff4b4b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 2.5rem 1rem;
+            position: relative;
+            overflow-x: hidden;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* 未來感流光背景 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(29, 185, 84, 0.1) 0%, transparent 40%),
+                        radial-gradient(circle at 80% 20%, rgba(88, 166, 255, 0.05) 0%, transparent 30%);
+            animation: rotateBG 30s linear infinite;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        @keyframes rotateBG {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* 頂部標題區域 */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, rgba(29, 185, 84, 0.15) 0%, rgba(10, 10, 12, 0.8) 100%);
+            border-radius: 24px;
+            border: 1px solid rgba(29, 185, 84, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, var(--spotify-neon) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.8rem;
+            letter-spacing: -1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+        
+        /* Inline SVG Icon Helper */
+        .svg-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header .date {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .header .date::before, .header .date::after {
+            content: '';
+            height: 1px;
+            width: 40px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* 玻璃擬物化卡片 */
+        .card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+            transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+            opacity: 0;
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.2s; }
+        .card:nth-child(4) { animation-delay: 0.3s; }
+        .card:nth-child(5) { animation-delay: 0.4s; }
+
+        .card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #ffffff;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* 高級情緒分佈進度條 */
+        .sentiment-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .sentiment-bar {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .sentiment-bar .label {
+            min-width: 90px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sentiment-bar .bar-container {
+            flex: 1;
+            height: 24px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+        .sentiment-bar .bar-fill {
+            height: 100%;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sentiment-bar .bar-fill::after {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%; width: 50%; height: 100%;
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 200%; }
+        }
+
+        .bar-positive { background: linear-gradient(90deg, #1DB954, #1ed760); box-shadow: 0 0 15px rgba(29, 185, 84, 0.4); }
+        .bar-neutral { background: linear-gradient(90deg, #2f80ed, #56ccf2); box-shadow: 0 0 15px rgba(86, 204, 242, 0.4); }
+        .bar-negative { background: linear-gradient(90deg, #eb3349, #f45c43); box-shadow: 0 0 15px rgba(235, 51, 73, 0.4); }
+
+        /* 重大事件卡片 - Interaction Rule Applied */
+        .event-item {
+            padding: 1.2rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            border-left: 4px solid transparent;
+            transition: all 200ms ease;
+            cursor: pointer;
+        }
+        
+        .event-item:hover {
+            transform: translateX(5px);
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .event-item.high { border-left-color: var(--negative); }
+        .event-item.medium { border-left-color: #f2c94c; }
+        .event-item.low { border-left-color: var(--positive); }
+
+        .event-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        .event-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .severity-badge {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .severity-high { background: rgba(255, 75, 75, 0.15); color: var(--negative); border: 1px solid rgba(255,75,75,0.3); }
+        .severity-medium { background: rgba(242, 201, 76, 0.15); color: #f2c94c; border: 1px solid rgba(242,201,76,0.3); }
+        .severity-low { background: rgba(29, 185, 84, 0.15); color: var(--positive); border: 1px solid rgba(29,185,84,0.3); }
+
+        /* 熱門關鍵字標籤 */
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .keyword-tag {
+            padding: 8px 18px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #fff;
+            transition: all 200ms ease;
+            cursor: pointer;
+        }
+        
+        .keyword-tag:hover {
+            background: rgba(29, 185, 84, 0.15);
+            border-color: rgba(29, 185, 84, 0.5);
+            color: var(--spotify-neon);
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(29, 185, 84, 0.2);
+        }
+
+        /* 每日摘要排版 */
+        .summary-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #d1d5db;
+            white-space: pre-wrap;
+        }
+
+        /* 精緻文章清單 - Interaction Rule Applied */
+        .article-item {
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            margin-bottom: 0.8rem;
+            background: rgba(0,0,0,0.15);
+            transition: all 200ms ease;
+            cursor: pointer;
+        }
+
+        .article-item:hover {
+            background: rgba(255,255,255,0.02);
+            border-color: rgba(255,255,255,0.08);
+            transform: translateX(4px);
+        }
+
+        .article-title {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 0.8rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .article-points {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            padding-left: 1rem;
+            border-left: 2px solid rgba(255,255,255,0.1);
+        }
+
+        .sentiment-tag {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .tag-positive { background: linear-gradient(135deg, rgba(29,185,84,0.2), rgba(29,185,84,0.05)); color: var(--positive); border: 1px solid rgba(29,185,84,0.3); }
+        .tag-negative { background: linear-gradient(135deg, rgba(255,75,75,0.2), rgba(255,75,75,0.05)); color: var(--negative); border: 1px solid rgba(255,75,75,0.3); }
+        .tag-neutral { background: linear-gradient(135deg, rgba(88,166,255,0.2), rgba(88,166,255,0.05)); color: var(--neutral); border: 1px solid rgba(88,166,255,0.3); }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            opacity: 0.6;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                <div class="svg-icon" style="color: #1ed760;">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18V5l12-2v13"></path>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <circle cx="18" cy="16" r="3"></circle>
+                    </svg>
+                </div>
+                <span style="-webkit-text-fill-color: transparent;">Spotify Premium Pulse</span>
+            </h1>
+            <p class="date">2026 年 03 月 23 日</p>
+        </div>
+
+        <!-- 整體情緒分佈 -->
+        <div class="card">
+            <h2>
+                <div class="svg-icon" style="color: var(--spotify-green);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 3v18h18"></path>
+                        <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+                    </svg>
+                </div>
+                品牌情緒雷達
+            </h2>
+            <div class="sentiment-bars">
+                <div class="sentiment-bar">
+                    <span class="label">
+                        <div class="svg-icon" style="color: var(--positive);">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </div>
+                        正向
+                    </span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-positive" style="width: 50.0%">
+                            50.0%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">
+                        <div class="svg-icon" style="color: var(--neutral);">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </div>
+                        中性
+                    </span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-neutral" style="width: 30.0%">
+                            30.0%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">
+                        <div class="svg-icon" style="color: var(--negative);">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                <line x1="12" y1="9" x2="12" y2="13"></line>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        負向
+                    </span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-negative" style="width: 20.0%">
+                            20.0%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 重大事件 -->
+        
+        <div class="card">
+            <h2>
+                <div class="svg-icon" style="color: #f45c43;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                </div>
+                重大事件追蹤
+            </h2>
+            
+            <div class="event-item high">
+                <div class="event-title">
+                    AI驅動的個人化與ChatGPT合作
+                    <span class="severity-badge severity-high">HIGH Level</span>
+                </div>
+                
+                <div class="event-desc">Spotify正積極利用AI技術，包括與ChatGPT合作，開發「聽覺大腦」與「口味檔案」功能，讓用戶能更精準地控制音樂推薦，提升個人化體驗。</div>
+                
+            </div>
+            
+            <div class="event-item medium">
+                <div class="event-title">
+                    新Premium功能上線（Smart Reorder、獨佔模式）
+                    <span class="severity-badge severity-medium">MEDIUM Level</span>
+                </div>
+                
+                <div class="event-desc">Spotify為Premium用戶推出多項新功能，如「Smart Reorder」實現播放列表無縫轉場，以及Windows桌面版「獨佔模式」提供高傳真位元完美音質，滿足發燒友需求。</div>
+                
+            </div>
+            
+            <div class="event-item high">
+                <div class="event-title">
+                    BTS新專輯《Arirang》打破串流紀錄
+                    <span class="severity-badge severity-high">HIGH Level</span>
+                </div>
+                
+                <div class="event-desc">韓國天團BTS新專輯《Arirang》在Spotify上創下首日1.1億串流播放量的紀錄，並與Spotify合作舉辦SWIMSIDE活動，引發粉絲熱烈討論與參與。</div>
+                
+            </div>
+            
+            <div class="event-item high">
+                <div class="event-title">
+                    強勁的用戶增長與財務表現
+                    <span class="severity-badge severity-high">HIGH Level</span>
+                </div>
+                
+                <div class="event-desc">Spotify在2025年第四季度報告中，月活躍用戶數和付費訂閱數均創歷史新高，帶動股價大幅上漲，新聯席CEO對未來發展表示樂觀。</div>
+                
+            </div>
+            
+            <div class="event-item high">
+                <div class="event-title">
+                    服務當機與Premium廣告錯誤
+                    <span class="severity-badge severity-high">HIGH Level</span>
+                </div>
+                
+                <div class="event-desc">Spotify曾發生服務當機，導致Premium用戶被登出或帳戶顯示為免費方案並聽到廣告，儘管問題隨後被修復，仍引起用戶不滿。</div>
+                
+            </div>
+            
+            <div class="event-item medium">
+                <div class="event-title">
+                    藝人版稅爭議與官方聲明
+                    <span class="severity-badge severity-medium">MEDIUM Level</span>
+                </div>
+                
+                <div class="event-desc">儘管Spotify聲稱已是業界最高支付版稅平台，並有超過1500位藝人年收入超百萬美元，但關於串流模式對藝人收入影響的討論與批評依然存在。</div>
+                
+            </div>
+            
+            <div class="event-item medium">
+                <div class="event-title">
+                    2026年串流服務可能漲價
+                    <span class="severity-badge severity-medium">MEDIUM Level</span>
+                </div>
+                
+                <div class="event-desc">有報導指出，包括Spotify在內的串流服務平台預計在2026年有漲價趨勢，引發用戶對費用變動的關注。</div>
+                
+            </div>
+            
+            <div class="event-item medium">
+                <div class="event-title">
+                    來自競爭者與Z世代用戶流失的挑戰
+                    <span class="severity-badge severity-medium">MEDIUM Level</span>
+                </div>
+                
+                <div class="event-desc">Spotify面臨來自Apple Music、YouTube、Amazon等平台的激烈競爭，同時有報導指出部分Z世代用戶因偏好實體音樂而取消Spotify訂閱。</div>
+                
+            </div>
+            
+            <div class="event-item low">
+                <div class="event-title">
+                    平台廣告內容爭議
+                    <span class="severity-badge severity-low">LOW Level</span>
+                </div>
+                
+                <div class="event-desc">有報導提及具爭議性的ICE廣告出現在串流服務中，暗示Spotify可能也受此影響，引發社會 backlash。</div>
+                
+            </div>
+            
+        </div>
+        
+
+        <!-- 熱門關鍵字 -->
+        
+        <div class="card">
+            <h2>
+                <div class="svg-icon" style="color: #f2c94c;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" y1="9" x2="20" y2="9"></line>
+                        <line x1="4" y1="15" x2="20" y2="15"></line>
+                        <line x1="10" y1="3" x2="8" y2="21"></line>
+                        <line x1="16" y1="3" x2="14" y2="21"></line>
+                    </svg>
+                </div>
+                關鍵字雲
+            </h2>
+            <div class="keywords">
+                
+                <span class="keyword-tag">#AI</span>
+                
+                <span class="keyword-tag">#ChatGPT</span>
+                
+                <span class="keyword-tag">#個人化</span>
+                
+                <span class="keyword-tag">#推薦系統</span>
+                
+                <span class="keyword-tag">#BTS</span>
+                
+                <span class="keyword-tag">#Arirang</span>
+                
+                <span class="keyword-tag">#Premium功能</span>
+                
+                <span class="keyword-tag">#獨佔模式</span>
+                
+                <span class="keyword-tag">#高傳真音質</span>
+                
+                <span class="keyword-tag">#用戶增長</span>
+                
+                <span class="keyword-tag">#訂閱用戶</span>
+                
+                <span class="keyword-tag">#財務表現</span>
+                
+                <span class="keyword-tag">#服務當機</span>
+                
+                <span class="keyword-tag">#藝人版稅</span>
+                
+                <span class="keyword-tag">#串流漲價</span>
+                
+                <span class="keyword-tag">#競爭</span>
+                
+                <span class="keyword-tag">#Z世代</span>
+                
+                <span class="keyword-tag">#實體音樂</span>
+                
+            </div>
+        </div>
+        
+
+        <!-- 每日摘要 -->
+        <div class="card">
+            <h2>
+                <div class="svg-icon" style="color: #58a6ff;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                </div>
+                AI 深度洞察
+            </h2>
+            <p class="summary-text">今日Spotify輿情呈現兩極化。平台在AI個人化、新Premium功能（如Exclusive Mode、Smart Reorder）以及與BTS等熱門藝人的合作上取得顯著進展，並公布了強勁的用戶增長和財務數據。然而，服務偶爾出現當機和Premium用戶聽見廣告的問題，以及未來潛在的訂閱漲價和來自Z世代用戶流失到實體音樂的挑戰，也引發了討論和擔憂。</p>
+        </div>
+
+        <!-- 文章分析 -->
+        
+        <div class="card">
+            <h2>
+                <div class="svg-icon" style="color: #a0a6b1;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                </div>
+                關鍵報導剖析
+            </h2>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify沒說的秘密！聯手ChatGPT打造個人化「聽覺大腦」 成留住用戶關鍵
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify與ChatGPT合作<br>
+                    
+                    • 開發個人化「聽覺大腦」<br>
+                    
+                    • 目標是留住用戶<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    1 song on Spotify this week? (March 27) 投注賠率與預測
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 預測Spotify單週歌曲表現<br>
+                    
+                    • 與Polymarket投注相關<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    電影導演會｜新人Tr33獻唱《沉船仔》 新歌Spotify近千萬收聽率
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 新人Tr33歌曲在Spotify獲近千萬收聽<br>
+                    
+                    • 顯示Spotify平台對藝人曝光的影響力<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Why Spotify AI more than music will be the secret to keeping subscribers
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify AI是留住訂閱用戶的關鍵<br>
+                    
+                    • 與ChatGPT的合作是重要標誌<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify's latest Premium feature helps you mix a banger playlist, almost like a DJ
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 推出Premium新功能Smart Reorder<br>
+                    
+                    • 自動根據BPM和Key重新排序播放列表<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify Announces BTS SWIMSIDE Event In New York City On March 23
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify為BTS粉絲舉辦SWIMSIDE活動<br>
+                    
+                    • 活動地點在紐約市<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS' 'Arirang' Has Best Spotify First Day of 2026, Eclipsing Harry Styles
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS專輯《Arirang》創下Spotify首日最佳成績<br>
+                    
+                    • 全球串流播放量達1.1億次<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS fans, Spotify has a quiz for you
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify為BTS粉絲推出關於《Arirang》的測驗<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify 'Exclusive Mode' brings hi-fi audio to your desktop: here's how to enable it
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify推出「獨佔模式」(Exclusive Mode)<br>
+                    
+                    • 為桌面版用戶提供高傳真音質<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify Adds Record Monthly Users and Hits 290 Million Paid Subscribers in Q4, New Co-CEO Says 2026 Will Be 'Year of Raising Ambition'
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify 2025年Q4月活躍用戶創紀錄達到7.51億<br>
+                    
+                    • 付費訂閱用戶達2.9億<br>
+                    
+                    • 新聯席CEO對2026年表達雄心<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS To Perform First U.S. Comeback Event With 1,000 Of Their Top Fans At Spotify's SWIMSIDE
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS將在Spotify的SWIMSIDE活動中進行美國首次回歸演出<br>
+                    
+                    • 為1000名頂級粉絲舉辦私密活動<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify will let you edit your Taste Profile to control your recommendations
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify將允許用戶編輯「口味檔案」(Taste Profile)<br>
+                    
+                    • 以控制個人化播放列表和推薦內容<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify to Test a Feature That Lets You Tweak Homepage Song Recommendations
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify將測試「口味檔案」功能<br>
+                    
+                    • 允許用戶透過文字提示修改音樂口味<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify rolls out 'bit-perfect' playback in Windows app
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify在Windows應用程式中推出「位元完美」(bit-perfect)播放功能<br>
+                    
+                    • 獨佔模式能更好地控制音訊硬體<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify, once slammed for paltry royalties, touts gains for music artists
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify聲稱已成為音樂產業中支付版稅最高的平台<br>
+                    
+                    • 回應了過去對藝人版稅過低的批評<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify pops 15%, its best day since 2019, on strong user growth
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify股價上漲15%<br>
+                    
+                    • 創2019年以來最佳單日表現<br>
+                    
+                    • 歸因於強勁的用戶增長<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    PSA: Spotify investigating outage that's kicking users off their plans [Update: Fixed]
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify發生當機，導致Premium、Family和Basic訂閱用戶被登出<br>
+                    
+                    • 問題已修復<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify tests letting users directly customize their Taste Profile
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify測試讓用戶直接自訂「口味檔案」<br>
+                    
+                    • 以識別聽歌習慣趨勢並調整推薦<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    I've been testing Spotify's generative AI to make my playlists — and it's redefining my music taste
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 測試Spotify的生成式AI製作播放列表<br>
+                    
+                    • AI正在重新定義用戶的音樂品味<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify adds 'Exclusive Mode' audiophile feature for Windows PCs
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify為Windows PC推出「獨佔模式」音訊功能<br>
+                    
+                    • 旨在最大化音質<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Listen up! Spotify releases 100 Greatest Pop Songs of Streaming Era list
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify發布「串流時代百大流行歌曲」榜單<br>
+                    
+                    • Olivia Rodrigo的《drivers license》排名第一<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    AI-Recommended Music? Spotify Is Giving You the Power to Personalize
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify透過AI推薦音樂，賦予用戶個人化控制權<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    We're Tracking Streaming Price Hikes in 2026: Spotify, Prime Video, Crunchyroll and Others
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 追蹤2026年串流服務漲價趨勢<br>
+                    
+                    • Spotify被列入觀察名單<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    The Top 10 most played songs on the 'Love Story' soundtrack, according to Spotify
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify整理FX/Hulu影集《Love Story》中最受歡迎的10首歌曲<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS' 'Arirang' breaks multiple Spotify records
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS新專輯《Arirang》打破多項Spotify紀錄<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify has a new exclusive mode to please audiophile ears with bit-perfect playback
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify推出新獨佔模式，為發燒友提供位元完美播放<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    From Screen To Spotify: The Secret Power Of The Best Original Song
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 分析奧斯卡提名/表演如何提升歌曲在Spotify上的表現<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify: Intense Competition And A Weak Moat Have Me Hitting Pause (Rating Upgrade)
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify面臨Apple, YouTube, Amazon的激烈競爭<br>
+                    
+                    • 競爭優勢薄弱，投資評級受影響<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify: Strong Moat, But The Next Phase Of Growth Looks Harder
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify作為領先的音訊串流服務具有強大優勢<br>
+                    
+                    • 但未來增長可能面臨挑戰<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Why does Spotify think classical music buffs are total morons?
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 批評Spotify AI對古典音樂的描述和推薦不佳<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Gen Zers are canceling Spotify and buying CDs instead—here's why
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Z世代用戶取消Spotify訂閱，轉而購買CD或使用iPod<br>
+                    
+                    • 追求擁有音樂的權利<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Why Spotify (SPOT) dipped more than broader market today
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify股價下跌1.62%，表現遜於大盤<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify Says More Than 1,500 Artists Earned Over $1 Million in Royalties Last Year
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify報告指出，去年有超過1500名藝人從平台獲得超過100萬美元版稅<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    No more ghosting: Spotify may soon let you see if your friends actually played the songs you shared
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify可能推出「已播放收據」和「已儲存收據」功能<br>
+                    
+                    • 讓用戶看到朋友是否聽了分享的歌曲<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify error was playing ads for Premium subscribers, now fixed
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify錯誤導致Premium用戶聽到廣告，帳戶顯示為「免費」方案<br>
+                    
+                    • 問題已修復<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS' 'Arirang' has best Spotify first day of 2026, eclipsing Harry Styles
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS專輯《Arirang》創下Spotify首日最佳成績，超越Harry Styles<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify has a new exclusive mode to please audiophile ears with bit-perfect playback
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify推出新獨佔模式，為發燒友提供位元完美播放<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    ICE Ads Are All Over Your Favorite Streaming Services
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • ICE廣告在串流服務上出現並引發爭議<br>
+                    
+                    • 暗示Spotify可能受影響<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify adds ‘Exclusive Mode’ audiophile feature for Windows PCs - The Verge
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify為Windows PC推出「獨佔模式」音訊功能，提供位元完美播放<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify Co-CEO Gustav Soderstrom On AI, Arist Concerns & Regrets - Billboard
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify聯席CEO討論AI應用、藝人擔憂和公司決策失誤<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    We're Tracking Streaming Price Hikes in 2026: Spotify, Prime Video, Crunchyroll and Others - CNET
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 2026年串流服務可能漲價，包括Spotify<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify rolls out 'bit-perfect' playback in Windows app - Engadget
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify在Windows應用程式推出「位元完美」播放，獨佔音訊硬體<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Spotify error was playing ads for Premium subscribers, now fixed - 9to5Google
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Spotify錯誤導致Premium用戶聽到廣告，現已修復<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Warner Music Group Partners With Netflix For Artist Documentaries - Billboard
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 華納音樂集團與Netflix合作製作藝人紀錄片<br>
+                    
+                    • 與Spotify非直接相關，屬產業新聞<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    The Digital Paradox: How Music Streaming Saved the Industry but Stifled the Artist (Guest Column) - Billboard
+                    <span class="sentiment-tag tag-negative">NEGATIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 音樂串流在拯救產業的同時也抑制了藝人發展<br>
+                    
+                    • Spotify作為「存取時代」的領導者被提及<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Mark Cuban on Why Music Is 'The Worst Industry Ever' - Billboard
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Mark Cuban批評音樂產業，認為藝人難以成功<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Deezer Reaches ‘Sustainable Profitability’ In 2025 After Full Year Earnings Report - Billboard
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Deezer在2025年實現「可持續盈利能力」<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Streaming boosts global music revenues once again in 2025, report shows - Reuters
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 串流服務再次推動2025年全球音樂收入增長<br>
+                    
+                    • 肯定AI在創意中的潛力<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Taylor Swift's 'The Life Of A Showgirl' Helped Drive Music Industry To Record Sales In 2025 - Deadline
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Taylor Swift推動2025年音樂產業創紀錄銷售<br>
+                    
+                    • 串流是主要推動力<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    SiriusXM Celebrates Long-Awaited New BTS Release With Pop-Up Channel (Exclusive) - The Hollywood Reporter
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • SiriusXM為BTS新專輯開設快閃頻道<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Mistral CEO: AI companies should pay a content levy in Europe - Financial Times
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Mistral CEO提議AI公司應在歐洲繳納內容稅<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Netflix, Warner Music strike multi‑year deal for artist documentaries - Reuters
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Netflix與華納音樂集團簽署藝人紀錄片合作<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Warner Music Group Inks First-Look Deal With Netflix for Documentaries - The Hollywood Reporter
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 華納音樂集團與Netflix達成紀錄片首看協議<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Live Nation Trial Week 2 Recap: Michael Rapino and Those ‘Robbing Them Blind’ Slack Messages - Billboard
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Live Nation審判進展<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Share In The Incredible Moment An Indie Dev Discovers His Game Made $250,000 - Kotaku
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 獨立遊戲開發者成功案例<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Netflix Sets Documentary Partnership With Warner Music Group - deadline.com
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Netflix與華納音樂集團建立紀錄片合作夥伴關係<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Whoa, Nellie! Will It Be Linear By A Nose? 03/16/2026 - MediaPost
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 分析Nielsen收視率<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Prime Video & Leonine Strike Deal For 'The Housemaid', 'The Drama' - Deadline
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Prime Video與Leonine簽訂電影內容協議<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Music industry earned a record $11.5 billion in the U.S. last year, helped by vinyl and Taylor Swift - Los Angeles Times
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 美國音樂產業去年收入創紀錄，串流和實體銷售是主要驅動力<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    BTS Arirang review: K-pop idols rekindle their fire - BBC
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS專輯《Arirang》獲得評論好評，在Spotify有高達500萬次預存<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    'Project Hail Mary' Eyes $100M+ Box Office Global Opening, 'Ready or Not 2' $14M - Deadline
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 電影票房預測<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    This 2019 Bloody Horror Hit Is A Top Movie On Hulu Right Now - HuffPost
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • Hulu熱門恐怖片<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    Mature, Ferocious, Uneven: BTS ‘ARIRANG’ Reviews Are In - Forbes
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • BTS專輯《Arirang》的多元評論，肯定其音樂多樣性<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    CNBC Sports MLB valuations: Why the Philadelphia Phillies' value is rising - NBC New York
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • MLB球隊價值分析<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    IFPI Global Report 2026 Takeaways: Vinyl Growth Outpaces Digital, China Surges & More - Billboard
+                    <span class="sentiment-tag tag-positive">POSITIVE</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 2025年全球錄製音樂收入報告，訂閱串流仍是最大收入來源<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    CNBC Sport MLB Valuations: Why the Yankees are MLB's most valuable team - NBC New York
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • MLB球隊價值分析<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    無標題
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 無內容<br>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">
+                    無標題
+                    <span class="sentiment-tag tag-neutral">NEUTRAL</span>
+                </div>
+                
+                <div class="article-points">
+                    
+                    • 無內容<br>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+        <div class="footer">
+            Powered by Spotify Auto-Monitor 系統 | 資料分析：Google Gemini AI | Designed by UI UX Pro Max
+        </div>
+    </div>
+</body>
+</html>
