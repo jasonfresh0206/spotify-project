@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify 每日輿情報告 - 2026 年 03 月 23 日</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --spotify-green: #1DB954;
+            --spotify-neon: #1ed760;
+            --bg-dark: #0a0a0c;
+            --glass-bg: rgba(20, 24, 32, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff;
+            --text-secondary: #a0a6b1;
+            
+            /* 情緒顏色 */
+            --positive: #1ed760;
+            --neutral: #58a6ff;
+            --negative: #ff4b4b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 2.5rem 1rem;
+            position: relative;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* 未來感流光背景 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(29, 185, 84, 0.1) 0%, transparent 40%),
+                        radial-gradient(circle at 80% 20%, rgba(88, 166, 255, 0.05) 0%, transparent 30%);
+            animation: rotateBG 30s linear infinite;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        @keyframes rotateBG {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* 頂部標題區域 */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, rgba(29, 185, 84, 0.15) 0%, rgba(10, 10, 12, 0.8) 100%);
+            border-radius: 24px;
+            border: 1px solid rgba(29, 185, 84, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, var(--spotify-neon) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.8rem;
+            letter-spacing: -1px;
+        }
+
+        .header .date {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .header .date::before, .header .date::after {
+            content: '';
+            height: 1px;
+            width: 40px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* 玻璃擬物化卡片 */
+        .card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            opacity: 0;
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.2s; }
+        .card:nth-child(4) { animation-delay: 0.3s; }
+        .card:nth-child(5) { animation-delay: 0.4s; }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(29, 185, 84, 0.05);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #ffffff;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* 高級情緒分佈進度條 */
+        .sentiment-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .sentiment-bar {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .sentiment-bar .label {
+            min-width: 70px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .sentiment-bar .bar-container {
+            flex: 1;
+            height: 24px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+        .sentiment-bar .bar-fill {
+            height: 100%;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* 進度條流光動畫 */
+        .sentiment-bar .bar-fill::after {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%; width: 50%; height: 100%;
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 200%; }
+        }
+
+        .bar-positive { background: linear-gradient(90deg, #1DB954, #1ed760); box-shadow: 0 0 15px rgba(29, 185, 84, 0.4); }
+        .bar-neutral { background: linear-gradient(90deg, #2f80ed, #56ccf2); box-shadow: 0 0 15px rgba(86, 204, 242, 0.4); }
+        .bar-negative { background: linear-gradient(90deg, #eb3349, #f45c43); box-shadow: 0 0 15px rgba(235, 51, 73, 0.4); }
+
+        /* 重大事件卡片 */
+        .event-item {
+            padding: 1.2rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            border-left: 4px solid transparent;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+        
+        .event-item:hover {
+            transform: translateX(5px);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .event-item.high { border-left-color: var(--negative); }
+        .event-item.medium { border-left-color: #f2c94c; }
+        .event-item.low { border-left-color: var(--positive); }
+
+        .event-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        .event-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .severity-badge {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .severity-high { background: rgba(255, 75, 75, 0.15); color: var(--negative); border: 1px solid rgba(255,75,75,0.3); }
+        .severity-medium { background: rgba(242, 201, 76, 0.15); color: #f2c94c; border: 1px solid rgba(242,201,76,0.3); }
+        .severity-low { background: rgba(29, 185, 84, 0.15); color: var(--positive); border: 1px solid rgba(29,185,84,0.3); }
+
+        /* 熱門關鍵字標籤 */
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .keyword-tag {
+            padding: 8px 18px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #fff;
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+        
+        .keyword-tag:hover {
+            background: rgba(29, 185, 84, 0.15);
+            border-color: rgba(29, 185, 84, 0.5);
+            color: var(--spotify-neon);
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(29, 185, 84, 0.2);
+        }
+
+        /* 每日摘要排版 */
+        .summary-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #d1d5db;
+            white-space: pre-wrap;
+        }
+
+        /* 精緻文章清單 */
+        .article-item {
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            margin-bottom: 0.8rem;
+            background: rgba(0,0,0,0.15);
+            transition: all 0.2s ease;
+        }
+
+        .article-item:hover {
+            background: rgba(255,255,255,0.02);
+            border-color: rgba(255,255,255,0.08);
+            transform: translateX(4px);
+        }
+
+        .article-title {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 0.8rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .article-points {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            padding-left: 1rem;
+            border-left: 2px solid rgba(255,255,255,0.1);
+        }
+
+        .sentiment-tag {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .tag-positive { background: linear-gradient(135deg, rgba(29,185,84,0.2), rgba(29,185,84,0.05)); color: var(--positive); border: 1px solid rgba(29,185,84,0.3); }
+        .tag-negative { background: linear-gradient(135deg, rgba(255,75,75,0.2), rgba(255,75,75,0.05)); color: var(--negative); border: 1px solid rgba(255,75,75,0.3); }
+        .tag-neutral { background: linear-gradient(135deg, rgba(88,166,255,0.2), rgba(88,166,255,0.05)); color: var(--neutral); border: 1px solid rgba(88,166,255,0.3); }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            opacity: 0.6;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎵 Spotify Premium Pulse</h1>
+            <p class="date">2026 年 03 月 23 日</p>
+        </div>
+
+        <!-- 整體情緒分佈 -->
+        <div class="card">
+            <h2>📊 品牌情緒雷達</h2>
+            <div class="sentiment-bars">
+                <div class="sentiment-bar">
+                    <span class="label">😊 正向</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-positive" style="width: 0.0%">
+                            0.0%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">😐 中性</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-neutral" style="width: 0.0%">
+                            0.0%
+                        </div>
+                    </div>
+                </div>
+                <div class="sentiment-bar">
+                    <span class="label">⚠️ 負向</span>
+                    <div class="bar-container">
+                        <div class="bar-fill bar-negative" style="width: 0.0%">
+                            0.0%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 重大事件 -->
+        
+
+        <!-- 熱門關鍵字 -->
+        
+
+        <!-- 每日摘要 -->
+        <div class="card">
+            <h2>📝 AI 深度洞察</h2>
+            <p class="summary-text">今日未搜集到任何 Spotify 相關討論或新聞。</p>
+        </div>
+
+        <!-- 文章分析 -->
+        
+
+        <div class="footer">
+            Powered by Spotify Auto-Monitor 系統 | 資料分析：Google Gemini AI
+        </div>
+    </div>
+</body>
+</html>
