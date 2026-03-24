@@ -74,6 +74,13 @@ class TelegramNotifier:
         lines.append("📝 *今日摘要：*")
         lines.append(f"  {summary}")
         lines.append("")
+        
+        report_url = analysis_result.get("report_url")
+        if report_url:
+            lines.append("🌐 *檢視完整動態網頁報告：*")
+            lines.append(f"  [點擊這裡開啟觀看]({report_url})")
+            lines.append("")
+            
         lines.append("━━━━━━━━━━━━━━━━")
 
         return "\n".join(lines)

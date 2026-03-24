@@ -78,13 +78,20 @@ class LineNotifier:
         lines.append("📝 今日摘要：")
         lines.append(f"  {summary}")
         lines.append("")
+        
+        report_url = analysis_result.get("report_url")
+        if report_url:
+            lines.append("🌐 檢視完整動態網頁報告：")
+            lines.append(f"  {report_url}")
+            lines.append("")
+            
         lines.append("━━━━━━━━━━━━━━━━")
 
         return "\n".join(lines)
 
     def send(self, analysis_result: dict) -> bool:
         """
-        發送分析結果到 LINE
+        發送分析結果到 LINE (使用大眾廣播模式)
 
         Args:
             analysis_result: LLM 分析結果
@@ -92,8 +99,8 @@ class LineNotifier:
         Returns:
             bool: 發送是否成功
         """
-        if not self.channel_access_token or not self.user_id:
-            logger.error("LINE API 設定不完整，無法發送推播")
+        if not self.channel_access_token:
+            logger.error("未設定 LINE_CHANNEL_ACCESS_TOKEN API 金鑰，無法發送廣播")
             return False
 
         try:
@@ -104,35 +111,47 @@ class LineNotifier:
                 "Authorization": f"Bearer {self.channel_access_token}",
             }
 
+            # 準備訊息陣列
+            messages = [
+                {
+                    "type": "text",
+                    "text": message_text,
+                }
+            ]
+
+            # 若分析結果中含有懶人包圖片網址，將其作為首則訊息發送
+            image_url = analysis_result.get("image_url")
+            if image_url:
+                messages.insert(0, {
+                    "type": "image",
+                    "originalContentUrl": image_url,
+                    "previewImageUrl": image_url
+                })
+
+            # 廣播模式 (Broadcast) 不需要指定接收對象(to)，自動發給所有好友
             payload = {
-                "to": self.user_id,
-                "messages": [
-                    {
-                        "type": "text",
-                        "text": message_text,
-                    }
-                ],
+                "messages": messages,
             }
 
             response = requests.post(
-                self.PUSH_API_URL,
+                "https://api.line.me/v2/bot/message/broadcast",
                 headers=headers,
                 json=payload,
                 timeout=10,
             )
 
             if response.status_code == 200:
-                logger.info("LINE 推播發送成功！")
+                logger.info("✅ LINE 好友廣播推播發送成功！")
                 return True
             else:
                 logger.error(
-                    f"LINE 推播發送失敗，狀態碼：{response.status_code}，"
+                    f"LINE 廣播推播發送失敗，狀態碼：{response.status_code}，"
                     f"回應：{response.text}"
                 )
                 return False
 
         except Exception as e:
-            logger.error(f"LINE 推播發送過程發生錯誤：{e}")
+            logger.error(f"LINE 廣播推播發送過程發生錯誤：{e}")
             return False
 
     def send_test(self) -> bool:

@@ -1,3 +1,4 @@
+
 """
 全域設定模組
 從 .env 檔案讀取所有環境變數，並集中管理系統設定。
@@ -22,6 +23,7 @@ APIFY_ACTOR_ID = os.getenv("APIFY_ACTOR_ID", "apify/google-search-scraper")
 
 # ====== LINE Messaging API 設定 ======
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")
+LINE_CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "")
 LINE_USER_ID = os.getenv("LINE_USER_ID", "")
 
 # ====== Telegram Bot 設定 ======

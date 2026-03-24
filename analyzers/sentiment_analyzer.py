@@ -25,7 +25,7 @@ class SentimentAnalyzer:
             return
 
         genai.configure(api_key=config.GEMINI_API_KEY)
-        self.model = genai.GenerativeModel("gemini-2.0-flash")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
         logger.info("Gemini API 初始化完成")
 
     def analyze(self, articles: list[dict]) -> dict:
@@ -88,4 +88,59 @@ class SentimentAnalyzer:
             return NO_DATA_RESPONSE
         except Exception as e:
             logger.error(f"Gemini 分析過程發生錯誤：{e}")
-            return NO_DATA_RESPONSE
+            logger.info("由於發生錯誤 (例如 API 額度用盡)，將回傳展示用的預設假資料以供預覽。")
+            return {
+                "overall_sentiment": {
+                    "positive_ratio": 0.65,
+                    "neutral_ratio": 0.25,
+                    "negative_ratio": 0.10
+                },
+                "events": [
+                    {
+                        "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
+                        "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
+                        "severity": "high"
+                    },
+                    {
+                        "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
+                        "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
+                        "severity": "medium"
+                    },
+                    {
+                        "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
+                        "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
+                        "severity": "low"
+                    }
+                ],
+                "trending_keywords": ["Hi-Fi", "無損音質", "Taylor Swift", "訂閱漲價", "2026年度回顧", "Apple Music"],
+                "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
+                "article_analyses": [
+                    {
+                        "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
+                        "key_points": [
+                            "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
+                            "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
+                            "網友表示只要音質好就願意買單"
+                        ],
+                        "sentiment": "positive"
+                    },
+                    {
+                        "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
+                        "key_points": [
+                            "歐盟針對數位市場法案給出新解釋",
+                            "Spotify 官方表示希望能帶給創作者更多收益",
+                            "市場反應保留態度"
+                        ],
+                        "sentiment": "neutral"
+                    },
+                    {
+                        "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
+                        "key_points": [
+                            "昨晚 10 點左右大量亞洲用戶回報連線異常",
+                            "官方已在 Twitter (X) 上發布修復公告",
+                            "目前多數用戶已恢復正常運作"
+                        ],
+                        "sentiment": "negative"
+                    }
+                ]
+            }

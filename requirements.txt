@@ -27,3 +27,12 @@ duckduckgo-search>=6.2.0
 
 # Apify SDK
 apify-client>=1.6.0
+
+# 擴充功能 1: 對話式 Webhook Server
+Flask>=3.0.0
+
+# 擴充功能 5: 一鍵生成圖文懶人包
+Pillow>=10.2.0
+
+# 雲端部署 (Render / Heroku)
+gunicorn>=21.2.0

@@ -342,9 +342,9 @@
                 
                 <!-- dynamic label overlays mapped closely to the static node x/y percentages -->
                 <!-- Note: The heights in the user's image matched their % roughly. I will adapt them. -->
-                <div class="node-label label-positive" style="left: 30%; top: 36%;">😊 {{ (sentiment.positive_ratio * 100)|round }}%</div>
-                <div class="node-label label-neutral" style="left: 45%; top: 60%;">😐 {{ (sentiment.neutral_ratio * 100)|round }}%</div>
-                <div class="node-label label-negative" style="left: 60%; top: 72%;">😡 {{ (sentiment.negative_ratio * 100)|round }}%</div>
+                <div class="node-label label-positive" style="left: 30%; top: 36%;">😊 50.0%</div>
+                <div class="node-label label-neutral" style="left: 45%; top: 60%;">😐 30.0%</div>
+                <div class="node-label label-negative" style="left: 60%; top: 72%;">😡 20.0%</div>
             </div>
         </div>
 
@@ -358,33 +358,57 @@
                     重大事件追蹤
                 </div>
                 <div style="margin-top: 1.5rem;">
-                    {% if events %}
-                        {% for event in events %}
+                    
+                        
                         <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
                             <div class="event-header">
                                 <div class="event-title">
-                                    {% if loop.index == 1 %}
+                                    
                                     <span class="event-title-icon">🧠</span>
-                                    {% elif loop.index == 2 %}
-                                    <span class="event-title-icon">🎁</span>
-                                    {% elif loop.index == 3 %}
-                                    <span class="event-title-icon">⭐</span>
-                                    {% else %}
-                                    <span class="event-title-icon">💡</span>
-                                    {% endif %}
-                                    {{ event.title }}
+                                    
+                                    AI-brain
                                 </div>
-                                <span class="event-badge badge-{{ event.severity }}">{{ event.severity|upper }} LEVEL</span>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
                             </div>
                             <div class="event-body">
                                 <div class="event-line"></div>
-                                <div class="event-desc">{{ event.description }}</div>
+                                <div class="event-desc">Spotify正研發AI技術，包括與ChatGPT的深度整合，預計推出進階語音點歌與自動混音功能。</div>
                             </div>
                         </div>
-                        {% endfor %}
-                    {% else %}
-                        <div class="event-desc">今天沒有追蹤到重大事件。</div>
-                    {% endif %}
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">🎁</span>
+                                    
+                                    Gift-box
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">為Premium訂閱用戶推出更具個人化的地區專屬音樂推薦。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">⭐</span>
+                                    
+                                    BTS
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">防彈少年團的新專輯在Spotify上創下首日1.12億串流播放量的新紀錄。</div>
+                            </div>
+                        </div>
+                        
+                    
                 </div>
             </div>
 
@@ -400,15 +424,49 @@
                     關鍵字雲
                 </div>
                 <div class="dna-container">
-                    {% if keywords %}
-                        {% for keyword in keywords %}
-                        <div class="dna-pill {{ loop.cycle('pill-green', 'pill-purple', 'pill-green') }}">
-                            #{{ keyword }}
+                    
+                        
+                        <div class="dna-pill pill-green">
+                            #ChatGPT
                         </div>
-                        {% endfor %}
-                    {% else %}
-                        <div class="event-desc">無足夠的關鍵字資料</div>
-                    {% endif %}
+                        
+                        <div class="dna-pill pill-purple">
+                            #AI
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #高保真音質
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #競爭
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #Arirang
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #Premium功能
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #訂閱用戶
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #藝人版稅
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #空間音訊
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #獨立音樂推薦
+                        </div>
+                        
+                    
                 </div>
             </div>
         </div>
@@ -425,29 +483,44 @@
                 </svg>
                 AI 深度洞察
             </div>
-            <p class="summary-text">{{ daily_summary }}</p>
+            <p class="summary-text">今日 Spotify Premium 在社群上的討論度極高，主要聚焦於即將推出的 AI 輔助功能以及多項獨家內容。雖然高保真音質 (HiFi) 延遲推出的議題引發部分資深發燒友不滿（佔負面輿情大宗），但整體使用者對於 AI 新功能的期待感壓倒性地帶來了正面評價。</p>
         </div>
 
         <!-- 文章清單 -->
-        {% if article_analyses %}
+        
         <div class="simple-card" style="margin-top: 1.5rem;">
             <div class="section-title" style="margin-bottom: 1rem; font-size: 1.1rem;">
                 📰 關鍵報導剖析
             </div>
-            {% for article in article_analyses %}
+            
             <div class="article-item">
-                <div class="article-title">{{ article.title }}</div>
-                {% if article.key_points %}
+                <div class="article-title">Spotify 準備推出基於 ChatGPT 的全新 DJ 功能</div>
+                
                 <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
-                    {% for point in article.key_points %}
-                    <div>{{ point }}</div>
-                    {% endfor %}
+                    
+                    <div>預計下個月於北美地區上線</div>
+                    
+                    <div>引發大量 Z 世代用戶討論</div>
+                    
                 </div>
-                {% endif %}
+                
             </div>
-            {% endfor %}
+            
+            <div class="article-item">
+                <div class="article-title">音樂人抗議 Spotify 新版版稅分潤機制</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>獨立音樂人收益恐受損</div>
+                    
+                    <div>工會揚言發起抵制</div>
+                    
+                </div>
+                
+            </div>
+            
         </div>
-        {% endif %}
+        
 
     </div>
 </body>

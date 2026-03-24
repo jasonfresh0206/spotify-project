@@ -24,6 +24,7 @@ from collectors.duckduckgo_collector import DuckDuckGoCollector
 from collectors.apify_collector import ApifyCollector
 from analyzers.sentiment_analyzer import SentimentAnalyzer
 from reporters.report_generator import ReportGenerator
+from reporters.image_generator import ImageGenerator
 from notifiers.line_notifier import LineNotifier
 from notifiers.telegram_notifier import TelegramNotifier
 from scheduler.daily_scheduler import DailyScheduler
@@ -110,11 +111,50 @@ def run_pipeline():
     analysis_result = analyzer.analyze(all_articles)
 
     # ====== 步驟三：生成報告 ======
-    logger.info("【步驟 3/4】生成 HTML 報告...")
+    logger.info("【步驟 3/4】生成 HTML 報告與懶人包圖檔...")
     reporter = ReportGenerator()
     report_path = reporter.generate(analysis_result)
+    
+    img_gen = ImageGenerator()
+    img_path = img_gen.generate(analysis_result)
+    
     if report_path:
         logger.info(f"報告已生成：{report_path}")
+        
+        # ====== 額外步驟：同步上傳以支援 GitHub Pages ======
+        import subprocess
+        logger.info("正在上傳報告至 GitHub 以支援線上網頁與圖檔檢視...")
+        try:
+            # 確保檔案路徑安全，然後自動 commit & push
+            subprocess.run(["git", "add", "data/reports/"], check=False)
+            subprocess.run(["git", "commit", "-m", f"Auto deploy report {datetime.now().strftime('%Y-%m-%d')}"], check=False)
+            subprocess.run(["git", "push"], check=False)
+            logger.info("✅ 報告圖文已推送到 GitHub")
+            
+            # 產生 GitHub Pages 連結
+            filename = os.path.basename(report_path)
+            report_url = f"https://jasonfresh0206.github.io/spotify-project/data/reports/{filename}"
+            analysis_result["report_url"] = report_url
+            
+            # 產生圖片的 GitHub Pages 連結供 LINE 顯示
+            if img_path:
+                img_filename = os.path.basename(img_path)
+                img_url = f"https://jasonfresh0206.github.io/spotify-project/data/reports/{img_filename}"
+                analysis_result["image_url"] = img_url
+                
+        except Exception as e:
+            logger.warning(f"上傳至 GitHub 失敗：{e}")
+
+
+    # ====== 額外步驟：儲存最新 JSON 供 Webhook 對話機器人讀取 ======
+    import json
+    latest_file = os.path.join(os.path.dirname(__file__), "data", "reports", "latest_analysis.json")
+    try:
+        with open(latest_file, 'w', encoding='utf-8') as f:
+            json.dump(analysis_result, f, ensure_ascii=False, indent=2)
+        logger.info("已儲存最新分析報告 (latest_analysis.json) 供 Webhook 機器人使用")
+    except Exception as e:
+        logger.warning(f"儲存 JSON 失敗: {e}")
 
     # ====== 步驟四：推播通知 ======
     logger.info("【步驟 4/4】發送推播通知...")
