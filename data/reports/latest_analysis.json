@@ -1,147 +1,198 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.8,
-    "negative_ratio": 0.1,
+    "positive_ratio": 0.7,
+    "negative_ratio": 0.2,
     "neutral_ratio": 0.1
   },
   "events": [
     {
-      "title": "SongDNA 功能上線",
-      "description": "Spotify 推出「SongDNA」新功能，讓用戶能深入了解歌曲的來源、樣本、翻唱、製作人與相關藝術家，大幅提升音樂探索體驗，廣受好評。",
-      "severity": "high",
+      "title": "新功能 SongDNA 上線",
+      "description": "Spotify 推出了名為 SongDNA 的新功能，讓 Premium 用戶能夠探索歌曲的起源、創作者、樣本、翻唱，並發掘歌曲之間的連結，此功能在多篇報導中受到好評，被視為一種深入音樂的「兔子洞」體驗。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "BTS 新專輯《Arirang》發布與宣傳活動",
-      "description": "韓國天團 BTS 推出新專輯《Arirang》，在 Spotify 上打破多項串流紀錄，並與 Spotify 合作在紐約舉辦「SWIMSIDE」獨家粉絲活動，引發全球粉絲熱烈迴響。",
-      "severity": "high",
+      "title": "打擊 AI 深偽與詐欺的藝術家保護工具",
+      "description": "為應對 AI 生成內容的氾濫及深偽問題，Spotify 推出新功能，允許藝術家在音樂發佈前進行審核和批准，以保護其個人資料和收益，防止歌曲被錯誤歸屬或冒用。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
       "title": "播客部門裁員",
-      "description": "Spotify 在播客部門進行裁員，影響了旗下 The Ringer 和 Spotify Studios 的約 15 名員工，佔播客團隊約 3%，引發部分負面聲量。",
-      "severity": "medium",
+      "description": "Spotify 的播客部門（包括 The Ringer 和 Spotify Studios）進行了裁員，約影響該部門 3% 的員工，共約 15 人。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Premium 訂閱服務異常",
-      "description": "部分 Premium 訂閱用戶遭遇服務中斷、播放廣告或帳戶被降級的問題，導致股價下跌。問題隨後已修復，但初期引發用戶不滿。",
-      "severity": "medium",
+      "title": "Premium 訂閱戶出現廣告問題及股價下跌",
+      "description": "Premium Basic 訂閱戶近期多次反應在播放音樂時聽到廣告，此 Bug 造成用戶不滿，並導致 Spotify 股價下跌超過 6%，同時有分析師調降其目標價。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "AI 應用與藝術家內容保護措施",
-      "description": "Spotify 持續探索 AI 應用，包括生成式 AI 播放列表（用戶反應褒貶不一），並推出「藝術家檔案保護」功能，協助藝術家審核發行內容，防範 AI 生成的假冒或錯誤歸因歌曲。",
+      "title": "與 Anna’s Archive 的 3 億美元訴訟",
+      "description": "Spotify 對 Anna's Archive 提出 3 億美元的訴訟，指控其侵權行為，但 Anna's Archive 方面據報導無視所有法庭訴訟程序，並暫時下架了 Spotify 相關檔案。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "BTS 新專輯「Arirang」創下串流記錄及粉絲活動",
+      "description": "韓國流行音樂團體 BTS 的新專輯「Arirang」在 Spotify 上創下首日串流記錄，超越 Harry Styles。Spotify 也為 BTS 在美國舉辦了首次回歸活動，邀請了 1,000 名忠實粉絲參與 SWIMSIDE 派對、問答與表演，並舉辦了 Spotify 尋寶遊戲。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "全新「Exclusive Mode」推出",
+      "description": "Spotify 推出新的「Exclusive Mode」，讓桌面用戶能繞過系統音訊處理，實現位元完美播放，為發燒友提供更清晰的聆聽體驗，尤其適用於搭配外部 DAC 或高階音響設備。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "「獨家模式」(Exclusive Mode) 功能上線",
-      "description": "Spotify 在 Windows 桌面應用程式推出「獨家模式」，讓高階音響設備用戶能享受位元完美 (bit-perfect) 的高音質播放，提升聽覺體驗，受到發燒友歡迎。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Wear OS 應用程式改版",
-      "description": "Spotify 的 Wear OS 應用程式進行了視覺和操作上的改版，提供更簡潔的介面和更快速的播放控制，提升了用戶體驗。",
+      "title": " generative AI 播放列表測試",
+      "description": "Spotify 正在測試生成式 AI 播放列表功能，允許用戶透過 AI 創建個性化播放列表，但有用戶表達了對此功能可能導致音樂體驗「浪漫」流失的擔憂。",
       "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "2026 年訂閱價格上漲預期",
-      "description": "有報導指出，Spotify 可能在 2026 年調整訂閱價格，這是串流服務市場的普遍趨勢，可能引發部分用戶不滿。",
-      "severity": "low",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
     "SongDNA",
     "BTS",
     "AI",
+    "新功能",
     "裁員",
-    "Premium 訂閱",
-    "音樂探索",
-    "獨家模式",
+    "Premium Bug",
     "藝術家保護",
-    "Arirang",
-    "串流紀錄"
+    "串流記錄",
+    "訴訟"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現兩極分化。平台積極推出新功能，如「SongDNA」和「獨家模式」以優化音樂探索與音質體驗，加上韓國天團 BTS 新專輯《Arirang》屢創串流紀錄，帶來大量正面聲量。然而，播客部門的裁員和 Premium 訂閱服務的短期異常，則引發了負面討論與用戶不滿。",
+  "daily_summary": "今日 Spotify 輿情呈現正面與負面事件並存的局面。多項新功能如 SongDNA、為藝術家提供的 AI 深偽保護工具以及為發燒友設計的「Exclusive Mode」廣受好評。同時，與 BTS 相關的專輯串流記錄和獨家粉絲活動也為平台帶來大量正面關注。然而，播客部門裁員、Premium 訂閱戶遭遇廣告 Bug 導致股價下跌，以及針對 Anna's Archive 的高額訴訟，則為 Spotify 帶來了顯著的負面影響。",
   "article_analyses": [
     {
-      "title": "BTS 強勢刷新 Spotify 紀錄！韓流天團如何用專輯《Arirang》重新定義串流音樂？",
+      "title": "走進 Spotify 全新 Listening Lounge：沉浸聲音的倫敦祕密空間",
       "sentiment": "positive",
       "key_points": [
-        "BTS 專輯《Arirang》在 Spotify 刷新串流紀錄",
-        "重新定義串流音樂"
+        "Spotify 在倫敦開設全新 Listening Lounge",
+        "提供沉浸式聲音體驗"
       ]
     },
     {
-      "title": "Spotify 讓您可以輕鬆找到您喜愛的歌曲背後的樣本",
-      "sentiment": "positive",
+      "title": "Spotify 正在向 Anna’s Archive 索取 3 億美元，但該公司無視所有法庭訴訟程序",
+      "sentiment": "negative",
       "key_points": [
-        "新功能可找到歌曲樣本"
+        "Spotify 控告 Anna’s Archive 索賠 3 億美元",
+        "Anna’s Archive 無視法庭訴訟程序"
       ]
     },
     {
       "title": "Spotify's new SongDNA feature maps how your favorite songs are connected",
       "sentiment": "positive",
       "key_points": [
-        "SongDNA 功能上線",
-        "探索歌曲樣本、翻唱及製作人"
+        "Spotify 推出新功能 SongDNA",
+        "探索歌曲的樣本、翻唱及創作者連結"
+      ]
+    },
+    {
+      "title": "Spotify announces SongDNA in beta for Premium users to explore song origins and artist connections",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出 SongDNA 的 Beta 版給 Premium 用戶",
+        "探索歌曲來源、協作者和藝術家連結"
+      ]
+    },
+    {
+      "title": "Spotify's SongDNA can tell you all about the track you're listening to",
+      "sentiment": "positive",
+      "key_points": [
+        "SongDNA 功能可顯示歌曲背後的創作者及製作過程",
+        "用戶可在「現正播放」介面捲動查看"
       ]
     },
     {
       "title": "Why Spotify AI more than music will be the secret to keeping subscribers",
       "sentiment": "positive",
       "key_points": [
-        "AI 為留住訂閱戶的關鍵策略",
-        "Spotify-ChatGPT 合作"
-      ]
-    },
-    {
-      "title": "Spotify's new SongDNA feature lets you fall down a music discovery rabbit hole",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 提升音樂探索體驗",
-        "發現合作者、樣本、翻唱"
-      ]
-    },
-    {
-      "title": "Spotify's New SongDNA Feature Tells You How a Song Was Made",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 揭示歌曲製作過程"
-      ]
-    },
-    {
-      "title": "Spotify Announces BTS SWIMSIDE Event In New York City On March 23",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 宣布 BTS SWIMSIDE 紐約活動",
-        "慶祝 ARIRANG 專輯"
-      ]
-    },
-    {
-      "title": "Spotify's new feature will send you down the music rabbit hole",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 帶來深入的音樂探索體驗"
+        "Spotify 與 ChatGPT 的合作",
+        "AI 將成為留住訂閱戶的關鍵策略"
       ]
     },
     {
       "title": "Spotify's New 'SongDNA' Is Actually a Great Way to Learn More About Your Music",
       "sentiment": "positive",
       "key_points": [
-        "SongDNA 分析歌曲製作人員、翻唱與插曲"
+        "新功能 SongDNA 廣受好評",
+        "提供更多關於音樂的學習機會"
+      ]
+    },
+    {
+      "title": "Spotify lawsuit tries to kick Anna's Archive off the web, without much success",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 試圖透過訴訟將 Anna's Archive 踢下網路",
+        "Anna's Archive 暫時下架了 Spotify 相關檔案"
+      ]
+    },
+    {
+      "title": "Spotify's new feature will send you down the music rabbit hole",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 新功能 SongDNA 類似維基百科的「兔子洞」體驗",
+        "讓聽眾深入探索相關音樂資訊"
+      ]
+    },
+    {
+      "title": "Amid rise of AI deepfakes, Spotify to let artists vet releases before they appear on their profiles",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出新功能讓藝術家審核發佈",
+        "保護藝術家免受 AI 深偽和錯誤歸屬的影響"
+      ]
+    },
+    {
+      "title": "Spotify makes it easier to find the samples behind your favorite songs",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 讓用戶更容易找到歌曲中的樣本",
+        "提供更多歌曲背景資訊"
+      ]
+    },
+    {
+      "title": "Spotify says AI slop is flooding your music feed, adds artist control tool",
+      "sentiment": "positive",
+      "key_points": [
+        "AI 生成的垃圾內容正在充斥音樂串流",
+        "Spotify 新增藝術家控制工具，允許審批歌曲發佈"
+      ]
+    },
+    {
+      "title": "BTS To Perform First U.S. Comeback Event With 1,000 Of Their Top Fans At Spotify's SWIMSIDE",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 將在 Spotify 的 SWIMSIDE 舉行首次美國回歸活動",
+        "邀請 1,000 名頂級粉絲參與親密活動"
       ]
     },
     {
       "title": "I've been testing Spotify's generative AI to make my playlists — and it's redefining my music taste",
       "sentiment": "neutral",
       "key_points": [
-        "測試生成式 AI 播放列表",
-        "對音樂品味重塑感到擔憂"
+        "用戶測試 Spotify 的生成式 AI 播放列表功能",
+        "對其重新定義音樂品味感到擔憂，可能失去播放列表的「浪漫」"
+      ]
+    },
+    {
+      "title": "Spotify has a new Exclusive Mode to please audiophile ears with bit-perfect playback",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出新的「Exclusive Mode」",
+        "為發燒友提供位元完美播放，繞過系統音訊處理"
+      ]
+    },
+    {
+      "title": "No more ghosting: Spotify may soon let you see if your friends actually played the songs you shared",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 可能推出「已播放收據」和「已儲存收據」功能",
+        "讓用戶查看朋友是否與分享的音樂互動"
       ]
     },
     {
@@ -149,281 +200,154 @@
       "sentiment": "negative",
       "key_points": [
         "Spotify 播客部門裁員 15%",
-        "The Ringer 員工受影響"
-      ]
-    },
-    {
-      "title": "Spotify has a new Exclusive Mode to please audiophile ears with bit-perfect playback",
-      "sentiment": "positive",
-      "key_points": [
-        "推出「獨家模式」提供位元完美播放",
-        "提升發燒友音質體驗"
-      ]
-    },
-    {
-      "title": "Spotify is testing a feature to block AI-generated songs",
-      "sentiment": "positive",
-      "key_points": [
-        "測試「藝術家檔案保護」功能",
-        "阻擋 AI 生成歌曲上架"
-      ]
-    },
-    {
-      "title": "BTS To Perform First U.S. Comeback Event With 1,000 Of Their Top Fans At Spotify's SWIMSIDE",
-      "sentiment": "positive",
-      "key_points": [
-        "BTS 在 Spotify SWIMSIDE 舉辦首次美國回歸活動"
-      ]
-    },
-    {
-      "title": "Spotify's new SongDNA feature is rolling out now to subscribers",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 功能正式向訂閱用戶推出",
-        "整合 WhoSampled 資料庫"
-      ]
-    },
-    {
-      "title": "Spotify rolls out 'bit-perfect' playback in Windows app",
-      "sentiment": "positive",
-      "key_points": [
-        "Windows 版應用程式推出「位元完美」播放",
-        "提升音質"
+        "影響 The Ringer 和 Spotify Studios 的職位"
       ]
     },
     {
       "title": "Spotify Layoffs in Podcast Group Cut 3% of Staff, at The Ringer and Spotify Studios",
       "sentiment": "negative",
       "key_points": [
-        "播客部門裁員 3%",
-        "The Ringer 和 Spotify Studios 員工受影響"
+        "Spotify 播客部門裁員 3%，約 15 名員工",
+        "裁員影響 The Ringer 和 Spotify Studios"
       ]
     },
     {
-      "title": "BTS Play First U.S. Concert in Four Years at Spotify Event in New York",
+      "title": "BTS' 'Arirang' Has Best Spotify First Day of 2026, Eclipsing Harry Styles",
       "sentiment": "positive",
       "key_points": [
-        "BTS 在紐約 Spotify 活動上舉行四年來首次美國演唱會"
-      ]
-    },
-    {
-      "title": "Spotify adds 'Exclusive Mode' audiophile feature for Windows PCs",
-      "sentiment": "positive",
-      "key_points": [
-        "Windows PC 推出「獨家模式」音質功能"
-      ]
-    },
-    {
-      "title": "Spotify's Wear OS overhaul brings cleaner visuals and quicker controls to your wrist",
-      "sentiment": "positive",
-      "key_points": [
-        "Wear OS 應用程式改版",
-        "提供更簡潔介面和快速控制"
-      ]
-    },
-    {
-      "title": "Spotify SongDNA Lets You See How Tracks Are Connected",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 推出 Beta 版",
-        "呈現歌曲連結的互動式視覺地圖"
-      ]
-    },
-    {
-      "title": "PSA: Spotify investigating outage that's kicking users off their plans [Update: Fixed]",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 服務中斷導致用戶帳戶異常",
-        "正在調查並修復中"
-      ]
-    },
-    {
-      "title": "All 14 tracks of BTS' Arirang land on Spotify's daily top songs global chart",
-      "sentiment": "positive",
-      "key_points": [
-        "BTS 專輯《Arirang》所有歌曲登上 Spotify 全球熱門排行榜"
-      ]
-    },
-    {
-      "title": "Spotify cracks down on fake releases with 'Artist Profile Protection' feature",
-      "sentiment": "positive",
-      "key_points": [
-        "推出「藝術家檔案保護」功能",
-        "打擊虛假發行"
-      ]
-    },
-    {
-      "title": "Spotify's SongDNA can tell you all about the track you're listening to",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 功能提供歌曲幕後資訊及創作過程"
-      ]
-    },
-    {
-      "title": "We're Tracking Streaming Price Hikes in 2026: Spotify, Prime Video, Crunchyroll and Others",
-      "sentiment": "negative",
-      "key_points": [
-        "預計 2026 年串流服務價格可能上漲",
-        "Spotify 在列"
+        "BTS 新專輯「Arirang」創下 Spotify 2026 年最佳首日串流記錄",
+        "全球串流達 1.1 億次，超越 Harry Styles"
       ]
     },
     {
       "title": "BTS fans, Spotify has a quiz for you",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 為 BTS 粉絲推出「Arirang」測驗"
+        "Spotify 推出 BTS 知識測驗",
+        "慶祝「Arirang」發行日"
+      ]
+    },
+    {
+      "title": "'Hannah Montana' Spotify Streams Surge With 20th Anniversary Special",
+      "sentiment": "positive",
+      "key_points": [
+        "「孟漢娜」20 週年紀念特輯帶動 Spotify 串流激增",
+        "經典歌曲串流次數飆升"
+      ]
+    },
+    {
+      "title": "Inside the BTS x Spotify Party that Brought Hundreds of the Band's Top Fans Together in New York",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 與 Spotify 在紐約舉辦粉絲派對",
+        "數百名頂級粉絲參加 Q&A 和表演"
+      ]
+    },
+    {
+      "title": "BTS Reunite in U.S. for First Time in 4 Years at Intimate Event with 1,000 Top Spotify Listeners",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 四年來首次在美國重聚",
+        "與 1,000 名頂級 Spotify 聽眾舉行親密活動"
       ]
     },
     {
       "title": "BTS' new album breaks Spotify, Apple Music, Amazon streaming records",
       "sentiment": "positive",
       "key_points": [
-        "BTS 新專輯《ARIRANG》打破 Spotify 等平台串流紀錄"
-      ]
-    },
-    {
-      "title": "The Top 10 most played songs on the 'Love Story' soundtrack, according to Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify 統計「Love Story」原聲帶前十名熱播歌曲"
-      ]
-    },
-    {
-      "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
-      "sentiment": "positive",
-      "key_points": [
-        "測試新工具防止 AI 生成內容錯誤歸因真實藝術家"
-      ]
-    },
-    {
-      "title": "Suki Waterhouse Goes Chic in Cropped Fur Coat for BTS X Spotify Interview",
-      "sentiment": "positive",
-      "key_points": [
-        "Suki Waterhouse 出席 BTS X Spotify 活動"
-      ]
-    },
-    {
-      "title": "Spotify (SPOT) Stock Drops 6% as Premium Bug and Analyst Downgrade Spark Sell-Off",
-      "sentiment": "negative",
-      "key_points": [
-        "因 Premium 訂閱錯誤和分析師降級，Spotify 股價下跌 6%"
-      ]
-    },
-    {
-      "title": "Spotify Launches 'Artist Profile Protection' to Guard Against Incorrect Profile Uploads",
-      "sentiment": "positive",
-      "key_points": [
-        "推出「藝術家檔案保護」",
-        "防範內容不匹配問題及生成式 AI 影響"
-      ]
-    },
-    {
-      "title": "Amid rise of AI deepfakes, Spotify to let artists vet releases before they appear on their profiles",
-      "sentiment": "positive",
-      "key_points": [
-        "允許藝術家審核發行內容",
-        "防範 AI 換臉和錯誤歸因"
-      ]
-    },
-    {
-      "title": "Spotify rolls out a smart feature to bring a 'new dimension' to music discovery",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 帶來「音樂探索新維度」"
-      ]
-    },
-    {
-      "title": "Spotify makes it easier to find the samples behind your favorite songs",
-      "sentiment": "positive",
-      "key_points": [
-        "新工具讓付費用戶更容易找到歌曲樣本"
-      ]
-    },
-    {
-      "title": "Spotify launches SongDNA in beta for Premium subscribers, tracing how songs connect through shared producers, samples and covers",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA Beta 版上線",
-        "追溯歌曲透過製作人、樣本和翻唱的連結"
-      ]
-    },
-    {
-      "title": "Spotify's SongDNA can tell you all about the track you're listening to",
-      "sentiment": "positive",
-      "key_points": [
-        "SongDNA 顯示歌曲幕後人員及創作細節"
+        "BTS 新專輯「ARIRANG」打破 Spotify、Apple Music 和 Amazon 的串流記錄",
+        "K-pop 巨星的回歸備受期待"
       ]
     },
     {
       "title": "The Ringer Hit by Layoffs as Spotify Cuts Some Podcast Staff",
       "sentiment": "negative",
       "key_points": [
-        "The Ringer 遭遇裁員",
-        "Spotify 播客部門解雇部分員工"
+        "Spotify 播客部門裁員，The Ringer 受影響",
+        "約 15 名播客部門員工被裁"
       ]
     },
     {
       "title": "Hearing ads on Spotify Premium today? It's not just you",
       "sentiment": "negative",
       "key_points": [
-        "Premium Basic 用戶聽到廣告",
-        "服務出現異常"
+        "Spotify Premium Basic 用戶反映聽到廣告",
+        "這是近期第三次發生類似問題"
+      ]
+    },
+    {
+      "title": "The Top 10 most played songs on the 'Love Story' soundtrack, according to Spotify",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 公佈「愛的故事」電影配樂中最受歡迎的 10 首歌曲",
+        "根據串流數據統計"
+      ]
+    },
+    {
+      "title": "Streaming deals anyone? The best Big Spring Sale deals on Paramount+, Spotify, Starz, and more.",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 提供春季大促銷優惠",
+        "可能包含免費三個月的訂閱方案"
+      ]
+    },
+    {
+      "title": "Spotify starts rolling out SongDNA to lead you down musical rabbit holes.",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 開始推出 SongDNA 功能",
+        "讓 Premium 用戶探索歌曲的幕後創作者和相關資訊"
+      ]
+    },
+    {
+      "title": "Spotify (SPOT) Stock Drops 6% as Premium Bug and Analyst Downgrade Spark Sell-Off",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 股價下跌 6.62%",
+        "原因為 Premium Bug 導致用戶聽到廣告及分析師降級評等"
+      ]
+    },
+    {
+      "title": "Spotify Data Reveals the List of Most Distracting Driving Songs. Here's Why",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 數據顯示最容易分散駕駛注意力的歌曲列表",
+        "iSelect 進行分析並解釋原因"
+      ]
+    },
+    {
+      "title": "Spotify is giving artists a layer of protection against misattributed songs",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出「藝術家檔案保護」功能",
+        "讓藝術家確保其檔案上的音樂確實屬於他們"
       ]
     },
     {
       "title": "Spotify Co-CEO Gustav Soderstrom On AI, Arist Concerns & Regrets - Billboard",
       "sentiment": "neutral",
       "key_points": [
-        "共同執行長談論 AI、藝術家擔憂與新產品開發"
-      ]
-    },
-    {
-      "title": "Spotify error was playing ads for Premium subscribers, now fixed - 9to5Google",
-      "sentiment": "neutral",
-      "key_points": [
-        "Premium 廣告錯誤已修復",
-        "建議用戶登出再登入"
-      ]
-    },
-    {
-      "title": "Streaming boosts global music revenues once again in 2025, report shows - Reuters",
-      "sentiment": "positive",
-      "key_points": [
-        "串流服務推動 2025 年全球音樂收入增長"
-      ]
-    },
-    {
-      "title": "IFPI Global Report 2026: Recorded Music Revenues Surpass $30 Billion Mark For First Time - Billboard",
-      "sentiment": "positive",
-      "key_points": [
-        "全球錄製音樂收入首次突破 300 億美元",
-        "AI 在音樂產業的應用"
+        "Spotify 聯合首席執行官 Gustav Soderstrom 討論 AI 策略",
+        "提及對藝術家擔憂及產品開發的看法"
       ]
     },
     {
       "title": "IFPI Global Report 2026 Takeaways: Vinyl Growth Outpaces Digital, China Surges & More - Billboard",
-      "sentiment": "positive",
-      "key_points": [
-        "訂閱串流是 2025 年主要收入來源",
-        "付費訂閱用戶數顯著增長"
-      ]
-    },
-    {
-      "title": "BTS Arirang review: K-pop idols rekindle their fire - BBC",
-      "sentiment": "positive",
-      "key_points": [
-        "BTS 專輯《Arirang》獲得正面評價",
-        "在 Spotify 上預存量創紀錄"
-      ]
-    },
-    {
-      "title": "Mature, Ferocious, Uneven: BTS ‘ARIRANG’ Reviews Are In - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "BTS 專輯《ARIRANG》評論發布"
+        "IFPI 全球報告顯示，訂閱串流仍是 2025 年最大的收入來源",
+        "全球付費訂閱用戶增加至 8.37 億"
+      ]
+    },
+    {
+      "title": "BTS’s Comeback Show Was Heavy on Their New Album - The New York Times",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 新專輯「Arirang」回歸演出",
+        "Spotify 舉辦尋寶遊戲作為專輯宣傳活動"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260325_144436.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260325.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260327_141429.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260327.jpg"
 }
