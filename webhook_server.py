@@ -28,6 +28,12 @@ handler = WebhookHandler(config.LINE_CHANNEL_SECRET)
 analyzer = SentimentAnalyzer()
 
 
+@app.route("/", methods=['GET'])
+def health_check():
+    """Render 健康檢查用的根路由"""
+    return "Spotify Monitor Bot is alive! 🎵", 200
+
+
 @app.route("/callback", methods=['POST'])
 def callback():
     """LINE 伺服器傳送 Webhook 事件的端點"""
