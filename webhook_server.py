@@ -1,18 +1,12 @@
 """
 對話式 LINE 機器人 Webhook Server (Feature 1)
 使用 Flask 接收 LINE 的訊息，並結合 Gemini 分析當天輿情回覆使用者。
-執行方式： python webhook_server.py
+雲端部署版本：可部署到 Render / Heroku 等平台。
 """
 
 import os
 import logging
 from flask import Flask, request, abort
-from linebot import LineBotApi, WebhookHandler
-from linebot.exceptions import InvalidSignatureError
-from linebot.models import MessageEvent, TextMessage, TextSendMessage
-
-import config
-from analyzers.sentiment_analyzer import SentimentAnalyzer
 
 # 設定日誌
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -20,12 +14,47 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
-# 初始化 LINE API
-line_bot_api = LineBotApi(config.LINE_CHANNEL_ACCESS_TOKEN)
-handler = WebhookHandler(config.LINE_CHANNEL_SECRET)
+# ====== 從環境變數讀取設定（同時支援 .env 和雲端環境變數） ======
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # 雲端環境不一定有 python-dotenv，直接讀 os.getenv
 
-# 初始化 Gemini 分析器
-analyzer = SentimentAnalyzer()
+LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")
+LINE_CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+
+# ====== 延遲初始化 LINE SDK（避免缺少金鑰時啟動就崩潰） ======
+line_bot_api = None
+handler = None
+
+try:
+    from linebot import LineBotApi, WebhookHandler
+    from linebot.exceptions import InvalidSignatureError
+    from linebot.models import MessageEvent, TextMessage, TextSendMessage
+
+    if LINE_CHANNEL_ACCESS_TOKEN and LINE_CHANNEL_SECRET:
+        line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
+        handler = WebhookHandler(LINE_CHANNEL_SECRET)
+        logger.info("LINE SDK 初始化完成")
+    else:
+        logger.warning("未設定 LINE_CHANNEL_ACCESS_TOKEN 或 LINE_CHANNEL_SECRET")
+except Exception as e:
+    logger.error(f"LINE SDK 初始化失敗: {e}")
+
+# ====== 延遲初始化 Gemini（避免模型名稱錯誤導致啟動炸掉） ======
+gemini_model = None
+try:
+    if GEMINI_API_KEY:
+        import google.generativeai as genai
+        genai.configure(api_key=GEMINI_API_KEY)
+        gemini_model = genai.GenerativeModel("gemini-2.5-flash")
+        logger.info("Gemini API 初始化完成")
+    else:
+        logger.warning("未設定 GEMINI_API_KEY")
+except Exception as e:
+    logger.error(f"Gemini 初始化失敗: {e}")
 
 
 @app.route("/", methods=['GET'])
@@ -37,56 +66,48 @@ def health_check():
 @app.route("/callback", methods=['POST'])
 def callback():
     """LINE 伺服器傳送 Webhook 事件的端點"""
-    # 取得 X-Line-Signature 標頭值
+    if handler is None:
+        logger.error("LINE SDK 未初始化，無法處理 Webhook")
+        return 'LINE SDK not initialized', 500
+
     signature = request.headers.get('X-Line-Signature', '')
-    
-    # 取得請求內容
     body = request.get_data(as_text=True)
-    logger.info(f"收到 Webhook 請求: {body}")
-    
-    # 處理 Webhook
+    logger.info(f"收到 Webhook 請求")
+
     try:
         handler.handle(body, signature)
-    except InvalidSignatureError:
-        logger.error("驗證簽章無效！請檢查 .env 中的 LINE_CHANNEL_SECRET 是否正確設定。")
+    except Exception as e:
+        logger.error(f"處理 Webhook 時發生錯誤: {e}")
         abort(400)
-        
+
     return 'OK'
 
 
-@handler.add(MessageEvent, message=TextMessage)
-def handle_message(event):
-    """處理使用者傳送的文字訊息"""
-    user_msg = event.message.text
-    logger.info(f">>> 收到來自使用者的訊息: {user_msg}")
-    
-    # 讀取最新報告 JSON
-    report_data_str = "今日尚未產生任何舆情報告資料。"
-    
-    # 嘗試從 GitHub Pages 抓取線上最新的 JSON（雲端部署專用）
-    import requests
-    github_json_url = "https://jasonfresh0206.github.io/spotify-project/data/reports/latest_analysis.json"
-    
-    try:
-        req = requests.get(github_json_url, timeout=5)
-        if req.status_code == 200:
-            report_data_str = req.text
-            logger.info("成功從 GitHub 讀取最新報告 JSON！")
-        else:
-            raise Exception(f"HTTP Status: {req.status_code}")
-    except Exception as e:
-        logger.warning(f"無法從 GitHub 讀取報告 ({e})，改為嘗試讀取本地檔案。")
-        # 降級備用方案：讀取本地
-        report_file = os.path.join(os.path.dirname(__file__), "data", "reports", "latest_analysis.json")
-        if os.path.exists(report_file):
-            try:
-                with open(report_file, 'r', encoding='utf-8') as f:
-                    report_data_str = f.read()
-            except Exception as local_e:
-                logger.error(f"讀取本地報告發生錯誤: {local_e}")
+# ====== 訊息處理邏輯（只有在 handler 成功初始化時才註冊） ======
+if handler is not None:
+    @handler.add(MessageEvent, message=TextMessage)
+    def handle_message(event):
+        """處理使用者傳送的文字訊息"""
+        user_msg = event.message.text
+        logger.info(f">>> 收到來自使用者的訊息: {user_msg}")
 
-    # 組合 Prompt 請求 Gemini 回答
-    prompt = f"""
+        # 讀取最新報告 JSON（從 GitHub Pages 抓取）
+        report_data_str = "今日尚未產生任何舆情報告資料。"
+        import requests
+        github_json_url = "https://jasonfresh0206.github.io/spotify-project/data/reports/latest_analysis.json"
+
+        try:
+            req = requests.get(github_json_url, timeout=5)
+            if req.status_code == 200:
+                report_data_str = req.text
+                logger.info("成功從 GitHub 讀取最新報告 JSON！")
+            else:
+                raise Exception(f"HTTP Status: {req.status_code}")
+        except Exception as e:
+            logger.warning(f"無法從 GitHub 讀取報告 ({e})")
+
+        # 組合 Prompt 請求 Gemini 回答
+        prompt = f"""
 你是一個名為「Spotify Monitor AI」的專業輿情分析助教。
 你的任務是基於以下最新的一份系統摘要報告，回答使用者的問題。
 如果使用者問的問題與報告完全無關，請你友善地引導他們詢問關於今日 Spotify 輿情、關鍵字、重大事件等的內容。
@@ -103,33 +124,29 @@ def handle_message(event):
 [使用者的問題]
 {user_msg}
 """
-    
-    # 向 Gemini 請求回覆
-    try:
-        response = analyzer.model.generate_content(prompt)
-        reply_text = response.text
-    except Exception as e:
-        logger.error(f"Gemini API 請求失敗: {e}")
-        reply_text = "抱歉，我的 AI 大腦暫時連線異常或受到限制，請稍候再試！😵"
 
-    logger.info(f"<<< 回覆使用者: {reply_text.replace(chr(10), ' ')}")
+        # 向 Gemini 請求回覆
+        reply_text = "抱歉，我的 AI 大腦暫時連線異常，請稍候再試！😵"
+        if gemini_model:
+            try:
+                response = gemini_model.generate_content(prompt)
+                reply_text = response.text
+            except Exception as e:
+                logger.error(f"Gemini API 請求失敗: {e}")
+        else:
+            reply_text = "抱歉，AI 分析模組目前離線中，請稍候再試！"
 
-    # 透過 LINE API 把回覆傳給使用者
-    line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text=reply_text)
-    )
+        logger.info(f"<<< 回覆使用者: {reply_text.replace(chr(10), ' ')}")
+
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=reply_text)
+        )
+
 
 if __name__ == "__main__":
-    if not config.LINE_CHANNEL_SECRET:
-        logger.warning("尚未設定 LINE_CHANNEL_SECRET，將無法驗證 Webhook！請前往 .env 設定。")
-    if not config.LINE_CHANNEL_ACCESS_TOKEN:
-        logger.warning("尚未設定 LINE_CHANNEL_ACCESS_TOKEN，將無法回覆訊息！請前往 .env 設定。")
-        
     logger.info("=========================================")
     logger.info("啟動對話式 LINE 機器人伺服器...")
-    logger.info("預設執行於 Port 5000，請使用 ngrok http 5000 對外開啟 Webhook！")
     logger.info("=========================================")
-    
-    # 在 local 測試通常啟動 5000 埠
-    app.run(host='0.0.0.0', port=5000)
+    port = int(os.getenv("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
