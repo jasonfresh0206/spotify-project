@@ -1,7 +1,7 @@
 """
 對話式 LINE 機器人 Webhook Server (Feature 1)
 使用 Flask 接收 LINE 的訊息，並結合 Gemini 分析當天輿情回覆使用者。
-雲端部署版本：可部署到 Render / Heroku 等平台。
+雲端部署版本：使用 line-bot-sdk v3 API。
 """
 
 import os
@@ -14,36 +14,43 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
-# ====== 從環境變數讀取設定（同時支援 .env 和雲端環境變數） ======
+# ====== 從環境變數讀取設定 ======
 try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
-    pass  # 雲端環境不一定有 python-dotenv，直接讀 os.getenv
+    pass
 
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")
 LINE_CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
-# ====== 延遲初始化 LINE SDK（避免缺少金鑰時啟動就崩潰） ======
-line_bot_api = None
+# ====== 初始化 LINE SDK v3 ======
 handler = None
+configuration = None
 
 try:
-    from linebot import LineBotApi, WebhookHandler
-    from linebot.exceptions import InvalidSignatureError
-    from linebot.models import MessageEvent, TextMessage, TextSendMessage
+    from linebot.v3 import WebhookHandler
+    from linebot.v3.exceptions import InvalidSignatureError
+    from linebot.v3.messaging import (
+        Configuration,
+        ApiClient,
+        MessagingApi,
+        ReplyMessageRequest,
+        TextMessage,
+    )
+    from linebot.v3.webhooks import MessageEvent, TextMessageContent
 
     if LINE_CHANNEL_ACCESS_TOKEN and LINE_CHANNEL_SECRET:
-        line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
         handler = WebhookHandler(LINE_CHANNEL_SECRET)
-        logger.info("LINE SDK 初始化完成")
+        configuration = Configuration(access_token=LINE_CHANNEL_ACCESS_TOKEN)
+        logger.info("LINE SDK v3 初始化完成")
     else:
         logger.warning("未設定 LINE_CHANNEL_ACCESS_TOKEN 或 LINE_CHANNEL_SECRET")
 except Exception as e:
     logger.error(f"LINE SDK 初始化失敗: {e}")
 
-# ====== 延遲初始化 Gemini（避免模型名稱錯誤導致啟動炸掉） ======
+# ====== 初始化 Gemini ======
 gemini_model = None
 try:
     if GEMINI_API_KEY:
@@ -72,10 +79,13 @@ def callback():
 
     signature = request.headers.get('X-Line-Signature', '')
     body = request.get_data(as_text=True)
-    logger.info(f"收到 Webhook 請求")
+    logger.info("收到 Webhook 請求")
 
     try:
         handler.handle(body, signature)
+    except InvalidSignatureError:
+        logger.error("簽章驗證失敗！")
+        abort(400)
     except Exception as e:
         logger.error(f"處理 Webhook 時發生錯誤: {e}")
         abort(400)
@@ -83,9 +93,9 @@ def callback():
     return 'OK'
 
 
-# ====== 訊息處理邏輯（只有在 handler 成功初始化時才註冊） ======
+# ====== 訊息處理邏輯 ======
 if handler is not None:
-    @handler.add(MessageEvent, message=TextMessage)
+    @handler.add(MessageEvent, message=TextMessageContent)
     def handle_message(event):
         """處理使用者傳送的文字訊息"""
         user_msg = event.message.text
@@ -138,10 +148,15 @@ if handler is not None:
 
         logger.info(f"<<< 回覆使用者: {reply_text.replace(chr(10), ' ')}")
 
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextSendMessage(text=reply_text)
-        )
+        # 使用 v3 API 回覆訊息
+        with ApiClient(configuration) as api_client:
+            line_bot_api = MessagingApi(api_client)
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text=reply_text)]
+                )
+            )
 
 
 if __name__ == "__main__":
