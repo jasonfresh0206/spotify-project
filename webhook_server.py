@@ -1,7 +1,7 @@
 """
 對話式 LINE 機器人 Webhook Server (Feature 1)
 使用 Flask 接收 LINE 的訊息，並結合 Gemini 分析當天輿情回覆使用者。
-雲端部署版本：使用 line-bot-sdk v3 API。
+雲端部署版本：使用 line-bot-sdk v3 API + google-genai SDK。
 """
 
 import os
@@ -50,14 +50,13 @@ try:
 except Exception as e:
     logger.error(f"LINE SDK 初始化失敗: {e}")
 
-# ====== 初始化 Gemini ======
-gemini_model = None
+# ====== 初始化 Gemini (使用新版 google-genai SDK) ======
+gemini_client = None
 try:
     if GEMINI_API_KEY:
-        import google.generativeai as genai
-        genai.configure(api_key=GEMINI_API_KEY)
-        gemini_model = genai.GenerativeModel("gemini-2.5-flash")
-        logger.info("Gemini API 初始化完成")
+        from google import genai
+        gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+        logger.info("Gemini API (google-genai) 初始化完成")
     else:
         logger.warning("未設定 GEMINI_API_KEY")
 except Exception as e:
@@ -104,10 +103,10 @@ if handler is not None:
         # 讀取最新報告 JSON（從 GitHub Pages 抓取）
         report_data_str = "今日尚未產生任何舆情報告資料。"
         import requests
-        github_json_url = "https://jasonfresh0206.github.io/spotify-project/data/reports/latest_analysis.json"
 
+        github_json_url = "https://jasonfresh0206.github.io/spotify-project/data/reports/latest_analysis.json"
         try:
-            req = requests.get(github_json_url, timeout=5)
+            req = requests.get(github_json_url, timeout=10)
             if req.status_code == 200:
                 report_data_str = req.text
                 logger.info("成功從 GitHub 讀取最新報告 JSON！")
@@ -137,26 +136,40 @@ if handler is not None:
 
         # 向 Gemini 請求回覆
         reply_text = "抱歉，我的 AI 大腦暫時連線異常，請稍候再試！😵"
-        if gemini_model:
+
+        if gemini_client:
             try:
-                response = gemini_model.generate_content(prompt)
+                response = gemini_client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt
+                )
                 reply_text = response.text
+                logger.info(f"Gemini 回覆成功，長度: {len(reply_text)} 字")
             except Exception as e:
                 logger.error(f"Gemini API 請求失敗: {e}")
+                reply_text = "抱歉，AI 分析引擎暫時忙碌中，請稍候再試！🔧"
         else:
             reply_text = "抱歉，AI 分析模組目前離線中，請稍候再試！"
 
-        logger.info(f"<<< 回覆使用者: {reply_text.replace(chr(10), ' ')}")
+        # 確保回覆文字不超過 LINE 5000 字元限制
+        if len(reply_text) > 4500:
+            reply_text = reply_text[:4500] + "\n\n...（內容過長已截斷）"
+
+        logger.info(f"<<< 回覆使用者: {reply_text[:100]}...")
 
         # 使用 v3 API 回覆訊息
-        with ApiClient(configuration) as api_client:
-            line_bot_api = MessagingApi(api_client)
-            line_bot_api.reply_message_with_http_info(
-                ReplyMessageRequest(
-                    reply_token=event.reply_token,
-                    messages=[TextMessage(text=reply_text)]
+        try:
+            with ApiClient(configuration) as api_client:
+                line_bot_api = MessagingApi(api_client)
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[TextMessage(text=reply_text)]
+                    )
                 )
-            )
+            logger.info("LINE 回覆發送成功 ✅")
+        except Exception as e:
+            logger.error(f"LINE 回覆失敗: {e}")
 
 
 if __name__ == "__main__":
