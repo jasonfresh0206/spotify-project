@@ -17,7 +17,7 @@ class ImageGenerator:
         self.output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "reports")
         os.makedirs(self.output_dir, exist_ok=True)
         
-        # 嘗試載入字體 (為 Windows 與通用環境做回退處理)
+        # 嘗試載入字體 (為 Windows、Linux 與通用環境做回退處理)
         try:
             self.font_title_lg = ImageFont.truetype("msjhbd.ttc", 72)  # 微軟正黑粗體
             self.font_title = ImageFont.truetype("msjhbd.ttc", 56)     
@@ -26,19 +26,29 @@ class ImageGenerator:
             self.font_small = ImageFont.truetype("msjh.ttc", 24)
         except Exception:
             try:
-                # 備用方案 2：Arial
-                self.font_title_lg = ImageFont.truetype("arialbd.ttf", 72)
-                self.font_title = ImageFont.truetype("arialbd.ttf", 56)
-                self.font_heading = ImageFont.truetype("arialbd.ttf", 40)
-                self.font_body = ImageFont.truetype("arial.ttf", 32)
-                self.font_small = ImageFont.truetype("arial.ttf", 24)
+                # 備用方案 2：Linux Noto Sans CJK (GitHub Actions Ubuntu)
+                noto_bold = "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+                noto_reg = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+                self.font_title_lg = ImageFont.truetype(noto_bold, 72)
+                self.font_title = ImageFont.truetype(noto_bold, 56)
+                self.font_heading = ImageFont.truetype(noto_bold, 40)
+                self.font_body = ImageFont.truetype(noto_reg, 32)
+                self.font_small = ImageFont.truetype(noto_reg, 24)
             except Exception:
-                # 最後回退方案
-                self.font_title_lg = ImageFont.load_default()
-                self.font_title = ImageFont.load_default()
-                self.font_heading = ImageFont.load_default()
-                self.font_body = ImageFont.load_default()
-                self.font_small = ImageFont.load_default()
+                try:
+                    # 備用方案 3：Arial
+                    self.font_title_lg = ImageFont.truetype("arialbd.ttf", 72)
+                    self.font_title = ImageFont.truetype("arialbd.ttf", 56)
+                    self.font_heading = ImageFont.truetype("arialbd.ttf", 40)
+                    self.font_body = ImageFont.truetype("arial.ttf", 32)
+                    self.font_small = ImageFont.truetype("arial.ttf", 24)
+                except Exception:
+                    # 最後回退方案
+                    self.font_title_lg = ImageFont.load_default()
+                    self.font_title = ImageFont.load_default()
+                    self.font_heading = ImageFont.load_default()
+                    self.font_body = ImageFont.load_default()
+                    self.font_small = ImageFont.load_default()
 
     def generate(self, analysis_result: dict, date_str: str = None) -> str:
         """

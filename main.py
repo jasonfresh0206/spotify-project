@@ -131,6 +131,11 @@ def run_pipeline():
             subprocess.run(["git", "push"], check=False)
             logger.info("✅ 報告圖文已推送到 GitHub")
             
+            # 等待 GitHub Pages 部署完成，確保 LINE 推播時圖片已可存取
+            import time
+            logger.info("等待 60 秒讓 GitHub Pages 部署圖片...")
+            time.sleep(60)
+            
             # 產生 GitHub Pages 連結
             filename = os.path.basename(report_path)
             report_url = f"https://jasonfresh0206.github.io/spotify-project/data/reports/{filename}"
