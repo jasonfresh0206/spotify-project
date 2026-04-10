@@ -6,7 +6,7 @@
 import json
 import logging
 
-import google.generativeai as genai
+from google import genai
 
 import config
 from analyzers.prompts import SENTIMENT_AND_EVENTS_PROMPT, NO_DATA_RESPONSE
@@ -24,8 +24,8 @@ class SentimentAnalyzer:
             self.model = None
             return
 
-        genai.configure(api_key=config.GEMINI_API_KEY)
-        self.model = genai.GenerativeModel("gemini-2.5-flash")
+        self.client = genai.Client(api_key=config.GEMINI_API_KEY)
+        self.model_name = "gemini-2.5-flash"
         logger.info("Gemini API 初始化完成")
 
     def analyze(self, articles: list[dict]) -> dict:
@@ -42,7 +42,7 @@ class SentimentAnalyzer:
             logger.warning("沒有文章可供分析，回傳空結果")
             return NO_DATA_RESPONSE
 
-        if not self.model:
+        if not self.client:
             logger.error("Gemini API 未初始化，無法進行分析")
             return NO_DATA_RESPONSE
 
@@ -64,7 +64,10 @@ class SentimentAnalyzer:
             logger.info(f"正在將 {len(articles)} 篇文章送交 Gemini 分析...")
 
             # 呼叫 Gemini API
-            response = self.model.generate_content(prompt)
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=prompt
+            )
 
             # 解析回傳的 JSON
             response_text = response.text.strip()
