@@ -1,64 +1,131 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.65,
-    "neutral_ratio": 0.25,
-    "negative_ratio": 0.1
+    "positive_ratio": 0.3,
+    "negative_ratio": 0.4,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
-      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
-      "severity": "high"
+      "title": "財報展望影響目標價",
+      "description": "Bernstein分析師因對Spotify利潤率展望不佳的擔憂，下調了其目標股價。",
+      "severity": "medium",
+      "sentiment": "negative"
     },
     {
-      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
-      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
-      "severity": "medium"
-    },
-    {
-      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
-      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
-      "severity": "low"
-    }
-  ],
-  "trending_keywords": [
-    "Hi-Fi",
-    "無損音質",
-    "Taylor Swift",
-    "訂閱漲價",
-    "2026年度回顧",
-    "Apple Music"
-  ],
-  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
-  "article_analyses": [
-    {
-      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
-      "key_points": [
-        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
-        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
-        "網友表示只要音質好就願意買單"
-      ],
+      "title": "Coachella播放清單功能上線",
+      "description": "Spotify在Coachella音樂節前夕，推出專屬播放清單功能以吸引用戶。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
-      "key_points": [
-        "歐盟針對數位市場法案給出新解釋",
-        "Spotify 官方表示希望能帶給創作者更多收益",
-        "市場反應保留態度"
-      ],
-      "sentiment": "neutral"
+      "title": "新影片控制功能推出",
+      "description": "Spotify為聽眾推出新的影片控制選項，包括讓所有用戶可選擇禁用不想要的影片，提升用戶體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
     },
     {
-      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
-      "key_points": [
-        "昨晚 10 點左右大量亞洲用戶回報連線異常",
-        "官方已在 Twitter (X) 上發布修復公告",
-        "目前多數用戶已恢復正常運作"
-      ],
+      "title": "藝術家對低版稅收益表達不滿",
+      "description": "多位藝術家對串流媒體產業（包括Spotify）的低版稅收益表示沮喪和不滿。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "播客策略對獨立創作者的潛在影響",
+      "description": "Spotify等大型公司的激進播客策略，被認為可能危及獨立播客節目的發展。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "串流媒體行業面臨「通膨」危機",
+      "description": "整個串流媒體行業面臨訂閱價格上漲（「串流通膨」）的問題，可能導致用戶流失。",
+      "severity": "medium",
       "sentiment": "negative"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260410_171230.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260410.jpg"
+  "trending_keywords": [
+    "Spotify",
+    "新功能",
+    "影片控制",
+    "播客",
+    "利潤率",
+    "版稅",
+    "藝術家",
+    "串流媒體通膨",
+    "目標價"
+  ],
+  "daily_summary": "今日Spotify輿情呈現兩極化，一方面，Bernstein因利潤率展望下調了Spotify的目標價，同時藝術家對平台低版稅收益的不滿以及獨立播客對其激進策略的擔憂持續存在，整個串流媒體行業也面臨「通膨」壓力。另一方面，Spotify也推出了多項新功能以改善用戶體驗，包括為Coachella音樂節推出播放清單，以及允許所有用戶禁用不想要的影片和提供更多影片控制選項。",
+  "article_analyses": [
+    {
+      "title": "Bernstein因利潤率展望下調Spotify目標價 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
+      "key_points": [
+        "分析師因對Spotify利潤率展望不佳而下調其目標股價"
+      ]
+    },
+    {
+      "title": "BINI Netflix 紀錄片系列停播，Spotify 在 Coachella 首秀前推出播放清單功能",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify在Coachella音樂節前夕推出專屬播放清單功能"
+      ]
+    },
+    {
+      "title": "Spotify Introduces New Video Controls for Listeners - Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify推出新的影片控制功能，用戶對此感到興奮"
+      ]
+    },
+    {
+      "title": "Spotify Now Offers the Ability to Disable Unwanted Videos - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify所有用戶可選擇禁用不想要的影片內容"
+      ]
+    },
+    {
+      "title": "WU LYF on Their Comeback & Innovative Membership Model - Billboard",
+      "sentiment": "negative",
+      "key_points": [
+        "藝術家對串流媒體產業的低版稅收益表示不滿"
+      ]
+    },
+    {
+      "title": "Why Every Streamer Suddenly Wants a Podcast Strategy - ADWEEK",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify被視為音訊和播客策略的先驅"
+      ]
+    },
+    {
+      "title": "There’s A War Of Independents In Podcasting - Forbes",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify等公司的激進策略被認為危及獨立播客節目"
+      ]
+    },
+    {
+      "title": "YouTube Premium Raising Prices - Deadline",
+      "sentiment": "neutral",
+      "key_points": [
+        "YouTube Premium提高訂閱價格，影響串流媒體市場"
+      ]
+    },
+    {
+      "title": "“Streamflation” Might Be Nearing a Crisis Point - The Hollywood Reporter",
+      "sentiment": "negative",
+      "key_points": [
+        "串流媒體行業面臨「串流通膨」挑戰，廣告層級或成解決方案"
+      ]
+    },
+    {
+      "title": "Netflix Illegally Issued Price Hikes, Rome Court Rules. Users Could Get Refunds - tvnewscheck.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "Netflix因非法漲價在羅馬法院被裁定違規"
+      ]
+    }
+  ],
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260411_054514.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260411.jpg"
 }
