@@ -1,131 +1,365 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.3,
-    "negative_ratio": 0.4,
-    "neutral_ratio": 0.3
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "財報展望影響目標價",
-      "description": "Bernstein分析師因對Spotify利潤率展望不佳的擔憂，下調了其目標股價。",
+      "title": "新功能上線：用戶可關閉影片內容",
+      "description": "Spotify 推出新功能，允許所有訂閱層級的用戶關閉歌曲播放時的展示影片，回歸純音樂體驗。此舉受到用戶普遍歡迎，提升了對平台控制感的滿意度。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI模仿音樂家引發版權與倫理爭議",
+      "description": "關於人工智慧如何在 Spotify 等平台上模仿音樂家的討論浮現，引發對版權侵犯、原創性保護及倫理問題的關注。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Coachella播放清單功能上線",
-      "description": "Spotify在Coachella音樂節前夕，推出專屬播放清單功能以吸引用戶。",
+      "title": "藝術家對串流平台版稅不滿",
+      "description": "藝術家群體對串流平台（包括 Spotify）提供的低版稅和商業模式表示不滿，認為這影響了其收入和創作積極性。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "串流服務普遍漲價及「串流通膨」趨勢",
+      "description": "串流產業普遍面臨價格上漲的壓力，如 YouTube 和 Netflix 的漲價案例，引發對「串流通膨」的擔憂，可能影響用戶訂閱意願，雖然未直接指 Spotify，但反映產業趨勢。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "NASA「月球音樂」歌單在 Spotify 爆紅",
+      "description": "NASA 公布的「月球音樂」起床歌單在 Spotify 上迅速走紅，顯示平台內容策劃和流行趨勢捕捉的潛力，為平台帶來正面關注與流量。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "新影片控制功能推出",
-      "description": "Spotify為聽眾推出新的影片控制選項，包括讓所有用戶可選擇禁用不想要的影片，提升用戶體驗。",
+      "title": "播客市場競爭加劇",
+      "description": "播客市場日益競爭激烈，包括其他串流服務積極進入，以及獨立播客面臨來自大型平台（如 Spotify）的挑戰，這對 Spotify 在播客領域的領導地位構成潛在影響。",
       "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "藝術家對低版稅收益表達不滿",
-      "description": "多位藝術家對串流媒體產業（包括Spotify）的低版稅收益表示沮喪和不滿。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "播客策略對獨立創作者的潛在影響",
-      "description": "Spotify等大型公司的激進播客策略，被認為可能危及獨立播客節目的發展。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "串流媒體行業面臨「通膨」危機",
-      "description": "整個串流媒體行業面臨訂閱價格上漲（「串流通膨」）的問題，可能導致用戶流失。",
-      "severity": "medium",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "新功能",
-    "影片控制",
+    "串流服務",
+    "音樂",
     "播客",
-    "利潤率",
+    "AI",
+    "影片控制",
+    "漲價",
     "版稅",
-    "藝術家",
-    "串流媒體通膨",
-    "目標價"
+    "新功能",
+    "歌單",
+    "藝術家"
   ],
-  "daily_summary": "今日Spotify輿情呈現兩極化，一方面，Bernstein因利潤率展望下調了Spotify的目標價，同時藝術家對平台低版稅收益的不滿以及獨立播客對其激進策略的擔憂持續存在，整個串流媒體行業也面臨「通膨」壓力。另一方面，Spotify也推出了多項新功能以改善用戶體驗，包括為Coachella音樂節推出播放清單，以及允許所有用戶禁用不想要的影片和提供更多影片控制選項。",
+  "daily_summary": "今日 Spotify 輿情呈現兩極化趨勢。正面消息集中於用戶體驗改善，如期盼已久的影片內容關閉功能上線，以及 NASA 月球歌單等內容在平台爆紅，顯示其在音樂推廣和用戶互動方面的成功。然而，負面聲量則聚焦於 AI 模仿音樂家引發的版權與倫理爭議，藝術家對低版稅的不滿持續存在，同時「串流通膨」和整體產業漲價壓力也為未來用戶增長帶來挑戰，播客市場的競爭亦日益白熱化。",
   "article_analyses": [
     {
-      "title": "Bernstein因利潤率展望下調Spotify目標價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
+      "title": "像太空人一樣醒來——NASA公布「月球音樂」起床歌單，一夕間在 Spotify 上爆紅！",
+      "sentiment": "positive",
       "key_points": [
-        "分析師因對Spotify利潤率展望不佳而下調其目標股價"
+        "NASA「月球音樂」歌單在 Spotify 爆紅",
+        "提升平台內容熱度與吸引力"
       ]
     },
     {
-      "title": "BINI Netflix 紀錄片系列停播，Spotify 在 Coachella 首秀前推出播放清單功能",
+      "title": "Spotify 終可關閉展示影片內容 重拾純音樂體驗",
       "sentiment": "positive",
       "key_points": [
-        "Spotify在Coachella音樂節前夕推出專屬播放清單功能"
+        "Spotify 推出關閉影片內容新功能",
+        "滿足用戶需求，回歸純音樂體驗"
+      ]
+    },
+    {
+      "title": "「上面有你的名字，但我不認為是你」：人工智慧如何在 Spotify 上模仿音樂家 | AI（人工智慧）",
+      "sentiment": "negative",
+      "key_points": [
+        "AI 模仿音樂家引發爭議",
+        "涉及版權與倫理問題"
       ]
     },
     {
       "title": "Spotify Introduces New Video Controls for Listeners - Spotify",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出新的影片控制功能，用戶對此感到興奮"
+        "Spotify 推出新的影片控制功能",
+        "用戶對更多控制權感到興奮"
       ]
     },
     {
       "title": "Spotify Now Offers the Ability to Disable Unwanted Videos - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify所有用戶可選擇禁用不想要的影片內容"
+        "Spotify 允許所有用戶禁用不必要影片",
+        "全球逐步推出此更新"
       ]
     },
     {
       "title": "WU LYF on Their Comeback & Innovative Membership Model - Billboard",
       "sentiment": "negative",
       "key_points": [
-        "藝術家對串流媒體產業的低版稅收益表示不滿"
+        "藝術家對串流平台低版稅不滿",
+        "質疑串流主導的唱片業模式"
       ]
     },
     {
       "title": "Why Every Streamer Suddenly Wants a Podcast Strategy - ADWEEK",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify被視為音訊和播客策略的先驅"
+        "串流服務積極發展播客策略",
+        "Spotify 為播客領域先行者"
       ]
     },
     {
       "title": "There’s A War Of Independents In Podcasting - Forbes",
       "sentiment": "negative",
       "key_points": [
-        "Spotify等公司的激進策略被認為危及獨立播客節目"
+        "獨立播客面臨來自大型平台（如 Spotify）的競爭壓力",
+        "大型平台策略威脅獨立創作者"
       ]
     },
     {
       "title": "YouTube Premium Raising Prices - Deadline",
       "sentiment": "neutral",
       "key_points": [
-        "YouTube Premium提高訂閱價格，影響串流媒體市場"
+        "YouTube Premium 服務漲價",
+        "反映串流服務普遍的價格調整趨勢"
+      ]
+    },
+    {
+      "title": "‘EPiC: Elvis Presley In Concert’ Arrives On Streaming This Week - Forbes",
+      "sentiment": "positive",
+      "key_points": [
+        "艾爾維斯·普雷斯利演唱會內容上線串流平台",
+        "豐富串流平台內容庫"
+      ]
+    },
+    {
+      "title": "Gunzilla CEO Denies Claims Of Not Paying Devs In Long Rant On Twitter - Kotaku",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Blockbuster SpaceX listing could suck the oxygen out of fragile IPO market - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Bill Ackman’s Pershing Square Bids to Buy UMG For Over $60 Billion - Billboard",
+      "sentiment": "negative",
+      "key_points": [
+        "UMG 在 Spotify 的股份影響股價",
+        "投資者對 UMG 股價表現不滿"
+      ]
+    },
+    {
+      "title": "Hope for a U.S.-Iran deal, Apple's anniversary, OpenAI's podcast deal and more in Morning Squawk - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "OpenAI 簽署播客協議",
+        "可能加劇播客市場競爭"
       ]
     },
     {
       "title": "“Streamflation” Might Be Nearing a Crisis Point - The Hollywood Reporter",
       "sentiment": "negative",
       "key_points": [
-        "串流媒體行業面臨「串流通膨」挑戰，廣告層級或成解決方案"
+        "串流服務面臨「串流通膨」問題",
+        "可能導致用戶取消訂閱或流失"
+      ]
+    },
+    {
+      "title": "How Apple’s new AirPods Max 2 finally converted me to Atmos music on headphones - What Hi-Fi?",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論 Apple AirPods Max 2 與 Dolby Atmos 音樂體驗"
+      ]
+    },
+    {
+      "title": "Class myths, an influx of e-ships, and Olympics tix! : The Indicator from Planet Money - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR 播客可在 Spotify 等平台收聽"
+      ]
+    },
+    {
+      "title": "Why BTS’ Record-Breaking ‘Arirang’ Comeback Bypassed Old-School Media - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "韓國流行音樂團體 BTS 的專輯發行策略"
+      ]
+    },
+    {
+      "title": "‘A full-on embrace’: how the EU’s largest news publisher fell in love with the US - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Streaming Ratings: ‘One Piece’ Returns Higher, ‘Scarpetta’ Has Solid Opening - TV News Check",
+      "sentiment": "neutral",
+      "key_points": [
+        "影片串流服務的節目收視率報導"
+      ]
+    },
+    {
+      "title": "News Explorer — Grayscale Pushes Back on SEC Pause of ETF Holding XRP, Solana and Cardano - Decrypt",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Landmark deal to bring Wendy’s drive-thru to Boston’s Quadrant - PressReader",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
       ]
     },
     {
       "title": "Netflix Illegally Issued Price Hikes, Rome Court Rules. Users Could Get Refunds - tvnewscheck.com",
+      "sentiment": "negative",
+      "key_points": [
+        "Netflix 被裁定非法漲價",
+        "凸顯串流服務漲價的法律風險"
+      ]
+    },
+    {
+      "title": "TikTok, SoundOn Aim To Further Protect Musicians' Licensed Work 04/07/2026 - MediaPost",
       "sentiment": "neutral",
       "key_points": [
-        "Netflix因非法漲價在羅馬法院被裁定違規"
+        "TikTok 加強保護音樂家版權",
+        "反映音樂產業對版權的重視"
+      ]
+    },
+    {
+      "title": "Is ‘office air’ ruining your look at work? Science says it’s possible - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "‘Now Hear This’ Season 7 Review: Brahms and Beyond on PBS - wsj.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂節目評論，與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "‘Distracted’ by Thundercat Review: A Dense, Distinctive Statement - wsj.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂專輯評論，與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "‘Project Hail Mary’ Synch Revives Harry Styles’ Debut Single - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "Harry Styles 單曲因電影同步再次流行",
+        "帶動串流平台播放量增長"
+      ]
+    },
+    {
+      "title": "Friday Dance Music Guide: The Week’s Best New Tracks From Afrojack, David Guetta & Sia & More - billboard.com",
+      "sentiment": "positive",
+      "key_points": [
+        "新舞曲發行與推薦",
+        "為串流平台帶來新內容"
+      ]
+    },
+    {
+      "title": "Which New Music Release Is Your Favorite This Week? Vote! - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "新音樂發行投票",
+        "反映聽眾對新內容的關注"
+      ]
+    },
+    {
+      "title": "Harry Styles Flies With His Oldest Hit Thanks To A Box Office Smash - Forbes",
+      "sentiment": "positive",
+      "key_points": [
+        "Harry Styles 舊作因電影熱播而回歸流行榜",
+        "顯示電影對音樂串流的推動作用"
+      ]
+    },
+    {
+      "title": "Lady Gaga and Doechii, KATSEYE, The Strokes & More: New Music Friday Guide - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "新音樂發行指引",
+        "介紹當週重點新歌"
+      ]
+    },
+    {
+      "title": "Lady Gaga & Doechii, Sabrina Carpenter: Week in Pop (Pop Shop Podcast) - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "流行音樂週報與播客",
+        "討論新發行與流行趨勢"
+      ]
+    },
+    {
+      "title": "Fans Choose Sofia D’Angelo’s ‘Time’ as This Week’s Favorite New Music - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "Sofia D’Angelo 新歌獲選本週最愛",
+        "反映新興藝人受關注"
+      ]
+    },
+    {
+      "title": "A Third Of U.S. Streaming Ad Spend Is By Firms That Run On All 9 Platforms 04/09/2026 - MediaPost",
+      "sentiment": "neutral",
+      "key_points": [
+        "美國串流廣告支出概況",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "This Bingeworthy Horror Series Is A Top Show On Netflix Right Now - HuffPost",
+      "sentiment": "neutral",
+      "key_points": [
+        "影片串流服務內容推薦"
+      ]
+    },
+    {
+      "title": "Exclusive: SpaceX lays out IPO details, targets early June roadshow, sources say - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "It's a matcha made in heaven - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容空白或不相關"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容空白或不相關"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260411_054514.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260411.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260412_061757.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260412.jpg"
 }
