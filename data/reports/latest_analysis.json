@@ -1,64 +1,344 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.65,
-    "neutral_ratio": 0.25,
-    "negative_ratio": 0.1
+    "positive_ratio": 0.1,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.7
   },
   "events": [
     {
-      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
-      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
-      "severity": "high"
-    },
-    {
-      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
-      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
-      "severity": "medium"
-    },
-    {
-      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
-      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
-      "severity": "low"
-    }
-  ],
-  "trending_keywords": [
-    "Hi-Fi",
-    "無損音質",
-    "Taylor Swift",
-    "訂閱漲價",
-    "2026年度回顧",
-    "Apple Music"
-  ],
-  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
-  "article_analyses": [
-    {
-      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
-      "key_points": [
-        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
-        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
-        "網友表示只要音質好就願意買單"
-      ],
+      "title": "Spotify推出新的影片播放控制功能",
+      "description": "Spotify為聽眾引入了新的影片控制功能，讓用戶即使是免費方案也能選擇禁用不想要的影片，提升了用戶體驗和選擇性。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
-      "key_points": [
-        "歐盟針對數位市場法案給出新解釋",
-        "Spotify 官方表示希望能帶給創作者更多收益",
-        "市場反應保留態度"
-      ],
-      "sentiment": "neutral"
+      "title": "Spotify與主要唱片公司贏得反盜版法院判決",
+      "description": "Spotify與主要唱片公司贏得一項3.22億美元的法院命令，旨在打擊音樂盜版並永久禁用Anna's Archive網站，顯示其對保護內容版權的決心。",
+      "severity": "high",
+      "sentiment": "positive"
     },
     {
-      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
-      "key_points": [
-        "昨晚 10 點左右大量亞洲用戶回報連線異常",
-        "官方已在 Twitter (X) 上發布修復公告",
-        "目前多數用戶已恢復正常運作"
-      ],
+      "title": "串流服務潛在漲價與「串流通膨」擔憂",
+      "description": "多篇文章指出，Spotify及其他主要串流服務（如Netflix、YouTube）正被追蹤可能在2026年漲價。市場對「串流通膨」表示擔憂，用戶對不斷上漲的訂閱價格感到不滿，甚至可能因此取消服務。",
+      "severity": "high",
       "sentiment": "negative"
+    },
+    {
+      "title": "小賈斯汀Coachella演出帶動Spotify串流量激增",
+      "description": "小賈斯汀在Coachella音樂節的表演後，其音樂在Spotify上的串流播放量大幅激增，使其登上Spotify全球頂級藝人榜首，展現了名人效應對平台內容消費的巨大影響。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify支持藝術家心理健康資源",
+      "description": "MusiCares推出了針對藝術家和音樂社群的數位心理健康資源，Spotify作為主要支持者之一，展現了其對音樂生態圈中人群福祉的關注。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260414_070943.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260414.jpg"
+  "trending_keywords": [
+    "串流服務",
+    "漲價",
+    "影片控制",
+    "反盜版",
+    "音樂產業",
+    "Podcast",
+    "藝術家",
+    "心理健康",
+    "串流播放量",
+    "演算法"
+  ],
+  "daily_summary": "今日Spotify的輿情呈現兩極化趨勢。一方面，平台推出了新的影片控制功能，並與唱片公司聯手打擊盜版，同時也積極支持藝術家心理健康，帶來正面聲量。另一方面，市場對Spotify及其他串流服務的潛在漲價和「串流通膨」現象表達擔憂，成為主要的負面討論焦點。此外，小賈斯汀在Coachella的演出也為平台帶來了顯著的串流增長。",
+  "article_analyses": [
+    {
+      "title": "Spotify Introduces New Video Controls for Listeners - Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify推出新的影片播放控制功能，提升使用者體驗。",
+        "此功能旨在讓聽眾更好地管理其影音內容消費。"
+      ]
+    },
+    {
+      "title": "Spotify & the Major Labels Won a $322M Court Order Against Music Pirates. Will They Be Able to Collect? - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify與主要唱片公司贏得3.22億美元反盜版法院判決。",
+        "此判決要求網路服務供應商禁用Anna's Archive網站。"
+      ]
+    },
+    {
+      "title": "We're Tracking Streaming Price Hikes in 2026: Netflix, Spotify, YouTube and Others - CNET",
+      "sentiment": "negative",
+      "key_points": [
+        "串流服務可能在2026年漲價，Spotify被提及在觀察名單中。",
+        "用戶需為更多元的內容支付更高費用。"
+      ]
+    },
+    {
+      "title": "Why Every Streamer Suddenly Wants a Podcast Strategy - ADWEEK",
+      "sentiment": "neutral",
+      "key_points": [
+        "串流平台普遍傾向發展Podcast策略。",
+        "Podcast內容被視為吸引和留住用戶的關鍵。"
+      ]
+    },
+    {
+      "title": "WU LYF on Their Comeback & Innovative Membership Model - Billboard",
+      "sentiment": "negative",
+      "key_points": [
+        "討論大型平台（如Spotify）的演算法門檻及AI問題。",
+        "強調人際關係和真正的對話在音樂體驗中的重要性。"
+      ]
+    },
+    {
+      "title": "Class myths, an influx of e-ships, and Olympics tix! : The Indicator from Planet Money - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR播客在Spotify等平台可用。",
+        "文章主要內容與Spotify無直接關聯。"
+      ]
+    },
+    {
+      "title": "YouTube Premium Raising Prices - Deadline",
+      "sentiment": "negative",
+      "key_points": [
+        "YouTube Premium漲價，訂閱用戶超過1.25億。",
+        "此事件為串流服務普遍漲價趨勢提供背景資訊。"
+      ]
+    },
+    {
+      "title": "Is ‘office air’ ruining your look at work? Science says it’s possible - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Live Nation Verdict Watch, Diddy Appeal, Taylor Swift Lawsuit & More Top Music Law News - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "綜合音樂產業法律新聞。",
+        "不直接涉及Spotify的核心業務。"
+      ]
+    },
+    {
+      "title": "Why BTS’ Record-Breaking ‘Arirang’ Comeback Bypassed Old-School Media - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "BTS專輯發行策略，跳過傳統媒體。",
+        "主要討論藝人媒體策略而非串流平台本身。"
+      ]
+    },
+    {
+      "title": "Amazon Agrees To Buy Globalstar In $11.6 Billion Deal Amid Musk Space Battle - Investor's Business Daily",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Thousands of rare concert recordings are landing on the Internet Archive — listen now - TechCrunch",
+      "sentiment": "neutral",
+      "key_points": [
+        "大量演唱會錄音上線Internet Archive。",
+        "為音樂愛好者提供新的收聽資源。"
+      ]
+    },
+    {
+      "title": "Paul Murray Live | 14 April - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "一般媒體訂閱資訊。",
+        "與Spotify無直接關聯。"
+      ]
+    },
+    {
+      "title": "Earnings Preview: Did Netflix Get the Last Laugh on Warner Bros.? - The Hollywood Reporter",
+      "sentiment": "negative",
+      "key_points": [
+        "華爾街看好串流服務漲價趨勢。",
+        "反映了市場對串流服務營收增長的預期。"
+      ]
+    },
+    {
+      "title": "“Streamflation” Might Be Nearing a Crisis Point - The Hollywood Reporter",
+      "sentiment": "negative",
+      "key_points": [
+        "「串流通膨」可能接近臨界點。",
+        "用戶對不斷上漲的娛樂訂閱價格感到不滿。"
+      ]
+    },
+    {
+      "title": "Beewise Highlights Biodiversity and Regenerative Farming Focus in Pollination Series - TipRanks",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Gunzilla CEO Denies Claims Of Not Paying Devs In Long Rant On Twitter - Kotaku",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Meta set to become world’s largest digital ad business - Marketing Week",
+      "sentiment": "neutral",
+      "key_points": [
+        "Meta在數位廣告市場的地位。",
+        "不直接涉及Spotify的廣告策略。"
+      ]
+    },
+    {
+      "title": "Streaming Ratings: ‘One Piece’ Returns Higher, ‘Scarpetta’ Has Solid Opening - TV News Check",
+      "sentiment": "neutral",
+      "key_points": [
+        "電視串流收視率報告。",
+        "與音樂串流平台無直接關聯。"
+      ]
+    },
+    {
+      "title": "News Explorer — Grayscale Pushes Back on SEC Pause of ETF Holding XRP, Solana and Cardano - Decrypt",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "The Morning After: Meta is reportedly working on an AI model of Mark Zuckerberg - Engadget",
+      "sentiment": "negative",
+      "key_points": [
+        "Xbox Game Pass訂閱費用可能過高引發討論。",
+        "反映了普遍的訂閱服務價格敏感性。"
+      ]
+    },
+    {
+      "title": "Streaming Program Price: Thousands Of Shows, Few To Watch? 04/14/2026 - MediaPost",
+      "sentiment": "negative",
+      "key_points": [
+        "串流節目數量多但可看性低，暗示價值與價格不符。",
+        "探討串流服務的內容過載問題。"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, April 13, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "數位閱讀平台YouScribe擴展至衣索比亞。",
+        "主要關注圖書出版界資訊。"
+      ]
+    },
+    {
+      "title": "Chalamet thanked by Royal Ballet and Opera boss for boosting ticket sales - BBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "皇家芭蕾舞團與歌劇院的動態定價策略。",
+        "與串流服務定價模式有異曲同工之處。"
+      ]
+    },
+    {
+      "title": "Spotify Now Offers the Ability to Disable Unwanted Videos - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify提供禁用影片功能，免費會員亦可使用。",
+        "這項新功能強化了用戶對播放內容的控制權。"
+      ]
+    },
+    {
+      "title": "Justin Bieber Coachella Set Sparks Massive Streaming Surge - Variety",
+      "sentiment": "positive",
+      "key_points": [
+        "小賈斯汀Coachella演出後，其音樂在Spotify上串流播放量激增。",
+        "他登上Spotify全球頂級藝人榜首，證明了現場表演的影響力。"
+      ]
+    },
+    {
+      "title": "MusiCares Launches Digital Mental Health Resources For Artists, Music Community - Forbes",
+      "sentiment": "positive",
+      "key_points": [
+        "MusiCares推出藝術家心理健康資源。",
+        "Spotify為此計畫的支持者之一，體現其企業社會責任。"
+      ]
+    },
+    {
+      "title": "‘Project Hail Mary’ Synch Revives Harry Styles’ Debut Single - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂同步效應帶動舊歌曲串流播放量回升。",
+        "電影、電視等媒體如何影響音樂消費。"
+      ]
+    },
+    {
+      "title": "Spinnin’ Records Launches German Label - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spinnin’ Records唱片公司在德國推出新廠牌。",
+        "反映音樂產業的市場擴張策略。"
+      ]
+    },
+    {
+      "title": "Which New Music Release Is Your Favorite This Week? Vote! - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "Billboard舉辦本週新音樂發行投票活動。",
+        "展示了音樂榜單和粉絲參與度。"
+      ]
+    },
+    {
+      "title": "Fans Choose KATSEYE’s ‘Pinky Up’ as This Week’s Favorite New Music - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "讀者票選本週最愛新音樂為KATSEYE的《Pinky Up》。",
+        "反映了新興藝人和歌曲的受歡迎程度。"
+      ]
+    },
+    {
+      "title": "Justin Bieber Coachella Debate Rages Over One Question: Was His Set Perfectly Minimal or Not Enough? - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於小賈斯汀Coachella演出風格的爭議。",
+        "圍繞藝人表現的公眾討論。"
+      ]
+    },
+    {
+      "title": "Lady Gaga and Doechii, KATSEYE, The Strokes & More: New Music Friday Guide - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "新音樂發行週指南。",
+        "介紹了多位藝人的新作品。"
+      ]
+    },
+    {
+      "title": "A Third Of U.S. Streaming Ad Spend Is By Firms That Run On All 9 Platforms 04/09/2026 - MediaPost",
+      "sentiment": "neutral",
+      "key_points": [
+        "美國串流廣告支出概況。",
+        "探討廣告商在多個串流平台上的投入。"
+      ]
+    },
+    {
+      "title": "How ‘Euphoria’ Season 3 Keeps Fezco Alive After Angus Cloud’s Death - Variety",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Which celebrity likes caviar with her Go Greek Yogurt? - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    },
+    {
+      "title": "Fidel Castro's Daughter Reflects On Cuba's Future At Miami Film Fest - Deadline",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關。"
+      ]
+    }
+  ],
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260415_071106.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260415.jpg"
 }
