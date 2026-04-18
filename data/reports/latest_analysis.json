@@ -1,64 +1,419 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.65,
-    "neutral_ratio": 0.25,
-    "negative_ratio": 0.1
+    "positive_ratio": 0.8,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.2
   },
   "events": [
     {
-      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
-      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
-      "severity": "high"
-    },
-    {
-      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
-      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
-      "severity": "medium"
-    },
-    {
-      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
-      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
-      "severity": "low"
-    }
-  ],
-  "trending_keywords": [
-    "Hi-Fi",
-    "無損音質",
-    "Taylor Swift",
-    "訂閱漲價",
-    "2026年度回顧",
-    "Apple Music"
-  ],
-  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
-  "article_analyses": [
-    {
-      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
-      "key_points": [
-        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
-        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
-        "網友表示只要音質好就願意買單"
-      ],
+      "title": "新功能：銷售實體書籍與擴展有聲書",
+      "description": "Spotify 在美國和英國推出銷售實體書籍功能，並擴展其有聲書產品線，與Bookshop.org合作，進一步拓展音訊內容以外的市場。",
+      "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
-      "key_points": [
-        "歐盟針對數位市場法案給出新解釋",
-        "Spotify 官方表示希望能帶給創作者更多收益",
-        "市場反應保留態度"
-      ],
-      "sentiment": "neutral"
+      "title": "法律勝訴：打擊音樂盜版",
+      "description": "Spotify 在對抗音樂盜版公司 Anna's Archive 的訴訟中贏得3.22億美元的賠償金，展現其保護版權的決心及能力。",
+      "severity": "high",
+      "sentiment": "positive"
     },
     {
-      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
-      "key_points": [
-        "昨晚 10 點左右大量亞洲用戶回報連線異常",
-        "官方已在 Twitter (X) 上發布修復公告",
-        "目前多數用戶已恢復正常運作"
-      ],
+      "title": "平板應用程式介面重大改版",
+      "description": "Spotify 針對 iPad 和 Android 平板用戶推出全新設計的應用程式介面，優化大螢幕體驗，並支援折疊手機，提升用戶滿意度。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "新功能：允許用戶關閉應用程式內影片",
+      "description": "Spotify 推出讓用戶自由選擇關閉應用程式內所有影片的功能，提供更專注的純音訊體驗，並支援家庭方案的影片內容限制。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "合作支持獨立音樂場地",
+      "description": "Spotify 與國家獨立場地協會（NIVA）建立長期合作夥伴關係，承諾支持洛杉磯及美國各地的獨立現場音樂場地和藝術家。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美國訂閱費用再度漲價",
+      "description": "Spotify 宣布在美國地區再次調漲訂閱費用，Premium 月費從11.99美元增至12.99美元，可能影響部分用戶的接受度。",
+      "severity": "high",
       "sentiment": "negative"
+    },
+    {
+      "title": "RADAR 2026 計畫推廣華語新聲",
+      "description": "Spotify RADAR 2026 計畫公布了8組華語樂壇新聲力名單，旨在提拔並推廣新興音樂人，如盧廣仲師弟呂允。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260417_071124.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260417.jpg"
+  "trending_keywords": [
+    "實體書",
+    "有聲書",
+    "平板改版",
+    "關閉影片",
+    "獨立音樂場地",
+    "訂閱漲價",
+    "盜版訴訟",
+    "RADAR計畫",
+    "藝人合作"
+  ],
+  "daily_summary": "今日 Spotify 輿情呈現多元趨勢，主要聚焦於產品功能擴展、市場策略與法律議題。在正面方面，Spotify 推出了銷售實體書、擴展有聲書功能，並全面改版平板應用程式介面，同時新增了關閉影片的選項以提升用戶體驗。此外，Spotify 在打擊盜版方面取得重大法律勝利，並與 NIVA 合作支持獨立音樂場地。然而，值得關注的負面消息是美國地區的訂閱費用再次調漲，這可能會引起部分用戶的不滿。",
+  "article_analyses": [
+    {
+      "title": "Spotify RADAR 2026 公布 8 組新聲力攻佔華語樂壇",
+      "sentiment": "positive",
+      "key_points": [
+        "公布 RADAR 2026 新聲力名單",
+        "推廣華語樂壇新秀"
+      ]
+    },
+    {
+      "title": "盧廣仲師弟呂允出頭天！登Spotify RADAR名單 受封Z世代創作黑馬",
+      "sentiment": "positive",
+      "key_points": [
+        "呂允登上 Spotify RADAR 名單",
+        "RADAR 計畫成功發掘新星"
+      ]
+    },
+    {
+      "title": "Spotify 現在銷售印刷書籍",
+      "sentiment": "positive",
+      "key_points": [
+        "推出銷售印刷書籍功能",
+        "擴展服務範圍"
+      ]
+    },
+    {
+      "title": "Spotify 剛剛從它找不到的音樂盜版公司贏得了 3.22 億美元",
+      "sentiment": "positive",
+      "key_points": [
+        "贏得 3.22 億美元賠償金",
+        "成功打擊音樂盜版"
+      ]
+    },
+    {
+      "title": "Spotify is getting a major revamp for tablets - here's what's new",
+      "sentiment": "positive",
+      "key_points": [
+        "平板應用程式重大改版",
+        "優化大螢幕體驗"
+      ]
+    },
+    {
+      "title": "Spotify's latest update is a redesign for iPads with four features",
+      "sentiment": "positive",
+      "key_points": [
+        "iPad 應用程式介面重新設計",
+        "新增四項功能"
+      ]
+    },
+    {
+      "title": "Spotify's new tablet interface is more than just a bigger version of your phone",
+      "sentiment": "positive",
+      "key_points": [
+        "平板介面專為大螢幕優化",
+        "提升平板用戶體驗"
+      ]
+    },
+    {
+      "title": "Spotify launches the ability to purchase physical books in the US and UK",
+      "sentiment": "positive",
+      "key_points": [
+        "美國和英國推出購買實體書功能",
+        "擴展至書籍零售市場"
+      ]
+    },
+    {
+      "title": "Spotify now lets everyone turn off videos in its app",
+      "sentiment": "positive",
+      "key_points": [
+        "提供關閉應用程式內影片選項",
+        "允許用戶選擇純音訊體驗"
+      ]
+    },
+    {
+      "title": "Spotify launches push to back L.A.'s independent music venues",
+      "sentiment": "positive",
+      "key_points": [
+        "合作支持洛杉磯獨立音樂場地",
+        "推廣現場音樂"
+      ]
+    },
+    {
+      "title": "Spotify will soon let you turn off all videos. Here's how.",
+      "sentiment": "positive",
+      "key_points": [
+        "月底前所有用戶可關閉影片",
+        "增加用戶控制權"
+      ]
+    },
+    {
+      "title": "Spotify rolls out redesigned app for tablets, works on most foldables too [Gallery]",
+      "sentiment": "positive",
+      "key_points": [
+        "平板應用程式改版",
+        "支援折疊手機"
+      ]
+    },
+    {
+      "title": "Bad Bunny's Japan concert to stream on Spotify starting April 8",
+      "sentiment": "positive",
+      "key_points": [
+        "Bad Bunny 日本演唱會紀錄片獨家串流",
+        "提供獨家藝人內容"
+      ]
+    },
+    {
+      "title": "Maybe Spotify knows more about you than you do",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Wrapped 功能受好評",
+        "數據分析有趣且可分享"
+      ]
+    },
+    {
+      "title": "Spotify Champions Live Music With Independent Music Venue Deal",
+      "sentiment": "positive",
+      "key_points": [
+        "與 NIVA 合作支持獨立現場音樂",
+        "提升獨立場地和藝術家可見度"
+      ]
+    },
+    {
+      "title": "How Well Can Spotify Monetize Its 751 Million Users?",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討 Spotify 用戶變現潛力",
+        "財務分析與競爭環境"
+      ]
+    },
+    {
+      "title": "Spotify's newest feature lets you focus on audio without distractions",
+      "sentiment": "positive",
+      "key_points": [
+        "新功能讓用戶專注於音訊",
+        "減少應用程式內干擾"
+      ]
+    },
+    {
+      "title": "Spotify and NIVA Partner to Support Independent Music Venues",
+      "sentiment": "positive",
+      "key_points": [
+        "與 NIVA 合作支持美國獨立現場音樂",
+        "長期合作關係"
+      ]
+    },
+    {
+      "title": "Spotify now lets you turn off all its videos",
+      "sentiment": "positive",
+      "key_points": [
+        "全球推出關閉所有影片功能",
+        "家庭方案可限制影片內容"
+      ]
+    },
+    {
+      "title": "Is Spotify Stock a Buy Now?",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 股票分析",
+        "股價波動與投資建議"
+      ]
+    },
+    {
+      "title": "Justin Bieber Coachella Set Sparks Massive Streaming Surge",
+      "sentiment": "positive",
+      "key_points": [
+        "Justin Bieber 演出帶動串流播放量",
+        "平台藝人影響力"
+      ]
+    },
+    {
+      "title": "Spotify Starts Selling Physical Books and Expands Audiobooks Features",
+      "sentiment": "positive",
+      "key_points": [
+        "開始銷售實體書",
+        "擴展有聲書功能"
+      ]
+    },
+    {
+      "title": "We're Tracking Streaming Price Hikes in 2026: Netflix, Spotify, YouTube and Others",
+      "sentiment": "neutral",
+      "key_points": [
+        "串流服務普遍漲價趨勢",
+        "提及 Spotify 漲價"
+      ]
+    },
+    {
+      "title": "Spotify launches physical book sales, expands audiobook features",
+      "sentiment": "positive",
+      "key_points": [
+        "推出實體書銷售",
+        "擴展有聲書功能"
+      ]
+    },
+    {
+      "title": "How Spotify And BTS Created A Movement For 'ARIRANG'",
+      "sentiment": "positive",
+      "key_points": [
+        "與 BTS 合作推廣專輯",
+        "獨家內容與活動"
+      ]
+    },
+    {
+      "title": "That 300TB Spotify scrape just turned into a $300 million bill",
+      "sentiment": "positive",
+      "key_points": [
+        "法院判決盜版團體賠償 Spotify 3.22 億美元",
+        "維護版權成果"
+      ]
+    },
+    {
+      "title": "Spotify just announced another price hike. Here's what's really driving it",
+      "sentiment": "negative",
+      "key_points": [
+        "美國訂閱費用再度漲價",
+        "Premium 月費漲至 12.99 美元"
+      ]
+    },
+    {
+      "title": "Got $1,000? Netflix vs. Spotify — Only One Deserves Your Money Right Now",
+      "sentiment": "neutral",
+      "key_points": [
+        "股票投資比較",
+        "Spotify 與 Netflix 財務分析"
+      ]
+    },
+    {
+      "title": "The official Artemis II soundtrack just dropped on Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "Artemis II 任務官方播放清單上線",
+        "文化與太空合作內容"
+      ]
+    },
+    {
+      "title": "Spotify's selling physical books as it expands audiobook features",
+      "sentiment": "positive",
+      "key_points": [
+        "銷售實體書",
+        "擴展有聲書業務"
+      ]
+    },
+    {
+      "title": "15 Country Songs Have Reached One Billion Spotify Streams: No. 1 May Shock You",
+      "sentiment": "positive",
+      "key_points": [
+        "鄉村歌曲串流播放量突破十億",
+        "平台播放數據里程碑"
+      ]
+    },
+    {
+      "title": "From Chappell Roan to John Legend: The Artemis 2 wakeup playlist",
+      "sentiment": "positive",
+      "key_points": [
+        "Artemis 2 任務喚醒播放清單",
+        "積極向上的音樂選擇"
+      ]
+    },
+    {
+      "title": "Spotify wins $300M in battle against pirate group. Will it see any of that cash?",
+      "sentiment": "positive",
+      "key_points": [
+        "贏得 3 億美元賠償金",
+        "打擊盜版維護權益"
+      ]
+    },
+    {
+      "title": "Is Spotify Technology S.A. (SPOT) A Good Stock To Buy Now?",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 股票分析",
+        "探討投資價值"
+      ]
+    },
+    {
+      "title": "Spotify’s latest update is a redesign for iPads with four features - 9to5Mac",
+      "sentiment": "positive",
+      "key_points": [
+        "iPad 應用程式介面重新設計",
+        "更新四項主要功能"
+      ]
+    },
+    {
+      "title": "Spotify Will Let Customers Buy a Hard-Copy Book With a Click in the App - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "應用程式內可直接購買實體書",
+        "擴展零售功能"
+      ]
+    },
+    {
+      "title": "Spotify launches push to back L.A.’s independent music venues - Los Angeles Times",
+      "sentiment": "positive",
+      "key_points": [
+        "合作支持洛杉磯獨立音樂場地",
+        "推廣在地音樂文化"
+      ]
+    },
+    {
+      "title": "Spotify Champions Live Music With Independent Music Venue Deal - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "與 NIVA 合作支持獨立音樂場地",
+        "推動現場音樂發展"
+      ]
+    },
+    {
+      "title": "Spotify Boosts Visibility for Indie Venues On-Platform With New NIVA Partnership - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "與 NIVA 合作提升獨立場地可見度",
+        "加強平台與現場音樂連結"
+      ]
+    },
+    {
+      "title": "Why brands can’t afford to be silent in the sound-on era - Campaign",
+      "sentiment": "neutral",
+      "key_points": [
+        "音訊在消費者日常的重要性",
+        "品牌應加強音訊溝通"
+      ]
+    },
+    {
+      "title": "Why brands can’t afford to be silent in the sound-on era - campaignlive.co.uk",
+      "sentiment": "neutral",
+      "key_points": [
+        "強調音訊在數位時代的重要性",
+        "Spotify 用戶對音訊的高度投入"
+      ]
+    },
+    {
+      "title": "Spotify launches physical book sales in the US and UK via Bookshop.org partnership - The Next Web",
+      "sentiment": "positive",
+      "key_points": [
+        "美國和英國推出實體書銷售",
+        "與 Bookshop.org 合作"
+      ]
+    },
+    {
+      "title": "Spotify and NIVA Partner to Support Independent Music Venues - Variety",
+      "sentiment": "positive",
+      "key_points": [
+        "與 NIVA 合作支持美國獨立現場音樂",
+        "承諾長期支持"
+      ]
+    },
+    {
+      "title": "Spotify rolls out redesigned app for tablets, works on most foldables too [Gallery] - 9to5Google",
+      "sentiment": "positive",
+      "key_points": [
+        "平板應用程式介面改版",
+        "支援折疊設備"
+      ]
+    }
+  ],
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260418_060345.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260418.jpg"
 }
