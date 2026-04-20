@@ -1,520 +1,64 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.5,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.5
+    "positive_ratio": 0.65,
+    "neutral_ratio": 0.25,
+    "negative_ratio": 0.1
   },
   "events": [
     {
-      "title": "平板應用程式全面改版上線",
-      "description": "Spotify 為 iPad、Android 平板以及部分摺疊裝置推出大規模介面改版，提供四項新功能，旨在優化大螢幕使用體驗，使其不再只是手機版的放大。",
-      "severity": "high",
-      "sentiment": "positive"
+      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
+      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
+      "severity": "high"
     },
     {
-      "title": "應用程式內新增實體書籍購買功能",
-      "description": "Spotify 與 Bookshop.org 合作，在美國和英國的 App 內開放用戶購買實體書籍，此功能已於 Android 上線，iOS 將於下週推出，顯示 Spotify 持續擴展有聲書相關業務。",
-      "severity": "high",
-      "sentiment": "positive"
+      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
+      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
+      "severity": "medium"
     },
     {
-      "title": "與 NIVA 合作支持獨立音樂場館",
-      "description": "Spotify 宣布與美國獨立場館協會 (NIVA) 建立為期一年的合作夥伴關係，旨在提升獨立音樂場館的能見度，透過「獨立書訂者精選歌單」等方式支持現場音樂產業。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "推出「純音訊模式」功能，可關閉影片",
-      "description": "Spotify 將於四月底前推出一項新功能，允許所有用戶關閉應用程式內的影片內容，讓聽眾能更專注於音訊體驗，減少視覺干擾。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "著作權訴訟擊敗盜版集團 Anna's Archive",
-      "description": "Spotify 在對抗盜版集團 Anna's Archive 的著作權訴訟中獲勝，獲得 3.22 億美元的賠償判決，此案例為未來的串流盜版案件樹立了強而有力的法律先例。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "藝人內容與串流里程碑持續達成",
-      "description": "Bad Bunny 日本演唱會紀錄片將於 4 月 8 日在 Spotify 上串流，Dire Straits 的《Walk Of Life》加入「十億串流俱樂部」，Olivia Rodrigo 新歌《Drop Dead》創下破紀錄串流並空降榜首，Justin Bieber 在 Coachella 演出後歌曲串流量大幅飆升。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "股價近期呈現波動",
-      "description": "Spotify 股價近期從 52 週高點顯著回調，年至今已下跌約 17%，引發投資者對其股票表現的討論。",
-      "severity": "medium",
-      "sentiment": "negative"
+      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
+      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
+      "severity": "low"
     }
   ],
   "trending_keywords": [
-    "平板改版",
-    "實體書籍",
-    "獨立音樂場館",
-    "NIVA",
-    "關閉影片",
-    "著作權",
-    "盜版",
-    "串流次數",
-    "有聲書",
-    "新功能"
+    "Hi-Fi",
+    "無損音質",
+    "Taylor Swift",
+    "訂閱漲價",
+    "2026年度回顧",
+    "Apple Music"
   ],
-  "daily_summary": "今日 Spotify 輿情以積極發展為主。平台推出平板應用程式的全面改版，並跨足新領域，在美國和英國的 App 內開賣實體書籍，同時也與 NIVA 合作支持獨立音樂場館，展現其在產品創新與產業支持上的努力。此外，Spotify 在著作權訴訟中獲勝，並持續有眾多藝人內容達到串流里程碑。儘管股價近期出現波動，整體來看，社群討論對 Spotify 的新功能和擴展策略抱持正面態度。",
+  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
   "article_analyses": [
     {
-      "title": "Spotify's latest update is a redesign for iPads with four features",
-      "sentiment": "positive",
+      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
       "key_points": [
-        "Spotify 為 iPad 用戶推出 App 介面改版",
-        "包含四項新功能"
-      ]
+        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
+        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
+        "網友表示只要音質好就願意買單"
+      ],
+      "sentiment": "positive"
     },
     {
-      "title": "Spotify now sells printed books through its app in the U.S. and U.K.",
-      "sentiment": "positive",
+      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
       "key_points": [
-        "Spotify 與 Bookshop.org 合作，在美國和英國銷售實體書籍",
-        "Android 用戶已可購買，iOS 用戶下週可用"
-      ]
+        "歐盟針對數位市場法案給出新解釋",
+        "Spotify 官方表示希望能帶給創作者更多收益",
+        "市場反應保留態度"
+      ],
+      "sentiment": "neutral"
     },
     {
-      "title": "Spotify's new tablet interface is more than just a bigger version of your phone",
-      "sentiment": "positive",
+      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
       "key_points": [
-        "Spotify 推出針對 Android 和 iPadOS 的平板介面更新",
-        "新設計改善佈局，更充分利用大螢幕"
-      ]
-    },
-    {
-      "title": "Spotify launches the ability to purchase physical books in the US and UK",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 用戶可在美國和英國透過 Android App 購買實體書籍",
-        "iOS 用戶下週將獲得此功能"
-      ]
-    },
-    {
-      "title": "Spotify Is Getting A Major Revamp For Tablets - Here's What's New",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 平板 App 在 Android 和 iOS 上進行重大改版",
-        "新設計能更好地利用大螢幕空間"
-      ]
-    },
-    {
-      "title": "Spotify will soon let you turn off all videos. Here's how.",
-      "sentiment": "positive",
-      "key_points": [
-        "所有 Spotify 用戶預計在四月底前可關閉影片內容"
-      ]
-    },
-    {
-      "title": "Spotify launches push to back L.A.'s independent music venues",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 宣布與美國獨立場館協會 (NIVA) 合作，支持洛杉磯的獨立音樂場館",
-        "為期一年的合作將協助突顯地方場館的演出"
-      ]
-    },
-    {
-      "title": "Bad Bunny's Japan concert to stream on Spotify starting April 8",
-      "sentiment": "neutral",
-      "key_points": [
-        "Bad Bunny 日本首場演唱會紀錄片將於 4 月 8 日在 Spotify 上串流"
-      ]
-    },
-    {
-      "title": "How Well Can Spotify Monetize Its 751 Million Users?",
-      "sentiment": "neutral",
-      "key_points": [
-        "討論 Spotify 如何將其 7.51 億月活躍用戶變現",
-        "在串流音訊產業中與 Apple、Alphabet (YouTube) 和 Amazon 競爭"
-      ]
-    },
-    {
-      "title": "Spotify now offers TV-style recaps for audiobooks",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 為有聲書推出電視影集風格的「回顧」功能",
-        "新增多項有聲書相關功能，如擴展的 Page Match"
-      ]
-    },
-    {
-      "title": "Bad Bunny Took Over Tokyo. Now Watch It on Spotify",
-      "sentiment": "positive",
-      "key_points": [
-        "42 分鐘的 Bad Bunny 東京演出影片將在 Spotify 的 Billions Club Live Series 上播放",
-        "包含獨家專訪"
-      ]
-    },
-    {
-      "title": "Spotify Boosts Visibility for Indie Venues On-Platform With New NIVA Partnership",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 透過與 NIVA 的新合作，提升獨立音樂場館在平台上的能見度"
-      ]
-    },
-    {
-      "title": "Dire Straits' 'Walk Of Life' Joins Spotify Billions Club",
-      "sentiment": "positive",
-      "key_points": [
-        "Dire Straits 1985 年的熱門歌曲《Walk Of Life》加入 Spotify 十億串流俱樂部",
-        "這是樂團第二首達到此里程碑的歌曲"
-      ]
-    },
-    {
-      "title": "Is Spotify Stock a Buy Now?",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 股價近期波動劇烈，從 52 週高點大幅回落",
-        "截至目前，股價今年已下跌約 17%"
-      ]
-    },
-    {
-      "title": "10 Hacks Every Spotify User Should Know",
-      "sentiment": "neutral",
-      "key_points": [
-        "提供 10 個 Spotify 使用技巧，以最大化收聽體驗"
-      ]
-    },
-    {
-      "title": "Spotify's newest feature lets you focus on audio without distractions",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出新功能，讓 App 能夠完全專注於音訊",
-        "這項通用開關可關閉大部分影片，回應用戶希望減少分心、專注收聽的需求"
-      ]
-    },
-    {
-      "title": "Spotify and NIVA Partner to Support Independent Music Venues",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 和美國獨立場館協會宣布為期一年的合作，旨在加強美國的獨立現場音樂發展"
-      ]
-    },
-    {
-      "title": "Justin Bieber Coachella Set Sparks Massive Streaming Surge",
-      "sentiment": "positive",
-      "key_points": [
-        "Justin Bieber 在 Coachella 的演出導致串流量大幅增長",
-        "其 21 首歌曲進入 Spotify 全球 Top 200 榜單，是音樂節後所有藝人中最多"
-      ]
-    },
-    {
-      "title": "Spotify Wins $322M Against Pirates Anna's Archive in Historic Copyright Battle",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 在對抗盜版集團 Anna's Archive 的著作權戰中贏得 3.22 億美元判決",
-        "此裁決為未來的串流盜版案件樹立了強而有力的先例"
-      ]
-    },
-    {
-      "title": "We're Tracking Streaming Price Hikes in 2026: Netflix, Spotify, YouTube and Others",
-      "sentiment": "neutral",
-      "key_points": [
-        "討論 2026 年串流服務價格上漲趨勢，點名 Netflix、Spotify 等平台",
-        "文中主要提及 Philo 服務的價格上漲"
-      ]
-    },
-    {
-      "title": "Maybe Spotify knows more about you than you do",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 的「Wrapped」年終回顧功能擅長將用戶收聽數據轉化為有趣且可分享的內容",
-        "2025 年版更超越以往的總結方式"
-      ]
-    },
-    {
-      "title": "Olivia Rodrigo's 'Drop Dead' debuts at no 1 on Spotify with record-breaking streams",
-      "sentiment": "positive",
-      "key_points": [
-        "Olivia Rodrigo 的歌曲《Drop Dead》在 Spotify 首日串流量約達 1070 萬，創下她職業生涯中最大的首發紀錄並登上冠軍"
-      ]
-    },
-    {
-      "title": "How Spotify And BTS Created A Movement For 'ARIRANG'",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 和 BTS 合作，透過獨家內容、特別活動和演出，共同推廣 BTS 的專輯《ARIRANG》"
-      ]
-    },
-    {
-      "title": "The official Artemis II soundtrack just dropped on Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Artemis II 官方原聲帶已在 Spotify 上線，包含橫跨數十年、多種曲風的八首歌曲"
-      ]
-    },
-    {
-      "title": "Got $1,000? Netflix vs. Spotify — Only One Deserves Your Money Right Now",
-      "sentiment": "neutral",
-      "key_points": [
-        "比較 Netflix 和 Spotify 兩家公司的投資價值",
-        "兩者都是處於轉捩點的訂閱和廣告業務"
-      ]
-    },
-    {
-      "title": "You can now buy physical books in the Spotify app",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 現已允許用戶在美國和英國透過 App 購買實體書籍",
-        "擴展有聲書功能，並引入 Page Match、Recaps 和 Charts 等功能以提供更連結的閱讀體驗"
-      ]
-    },
-    {
-      "title": "Spotify's selling physical books as it expands audiobook features",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 銷售實體書籍，並擴展其有聲書功能",
-        "已在 22 個市場營運有聲書業務，擁有 70 萬個書目"
-      ]
-    },
-    {
-      "title": "From Chappell Roan to John Legend: The Artemis 2 wakeup playlist",
-      "sentiment": "neutral",
-      "key_points": [
-        "Artemis 2 任務的喚醒歌單已在 Spotify 上線，旨在為太空人的一天帶來正能量"
-      ]
-    },
-    {
-      "title": "15 Country Songs Have Reached One Billion Spotify Streams: No. 1 May Shock You",
-      "sentiment": "positive",
-      "key_points": [
-        "15 首鄉村歌曲已在 Spotify 上達到十億次串流里程碑"
-      ]
-    },
-    {
-      "title": "Spotify wins $300M in battle against pirate group. Will it see any of that cash?",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 在對抗盜版集團的戰鬥中贏得 3 億美元，唱片公司也贏得 2200 萬美元",
-        "此案源於匿名團體 Anna's Archive 去年抓取並發布了 Spotify 的音樂庫"
-      ]
-    },
-    {
-      "title": "Spotify and NIVA Partner to Support Independent Music Venues - Variety",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 與 NIVA 合作支持獨立音樂場館，推出「獨立書訂者精選歌單」系列",
-        "NIVA 每月將選擇一位獨立書訂者與 Spotify 編輯團隊合作製作歌單"
-      ]
-    },
-    {
-      "title": "Spotify Boosts Visibility for Indie Venues On-Platform With New NIVA Partnership - Billboard",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 透過與 NIVA 的新合作提升獨立場館能見度",
-        "Spotify 於 2025 年 3 月推出「你附近演唱會」個人化歌單，去年 10 月推出讓粉絲追蹤喜愛場館的功能"
-      ]
-    },
-    {
-      "title": "Spotify launches physical book sales in the US and UK via Bookshop.org partnership - The Next Web",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 透過與 Bookshop.org 合作在美國和英國推出實體書籍銷售",
-        "此功能目前的重點在於體驗而非營收，預期未來有望像 Podcasts 一樣帶來顯著貢獻"
-      ]
-    },
-    {
-      "title": "Spotify Will Let Customers Buy a Hard-Copy Book With a Click in the App - CNET",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 將允許客戶在 App 中一鍵購買實體書籍",
-        "新功能將陸續推出給 Android 用戶，iOS 裝置預計下週可用"
-      ]
-    },
-    {
-      "title": "Spotify launches push to back L.A.’s independent music venues - Los Angeles Times",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 發起推動，支持洛杉磯的獨立音樂場館"
-      ]
-    },
-    {
-      "title": "Spotify’s latest update is a redesign for iPads with four features - 9to5Mac",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 最新更新為 iPad 帶來重新設計的介面和四項功能"
-      ]
-    },
-    {
-      "title": "Spotify Champions Live Music With Independent Music Venue Deal - CNET",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 與 NIVA 合作支持獨立音樂場館，強調其是「現場音樂的心臟」",
-        "此合作旨在讓粉絲更容易發現他們會喜愛的藝人"
-      ]
-    },
-    {
-      "title": "Spotify rolls out redesigned app for tablets, works on most foldables too [Gallery] - 9to5Google",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 為平板用戶推出重新設計的 App，同時也適用於大多數 Android 摺疊手機"
-      ]
-    },
-    {
-      "title": "Why brands can’t afford to be silent in the sound-on era - campaignlive.co.uk",
-      "sentiment": "neutral",
-      "key_points": [
-        "音訊已融入人們的日常生活，94% 的英國 Spotify 用戶在串流音訊時會停止其他線上活動",
-        "討論品牌在「有聲時代」中不可忽視音訊的重要性"
-      ]
-    },
-    {
-      "title": "Why brands can’t afford to be silent in the sound-on era - Campaign",
-      "sentiment": "neutral",
-      "key_points": [
-        "音訊在人們的日常生活中扮演重要角色，包括音樂、播客、影片和有聲書",
-        "Spotify 的白皮書指出 94% 的英國用戶在串流音訊時會專心聆聽"
-      ]
-    },
-    {
-      "title": "Jury finds Live Nation liable in antitrust trial - NBC News",
-      "sentiment": "neutral",
-      "key_points": [
-        "陪審團裁定 Live Nation 在反壟斷訴訟中負有責任"
-      ]
-    },
-    {
-      "title": "Live Nation Verdict Watch, Diddy Appeal, Taylor Swift Lawsuit & More Top Music Law News - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "音樂法律新聞，包含 Live Nation 判決、Diddy 上訴、Taylor Swift 訴訟等"
-      ]
-    },
-    {
-      "title": "Amazon Agrees To Buy Globalstar In $11.6 Billion Deal Amid Musk Space Battle - Investor's Business Daily",
-      "sentiment": "neutral",
-      "key_points": [
-        "亞馬遜同意以 116 億美元收購 Globalstar"
-      ]
-    },
-    {
-      "title": "Failed Shoe Company Allbirds Pivoting To AI - Kotaku",
-      "sentiment": "neutral",
-      "key_points": [
-        "鞋類公司 Allbirds 轉型投入 AI 領域"
-      ]
-    },
-    {
-      "title": "Earnings Preview: Did Netflix Get the Last Laugh on Warner Bros.? - The Hollywood Reporter",
-      "sentiment": "neutral",
-      "key_points": [
-        "Netflix 財報預覽，探討其與 Warner Bros. 的競爭"
-      ]
-    },
-    {
-      "title": "Meta set to become world’s largest digital ad business - Marketing Week",
-      "sentiment": "neutral",
-      "key_points": [
-        "Meta 有望成為全球最大的數位廣告業務公司"
-      ]
-    },
-    {
-      "title": "Jim O’Rourke - Unsound 2025 Artist Talk - Splice Today",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Jim O’Rourke 在 Unsound 2025 的藝人對談"
-      ]
-    },
-    {
-      "title": "David Letterman Speaks Out on CBS Replacing ‘Late Show’ With ‘Comics Unleashed’ | THR News Video - The Hollywood Reporter",
-      "sentiment": "neutral",
-      "key_points": [
-        "David Letterman 談論 CBS 以《Comics Unleashed》取代《Late Show》"
-      ]
-    },
-    {
-      "title": "The Morning After: Meta is reportedly working on an AI model of Mark Zuckerberg - Engadget",
-      "sentiment": "neutral",
-      "key_points": [
-        "Meta 據報正在開發 Mark Zuckerberg 的 AI 模型",
-        "Xbox Game Pass 訂閱服務定價可能過高"
-      ]
-    },
-    {
-      "title": "Streaming Program Price: Thousands Of Shows, Few To Watch? 04/14/2026 - MediaPost",
-      "sentiment": "neutral",
-      "key_points": [
-        "討論串流節目定價：節目眾多，但值得觀看的甚少"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, April 13, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "YouScribe 在衣索比亞推出數位閱讀平台"
-      ]
-    },
-    {
-      "title": "Zoomex Launches ZoomexStocks: Trade Global Equities with USDT + Limited-Time Fee Rebate Campaign - markets.businessinsider.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "Zoomex 推出 ZoomexStocks，可使用 USDT 交易全球股票"
-      ]
-    },
-    {
-      "title": "MusiCares Launches Digital Mental Health Resources For Artists, Music Community - Forbes",
-      "sentiment": "positive",
-      "key_points": [
-        "MusiCares 為藝人和音樂社群推出數位心理健康資源",
-        "Spotify 支持 Backline 組織的 24/7 危機求助熱線"
-      ]
-    },
-    {
-      "title": "Jessica Chastain Says Apple TV Will Finally Release The Savant - Variety",
-      "sentiment": "neutral",
-      "key_points": [
-        "Jessica Chastain 表示 Apple TV 將最終發行《The Savant》"
-      ]
-    },
-    {
-      "title": "Live Nation Illegally Monopolized Ticketing Market, Jury Finds - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "陪審團裁定 Live Nation 非法壟斷票務市場"
-      ]
-    },
-    {
-      "title": "Justin Bieber Coachella Debate Rages Over One Question: Was His Set Perfectly Minimal or Not Enough? - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "Justin Bieber 在 Coachella 演出的討論，關於其表演風格是極簡還是不夠"
-      ]
-    },
-    {
-      "title": "Pete Hegseth Invokes The Bible To Lash Out At News Media: “Our Press Our Just Like These Pharisees” - Deadline",
-      "sentiment": "neutral",
-      "key_points": [
-        "Pete Hegseth 引用聖經抨擊新聞媒體"
-      ]
-    },
-    {
-      "title": "Live Nation illegally monopolized the market for tickets, jury finds - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": [
-        "陪審團裁定 Live Nation 非法壟斷票務市場"
-      ]
-    },
-    {
-      "title": "Which celebrity likes caviar with her Go Greek Yogurt? - NBC New York",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於哪位名人喜歡將魚子醬與希臘優格搭配"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
+        "昨晚 10 點左右大量亞洲用戶回報連線異常",
+        "官方已在 Twitter (X) 上發布修復公告",
+        "目前多數用戶已恢復正常運作"
+      ],
+      "sentiment": "negative"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260419_065634.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260419.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260420_073225.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260420.jpg"
 }
