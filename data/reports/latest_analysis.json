@@ -1,465 +1,388 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.8,
+    "positive_ratio": 0.9,
     "negative_ratio": 0.0,
-    "neutral_ratio": 0.2
+    "neutral_ratio": 0.1
   },
   "events": [
     {
-      "title": "Spotify 20週年慶祝活動與歷史數據公布",
-      "description": "Spotify 慶祝成立20週年，首次公開平台史上播放量最高的藝人、歌曲、專輯、播客和有聲書名單。Taylor Swift 被評為史上播放量最高的藝人，Bad Bunny 的《Un Verano Sin Ti》為史上播放量最高的專輯。此事件引發大量媒體報導和粉絲討論。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify RADAR 新勢力計畫推廣",
-      "description": "台灣多位新興 Z 世代創作歌手如 CClaire 馬愷伶、呂允、宏兒、Quanzo、E1and 等入選 Spotify RADAR 新勢力計畫，獲得平台大力推廣，其中馬愷伶的歌曲也獲得百萬流量。",
+      "title": "Anthropic Claude AI 深度整合 Spotify",
+      "description": "Anthropic 宣布其 Claude AI 將深度整合 Spotify 等 15 款生活風格 App，能協助用戶打造完美的播放清單，顯著提升個人化體驗。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 與 AI 助手 Claude 整合",
-      "description": "Spotify 宣布與 Anthropic 的 AI 助手 Claude 整合，未來將支援音樂與播客的推薦及播放功能，並可連結至 Uber 等日常生活應用，預期能增強使用者體驗。",
+      "title": "任天堂音樂首次登陸 Spotify",
+      "description": "《超級瑪利歐銀河》原聲帶驚喜釋出，限時登陸 Spotify，為平台帶來知名遊戲音樂內容。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "遠傳攜手 Spotify 打造「ID.音樂節」",
-      "description": "遠傳電信與 Spotify 合作，共同推出全新的「ID.音樂節」，結合電信與音樂串流平台資源，推廣音樂活動。",
+      "title": "Spotify 20 週年榜單公開",
+      "description": "Spotify 公布平台營運 20 週年的全球榜單，回顧最強歌手、專輯與神曲，引發公眾回憶與討論。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify iPad 版應用程式更新",
-      "description": "Spotify 推出 iPad 應用程式新版本，帶來四項新功能與重新設計的使用者介面，旨在優化 iPad 用戶體驗。",
+      "title": "Spotify 股票評級重申與財報發布在即",
+      "description": "Benchmark 和 Guggenheim 等機構重申對 Spotify 股票的「買入」評級，市場對即將發布的財報抱持積極預期。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "CClaire 馬愷伶入選 Spotify RADAR 新勢力",
+      "description": "歌手 CClaire 馬愷伶的新歌突破百萬點擊，並入選 Spotify RADAR 新勢力，顯示平台持續推廣新興藝術家。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "德州總檢察長調查 Spotify 和 Apple Music 的「付費播放」指控",
-      "description": "德州總檢察長 Ken Paxton 宣布對 Spotify 和 Apple Music 等主要串流平台啟動民事調查，指控其涉嫌透過秘密支付來推廣特定歌曲和藝人，即「付費播放」（payola）。",
-      "severity": "high",
-      "sentiment": "negative"
+      "title": "回顧 Spotify 20 年的高潮與低谷",
+      "description": "CNN 報導回顧 Spotify 過去 20 年的發展歷程，提及其成就與挑戰。",
+      "severity": "low",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "20週年",
-    "史上播放量",
-    "Taylor Swift",
-    "Bad Bunny",
-    "Spotify RADAR",
-    "新勢力",
+    "Spotify",
     "Claude",
-    "AI 整合",
-    "付費播放",
-    "調查"
+    "AI整合",
+    "播放清單",
+    "任天堂音樂",
+    "20週年",
+    "股票評級",
+    "財報",
+    "RADAR新勢力",
+    "音樂串流"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於其成立20週年慶典，平台首次公開了史上最受歡迎的藝人與作品榜單，Taylor Swift 和 Bad Bunny 位列榜首，引發了廣泛的正面迴響。同時，Spotify 積極推進技術整合與用戶體驗優化，包括與 AI 助手 Claude 的整合以及 iPad App 的更新。然而，德州總檢察長對其「付費播放」指控的調查，為這波正面聲量中帶來了負面議題。",
+  "daily_summary": "今日 Spotify 輿情呈現高度正面趨勢。主要討論圍繞 Anthropic Claude AI 深度整合 Spotify 以提升播放清單體驗、任天堂遊戲音樂首次登陸平台，以及市場對其股票的買入評級與即將發布的財報抱持樂觀態度。此外，平台也慶祝 20 週年並持續推廣新興藝術家，顯示其在技術創新、內容拓展和市場表現上均取得積極進展。",
   "article_analyses": [
     {
-      "title": "遠傳攜手Spotify打造全新「ID.音樂節」",
+      "title": "Spotify 20 週年榜單公開！最強歌手、專輯、神曲，原來大家都在聽這些？",
       "sentiment": "positive",
       "key_points": [
-        "遠傳與Spotify合作夥伴關係",
-        "共同打造全新「ID.音樂節」",
-        "推廣音樂活動"
+        "公布20週年全球榜單",
+        "回顧最強歌手、專輯、神曲"
       ]
     },
     {
-      "title": "入選 Spotify RADAR 新勢力 CClaire 馬愷伶新單曲唱出現代愛情矛盾心境",
+      "title": "Benchmark重申Spotify股票買入評級,財報發布在即 作者 Investing.com - Investing.com 香港",
       "sentiment": "positive",
       "key_points": [
-        "CClaire 馬愷伶入選 Spotify RADAR 新勢力",
-        "發行新單曲",
-        "展現台灣新生代音樂實力"
+        "Benchmark重申股票買入評級",
+        "財報發布在即，市場預期良好"
       ]
     },
     {
-      "title": "呂允、宏兒都入選！2026 Spotify RADAR 新勢力有誰？曾成功預測持修爆紅",
+      "title": "跨足個人日常生活！Anthropic宣布Claude深度整合Spotify、Uber等15款生活風格App",
       "sentiment": "positive",
       "key_points": [
-        "呂允、宏兒入選 Spotify RADAR 新勢力",
-        "該計畫曾成功預測多位藝人爆紅",
-        "凸顯平台發掘新秀的能力"
+        "Anthropic Claude 深度整合 Spotify",
+        "擴展到15款生活風格App"
       ]
     },
     {
-      "title": "從網路爆紅到Spotify RADAR 馬愷伶清唱片段破百萬流量 | CTWANT",
+      "title": "Claude 現在可以幫助你打造完美 Spotify 播放清單",
       "sentiment": "positive",
       "key_points": [
-        "馬愷伶因網路清唱片段爆紅",
-        "入選 Spotify RADAR 計畫",
-        "清唱片段突破百萬流量"
+        "Claude AI 可協助生成 Spotify 播放清單",
+        "提升用戶播放清單創建體驗"
       ]
     },
     {
-      "title": "馬愷伶唱紅〈台大的垃圾〉！入選Spotify全球音樂計畫　全台僅8人",
+      "title": "Claude 一次接通 15 款生活 App，Anthropic 的連接器版圖從辦公室擴到你的日常",
       "sentiment": "positive",
       "key_points": [
-        "馬愷伶憑藉歌曲〈台大的垃圾〉走紅",
-        "入選 Spotify 全球音樂計畫，台灣僅8人獲選",
-        "獲得國際平台肯定"
+        "Anthropic Claude 擴大整合生活App",
+        "Spotify 為其中之一"
       ]
     },
     {
-      "title": "2026 Spotify RADAR 新勢力名單！Quanzo、E1and、呂允⋯8 組 Z 世代創作歌手快認識！",
+      "title": "CClaire馬愷伶新歌強碰天王天后仍破百萬 入選Spotify RADAR新勢力躍升國際焦點",
       "sentiment": "positive",
       "key_points": [
-        "公布 2026 Spotify RADAR 新勢力名單",
-        "涵蓋 Quanzo、E1and、呂允等 8 組 Z 世代創作歌手",
-        "推廣新興音樂人才"
+        "CClaire馬愷伶歌曲破百萬點擊",
+        "入選Spotify RADAR新勢力"
       ]
     },
     {
-      "title": "遠傳攜手Spotify　打造全新「ID.音樂節」",
+      "title": "Guggenheim重申Spotify股票評級,財報發布在即 作者 Investing.com - Investing.com 香港",
       "sentiment": "positive",
       "key_points": [
-        "遠傳與Spotify合作舉辦音樂節",
-        "共同推出「ID.音樂節」",
-        "加強品牌合作與音樂推廣"
+        "Guggenheim重申Spotify股票評級",
+        "預期財報表現"
       ]
     },
     {
-      "title": "Claude 現可幫你叫 Uber、播 Spotify..連結八個日常生活 App，Anthropic 在下一盤大棋",
+      "title": "任天堂音樂終於登陸 Spotify！《超級瑪利歐銀河》原聲帶驚喜釋出但限時播放",
       "sentiment": "positive",
       "key_points": [
-        "Anthropic 的 AI 助手 Claude 整合 Spotify",
-        "實現音樂播放功能",
-        "擴展 AI 在日常生活應用場景"
+        "任天堂音樂登陸 Spotify",
+        "《超級瑪利歐銀河》原聲帶限時播放"
       ]
     },
     {
-      "title": "Claude 直接連接到您的個人應用程序，例如 Spotify、Uber Eats 和 TurboTax",
-      "sentiment": "positive",
-      "key_points": [
-        "Claude AI 可直接連結 Spotify",
-        "提供更便捷的音樂體驗",
-        "增強個人化應用功能"
-      ]
-    },
-    {
-      "title": "Spotify 與 Claude 整合 支援音樂播客推薦及播放",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 整合 AI 助手 Claude",
-        "支援音樂及播客推薦功能",
-        "提升用戶互動與內容發現"
-      ]
-    },
-    {
-      "title": "Spotify shares its all-time most-streamed music, podcasts. See lists",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝成立20週年",
-        "公布平台史上播放量最高的音樂與播客列表",
-        "回顧平台發展里程碑"
-      ]
-    },
-    {
-      "title": "Spotify Lists All-Time Most-Streamed: Taylor Swift,Bad Bunny,Weeknd",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 首次公布史上播放量排行榜",
-        "Taylor Swift、Bad Bunny 和 The Weeknd 名列前茅",
-        "紀念平台20週年"
-      ]
-    },
-    {
-      "title": "Taylor Swift tops Spotify list of most-streamed artists of all time",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 成為 Spotify 史上播放量最高的藝人",
-        "凸顯其在全球樂壇的巨大影響力",
-        "平台20週年重要成就"
-      ]
-    },
-    {
-      "title": "Happy 20th Birthday, Spotify. Here's the Platform's Most Streamed of All Time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝20歲生日",
-        "發布史上播放量最高榜單",
-        "綜合展示平台數據"
-      ]
-    },
-    {
-      "title": "Spotify Reveals Most Streamed Songs and Artists In Its 20-Year History",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 公布20年來播放量最高的歌曲和藝人",
-        "為平台20週年獻禮",
-        "展現音樂產業變遷"
-      ]
-    },
-    {
-      "title": "Spotify Reveals First-Ever Most Streamed Artists, Songs and Albums List: Taylor Swift, Bad Bunny and The Weeknd Are Tops",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 首次揭曉史上播放量最高的藝人、歌曲和專輯名單",
-        "Taylor Swift、Bad Bunny 和 The Weeknd 領銜",
-        "慶祝20週年里程碑"
-      ]
-    },
-    {
-      "title": "Spotify reveals most-streamed artists, albums and songs of all time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 公布史上播放量最高的藝人、專輯和歌曲",
-        "作為全球最大音樂串流平台",
-        "回顧其在音樂領域的影響力"
-      ]
-    },
-    {
-      "title": "Taylor Swift becomes Spotify's most streamed artist of all time, Bad Bunny takes second spot",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 成為 Spotify 史上播放量最高的藝人",
-        "Bad Bunny 位居第二",
-        "公布全球音樂榜單"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Bad Bunny top Spotify's first all-time most streamed artists list",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 和 Bad Bunny 登上 Spotify 史上播放量最高藝人榜首",
-        "彰顯兩位藝人的全球人氣",
-        "平台首次發布此類排名"
-      ]
-    },
-    {
-      "title": "Bad Bunny's 'Un Verano Sin Ti' Is Officially The Most Streamed Album In Spotify History",
-      "sentiment": "positive",
-      "key_points": [
-        "Bad Bunny 的專輯《Un Verano Sin Ti》成為 Spotify 史上播放量最高的專輯",
-        "創下平台歷史紀錄",
-        "肯定拉丁音樂的流行性"
-      ]
-    },
-    {
-      "title": "Taylor Swift Revealed as the Most Streamed Artist of All Time on Spotify",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 被揭曉為 Spotify 史上播放量最高的藝人",
-        "在她36歲時再添一項成就",
-        "配合平台20週年慶祝活動"
-      ]
-    },
-    {
-      "title": "Spotify's latest update is a redesign for iPads with four features",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 為 iPad 用戶推出全新設計的應用程式",
-        "新增四項功能",
-        "優化平板裝置的使用體驗"
-      ]
-    },
-    {
-      "title": "Spotify Reveals its Most Streamed Music, Podcasts, and Audiobooks of All Time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝20週年",
-        "公布平台史上播放量最高的音樂、播客和有聲書",
-        "回顧平台發展歷程"
-      ]
-    },
-    {
-      "title": "Taylor Swift Is the Most-Streamed Spotify Artist of All Time",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 成為 Spotify 史上播放量最高的藝人",
-        "公司在慶祝20週年時公布此消息",
-        "肯定其長期以來在平台上的表現"
-      ]
-    },
-    {
-      "title": "Taylor Swift Is Most-Streamed Artist Of All Time, Says Spotify; Bad Bunny, Drake Also Make Grade",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 宣布 Taylor Swift 為史上播放量最高的藝人",
-        "Bad Bunny 和 Drake 也榜上有名",
-        "紀念平台20週年"
-      ]
-    },
-    {
-      "title": "Spotify reveals most-streamed artists, songs, albums of all time for 20th anniversary",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 為慶祝20週年，公布史上播放量最高的專輯、藝人與歌曲",
-        "Taylor Swift 榮登榜首",
-        "凸顯平台對音樂產業的貢獻"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Bad Bunny lead Spotify's all-time most streamed artists list",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 為慶祝20週年，揭示史上播放量最高榜單",
-        "Taylor Swift 和 Bad Bunny 領跑最受歡迎藝人名單",
-        "彰顯兩位藝人的全球影響力"
-      ]
-    },
-    {
-      "title": "Spotify Lists Most Streamed Artists, Albums of All Time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝20週年，揭露史上播放量最高的藝人、歌曲和播客",
-        "Taylor Swift 拔得頭籌",
-        "為粉絲呈現平台歷史數據"
-      ]
-    },
-    {
-      "title": "Taylor Swift, Bad Bunny, Drake top Spotify's most streamed artists list",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift、Bad Bunny 和 Drake 登上 Spotify 最受歡迎藝人榜單",
-        "延續其在串流媒體的領先地位",
-        "引發粉絲對榜單的熱議"
-      ]
-    },
-    {
-      "title": "Spotify's Most-Streamed List Sparks Bigger Questions",
+      "title": "Matt Friend impersonates top politicians and celebrities - CNN",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 的播放量排名引發更深層次問題",
-        "關於演算法與影響力的討論",
-        "探討平台對音樂消費的潛在影響"
+        "提及 Spotify 過去20年的高潮與低谷",
+        "以歷史回顧角度呈現"
       ]
     },
     {
-      "title": "\"Drake will always be number one\" - Fans react to Spotify's Most Streamed Artists of All Time list released on its 20th anniversary",
+      "title": "iHeartRadio and SiriusXM in Early Merger Talks, With Irving Azoff and Apollo Advising - Variety",
       "sentiment": "neutral",
       "key_points": [
-        "粉絲對 Spotify 史上播放量最高榜單反應不一",
-        "Taylor Swift 位居第一，引發粉絲討論",
-        "反映藝人粉絲群體的忠誠度"
+        "iHeartRadio與SiriusXM傳出早期合併談判",
+        "與Spotify無直接關係"
       ]
     },
     {
-      "title": "Taylor Swift, Drake, Bad Bunny steal top spots as Spotify's most streamed artists of all time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝成立20週年",
-        "Taylor Swift、Drake 和 Bad Bunny 穩居播放量最高藝人榜首",
-        "彰顯藝人在平台上的巨大成功"
-      ]
-    },
-    {
-      "title": "Should You Buy Spotify Stock Before the Huge Investor Update?",
+      "title": "Kelly Clarkson and Chrissy Teigen Don't Understand How John Legend is so Calm All The Time - NBC New York",
       "sentiment": "neutral",
       "key_points": [
-        "探討 Spotify 股票的投資價值",
-        "建議在重要投資者更新前評估",
-        "為投資者提供決策參考"
+        "名人新聞",
+        "與Spotify無關"
       ]
     },
     {
-      "title": "Spotify and New York Liberty Partner to Elevate Game Day With Music",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 與紐約自由人籃球隊建立合作夥伴關係",
-        "將音樂融入比賽日體驗",
-        "提升球迷參與感"
-      ]
-    },
-    {
-      "title": "Texas AG Investigates Spotify Apple Music Over Payola Claims",
-      "sentiment": "negative",
-      "key_points": [
-        "德州總檢察長調查 Spotify 和 Apple Music",
-        "指控兩平台涉嫌「付費播放」",
-        "可能面臨法律與聲譽風險"
-      ]
-    },
-    {
-      "title": "Drake Crushes Kendrick Lamar in Spotify Streaming Rankings",
+      "title": "Letter: Meyerowitz’s elusive art of photography - Financial Times",
       "sentiment": "neutral",
       "key_points": [
-        "Drake 在 Spotify 串流排名中領先 Kendrick Lamar",
-        "Drake 在史上榜單中位居第三",
-        "文章提及對機器人流量的指控"
+        "攝影藝術討論",
+        "與Spotify無關"
       ]
     },
     {
-      "title": "Spotify reveals most listened to artists and albums EVER as streaming giant celebrates 20th anniversary",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝20週年，公布史上最受歡迎的藝人與專輯",
-        "回顧兩十年來的音樂歷史",
-        "引發廣泛關注與討論"
-      ]
-    },
-    {
-      "title": "Got $1,000? Netflix vs. Spotify — Only One Deserves Your Money Right Now",
+      "title": "iHeartMedia Shares Jump After Report Of Early Merger Talks With SiriusXM - Deadline",
       "sentiment": "neutral",
       "key_points": [
-        "比較 Netflix 和 Spotify 的投資潛力",
-        "兩家公司均處於轉型期",
-        "為投資者提供選擇建議"
+        "iHeartMedia股價上漲因合併傳聞",
+        "與Spotify無直接關係"
       ]
     },
     {
-      "title": "Spotify just turned 20. Here's how founder Daniel Ek built it into a $100 billion music empire by being the 'least powerful person' at the company",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 成立20週年",
-        "創始人 Daniel Ek 建立千億音樂帝國的歷程",
-        "揭示其獨特的領導哲學"
-      ]
-    },
-    {
-      "title": "Spotify at 20: winners, losers and what comes next for music",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 慶祝20歲生日",
-        "回顧平台對音樂產業的變革性影響",
-        "展望音樂的未來發展"
-      ]
-    },
-    {
-      "title": "Spotify Reveals Its Most Streamed Music of the Last 20 Years - Gizmodo",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 公布過去20年來播放量最高的音樂",
-        "慶祝平台20週年",
-        "展示數據與趨勢"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Bad Bunny top Spotify's first all-time most streamed artists list - AP News",
-      "sentiment": "positive",
-      "key_points": [
-        "Taylor Swift 和 Bad Bunny 榮登 Spotify 史上播放量最高藝人榜首",
-        "由美聯社報導此重磅消息",
-        "彰顯藝人全球影響力"
-      ]
-    },
-    {
-      "title": "'Sources Tell Jeff Passan' MLB Podcast Breaks Out Of The Pack - Forbes",
+      "title": "SiriusXM Said to Be in Early Talks to Acquire iHeartMedia - The New York Times",
       "sentiment": "neutral",
       "key_points": [
-        "MLB 播客節目在各大平台表現亮眼",
-        "該播客可在 Spotify 上收聽",
-        "凸顯 Spotify 作為播客平台的重要性"
+        "SiriusXM與iHeartMedia洽談收購",
+        "與Spotify無直接關係"
+      ]
+    },
+    {
+      "title": "German regulator clamps down on UniCredit ads in Commerzbank takeover bid - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "德國監管機構限制廣告",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Letter: Popes normally condemn the sin and not the sinner - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "教宗言論探討",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Nikki Glaser Roasts Katy Perry, Hailey Bieber, Victoria Beckham and More at Time 100 Gala - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "名人晚會新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Boots hopes its upcoming IPO will be bigger, bolder, more beautiful - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "Boots公司IPO期望",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Thieves target airbags in more than a dozen car thefts in New Jersey - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "汽車盜竊案件",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Engadget Podcast: Tim Cook’s Apple era and what lies ahead for John Ternus - Engadget",
+      "sentiment": "neutral",
+      "key_points": [
+        "Engadget Podcast介紹",
+        "Spotify為其播放平台之一"
+      ]
+    },
+    {
+      "title": "How ‘Girls®’ by Freya India Got Made - Publishers Weekly",
+      "sentiment": "neutral",
+      "key_points": [
+        "書籍出版新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Abercrombie & Fitch's Vintage-Inspired Band Tees from Selena Gomez to Red Hot Chili Peppers are 15% Off for a Limited Time - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "時尚品牌促銷音樂相關商品",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Mariska Hargitay’s ‘Mind Blown’ After Surprise on ‘Law & Order’ Set - Newsweek",
+      "sentiment": "neutral",
+      "key_points": [
+        "影視劇組新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "South Korea's Ex-President Faces 30 Years Over Drone Plot - Newser",
+      "sentiment": "neutral",
+      "key_points": [
+        "韓國政治新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Nasdaq, S&P 500 Score Record Closes; Rally Faces Mag 7 Earnings Test (Live Coverage) - Investor's Business Daily",
+      "sentiment": "neutral",
+      "key_points": [
+        "股市行情分析",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Investors push for higher yield on $14bn of Oracle-backed data centre debt - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "金融市場新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Markets News, April 24, 2026: Nasdaq, S&P 500 Hit Records as Intel Soars; Oil Falls on US-Iran Talks; DOJ Drops Powell Probe - Investopedia",
+      "sentiment": "neutral",
+      "key_points": [
+        "財經市場新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "The Plan Behind the Glam with Drew Afualo - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂產業人物訪談",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "US stocks race ahead of Europe as Wall Street shrugs off energy shock - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "國際股市分析",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "April 24: Oklahoma tornado, DOJ ends Powell criminal probe - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "美國國內新聞摘要",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Mayor Mamdani issues first veto of his administration on buffer zone bill - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "地方政府新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Margot Robbie and Jacob Elordi’s ‘Wuthering Heights’ Sets HBO Max Streaming Debut - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "電影串流平台上映資訊",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "SiriusXM, iHeartMedia Eye Merger, With Irving Azoff and Apollo in Mix - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "SiriusXM與iHeartMedia合併消息",
+        "與Spotify無直接關係"
+      ]
+    },
+    {
+      "title": "Crypto News: AlphaPepe Presale Hits New Stage Milestones as Bitcoin Price Prediction Sets Target at $120,000 - markets.businessinsider.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "加密貨幣市場新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "FDA moves to fast-track three psychedelic drugs for review - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "藥物審查新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Research as/is resistance | Geek Chic - The Daily Free Press",
+      "sentiment": "neutral",
+      "key_points": [
+        "學術與文化評論",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Skrillex to headline annual Dead Sea rave - The Times of Israel",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂節新聞",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "OKP’s Biggest Takeaways From Kehlani’s Self-Titled New Album - Okayplayer",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂專輯評論",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Apple Loop: iPhone 18 Pro Cherry, Filming The Neo, Critical iOS Update - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "蘋果科技新聞",
+        "與Spotify無關"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "文章內容缺失",
-        "無法判斷具體主題或情緒"
+        "無具體內容"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "文章內容缺失",
-        "無法判斷具體主題或情緒"
+        "無具體內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260424_041959.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260424.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260425_035400.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260425.jpg"
 }
