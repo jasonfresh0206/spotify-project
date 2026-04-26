@@ -1,388 +1,53 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.9,
+    "positive_ratio": 1.0,
     "negative_ratio": 0.0,
-    "neutral_ratio": 0.1
+    "neutral_ratio": 0.0
   },
   "events": [
     {
-      "title": "Anthropic Claude AI 深度整合 Spotify",
-      "description": "Anthropic 宣布其 Claude AI 將深度整合 Spotify 等 15 款生活風格 App，能協助用戶打造完美的播放清單，顯著提升個人化體驗。",
+      "title": "泰勒絲奪Spotify最受歡迎藝人冠軍",
+      "description": "流行巨星泰勒絲（Taylor Swift）成功超越壞痞兔（Bad Bunny），成為Spotify上最受歡迎的藝人冠軍，顯示其在音樂串流平台上的巨大影響力和用戶吸引力。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify導入AI輔助工程師開發",
+      "description": "Spotify宣布其頂尖工程師已開始利用AI工具來修復程式錯誤並提升開發效率，甚至能在通勤途中透過手機完成。這項技術進展突顯了Spotify在人工智慧應用上的創新。",
       "severity": "medium",
       "sentiment": "positive"
-    },
-    {
-      "title": "任天堂音樂首次登陸 Spotify",
-      "description": "《超級瑪利歐銀河》原聲帶驚喜釋出，限時登陸 Spotify，為平台帶來知名遊戲音樂內容。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 20 週年榜單公開",
-      "description": "Spotify 公布平台營運 20 週年的全球榜單，回顧最強歌手、專輯與神曲，引發公眾回憶與討論。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 股票評級重申與財報發布在即",
-      "description": "Benchmark 和 Guggenheim 等機構重申對 Spotify 股票的「買入」評級，市場對即將發布的財報抱持積極預期。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "CClaire 馬愷伶入選 Spotify RADAR 新勢力",
-      "description": "歌手 CClaire 馬愷伶的新歌突破百萬點擊，並入選 Spotify RADAR 新勢力，顯示平台持續推廣新興藝術家。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "回顧 Spotify 20 年的高潮與低谷",
-      "description": "CNN 報導回顧 Spotify 過去 20 年的發展歷程，提及其成就與挑戰。",
-      "severity": "low",
-      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "Claude",
-    "AI整合",
-    "播放清單",
-    "任天堂音樂",
-    "20週年",
-    "股票評級",
-    "財報",
-    "RADAR新勢力",
-    "音樂串流"
+    "泰勒絲",
+    "AI",
+    "藝人",
+    "工程師",
+    "最受歡迎",
+    "修Bug"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現高度正面趨勢。主要討論圍繞 Anthropic Claude AI 深度整合 Spotify 以提升播放清單體驗、任天堂遊戲音樂首次登陸平台，以及市場對其股票的買入評級與即將發布的財報抱持樂觀態度。此外，平台也慶祝 20 週年並持續推廣新興藝術家，顯示其在技術創新、內容拓展和市場表現上均取得積極進展。",
+  "daily_summary": "今日Spotify的輿情呈現高度正面。主要亮點包括泰勒絲擊敗壞痞兔，奪下平台最受歡迎藝人冠軍，以及Spotify在技術創新上的進展，宣布頂尖工程師已能利用AI在通勤時修復程式錯誤，大幅提升效率。",
   "article_analyses": [
     {
-      "title": "Spotify 20 週年榜單公開！最強歌手、專輯、神曲，原來大家都在聽這些？",
+      "title": "泰勒絲贏了壞痞兔 奪Spotify最受歡迎藝人冠軍",
       "sentiment": "positive",
       "key_points": [
-        "公布20週年全球榜單",
-        "回顧最強歌手、專輯、神曲"
+        "泰勒絲成為Spotify最受歡迎藝人。",
+        "超越壞痞兔。",
+        "顯示其在音樂串流平台的影響力。"
       ]
     },
     {
-      "title": "Benchmark重申Spotify股票買入評級,財報發布在即 作者 Investing.com - Investing.com 香港",
+      "title": "Spotify稱頂尖工程師不再手寫程式 通勤途中用手機就能叫AI修Bug",
       "sentiment": "positive",
       "key_points": [
-        "Benchmark重申股票買入評級",
-        "財報發布在即，市場預期良好"
-      ]
-    },
-    {
-      "title": "跨足個人日常生活！Anthropic宣布Claude深度整合Spotify、Uber等15款生活風格App",
-      "sentiment": "positive",
-      "key_points": [
-        "Anthropic Claude 深度整合 Spotify",
-        "擴展到15款生活風格App"
-      ]
-    },
-    {
-      "title": "Claude 現在可以幫助你打造完美 Spotify 播放清單",
-      "sentiment": "positive",
-      "key_points": [
-        "Claude AI 可協助生成 Spotify 播放清單",
-        "提升用戶播放清單創建體驗"
-      ]
-    },
-    {
-      "title": "Claude 一次接通 15 款生活 App，Anthropic 的連接器版圖從辦公室擴到你的日常",
-      "sentiment": "positive",
-      "key_points": [
-        "Anthropic Claude 擴大整合生活App",
-        "Spotify 為其中之一"
-      ]
-    },
-    {
-      "title": "CClaire馬愷伶新歌強碰天王天后仍破百萬 入選Spotify RADAR新勢力躍升國際焦點",
-      "sentiment": "positive",
-      "key_points": [
-        "CClaire馬愷伶歌曲破百萬點擊",
-        "入選Spotify RADAR新勢力"
-      ]
-    },
-    {
-      "title": "Guggenheim重申Spotify股票評級,財報發布在即 作者 Investing.com - Investing.com 香港",
-      "sentiment": "positive",
-      "key_points": [
-        "Guggenheim重申Spotify股票評級",
-        "預期財報表現"
-      ]
-    },
-    {
-      "title": "任天堂音樂終於登陸 Spotify！《超級瑪利歐銀河》原聲帶驚喜釋出但限時播放",
-      "sentiment": "positive",
-      "key_points": [
-        "任天堂音樂登陸 Spotify",
-        "《超級瑪利歐銀河》原聲帶限時播放"
-      ]
-    },
-    {
-      "title": "Matt Friend impersonates top politicians and celebrities - CNN",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及 Spotify 過去20年的高潮與低谷",
-        "以歷史回顧角度呈現"
-      ]
-    },
-    {
-      "title": "iHeartRadio and SiriusXM in Early Merger Talks, With Irving Azoff and Apollo Advising - Variety",
-      "sentiment": "neutral",
-      "key_points": [
-        "iHeartRadio與SiriusXM傳出早期合併談判",
-        "與Spotify無直接關係"
-      ]
-    },
-    {
-      "title": "Kelly Clarkson and Chrissy Teigen Don't Understand How John Legend is so Calm All The Time - NBC New York",
-      "sentiment": "neutral",
-      "key_points": [
-        "名人新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Letter: Meyerowitz’s elusive art of photography - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "攝影藝術討論",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "iHeartMedia Shares Jump After Report Of Early Merger Talks With SiriusXM - Deadline",
-      "sentiment": "neutral",
-      "key_points": [
-        "iHeartMedia股價上漲因合併傳聞",
-        "與Spotify無直接關係"
-      ]
-    },
-    {
-      "title": "SiriusXM Said to Be in Early Talks to Acquire iHeartMedia - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "SiriusXM與iHeartMedia洽談收購",
-        "與Spotify無直接關係"
-      ]
-    },
-    {
-      "title": "German regulator clamps down on UniCredit ads in Commerzbank takeover bid - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "德國監管機構限制廣告",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Letter: Popes normally condemn the sin and not the sinner - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "教宗言論探討",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Nikki Glaser Roasts Katy Perry, Hailey Bieber, Victoria Beckham and More at Time 100 Gala - The Hollywood Reporter",
-      "sentiment": "neutral",
-      "key_points": [
-        "名人晚會新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Boots hopes its upcoming IPO will be bigger, bolder, more beautiful - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "Boots公司IPO期望",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Thieves target airbags in more than a dozen car thefts in New Jersey - NBC New York",
-      "sentiment": "neutral",
-      "key_points": [
-        "汽車盜竊案件",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Engadget Podcast: Tim Cook’s Apple era and what lies ahead for John Ternus - Engadget",
-      "sentiment": "neutral",
-      "key_points": [
-        "Engadget Podcast介紹",
-        "Spotify為其播放平台之一"
-      ]
-    },
-    {
-      "title": "How ‘Girls®’ by Freya India Got Made - Publishers Weekly",
-      "sentiment": "neutral",
-      "key_points": [
-        "書籍出版新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Abercrombie & Fitch's Vintage-Inspired Band Tees from Selena Gomez to Red Hot Chili Peppers are 15% Off for a Limited Time - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "時尚品牌促銷音樂相關商品",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Mariska Hargitay’s ‘Mind Blown’ After Surprise on ‘Law & Order’ Set - Newsweek",
-      "sentiment": "neutral",
-      "key_points": [
-        "影視劇組新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "South Korea's Ex-President Faces 30 Years Over Drone Plot - Newser",
-      "sentiment": "neutral",
-      "key_points": [
-        "韓國政治新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Nasdaq, S&P 500 Score Record Closes; Rally Faces Mag 7 Earnings Test (Live Coverage) - Investor's Business Daily",
-      "sentiment": "neutral",
-      "key_points": [
-        "股市行情分析",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Investors push for higher yield on $14bn of Oracle-backed data centre debt - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "金融市場新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Markets News, April 24, 2026: Nasdaq, S&P 500 Hit Records as Intel Soars; Oil Falls on US-Iran Talks; DOJ Drops Powell Probe - Investopedia",
-      "sentiment": "neutral",
-      "key_points": [
-        "財經市場新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "The Plan Behind the Glam with Drew Afualo - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "音樂產業人物訪談",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "US stocks race ahead of Europe as Wall Street shrugs off energy shock - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "國際股市分析",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "April 24: Oklahoma tornado, DOJ ends Powell criminal probe - NBC News",
-      "sentiment": "neutral",
-      "key_points": [
-        "美國國內新聞摘要",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Mayor Mamdani issues first veto of his administration on buffer zone bill - NBC New York",
-      "sentiment": "neutral",
-      "key_points": [
-        "地方政府新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Margot Robbie and Jacob Elordi’s ‘Wuthering Heights’ Sets HBO Max Streaming Debut - The Hollywood Reporter",
-      "sentiment": "neutral",
-      "key_points": [
-        "電影串流平台上映資訊",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "SiriusXM, iHeartMedia Eye Merger, With Irving Azoff and Apollo in Mix - The Hollywood Reporter",
-      "sentiment": "neutral",
-      "key_points": [
-        "SiriusXM與iHeartMedia合併消息",
-        "與Spotify無直接關係"
-      ]
-    },
-    {
-      "title": "Crypto News: AlphaPepe Presale Hits New Stage Milestones as Bitcoin Price Prediction Sets Target at $120,000 - markets.businessinsider.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "加密貨幣市場新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "FDA moves to fast-track three psychedelic drugs for review - NBC News",
-      "sentiment": "neutral",
-      "key_points": [
-        "藥物審查新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Research as/is resistance | Geek Chic - The Daily Free Press",
-      "sentiment": "neutral",
-      "key_points": [
-        "學術與文化評論",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Skrillex to headline annual Dead Sea rave - The Times of Israel",
-      "sentiment": "neutral",
-      "key_points": [
-        "音樂節新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "OKP’s Biggest Takeaways From Kehlani’s Self-Titled New Album - Okayplayer",
-      "sentiment": "neutral",
-      "key_points": [
-        "音樂專輯評論",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Apple Loop: iPhone 18 Pro Cherry, Filming The Neo, Critical iOS Update - Forbes",
-      "sentiment": "neutral",
-      "key_points": [
-        "蘋果科技新聞",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無具體內容"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無具體內容"
+        "Spotify工程師利用AI修復程式錯誤。",
+        "提升開發效率，甚至能在通勤時操作。",
+        "展現公司在AI技術應用上的創新。"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260425_035400.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260425.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260426_042438.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260426.jpg"
 }
