@@ -6,48 +6,31 @@
   },
   "events": [
     {
-      "title": "泰勒絲奪Spotify最受歡迎藝人冠軍",
-      "description": "流行巨星泰勒絲（Taylor Swift）成功超越壞痞兔（Bad Bunny），成為Spotify上最受歡迎的藝人冠軍，顯示其在音樂串流平台上的巨大影響力和用戶吸引力。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify導入AI輔助工程師開發",
-      "description": "Spotify宣布其頂尖工程師已開始利用AI工具來修復程式錯誤並提升開發效率，甚至能在通勤途中透過手機完成。這項技術進展突顯了Spotify在人工智慧應用上的創新。",
+      "title": "Spotify 新增關閉展示影片功能",
+      "description": "Spotify 平台現在允許用戶關閉歌曲頁面上的展示影片內容，讓聽眾可以重拾更純粹的音樂播放體驗。",
       "severity": "medium",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "泰勒絲",
-    "AI",
-    "藝人",
-    "工程師",
-    "最受歡迎",
-    "修Bug"
+    "關閉影片",
+    "純音樂體驗",
+    "新功能",
+    "用戶控制"
   ],
-  "daily_summary": "今日Spotify的輿情呈現高度正面。主要亮點包括泰勒絲擊敗壞痞兔，奪下平台最受歡迎藝人冠軍，以及Spotify在技術創新上的進展，宣布頂尖工程師已能利用AI在通勤時修復程式錯誤，大幅提升效率。",
+  "daily_summary": "今日 Spotify 的輿情主要聚焦於一項新功能的推出，用戶現在可以選擇關閉展示影片，以提升純粹的音樂聆聽體驗。這項更新獲得正面評價，有望滿足部分用戶對於簡潔播放介面的需求。",
   "article_analyses": [
     {
-      "title": "泰勒絲贏了壞痞兔 奪Spotify最受歡迎藝人冠軍",
+      "title": "Spotify 終可關閉展示影片內容 重拾純音樂體驗",
       "sentiment": "positive",
       "key_points": [
-        "泰勒絲成為Spotify最受歡迎藝人。",
-        "超越壞痞兔。",
-        "顯示其在音樂串流平台的影響力。"
-      ]
-    },
-    {
-      "title": "Spotify稱頂尖工程師不再手寫程式 通勤途中用手機就能叫AI修Bug",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify工程師利用AI修復程式錯誤。",
-        "提升開發效率，甚至能在通勤時操作。",
-        "展現公司在AI技術應用上的創新。"
+        "Spotify 推出新功能，允許用戶關閉歌曲頁面的展示影片。",
+        "此功能旨在提供更純粹的音樂聆聽體驗。",
+        "提升用戶對播放內容的控制權。"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260426_042438.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260426.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260427_043257.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260427.jpg"
 }
