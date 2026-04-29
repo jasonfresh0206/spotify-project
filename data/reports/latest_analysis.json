@@ -1,381 +1,194 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.9,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.0
+    "positive_ratio": 0.3,
+    "negative_ratio": 0.6,
+    "neutral_ratio": 0.1
   },
   "events": [
     {
-      "title": "Spotify與Peloton合作推出健身內容",
-      "description": "Spotify與健身平台Peloton合作，推出全新的健身中心，內含超過1,400堂Peloton訓練課程和指導鍛煉影片，擴展其服務至健身領域，獲得市場高度關注與正面評價，相關報導數量龐大。",
+      "title": "季度財報表現不佳導致股價大幅下跌",
+      "description": "Spotify發布最新季度財報，儘管部分報告指出首季利潤創下新高或超越每股盈餘預期，但由於付費用戶增長放緩、第二季營收及新增付費用戶指引遜於預期，加上廣告營收疲軟及投資支出增加，導致股價在盤前及盤中多次重挫，跌幅最高達13%，多家投行因此下調其目標股價。",
       "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify成立20週年並發佈史上最受歡迎榜單",
-      "description": "為慶祝成立20週年，Spotify公佈了其平台上史上最受歡迎的藝人、專輯和歌曲榜單，其中泰勒絲被封為史上最高串流歌手，此舉突顯了平台的長久成功與影響力。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "AI音樂對Spotify及產業的影響與爭議",
-      "description": "Spotify正應對AI生成音樂的挑戰，有用戶尋求過濾AI音樂的工具，同時投資者也對AI可能帶來的影響表示擔憂，導致Spotify股價出現下跌。公司也表示將探索新格式和AI工具以應對此趨勢。",
-      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Michael Jackson傳記電影推動Spotify串流增長",
-      "description": "隨著Michael Jackson傳記電影的上映，其在Spotify上的月聽眾和串流次數顯著增長，顯示出電影等外部事件對音樂串流平台內容消費的強大帶動作用。",
-      "severity": "low",
+      "title": "推出健身課程並擴展內容至軍歌",
+      "description": "Spotify持續拓展其服務範疇，不僅上架了53首國軍軍歌，也與Peloton合作推出超過1400堂的健身課程（涵蓋重訓、皮拉提斯等），積極搶攻健身市場。此外，Spotify也被列為AI助理Claude可串接的生活應用之一，顯示其在生態系整合上的努力。",
+      "severity": "medium",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "健身",
-    "Peloton",
-    "合作",
-    "AI音樂",
-    "20週年"
+    "財報",
+    "股價",
+    "付費用戶",
+    "增長放緩",
+    "盈利預期",
+    "健身課程",
+    "新功能",
+    "軍歌",
+    "AI 串接",
+    "目標價"
   ],
-  "daily_summary": "今日Spotify輿情主要由其積極拓展健身內容所主導，與Peloton合作推出逾1,400堂訓練課程，獲得大量正面報導。同時，平台慶祝成立20週年並公佈史上最受歡迎榜單，顯示其在音樂串流領域的領導地位。儘管面臨AI音樂的爭議和相關股價波動，Spotify整體仍展現出強勁的創新與市場影響力。",
+  "daily_summary": "今日Spotify輿情主要聚焦於其最新季度財報引發的負面市場反應，儘管部分業績數據亮眼，但因未來增長指引疲弱導致股價大幅下挫。同時，Spotify也積極透過上架國軍軍歌和推出健身課程等新功能，展現其多元化內容與市場拓展的策略。",
   "article_analyses": [
     {
-      "title": "Spotify 推出健身中心 內含逾 1,400 堂 Peloton 訓練課程",
+      "title": "Spotify也能聽陸軍軍歌！國軍53首軍歌、獲獎歌曲上架串流平台",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出健身中心",
-        "內含逾1,400堂Peloton訓練課程"
+        "國軍軍歌上架Spotify",
+        "擴展內容庫"
       ]
     },
     {
-      "title": "聽歌、看書還要帶你練！Spotify 變身最強健身教練 2026 串流平台「大亂鬥」",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify擴展健身內容",
-        "變身最強健身教練",
-        "2026串流平台競爭加劇"
-      ]
-    },
-    {
-      "title": "Spotify成立20週年公佈「史上最受歡迎」系列榜單，泰勒絲成史上最高串流歌手！",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify成立20週年",
-        "公佈史上最受歡迎榜單",
-        "泰勒絲成史上最高串流歌手"
-      ]
-    },
-    {
-      "title": "Spotify(SPOT.US)夥Peloton(PTON.US)拓健身內容",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作",
-        "拓展健身內容"
-      ]
-    },
-    {
-      "title": "Spotify 的下一個前沿：健身內容",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將健身內容視為下一重要發展領域"
-      ]
-    },
-    {
-      "title": "Peloton股價因與Spotify健身合作而上漲6% 作者 Investing.com - Investing.com 香港",
-      "sentiment": "positive",
-      "key_points": [
-        "Peloton股價因與Spotify健身合作而上漲"
-      ]
-    },
-    {
-      "title": "Spotify Technology SA(SPOT)股票4月27日盤中下跌4.76%：投資者必看的核心資訊",
+      "title": "Spotify 首季盈利勝預期；付費訂戶增長及前景令人失望美股US Stocks Quote - 外圍新聞內容Golbal News Content",
       "sentiment": "negative",
       "key_points": [
-        "Spotify股票盤中下跌4.76%"
+        "首季盈利勝預期",
+        "付費訂戶增長及前景令人失望"
       ]
     },
     {
-      "title": "Citizens看好Spotify股票 預期利潤率增長潛力巨大 作者 Investing.com - Investing.com 香港",
+      "title": "不只聽音樂！Spotify搶健身市場 推出1400堂課「重訓、皮拉提斯都有」",
       "sentiment": "positive",
       "key_points": [
-        "Citizens看好Spotify股票",
-        "預期利潤率增長潛力巨大"
+        "推出健身課程",
+        "搶攻健身市場"
       ]
     },
     {
-      "title": "Spotify 與 Peloton 合作提供指導鍛煉",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作",
-        "提供指導鍛煉"
-      ]
-    },
-    {
-      "title": "Spotify與Peloton合作 新增健身課程類別 作者 Investing.com - Investing.com 香港",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作",
-        "新增健身課程類別"
-      ]
-    },
-    {
-      "title": "Spotify Muscles Into Fitness Category, Inks Deal With Peloton for 1,400-Plus Workout Videos",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify拓展健身領域",
-        "與Peloton簽署合作協議",
-        "提供超過1,400個訓練影片"
-      ]
-    },
-    {
-      "title": "Spotify Is Launching a Major Expansion of Its Fitness Content. Here's What's New",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify大規模擴展健身內容",
-        "已於2024年開始引入影片功能",
-        "2025年向Premium用戶開放音樂影片及Podcast"
-      ]
-    },
-    {
-      "title": "Spotify's next frontier: fitness content",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將健身內容作為下一個主要類別",
-        "推出訓練影片、播放列表及Peloton課程"
-      ]
-    },
-    {
-      "title": "Peloton classes launch on Spotify. How to access new workout videos",
-      "sentiment": "positive",
-      "key_points": [
-        "Peloton課程在Spotify上線",
-        "提供新的訓練影片"
-      ]
-    },
-    {
-      "title": "Spotify Enters Its Fitness Era With New Peloton and Influencer Partnership",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify進入健身時代",
-        "與Peloton及影響者合作"
-      ]
-    },
-    {
-      "title": "Spotify Partners With Peloton in a Big Push Into Fitness",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify大舉進軍健身領域",
-        "與Peloton合作提供超過1,400堂隨選訓練課程"
-      ]
-    },
-    {
-      "title": "Spotify is partnering with Peloton for guided workouts",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作",
-        "新增健身課程"
-      ]
-    },
-    {
-      "title": "Spotify Launches Fitness Hub With 1,400+ Peloton Workouts",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出健身中心",
-        "包含逾1,400個Peloton訓練課程"
-      ]
-    },
-    {
-      "title": "Spotify expands into fitness with new in-app workout experiences",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify擴展至健身領域",
-        "推出應用程式內指導訓練體驗"
-      ]
-    },
-    {
-      "title": "Spotify To Add Fitness Category In Bid For Audience Engagement",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將新增健身類別",
-        "旨在提高用戶參與度"
-      ]
-    },
-    {
-      "title": "Spotify takes on Apple Fitness Plus and Fitbit Premium with guided workouts",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出'Fitness with Spotify'體驗",
-        "包含音訊和影片指導訓練"
-      ]
-    },
-    {
-      "title": "You can now access Peloton workouts on Spotify",
-      "sentiment": "positive",
-      "key_points": [
-        "用戶現在可以在Spotify上存取Peloton訓練課程"
-      ]
-    },
-    {
-      "title": "Spotify's Peloton partnership brings fitness content to your phone, desktop, and TV",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作將健身內容帶到多平台"
-      ]
-    },
-    {
-      "title": "Spotify, Peloton team up for fitness classes",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作推出健身課程"
-      ]
-    },
-    {
-      "title": "Spotify expands from soundtrack to sweat session: Peloton partnership puts 1,400 classes inside the app",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify從音樂拓展到健身",
-        "與Peloton合作在應用程式內提供1,400堂課程"
-      ]
-    },
-    {
-      "title": "Spotify shares its all-time most-streamed music, podcasts. See lists",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify公佈其史上最受歡迎音樂和Podcast榜單",
-        "慶祝成立20週年"
-      ]
-    },
-    {
-      "title": "Spotify Adds New Fitness Hub With Peloton Classes",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify新增健身中心",
-        "提供Peloton課程及精選播放列表"
-      ]
-    },
-    {
-      "title": "Spotify expands into fitness with Peloton workouts partnership",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify透過與Peloton合作擴展至健身領域"
-      ]
-    },
-    {
-      "title": "Spotify releases its all-time most-streamed artists, albums and songs",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify發佈史上最受歡迎藝人、專輯及歌曲榜單",
-        "The Weeknd的'Blinding Lights'為最受歡迎歌曲"
-      ]
-    },
-    {
-      "title": "Spotify Now Has Peloton Workout Videos",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify現在提供Peloton訓練影片"
-      ]
-    },
-    {
-      "title": "Spotify teams up with Peloton to launch global fitness content hub",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與Peloton合作推出全球健身內容中心"
-      ]
-    },
-    {
-      "title": "Why Spotify has no button to filter out AI music",
+      "title": "Spotify季報暗示成長放緩、獲利不如預期 股價盤前重挫約6％",
       "sentiment": "negative",
       "key_points": [
-        "用戶希望過濾AI生成音樂",
-        "Spotify缺乏相關功能",
-        "社群開發者自行建立工具"
+        "季報暗示成長放緩",
+        "獲利不如預期",
+        "股價盤前重挫"
       ]
     },
     {
-      "title": "Michael Jackson Gains 5 Million Spotify Monthly Listeners Following 'Michael' Opening Weekend",
-      "sentiment": "positive",
-      "key_points": [
-        "Michael Jackson月聽眾增加500萬",
-        "受益於傳記電影上映"
-      ]
-    },
-    {
-      "title": "Imagine Dragons' 'Demons' And 'Thunder' Surpass Three Billion Streams At Spotify",
-      "sentiment": "positive",
-      "key_points": [
-        "Imagine Dragons兩首歌曲在Spotify上突破30億串流次數"
-      ]
-    },
-    {
-      "title": "Cortis breaks into Spotify' Top 100 with 2nd EP prerelease",
-      "sentiment": "positive",
-      "key_points": [
-        "Cortis憑藉新單曲'RedRed'進入Spotify全球熱門歌曲前100名"
-      ]
-    },
-    {
-      "title": "Taylor Swift tops Spotify list of most-streamed artists of all time",
-      "sentiment": "positive",
-      "key_points": [
-        "泰勒絲榮登Spotify史上最高串流藝人榜首"
-      ]
-    },
-    {
-      "title": "Spotify reveals most-streamed artists, albums and songs of all time",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify公佈其史上最受歡迎藝人、專輯和歌曲"
-      ]
-    },
-    {
-      "title": "Spotify eyes new formats and AI tools amid labelling debate",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify計劃拓展新格式和AI工具",
-        "面臨AI生成音樂標籤爭議的壓力"
-      ]
-    },
-    {
-      "title": "Spotify Technology S.A. (SPOT) Slid by 16.6% in Q1 Due to Concerns Over Impact of AI",
+      "title": "美股：Spotify首季利潤創新高但財測疲弱，週二股價慘跌12.43%",
       "sentiment": "negative",
       "key_points": [
-        "Spotify股票在Q1下跌16.6%",
-        "原因為對AI影響的擔憂"
+        "首季利潤創新高",
+        "財測疲弱",
+        "股價慘跌12.43%"
       ]
     },
     {
-      "title": "Spotify at 20: winners, losers and what comes next for music",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify成立20週年回顧其對音樂產業的影響",
-        "展望未來發展"
-      ]
-    },
-    {
-      "title": "Introducing Fitness With Spotify: A New Way to Bring Movement Into Your Daily Routine - Spotify",
+      "title": "Peloton 健身課堂登陸你的 Spotify App：隨時開練",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出'Fitness With Spotify'",
-        "提供運動融入日常的新方式"
+        "Peloton健身課堂上線",
+        "App新增功能"
       ]
     },
     {
-      "title": "Spotify Premium Now Includes Peloton Classes, Marking Push Into Fitness Content - Bloomberg.com",
-      "sentiment": "positive",
+      "title": "美銀下調Spotify目標價,因現金流預測降低 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
       "key_points": [
-        "Spotify Premium包含Peloton課程",
-        "標誌著向健身內容的推進"
+        "美銀下調Spotify目標價",
+        "現金流預測降低"
       ]
     },
     {
-      "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
+      "title": "Spotify Technology SA(SPOT)股票4月28日盤中下跌12.27%：關鍵驅動因素揭曉",
+      "sentiment": "negative",
+      "key_points": [
+        "股價盤中下跌12.27%",
+        "市場關注關鍵驅動因素"
+      ]
+    },
+    {
+      "title": "Claude 串接 Uber、Spotify、Booking.com 等生活應用， 從對話轉向實務代理",
       "sentiment": "neutral",
       "key_points": [
-        "華納音樂與AI音樂平台合作",
-        "為唱片公司提供AI機遇藍圖"
+        "Claude AI串接Spotify",
+        "AI應用擴展"
+      ]
+    },
+    {
+      "title": "美股異動丨Spotify跌超13%，Q2新增付費用户及營收指引遜預期",
+      "sentiment": "negative",
+      "key_points": [
+        "股價跌超13%",
+        "Q2新增付費用戶及營收指引遜預期"
+      ]
+    },
+    {
+      "title": "Raymond James因投資支出下調Spotify目標股價 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
+      "key_points": [
+        "Raymond James下調Spotify目標股價",
+        "因投資支出考量"
+      ]
+    },
+    {
+      "title": "Spotify預計第二季度營業利潤6.3億歐元低於預期美股US Stocks Quote - 外圍新聞內容Golbal News Content",
+      "sentiment": "negative",
+      "key_points": [
+        "Q2營業利潤預計低於預期"
+      ]
+    },
+    {
+      "title": "Spotify 2026年第一季業績亮眼:利潤率創紀錄,用戶增長超預期 作者 Investing.com - Investing.com 香港",
+      "sentiment": "positive",
+      "key_points": [
+        "2026年Q1業績亮眼",
+        "利潤率創紀錄",
+        "用戶增長超預期"
+      ]
+    },
+    {
+      "title": "午市焦點新聞：OpenAI 傳未達內部收入及用戶目標；Spotify 股價指引平淡下挫",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify股價指引平淡",
+        "股價下挫"
+      ]
+    },
+    {
+      "title": "Evercore ISI重申Spotify股票評級,第一季業績強勁 作者 Investing.com - Investing.com 香港",
+      "sentiment": "positive",
+      "key_points": [
+        "Evercore ISI重申股票評級",
+        "第一季業績強勁"
+      ]
+    },
+    {
+      "title": "Spotify第一季財報超越每股盈餘預期,股價卻下跌 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
+      "key_points": [
+        "Q1財報超越EPS預期",
+        "股價下跌"
+      ]
+    },
+    {
+      "title": "《業績》Spotify(SPOT.US)次季目標遜色 股價挫11%",
+      "sentiment": "negative",
+      "key_points": [
+        "次季目標遜色",
+        "股價挫11%"
+      ]
+    },
+    {
+      "title": "Spotify僅達市場預期、廣告疲軟引憂慮！盤前重挫7% 估值壓力浮現",
+      "sentiment": "negative",
+      "key_points": [
+        "僅達市場預期",
+        "廣告疲軟引憂慮",
+        "盤前重挫7%",
+        "估值壓力浮現"
+      ]
+    },
+    {
+      "title": "Spotify 股價因第二季付費用戶指引而下跌",
+      "sentiment": "negative",
+      "key_points": [
+        "股價下跌",
+        "受第二季付費用戶指引影響"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260428_043627.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260428.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260429_043159.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260429.jpg"
 }
