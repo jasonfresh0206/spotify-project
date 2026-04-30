@@ -1,194 +1,188 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
-    "negative_ratio": 0.6,
-    "neutral_ratio": 0.1
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "季度財報表現不佳導致股價大幅下跌",
-      "description": "Spotify發布最新季度財報，儘管部分報告指出首季利潤創下新高或超越每股盈餘預期，但由於付費用戶增長放緩、第二季營收及新增付費用戶指引遜於預期，加上廣告營收疲軟及投資支出增加，導致股價在盤前及盤中多次重挫，跌幅最高達13%，多家投行因此下調其目標股價。",
+      "title": "Spotify跨足健身市場",
+      "description": "Spotify積極拓展新服務領域，推出1400堂教練課程，正式進入健身市場，此舉顯示其內容多元化策略。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "環球音樂集團出售Spotify持股",
+      "description": "環球音樂集團計劃出售其持有的半數Spotify股權，此舉旨在擴大股票回購規模並向藝人（包括泰勒絲等）分紅，對環球音樂及其藝人是利好。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "分析師普遍下調Spotify目標價",
+      "description": "多家投資銀行（如Benchmark, KeyBanc, Cantor Fitzgerald, Barclays）因變現疑慮、獲利前景不佳及成本上升等因素，普遍下調了Spotify的目標價。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "推出健身課程並擴展內容至軍歌",
-      "description": "Spotify持續拓展其服務範疇，不僅上架了53首國軍軍歌，也與Peloton合作推出超過1400堂的健身課程（涵蓋重訓、皮拉提斯等），積極搶攻健身市場。此外，Spotify也被列為AI助理Claude可串接的生活應用之一，顯示其在生態系整合上的努力。",
+      "title": "Spotify股價下跌與盈利預期未達標",
+      "description": "由於盈利前景未達市場預期，Spotify股價經歷下跌，這反映了投資者對其短期財務表現的擔憂。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "泰勒絲條款影響藝人版稅收益",
+      "description": "受泰勒絲過去對低版稅的倡議及合同條款影響，環球音樂集團出售Spotify股票後，其藝人有望從中獲得數百萬美元的更高版稅收益。",
       "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The Weeknd榮登Spotify串流榜首",
+      "description": "藝人The Weeknd被提及登上Spotify史上最高串流藝術家榜首，彰顯其在平台上的巨大影響力與成就。",
+      "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "財報",
-    "股價",
-    "付費用戶",
-    "增長放緩",
+    "環球音樂集團",
+    "持股出售",
+    "目標價下調",
+    "健身市場",
+    "藝人版稅",
+    "股價下跌",
     "盈利預期",
-    "健身課程",
-    "新功能",
-    "軍歌",
-    "AI 串接",
-    "目標價"
+    "泰勒絲"
   ],
-  "daily_summary": "今日Spotify輿情主要聚焦於其最新季度財報引發的負面市場反應，儘管部分業績數據亮眼，但因未來增長指引疲弱導致股價大幅下挫。同時，Spotify也積極透過上架國軍軍歌和推出健身課程等新功能，展現其多元化內容與市場拓展的策略。",
+  "daily_summary": "今天的 Spotify 輿情呈現兩極化。一方面，Spotify 積極拓展健身市場並推出教練課程，同時藝人版稅機制受泰勒絲條款影響而改善，The Weeknd 也創下串流紀錄。另一方面，多位分析師因盈利前景、變現疑慮及成本上升而下調其目標價，導致股價下跌，而環球音樂集團出售其半數 Spotify 持股也受到市場關注。",
   "article_analyses": [
     {
-      "title": "Spotify也能聽陸軍軍歌！國軍53首軍歌、獲獎歌曲上架串流平台",
+      "title": "聽音樂兼運動！Spotify跨足健身市場 推1400堂教練課上到飽",
       "sentiment": "positive",
       "key_points": [
-        "國軍軍歌上架Spotify",
-        "擴展內容庫"
+        "Spotify拓展新市場",
+        "推出1400堂健身教練課程"
       ]
     },
     {
-      "title": "Spotify 首季盈利勝預期；付費訂戶增長及前景令人失望美股US Stocks Quote - 外圍新聞內容Golbal News Content",
-      "sentiment": "negative",
-      "key_points": [
-        "首季盈利勝預期",
-        "付費訂戶增長及前景令人失望"
-      ]
-    },
-    {
-      "title": "不只聽音樂！Spotify搶健身市場 推出1400堂課「重訓、皮拉提斯都有」",
-      "sentiment": "positive",
-      "key_points": [
-        "推出健身課程",
-        "搶攻健身市場"
-      ]
-    },
-    {
-      "title": "Spotify季報暗示成長放緩、獲利不如預期 股價盤前重挫約6％",
-      "sentiment": "negative",
-      "key_points": [
-        "季報暗示成長放緩",
-        "獲利不如預期",
-        "股價盤前重挫"
-      ]
-    },
-    {
-      "title": "美股：Spotify首季利潤創新高但財測疲弱，週二股價慘跌12.43%",
-      "sentiment": "negative",
-      "key_points": [
-        "首季利潤創新高",
-        "財測疲弱",
-        "股價慘跌12.43%"
-      ]
-    },
-    {
-      "title": "Peloton 健身課堂登陸你的 Spotify App：隨時開練",
-      "sentiment": "positive",
-      "key_points": [
-        "Peloton健身課堂上線",
-        "App新增功能"
-      ]
-    },
-    {
-      "title": "美銀下調Spotify目標價,因現金流預測降低 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "美銀下調Spotify目標價",
-        "現金流預測降低"
-      ]
-    },
-    {
-      "title": "Spotify Technology SA(SPOT)股票4月28日盤中下跌12.27%：關鍵驅動因素揭曉",
-      "sentiment": "negative",
-      "key_points": [
-        "股價盤中下跌12.27%",
-        "市場關注關鍵驅動因素"
-      ]
-    },
-    {
-      "title": "Claude 串接 Uber、Spotify、Booking.com 等生活應用， 從對話轉向實務代理",
+      "title": "環球音樂集團擬出售Spotify半數持股，股票回購計劃規模擴大至10億歐元",
       "sentiment": "neutral",
       "key_points": [
-        "Claude AI串接Spotify",
-        "AI應用擴展"
+        "環球音樂集團擬出售Spotify半數持股",
+        "擴大股票回購規模"
       ]
     },
     {
-      "title": "美股異動丨Spotify跌超13%，Q2新增付費用户及營收指引遜預期",
-      "sentiment": "negative",
-      "key_points": [
-        "股價跌超13%",
-        "Q2新增付費用戶及營收指引遜預期"
-      ]
-    },
-    {
-      "title": "Raymond James因投資支出下調Spotify目標股價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "Raymond James下調Spotify目標股價",
-        "因投資支出考量"
-      ]
-    },
-    {
-      "title": "Spotify預計第二季度營業利潤6.3億歐元低於預期美股US Stocks Quote - 外圍新聞內容Golbal News Content",
-      "sentiment": "negative",
-      "key_points": [
-        "Q2營業利潤預計低於預期"
-      ]
-    },
-    {
-      "title": "Spotify 2026年第一季業績亮眼:利潤率創紀錄,用戶增長超預期 作者 Investing.com - Investing.com 香港",
+      "title": "環球音樂出售半數Spotify持股！加碼庫藏股並分紅泰勒絲等藝人",
       "sentiment": "positive",
       "key_points": [
-        "2026年Q1業績亮眼",
-        "利潤率創紀錄",
-        "用戶增長超預期"
+        "環球音樂出售Spotify持股",
+        "加碼庫藏股",
+        "向泰勒絲等藝人分紅"
       ]
     },
     {
-      "title": "午市焦點新聞：OpenAI 傳未達內部收入及用戶目標；Spotify 股價指引平淡下挫",
+      "title": "環球音樂將出售一半Spotify持股,擴大股票回購規模 作者 Investing.com - Investing.com 香港",
+      "sentiment": "neutral",
+      "key_points": [
+        "環球音樂集團擬出售一半Spotify持股",
+        "擴大股票回購規模"
+      ]
+    },
+    {
+      "title": "Benchmark因變現疑慮下調Spotify目標價 作者 Investing.com - Investing.com 香港",
       "sentiment": "negative",
       "key_points": [
-        "Spotify股價指引平淡",
-        "股價下挫"
+        "Benchmark下調Spotify目標價",
+        "因變現疑慮"
       ]
     },
     {
-      "title": "Evercore ISI重申Spotify股票評級,第一季業績強勁 作者 Investing.com - Investing.com 香港",
+      "title": "KeyBanc因獲利前景下調而調降Spotify目標價 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
+      "key_points": [
+        "KeyBanc下調Spotify目標價",
+        "因獲利前景下調"
+      ]
+    },
+    {
+      "title": "Cantor Fitzgerald因成本上升下調Spotify目標價 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
+      "key_points": [
+        "Cantor Fitzgerald下調Spotify目標價",
+        "因成本上升"
+      ]
+    },
+    {
+      "title": "Bernstein重申Spotify評級,第一季業績後維持看好 作者 Investing.com - Investing.com 香港",
       "sentiment": "positive",
       "key_points": [
-        "Evercore ISI重申股票評級",
-        "第一季業績強勁"
+        "Bernstein重申Spotify看好評級",
+        "基於第一季業績"
       ]
     },
     {
-      "title": "Spotify第一季財報超越每股盈餘預期,股價卻下跌 作者 Investing.com - Investing.com 香港",
+      "title": "Barclays因成本增長擔憂下調Spotify目標價 作者 Investing.com - Investing.com 香港",
       "sentiment": "negative",
       "key_points": [
-        "Q1財報超越EPS預期",
-        "股價下跌"
+        "Barclays下調Spotify目標價",
+        "因成本增長擔憂"
       ]
     },
     {
-      "title": "《業績》Spotify(SPOT.US)次季目標遜色 股價挫11%",
+      "title": "Spotify Shares Tank As Earnings Outlook Misses Expectations - Forbes Africa",
       "sentiment": "negative",
       "key_points": [
-        "次季目標遜色",
-        "股價挫11%"
+        "Spotify股價下跌",
+        "盈利前景未達預期",
+        "曾調高美國Premium訂閱價格"
       ]
     },
     {
-      "title": "Spotify僅達市場預期、廣告疲軟引憂慮！盤前重挫7% 估值壓力浮現",
-      "sentiment": "negative",
+      "title": "Taylor Swift's 'Spotify clause' is paying artists real money now - USA Today",
+      "sentiment": "positive",
       "key_points": [
-        "僅達市場預期",
-        "廣告疲軟引憂慮",
-        "盤前重挫7%",
-        "估值壓力浮現"
+        "泰勒絲的'Spotify條款'使藝人獲更高版稅",
+        "改善藝人收益問題"
       ]
     },
     {
-      "title": "Spotify 股價因第二季付費用戶指引而下跌",
-      "sentiment": "negative",
+      "title": "Universal Music Group to Sell Half of Its Spotify Stake, Reports $3.3 Billion in Revenue - The Hollywood Reporter",
+      "sentiment": "neutral",
       "key_points": [
-        "股價下跌",
-        "受第二季付費用戶指引影響"
+        "環球音樂集團出售半數Spotify持股",
+        "報導33億美元營收"
+      ]
+    },
+    {
+      "title": "Universal Music to sell half its Spotify stake for buybacks, Q1 hit by weak dollar - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "環球音樂出售半數Spotify持股",
+        "用於股票回購"
+      ]
+    },
+    {
+      "title": "How Taylor Swift’s Record Contract Could Lead to Millions of Dollars for UMG Artists After Spotify Stock Sale - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "泰勒絲合約影響UMG藝人收益",
+        "UMG藝人從Spotify股票出售中獲利"
+      ]
+    },
+    {
+      "title": "Kid Cudi Shows Love to Ye While Performing ‘Kids See Ghosts’ Song at Tour Kickoff: ‘We Gotta Sing This Loud’ - Billboard Canada",
+      "sentiment": "positive",
+      "key_points": [
+        "The Weeknd登上Spotify史上最高串流藝術家榜首"
+      ]
+    },
+    {
+      "title": "Kalshi Co-Founder Reveals How Superfans Earn Six Figures From Music Prediction Markets - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify的防機器人與操縱機制被關注"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260429_043159.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260429.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260430_043443.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260430.jpg"
 }
