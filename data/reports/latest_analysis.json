@@ -1,188 +1,198 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.4,
-    "negative_ratio": 0.3,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify跨足健身市場",
-      "description": "Spotify積極拓展新服務領域，推出1400堂教練課程，正式進入健身市場，此舉顯示其內容多元化策略。",
-      "severity": "high",
+      "title": "Spotify 推出「Verified by Spotify」徽章加強藝人驗證",
+      "description": "為應對AI音樂時代，Spotify 推出新功能「Verified by Spotify」徽章，幫助聽眾區分真人藝術家與AI生成的音樂。此舉旨在提升音樂的真實性與信任度，並補充了藝人頁面上的詳細資訊。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "環球音樂集團出售Spotify持股",
-      "description": "環球音樂集團計劃出售其持有的半數Spotify股權，此舉旨在擴大股票回購規模並向藝人（包括泰勒絲等）分紅，對環球音樂及其藝人是利好。",
+      "title": "環球音樂集團出售部分 Spotify 股份並落實「泰勒絲條款」",
+      "description": "環球音樂集團 (UMG) 宣布出售其持有的部分 Spotify 股份，並將部分收益根據「泰勒絲條款」分配給旗下藝人。這項商業決策對音樂產業的收益分配產生影響，特別是保障了藝人權益。",
       "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "分析師普遍下調Spotify目標價",
-      "description": "多家投資銀行（如Benchmark, KeyBanc, Cantor Fitzgerald, Barclays）因變現疑慮、獲利前景不佳及成本上升等因素，普遍下調了Spotify的目標價。",
+      "title": "Spotify Q1 財報展望未達預期導致股價下跌",
+      "description": "Spotify 報告其 2026 年第一季度的收益展望未達到市場預期，導致公司股價在市場上出現下跌。儘管月活躍用戶數和付費用戶數持續增長，投資者仍對其財務表現表示擔憂。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify股價下跌與盈利預期未達標",
-      "description": "由於盈利前景未達市場預期，Spotify股價經歷下跌，這反映了投資者對其短期財務表現的擔憂。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "泰勒絲條款影響藝人版稅收益",
-      "description": "受泰勒絲過去對低版稅的倡議及合同條款影響，環球音樂集團出售Spotify股票後，其藝人有望從中獲得數百萬美元的更高版稅收益。",
+      "title": "Spotify 清理大量「垃圾」AI 生成音樂",
+      "description": "有報導指出 Spotify 曾清除數千萬首被認為是「垃圾」或「垃圾郵件」般的 AI 生成曲目。這反映了音樂串流平台在管理快速增長的 AI 內容方面所面臨的挑戰與其為維護內容品質所做的努力。",
       "severity": "medium",
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "title": "The Weeknd榮登Spotify串流榜首",
-      "description": "藝人The Weeknd被提及登上Spotify史上最高串流藝術家榜首，彰顯其在平台上的巨大影響力與成就。",
-      "severity": "low",
-      "sentiment": "positive"
+      "title": "Spotify 在「Discovery Mode」訴訟案中勝訴",
+      "description": "一項針對 Spotify 「Discovery Mode」中涉及「付費點播」（payola）指控的集體訴訟案，法官裁定因仲裁協議，用戶不能提起訴訟。這對 Spotify 而言是法律上的勝利，但同時也引發了對其內容推廣機制透明度的討論。",
+      "severity": "medium",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "環球音樂集團",
-    "持股出售",
-    "目標價下調",
-    "健身市場",
-    "藝人版稅",
-    "股價下跌",
-    "盈利預期",
-    "泰勒絲"
+    "Spotify",
+    "AI音樂",
+    "藝人驗證",
+    "環球音樂",
+    "泰勒絲條款",
+    "股份出售",
+    "財報",
+    "股價",
+    "垃圾曲目",
+    "Discovery Mode"
   ],
-  "daily_summary": "今天的 Spotify 輿情呈現兩極化。一方面，Spotify 積極拓展健身市場並推出教練課程，同時藝人版稅機制受泰勒絲條款影響而改善，The Weeknd 也創下串流紀錄。另一方面，多位分析師因盈利前景、變現疑慮及成本上升而下調其目標價，導致股價下跌，而環球音樂集團出售其半數 Spotify 持股也受到市場關注。",
+  "daily_summary": "今日 Spotify 輿情主要聚焦於兩大熱點：平台為應對 AI 音樂挑戰，推出「Verified by Spotify」徽章以驗證真人藝人，此舉普遍獲得正面評價；同時，環球音樂集團出售其部分 Spotify 股份並依「泰勒絲條款」回饋藝人，備受業界關注。然而，Spotify 的 Q1 財報展望未達預期導致股價下跌，以及其清理大量 AI 垃圾曲目的行動，也反映出平台在財務表現與內容管理上仍面臨挑戰。",
   "article_analyses": [
     {
-      "title": "聽音樂兼運動！Spotify跨足健身市場 推1400堂教練課上到飽",
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益",
       "sentiment": "positive",
       "key_points": [
-        "Spotify拓展新市場",
-        "推出1400堂健身教練課程"
+        "環球音樂出售Spotify股份",
+        "將實施「泰勒絲條款」",
+        "保障旗下藝人收益"
       ]
     },
     {
-      "title": "環球音樂集團擬出售Spotify半數持股，股票回購計劃規模擴大至10億歐元",
-      "sentiment": "neutral",
-      "key_points": [
-        "環球音樂集團擬出售Spotify半數持股",
-        "擴大股票回購規模"
-      ]
-    },
-    {
-      "title": "環球音樂出售半數Spotify持股！加碼庫藏股並分紅泰勒絲等藝人",
+      "title": "透過 Spotify 徽章驗證讓您知道這位藝術家不是 AI",
       "sentiment": "positive",
       "key_points": [
-        "環球音樂出售Spotify持股",
-        "加碼庫藏股",
-        "向泰勒絲等藝人分紅"
+        "Spotify 推出驗證徽章",
+        "區分真人藝術家與AI創作"
       ]
     },
     {
-      "title": "環球音樂將出售一半Spotify持股,擴大股票回購規模 作者 Investing.com - Investing.com 香港",
-      "sentiment": "neutral",
-      "key_points": [
-        "環球音樂集團擬出售一半Spotify持股",
-        "擴大股票回購規模"
-      ]
-    },
-    {
-      "title": "Benchmark因變現疑慮下調Spotify目標價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "Benchmark下調Spotify目標價",
-        "因變現疑慮"
-      ]
-    },
-    {
-      "title": "KeyBanc因獲利前景下調而調降Spotify目標價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "KeyBanc下調Spotify目標價",
-        "因獲利前景下調"
-      ]
-    },
-    {
-      "title": "Cantor Fitzgerald因成本上升下調Spotify目標價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "Cantor Fitzgerald下調Spotify目標價",
-        "因成本上升"
-      ]
-    },
-    {
-      "title": "Bernstein重申Spotify評級,第一季業績後維持看好 作者 Investing.com - Investing.com 香港",
+      "title": "Spotify 推「Verified by Spotify」徽章 加強AI音樂時代藝人驗證",
       "sentiment": "positive",
       "key_points": [
-        "Bernstein重申Spotify看好評級",
-        "基於第一季業績"
+        "Spotify 推出「Verified by Spotify」徽章",
+        "加強AI音樂時代藝人驗證"
       ]
     },
     {
-      "title": "Barclays因成本增長擔憂下調Spotify目標價 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "Barclays下調Spotify目標價",
-        "因成本增長擔憂"
-      ]
-    },
-    {
-      "title": "Spotify Shares Tank As Earnings Outlook Misses Expectations - Forbes Africa",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify股價下跌",
-        "盈利前景未達預期",
-        "曾調高美國Premium訂閱價格"
-      ]
-    },
-    {
-      "title": "Taylor Swift's 'Spotify clause' is paying artists real money now - USA Today",
+      "title": "Spotify introduces verified artist badges to help distinguish humans from AI - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "泰勒絲的'Spotify條款'使藝人獲更高版稅",
-        "改善藝人收益問題"
+        "Spotify 推出驗證徽章",
+        "區分人類與AI創作者",
+        "因應Sony Music移除AI歌曲"
       ]
     },
     {
       "title": "Universal Music Group to Sell Half of Its Spotify Stake, Reports $3.3 Billion in Revenue - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂集團出售半數Spotify持股",
-        "報導33億美元營收"
+        "環球音樂出售一半Spotify股份",
+        "報告33億美元營收"
+      ]
+    },
+    {
+      "title": "Spotify rolls out ‘Verified’ badge to distinguish human artists from AI - The Guardian",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出「Verified」徽章",
+        "區分真人與AI藝人",
+        "新增藝人頁面資訊（類似營養標籤）"
+      ]
+    },
+    {
+      "title": "Spotify Will Now Verify Non-AI Artists - Gizmodo",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 將驗證非AI藝術家"
+      ]
+    },
+    {
+      "title": "Spotify Shares Tank As Earnings Outlook Misses Expectations - Forbes Africa",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 股價下跌",
+        "Q1 收益展望未達預期",
+        "月活躍用戶與付費用戶數增長"
+      ]
+    },
+    {
+      "title": "04-30-2026 Daily Edition - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "環球音樂與Spotify早期授權協議",
+        "泰勒絲與Spotify股權關係的歷史背景"
+      ]
+    },
+    {
+      "title": "As AI Music Grows, Spotify Launches Verification Badges — But Only for Human Artists - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "AI音樂增長促使Spotify推出驗證徽章",
+        "強調音樂真實性",
+        "99% 熱門藝人將獲驗證"
       ]
     },
     {
       "title": "Universal Music to sell half its Spotify stake for buybacks, Q1 hit by weak dollar - Reuters",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂出售半數Spotify持股",
-        "用於股票回購"
+        "環球音樂出售一半Spotify股權",
+        "用於股票回購",
+        "Q1 業績受弱勢美元影響"
+      ]
+    },
+    {
+      "title": "Spotify Users Can’t Sue Over Discovery Mode ‘Payola’ Accusations, Judge Says - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 用戶不能就「Discovery Mode」賄賂指控提告",
+        "法官因仲裁協議駁回"
       ]
     },
     {
       "title": "How Taylor Swift’s Record Contract Could Lead to Millions of Dollars for UMG Artists After Spotify Stock Sale - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "泰勒絲合約影響UMG藝人收益",
-        "UMG藝人從Spotify股票出售中獲利"
+        "泰勒絲唱片合約影響",
+        "環球音樂出售Spotify股份後藝人收益"
       ]
     },
     {
       "title": "Kid Cudi Shows Love to Ye While Performing ‘Kids See Ghosts’ Song at Tour Kickoff: ‘We Gotta Sing This Loud’ - Billboard Canada",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "The Weeknd登上Spotify史上最高串流藝術家榜首"
+        "The Weeknd 位居 Spotify 歷史榜首 (簡短提及)"
       ]
     },
     {
-      "title": "Kalshi Co-Founder Reveals How Superfans Earn Six Figures From Music Prediction Markets - Billboard",
-      "sentiment": "neutral",
+      "title": "AI Music Is Here To Stay, If $2.5 Billion Startup Suno Gets Its Way - Forbes",
+      "sentiment": "negative",
       "key_points": [
-        "Spotify的防機器人與操縱機制被關注"
+        "AI音樂持續增長",
+        "Spotify 清除 7500 萬首「垃圾」曲目"
       ]
+    },
+    {
+      "title": "Spotify wants to help listeners better identify AI-generated music - NBC News",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 協助聽眾識別AI生成音樂",
+        "綠色「Verified by Spotify」勾選標記"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260430_043443.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260430.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260501_045241.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260501.jpg"
 }
