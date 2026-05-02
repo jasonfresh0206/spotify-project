@@ -1,186 +1,288 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.5,
+    "positive_ratio": 0.3,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.4
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "Spotify 推出「Verified by Spotify」徽章加強藝人驗證",
-      "description": "為應對AI音樂時代，Spotify 推出新功能「Verified by Spotify」徽章，幫助聽眾區分真人藝術家與AI生成的音樂。此舉旨在提升音樂的真實性與信任度，並補充了藝人頁面上的詳細資訊。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "環球音樂集團出售部分 Spotify 股份並落實「泰勒絲條款」",
-      "description": "環球音樂集團 (UMG) 宣布出售其持有的部分 Spotify 股份，並將部分收益根據「泰勒絲條款」分配給旗下藝人。這項商業決策對音樂產業的收益分配產生影響，特別是保障了藝人權益。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Spotify Q1 財報展望未達預期導致股價下跌",
-      "description": "Spotify 報告其 2026 年第一季度的收益展望未達到市場預期，導致公司股價在市場上出現下跌。儘管月活躍用戶數和付費用戶數持續增長，投資者仍對其財務表現表示擔憂。",
+      "title": "Q1 財報未達預期導致股價重挫",
+      "description": "Spotify 公布第一季財報後，由於對第二季營運收入的預期低於市場，導致其股價大幅下跌超過12%。儘管付費訂閱用戶和月活躍用戶數有所增長，但投資者對未來的獲利能力表示擔憂。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 清理大量「垃圾」AI 生成音樂",
-      "description": "有報導指出 Spotify 曾清除數千萬首被認為是「垃圾」或「垃圾郵件」般的 AI 生成曲目。這反映了音樂串流平台在管理快速增長的 AI 內容方面所面臨的挑戰與其為維護內容品質所做的努力。",
-      "severity": "medium",
-      "sentiment": "negative"
+      "title": "推出非AI音樂人認證標章與新增藝人資料",
+      "description": "為打擊AI假冒藝人帳號及應對AI生成音樂的挑戰，Spotify 推出「認證標章」以區分人類藝術家與AI創作。同時，平台也在藝人頁面新增職業亮點、發行模式和現場表演歷史等資訊，旨在提升平台內容的真實性與透明度。",
+      "severity": "high",
+      "sentiment": "positive"
     },
     {
-      "title": "Spotify 在「Discovery Mode」訴訟案中勝訴",
-      "description": "一項針對 Spotify 「Discovery Mode」中涉及「付費點播」（payola）指控的集體訴訟案，法官裁定因仲裁協議，用戶不能提起訴訟。這對 Spotify 而言是法律上的勝利，但同時也引發了對其內容推廣機制透明度的討論。",
+      "title": "環球音樂集團 (UMG) 出售部分 Spotify 股權",
+      "description": "環球音樂集團宣布將出售其持有的 Spotify 約一半股權，預計將用於自身的股票回購計劃。此舉發生在 UMG 公布強勁第一季營收之際，反映其財務策略調整，而非直接針對 Spotify 的營運表現。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "法院駁回 'Discovery Mode Payola' 相關訴訟",
+      "description": "法院裁定 Spotify 用戶不能就 'Discovery Mode' 的 'Payola'（有償推廣）指控提起訴訟，原因是平台服務條款中包含仲裁協議。此結果為 Spotify 在法律層面上帶來有利局面，儘管相關指控反映了潛在的輿論關注。",
       "severity": "medium",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Spotify",
     "AI音樂",
-    "藝人驗證",
-    "環球音樂",
-    "泰勒絲條款",
-    "股份出售",
-    "財報",
+    "藝人認證",
     "股價",
-    "垃圾曲目",
-    "Discovery Mode"
+    "財報",
+    "環球音樂集團 (UMG)",
+    "串流平台",
+    "投資",
+    "真實性"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於兩大熱點：平台為應對 AI 音樂挑戰，推出「Verified by Spotify」徽章以驗證真人藝人，此舉普遍獲得正面評價；同時，環球音樂集團出售其部分 Spotify 股份並依「泰勒絲條款」回饋藝人，備受業界關注。然而，Spotify 的 Q1 財報展望未達預期導致股價下跌，以及其清理大量 AI 垃圾曲目的行動，也反映出平台在財務表現與內容管理上仍面臨挑戰。",
+  "daily_summary": "今日 Spotify 輿情主要由兩大事件主導：為應對AI音樂挑戰而推出「藝人認證標章」獲得普遍正面評價，旨在提升內容真實性；然而，其第一季財報因對第二季營運展望不佳，導致股價大幅下跌，引起市場負面反應。此外，環球音樂集團出售部分 Spotify 股權以及法院駁回 'Discovery Mode' 相關訴訟亦是值得關注的動態。",
   "article_analyses": [
     {
-      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益",
-      "sentiment": "positive",
+      "title": "娛樂股暴起暴落！Spotify砸錢拚AI、UMG砍Spotify持股 全球音樂產業獲利升空、股價卻跌給你看",
+      "sentiment": "negative",
       "key_points": [
-        "環球音樂出售Spotify股份",
-        "將實施「泰勒絲條款」",
-        "保障旗下藝人收益"
+        "Spotify 投資 AI",
+        "UMG 出售 Spotify 股權",
+        "產業獲利成長但 Spotify 股價下跌"
       ]
     },
     {
-      "title": "透過 Spotify 徽章驗證讓您知道這位藝術家不是 AI",
+      "title": "Spotify 推出認證標章 打擊 AI 假冒藝人帳號",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出驗證徽章",
-        "區分真人藝術家與AI創作"
+        "Spotify 推出認證標章",
+        "打擊 AI 假冒藝人"
       ]
     },
     {
-      "title": "Spotify 推「Verified by Spotify」徽章 加強AI音樂時代藝人驗證",
+      "title": "標題 : Q1 音樂產業財報大震盪：Spotify、UMG 獲利仍佳卻重挫，BTS 助 HYBE 創史上最佳首季",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify Q1 獲利佳但股價重挫",
+        "音樂產業財報震盪"
+      ]
+    },
+    {
+      "title": "AI 音樂佔 Deezer 每日上傳 44%，平台正在用認證徽章與詐騙內容農場賽跑",
+      "sentiment": "neutral",
+      "key_points": [
+        "Deezer 平台上 AI 音樂佔比高",
+        "串流平台透過認證應對詐騙內容"
+      ]
+    },
+    {
+      "title": "Spotify 開始驗證非 AI 音樂人 並新增藝術家資料",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「Verified by Spotify」徽章",
-        "加強AI音樂時代藝人驗證"
+        "Spotify 驗證非 AI 音樂人",
+        "新增藝術家資料頁面"
       ]
     },
     {
       "title": "Spotify introduces verified artist badges to help distinguish humans from AI - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出驗證徽章",
-        "區分人類與AI創作者",
-        "因應Sony Music移除AI歌曲"
+        "Spotify 推出藝人認證徽章",
+        "區分人類藝人與 AI"
       ]
     },
     {
       "title": "Universal Music Group to Sell Half of Its Spotify Stake, Reports $3.3 Billion in Revenue - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂出售一半Spotify股份",
-        "報告33億美元營收"
+        "UMG 出售一半 Spotify 股權",
+        "UMG 報告 33 億美元營收"
       ]
     },
     {
       "title": "Spotify rolls out ‘Verified’ badge to distinguish human artists from AI - The Guardian",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「Verified」徽章",
-        "區分真人與AI藝人",
-        "新增藝人頁面資訊（類似營養標籤）"
+        "Spotify 推出「已驗證」徽章",
+        "新增藝人資料區塊"
       ]
     },
     {
       "title": "Spotify Will Now Verify Non-AI Artists - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 將驗證非AI藝術家"
+        "Spotify 將驗證非 AI 藝人"
+      ]
+    },
+    {
+      "title": "Q1 2026 Earnings: Here’s What Every Music Company Made (Updating) - billboard.com",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 股價下跌超過 12%",
+        "Q2 營運收入預期較低"
       ]
     },
     {
       "title": "Spotify Shares Tank As Earnings Outlook Misses Expectations - Forbes Africa",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 股價下跌",
-        "Q1 收益展望未達預期",
-        "月活躍用戶與付費用戶數增長"
+        "Spotify 股價暴跌",
+        "財報展望未達預期"
       ]
     },
     {
       "title": "04-30-2026 Daily Edition - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂與Spotify早期授權協議",
-        "泰勒絲與Spotify股權關係的歷史背景"
+        "唱片公司與 Spotify 的早期授權協議",
+        "Taylor Swift 對產業的影響"
       ]
     },
     {
       "title": "As AI Music Grows, Spotify Launches Verification Badges — But Only for Human Artists - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "AI音樂增長促使Spotify推出驗證徽章",
-        "強調音樂真實性",
-        "99% 熱門藝人將獲驗證"
+        "Spotify 推出驗證徽章應對 AI 音樂增長",
+        "強調音樂真實性"
       ]
     },
     {
       "title": "Universal Music to sell half its Spotify stake for buybacks, Q1 hit by weak dollar - Reuters",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂出售一半Spotify股權",
-        "用於股票回購",
-        "Q1 業績受弱勢美元影響"
+        "UMG 出售一半 Spotify 股權用於回購",
+        "UMG Q1 受弱勢美元影響"
       ]
     },
     {
       "title": "Spotify Users Can’t Sue Over Discovery Mode ‘Payola’ Accusations, Judge Says - Billboard",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 用戶不能就「Discovery Mode」賄賂指控提告",
-        "法官因仲裁協議駁回"
+        "法院駁回 Spotify Discovery Mode 訴訟",
+        "因用戶同意仲裁條款"
       ]
     },
     {
       "title": "How Taylor Swift’s Record Contract Could Lead to Millions of Dollars for UMG Artists After Spotify Stock Sale - Billboard",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "泰勒絲唱片合約影響",
-        "環球音樂出售Spotify股份後藝人收益"
+        "Taylor Swift 的唱片合約",
+        "UMG 藝術家可能從 Spotify 股權出售中獲益"
       ]
     },
     {
       "title": "Kid Cudi Shows Love to Ye While Performing ‘Kids See Ghosts’ Song at Tour Kickoff: ‘We Gotta Sing This Loud’ - Billboard Canada",
       "sentiment": "neutral",
       "key_points": [
-        "The Weeknd 位居 Spotify 歷史榜首 (簡短提及)"
+        "The Weeknd 位居 Spotify 歷史榜首"
+      ]
+    },
+    {
+      "title": "2,918 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Bought by Cannon Capital Management Inc. - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Kalshi Co-Founder Reveals How Superfans Earn Six Figures From Music Prediction Markets - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "Kalshi 研究 Spotify 防止機器人與市場操縱的方法"
+      ]
+    },
+    {
+      "title": "Forbes Daily: Elon Musk Takes The Witness Stand Against OpenAI - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "Suno 的 AI 音樂生成軟體廣受使用"
       ]
     },
     {
       "title": "AI Music Is Here To Stay, If $2.5 Billion Startup Suno Gets Its Way - Forbes",
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "key_points": [
-        "AI音樂持續增長",
-        "Spotify 清除 7500 萬首「垃圾」曲目"
+        "AI 音樂持續增長",
+        "Spotify 曾清理垃圾曲目"
+      ]
+    },
+    {
+      "title": "Fed day, Starbucks earnings, UAE leaves OPEC and more in Morning Squawk - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 被提及於財經新聞"
+      ]
+    },
+    {
+      "title": "New Music Friday: The best albums out May 1 - WPLN News",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify Wrapped 作為個人參考"
+      ]
+    },
+    {
+      "title": "SiriusXM Beats Wall Street Expectations Amid Reported Talks of iHeartMedia Combination - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Amazon Offers Q1 Shoutout To ‘Project Hail Mary’, Tops Wall Street Forecasts Amid AI Arms Race - Deadline",
+      "sentiment": "neutral",
+      "key_points": [
+        "提及 AI 軍備競賽"
+      ]
+    },
+    {
+      "title": "The Late Morning Rundown: April 30, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Paramount+ Subscribers’ Sue Over Merger With Warner Bros. Discovery - Forbes",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Spotify adds verification badge to distinguish human artists from AI - Los Angeles Times",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 新增認證徽章區分人類藝人與 AI",
+        "回應過去的爭議"
       ]
     },
     {
       "title": "Spotify wants to help listeners better identify AI-generated music - NBC News",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 協助聽眾識別AI生成音樂",
-        "綠色「Verified by Spotify」勾選標記"
+        "Spotify 協助用戶識別 AI 音樂",
+        "增加藝人背景資訊"
       ]
+    },
+    {
+      "title": "Spotify Is Adding Artist Verification Badges on Profiles - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 正在為藝人資料添加認證徽章",
+        "實施嚴格的審查流程"
+      ]
+    },
+    {
+      "title": "Kim Petras on Presenting Executive of the Year Award, Artistic Freedom - Billboard",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "The ‘Devil Wears Prada 2’ Soundtrack Is Ready for the Runway: Stream It Now - Billboard",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Billboard’s Women In Music 2026 - Billboard",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Keke Palmer Performs 'Text Message Unsent' - Billboard",
+      "sentiment": "neutral",
+      "key_points": []
     },
     {
       "title": "無標題",
@@ -193,6 +295,6 @@
       "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260501_045241.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260501.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260502_042057.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260502.jpg"
 }
