@@ -1,310 +1,351 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.6
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "HUR+ 擔任 Spotify EQUAL 大使並登上紐約時代廣場",
-      "description": "台灣華語女團 HUR+ 首次成為 Spotify EQUAL 大使，並在紐約時代廣場的巨幕上亮相，突顯 Spotify 對多元音樂與在地藝人的支持。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 推出「驗證藝術家」徽章以區分人類與 AI 創作",
-      "description": "為應對 AI 創作音樂的日益增長，Spotify 推出了綠色「驗證藝術家」徽章和新的藝術家資訊區，旨在幫助聽眾辨識人類藝術家及其作品的真實性。",
+      "title": "AI音樂與藝人真實性認證",
+      "description": "Spotify推出「藝人認證徽章」功能，旨在幫助聽眾分辨人類藝術家與AI生成的音樂內容，以應對AI音樂激增帶來的真實性挑戰。此舉獲得多篇文章關注，被視為保護藝人權益和聽眾體驗的積極措施。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 股價因 Q2 財測低於預期而大幅下跌",
-      "description": "儘管第一季訂閱數與營收成長，但 Spotify 因預期第二季營運收入將較低，導致其股價單日下跌超過 12%，引發市場對其投資和獲利能力的擔憂。",
+      "title": "第一季度財報與股價下跌",
+      "description": "Spotify公布第一季度財報後，由於對第二季度營運收入的預期未達標，導致公司股價下跌超過12%。儘管付費訂閱用戶數和總收入有所增長，市場對其未來獲利能力仍抱持謹慎態度。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 用戶無法就「探索模式」的「付費播放」指控提起訴訟",
-      "description": "法院裁定 Spotify 用戶無法就其「探索模式」中的「付費播放」(Payola) 指控提起集體訴訟，因為用戶條款中包含仲裁協議。",
+      "title": "Universal Music Group出售Spotify股份",
+      "description": "Universal Music Group (UMG) 宣布將出售其持有的一半Spotify股份，並將所得用於股票回購。此為主要股東的財務策略，對Spotify而言為中性事件，但反映了市場投資組合的調整。",
       "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "評論指出 Spotify 的心情歌單品質下降",
-      "description": "有評論指出 Spotify 的心情歌單體驗不佳或品質下降，導致評論者自行製作更佳的替代歌單。",
-      "severity": "low",
-      "sentiment": "negative"
-    },
-    {
-      "title": "環球音樂集團出售部分 Spotify 股權",
-      "description": "環球音樂集團 (Universal Music Group) 宣布將出售其持有的部分 Spotify 股權，以進行股票回購，此舉主要關乎 UMG 的財務策略。",
-      "severity": "low",
       "sentiment": "neutral"
+    },
+    {
+      "title": "遠傳與Spotify合作舉辦「ID.音樂節」",
+      "description": "遠傳攜手Spotify打造全新「ID.音樂節」，旨在為台灣新生代音樂人才提供全球舞台。此項合作有助於Spotify在區域市場的品牌建設與在地音樂生態的發展。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "「Discovery Mode」法律訴訟獲勝",
+      "description": "法院裁定Spotify用戶無法就其「Discovery Mode」功能中的「付費播放」(Payola) 指控提告，主要原因是Spotify的服務條款中包含仲裁協議。此結果對Spotify而言是法律上的勝利，但也凸顯了相關功能引發的爭議。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Spotify「情緒歌單」功能遭批評",
+      "description": "有評論指出Spotify的「情緒歌單」（mood playlists）表現不佳，未能提供令人滿意的選曲體驗，顯示部分功能有待改進。",
+      "severity": "low",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "Spotify",
     "AI音樂",
-    "驗證藝術家",
-    "HUR+",
-    "EQUAL大使",
-    "股價下跌",
-    "財務報告",
-    "心情歌單",
-    "法律訴訟",
-    "Universal Music"
+    "藝人驗證",
+    "認證徽章",
+    "財報",
+    "股價",
+    "Universal Music Group",
+    "ID.音樂節",
+    "新生代音樂",
+    "Discovery Mode",
+    "有聲書"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現兩極。正面消息包括台灣女團 HUR+ 成為 EQUAL 大使並登上紐約時代廣場，以及平台推出「驗證藝術家」徽章以應對 AI 音樂挑戰。然而，Spotify 股價因第二季財測低於預期而大幅下跌，同時有評論指出其心情歌單品質下滑，凸顯平台在推廣音樂、技術創新與財務表現及用戶體驗之間的多重挑戰。",
+  "daily_summary": "Spotify今日輿情焦點集中在AI音樂內容的應對策略與市場財務表現。為確保音樂真實性，Spotify推出藝人認證徽章來區分人類與AI創作者；然而，公司近期公布的財報預期不如市場預期，導致股價下跌。同時，平台也積極透過與遠傳合作「ID.音樂節」等活動支持新生代音樂人，展現其在音樂產業中的多元發展。",
   "article_analyses": [
     {
-      "title": "HUR+攻上紐約時代廣場 首獲Spotify EQUAL大使華語女團",
+      "title": "遠傳攜Spotify打造全新「ID.音樂節」！為台灣新生代音樂人才打造全球舞台",
       "sentiment": "positive",
       "key_points": [
-        "HUR+ 成為 Spotify EQUAL 大使",
-        "登上紐約時代廣場巨幕",
-        "首個華語女團獲此殊榮"
+        "遠傳與Spotify合作舉辦「ID.音樂節」",
+        "為台灣新生代音樂人才提供全球舞台",
+        "強化品牌在地連結與人才培育"
       ]
     },
     {
-      "title": "台女團HUR＋登紐約時代廣場巨幕 擔任Spotify EQUAL大使",
+      "title": "DeepFake｜Spotify推認證徽章 助聽眾分辨真假藝人",
       "sentiment": "positive",
       "key_points": [
-        "台女團HUR+ 登上紐約時代廣場",
-        "擔任 Spotify EQUAL 大使"
+        "Spotify推出認證徽章以應對DeepFake問題",
+        "幫助聽眾分辨真假藝人與AI生成音樂",
+        "回應業界對AI音樂真實性的擔憂"
       ]
     },
     {
-      "title": "HUR+攻上紐約時代廣場！25層樓巨幕刷臉 成Spotify EQUAL大使",
+      "title": "HUR+攻上紐約時代廣場！25層樓巨幕刷臉 成Spotify EQUAL大使華語女團第一人",
       "sentiment": "positive",
       "key_points": [
-        "HUR+ 攻上紐約時代廣場",
-        "成為 Spotify EQUAL 大使"
+        "HUR+成為Spotify EQUAL大使",
+        "成功登上紐約時代廣場巨幕",
+        "華語女團在國際舞台的里程碑"
       ]
     },
     {
       "title": "Spotify has ruined mood playlists – so our critics have made some better ones instead - The Guardian",
       "sentiment": "negative",
       "key_points": [
-        "批評 Spotify 的心情歌單已「被毀」，品質不佳",
-        "評論家建議自製更好的歌單"
+        "有評論批評Spotify的「情緒歌單」功能不佳",
+        "認為其未能提供令人滿意的選曲體驗"
       ]
     },
     {
       "title": "Spotify introduces verified artist badges to help distinguish humans from AI - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出驗證藝術家徽章",
-        "旨在區分人類藝術家與 AI 創作",
-        "回應 Sony Music 等對 AI 歌曲的擔憂"
+        "Spotify推出驗證徽章功能",
+        "旨在區分人類藝術家與AI生成的內容",
+        "解決AI音樂對平台真實性的挑戰"
       ]
     },
     {
       "title": "Universal Music Group to Sell Half of Its Spotify Stake, Reports $3.3 Billion in Revenue - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂集團將出售一半其持有的 Spotify 股權",
-        "UMG 第一季度營收達 33 億美元"
+        "Universal Music Group宣布將出售一半的Spotify股份",
+        "此舉主要用於股票回購",
+        "UMG第一季度營收達33億美元"
       ]
     },
     {
       "title": "Spotify rolls out ‘Verified’ badge to distinguish human artists from AI - The Guardian",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「驗證」徽章區分人類藝術家與 AI",
-        "新增藝術家頁面資訊，類似食品營養標籤"
+        "Spotify推出「驗證徽章」功能",
+        "旨在幫助聽眾分辨人類藝人與AI生成音樂",
+        "藝術家頁面新增資訊區塊，提供職業生涯亮點等"
       ]
     },
     {
       "title": "Spotify Will Now Verify Non-AI Artists - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 將驗證非 AI 藝術家",
-        "旨在應對 AI 音樂挑戰"
+        "Spotify將開始驗證非AI藝術家身份",
+        "應對AI音樂內容激增的挑戰",
+        "保護藝人版權和聽眾體驗"
       ]
     },
     {
       "title": "Q1 2026 Earnings: Here’s What Every Music Company Made (Updating) - billboard.com",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 股價在 Q2 營運收入指引後下跌超過 12%",
-        "這是 Spotify 史上最大的單日股價跌幅"
+        "Spotify股價在第一季度財報後下跌超過12%",
+        "主要因公司對第二季度營運收入預期較低",
+        "儘管下跌，仍公布了成長的用戶數據"
       ]
     },
     {
       "title": "Spotify Shares Tank As Earnings Outlook Misses Expectations - Forbes Africa",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 股價暴跌，Q1 財報展望未達預期",
-        "Q1 付費訂閱用戶 2.93 億，MAU 7.61 億，總營收 45.3 億歐元"
+        "Spotify股價暴跌，營收預期未達標",
+        "第一季度付費訂閱用戶數和月活躍用戶數均有增長",
+        "總收入達到45.3億歐元"
       ]
     },
     {
       "title": "04-30-2026 Daily Edition - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "討論唱片公司與 Spotify 早期授權協議，獲得服務股權",
-        "提及 Taylor Swift 與此相關的影響"
+        "文章提及Spotify與主要唱片公司早期的授權協議",
+        "這些協議讓唱片公司持有Spotify股份",
+        "分析了歷史協議對藝人與平台關係的影響"
       ]
     },
     {
       "title": "As AI Music Grows, Spotify Launches Verification Badges — But Only for Human Artists - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出驗證徽章以應對 AI 時代",
-        "強調音樂真實性的重要性",
-        "超過 99% 的搜尋藝術家將被驗證"
+        "Spotify推出驗證徽章，強調音樂的真實性",
+        "新計畫旨在幫助聽眾信任所聽音樂的來源",
+        "目前超過99%的熱門藝人將獲得驗證"
       ]
     },
     {
       "title": "Universal Music to sell half its Spotify stake for buybacks, Q1 hit by weak dollar - Reuters",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂出售一半其 Spotify 股權進行回購",
-        "Q1 業績受到美元疲軟影響"
+        "Universal Music Group計劃出售一半Spotify股權",
+        "出售所得將用於股票回購",
+        "UMG第一季度業績受美元疲軟影響"
       ]
     },
     {
       "title": "Spotify Users Can’t Sue Over Discovery Mode ‘Payola’ Accusations, Judge Says - Billboard",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "法官裁定 Spotify 用戶無法就「探索模式」的「付費播放」指控提告",
-        "因服務條款中包含仲裁協議"
+        "法院裁定Spotify用戶無法就「Discovery Mode」的「付費播放」指控提告",
+        "裁決基於用戶同意仲裁協議",
+        "此案例凸顯串流服務條款中的仲裁條款重要性"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, May 4, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify在有聲書市場的表現更像「禮貌的客人」而非「顛覆者」",
+        "初期影響力不如預期般劇烈",
+        "顯示其在有聲書領域扮演補充性角色"
       ]
     },
     {
       "title": "Kid Cudi Shows Love to Ye While Performing ‘Kids See Ghosts’ Song at Tour Kickoff: ‘We Gotta Sing This Loud’ - Billboard Canada",
       "sentiment": "positive",
       "key_points": [
-        "The Weeknd 登上 Spotify 歷史總榜榜首",
-        "加拿大音樂產業向藝術家致敬"
+        "文章提及The Weeknd登上Spotify歷史榜單首位",
+        "反映藝人在Spotify平台上的巨大成功",
+        "作為音樂產業的頭條新聞"
       ]
     },
     {
       "title": "2,918 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Bought by Cannon Capital Management Inc. - MarketBeat",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "Kalshi Co-Founder Reveals How Superfans Earn Six Figures From Music Prediction Markets - Billboard",
       "sentiment": "neutral",
       "key_points": [
-        "音樂預測市場如何運作",
-        "研究 Spotify 如何識別並阻止機器人以維護數據完整性"
+        "提及Spotify如何計算數據並阻止機器人",
+        "討論音樂預測市場的運作機制",
+        "強調平台對數據完整性的重視"
       ]
     },
     {
       "title": "Forbes Daily: Elon Musk Takes The Witness Stand Against OpenAI - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "AI 音樂生成軟體 Suno 獲得廣泛使用",
-        "Suno 創作歌曲在 TikTok 走紅並登上 Billboard 榜單"
+        "提及AI音樂生成軟體Suno的使用量激增",
+        "Suno創作的歌曲已登上Billboard排行榜",
+        "間接反映AI音樂對串流平台的影響"
       ]
     },
     {
       "title": "AI Music Is Here To Stay, If $2.5 Billion Startup Suno Gets Its Way - Forbes",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "key_points": [
-        "AI 音樂正在主導串流平台",
-        "Deezer 每日上傳大量 AI 歌曲",
-        "Spotify 曾清除 7500 萬首「垃圾」歌曲"
+        "AI音樂內容大量湧入串流平台，構成「音樂糟粕」",
+        "Deezer數據顯示每日約有7.5萬首AI歌曲上傳",
+        "Spotify去年曾清除7500萬首「垃圾」歌曲"
       ]
     },
     {
       "title": "Fed day, Starbucks earnings, UAE leaves OPEC and more in Morning Squawk - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 在晨間新聞中被提及，作為財報日的一部分"
+        "Spotify僅作為新聞標題的一部分被提及",
+        "無具體內容提供輿情分析"
       ]
     },
     {
-      "title": "New Music Friday: The best albums out May 1 - WPLN News",
-      "sentiment": "neutral",
+      "title": "Consumers face more pain as companies threaten price rises - Financial Times",
+      "sentiment": "negative",
       "key_points": [
-        "介紹新音樂發行",
-        "提及「Spotify Wrapped」作為作者背景"
+        "文章指出消費者可能面臨更多價格上漲",
+        "這可能暗示包括Spotify在內的串流服務有潛在漲價壓力",
+        "對消費者而言屬負面消息"
       ]
     },
     {
       "title": "SiriusXM Beats Wall Street Expectations Amid Reported Talks of iHeartMedia Combination - The Hollywood Reporter",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "GameStop makes unsolicited $56bn offer for eBay - Financial Times",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
+      ]
+    },
+    {
+      "title": "GameStop makes unsolicited $56bn offer for eBay - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "Amazon Offers Q1 Shoutout To ‘Project Hail Mary’, Tops Wall Street Forecasts Amid AI Arms Race - Deadline",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
-      ]
-    },
-    {
-      "title": "The Late Morning Rundown: April 30, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "Paramount+ Subscribers’ Sue Over Merger With Warner Bros. Discovery - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "Jon M. Chu Didn’t Think He “Deserved To Be In Hollywood” Before ‘Crazy Rich Asians’: “I Got Very Lucky” - Deadline",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (與 Spotify 無直接關聯)"
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "Spotify wants to help listeners better identify AI-generated music - NBC News",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 旨在幫助聽眾識別 AI 生成音樂",
-        "引入新功能提供藝術家背景資訊"
+        "Spotify旨在幫助聽眾更好地識別AI生成音樂",
+        "推出新功能提供更多關於音樂創作者的背景資訊",
+        "在藝人頁面新增相關資料"
       ]
     },
     {
-      "title": "The Week in Breakingviews: Taking stock of tech - Reuters",
+      "title": "New Music Friday: The best albums out May 1 - WPLN News",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (科技股市場總結，無 Spotify 具體內容)"
+        "文章中提及Spotify Wrapped作為參考點",
+        "主要內容為新音樂專輯推薦"
+      ]
+    },
+    {
+      "title": "What to Stream: 'The Drama,' MUNA, Rachel McAdams, Dan Stevens and 'The Other Bennet Sister' - Bozeman Daily Chronicle",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無直接關聯"
       ]
     },
     {
       "title": "The movies, TV and music we're excited about this summer : Pop Culture Happy Hour - NPR",
       "sentiment": "neutral",
       "key_points": [
-        "N/A (夏季影視音樂預覽，無 Spotify 具體內容)"
+        "文章內容與Spotify無直接關聯"
+      ]
+    },
+    {
+      "title": "The Late Morning Rundown: April 30, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify僅作為新聞標題的一部分被提及",
+        "無具體內容提供輿情分析"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無具體內容"
+        "文章無內容，無法進行分析"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無具體內容"
+        "文章無內容，無法進行分析"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260504_044230.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260504.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260505_041955.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260505.jpg"
 }
