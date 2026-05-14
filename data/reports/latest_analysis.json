@@ -1,495 +1,313 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.2
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify 20週年慶祝活動與歷史回顧功能上線",
-      "description": "為慶祝成立20週年，Spotify推出「Your Party of the Year(s)」或「Spotify 20」功能，讓用戶回顧從開使用戶以來的所有收聽歷史、第一首歌、最常聽藝人等。此功能獲得廣泛討論與好評，有效提升用戶參與度。",
+      "title": "Spotify 20週年慶祝活動及「Party of the Year(s)」功能上線",
+      "description": "為慶祝成立20週年，Spotify推出「Party of the Year(s)」個人化回顧功能，讓用戶能夠深入探索他們自首次使用以來的完整音樂串流數據和收聽習慣。此舉獲得大量正面關注並顯著提升了用戶參與度。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 服務中斷 (Outage)",
-      "description": "全球多地用戶回報Spotify服務出現大規模中斷，主要影響手機應用程式與伺服器連接，部分Google Cast裝置也受影響。Spotify已確認此問題並正在處理。",
-      "severity": "high",
+      "title": "德州調查Spotify等音樂平台涉嫌「現代版Payola」",
+      "description": "德州當局正對包括Spotify在內的音樂串流平台進行調查，指控其涉嫌透過收賄來推廣特定藝人或歌曲，此案被比喻為「現代版Payola」醜聞，對Spotify的聲譽構成潛在風險。",
+      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify AI 功能擴展與新應用",
-      "description": "Spotify積極擴展其AI驅動的個人DJ功能至更多國家和語言（如法語、德語、義大利語、巴西葡萄牙語），並推出AI生成個人化Podcast，用戶可將其保存至資料庫。此外，Spotify也計畫推出新標籤以區分人工與AI生成音樂。",
+      "title": "Spotify App 服務中斷事件",
+      "description": "Spotify應用程式近期經歷了服務中斷，導致數千名用戶無法正常使用。Spotify已在X平台確認此問題並表示正在調查修復，對用戶體驗造成短期負面影響。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify與Peloton合作擴展健康與健身內容",
+      "description": "Spotify與健身品牌Peloton達成合作，計劃將健身相關的音訊內容引入其平台，藉此將服務範圍擴展至日常健康與健身領域，展現了業務多元化的積極策略。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "訂閱數、漲價與財報/股價波動",
-      "description": "Spotify不再公布詳細訂閱數並連續漲價，引發外界對其成長放緩的擔憂。儘管Q1財報表現強勁，但Q2前景預期不佳導致股價下跌。分析師對其廣告支持模式和定價策略提出建議。",
-      "severity": "medium",
-      "sentiment": "negative"
+      "title": "Spotify 擴展AI-powered DJ功能",
+      "description": "Spotify持續擴大其基於人工智慧的DJ功能，旨在為用戶提供更為個人化且流暢的音樂推薦與播放體驗，此為其技術創新的一環。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "20週年",
+    "Spotify 20",
     "Party of the Year(s)",
+    "20週年",
+    "個人化回顧",
+    "音樂足跡",
+    "收聽歷史",
     "Wrapped",
-    "音樂歷史",
-    "AI",
-    "DJ",
-    "Podcast",
+    "Payola",
+    "德州調查",
+    "App 當機",
     "服務中斷",
-    "當機",
-    "訂閱",
-    "漲價",
-    "財報",
-    "股價",
-    "有聲書"
+    "Peloton",
+    "健身",
+    "AI DJ"
   ],
-  "daily_summary": "Spotify近期輿情呈兩極分化：一方面，為慶祝20週年推出的「Party of the Year(s)」音樂歷史回顧功能廣受好評；另一方面，全球性服務中斷嚴重影響用戶體驗。同時，平台積極拓展AI相關功能如多語言DJ和個人化Podcast，但在訂閱漲價和股價波動方面則面臨市場挑戰。",
+  "daily_summary": "今日Spotify輿情主要圍繞其成立20週年推出的「Party of the Year(s)」個人化回顧功能展開，該功能獲得用戶熱烈迴響，帶來顯著正面評價。然而，平台也面臨德州當局針對「現代版Payola」的調查，以及短暫的App服務中斷事件。同時，Spotify透過與Peloton合作拓展健康領域，並持續優化AI DJ功能，展現其在產品創新和業務擴張上的積極動態。",
   "article_analyses": [
     {
-      "title": "Spotify歡慶20週年推出完整音樂足跡回顧功能 從第一首歌到歷年播放排行",
+      "title": "「Spotify 20 ‘Party of the Year(s)’」個人化體驗 一次看清你一生的串流收聽數據",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 20週年慶祝",
-        "推出「完整音樂足跡回顧」功能",
-        "顯示歷年播放排行"
+        "Spotify 20週年慶典",
+        "推出「Party of the Year(s)」個人化回顧功能",
+        "顯示用戶一生串流收聽數據"
       ]
     },
     {
-      "title": "Spotify 最新的「Wrapped」涵蓋了您的整個音樂歷史",
+      "title": "Spotify 20週年推出使用者完整音樂足跡回顧 從第一首歌到歷年播放排行",
       "sentiment": "positive",
       "key_points": [
-        "推出類似 Wrapped 的功能",
-        "涵蓋用戶整個音樂歷史"
+        "Spotify 20週年",
+        "回顧使用者完整音樂足跡",
+        "展示歷年播放排行"
       ]
     },
     {
-      "title": "Netflix、Spotify不再公布訂閱數又連續漲價，財報好看的背後是成長引擎熄火訊號？",
+      "title": "德州調查Spotify等音樂平台，涉嫌收賄推廣藝人猶如現代版Payola",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 不再公布訂閱數",
-        "連續漲價",
-        "財報成長可能放緩"
+        "德州當局調查Spotify",
+        "涉嫌收賄推廣藝人",
+        "被指控為現代版Payola"
       ]
     },
     {
-      "title": "Spotify 剛剛發布了您的所有時間收聽統計數據以及您的熱門歌曲：以下是查看它們的方法",
-      "sentiment": "positive",
-      "key_points": [
-        "發布所有時間收聽統計數據",
-        "顯示熱門歌曲"
-      ]
-    },
-    {
-      "title": "Spotify's new feature allows users to revisit music listening history",
-      "sentiment": "positive",
-      "key_points": [
-        "推出新功能「Your Party of the Year(s)」",
-        "允許用戶回顧音樂收聽歷史"
-      ]
-    },
-    {
-      "title": "Spotify launches a Wrapped-style recap of your entire listening history",
-      "sentiment": "positive",
-      "key_points": [
-        "推出類似 Wrapped 的回顧功能",
-        "回顧用戶完整收聽歷史",
-        "慶祝20週年"
-      ]
-    },
-    {
-      "title": "Spotify Launches 'Party of the Year' to Revisit Listening Habits",
-      "sentiment": "positive",
-      "key_points": [
-        "20週年慶祝活動",
-        "推出「Spotify 20: Your Party of the Year(s)」",
-        "回顧收聽習慣"
-      ]
-    },
-    {
-      "title": "Spotify's Party of the Year(s) is here to tell you about your all-time listening stats",
-      "sentiment": "positive",
-      "key_points": [
-        "20週年活動「Spotify 20: Your Party of the Year(s)」",
-        "提供用戶所有時間收聽統計數據"
-      ]
-    },
-    {
-      "title": "PSA: Spotify confirms ongoing outage [Updated]",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 確認服務中斷",
-        "正在處理問題"
-      ]
-    },
-    {
-      "title": "Spotify Down for Thousands, Downdetector Shows",
-      "sentiment": "negative",
-      "key_points": [
-        "數千名用戶回報 Spotify 服務中斷",
-        "主要影響手機應用程式"
-      ]
-    },
-    {
-      "title": "Spotify is celebrating its 20th birthday with a Wrapped-like feature that covers your entire time on the app",
-      "sentiment": "positive",
-      "key_points": [
-        "慶祝20週年",
-        "推出類似 Wrapped 的功能",
-        "涵蓋用戶所有時間的音樂歷史"
-      ]
-    },
-    {
-      "title": "Spotify Will Now Tell You Who Your All-Time Most-Streamed Artist Is — If You Dare",
-      "sentiment": "positive",
-      "key_points": [
-        "新功能顯示用戶有史以來最常收聽的藝人"
-      ]
-    },
-    {
-      "title": "Why is Spotify not working? Is Spotify down right now? What to know",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶回報 Spotify 服務問題",
-        "主要與 app 和伺服器連接有關"
-      ]
-    },
-    {
-      "title": "Spotify is letting you look back at 20 years of personal listening history",
-      "sentiment": "positive",
-      "key_points": [
-        "慶祝20週年",
-        "讓用戶回顧20年的個人收聽歷史"
-      ]
-    },
-    {
-      "title": "Spotify is broken for Google Cast devices, and there's no easy fix yet",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify Android app 在 Google Cast 裝置上出現問題",
-        "尚未有解決方案"
-      ]
-    },
-    {
-      "title": "Spotify Now Plays Personal Podcasts Generated by Your AI Agent",
-      "sentiment": "positive",
-      "key_points": [
-        "推出新功能",
-        "允許用戶保存 AI 生成的個人化 Podcast"
-      ]
-    },
-    {
-      "title": "Spotify 20 is like Wrapped — but it includes all your messy years, too",
-      "sentiment": "positive",
-      "key_points": [
-        "「Spotify 20」功能類似 Wrapped",
-        "涵蓋用戶所有收聽歷史"
-      ]
-    },
-    {
-      "title": "Spotify 'Party of the Year(s)' recaps your entire music streaming history",
-      "sentiment": "positive",
-      "key_points": [
-        "「Party of the Year(s)」功能",
-        "回顧用戶整個音樂串流歷史",
-        "慶祝20週年"
-      ]
-    },
-    {
-      "title": "Spotify Faces The Music: Industry Earnings Paint A Cloudy Picture",
-      "sentiment": "negative",
-      "key_points": [
-        "Q1 財報強勁但 Q2 前景不佳",
-        "嚇壞投資者導致股價下跌15%"
-      ]
-    },
-    {
-      "title": "Spotify's AI-powered personal DJ expands to more languages and countries",
-      "sentiment": "positive",
-      "key_points": [
-        "AI 驅動的個人 DJ 功能擴展",
-        "支援更多語言和國家"
-      ]
-    },
-    {
-      "title": "You can now request songs from Spotify DJ in French, German, Italian, and Portuguese too",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify DJ 功能擴展至 Premium 用戶",
-        "增加四種新語言的語音請求"
-      ]
-    },
-    {
-      "title": "Spotify wants to help listeners better identify AI-generated music",
+      "title": "Jimin 一句「不要哭」暖爆全網！ 小女孩收到帽子當場淚崩！",
       "sentiment": "neutral",
       "key_points": [
-        "計畫推出新標籤",
-        "幫助區分人工創作和 AI 生成的音樂"
+        "K-pop偶像Jimin",
+        "與粉絲互動事件",
+        "與Spotify平台直接關聯度低"
       ]
     },
     {
-      "title": "Spotify can now save 'Personal Podcasts' with your calendar and more using AI agents [Video]",
+      "title": "Spotify 現在希望您重溫您的整個音樂個性",
       "sentiment": "positive",
       "key_points": [
-        "推出 AI 代理整合",
-        "可以保存個人化 Podcast"
-      ]
-    },
-    {
-      "title": "Spotify's AI-powered personal DJ adds support for more countries and languages",
-      "sentiment": "positive",
-      "key_points": [
-        "AI 驅動的個人 DJ 功能擴展",
-        "支援超過75個國家和四種新語言"
-      ]
-    },
-    {
-      "title": "The Fellowship of the Ring Ranks No. 2 Among Spotify's Most Streamed Audiobooks",
-      "sentiment": "positive",
-      "key_points": [
-        "《魔戒》在 Spotify 上成為第二名最受歡迎有聲書"
-      ]
-    },
-    {
-      "title": "Spotify Names the Top 'Sad' Song of All Time—and It Might Surprise You",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 公布了史上最「悲傷」歌曲"
-      ]
-    },
-    {
-      "title": "Is the Spotify Stock Dip a Buying Opportunity?",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析 Spotify 股價下跌是否是買入機會",
-        "Premium 訂閱數和收入增長"
-      ]
-    },
-    {
-      "title": "Spotify just let AI create personal podcasts and save them straight to your library",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出 AI 創造個人化 Podcast",
-        "可保存到資料庫"
-      ]
-    },
-    {
-      "title": "Spotify Stock Is Down 44%. Should You Buy the Dip or Run for the Hills?",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 股價下跌44%",
-        "分析師討論買入或賣出策略"
-      ]
-    },
-    {
-      "title": "Spotify launches new version of Wrapped - that covers all time",
-      "sentiment": "positive",
-      "key_points": [
-        "推出新版 Wrapped",
-        "涵蓋所有時間的音樂歷史",
+        "Spotify新功能",
+        "重溫用戶音樂個性",
         "慶祝20週年"
-      ]
-    },
-    {
-      "title": "Sapiens by Yuval Noah Harari Becomes One of Spotify's Most Streamed Audiobooks",
-      "sentiment": "positive",
-      "key_points": [
-        "《人類大歷史》成為 Spotify 最受歡迎有聲書之一"
-      ]
-    },
-    {
-      "title": "'Ad-Supported Business Isn't the Path to Success': Why One Analyst Says Spotify Should Lean on Pricing Power Instead",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析師建議 Spotify 應依賴定價權",
-        "而非廣告支持業務"
-      ]
-    },
-    {
-      "title": "Is Spotify Down? Many users across the globe are not able to stream their fav tracks",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 面臨全球範圍的大規模服務中斷"
-      ]
-    },
-    {
-      "title": "Is Spotify down? All you need to after users report major outage",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶回報 Spotify 服務中斷"
       ]
     },
     {
       "title": "Spotify Unveils Users’ Lifetime Streaming Stats for 20-Year Celebration - Newsweek",
       "sentiment": "positive",
       "key_points": [
-        "慶祝20週年",
-        "Spotify 公布用戶終生串流統計數據"
+        "Spotify 20週年慶祝",
+        "發布用戶終身串流數據統計",
+        "提升用戶參與度"
       ]
     },
     {
       "title": "Spotify Rolls Out a ‘Wrapped’ for Users’ Entire Streaming History - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "推出類似 Wrapped 功能",
+        "Spotify推出「Wrapped」式功能",
         "回顧用戶完整串流歷史",
-        "支援多市場和語言"
+        "在全球144個市場和16種語言上線"
       ]
     },
     {
       "title": "It’s Your Party of the Year(s): A Look Back at Your Entire Music History on Spotify - Spotify",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 官方發布「Your Party of the Year(s)」功能",
-        "回顧音樂歷史"
+        "Spotify官方新聞稿",
+        "「Party of the Year(s)」活動",
+        "回顧用戶完整音樂歷史"
       ]
     },
     {
       "title": "Spotify’s launches a Wrapped-style recap of your entire listening history - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "推出類似 Wrapped 的功能",
-        "回顧用戶完整收聽歷史",
-        "提升用戶參與度"
+        "Spotify推出Wrapped風格的歷史回顧功能",
+        "旨在驅動用戶參與度",
+        "超越以往Wrapped活動的表現"
       ]
     },
     {
       "title": "Spotify's New Feature Lets You Dance Through Your Musical History - CNET",
       "sentiment": "positive",
       "key_points": [
-        "新功能讓用戶回顧音樂歷史"
+        "Spotify新功能",
+        "讓用戶探索其音樂歷史",
+        "慶祝20週年"
       ]
     },
     {
       "title": "Spotify Launches ‘Party of the Year’ Campaign for Users to Revisit Listening Habits - Variety",
       "sentiment": "positive",
       "key_points": [
-        "推出「Party of the Year」活動",
-        "讓用戶回顧收聽習慣",
-        "包含自訂播放列表"
+        "Spotify推出「Party of the Year(s)」活動",
+        "讓用戶重溫收聽習慣",
+        "提供包含播放次數的自訂播放列表"
       ]
     },
     {
       "title": "Spotify ўзининг 20 йиллиги муносабати билан фойдаланувчилар учун махсус ҳисоботни тақдим этди - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 20週年慶祝",
-        "為用戶提供特別報告 (音樂歷史回顧)"
+        "Spotify 20週年",
+        "為用戶提供特別報告",
+        "反映用戶音樂品味變化"
       ]
     },
     {
       "title": "Is Spotify down? For thousands, the answer is yes - USA Today",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 確認服務問題",
-        "數千用戶受影響"
+        "Spotify服務中斷",
+        "應用程式出現問題",
+        "影響數千名用戶"
       ]
     },
     {
       "title": "Spotify ‘Party of the Year(s)’ recaps your entire music streaming history - 9to5Google",
       "sentiment": "positive",
       "key_points": [
-        "「Party of the Year(s)」功能",
-        "回顧用戶整個音樂串流歷史"
+        "Spotify「Party of the Year(s)」功能",
+        "回顧用戶完整的音樂串流歷史",
+        "提供深入數據洞察"
       ]
     },
     {
       "title": "The Deals: Spotify to Host Workouts on-Platform With Peloton Pact; ElevenLab Names New Series D Investors - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 與 Peloton 合作",
-        "將運動內容整合到平台"
+        "Spotify與Peloton合作",
+        "平台將提供運動健身內容",
+        "擴展為日常健康夥伴"
       ]
     },
     {
       "title": "Spotify сунъий интеллектга асосланган ДЖ функциясини кенгайтирмоқда - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 擴展 AI 驅動的 DJ 功能"
+        "Spotify擴展AI驅動的DJ功能",
+        "提供更智能的音樂體驗",
+        "技術創新"
       ]
     },
     {
       "title": "Here’s How to See Your Spotify Stats Dating Back to the Day You Joined With ‘Your Party of the Year(s)’ - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "「Party of the Year(s)」功能",
-        "讓用戶查看從加入 Spotify 起的所有統計數據"
+        "Spotify新功能「Party of the Year(s)」",
+        "查看用戶所有時間的收聽數據",
+        "慶祝20週年"
       ]
     },
     {
       "title": "Larry Miller, NYU Music Business Professor: Fortt Knox Innovation Lab - CNBC",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 在用戶體驗上取得成功"
+        "Spotify在串流音樂領域的領導地位",
+        "用戶體驗（UX）的成功",
+        "音樂產業的顛覆者"
       ]
     },
     {
       "title": "Josh Gruss, Round Hill Music CEO: Fortt Knox Innovation Lab - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "討論音樂版權收購市場"
+        "討論音樂版權收購市場",
+        "「懷舊」作為版稅收入來源",
+        "與Spotify直接營運關聯度低"
       ]
     },
     {
       "title": "David Schulhof, MUSC ETF CEO: Fortt Knox Innovation Lab - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "金融市場相關討論"
+        "關於音樂產業投資和ETF",
+        "未直接涉及Spotify的具體業務或輿情"
       ]
     },
     {
       "title": "Lime files for IPO after years-long road to public markets - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "非 Spotify 相關新聞"
+        "Lime公司申請IPO",
+        "與Spotify無直接關聯"
       ]
     },
     {
       "title": "The Late Morning Rundown: May 8, 2026 - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "金融新聞綜合報導"
+        "一般性財經新聞摘要",
+        "未提及Spotify的特定事件或問題"
       ]
     },
     {
       "title": "Spotify's 'Party of the Year(s)' is here. Here's how to see your top songs of all time. - Business Insider",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 20週年慶祝活動",
-        "新功能讓用戶查看所有時間最受歡迎歌曲"
+        "Spotify推出「Party of the Year(s)」活動",
+        "慶祝20週年",
+        "提供用戶所有時間的熱門歌曲回顧"
       ]
     },
     {
       "title": "New Music Friday: The best albums out May 8 - NPR",
       "sentiment": "neutral",
       "key_points": [
-        "新音樂發布消息"
+        "新音樂發行資訊",
+        "Spotify作為收聽平台之一被提及",
+        "無針對Spotify的特定評價"
+      ]
+    },
+    {
+      "title": "Streaming Ratings: ‘The Boys’ Returns To Charts With Final Season Debut - TV News Check",
+      "sentiment": "neutral",
+      "key_points": [
+        "串流媒體收視率報告",
+        "主要討論影視內容",
+        "與Spotify的音樂串流無直接關聯"
+      ]
+    },
+    {
+      "title": "Red Hot Chili Peppers Ink $300 Million-Plus Deal With Warner Music to Sell Catalog (Exclusive) - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "紅辣椒樂隊音樂版權交易",
+        "與Spotify的平台運營無直接關聯"
       ]
     },
     {
       "title": "Prime Video & Amazon MX Player Unify To Form Huge Indian Streaming Player - Deadline",
       "sentiment": "neutral",
       "key_points": [
-        "非 Spotify 相關新聞"
+        "印度串流媒體市場整合",
+        "競爭平台動態",
+        "與Spotify無直接關聯"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無具體內容"
+        "無具體內容，無法分析"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無具體內容"
+        "無具體內容，無法分析"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260513_044658.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260513.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260514_044457.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260514.jpg"
 }
