@@ -6,239 +6,231 @@
   },
   "events": [
     {
-      "title": "新功能上線：20週年紀念回顧「Party of the Year(s)」",
-      "description": "Spotify為慶祝成立20週年，推出名為「Party of the Year(s)」的新功能，讓用戶可以回顧其完整的音樂串流歷史，類似年度Wrapped的終身版，廣受媒體和用戶關注。",
+      "title": "Spotify 20週年慶祝活動與「Party of the Year(s)」功能上線",
+      "description": "Spotify 慶祝成立 20 週年，推出「Party of the Year(s)」功能，讓用戶回顧其在平台上所有的收聽歷史數據。同時，應用程式圖示也暫時更換為慶祝標誌。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
       "title": "Spotify App 當機",
-      "description": "Spotify應用程式出現服務當機問題，數千名用戶受到影響，官方已確認問題並表示正在檢查。",
-      "severity": "medium",
+      "description": "Spotify 應用程式發生服務中斷，導致數千名用戶無法使用，官方已確認並正在調查此問題。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "加拿大地區訂閱價格上漲",
-      "description": "Spotify在加拿大提高了Premium訂閱價格，這是近兩年來在該地區首次主要漲價。",
-      "severity": "medium",
+      "title": "加拿大地區 Premium 訂閱價格上漲",
+      "description": "Spotify 在加拿大調漲了 Premium 訂閱費用，這是近兩年來的首次重大價格調整，直接影響當地用戶。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "公司目標價遭下調",
-      "description": "Spotify(SPOT)的目標價被下調至695美元，分析指出其AI變現能力面臨嚴峻考驗。",
+      "title": "Spotify 加碼投資視訊 Podcast",
+      "description": "Spotify 在好萊塢開設了 Sycamore Studios，旨在加強視訊 Podcast 的內容製作，以提升用戶參與度並應對市場競爭。",
       "severity": "medium",
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
-      "title": "停用「病毒排行榜」功能",
-      "description": "Spotify宣布停用其「病毒排行榜」(Viral Charts)功能。",
-      "severity": "low",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "加強影音播客內容投入",
-      "description": "Spotify在好萊塢建立新工作室，加倍投入影音播客內容，以增強用戶參與度和競爭力。",
+      "title": "Spotify 終止 Viral Charts 功能",
+      "description": "Spotify 宣布將終止其 Viral Charts 功能，此舉可能對部分用戶和內容創作者產生輕微影響。",
       "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
+    "20週年慶祝",
     "Party of the Year(s)",
-    "20週年",
-    "收聽歷史",
-    "新功能",
-    "當機",
-    "訂閱漲價",
-    "目標價",
-    "AI變現",
-    "影音播客",
-    "Wrapped"
+    "收聽歷史回顧",
+    "應用程式當機",
+    "訂閱價格上漲",
+    "視訊 Podcast",
+    "Drake 串流紀錄",
+    "應用程式圖示"
   ],
-  "daily_summary": "今天的Spotify輿情焦點主要圍繞其為慶祝20週年推出的新功能「Party of the Year(s)」，該功能讓用戶回顧其完整的音樂歷史，獲得大量正面報導。然而，Spotify也面臨應用程式當機、加拿大地區訂閱漲價以及目標價被下調的負面消息。此外，公司正進行策略調整，包括停用「病毒排行榜」並加大對影音播客的投入。",
+  "daily_summary": "本日 Spotify 輿情主要圍繞在平台成立 20 週年的慶祝活動，特別是新推出的「Party of the Year(s)」功能，讓用戶能回顧其完整的音樂收聽歷史，獲得廣泛正面討論。然而，也有應用程式短暫當機和加拿大地區訂閱價格上漲的負面消息。此外，Spotify 也宣布加碼投資視訊 Podcast 內容以加強平台競爭力。",
   "article_analyses": [
     {
-      "title": "【即時新聞】最新！Spotify(SPOT)目標價遭下調至695美元，AI變現面臨嚴峻考驗",
-      "sentiment": "negative",
+      "title": "Spotify 更換應用程式圖示慶祝成立 20 週年，原標誌將於本週恢復",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify目標價遭下調至695美元",
-        "AI變現面臨嚴峻考驗"
+        "為慶祝成立20週年更換應用程式圖示",
+        "原標誌將於本週恢復"
+      ]
+    },
+    {
+      "title": "6God 稱霸樂壇：Drake「ICEMAN」時代橫掃 Spotify 串流紀錄",
+      "sentiment": "positive",
+      "key_points": [
+        "Drake 在 Spotify 創下串流紀錄",
+        "展現其音樂影響力"
       ]
     },
     {
       "title": "Spotify Unveils Users’ Lifetime Streaming Stats for 20-Year Celebration - Newsweek",
       "sentiment": "positive",
       "key_points": [
-        "Spotify為慶祝20週年推出用戶終身收聽數據統計",
-        "將聽眾帶回最初的音樂回憶"
+        "Spotify 推出用戶終身串流統計功能，慶祝20週年",
+        "回顧個人收聽歷程"
       ]
     },
     {
       "title": "Spotify Rolls Out a ‘Wrapped’ for Users’ Entire Streaming History - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出類似Wrapped的完整收聽歷史回顧功能",
-        "用戶可在144個市場和16種語言中使用"
+        "推出「Party of the Year(s)」功能",
+        "用戶可查看完整收聽歷史",
+        "在全球144個市場和16種語言推出"
       ]
     },
     {
       "title": "It’s Your Party of the Year(s): A Look Back at Your Entire Music History on Spotify - Spotify",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出「Party of the Year(s)」功能",
-        "讓用戶回顧完整的音樂歷史"
+        "官方宣佈推出「Party of the Year(s)」",
+        "回顧用戶從註冊以來的音樂旅程",
+        "提升用戶互動與黏著度"
       ]
     },
     {
       "title": "In celebration of the music platform's 20th year, Spotify launched a new in-app experience that lets users revisit their listening milestones. Full story link in the comment section. - Facebook",
       "sentiment": "positive",
       "key_points": [
-        "Spotify慶祝成立20週年",
-        "推出新的應用程式內體驗讓用戶重溫收聽里程碑"
+        "慶祝20週年推出新應用程式內體驗",
+        "用戶可重溫收聽里程碑"
       ]
     },
     {
       "title": "Spotify’s launches a Wrapped-style recap of your entire listening history - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出Wrapped風格的完整收聽歷史回顧",
-        "年度Wrapped是Spotify重要的用戶參與驅動力"
+        "推出類似 Wrapped 的終身收聽歷史回顧功能",
+        "年度 Wrapped 活動是主要用戶參與驅動力"
       ]
     },
     {
       "title": "Spotify's New Feature Lets You Dance Through Your Musical History - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出新功能讓用戶回顧其音樂歷史",
+        "新功能讓用戶回顧多年來的音樂品味變化",
         "慶祝成立20週年"
-      ]
-    },
-    {
-      "title": "Spotify Launches ‘Party of the Year’ Campaign for Users to Revisit Listening Habits - Variety",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出「Party of the Year(s)」活動",
-        "讓用戶回顧收聽習慣並提供個人化播放列表"
-      ]
-    },
-    {
-      "title": "Spotify ўзининг 20 йиллиги муносабати билан фойдаланувчилар учун махсус ҳисоботни тақдим этди - Zamin.uz",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify為慶祝20週年向用戶提供特別報告",
-        "反映用戶的音樂變化"
-      ]
-    },
-    {
-      "title": "Is Spotify down? For thousands, the answer is yes - USA Today",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify服務出現當機問題",
-        "官方已確認並正在調查中"
-      ]
-    },
-    {
-      "title": "Spotify ‘Party of the Year(s)’ recaps your entire music streaming history - 9to5Google",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify「Party of the Year(s)」功能回顧用戶完整的音樂串流歷史",
-        "提供類似Wrapped的體驗"
-      ]
-    },
-    {
-      "title": "Spotify Discontinues Viral Charts - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify停用病毒排行榜功能",
-        "在公司投資者日和新產品推出後進行調整"
-      ]
-    },
-    {
-      "title": "In Canada: Spotify Raises Premium Prices, Marking First Major Canadian Hike in Nearly 2 Years - Billboard",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify在加拿大提高高級會員價格",
-        "這是近兩年來在加拿大首次主要漲價"
-      ]
-    },
-    {
-      "title": "Spotify doubles down on video podcasts at its Hollywood studios - Los Angeles Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify加大對影音播客的投入",
-        "在好萊塢設立新工作室以提升製作質量和協作"
-      ]
-    },
-    {
-      "title": "Here’s How to See Your Spotify Stats Dating Back to the Day You Joined With ‘Your Party of the Year(s)’ - Billboard",
-      "sentiment": "positive",
-      "key_points": [
-        "指導用戶如何查看「Party of the Year(s)」功能",
-        "回顧自加入Spotify以來的音樂數據"
-      ]
-    },
-    {
-      "title": "Tencent Music Reports $1.15B Q1 Revenue, Doubles-Down on Concerts, Merch, Membership - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "騰訊音樂報告第一季度營收11.5億美元",
-        "加大對演唱會、商品和會員服務的投入"
-      ]
-    },
-    {
-      "title": "Chinese data centre spin-off plans dual IPO in Singapore and US - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "中國數據中心分拆計劃在新加坡和美國雙重上市"
-      ]
-    },
-    {
-      "title": "Spotify's logo, Drake, baby announcements, and more top pop culture stories - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify更換其經典標誌",
-        "文章提及其他流行文化事件"
       ]
     },
     {
       "title": "Spotify's 'Party of the Year(s)' is here. Here's how to see your top songs of all time. - Business Insider",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出「Party of the Year(s)」功能",
-        "用戶可查看其所有時間的最佳歌曲"
+        "推出「Party of the Year(s)」功能",
+        "用戶可查看所有時間最常聽的歌曲",
+        "慶祝20週年，類似 Wrapped"
       ]
     },
     {
-      "title": "SpaceX to Go Public June 12 - WSJ",
-      "sentiment": "neutral",
+      "title": "Spotify Launches ‘Party of the Year’ Campaign for Users to Revisit Listening Habits - Variety",
+      "sentiment": "positive",
       "key_points": [
-        "SpaceX預計於6月12日上市"
+        "推出「Party of the Year」活動，讓用戶回顧收聽習慣",
+        "Premium 和免費使用者均可使用此功能",
+        "提供前120首最常播放曲目清單及播放次數"
       ]
     },
     {
-      "title": "AI for investors - MLQ.ai",
-      "sentiment": "neutral",
+      "title": "Spotify ўзининг 20 йиллиги муносабати билан фойдаланувчилар учун махсус ҳисоботни тақдим этди - Zamin.uz",
+      "sentiment": "positive",
       "key_points": [
-        "關於投資者的AI資訊"
+        "為紀念20週年推出特殊報告",
+        "反映用戶的音樂選擇變化"
       ]
     },
     {
-      "title": "Elon Musk's SpaceX Is Said to Plan Public IPO Filing as Soon As Wednesday - Bloomberg.com",
+      "title": "Is Spotify down? For thousands, the answer is yes - USA Today",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 應用程式發生服務中斷問題",
+        "官方已確認並正在調查",
+        "影響數千用戶"
+      ]
+    },
+    {
+      "title": "Spotify Discontinues Viral Charts - Billboard",
       "sentiment": "neutral",
       "key_points": [
-        "Elon Musk的SpaceX據稱最快週三提交公開上市文件"
+        "Spotify 終止了其 Viral Charts 功能",
+        "此消息在投資者日之前公布"
+      ]
+    },
+    {
+      "title": "In Canada: Spotify Raises Premium Prices, Marking First Major Canadian Hike in Nearly 2 Years - Billboard",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 在加拿大調漲 Premium 訂閱費用",
+        "近兩年來的首次重大漲價",
+        "討論了版稅模式的變化"
+      ]
+    },
+    {
+      "title": "Spotify doubles down on video podcasts at its Hollywood studios - Los Angeles Times",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 大力投資視訊 Podcast",
+        "在好萊塢開設 Sycamore Studios",
+        "旨在提高用戶參與度及內容品質"
+      ]
+    },
+    {
+      "title": "Tencent Music Reports $1.15B Q1 Revenue, Doubles-Down on Concerts, Merch, Membership - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "騰訊音樂第一季度營收11.5億美元",
+        "加強演唱會、周邊商品、會員服務等投資"
+      ]
+    },
+    {
+      "title": "AI-Themed Drama ‘The Zebras’ Acquired For Worldwide Distribution By Adler & Associates - Deadline",
+      "sentiment": "neutral",
+      "key_points": [
+        "AI主題影集《The Zebras》獲全球發行權"
+      ]
+    },
+    {
+      "title": "Spotify's logo, Drake, baby announcements, and more top pop culture stories - Modern Ghana",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 為20週年更換應用程式圖示",
+        "提及 Drake 的專輯發佈",
+        "總結流行文化事件"
+      ]
+    },
+    {
+      "title": "Here’s How to See Your Spotify Stats Dating Back to the Day You Joined With ‘Your Party of the Year(s)’ - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出「Party of the Year(s)」功能",
+        "用戶可查看自加入以來的所有收聽數據",
+        "慶祝20週年"
+      ]
+    },
+    {
+      "title": "Review: Bruno Mars delivers a retro feel-good concert without runways or distractions - Chicago Tribune",
+      "sentiment": "neutral",
+      "key_points": [
+        "Bruno Mars 演唱會評論",
+        "強調復古氛圍和無干擾的演出"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無有效內容"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無有效內容"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260517_045501.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260517.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260518_050853.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260518.jpg"
 }
