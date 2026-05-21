@@ -1,350 +1,409 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.17,
-    "negative_ratio": 0.06,
-    "neutral_ratio": 0.77
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "CarPlay 錯誤問題修正",
-      "description": "Spotify 確認了 CarPlay 的錯誤問題，並承諾在數日內推出修正更新，顯示其積極解決技術問題。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "播客加入驗證徽章",
-      "description": "Spotify 在播客內容中引入了驗證徽章，提升了創作者的信譽與內容真實性。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "20 週年慶祝活動與新圖標/體驗",
-      "description": "為慶祝平台成立 20 週年，Spotify 推出了暫時性的迪斯科球圖標，並在應用內提供用戶回顧聆聽里程碑的新體驗，儘管新圖標引發了部分美學爭議，但整體上為紀念性活動。",
+      "title": "20週年慶祝與新功能",
+      "description": "Spotify 慶祝20週年，推出「音樂人生回顧」（Your Party of the Year(s)）等個人化聆聽數據回顧功能。同時，為慶祝而使用的Disco球狀應用程式圖示因用戶反彈，官方已宣布將恢復舊有設計。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "停止發布熱門排行榜 (Viral Charts)",
-      "description": "Spotify 決定停止發布其熱門排行榜 (Viral Charts)，此為平台內部策略調整。",
-      "severity": "low",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "加拿大地區訂閱價格上漲",
-      "description": "Spotify 在加拿大提高了 Premium 訂閱費用，這是近兩年來的首次重大漲價，可能影響當地用戶。",
-      "severity": "medium",
+      "title": "Apple CarPlay 錯誤與服務中斷",
+      "description": "用戶回報 Spotify 在 Apple CarPlay 上顯示歌曲資訊錯誤的Bug，官方已承認並著手調查。此外，有多地用戶報告 Spotify 服務當機或無法載入的問題。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "加碼投資影片播客",
-      "description": "Spotify 積極投資於影片播客領域，並在好萊塢設立專門工作室，旨在加強內容創作與用戶參與度。",
+      "title": "播客內容政策與驗證機制更新",
+      "description": "Spotify 擴大「Verified by Spotify」徽章至播客創作者，以驗證真實性並打擊AI生成、冒充他人的播客內容。同時，平台也加碼投資視訊播客，開設好萊塢錄音室。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "特定歌曲因歌手逮捕而下架",
-      "description": "因歌手 D4vd 遭到逮捕，其歌曲《Remember Me》已從 Spotify 等串流平台下架，影響了部分用戶的聆聽體驗。",
-      "severity": "low",
+      "title": "藝人成就與內容爭議",
+      "description": "Drake 新專輯「Iceman」創下 Spotify 單日最高串流紀錄，但隨後出現機器人流量和串流數據計數錯誤的指控。同時，Wizkid 成為首位達成110億串流的非洲藝人。然而，Spotify 因拒絕移除一首含有反猶太主義內容的歌曲，遭到 ILF (以色列律師論壇) 批評。",
+      "severity": "high",
       "sentiment": "negative"
+    },
+    {
+      "title": "訂閱價格與商業策略調整",
+      "description": "Spotify 在加拿大地區調漲 Premium 訂閱費用，為近兩年來的首次重大漲價。此外，Spotify 也表態支持「NO FAKES Act」法案，共同打擊AI深度偽造內容。平台亦宣布停止「Viral Charts」功能。",
+      "severity": "medium",
+      "sentiment": "mixed"
     }
   ],
   "trending_keywords": [
-    "播客",
-    "影片播客",
-    "20 週年",
-    "圖標",
+    "20週年",
+    "Disco球狀Logo",
     "CarPlay",
+    "Bug",
+    "播客",
+    "Verified",
+    "AI",
+    "Drake",
+    "串流紀錄",
+    "當機",
     "訂閱漲價",
-    "股票評級",
-    "錯誤修正",
-    "驗證徽章",
-    "歌曲下架"
+    "反猶太主義歌曲",
+    "新功能",
+    "Spotify House"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要圍繞產品更新與策略調整。平台慶祝 20 週年推出新體驗與臨時圖標，並積極投資影片播客及為播客新增驗證徽章。然而，加拿大地區的訂閱價格上漲以及 CarPlay 錯誤修正消息，顯示平台在商業運營和用戶體驗方面存在挑戰。此外，一首歌曲因歌手事件而下架，也引發了部分關注。",
+  "daily_summary": "Spotify 近期輿情複雜，在慶祝20週年之際，雖推出新功能並逐步回應用戶對臨時Logo的抱怨，但同時面臨 CarPlay 錯誤和服務中斷等技術問題。儘管在播客驗證和打擊AI假冒內容方面獲得正面評價，加拿大地區的訂閱漲價和處理反猶太歌曲的爭議仍引發部分負面聲浪。",
   "article_analyses": [
     {
-      "title": "Spotify『幫派文化』成功複製 前員工主導瑞典科技界",
+      "title": "Spotify 20週年推「音樂人生回顧」 第一首歌、最愛歌手全曝光",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 企業文化影響力",
-        "前員工在瑞典科技界創業成功"
+        "20週年紀念",
+        "推出「音樂人生回顧」功能",
+        "個人化聆聽數據"
       ]
     },
     {
-      "title": "Spotify 確認 CarPlay 錯誤問題 將於數日內推出修正更新",
+      "title": "Spotify出包！Apple CarPlay播歌資訊全錯亂　官方認了有Bug",
+      "sentiment": "negative",
+      "key_points": [
+        "CarPlay 錯誤",
+        "播歌資訊錯亂",
+        "官方承認 Bug"
+      ]
+    },
+    {
+      "title": "Spotify's temporary disco-ball logo will go away soon",
       "sentiment": "neutral",
       "key_points": [
-        "確認 CarPlay 錯誤",
-        "承諾數日內推出修正更新"
+        "Disco球狀Logo",
+        "臨時性設計",
+        "將恢復舊Logo"
       ]
     },
     {
-      "title": "Raymond James重申Spotify股票跑贏大市評級，投資者日前景備受關注 作者 Investing.com - Investing.com 香港",
-      "sentiment": "positive",
+      "title": "Relax! Spotify was never going to keep its disco logo",
+      "sentiment": "neutral",
       "key_points": [
-        "Raymond James 重申股票「跑贏大市」評級",
-        "投資者日前景受關注"
+        "回應Logo爭議",
+        "Disco球狀Logo為臨時設計",
+        "舊Logo即將回歸"
       ]
     },
     {
-      "title": "Spotify 在播客中加入經過驗證的徽章",
+      "title": "Spotify returns to Blake Shelton's honky-tonk for CMA Fest",
       "sentiment": "positive",
       "key_points": [
-        "播客加入驗證徽章",
-        "提升播客內容可信度"
+        "Spotify House 活動",
+        "CMA Fest 合作",
+        "藝人演出"
+      ]
+    },
+    {
+      "title": "Spotify confirms CarPlay bug causing wrong song info to appear",
+      "sentiment": "negative",
+      "key_points": [
+        "確認 CarPlay Bug",
+        "歌曲資訊顯示錯誤",
+        "正在調查中"
+      ]
+    },
+    {
+      "title": "Spotify's disco ball icon is ugly. You looked!",
+      "sentiment": "negative",
+      "key_points": [
+        "批評 Disco球狀Logo 外觀",
+        "認為其引發了關注"
+      ]
+    },
+    {
+      "title": "Spotify Officially Bans AI-Generated Podcasts That Impersonate Someone Else, Adds Verification Badges for Podcasts",
+      "sentiment": "positive",
+      "key_points": [
+        "禁止AI假冒播客",
+        "新增播客驗證徽章",
+        "提升聽眾信任"
+      ]
+    },
+    {
+      "title": "Spotify, After Disco-Ball Icon Backlash, Says Regular Logo Will Return",
+      "sentiment": "neutral",
+      "key_points": [
+        "回應Logo反彈",
+        "宣布恢復舊的2D Logo",
+        "Logo為20週年慶祝"
+      ]
+    },
+    {
+      "title": "Spotify's old logo is returning following pushback. 'We know glitter is not for everyone'",
+      "sentiment": "neutral",
+      "key_points": [
+        "舊Logo回歸",
+        "承認用戶抱怨",
+        "新Logo為臨時性"
+      ]
+    },
+    {
+      "title": "Spotify confirms disco ball app icon is temporary and regular logo will return",
+      "sentiment": "neutral",
+      "key_points": [
+        "確認 Disco球狀App圖標為臨時",
+        "正規Logo將回歸",
+        "回應用戶不滿"
+      ]
+    },
+    {
+      "title": "Verified by Spotify is expanding to podcasts, so you can avoid low-quality slop",
+      "sentiment": "positive",
+      "key_points": [
+        "驗證徽章擴展至播客",
+        "篩選低品質內容",
+        "提升內容品質"
+      ]
+    },
+    {
+      "title": "Spotify extends 'Verified' badges to podcasts, further cracking down on AI impersonators",
+      "sentiment": "positive",
+      "key_points": [
+        "播客驗證徽章",
+        "打擊AI假冒內容",
+        "回應AI生成播客增長趨勢"
+      ]
+    },
+    {
+      "title": "Spotify is Rolling Out Verified Badges on \"Authentic\" Podcasts",
+      "sentiment": "positive",
+      "key_points": [
+        "推出播客驗證徽章",
+        "強調「真實」聽眾",
+        "遵守平台政策"
+      ]
+    },
+    {
+      "title": "Spotify's new feature reveals your all-time top artists and songs",
+      "sentiment": "positive",
+      "key_points": [
+        "新功能「Your Party of the Year(s)」",
+        "顯示用戶所有時間最愛藝人和歌曲",
+        "回顧音樂旅程"
+      ]
+    },
+    {
+      "title": "Spotify Down for Thousands, Downdetector Reports",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 服務中斷",
+        "數千用戶報告問題",
+        "Downdetector 報告"
+      ]
+    },
+    {
+      "title": "Why Spotify decided to go public now",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 上市原因",
+        "回報早期投資者",
+        "華爾街態度"
+      ]
+    },
+    {
+      "title": "Why did Spotify change its logo? Music streaming service announces return to previous design after mixed reactions over disco ball icon",
+      "sentiment": "neutral",
+      "key_points": [
+        "解釋Logo變更原因",
+        "因混合反應恢復舊設計",
+        "慶祝20週年"
+      ]
+    },
+    {
+      "title": "Spotify is verifying podcasts made by real people too.",
+      "sentiment": "positive",
+      "key_points": [
+        "播客驗證徽章",
+        "打擊AI生成播客",
+        "重申冒充政策"
+      ]
+    },
+    {
+      "title": "Rap heavyweight sends Spotify records into deep freeze with latest release",
+      "sentiment": "positive",
+      "key_points": [
+        "Drake 新專輯「Iceman」",
+        "創 Spotify 串流紀錄",
+        "單日最高串流藝人"
+      ]
+    },
+    {
+      "title": "Spotify doubles down on video podcasts at its Hollywood studios",
+      "sentiment": "positive",
+      "key_points": [
+        "投資視訊播客",
+        "開設 Sycamore 錄音室",
+        "提升內容品質與合作"
+      ]
+    },
+    {
+      "title": "Drake Is Spotify's Most-Streamed Artist in a Day for 2026",
+      "sentiment": "positive",
+      "key_points": [
+        "Drake 創 Spotify 單日串流紀錄",
+        "新專輯「Iceman」發行"
+      ]
+    },
+    {
+      "title": "Is Spotify down right now? Spotify not loading for many",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 服務當機報告",
+        "Downdetector 顯示問題",
+        "用戶無法載入"
+      ]
+    },
+    {
+      "title": "Rejoice: Spotify is ditching its awful disco ball icon",
+      "sentiment": "positive",
+      "key_points": [
+        "歡呼 Spotify 移除 Disco球狀圖標",
+        "恢復舊有Logo",
+        "用戶對舊Logo感到滿意"
+      ]
+    },
+    {
+      "title": "NO FAKES Act Reintroduced Again — This Time With Additional Support From Spotify and Getty",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 支持「NO FAKES Act」法案",
+        "打擊AI深度偽造內容",
+        "行業合作"
+      ]
+    },
+    {
+      "title": "Spotify is Aware of the Annoying CarPlay Bug Displaying Wrong Song Info",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 知悉 CarPlay Bug",
+        "歌曲資訊錯誤問題持續存在",
+        "官方正在處理"
+      ]
+    },
+    {
+      "title": "Cody Johnson, Carly Pearce, Shaboozey and more are set to perform at Spotify House during CMA Fest 2026 (exclusive)",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify House 活動公告",
+        "CMA Fest 藝人陣容",
+        "獨家演出"
+      ]
+    },
+    {
+      "title": "Wizkid becomes first African artiste to hit 11 billion Spotify streams",
+      "sentiment": "positive",
+      "key_points": [
+        "Wizkid 達成110億串流",
+        "首位非洲藝人",
+        "創平台里程碑"
+      ]
+    },
+    {
+      "title": "Spotify updates listening stats with new design and social features",
+      "sentiment": "positive",
+      "key_points": [
+        "更新聆聽數據工具",
+        "新設計與社交功能",
+        "提供更多數據洞察"
+      ]
+    },
+    {
+      "title": "Drake's \"ICEMAN\" Dominates Spotify As Fraud Lawsuits Shadow Success",
+      "sentiment": "negative",
+      "key_points": [
+        "Drake 專輯 Dominates Spotify",
+        "面臨機器人流量/詐欺指控",
+        "成功伴隨爭議"
+      ]
+    },
+    {
+      "title": "Drake Fans And BTS Army Clash After Spotify Botches Streaming Record",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 錯誤計數串流紀錄",
+        "Drake 粉絲與 BTS Army 衝突",
+        "平台失誤引發爭議"
+      ]
+    },
+    {
+      "title": "Celebrate National Hamburger Day With Free Burgers and Spotify Perks at Burger King",
+      "sentiment": "positive",
+      "key_points": [
+        "與 Burger King 合作",
+        "國家漢堡日優惠",
+        "提供 Spotify 相關福利"
       ]
     },
     {
       "title": "Andrew Tindall: Spotify’s new disco icon beats another corporate tech butthole - The Drum",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "key_points": [
-        "新迪斯科圖標",
-        "引發美學爭議",
-        "達成品牌宣傳目的"
+        "批評 Disco 圖標設計",
+        "認為圖標模糊難辨",
+        "承認其引發注意"
       ]
     },
     {
       "title": "Spotify's ugly new disco ball icon accomplished its goal - Business Insider",
       "sentiment": "neutral",
       "key_points": [
-        "新圖標評價為「醜陋」",
-        "為 20 週年紀念推出",
-        "成功達到宣傳目標"
+        "Disco球狀圖標外觀醜陋",
+        "承認其成功吸引目光",
+        "臨時性設計達成20週年慶祝目的"
       ]
     },
     {
       "title": "In celebration of the music platform's 20th year, Spotify launched a new in-app experience that lets users revisit their listening milestones. Full story link in the comment section. - Facebook",
       "sentiment": "positive",
       "key_points": [
-        "慶祝 20 週年",
+        "慶祝20週年",
         "推出新應用內體驗",
-        "用戶可回顧聆聽里程碑"
+        "回顧用戶音樂里程碑"
       ]
     },
     {
       "title": "Spotify's logo, Drake, baby announcements, and more top pop culture stories - Modern Ghana",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 標誌變更 (迪斯科球)",
-        "平台 20 週年慶祝"
+        "報導 Spotify Logo 變更",
+        "Drake 發行三張專輯",
+        "流行文化綜合報導"
       ]
     },
     {
       "title": "Spotify Discontinues Viral Charts - Billboard",
       "sentiment": "neutral",
       "key_points": [
-        "停止發布熱門排行榜 (Viral Charts)",
-        "策略性產品調整"
+        "停用「Viral Charts」功能",
+        "投資者日預告",
+        "平台策略調整"
       ]
     },
     {
       "title": "In Canada: Spotify Raises Premium Prices, Marking First Major Canadian Hike in Nearly 2 Years - Billboard",
       "sentiment": "negative",
       "key_points": [
-        "加拿大 Premium 訂閱價格上漲",
-        "近兩年來首次主要漲價"
+        "加拿大 Premium 價格上漲",
+        "近兩年首次調漲",
+        "重新評估價格與版稅模式"
       ]
     },
     {
-      "title": "Spotify doubles down on video podcasts at its Hollywood studios - Los Angeles Times",
-      "sentiment": "positive",
-      "key_points": [
-        "加碼投資影片播客",
-        "在好萊塢設立工作室",
-        "提升內容製作質量和合作"
-      ]
-    },
-    {
-      "title": "This music streaming app nobody talks about actually beats the giants - Android Police",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及其他音樂串流應用程式表現",
-        "內容主要比較 Qobuz 和 Tidal"
-      ]
-    },
-    {
-      "title": "D4vd’s Arcane Song Is Disappearing From Streaming After Arrest - Kotaku",
+      "title": "ILF blasts Spotify after refusal to remove song with antisemitic tropes - The Jerusalem Post",
       "sentiment": "negative",
       "key_points": [
-        "D4vd 歌曲因逮捕而下架",
-        "影響《奧術》原聲帶在 Spotify 和 Apple Music 的可用性"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, May 18, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Audible 在荷蘭的國際擴張",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "GameStop rejected, a troubling loan trend, and no to pre-IPO AI shares : The Indicator from Planet Money - NPR",
-      "sentiment": "neutral",
-      "key_points": [
-        "NPR 播客內容",
-        "提及 Spotify 為收聽平台，但非報導主題"
-      ]
-    },
-    {
-      "title": "SpaceX IPO Could Return More Than $60 Billion Each for Founders Fund, Valor - The Information",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX IPO set to lock in Elon Musk’s control with Mars-linked pay deal - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Gearing up for the SpaceX IPO amid the race for data centers in space - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
-      "sentiment": "neutral",
-      "key_points": [
-        "科技、媒體和電信市場概述",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Jim Cramer fears SpaceX's IPO could be 'destructive' for the rest of market - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX IPO set to hand $20bn stake to one hedge fund - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Is the Music Industry Officially Oversaturated With Songs? - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "探討音樂產業歌曲過度飽和問題",
-        "屬於行業趨勢討論"
-      ]
-    },
-    {
-      "title": "AI-Themed Drama ‘The Zebras’ Acquired For Worldwide Distribution By Adler & Associates - Deadline",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 AI 主題戲劇發行",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX debut will be 'otherworldly' for IPO market: Mergermarket - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "The SpaceX IPO is already upending the stock market - Axios",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX IPO adds air to the Silicon Valley ‘genius bubble’ - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Singapore Airlines to add flights in win from Iran war disruption - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於新加坡航空航班調整",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "Palestinian president Abbas moves to tighten grip with role for son - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於巴勒斯坦政治新聞",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "HBO Max Adding Podcasts in Europe To Serve Up ‘Immersive Fandom’ - TV News Check",
-      "sentiment": "neutral",
-      "key_points": [
-        "HBO Max 在歐洲增加播客服務",
-        "反映串流媒體播客市場競爭"
-      ]
-    },
-    {
-      "title": "Review: Bruno Mars delivers a retro feel-good concert without runways or distractions - Chicago Tribune",
-      "sentiment": "neutral",
-      "key_points": [
-        "Bruno Mars 演唱會評論",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "AI for investors - MLQ.ai",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 AI 投資分析工具",
-        "與 Spotify 無直接關聯"
-      ]
-    },
-    {
-      "title": "Exclusive: SpaceX accelerates IPO timeline, targets June 12 listing on Nasdaq, sources say - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "Elon Musk's SpaceX Is Said to Plan Public IPO Filing as Soon as Wednesday - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 首次公開募股 (IPO) 的新聞",
-        "與 Spotify 平台或業務無直接關聯"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容可供分析"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容可供分析"
+        "ILF 批評 Spotify",
+        "拒絕移除反猶太主義歌曲",
+        "內容審核爭議"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260520_050823.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260520.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260521_051156.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260521.jpg"
 }
