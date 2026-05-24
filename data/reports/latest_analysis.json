@@ -1,327 +1,244 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.7,
+    "positive_ratio": 0.5,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.2
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "AI音訊生成工具Studio推出與AI功能整合",
-      "description": "Spotify推出了名為Studio的AI音訊生成工具，並與環球音樂集團達成里程碑式的許可協議，允許用戶生成粉絲自製的AI翻唱和Remix。此舉旨在轉變平台角色，加強AI推動，提升用戶參與度，並將AI內容創作納入付費模式，市場對此反應積極。",
+      "title": "Spotify與UMG合作推AI翻唱/混音工具引發爭議",
+      "description": "Spotify與Universal Music Group (UMG)達成協議，推出AI翻唱與混音工具，允許粉絲創作AI生成內容。此舉被視為公司AI策略的重要一環，旨在提升用戶參與度並鞏固市場地位。然而，此舉也引發部分樂評人對音樂創作本質的尊重以及AI內容標籤的擔憂，有文章甚至指出這可能將AI音樂置於付費牆後。",
       "severity": "high",
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "title": "投資者日與2030營運策略",
-      "description": "Spotify召開了投資者日，華爾街對其產品路線圖、雄心勃勃的財務目標及2030年營運策略反應積極，引發股價衝高。公司強調以「品味」為差異化策略，並揭示了未來增長和盈利的新驅動因素。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "加碼視訊播客與粉絲加值功能",
-      "description": "Spotify大力投資好萊塢工作室，加碼發展視訊播客，旨在提升訂閱者參與度。同時，公司推出為Premium用戶預留演唱會門票、大型品味模型等一系列粉絲加值功能，以提升訂閱價值。",
+      "title": "多項新功能及個人化體驗上線",
+      "description": "Spotify推出了多項新功能，包括「Party of the Year(s)」個人化歌單體驗，讓用戶回顧音樂歷史並客製化歌單。此外，也推出了新的Podcast製作應用，並為Premium用戶和頂級粉絲提供「Reserved」演唱會預售票服務，以提升用戶參與度。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "《鯊魚寶寶》播放量破10億",
-      "description": "韓童謠《鯊魚寶寶》英文版在Spotify上的累計播放量突破10億次，顯示其在全球範圍內的巨大影響力。",
+      "title": "App圖標更新與20週年慶祝",
+      "description": "為慶祝Spotify成立20週年，App圖標更新為臨時性的「迪斯可球」設計。儘管該設計引發了部分用戶的視覺爭議，但其成功地與20週年慶祝活動及應用內體驗「Party of the Year(s)」結合，達到宣傳效果。",
       "severity": "low",
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "title": "20週年回顧活動「Party of the Year(s)」",
-      "description": "為慶祝Spotify成立20週年，平台推出「Party of the Year(s)」回顧活動，讓用戶回顧其個人音樂歷史，包括在Spotify上聽的第一首歌和最常聽的藝術家等。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "內容審核爭議",
-      "description": "國際法律論壇（ILF）批評Spotify拒絕刪除一首含有反猶太主義內容的歌曲，引發了對平台內容審核政策和社會責任的負面討論。",
+      "title": "投資者日活動與強勁財務展望",
+      "description": "Spotify舉辦投資者日，闡述了未來成長目標與盈利路線圖，強調AI驅動的用戶參與策略，並在新的共同CEO領導下。受此消息影響，公司股價出現上漲。",
       "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "內容審查爭議：拒絕移除反猶太歌曲",
+      "description": "國際法律論壇 (ILF) 批評Spotify拒絕移除一首含有反猶太主義內容的歌曲，引發了內容審查和平台責任的爭議。",
+      "severity": "high",
       "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "人工智慧",
-    "投資者日",
-    "功能",
-    "Remix",
-    "翻唱",
-    "環球音樂集團",
-    "UMG",
-    "鯊魚寶寶",
-    "Baby Shark",
-    "20週年",
-    "股價",
-    "訂閱價值",
-    "播客",
-    "粉絲",
-    "Studio App",
-    "增長",
-    "盈利",
-    "視訊播客",
-    "演唱會門票"
+    "AI人工智慧",
+    "UMG合作",
+    "新功能",
+    "個人化體驗",
+    "內容爭議",
+    "投資者日"
   ],
-  "daily_summary": "今日Spotify輿情主要圍繞其積極的創新與業務拓展。多篇報導聚焦於投資者日後的股價上揚，以及在AI音訊生成、與環球音樂集團合作推出AI翻唱與Remix功能方面的重大進展。同時，Spotify透過加碼視訊播客和粉絲加值功能來提升用戶體驗。然而，關於平台拒絕刪除含有反猶太主義內容歌曲的爭議，也引發了部分負面討論。",
+  "daily_summary": "今日Spotify輿情聚焦於其與Universal Music Group在AI音樂創作方面的重大合作，儘管此舉引發了樂評人對音樂本質的擔憂，但也被視為推動用戶參與的創新。此外，多項個人化與粉絲互動新功能（如「Party of the Year(s)」及演唱會預售票）受到關注，而公司在投資者日發布的積極展望也提振了市場信心。然而，平台對涉嫌反猶太主義歌曲的處理方式也引發了內容審查的負面輿論。",
   "article_analyses": [
     {
-      "title": "Spotify推出AI音訊生成工具Studio，挑戰Google NotebookLM",
+      "title": "Spotify 推出新 Podcast 製作應用，挑戰 Google 的 NotebookLM",
       "sentiment": "positive",
       "key_points": [
-        "推出AI音訊生成工具Studio",
-        "挑戰Google NotebookLM"
+        "推出新的Podcast製作應用",
+        "在市場上與Google等競爭"
       ]
     },
     {
-      "title": "還記得你在Spotify聽的第一首歌嗎？20週年回顧「Party of the Year(s)」怎麼玩？",
+      "title": "可客製化史上最愛歌單 Spotify個人化體驗Party of the Year(s)上線",
       "sentiment": "positive",
       "key_points": [
-        "20週年回顧活動「Party of the Year(s)」",
-        "用戶個人音樂歷史回顧"
+        "推出「Party of the Year(s)」個人化體驗",
+        "允許用戶客製化史上最愛歌單"
       ]
     },
     {
-      "title": "Spotify 投資人日推大型品味模型與粉絲加值功能 提升訂閱價值 #生活 (248792)",
-      "sentiment": "positive",
-      "key_points": [
-        "投資人日",
-        "推大型品味模型",
-        "增加粉絲加值功能",
-        "提升訂閱價值"
-      ]
-    },
-    {
-      "title": "韓童謠《鯊魚寶寶》英文版Spotify累計播放量破10億",
-      "sentiment": "positive",
-      "key_points": [
-        "《鯊魚寶寶》英文版播放量破10億次"
-      ]
-    },
-    {
-      "title": "Spotify祭出2030營運大旗、推Remix加碼變現 路線圖吸金引發股價衝高",
-      "sentiment": "positive",
-      "key_points": [
-        "宣布2030營運策略",
-        "推動Remix功能變現",
-        "股價上漲"
-      ]
-    },
-    {
-      "title": "令人意外！Spotify跨界推出Studio App 核心功能對標NotebookLM",
-      "sentiment": "positive",
-      "key_points": [
-        "跨界推出Studio App",
-        "功能對標NotebookLM"
-      ]
-    },
-    {
-      "title": "Spotify投資者日：華爾街對產品路線圖及財務目標反應積極 - Investing.com 香港",
-      "sentiment": "positive",
-      "key_points": [
-        "投資者日",
-        "華爾街反應積極",
-        "產品路線圖及財務目標獲認可"
-      ]
-    },
-    {
-      "title": "摩根士丹利表示，Spotify的投資者日揭示了未來增長和盈利的新驅動因素。",
-      "sentiment": "positive",
-      "key_points": [
-        "投資者日",
-        "揭示未來增長和盈利新驅動因素"
-      ]
-    },
-    {
-      "title": "Spotify SWOT分析：流媒體巨頭如何應對AI轉型與定價能力 - Investing.com 香港",
+      "title": "台北小巨蛋KKBOX風雲榜索票倒數中！Spotify個人最愛歌單怎麼看？｜熱門話題",
       "sentiment": "neutral",
       "key_points": [
-        "SWOT分析",
-        "應對AI轉型",
-        "定價能力議題"
+        "提及Spotify個人最愛歌單功能",
+        "結合KKBOX風雲榜活動"
       ]
     },
     {
-      "title": "Baby Shark於Spotify播放破10億次",
-      "sentiment": "positive",
+      "title": "Spotify 夥 UMG 推 AI 翻唱工具 樂評人：這是對音樂創作的不尊重",
+      "sentiment": "negative",
       "key_points": [
-        "Baby Shark播放量突破10億次"
+        "與UMG合作推出AI翻唱工具",
+        "樂評人批評此舉不尊重音樂創作"
       ]
     },
     {
-      "title": "Rosenblatt上調Spotify目標價，對投資者日前景感樂觀 - Investing.com 香港",
+      "title": "Guggenheim維持Spotify Technology(SPOT.US)買入評級，維持目標價565美元",
       "sentiment": "positive",
       "key_points": [
-        "Rosenblatt上調Spotify目標價",
-        "對投資者日前景樂觀"
+        "Guggenheim維持買入評級",
+        "目標價維持565美元"
       ]
     },
     {
-      "title": "Spotify 加入大量 AI 功能 轉變音樂平台角色",
+      "title": "Spotify駕馭AI變革與定價能力 穩固音樂串流龍頭地位",
       "sentiment": "positive",
       "key_points": [
-        "大量加入AI功能",
-        "平台角色轉變"
+        "利用AI變革提升競爭力",
+        "透過定價能力鞏固市場龍頭地位"
       ]
     },
     {
       "title": "Andrew Tindall: Spotify’s new disco icon beats another corporate tech butthole - The Drum",
       "sentiment": "neutral",
       "key_points": [
-        "新的disco圖標",
-        "對圖標設計的評論"
+        "討論Spotify新的迪斯可球圖標設計",
+        "承認其引起話題的目的"
+      ]
+    },
+    {
+      "title": "Spotify's ugly new disco ball icon accomplished its goal - Business Insider",
+      "sentiment": "neutral",
+      "key_points": [
+        "確認迪斯可球圖標為20週年臨時設計",
+        "強調其成功達成吸引用戶的目的"
       ]
     },
     {
       "title": "Spotify’s 2026 Investor Day Recap: Raising Ambition for the Next Era of Media - Spotify",
       "sentiment": "positive",
       "key_points": [
-        "2026投資者日回顧",
-        "提升媒體領域的雄心",
-        "播客新功能"
+        "投資者日重申成長雄心",
+        "為播客創作者和聽眾推出新功能"
       ]
     },
     {
       "title": "Spotify and Universal Music Group Announce Landmark Licensing Agreements for Fan-Made Covers and Remixes - Spotify — For the Record",
       "sentiment": "positive",
       "key_points": [
-        "與環球音樂集團達成許可協議",
-        "開放粉絲製作翻唱和Remix"
+        "與UMG達成粉絲製作翻唱和混音的授權協議",
+        "鼓勵用戶創作內容"
       ]
     },
     {
       "title": "Spotify bets on taste as differentiator in the AI era - Axios",
       "sentiment": "positive",
       "key_points": [
-        "在AI時代以「品味」為差異化策略",
-        "推出「Reserved」售票服務"
+        "在AI時代以「品味」作為差異化策略",
+        "推出「Reserved」票務服務"
       ]
     },
     {
       "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "與環球音樂達成協議",
-        "允許粉絲製作AI翻唱和Remix"
+        "與UMG達成協議允許粉絲製作AI翻唱和混音",
+        "旨在應對AI音樂版權挑戰"
       ]
     },
     {
       "title": "Spotify cranks up AI push with Universal Music deal, lays out bold growth targets - Reuters",
       "sentiment": "positive",
       "key_points": [
-        "加強AI推動",
-        "與環球音樂合作",
-        "設定大膽增長目標",
-        "股價上漲13%"
-      ]
-    },
-    {
-      "title": "Spotify doubles down on video podcasts at its Hollywood studios - Los Angeles Times",
-      "sentiment": "positive",
-      "key_points": [
-        "大力發展視訊播客",
-        "開設好萊塢新工作室",
-        "提升用戶參與度"
+        "加強AI發展並與UMG合作",
+        "提出大膽的成長目標，股價上漲13%"
       ]
     },
     {
       "title": "Spotify to introduce 'responsible' AI tool that lets users generate their own covers and remixes - PC Gamer",
       "sentiment": "neutral",
       "key_points": [
-        "推出「負責任」的AI工具",
-        "允許用戶生成翻唱和Remix",
-        "對藝術家影響的潛在擔憂"
+        "將推出「負責任」的AI工具供用戶生成翻唱和混音",
+        "文章對其對藝術家影響及AI內容標籤表示擔憂"
       ]
     },
     {
       "title": "Spotify Offers Advance Concert Tickets to Premium Users - CNET",
       "sentiment": "positive",
       "key_points": [
-        "為Premium用戶提供預售演唱會門票"
+        "為Premium用戶提供演唱會預售票",
+        "提升用戶福利和參與度"
       ]
     },
     {
       "title": "Spotify stock pops on guidance at first investor day since 2022 - CNBC",
       "sentiment": "positive",
       "key_points": [
-        "投資者日後股價上漲",
-        "新管理層下的首次投資者日"
+        "股價因投資者日發布的指引而上漲",
+        "這是新共同CEO上任後的首次投資者日"
+      ]
+    },
+    {
+      "title": "Spotify and Universal Music Group Strike a Deal for AI-Powered Remix and Cover Song Tool - CNET",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與UMG達成AI動力混音和翻唱工具協議",
+        "提到多位音樂藝術家對AI音樂創作的擔憂"
       ]
     },
     {
       "title": "Spotify 20th Anniversary: What Impact Did Podcasts Have On The Company? - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "20週年回顧",
-        "播客對公司的影響",
-        "曾取消內部播客工作室"
+        "回顧Spotify成立20年來播客的影響",
+        "提及公司在播客策略上的演變和調整"
       ]
     },
     {
       "title": "Spotify ва сунъий интеллект: Сифатдан кўра миқдор устунлик қилмоқдами? - Zamin.uz",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify與AI",
-        "探討AI內容的數量與質量權衡"
+        "探討Spotify在人工智慧整合中「數量重於質量」的疑問",
+        "質疑AI內容的品質影響"
       ]
     },
     {
       "title": "Spotify’s AI bet: more of everything, less of what you want - TechCrunch",
       "sentiment": "negative",
       "key_points": [
-        "對Spotify AI策略的批評",
-        "強調廣度而非深度",
-        "應用程式可能變得混亂"
+        "批評Spotify的AI策略可能導致應用程式內容過載",
+        "擔憂犧牲深度換取廣度，影響用戶體驗"
       ]
     },
     {
       "title": "ILF blasts Spotify after refusal to remove song with antisemitic tropes - The Jerusalem Post",
       "sentiment": "negative",
       "key_points": [
-        "ILF批評Spotify拒絕刪除含反猶太主義內容的歌曲",
-        "歌曲播放量已近三百萬"
+        "國際法律論壇(ILF)譴責Spotify拒絕移除含有反猶太主義內容的歌曲",
+        "引發內容審查和平台責任的爭議"
       ]
     },
     {
       "title": "Spotify And Universal Just Put AI Music Behind A Paywall - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify與環球音樂將AI音樂創作納入付費模式",
-        "將粉絲行為變現"
-      ]
-    },
-    {
-      "title": "Final Trade: AAON, SPOT, INFQ, WDAY - CNBC",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股票被提及於交易建議"
-      ]
-    },
-    {
-      "title": "Trump said he’d ‘remember’ companies that didn’t apply for tariff refunds. Many of them are anyway - CNBC",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify聯合CEO討論與UMG的AI合作夥伴關係，將利用現有音樂目錄"
+        "將AI音樂創作轉化為付費產品",
+        "將粉絲行為商業化"
       ]
     },
     {
       "title": "Spotify’s temporary disco-ball logo will go away soon - USA Today",
       "sentiment": "neutral",
       "key_points": [
-        "臨時disco球logo",
-        "與20週年回顧活動相關"
+        "說明迪斯可球圖標是臨時性的",
+        "與「Party of the Year」回顧體驗相關"
       ]
     },
     {
       "title": "Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "為頂級粉絲預留門票",
-        "提升參與度"
+        "為藝術家的頂級粉絲預留演唱會門票",
+        "旨在提高用戶參與度和忠誠度"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260523_044417.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260523.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260524_050346.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260524.jpg"
 }
