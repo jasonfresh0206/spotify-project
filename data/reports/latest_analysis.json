@@ -1,528 +1,303 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.7,
+    "positive_ratio": 0.6,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.2
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "推出「Reserved」演唱會優先購票功能",
-      "description": "Spotify與Live Nation合作，為其Premium訂閱者和忠實粉絲推出「Reserved」功能，提供演唱會門票的優先購票權，旨在打擊黃牛並提升真粉絲的購票體驗。此功能已在美國上線。",
+      "title": "AI 策略與環球音樂合作",
+      "description": "Spotify與環球音樂達成多項協議，允許AI生成翻唱及混音，並強調其AI工具的「負責任」及「合法可控」性，旨在保護藝術家並避免「AI爛泥」。此舉推動股價上漲，並被視為公司未來增長的重要方向。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "擴展AI相關功能與與UMG的AI音樂授權協議",
-      "description": "Spotify推出Studio桌面AI App，可生成個人Podcast與每日音訊簡報。同時，與Universal Music Group (UMG)達成AI音樂授權協議，允許Premium訂閱者使用生成式AI創作歌曲翻唱與混音，並承諾保障藝術家的版權與收益。此舉引發了AI內容付費牆的討論。",
+      "title": "有聲書內容與功能擴展",
+      "description": "Spotify推出高時數有聲書訂閱方案，並將650篇雜誌長文轉為有聲書，填補Podcast與文學作品間的空白。同時擴展獨立作者輔助計畫，推出AI有聲書創作工具及提示播放列表，以促進用戶參與及營收增長。",
       "severity": "high",
-      "sentiment": "mixed"
+      "sentiment": "positive"
     },
     {
-      "title": "歡慶20週年及「Party of the Year」個人化體驗上線",
-      "description": "為慶祝成立20週年，Spotify推出「Party of the Year(s)」個人化回顧體驗，讓用戶回顧其在平台上的收聽歷史，包括首次收聽的歌曲、總收聽歌曲數等。",
+      "title": "投資者日與公司增長目標",
+      "description": "Spotify舉辦投資者日，由新任聯席執行長闡述公司雄心勃勃的增長和盈利路線圖，強調AI驅動的用戶參與，此消息帶動股價上漲。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "獨家粉絲福利與演唱會門票",
+      "description": "Spotify為頂級粉絲提供提前購買演唱會門票的獨家服務（「Reserved」票務服務），旨在提升用戶參與度和忠誠度。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "投資者大會與股價飆升",
-      "description": "Spotify召開投資者大會，闡述了未來的增長目標，並在AI音樂協議和新功能發布後，股價顯著飆升13%。同時強調有聲書業務增長強勁。",
+      "title": "內容審核爭議",
+      "description": "國際組織ILF批評Spotify拒絕下架一首含有反猶太主義內容的歌曲，該歌曲已累積數百萬次播放，引發內容審核的道德爭議。",
       "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "加拿大串流稅上漲",
-      "description": "加拿大廣播電視暨電信委員會將串流服務稅提高至15%，這對包括Spotify在內的數位音樂服務提供商可能產生負面影響。",
-      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "反猶太歌曲下架爭議",
-      "description": "國際法律論壇 (ILF) 批評 Spotify 拒絕下架一首被指控含有反猶太主義色彩的歌曲，引發了平台內容審核的爭議。",
-      "severity": "medium",
+      "title": "AI 品質與數量平衡質疑",
+      "description": "有媒體質疑Spotify在整合AI時，是否會優先考慮內容數量而非品質，對AI內容的潛在影響表示擔憂。",
+      "severity": "low",
       "sentiment": "negative"
+    },
+    {
+      "title": "LE SSERAFIM 獨家舞台",
+      "description": "韓國女團LE SSERAFIM回歸前登上Spotify獨家舞台，分享新歌背後故事，為平台帶來特定的藝人內容和粉絲互動。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "Reserved",
     "AI",
-    "演唱會門票",
-    "粉絲",
-    "Podcast",
-    "Universal Music Group",
-    "新功能",
-    "20週年",
-    "個人化",
-    "混音",
-    "翻唱",
-    "Studio App",
-    "黃牛",
-    "股價",
-    "增長",
-    "串流稅",
     "有聲書",
-    "內容爭議"
+    "環球音樂",
+    "翻唱與混音",
+    "新功能",
+    "演唱會門票",
+    "藝術家"
   ],
-  "daily_summary": "今日Spotify輿情主要由一系列積極的新功能和戰略消息主導，包括推出「Reserved」優先購票功能以打擊黃牛，以及與Universal Music Group達成AI音樂授權協議，開放Premium用戶創作AI翻唱與混音。此外，公司舉辦投資者大會並宣布強勁增長目標，股價隨之上揚，同時慶祝20週年並推出「Party of the Year」個人化體驗。然而，也有部分聲音批評AI音樂被設為付費牆，以及加拿大串流稅上漲和一首反猶太歌曲的下架爭議帶來負面討論。",
+  "daily_summary": "Spotify今日輿情聚焦於其積極擴展AI應用與內容策略。主要亮點包括與環球音樂達成協議，允許受控的AI翻唱與混音，以及大幅擴展有聲書內容，將大量雜誌文章轉為音頻格式。此外，公司也宣布為頂級粉絲提供演唱會門票預售等獨家福利，並在投資者日上勾勒出雄心勃勃的增長藍圖，推動股價上揚。然而，也有關於內容審核（反猶太歌曲）與AI內容品質的零星負面討論。",
   "article_analyses": [
     {
-      "title": "Spotify 必知 6 大新功能：優先搶票資格、專屬音樂時空膠囊，Podcasts 也全面升級！",
+      "title": "Spotify 將推高時數有聲書訂閱方案 輔助獨立作者 AI 工具",
       "sentiment": "positive",
       "key_points": [
-        "推出Reserved優先購票功能",
-        "專屬音樂時空膠囊(Party of the Year)",
-        "Podcasts功能全面升級"
+        "推出高時數有聲書訂閱方案",
+        "輔助獨立作者使用AI工具創作"
       ]
     },
     {
-      "title": "Spotify 推出 Studio 桌面 AI App，可生成個人 Podcast 與每日音訊簡報",
+      "title": "Spotify 將 650 篇雜誌長文轉有聲書 填補 Podcast 與文學作品的空白 #audiobook (248880)",
       "sentiment": "positive",
       "key_points": [
-        "推出Studio桌面AI App",
-        "可生成個人化Podcast",
-        "提供每日音訊簡報功能"
+        "將650篇雜誌長文轉為有聲書",
+        "填補Podcast與文學作品間的內容空白"
       ]
     },
     {
-      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？",
+      "title": "【TechGuide】一邊掃 AI 爛泥一邊開店？Spotify 跟環球音樂達成協議，允許用 AI 進行翻唱、混音",
       "sentiment": "neutral",
       "key_points": [
-        "與Live Nation合作推優先購票",
-        "輿論討論此舉是否為真粉絲福音或商業綁架"
+        "與環球音樂達成協議，允許AI進行翻唱、混音",
+        "文章標題提及對「AI爛泥」的擔憂"
       ]
     },
     {
-      "title": "Spotify 全新「Reserved」功能要拯救演唱會搶飛地獄 —— 你的聆聽紀錄就係張門票",
+      "title": "全台獨家直擊！LE SSERAFIM回歸前先登上Spotify舞台，新歌背後藏著成長故事",
       "sentiment": "positive",
       "key_points": [
-        "推出Reserved功能",
-        "旨在解決演唱會搶票問題",
-        "聆聽紀錄作為優先購票依據"
+        "LE SSERAFIM回歸前登上Spotify獨家舞台",
+        "透過新歌分享成長故事"
       ]
     },
     {
-      "title": "黃牛真的要失業了？ Spotify推出「Reserved」功能，就是要讓「真粉絲」才進得去演唱會",
+      "title": "Spotify聯手環球推AI作曲，執行長怒駁「AI爛泥」：要做合法可控的平臺",
       "sentiment": "positive",
       "key_points": [
-        "Reserved功能打擊黃牛",
-        "讓真粉絲優先獲得演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify連接《地平線6》模組開放下載！曲名、淡入淡出功能全都有",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify可連接《地平線6》遊戲模組",
-        "提供曲名顯示與淡入淡出功能"
-      ]
-    },
-    {
-      "title": "Spotify歡慶20週年！全新個人化體驗「Party of the Year(s)」上線",
-      "sentiment": "positive",
-      "key_points": [
-        "慶祝Spotify成立20週年",
-        "推出「Party of the Year(s)」個人化體驗"
-      ]
-    },
-    {
-      "title": "Spotify will start saving concert tickets for real fans with 'Reserved' feature",
-      "sentiment": "positive",
-      "key_points": [
-        "Reserved功能為真粉絲保留演唱會門票",
-        "幫助粉絲擊敗黃牛"
-      ]
-    },
-    {
-      "title": "Spotify soars 13% after announcing AI music deal with UMG, guidance",
-      "sentiment": "positive",
-      "key_points": [
-        "股價飆升13%",
-        "宣布與UMG的AI音樂協議",
-        "提供新的營運指南"
-      ]
-    },
-    {
-      "title": "Spotify to reserve tour tickets for artist 'superfans' in support of live music",
-      "sentiment": "positive",
-      "key_points": [
-        "Reserved功能保留巡迴演唱會門票給超級粉絲",
-        "支持現場音樂體驗"
-      ]
-    },
-    {
-      "title": "Spotify Introduces AI-Generated Personal Podcasts",
-      "sentiment": "positive",
-      "key_points": [
-        "推出AI生成個人化Podcast功能",
-        "可依據提示生成音訊簡報"
-      ]
-    },
-    {
-      "title": "Spotify And Universal Just Put AI Music Behind A Paywall",
-      "sentiment": "negative",
-      "key_points": [
-        "與Universal Music Group合作的AI音樂功能將設為付費牆",
-        "引發對控制權和版稅的疑問"
-      ]
-    },
-    {
-      "title": "Spotify, Universal Music Unveil AI Cover Songs Feature",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與Universal Music推出AI翻唱歌曲功能",
-        "Premium訂閱者可使用此功能"
-      ]
-    },
-    {
-      "title": "Spotify 20th Anniversary: What Impact Did Podcasts Have On The Company?",
-      "sentiment": "positive",
-      "key_points": [
-        "探討Podcast對Spotify 20週年來的影響",
-        "推出個人化收聽歷史回顧功能"
-      ]
-    },
-    {
-      "title": "Spotify to Reserve Concert Tickets for Artists' Biggest Fans. How It'll Work",
-      "sentiment": "positive",
-      "key_points": [
-        "Reserved功能為藝術家最忠實的粉絲保留演唱會門票",
-        "簡化購票流程"
-      ]
-    },
-    {
-      "title": "Spotify's new ticket feature gives superfans a shot before scalpers",
-      "sentiment": "positive",
-      "key_points": [
-        "新票務功能（Reserved）讓超級粉絲有機會先於黃牛購票"
-      ]
-    },
-    {
-      "title": "Spotify and Universal Music Announce Licensing Agreements for 'Responsible' AI-Generated Covers and Remixes",
-      "sentiment": "positive",
-      "key_points": [
-        "與Universal Music Group達成授權協議",
-        "支持「負責任的」AI生成翻唱和混音"
-      ]
-    },
-    {
-      "title": "Spotify aims to help fans secure concert tickets easier. Here's how",
-      "sentiment": "positive",
-      "key_points": [
-        "旨在幫助粉絲更輕鬆地獲取演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify Launches 'Party of the Year' to Revisit Listening Habits",
-      "sentiment": "positive",
-      "key_points": [
-        "推出「Party of the Year」功能",
-        "回顧用戶多年來的收聽習慣"
-      ]
-    },
-    {
-      "title": "Spotify-Universal Deal Suggests Labels Think AI Music's Future Is Letting You Play With Their Catalog",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與Universal Music的交易暗示唱片公司看待AI音樂的未來",
-        "開放粉絲使用其音樂目錄"
-      ]
-    },
-    {
-      "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
-      "sentiment": "positive",
-      "key_points": [
-        "與Universal Music Group達成協議，允許粉絲製作AI生成的翻唱和混音",
-        "Premium訂閱者可使用，藝術家獲得收益分成"
-      ]
-    },
-    {
-      "title": "Spotify to start reserving concert tickets for fans",
-      "sentiment": "positive",
-      "key_points": [
-        "開始為粉絲保留演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify's AI bet: more of everything, less of what you want",
-      "sentiment": "negative",
-      "key_points": [
-        "評論Spotify的AI策略是提供過多內容，而非用戶真正所需",
-        "批評AI工具可能過於繁瑣"
-      ]
-    },
-    {
-      "title": "Spotify cranks up AI push with Universal Music deal, lays out bold growth targets",
-      "sentiment": "positive",
-      "key_points": [
-        "加大AI推動力度",
-        "與Universal Music達成協議",
-        "設定大膽的增長目標"
-      ]
-    },
-    {
-      "title": "Drake Is Spotify's Most-Streamed Artist in a Day for 2026",
-      "sentiment": "neutral",
-      "key_points": [
-        "Drake成為2026年Spotify單日最高串流藝術家"
-      ]
-    },
-    {
-      "title": "Spotify and UMG ink generative AI deal. What it means for Nashville",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與UMG簽訂生成式AI協議",
-        "探討其對Nashville音樂產業的意義"
-      ]
-    },
-    {
-      "title": "Spotify shares surge on new music licensing deal, concert ticket perks",
-      "sentiment": "positive",
-      "key_points": [
-        "因新音樂授權協議和演唱會票務福利，Spotify股價飆升",
-        "預計將推動未來四年增長"
-      ]
-    },
-    {
-      "title": "Spotify now lets you create personal podcasts for anything and everything",
-      "sentiment": "positive",
-      "key_points": [
-        "推出新功能，允許用戶為任何興趣創建個人Podcast"
-      ]
-    },
-    {
-      "title": "Spotify's temporary disco-ball logo will go away soon",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify的迪斯可球臨時Logo將會移除",
-        "此Logo是為慶祝20週年推出"
-      ]
-    },
-    {
-      "title": "Spotify is going to reserve concert tickets for 'real fans'",
-      "sentiment": "positive",
-      "key_points": [
-        "透過「Reserved」計劃為「真粉絲」保留演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify rolls out 'Reserved' feature in the US to give dedicated fans early concert ticket access",
-      "sentiment": "positive",
-      "key_points": [
-        "在美國推出「Reserved」功能",
-        "為忠實粉絲提供演唱會門票的早期訪問權"
-      ]
-    },
-    {
-      "title": "Cortis amasses 12m Spotify listeners, curates Apple Music playlist",
-      "sentiment": "neutral",
-      "key_points": [
-        "K-pop團體Cortis在Spotify上累積1200萬月聽眾"
-      ]
-    },
-    {
-      "title": "Spotify's new disco ball logo won't be here forever. Here's why it changed",
-      "sentiment": "neutral",
-      "key_points": [
-        "解釋Spotify新迪斯可球Logo是臨時性",
-        "為慶祝20週年而設計，引發部分不滿"
-      ]
-    },
-    {
-      "title": "Spotify Will Set Aside Concert Tickets for Artists' Superfans",
-      "sentiment": "positive",
-      "key_points": [
-        "將為藝術家的超級粉絲預留演唱會門票",
-        "也宣布了AI音樂混音功能"
-      ]
-    },
-    {
-      "title": "Spotify Launches Feature That Reserves Concert Tickets for Fans",
-      "sentiment": "positive",
-      "key_points": [
-        "推出Reserved功能，為粉絲預留演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify and major music DSPs on alert as Canada triples streaming tax to 15%",
-      "sentiment": "negative",
-      "key_points": [
-        "加拿大將串流服務稅提高至15%",
-        "Spotify等主要音樂數位服務提供商受影響"
-      ]
-    },
-    {
-      "title": "Spotify's new playlist has revealed a lot about my listening history",
-      "sentiment": "positive",
-      "key_points": [
-        "新播放清單（Party of the Year）揭示了個人收聽歷史",
-        "被讚譽為比Wrapped更佳的體驗"
-      ]
-    },
-    {
-      "title": "Spotify ва сунъий интеллект: Сифатдан кўра миқдор устунлик қилмоқдами?",
-      "sentiment": "negative",
-      "key_points": [
-        "探討Spotify在AI整合中，是否數量優先於品質"
+        "與環球音樂聯手推動AI作曲",
+        "執行長強調打造合法可控的AI平台，駁斥「AI爛泥」說法"
       ]
     },
     {
       "title": "Spotify’s 2026 Investor Day Recap: Raising Ambition for the Next Era of Media - Spotify",
       "sentiment": "positive",
       "key_points": [
-        "2026年投資者日回顧，提升媒體新時代的抱負",
-        "展示Podcast產品創新，如文字稿、自動章節、實時問答",
-        "個人化Podcast需求強勁"
+        "舉辦2026投資者日，提出未來媒體發展雄心",
+        "宣布推出多項播客新功能，惠及聽眾與創作者"
       ]
     },
     {
-      "title": "Spotify bets on taste as differentiator in the AI era - Axios",
+      "title": "Spotify Adds Narrated Long-Form Magazine Articles for Premium Subscribers - CNET",
       "sentiment": "positive",
       "key_points": [
-        "在AI時代，將「品味」作為策略差異化因素",
-        "有助於創建更具黏性的音訊生態系統",
-        "公布新的Reserved票務服務"
+        "為Premium訂閱用戶新增650多篇旁白雜誌長文",
+        "與多家知名出版物合作提供內容"
       ]
     },
     {
-      "title": "Around the Book World: Monday, May 25, 2026 - Publishing Perspectives",
+      "title": "Spotify энди журналлардаги мақолаларни аудио форматда тақдим этади - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "有聲書收聽時數年增60%",
-        "Audiobooks+訂閱者達100萬，年化經常性收入達1億美元"
+        "將雜誌文章轉為音頻格式提供",
+        "免費用戶可單獨購買文章，定價1.99美元"
       ]
     },
     {
       "title": "Spotify and Universal Music Group Announce Landmark Licensing Agreements for Fan-Made Covers and Remixes - Spotify — For the Record",
       "sentiment": "positive",
       "key_points": [
-        "與Universal Music Group宣布具有里程碑意義的授權協議",
-        "允許粉絲製作翻唱和混音歌曲"
+        "與環球音樂集團達成里程碑式授權協議",
+        "允許粉絲製作AI翻唱與混音"
+      ]
+    },
+    {
+      "title": "Spotify launches 'narrated articles' from publications like The Atlantic, Vogue - Reuters",
+      "sentiment": "positive",
+      "key_points": [
+        "推出來自知名出版物的旁白文章",
+        "旨在培養用戶聆聽習慣，增加與書籍的互動"
+      ]
+    },
+    {
+      "title": "Spotify bets on taste as differentiator in the AI era - Axios",
+      "sentiment": "positive",
+      "key_points": [
+        "在AI時代將「品味」作為策略性差異化因素",
+        "推出新的「Reserved」獨家票務服務"
+      ]
+    },
+    {
+      "title": "Spotify now lets you stream narrated magazine articles, too - TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "新增串流旁白雜誌文章功能",
+        "鼓勵用戶嘗試音樂以外的長篇聆聽內容，以促進有聲書參與度"
+      ]
+    },
+    {
+      "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes - TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "與環球音樂達成協議，允許粉絲製作AI翻唱與混音",
+        "應對消費者對此類活動的需求，直接與唱片公司合作解決版權問題"
       ]
     },
     {
       "title": "Spotify cranks up AI push with Universal Music deal, lays out bold growth targets - Reuters",
       "sentiment": "positive",
       "key_points": [
-        "Spotify加大AI推動力度，與Universal Music達成交易",
-        "設定大膽的增長目標",
-        "推出AI驅動的桌面應用Studio by Spotify Labs"
+        "加大AI推動力度並與環球音樂達成協議",
+        "公佈雄心勃勃的增長目標，股價上漲13%"
       ]
     },
     {
-      "title": "ILF blasts Spotify after refusal to remove song with antisemitic tropes - The Jerusalem Post",
-      "sentiment": "negative",
+      "title": "Spotify bets big on AI covers and early concert tickets - Los Angeles Times",
+      "sentiment": "positive",
       "key_points": [
-        "國際法律論壇 (ILF) 批評Spotify拒絕移除含有反猶太主義內容的歌曲",
-        "指控該歌曲構成反猶太敘事框架"
+        "重點發展AI翻唱功能",
+        "提供提前購買演唱會門票的服務，以個性化用戶體驗"
+      ]
+    },
+    {
+      "title": "Spotify says its AI remix tool protects artists from unregulated ‘slop’ - The Guardian",
+      "sentiment": "positive",
+      "key_points": [
+        "執行長為其AI混音工具辯護",
+        "聲稱能保護藝術家免受不受監管的「爛泥」侵害"
       ]
     },
     {
       "title": "Spotify to introduce 'responsible' AI tool that lets users generate their own covers and remixes - PC Gamer",
-      "sentiment": "positive",
-      "key_points": [
-        "將推出「負責任的」AI工具，允許用戶生成自己的翻唱和混音",
-        "強調「基於同意、歸屬和補償」"
-      ]
-    },
-    {
-      "title": "Spotify’s AI bet: more of everything, less of what you want - TechCrunch",
-      "sentiment": "negative",
-      "key_points": [
-        "批評Spotify的AI策略提供過多而非用戶所需",
-        "曾因未正確標示AI音樂受批評，後修改政策"
-      ]
-    },
-    {
-      "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes - TechCrunch",
       "sentiment": "neutral",
       "key_points": [
-        "與Universal Music達成協議，允許粉絲製作AI翻唱和混音",
-        "回應消費者對此類活動的需求，並解決先前AI音樂的版權問題"
+        "將推出「負責任」的AI工具供用戶生成翻唱與混音",
+        "文章對此舉是否能改善藝術家和粉絲長期利益表示謹慎，並提及AI內容標籤問題"
       ]
     },
     {
       "title": "Spotify Offers Advance Concert Tickets to Premium Users - CNET",
       "sentiment": "positive",
       "key_points": [
-        "為Premium用戶提供預售演唱會門票",
-        "推出「Personal Podcasts」功能，允許用戶創建私人Podcast"
+        "為Premium用戶提供提前購買演唱會門票的服務"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, May 25, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "此文章涉及出版業和有聲書領域的綜合性新聞，與Spotify無直接最新關聯"
       ]
     },
     {
       "title": "Spotify stock pops on guidance at first investor day since 2022 - CNBC",
       "sentiment": "positive",
       "key_points": [
-        "股價因在2022年以來首次投資者日發布的指導意見而上漲"
-      ]
-    },
-    {
-      "title": "Spotify's ugly new disco ball icon accomplished its goal - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "「醜陋的」迪斯可球Logo雖受批評，但達到了吸引注意力的目標",
-        "該Logo是臨時性的"
-      ]
-    },
-    {
-      "title": "Spotify And Universal Just Put AI Music Behind A Paywall - Forbes",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify與Universal Music將AI音樂功能設為付費牆"
+        "股價在四年來的首次投資者日後上漲",
+        "由新任聯席執行長領導，闡述未來發展方向"
       ]
     },
     {
       "title": "Spotify 20th Anniversary: What Impact Did Podcasts Have On The Company? - Forbes",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify在Podcast領域的創新，包括深度整合視頻",
-        "透過收購Megaphone和Spotify Audience Network推動增長"
+        "回顧播客對Spotify的歷史影響",
+        "提及過去工作室的取消和重組，非最新事件或趨勢"
       ]
     },
     {
-      "title": "Trump said he’d ‘remember’ companies that didn’t apply for tariff refunds. Many of them are anyway - CNBC",
-      "sentiment": "positive",
+      "title": "Spotify ва сунъий интеллект: Сифатдан кўра миқдор устунлик қилмоқдами? - Zamin.uz",
+      "sentiment": "negative",
       "key_points": [
-        "Spotify聯合CEO討論與UMG的AI合作夥伴關係，將利用現有音樂目錄"
+        "質疑Spotify在整合AI時，是否優先考慮內容數量而非品質"
+      ]
+    },
+    {
+      "title": "ILF blasts Spotify after refusal to remove song with antisemitic tropes - The Jerusalem Post",
+      "sentiment": "negative",
+      "key_points": [
+        "國際組織ILF批評Spotify拒絕下架含有反猶太主義內容的歌曲",
+        "歌曲已累積數百萬次播放，引發內容審核爭議"
       ]
     },
     {
       "title": "Final Trade: AAON, SPOT, INFQ, WDAY - CNBC",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify聯合CEO討論與UMG的AI合作夥伴關係"
-      ]
-    },
-    {
-      "title": "Fmr. Walmart U.S. CEO: Walmart is priced for perfection, would not buy stock here - CNBC",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify聯合CEO討論與UMG的AI合作夥伴關係"
-      ]
-    },
-    {
-      "title": "Spotify’s temporary disco-ball logo will go away soon - USA Today",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify臨時迪斯可球Logo即將移除",
-        "「Party of the Year」回顧用戶音樂歷史"
+        "報導中提及Spotify聯席執行長談及與UMG的AI合作夥伴關係，主要為市場分析節目的一部分"
       ]
     },
     {
-      "title": "Spotify to reserve tour tickets for artist ‘superfans’ in support of live music - NBC News",
+      "title": "Trump said he’d ‘remember’ companies that didn’t apply for tariff refunds. Many of them are anyway - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導中提及Spotify聯席執行長談及與UMG的AI合作夥伴關係，主要為市場分析節目的一部分"
+      ]
+    },
+    {
+      "title": "Spotify Audiobooks+ Add-On Draws Users, Drives Revenue - Publishers Weekly",
       "sentiment": "positive",
       "key_points": [
-        "推出「Reserved」計劃為藝術家超級粉絲預留巡迴演唱會門票",
-        "旨在緩解購票難題"
+        "Audiobooks+附加服務吸引用戶並推動營收",
+        "擴展Spotify for Authors計畫及推出新的有聲書創作工具"
       ]
     },
     {
       "title": "Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "為頂級粉絲保留門票，旨在提高用戶參與度",
-        "符合資格的粉絲將收到通知，可在專屬窗口期內購票"
+        "為頂級粉絲保留演唱會門票，旨在提高平台參與度"
+      ]
+    },
+    {
+      "title": "Breakingviews - SpaceX hype screens out most but not all rival IPOs - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "此文章與Spotify無直接關聯，主要討論SpaceX IPO"
+      ]
+    },
+    {
+      "title": "SpaceX files to list on Nasdaq under ticker symbol SPCX - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "此文章與Spotify無直接關聯，主要討論SpaceX上市"
+      ]
+    },
+    {
+      "title": "Post Market Wrap: May 20, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "此文章與Spotify無直接關聯，為市場總結報導"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容不足以判斷與Spotify的關聯或趨勢"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260526_050623.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260526.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260527_051922.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260527.jpg"
 }
