@@ -1,326 +1,261 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.58,
-    "negative_ratio": 0.09,
-    "neutral_ratio": 0.33
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "推出語音雜誌文章與有聲書新功能",
-      "description": "Spotify推出多篇雜誌文章的語音敘述版本，最初針對付費訂閱用戶和特定語言，旨在豐富聽眾體驗並可能帶動微支付與有聲書互動，同時也擴展了有聲書程式和獨立作者工具。",
+      "title": "Spotify 20週年慶祝活動",
+      "description": "Spotify 歡慶成立20週年，推出個性化回顧功能，讓用戶能夠查看他們的第一首歌、最愛歌手以及自動生成的「120首人生歌單」。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "免費帳號功能大幅升級",
-      "description": "Spotify大幅升級免費帳號功能，包括讓用戶直接選歌、搜尋播放等，期望吸引更多用戶並提升使用體驗，在台灣市場也帶來新挑戰。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "積極發展AI音樂工具與策略",
-      "description": "Spotify積極投入AI音樂工具開發，包括AI翻唱與生產層的整合，並聲稱此舉能保護藝術家免受「劣質AI音樂」影響，也顯示其在AI領域的策略佈局。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "強勁財務表現與訂閱用戶成長",
-      "description": "儘管過去一年多次調漲訂閱價格，Spotify仍公布強勁的2025年第四季財報，獲利三倍增長，訂閱用戶數也成長10%。",
+      "title": "擴展有聲書服務與作者計畫",
+      "description": "Spotify 推出 Audiobooks+ 附加功能，將「Spotify for Authors」計畫擴展到10種新語言，並引入新的有聲書創作工具以支持獨立作者，同時新增有聲書提示播放清單功能。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "獨立音樂人抗議低分潤與演算法控制",
-      "description": "美國加州獨立音樂人發起「Spotify去死」行動，抗議Spotify的低分潤制度、演算法控制以及AI音樂對創作的影響。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI創作歌曲遭官方排行榜禁用",
-      "description": "一首在Spotify上獲得冠軍的瑞典AI創作歌曲，因非人類創作而被禁止進入官方音樂排行榜，引發對AI音樂藝術價值和資格的爭議。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "大規模資料盜取事件",
-      "description": "據報導，Spotify發生大規模資料盜取事件，包含逾2億筆曲目中繼資料與數千萬個音訊檔案可能被竊取，存在建立「個人版Spotify」的潛在風險。",
+      "title": "推出雜誌文章旁白功能",
+      "description": "Spotify 為 Premium 訂閱者推出由旁白朗讀的長篇雜誌文章，與 Rolling Stone、The Atlantic、Vogue 等知名出版商合作，初期提供超過650篇文章，旨在豐富用戶的收聽體驗並培養聽書習慣。",
       "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "新增播客評論功能",
-      "description": "Spotify新增播客（Podcast）評論功能，旨在增強用戶互動性，並推動平台朝音樂社群方向發展，為6.15億活躍用戶打造更豐富的社群體驗。",
-      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "簽署獨家播客內容鉅額交易",
-      "description": "Spotify與Netflix聯手以1億美元的巨額交易，取得知名播客Jay Shetty節目《On Purpose》的獨家影音版權，為Spotify最大的播客投資之一。",
+      "title": "推出多項音樂功能更新，含 iOS 背景下載",
+      "description": "Spotify 釋出四項新的音樂相關功能，其中包含針對 iOS 用戶的背景下載功能，旨在提升整體使用體驗和便利性。",
       "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "投資 AI 音樂工具及個性化功能",
+      "description": "Spotify 宣佈將重心放在 AI 翻唱 (AI covers) 和提前演唱會門票等新功能，並由新任共同執行長闡述公司願景，強調透過 AI 實現個性化的收聽體驗。公司同時積極捍衛其 AI 工具，聲稱能保護藝術家免受「無管制」機器生成音樂的影響。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "與 Jay Shetty 簽署高額獨家播客合約",
+      "description": "Spotify 和 Netflix 共同以據報1億美元的價格，簽署了與知名勵志播客主持人 Jay Shetty 的獨家合約，取得其熱門播客「On Purpose」的影音版權，顯示 Spotify 在播客內容投資上的巨大野心。",
+      "severity": "high",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
+    "有聲書",
+    "旁白雜誌文章",
+    "AI 音樂工具",
     "新功能",
-    "AI音樂",
-    "訂閱與獲利",
-    "播客",
-    "創作者分潤"
+    "播客合約",
+    "個性化"
   ],
-  "daily_summary": "今日Spotify輿情呈兩極發展。一方面，平台因推出多項新功能如語音雜誌文章、播客評論及免費帳號升級而獲得正面評價，財務表現也顯示獲利與訂閱用戶數逆勢增長。但另一方面，AI音樂爭議、獨立音樂人分潤抗議以及大規模資料盜取事件，則構成嚴峻的負面挑戰。",
+  "daily_summary": "今日 Spotify 輿情主要聚焦於平台在音頻內容和技術創新上的積極拓展。重點包括為 Premium 用戶推出旁白雜誌文章、強化有聲書服務，以及對 AI 音樂工具的戰略性投資。此外，Spotify 也慶祝20週年並簽署大型播客獨家合約，整體呈現蓬勃發展的正面態勢。",
   "article_analyses": [
     {
-      "title": "《極限競速：地平線6》直接串流動次動？玩家Spotify音樂模組製作中",
+      "title": "Spotify 歡慶 20 週年：你的第一首歌、最愛歌手、120 首人生歌單一次回顧！",
       "sentiment": "positive",
       "key_points": [
-        "玩家製作遊戲內Spotify音樂串流模組",
-        "提升遊戲體驗與音樂整合"
+        "歡慶成立20週年",
+        "推出個性化回顧功能",
+        "可查看第一首歌、最愛歌手、人生歌單"
       ]
     },
     {
-      "title": "Spotify更新亮點多！剪輯播客與雜誌語音搶攻微支付市場",
-      "sentiment": "positive",
-      "key_points": [
-        "推出剪輯播客與雜誌語音功能",
-        "搶攻微支付市場，增加收入來源"
-      ]
-    },
-    {
-      "title": "根據美國證券交易委員會（SEC）近期提交的文件，Spotify Technology的一名內部人士出售了價值$1,377,629的股票。",
+      "title": "【即時新聞】這3檔低於20美元銅板股迎轉機！Rivian(RIVN)強攻自駕計程車搶市佔",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify內部人士出售股票",
-        "標準的金融市場交易行為"
+        "文章與 Spotify 無關"
       ]
     },
     {
       "title": "Spotify Audiobooks+ Add-On Draws Users, Drives Revenue - Publishers Weekly",
       "sentiment": "positive",
       "key_points": [
-        "擴展Audiobooks+計畫至更多語言",
-        "推出獨立作者有聲書創作工具，帶動用戶與收入增長"
+        "Audiobooks+ 附加功能吸引用戶並帶來營收",
+        "「Spotify for Authors」計畫擴展至10種語言",
+        "推出新的獨立作者有聲書創作工具及提示播放清單"
       ]
     },
     {
       "title": "Spotify Adds Narrated Long-Form Magazine Articles for Premium Subscribers - CNET",
       "sentiment": "positive",
       "key_points": [
-        "為高級會員新增語音敘述長篇雜誌文章",
-        "與多家知名出版商合作提供內容"
+        "為 Premium 訂閱者新增旁白長篇雜誌文章",
+        "提供超過650篇文章，合作出版商包括 Rolling Stone、The Atlantic、Vogue 等",
+        "內容目前僅限英文"
       ]
     },
     {
       "title": "Spotify энди журналлардаги мақолаларни аудио форматда тақдим этади - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "Spotify提供音訊格式的雜誌文章",
-        "免費用戶可單獨購買文章"
+        "Spotify 提供雜誌文章的音頻格式",
+        "目前有超過650篇文章，僅限英文",
+        "免費用戶可單獨購買每篇文章，價格1.99美元"
       ]
     },
     {
       "title": "Spotify releases four music-focused features, including background downloads on iOS - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "推出四項新音樂功能",
-        "包括iOS背景下載功能"
+        "推出四項以音樂為重點的新功能",
+        "包括 iOS 上的背景下載功能"
       ]
     },
     {
       "title": "Spotify launches 'narrated articles' from publications like The Atlantic, Vogue - Reuters",
       "sentiment": "positive",
       "key_points": [
-        "推出由知名出版物提供的語音敘述文章",
-        "旨在幫助用戶培養健康的收聽習慣"
+        "推出來自 The Atlantic、Vogue 等出版物的旁白文章",
+        "旨在培養健康的收聽習慣，並增加對書籍的參與度"
       ]
     },
     {
       "title": "Listen Up At Spotify: Audio Platform Offers Narrated Magazine Articles 05/28/2026 - MediaPost",
       "sentiment": "positive",
       "key_points": [
-        "Spotify音訊平台提供語音敘述雜誌文章"
+        "Spotify 音頻平台提供旁白雜誌文章"
       ]
     },
     {
       "title": "Spotify now lets you stream narrated magazine articles, too - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "提供可營利的音訊內容",
-        "鼓勵用戶嘗試音樂之外的長篇收聽內容"
+        "新增旁白雜誌文章串流功能",
+        "帶來可變現的音頻內容",
+        "鼓勵用戶嘗試音樂以外的長篇收聽內容，可能引導至有聲書"
       ]
     },
     {
       "title": "Spotify bets big on AI covers and early concert tickets - Los Angeles Times",
       "sentiment": "positive",
       "key_points": [
-        "投資AI翻唱與早期演唱會門票",
-        "透過AI功能個性化用戶收聽體驗"
+        "投入 AI 翻唱和提前演唱會門票等領域",
+        "新任共同執行長提出願景，專注於個性化收聽體驗",
+        "涵蓋音樂、播客、有聲書及健身內容"
       ]
     },
     {
       "title": "Spotify says its AI remix tool protects artists from unregulated ‘slop’ - The Guardian",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify辯護其AI混音工具能保護藝術家",
-        "解決市場上非正規AI生成音樂的疑慮"
+        "Spotify 為其 AI 混音工具辯護",
+        "稱該工具可保護藝術家免受「無管制」機器生成音樂的影響",
+        "批評者擔憂可能加速機器生成音樂的傳播"
       ]
     },
     {
       "title": "Around the Book World: Monday, May 25, 2026 - Publishing Perspectives",
       "sentiment": "neutral",
       "key_points": [
-        "一般出版業新聞摘要"
+        "文章與 Spotify 無關，屬於一般出版界新聞"
       ]
     },
     {
       "title": "Spotify chief describes plans for AI music tools as a 'win-win' situation - PC Gamer",
       "sentiment": "positive",
       "key_points": [
-        "Spotify首席執行官稱AI音樂工具為「雙贏」局面",
-        "將Spotify定位為AI音樂的首選平台"
+        "Spotify 共同執行長將 AI 音樂工具計畫形容為「雙贏」局面",
+        "旨在將 Spotify 打造成 AI 生成音樂的首選平台",
+        "對抗「惡意嘗試」的 AI 生成內容"
       ]
     },
     {
       "title": "Spotify's ElevenLabs Play Isn't Really About Audiobooks. It's About Owning The Production Layer. - Forbes",
       "sentiment": "positive",
       "key_points": [
-        "ElevenLabs整合是為了掌握生產環節",
-        "讓作者在平台內完成AI有聲書製作"
+        "與 ElevenLabs 的整合關乎掌握生產層",
+        "Spotify 已接受 AI 旁白有聲書，此次變革將製作流程留在平台內",
+        "讓作者無需離開平台即可完成音頻製作"
       ]
     },
     {
       "title": "Prediction Market Bans, Starlink Expansion and Spotify Adds Articles | Tech Today - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify新增文章內容成為今日科技頭條之一"
+        "提及 Spotify 新增文章內容"
       ]
     },
     {
       "title": "Self-Help Podcaster Jay Shetty Strikes Major $100 Million Deal With Spotify And Netflix - Yahoo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify與Netflix簽下Jay Shetty播客獨家版權",
-        "價值1億美元的重大內容投資"
+        "與 Jay Shetty 的播客「On Purpose」簽署價值1億美元的獨家影音版權協議",
+        "這是 Spotify 最大的播客合約之一，與 Netflix 共同達成"
       ]
     },
     {
-      "title": "The Late Morning Rundown: May 28, 2026 - CNBC",
+      "title": "Chart of the Week: Dotcom bubble IPOs - Financial Times",
       "sentiment": "neutral",
       "key_points": [
-        "一般財經市場新聞摘要"
+        "文章與 Spotify 無關"
       ]
     },
     {
       "title": "Why IPO mania could signal top of the market - Financial Times",
       "sentiment": "neutral",
       "key_points": [
-        "關於首次公開募股(IPO)與市場趨勢的一般評論"
+        "文章與 Spotify 無關"
       ]
     },
     {
       "title": "SpaceX IPO boldly steps into the unknown of AI economics - Financial Times",
       "sentiment": "neutral",
       "key_points": [
-        "關於SpaceX IPO與AI經濟的一般評論"
+        "文章與 Spotify 無關"
       ]
     },
     {
       "title": "Rocket, Satellite Stocks Surge as SpaceX IPO Fuels Euphoria - Bloomberg.com",
       "sentiment": "neutral",
       "key_points": [
-        "關於SpaceX IPO與相關股票市場表現的一般評論"
+        "文章與 Spotify 無關"
       ]
     },
     {
-      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度",
-      "sentiment": "negative",
-      "key_points": [
-        "獨立音樂人抗議Spotify低分潤與演算法控制",
-        "對AI音樂創作表示拒絕"
-      ]
-    },
-    {
-      "title": "一年多次漲價沒有嚇跑消費者？Spotify獲利三倍跳，訂閱用戶反倒成長10% | 李靖棠 | 新聞",
-      "sentiment": "positive",
-      "key_points": [
-        "Despite多次漲價，Spotify獲利與訂閱用戶雙雙成長",
-        "2025年Q4財報亮眼"
-      ]
-    },
-    {
-      "title": "涉AI創作爭議，瑞典禁止這首Spotify冠軍單曲進入官方排行榜",
-      "sentiment": "negative",
-      "key_points": [
-        "瑞典AI創作歌曲因非人類創作被官方禁播",
-        "引發AI生成音樂的藝術價值爭議"
-      ]
-    },
-    {
-      "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
-      "sentiment": "positive",
-      "key_points": [
-        "新增Podcast評論功能，強化用戶互動",
-        "將平台發展為音樂社群的策略"
-      ]
-    },
-    {
-      "title": "想聽哪首就點哪首！Spotify免費帳號全面解放 台灣音樂市場面臨新挑戰 | 張啟敏 | 全解析",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify免費帳號功能大升級，可自選歌曲播放",
-        "對台灣音樂市場產生影響"
-      ]
-    },
-    {
-      "title": "泰勒絲新專輯創紀錄 評論認缺乏新意",
-      "sentiment": "positive",
-      "key_points": [
-        "泰勒絲新專輯在Spotify上創下串流紀錄",
-        "平台展現強勁的流量吸引力"
-      ]
-    },
-    {
-      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify被爆發生大規模資料盜取",
-        "數千萬音訊資料洩露恐導致「個人版Spotify」被建立"
-      ]
-    },
-    {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」",
+      "title": "Vibe Check: Ariana Grande, Scooter Braun and Olivia Rodrigo - Modern Ghana",
       "sentiment": "neutral",
       "key_points": [
-        "討論Apple Music與Spotify的市場策略差異",
-        "反駁Apple Music必須模仿Spotify的論點"
+        "文章與 Spotify 平台或業務無關"
       ]
     },
     {
-      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify免費版解除三項付費功能限制",
-        "用戶可直接選歌、搜尋播放"
-      ]
-    },
-    {
-      "title": "越大膽越熱銷！ Supreme 棺材、Spotify x Liquid Death 聯名骨灰罈，讓死亡議題不再沈重",
+      "title": "SpaceX lowers IPO valuation target to at least $1.8T: report (SPCX:Pending) - Seeking Alpha",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify與Liquid Death的聯名行銷活動",
-        "品牌行銷策略的創新與大膽嘗試"
+        "文章與 Spotify 無關"
+      ]
+    },
+    {
+      "title": "Fidelis Capital Partners LLC Acquires 1,509 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章與 Spotify 無關"
+      ]
+    },
+    {
+      "title": "SpaceX IPO Gets Another Greenlight Toward Faster Index Inclusion - Bloomberg.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章與 Spotify 無關"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "文章內容不足，無法判斷"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "文章內容不足，無法判斷"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260530_045512.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260530.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260531_052101.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260531.jpg"
 }
