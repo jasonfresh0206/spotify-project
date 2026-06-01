@@ -6,256 +6,295 @@
   },
   "events": [
     {
-      "title": "Spotify 20週年慶祝活動",
-      "description": "Spotify 歡慶成立20週年，推出個性化回顧功能，讓用戶能夠查看他們的第一首歌、最愛歌手以及自動生成的「120首人生歌單」。",
+      "title": "推出有聲雜誌文章",
+      "description": "Spotify為高級訂閱用戶推出超過650篇來自The Atlantic、Rolling Stone、Vogue等頂級出版商的有聲雜誌文章，大幅擴展平台內容形式。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI音樂工具發展計畫",
+      "description": "Spotify CEO闡述AI音樂工具的發展計畫，旨在以合法且受控的方式進行AI混音與翻唱，儘管業界對機器生成音樂存在爭議。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Reserved演唱會預售票服務",
+      "description": "Spotify與Live Nation合作，為符合資格的Premium訂閱用戶提供演唱會門票提前購買權，提升訂閱服務的獨家價值。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "擴展有聲書服務與作者計畫",
-      "description": "Spotify 推出 Audiobooks+ 附加功能，將「Spotify for Authors」計畫擴展到10種新語言，並引入新的有聲書創作工具以支持獨立作者，同時新增有聲書提示播放清單功能。",
-      "severity": "high",
+      "title": "多項音樂相關功能更新",
+      "description": "Spotify推出四項音樂相關新功能，其中包含iOS背景下載，旨在提升用戶聆聽與管理體驗。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "推出雜誌文章旁白功能",
-      "description": "Spotify 為 Premium 訂閱者推出由旁白朗讀的長篇雜誌文章，與 Rolling Stone、The Atlantic、Vogue 等知名出版商合作，初期提供超過650篇文章，旨在豐富用戶的收聽體驗並培養聽書習慣。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "推出多項音樂功能更新，含 iOS 背景下載",
-      "description": "Spotify 釋出四項新的音樂相關功能，其中包含針對 iOS 用戶的背景下載功能，旨在提升整體使用體驗和便利性。",
+      "title": "與知名播客Jay Shetty簽署合作協議",
+      "description": "知名自媒體播客Jay Shetty與Spotify和Netflix簽署一筆巨額內容合作協議，豐富了平台的播客內容庫。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "投資 AI 音樂工具及個性化功能",
-      "description": "Spotify 宣佈將重心放在 AI 翻唱 (AI covers) 和提前演唱會門票等新功能，並由新任共同執行長闡述公司願景，強調透過 AI 實現個性化的收聽體驗。公司同時積極捍衛其 AI 工具，聲稱能保護藝術家免受「無管制」機器生成音樂的影響。",
-      "severity": "high",
+      "title": "深度整合ElevenLabs掌握製作層",
+      "description": "Spotify深度整合AI語音技術公司ElevenLabs，目標是掌握音頻內容（例如：有聲書）的製作層，使作者能直接在平台內完成音頻製作。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "與 Jay Shetty 簽署高額獨家播客合約",
-      "description": "Spotify 和 Netflix 共同以據報1億美元的價格，簽署了與知名勵志播客主持人 Jay Shetty 的獨家合約，取得其熱門播客「On Purpose」的影音版權，顯示 Spotify 在播客內容投資上的巨大野心。",
-      "severity": "high",
+      "title": "Spotify for Authors計畫擴展與新工具",
+      "description": "Spotify擴展其Spotify for Authors計畫至10種新語言，並推出新的有聲書創作工具和Prompted Playlists，以支持獨立作者與內容創作。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "20週年最愛回顧活動",
+      "description": "Spotify推出20週年紀念活動，提供用戶「最愛回顧」功能，喚起用戶的音樂記憶。",
+      "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "有聲書",
-    "旁白雜誌文章",
-    "AI 音樂工具",
+    "有聲雜誌",
+    "AI音樂工具",
     "新功能",
-    "播客合約",
-    "個性化"
+    "演唱會預售票",
+    "播客",
+    "有聲書",
+    "ElevenLabs",
+    "訂閱服務",
+    "內容合作",
+    "Spotify for Authors"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於平台在音頻內容和技術創新上的積極拓展。重點包括為 Premium 用戶推出旁白雜誌文章、強化有聲書服務，以及對 AI 音樂工具的戰略性投資。此外，Spotify 也慶祝20週年並簽署大型播客獨家合約，整體呈現蓬勃發展的正面態勢。",
+  "daily_summary": "今日Spotify輿情積極，主要圍繞多項新功能上線與內容拓展。平台不僅推出了超過650篇有聲雜誌文章，更與Live Nation合作提供演唱會預售票，並積極發展AI音樂工具。此外，與知名播客Jay Shetty的億元合作案也突顯其在音頻內容領域的強勁佈局。",
   "article_analyses": [
     {
-      "title": "Spotify 歡慶 20 週年：你的第一首歌、最愛歌手、120 首人生歌單一次回顧！",
-      "sentiment": "positive",
-      "key_points": [
-        "歡慶成立20週年",
-        "推出個性化回顧功能",
-        "可查看第一首歌、最愛歌手、人生歌單"
-      ]
-    },
-    {
-      "title": "【即時新聞】這3檔低於20美元銅板股迎轉機！Rivian(RIVN)強攻自駕計程車搶市佔",
+      "title": "KKBOX推「KKBOX ONE」跨界擴大訂閱生態系 Spotify 20周年推最愛回顧",
       "sentiment": "neutral",
       "key_points": [
-        "文章與 Spotify 無關"
+        "Spotify 20周年推出最愛回顧功能"
       ]
     },
     {
-      "title": "Spotify Audiobooks+ Add-On Draws Users, Drives Revenue - Publishers Weekly",
+      "title": "KKBOX推「KKBOX ONE」跨界擴大訂閱生態系Spotify 20周年推最愛回顧| 品味生活",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 20周年推出最愛回顧功能"
+      ]
+    },
+    {
+      "title": "Spotify Launches 650+ Narrated Magazine Articles From The Atlantic, Rolling Stone, Vogue, And More... - Forbes",
       "sentiment": "positive",
       "key_points": [
-        "Audiobooks+ 附加功能吸引用戶並帶來營收",
-        "「Spotify for Authors」計畫擴展至10種語言",
-        "推出新的獨立作者有聲書創作工具及提示播放清單"
+        "推出650+有聲雜誌文章",
+        "與頂級出版商合作",
+        "鎖定音樂、流行文化、娛樂和科技主題"
       ]
     },
     {
       "title": "Spotify Adds Narrated Long-Form Magazine Articles for Premium Subscribers - CNET",
       "sentiment": "positive",
       "key_points": [
-        "為 Premium 訂閱者新增旁白長篇雜誌文章",
-        "提供超過650篇文章，合作出版商包括 Rolling Stone、The Atlantic、Vogue 等",
-        "內容目前僅限英文"
-      ]
-    },
-    {
-      "title": "Spotify энди журналлардаги мақолаларни аудио форматда тақдим этади - Zamin.uz",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 提供雜誌文章的音頻格式",
-        "目前有超過650篇文章，僅限英文",
-        "免費用戶可單獨購買每篇文章，價格1.99美元"
-      ]
-    },
-    {
-      "title": "Spotify releases four music-focused features, including background downloads on iOS - 9to5Mac",
-      "sentiment": "positive",
-      "key_points": [
-        "推出四項以音樂為重點的新功能",
-        "包括 iOS 上的背景下載功能"
-      ]
-    },
-    {
-      "title": "Spotify launches 'narrated articles' from publications like The Atlantic, Vogue - Reuters",
-      "sentiment": "positive",
-      "key_points": [
-        "推出來自 The Atlantic、Vogue 等出版物的旁白文章",
-        "旨在培養健康的收聽習慣，並增加對書籍的參與度"
-      ]
-    },
-    {
-      "title": "Listen Up At Spotify: Audio Platform Offers Narrated Magazine Articles 05/28/2026 - MediaPost",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 音頻平台提供旁白雜誌文章"
+        "高級訂閱用戶可聽650+長篇雜誌文章",
+        "內容涵蓋音樂、播客、有聲書"
       ]
     },
     {
       "title": "Spotify now lets you stream narrated magazine articles, too - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "新增旁白雜誌文章串流功能",
-        "帶來可變現的音頻內容",
-        "鼓勵用戶嘗試音樂以外的長篇收聽內容，可能引導至有聲書"
+        "推出650+有聲雜誌文章",
+        "合作出版物包括Rolling Stone, The Atlantic等"
       ]
     },
     {
-      "title": "Spotify bets big on AI covers and early concert tickets - Los Angeles Times",
+      "title": "Spotify энди журналлардаги мақолаларни аудио форматда тақдим этади - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "投入 AI 翻唱和提前演唱會門票等領域",
-        "新任共同執行長提出願景，專注於個性化收聽體驗",
-        "涵蓋音樂、播客、有聲書及健身內容"
+        "推出650+有聲雜誌文章",
+        "目前僅提供英文內容",
+        "免費會員可單獨購買文章"
       ]
     },
     {
-      "title": "Spotify says its AI remix tool protects artists from unregulated ‘slop’ - The Guardian",
-      "sentiment": "neutral",
+      "title": "Spotify launches 'narrated articles' from publications like The Atlantic, Vogue - Reuters",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify 為其 AI 混音工具辯護",
-        "稱該工具可保護藝術家免受「無管制」機器生成音樂的影響",
-        "批評者擔憂可能加速機器生成音樂的傳播"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, May 25, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章與 Spotify 無關，屬於一般出版界新聞"
+        "推出有聲雜誌文章",
+        "與Live Nation合作推出「Reserved」提前購票服務"
       ]
     },
     {
       "title": "Spotify chief describes plans for AI music tools as a 'win-win' situation - PC Gamer",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 共同執行長將 AI 音樂工具計畫形容為「雙贏」局面",
-        "旨在將 Spotify 打造成 AI 生成音樂的首選平台",
-        "對抗「惡意嘗試」的 AI 生成內容"
+        "CEO看好AI音樂工具計畫",
+        "旨在合法、受控地應用AI"
       ]
     },
     {
-      "title": "Spotify's ElevenLabs Play Isn't Really About Audiobooks. It's About Owning The Production Layer. - Forbes",
+      "title": "Spotify says its AI remix tool protects artists from unregulated ‘slop’ - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify CEO為AI混音工具辯護",
+        "稱其能保護藝術家免受「未受監管的糟粕」影響",
+        "面臨機器生成音樂的批評"
+      ]
+    },
+    {
+      "title": "Spotify bets big on AI covers and early concert tickets - Los Angeles Times",
       "sentiment": "positive",
       "key_points": [
-        "與 ElevenLabs 的整合關乎掌握生產層",
-        "Spotify 已接受 AI 旁白有聲書，此次變革將製作流程留在平台內",
-        "讓作者無需離開平台即可完成音頻製作"
+        "大力投入AI翻唱和演唱會預售票",
+        "以創新回應投資者疑慮"
+      ]
+    },
+    {
+      "title": "Listen Up At Spotify: Audio Platform Offers Narrated Magazine Articles 05/28/2026 - MediaPost",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Audiobooks服務新增650篇有聲雜誌文章"
+      ]
+    },
+    {
+      "title": "Spotify Audiobooks+ Add-On Draws Users, Drives Revenue - Publishers Weekly",
+      "sentiment": "positive",
+      "key_points": [
+        "擴展Spotify for Authors計畫",
+        "推出獨立作者有聲書創作工具",
+        "新增Prompted Playlists"
       ]
     },
     {
       "title": "Prediction Market Bans, Starlink Expansion and Spotify Adds Articles | Tech Today - CNET",
       "sentiment": "positive",
       "key_points": [
-        "提及 Spotify 新增文章內容"
+        "Spotify新增文章內容"
+      ]
+    },
+    {
+      "title": "Spotify releases four music-focused features, including background downloads on iOS - 9to5Mac",
+      "sentiment": "positive",
+      "key_points": [
+        "推出四項音樂相關功能",
+        "包含iOS背景下載"
+      ]
+    },
+    {
+      "title": "Spotify's ElevenLabs Play Isn't Really About Audiobooks. It's About Owning The Production Layer. - Forbes",
+      "sentiment": "positive",
+      "key_points": [
+        "整合ElevenLabs",
+        "目標是掌握音頻內容製作層",
+        "讓作者可在平台內直接製作音頻"
       ]
     },
     {
       "title": "Self-Help Podcaster Jay Shetty Strikes Major $100 Million Deal With Spotify And Netflix - Yahoo",
       "sentiment": "positive",
       "key_points": [
-        "與 Jay Shetty 的播客「On Purpose」簽署價值1億美元的獨家影音版權協議",
-        "這是 Spotify 最大的播客合約之一，與 Netflix 共同達成"
-      ]
-    },
-    {
-      "title": "Chart of the Week: Dotcom bubble IPOs - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章與 Spotify 無關"
-      ]
-    },
-    {
-      "title": "Why IPO mania could signal top of the market - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章與 Spotify 無關"
-      ]
-    },
-    {
-      "title": "SpaceX IPO boldly steps into the unknown of AI economics - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章與 Spotify 無關"
+        "知名播客Jay Shetty與Spotify和Netflix簽署1億美元大合約"
       ]
     },
     {
       "title": "Rocket, Satellite Stocks Surge as SpaceX IPO Fuels Euphoria - Bloomberg.com",
       "sentiment": "neutral",
       "key_points": [
-        "文章與 Spotify 無關"
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "SpaceX and the Zuckerberg discount - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "SpaceX IPO boldly steps into the unknown of AI economics - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Netflix hits out over German plan to make groups invest more in Europe - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Chart of the Week: Dotcom bubble IPOs - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "9 Of The Best Features Added To Spotify In 2026 (So Far) - bgr.com",
+      "sentiment": "positive",
+      "key_points": [
+        "介紹Spotify新功能，例如Taste Profile，優化推薦體驗"
+      ]
+    },
+    {
+      "title": "Spotify, Netflix Woo Podcaster Jay Shetty From YouTube in New Deal - Bloomberg.com",
+      "sentiment": "positive",
+      "key_points": [
+        "知名播客Jay Shetty與Spotify和Netflix簽署新合作協議"
       ]
     },
     {
       "title": "Vibe Check: Ariana Grande, Scooter Braun and Olivia Rodrigo - Modern Ghana",
       "sentiment": "neutral",
       "key_points": [
-        "文章與 Spotify 平台或業務無關"
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Letter: Spare a thought for musicians who fly - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
       ]
     },
     {
       "title": "SpaceX lowers IPO valuation target to at least $1.8T: report (SPCX:Pending) - Seeking Alpha",
       "sentiment": "neutral",
       "key_points": [
-        "文章與 Spotify 無關"
-      ]
-    },
-    {
-      "title": "Fidelis Capital Partners LLC Acquires 1,509 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章與 Spotify 無關"
+        "無直接Spotify相關內容"
       ]
     },
     {
       "title": "SpaceX IPO Gets Another Greenlight Toward Faster Index Inclusion - Bloomberg.com",
       "sentiment": "neutral",
       "key_points": [
-        "文章與 Spotify 無關"
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Fidelis Capital Partners LLC Acquires 1,509 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "文章內容不足，無法判斷"
+        "內容缺失，無法判斷"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "文章內容不足，無法判斷"
+        "內容缺失，無法判斷"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260531_052101.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260531.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260601_060547.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260601.jpg"
 }
