@@ -1,35 +1,275 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.0,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 1.0
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "Apple Music 傳聞測試免費／廣告版服務",
-      "description": "有報導指出 Apple Music 正在測試推出免費且含廣告的音樂串流服務，此舉可能使其商業模式更趨近於 Spotify，預計將加劇音樂串流市場的競爭。",
+      "title": "「餓狼傳說 City of the Wolves」原聲帶上線",
+      "description": "格鬥遊戲《餓狼傳說 City of the Wolves》的全部97首曲目已在Spotify及Apple Music等主要音樂訂閱平台上線，為平台新增大量音樂內容。",
       "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify 推出多項音樂相關新功能",
+      "description": "Spotify 針對 iOS 平台推出四項新功能，包括背景下載等，旨在提升用戶體驗和平台便利性。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify 內容擴展至敘述雜誌文章",
+      "description": "Spotify 擴展其內容服務範圍，與 The Atlantic、Rolling Stone、Vogue 等知名媒體合作，推出超過650篇敘述式雜誌文章，實現內容多元化。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "MEOVV 新歌 Spotify 播放量表現不佳",
+      "description": "女團 MEOVV 新歌〈DDI RO RI〉在 Spotify 首日播放量僅21萬次，表現遇冷，引發網友對其成績的負面討論。",
+      "severity": "low",
+      "sentiment": "negative"
+    },
+    {
+      "title": "環球音樂集團計劃變現部分 Spotify 股權",
+      "description": "Universal Music Group (UMG) 董事會宣布計劃變現其持有的部分 Spotify 股權，此為公司財務策略調整。",
+      "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Apple Music",
     "Spotify",
-    "免費",
-    "廣告",
+    "新功能",
+    "內容擴展",
+    "懷舊老歌",
     "音樂串流",
-    "競爭"
+    "餓狼傳說",
+    "Apple Music"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要圍繞在產業競爭態勢，而非平台本身的更新或活動。主要討論指出 Apple Music 傳聞將推出免費且含廣告的服務，此舉被視為效仿 Spotify 的策略，預計將使音樂串流市場的競爭更為激烈。",
+  "daily_summary": "今日 Spotify 的輿情主要聚焦於平台功能與內容的更新。多個正面消息指出 Spotify 推出了 iOS 背景下載等多項新功能，並新增了《餓狼傳說》遊戲原聲帶及與知名媒體合作的敘述雜誌文章，顯示其在提升用戶體驗和內容多元化方面的努力。同時，也有討論指出平台上的熱門金曲多為懷舊老歌趨勢，以及個別藝人新歌表現不佳的負面反饋。",
   "article_analyses": [
     {
-      "title": "Apple Music 變 Spotify？傳 Apple 正測試免費／連廣告版 Apple Music",
+      "title": "Spotify當下熱門金曲多是懷舊老歌",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music 傳聞將推出免費／含廣告的音樂串流服務",
-        "此舉被認為是效仿 Spotify 的商業模式",
-        "預計將加劇音樂串流平台的市場競爭"
+        "Spotify 熱門金曲趨勢",
+        "懷舊老歌受歡迎"
       ]
+    },
+    {
+      "title": "「餓狼傳說 City of the Wolves」全部97首曲目現已在 Spotify和Apple Music等主要音樂訂閱平台上線！",
+      "sentiment": "positive",
+      "key_points": [
+        "餓狼傳說原聲帶上線",
+        "Spotify新增大量音樂內容",
+        "與Apple Music同步上線"
+      ]
+    },
+    {
+      "title": "「餓狼傳說City of the Wolves」全部97首曲目現已在Spotify和Apple Music等主要音樂訂閱平台上線！",
+      "sentiment": "positive",
+      "key_points": [
+        "餓狼傳說原聲帶上線",
+        "Spotify新增大量音樂內容",
+        "與Apple Music同步上線"
+      ]
+    },
+    {
+      "title": "MEOVV 新歌〈DDI RO RI〉回歸成績遇冷！首日 Spotify 僅 21 萬次網批「連黑粉都沒有！」",
+      "sentiment": "negative",
+      "key_points": [
+        "MEOVV 新歌 Spotify 播放量不佳",
+        "藝人表現引起討論"
+      ]
+    },
+    {
+      "title": "Spotify releases four music-focused features, including background downloads on iOS - 9to5Mac",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出四項新功能",
+        "iOS 背景下載功能",
+        "提升用戶體驗"
+      ]
+    },
+    {
+      "title": "Spotify Launches 650+ Narrated Magazine Articles From The Atlantic, Rolling Stone, Vogue, And More... - Forbes",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出敘述雜誌文章",
+        "與知名媒體合作 (The Atlantic, Rolling Stone, Vogue)",
+        "內容服務多元化"
+      ]
+    },
+    {
+      "title": "Universal Music Group N.V. Board of Directors Declines Unsolicited Pershing Square Proposal - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "UMG 計劃變現部分 Spotify 股權"
+      ]
+    },
+    {
+      "title": "Apple Music could soon get different subscription tiers - 9to5Mac",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple Music 考慮推出不同訂閱方案",
+        "市場競爭動態"
+      ]
+    },
+    {
+      "title": "Chart of the Week: Dotcom bubble IPOs - Financial Times",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "The Late Morning Rundown: May 28, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "As more artists drop out of the White House's Freedom 250 event, Bruce Springsteen and Tom Morello are leading a protest music festival. Read more below. - facebook.com",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX looking to price IPO at $135 per share, offering 555.6 million shares - CNBC",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Substack cofounder says it's making 'fast progress' on tools for larger publishers, following The Ankler's defection - Business Insider",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX IPO boldly steps into the unknown of AI economics - Financial Times",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX’s Target Valuation Lowered Again. Why That’s a Red Flag for the Stock Market. - Barron's",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX lowers IPO valuation target to at least $1.8T: report (SPCX:Pending) - Seeking Alpha",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Apple Music Might Finally Be Going Free - bgr.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple Music 考慮推出免費方案",
+        "市場競爭動態"
+      ]
+    },
+    {
+      "title": "AI giant Anthropic files paperwork for an IPO - South Carolina Public Radio",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Transcript: SpaceX IPO ignites an investor frenzy - Financial Times",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Elon Musk could become trillionaire as SpaceX eyes IPO - Modern Ghana",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "End of free social media era: Meta moves to subscription model - ynetnews",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Netflix Goes Familiar With Weekday Morning Live Show 05/27/2026 - MediaPost",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Valve reportedly almost delisted Rainbow Six Siege from Steam after Ubisoft attempted to sell it cheaper on Uplay - Notebookcheck",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Handelsbanken Fonder AB Buys Shares of 60,000 Cipher Mining Inc. $CIFR - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Shares Bought by Huntington National Bank - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Fidelis Capital Partners LLC Acquires 1,509 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "IPG Investment Advisors LLC Has $1.38 Million Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "9 Of The Best Features Added To Spotify In 2026 (So Far) - bgr.com",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 新增功能",
+        "平台更新與發展",
+        "提升用戶體驗"
+      ]
+    },
+    {
+      "title": "SpaceX to raise $75 bln in record IPO at $135 per share: source - Reuters",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX wants to raise $75 billion for a record-setting IPO - Business Insider",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Ross Gerber on the impending SpaceX IPO: I plan to hold this for the long term now - CNBC",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "SpaceX stock launch - Reuters",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "BIGC Joins Forces with Apple Music to Expand the Global Reach of ‘THE SHOW’ and ‘FANPOPTY’ - markets.businessinsider.com",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Jim Cramer talks the flow of money in Big Tech and the dealmaking race - CNBC",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Vibe Check: Ariana Grande, Scooter Braun and Olivia Rodrigo - Modern Ghana",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "After hearing Paul McCartney on SNL, I thought he should hang it up. I was wrong. - The Washington Post",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Exclusive: SpaceX plans to raise $75 billion in IPO at $135 per share, source says - Reuters",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "Morningstar values SpaceX at $780 billion, half its IPO target - Reuters",
+      "sentiment": "neutral",
+      "key_points": []
     },
     {
       "title": "無標題",
@@ -42,6 +282,6 @@
       "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260603_060613.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260603.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260604_055857.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260604.jpg"
 }
