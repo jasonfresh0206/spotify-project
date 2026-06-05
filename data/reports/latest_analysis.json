@@ -1,287 +1,64 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.65,
+    "neutral_ratio": 0.25,
+    "negative_ratio": 0.1
   },
   "events": [
     {
-      "title": "「餓狼傳說 City of the Wolves」原聲帶上線",
-      "description": "格鬥遊戲《餓狼傳說 City of the Wolves》的全部97首曲目已在Spotify及Apple Music等主要音樂訂閱平台上線，為平台新增大量音樂內容。",
-      "severity": "medium",
-      "sentiment": "positive"
+      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
+      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
+      "severity": "high"
     },
     {
-      "title": "Spotify 推出多項音樂相關新功能",
-      "description": "Spotify 針對 iOS 平台推出四項新功能，包括背景下載等，旨在提升用戶體驗和平台便利性。",
-      "severity": "medium",
-      "sentiment": "positive"
+      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
+      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
+      "severity": "medium"
     },
     {
-      "title": "Spotify 內容擴展至敘述雜誌文章",
-      "description": "Spotify 擴展其內容服務範圍，與 The Atlantic、Rolling Stone、Vogue 等知名媒體合作，推出超過650篇敘述式雜誌文章，實現內容多元化。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "MEOVV 新歌 Spotify 播放量表現不佳",
-      "description": "女團 MEOVV 新歌〈DDI RO RI〉在 Spotify 首日播放量僅21萬次，表現遇冷，引發網友對其成績的負面討論。",
-      "severity": "low",
-      "sentiment": "negative"
-    },
-    {
-      "title": "環球音樂集團計劃變現部分 Spotify 股權",
-      "description": "Universal Music Group (UMG) 董事會宣布計劃變現其持有的部分 Spotify 股權，此為公司財務策略調整。",
-      "severity": "low",
-      "sentiment": "neutral"
+      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
+      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
+      "severity": "low"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "新功能",
-    "內容擴展",
-    "懷舊老歌",
-    "音樂串流",
-    "餓狼傳說",
+    "Hi-Fi",
+    "無損音質",
+    "Taylor Swift",
+    "訂閱漲價",
+    "2026年度回顧",
     "Apple Music"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要聚焦於平台功能與內容的更新。多個正面消息指出 Spotify 推出了 iOS 背景下載等多項新功能，並新增了《餓狼傳說》遊戲原聲帶及與知名媒體合作的敘述雜誌文章，顯示其在提升用戶體驗和內容多元化方面的努力。同時，也有討論指出平台上的熱門金曲多為懷舊老歌趨勢，以及個別藝人新歌表現不佳的負面反饋。",
+  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
   "article_analyses": [
     {
-      "title": "Spotify當下熱門金曲多是懷舊老歌",
-      "sentiment": "neutral",
+      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
       "key_points": [
-        "Spotify 熱門金曲趨勢",
-        "懷舊老歌受歡迎"
-      ]
+        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
+        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
+        "網友表示只要音質好就願意買單"
+      ],
+      "sentiment": "positive"
     },
     {
-      "title": "「餓狼傳說 City of the Wolves」全部97首曲目現已在 Spotify和Apple Music等主要音樂訂閱平台上線！",
-      "sentiment": "positive",
+      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
       "key_points": [
-        "餓狼傳說原聲帶上線",
-        "Spotify新增大量音樂內容",
-        "與Apple Music同步上線"
-      ]
+        "歐盟針對數位市場法案給出新解釋",
+        "Spotify 官方表示希望能帶給創作者更多收益",
+        "市場反應保留態度"
+      ],
+      "sentiment": "neutral"
     },
     {
-      "title": "「餓狼傳說City of the Wolves」全部97首曲目現已在Spotify和Apple Music等主要音樂訂閱平台上線！",
-      "sentiment": "positive",
+      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
       "key_points": [
-        "餓狼傳說原聲帶上線",
-        "Spotify新增大量音樂內容",
-        "與Apple Music同步上線"
-      ]
-    },
-    {
-      "title": "MEOVV 新歌〈DDI RO RI〉回歸成績遇冷！首日 Spotify 僅 21 萬次網批「連黑粉都沒有！」",
-      "sentiment": "negative",
-      "key_points": [
-        "MEOVV 新歌 Spotify 播放量不佳",
-        "藝人表現引起討論"
-      ]
-    },
-    {
-      "title": "Spotify releases four music-focused features, including background downloads on iOS - 9to5Mac",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出四項新功能",
-        "iOS 背景下載功能",
-        "提升用戶體驗"
-      ]
-    },
-    {
-      "title": "Spotify Launches 650+ Narrated Magazine Articles From The Atlantic, Rolling Stone, Vogue, And More... - Forbes",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出敘述雜誌文章",
-        "與知名媒體合作 (The Atlantic, Rolling Stone, Vogue)",
-        "內容服務多元化"
-      ]
-    },
-    {
-      "title": "Universal Music Group N.V. Board of Directors Declines Unsolicited Pershing Square Proposal - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "UMG 計劃變現部分 Spotify 股權"
-      ]
-    },
-    {
-      "title": "Apple Music could soon get different subscription tiers - 9to5Mac",
-      "sentiment": "neutral",
-      "key_points": [
-        "Apple Music 考慮推出不同訂閱方案",
-        "市場競爭動態"
-      ]
-    },
-    {
-      "title": "Chart of the Week: Dotcom bubble IPOs - Financial Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "The Late Morning Rundown: May 28, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "As more artists drop out of the White House's Freedom 250 event, Bruce Springsteen and Tom Morello are leading a protest music festival. Read more below. - facebook.com",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX looking to price IPO at $135 per share, offering 555.6 million shares - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Substack cofounder says it's making 'fast progress' on tools for larger publishers, following The Ankler's defection - Business Insider",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX IPO boldly steps into the unknown of AI economics - Financial Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX’s Target Valuation Lowered Again. Why That’s a Red Flag for the Stock Market. - Barron's",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX lowers IPO valuation target to at least $1.8T: report (SPCX:Pending) - Seeking Alpha",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Apple Music Might Finally Be Going Free - bgr.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "Apple Music 考慮推出免費方案",
-        "市場競爭動態"
-      ]
-    },
-    {
-      "title": "AI giant Anthropic files paperwork for an IPO - South Carolina Public Radio",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Transcript: SpaceX IPO ignites an investor frenzy - Financial Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Elon Musk could become trillionaire as SpaceX eyes IPO - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "End of free social media era: Meta moves to subscription model - ynetnews",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Netflix Goes Familiar With Weekday Morning Live Show 05/27/2026 - MediaPost",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Valve reportedly almost delisted Rainbow Six Siege from Steam after Ubisoft attempted to sell it cheaper on Uplay - Notebookcheck",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Handelsbanken Fonder AB Buys Shares of 60,000 Cipher Mining Inc. $CIFR - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Shares Bought by Huntington National Bank - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Fidelis Capital Partners LLC Acquires 1,509 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "IPG Investment Advisors LLC Has $1.38 Million Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "9 Of The Best Features Added To Spotify In 2026 (So Far) - bgr.com",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 新增功能",
-        "平台更新與發展",
-        "提升用戶體驗"
-      ]
-    },
-    {
-      "title": "SpaceX to raise $75 bln in record IPO at $135 per share: source - Reuters",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX wants to raise $75 billion for a record-setting IPO - Business Insider",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Ross Gerber on the impending SpaceX IPO: I plan to hold this for the long term now - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX stock launch - Reuters",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "BIGC Joins Forces with Apple Music to Expand the Global Reach of ‘THE SHOW’ and ‘FANPOPTY’ - markets.businessinsider.com",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Jim Cramer talks the flow of money in Big Tech and the dealmaking race - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Vibe Check: Ariana Grande, Scooter Braun and Olivia Rodrigo - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "After hearing Paul McCartney on SNL, I thought he should hang it up. I was wrong. - The Washington Post",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Exclusive: SpaceX plans to raise $75 billion in IPO at $135 per share, source says - Reuters",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Morningstar values SpaceX at $780 billion, half its IPO target - Reuters",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
+        "昨晚 10 點左右大量亞洲用戶回報連線異常",
+        "官方已在 Twitter (X) 上發布修復公告",
+        "目前多數用戶已恢復正常運作"
+      ],
+      "sentiment": "negative"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260604_055857.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260604.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260605_052015.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260605.jpg"
 }
