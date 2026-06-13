@@ -1,64 +1,69 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.65,
-    "neutral_ratio": 0.25,
-    "negative_ratio": 0.1
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
-      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
-      "severity": "high"
+      "title": "Spotify被指控降低獨立藝人版稅",
+      "description": "Spotify被洛杉磯時報報導，指控其利用新的串流政策減少獨立藝人的版稅收入，此舉可能引發藝術家群體的不滿和爭議。",
+      "severity": "medium",
+      "sentiment": "negative"
     },
     {
-      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
-      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
-      "severity": "medium"
-    },
-    {
-      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
-      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
-      "severity": "low"
-    }
-  ],
-  "trending_keywords": [
-    "Hi-Fi",
-    "無損音質",
-    "Taylor Swift",
-    "訂閱漲價",
-    "2026年度回顧",
-    "Apple Music"
-  ],
-  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
-  "article_analyses": [
-    {
-      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
-      "key_points": [
-        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
-        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
-        "網友表示只要音質好就願意買單"
-      ],
+      "title": "加拿大串流媒體市場蓬勃發展",
+      "description": "數位媒體協會(DIMA)發布報告指出，加拿大串流媒體市場正強勁增長，Spotify作為主要的音樂串流平台之一，是此趨勢的重要參與者。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
-      "key_points": [
-        "歐盟針對數位市場法案給出新解釋",
-        "Spotify 官方表示希望能帶給創作者更多收益",
-        "市場反應保留態度"
-      ],
+      "title": "Deezer推出AI音樂偵測工具支援Spotify",
+      "description": "Deezer推出一款免費的AI音樂偵測工具，旨在辨識AI生成的音樂，該工具支援包括Spotify在內的20個主要串流平台，顯示AI音樂內容對平台的影響。",
+      "severity": "low",
       "sentiment": "neutral"
-    },
-    {
-      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
-      "key_points": [
-        "昨晚 10 點左右大量亞洲用戶回報連線異常",
-        "官方已在 Twitter (X) 上發布修復公告",
-        "目前多數用戶已恢復正常運作"
-      ],
-      "sentiment": "negative"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260612_055050.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260612.jpg"
+  "trending_keywords": [
+    "Spotify",
+    "串流政策",
+    "獨立藝人",
+    "版稅",
+    "AI音樂",
+    "偵測工具",
+    "加拿大市場",
+    "數位媒體協會"
+  ],
+  "daily_summary": "今日Spotify的輿情呈現複雜且兩極化的局面。一方面，Spotify因被指控透過新串流政策降低獨立藝人版稅而面臨負面關注；另一方面，平台在加拿大串流媒體市場的增長中扮演關鍵角色，顯示其市場影響力。此外，Spotify也被列入Deezer新推出的AI音樂偵測工具支援平台中，反映AI內容對音樂產業的挑戰與機遇。",
+  "article_analyses": [
+    {
+      "title": "【AI工具】AI音樂湧入！Deezer推免費偵測工具「支援YT、Spotify等20大平台」",
+      "sentiment": "neutral",
+      "key_points": [
+        "Deezer推出免費AI音樂偵測工具",
+        "工具旨在辨識AI生成音樂",
+        "支援包含Spotify在內的20大串流平台"
+      ]
+    },
+    {
+      "title": "Spotify accused of using new streaming policy to reduce indie artist royalties - Los Angeles Times",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify被洛杉磯時報指控",
+        "新串流政策旨在減少獨立藝人版稅",
+        "可能引發藝人社群不滿"
+      ]
+    },
+    {
+      "title": "Streaming is Surging in Canada: Report From Digital Media Association (DIMA) - Billboard Canada",
+      "sentiment": "positive",
+      "key_points": [
+        "加拿大串流媒體市場呈現強勁增長",
+        "數位媒體協會(DIMA)發布報告",
+        "Spotify為加拿大串流市場主要參與者之一"
+      ]
+    }
+  ],
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260613_052255.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260613.jpg"
 }
