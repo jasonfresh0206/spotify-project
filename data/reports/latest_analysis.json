@@ -1,298 +1,67 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.0,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 1.0
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.2
   },
   "events": [
     {
-      "title": "Spotify 新串流政策引發獨立藝術家版稅爭議",
-      "description": "Spotify 因新的串流政策被指控減少獨立藝術家的版稅收入，引發業界對公平性的擔憂。",
-      "severity": "medium",
+      "title": "Spotify 獨立藝人版稅爭議",
+      "description": "Spotify 被指控其新版串流政策旨在減少支付給獨立藝人的版稅，引發了業界對平台收益分配公平性的關注和批評。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "加拿大串流媒體市場強勁成長，Spotify為DIMA成員",
-      "description": "數位媒體協會 (DIMA) 發布報告，顯示加拿大串流媒體市場正蓬勃發展。Spotify 作為 DIMA 的成員之一，間接反映其在該市場的參與。",
-      "severity": "low",
-      "sentiment": "neutral"
+      "title": "加拿大串流媒體市場成長報告",
+      "description": "數位媒體協會 (DIMA) 發布報告指出，包括 Spotify 在內的串流媒體服務在加拿大市場呈現強勁成長趨勢，顯示該地區的串流音樂普及率持續提升。",
+      "severity": "medium",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
     "Spotify",
+    "獨立藝人版稅",
     "串流政策",
-    "版稅",
-    "獨立藝術家",
-    "加拿大串流市場",
-    "DIMA"
+    "串流媒體",
+    "音樂產業",
+    "加拿大市場",
+    "青少年歌單"
   ],
-  "daily_summary": "今日Spotify輿情主要呈現兩極分化，一方面平台因新串流政策被指控減少獨立藝術家版稅，引發負面討論；另一方面，一份關於加拿大串流媒體市場強勁成長的報告中提及Spotify為其成員，顯示公司在特定市場的積極參與。",
+  "daily_summary": "今日 Spotify 輿情焦點呈現兩極。一方面，平台因其新串流政策被指控降低獨立藝人版稅而面臨負面批評，引發業界對公平性的質疑。另一方面，一份報告顯示，Spotify 等串流服務在加拿大市場表現強勁，展現其業務在特定地區的良好成長動能。",
   "article_analyses": [
+    {
+      "title": "Runner-up USA Song on Spotify on Jun 14, 2026?",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論美國歌曲在 Spotify 上的排名表現",
+        "提及未來日期 (2026 年 6 月 14 日)"
+      ]
+    },
+    {
+      "title": "專訪公館青少年｜火鍋不能沒芋頭？不唱歌就去當老師？這群少年的青春歌單裡還有周杰倫！",
+      "sentiment": "positive",
+      "key_points": [
+        "探討台灣青少年音樂喜好及歌單內容",
+        "提及周杰倫等流行音樂，反映年輕用戶的音樂消費習慣"
+      ]
+    },
     {
       "title": "Spotify accused of using new streaming policy to reduce indie artist royalties - Los Angeles Times",
       "sentiment": "negative",
       "key_points": [
-        "Spotify被指控透過新串流政策降低獨立藝術家版稅",
-        "此舉引發業界對公平性和藝術家收入的擔憂"
+        "Spotify 被指控其新串流政策降低獨立藝人的版稅",
+        "引發對平台如何分配收益的爭議"
       ]
     },
     {
       "title": "Streaming is Surging in Canada: Report From Digital Media Association (DIMA) - Billboard Canada",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "key_points": [
-        "數位媒體協會(DIMA)發布加拿大串流媒體年度報告",
-        "Spotify是報告中提及的DIMA成員之一，顯示加拿大串流市場成長強勁"
-      ]
-    },
-    {
-      "title": "Elon Musk's SpaceX prices record $75 bln IPO at $135 a share - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX以每股135美元定價，估值達750億美元",
-        "這是SpaceX的創紀錄首次公開募股(IPO)"
-      ]
-    },
-    {
-      "title": "The Week in Numbers: SpaceX prepares to soar, US consumer prices jump - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX正準備進行IPO",
-        "美國消費者物價指數(CPI)飆升，ECB升息抑制通膨"
-      ]
-    },
-    {
-      "title": "The SpaceX IPO is not the market savior it seems - Fortune",
-      "sentiment": "neutral",
-      "key_points": [
-        "有觀點認為SpaceX的IPO並非市場的救星",
-        "文章討論數據收集與分析在體育領域的應用"
-      ]
-    },
-    {
-      "title": "Market Talk: SpaceX 'a litmus test' for AI IPOs - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX被視為人工智慧(AI) IPO的試金石",
-        "文章提及世界盃足球賽相關新聞"
-      ]
-    },
-    {
-      "title": "Both retail and institutional are signaling crypto is a long-term asset to hold: John D’Agostino - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "零售和機構投資者都將加密貨幣視為長期資產",
-        "提及了史蒂夫·艾斯曼對SpaceX IPO的看法"
-      ]
-    },
-    {
-      "title": "‘Big Short’ investor Steve Eisman: I'm 'not a fan' of the upcoming SpaceX IPO - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "「大賣空」投資者史蒂夫·艾斯曼表示不看好SpaceX即將到來的IPO",
-        "討論了SpaceX的市場潛力"
-      ]
-    },
-    {
-      "title": "Market Open: June 8, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "史蒂夫·艾斯曼對SpaceX IPO表示不看好",
-        "報導了SpaceX的市場潛力及其相關新聞"
-      ]
-    },
-    {
-      "title": "SpaceX IPO is a referendum on Elon Musk, says Appian CEO - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "Appian執行長表示SpaceX的IPO是對伊隆·馬斯克的公投",
-        "文章背景是關於市場和商業新聞"
-      ]
-    },
-    {
-      "title": "The Pre-Market Rundown 2: June, 8, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "史蒂夫·艾斯曼對SpaceX IPO持負面看法",
-        "分析了SpaceX的市場潛力"
-      ]
-    },
-    {
-      "title": "SpaceX's market-moving potential: Here's what to know - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析了SpaceX在市場上的潛在影響力",
-        "提及了諾基亞錯過智慧型手機轉型的案例"
-      ]
-    },
-    {
-      "title": "Whose IPO strategy wins? Comparing blockbuster U.S. IPOs like SpaceX to China's 'shotgun' approach - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "比較了美國大型IPO（如SpaceX）與中國的IPO策略",
-        "討論了不同的市場和商業策略"
-      ]
-    },
-    {
-      "title": "CNBC Daily Open: The buyers are back ahead of SpaceX IPO - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "市場買家在SpaceX IPO前回歸",
-        "CNBC日報報導伊朗戰爭與ECB升息相關新聞"
-      ]
-    },
-    {
-      "title": "The Look Ahead: June 12, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX早期投資者對公司上市後壓力發表看法",
-        "SpaceX以150美元在納斯達克首次亮相"
-      ]
-    },
-    {
-      "title": "SpaceX pulls off the largest Initial Public Offering in global history - NPR",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX完成全球史上最大規模的首次公開募股",
-        "討論了SpaceX IPO的定價和價值問題"
-      ]
-    },
-    {
-      "title": "Analysts Debate SpaceX’s $1.75T Valuation Ahead of IPO - Payload Space",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析師對SpaceX IPO前1.75兆美元的估值進行辯論",
-        "討論了公司商業模式和收入認列方式"
-      ]
-    },
-    {
-      "title": "SpaceX IPO: How Our Reporters Assess the Sky-High Valuation and Potential Economic Impact - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "記者評估SpaceX IPO的高估值及其潛在經濟影響",
-        "探討了馬斯克公司產品的市場吸引力"
-      ]
-    },
-    {
-      "title": "SpaceX IPO marks the end of the no-brainer benchmark index trade - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX IPO標誌著無腦基準指數交易的終結",
-        "文章討論了投資策略的變化"
-      ]
-    },
-    {
-      "title": "SpaceX, Tesla, EchoStar, and More Stocks That Explain Today’s Market - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析SpaceX、特斯拉、EchoStar等股票以解釋當前市場",
-        "SpaceX股價在上市首日飆升"
-      ]
-    },
-    {
-      "title": "Bending Spoons, owner of AOL and Eventbrite, files for IPO - Axios",
-      "sentiment": "neutral",
-      "key_points": [
-        "Bending Spoons（AOL和Eventbrite母公司）申請IPO",
-        "公司2025年營收達13.1億美元，主要來自訂閱服務"
-      ]
-    },
-    {
-      "title": "Top Bank Doubles Micron Price Target on Memory Boom - Yahoo Finance",
-      "sentiment": "neutral",
-      "key_points": [
-        "頂級銀行將美光科技目標價上調一倍，因記憶體市場繁榮",
-        "文章提及夏季青年就業、遠端工作及伊朗戰爭等議題"
-      ]
-    },
-    {
-      "title": "'I love inflation!': Trump unbothered by 4.2% spike even as costs skyrocket. Shield your portfolio before it's too late - Yahoo Finance",
-      "sentiment": "neutral",
-      "key_points": [
-        "川普對4.2%的通膨率表示不以為意",
-        "文章警告投資者應保護資產，提及夏季青年就業和伊朗戰爭"
-      ]
-    },
-    {
-      "title": "Here’s that ‘SpaceX’s IPO is overvalued by 114%’ research in full - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "金融時報發布SpaceX IPO被高估114%的研究報告",
-        "提供全球新聞分析和投資專欄訂閱服務"
-      ]
-    },
-    {
-      "title": "SpaceX IPO, U.S-Iran deal, Bezos on AI and more in Morning Squawk - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "CNBC晨間報導SpaceX IPO、美國-伊朗協議、貝佐斯對AI的看法",
-        "提及世界盃旅遊、牛肉價格及商業房地產等話題"
-      ]
-    },
-    {
-      "title": "SpaceX IPO Is Said to Be Well Oversubscribed, Orders Close Wednesday - Bloomberg",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX IPO據稱已獲超額認購，機構投資者訂單將於週三截止",
-        "伊隆·馬斯克的火箭、衛星和AI公司正進行首次公開募股"
-      ]
-    },
-    {
-      "title": "SpaceX well-priced ahead of blockbuster IPO, says Seraphim Space CEO - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "Seraphim Space執行長表示SpaceX在IPO前定價合理",
-        "文章背景是關於市場和商業新聞"
-      ]
-    },
-    {
-      "title": "Elon Musk's SpaceX kicks off mega IPO wave with $75 billion haul - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "伊隆·馬斯克的SpaceX以750億美元市值開啟巨型IPO浪潮",
-        "文章提及人工智慧和資本市場相關話題"
-      ]
-    },
-    {
-      "title": "The SpaceX I.P.O. Rocket - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "紐約時報報導SpaceX的首次公開募股",
-        "分析了SpaceX IPO在市場上的影響"
-      ]
-    },
-    {
-      "title": "The Stock Market Survived the SpaceX IPO. What to Watch for Next. - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "股市在SpaceX IPO後維持穩定，展望未來市場焦點",
-        "文章建議關注石油設備股，並提及世界盃開幕"
-      ]
-    },
-    {
-      "title": "The brutal stock sell-off is good news for the SpaceX IPO, market pros say - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "市場專業人士認為殘酷的股市拋售對SpaceX IPO是利好消息",
-        "商業內幕報導了多個相關的商業新聞"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "資料來源顯示為Apify Google Search Scraper",
-        "文章內容空白，無法提供具體摘要"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "資料來源顯示為Apify Google Search Scraper",
-        "文章內容空白，無法提供具體摘要"
+        "DIMA 報告指出加拿大串流媒體市場（包含 Spotify）表現強勁",
+        "數據顯示串流服務在加拿大地區用戶數及使用量增長"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260614_055219.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260614.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260615_062807.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260615.jpg"
 }
