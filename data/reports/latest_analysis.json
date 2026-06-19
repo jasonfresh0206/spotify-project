@@ -1,67 +1,109 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.7,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "K-pop 男團 CORTIS 在 Spotify 達成串流紀錄",
-      "description": "K-pop 男團 CORTIS 在 Spotify 累計串流突破 8 億，創下 K-pop 男團最快紀錄，顯示平台在 K-pop 領域的影響力。",
+      "title": "Spotify 推出 Reserved 票務功能",
+      "description": "Spotify 推出一項名為「Reserved」的新功能，提供忠實歌迷和超級粉絲提前購票的機會，避免一般發售時價格飆升。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "加拿大串流音樂市場成長報告",
-      "description": "數位媒體協會（包含 Spotify）發布報告指出，加拿大串流音樂市場正經歷顯著成長，顯示整體產業趨勢良好。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "競爭對手 Qobuz 報告強勁成長",
-      "description": "另一音樂串流平台 Qobuz 報告在 2025 年達到 45.7% 的高成長，儘管未直接提及 Spotify 表現，但反映串流市場競爭與多元發展。",
-      "severity": "low",
-      "sentiment": "neutral"
+      "title": "Joe Rogan 播客受美國總統施壓爭議",
+      "description": "知名播客主持人 Joe Rogan 聲稱美國總統施壓 Spotify 要求取消他的播客節目，引發關於言論自由和平台內容審查的討論。",
+      "severity": "high",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
     "Spotify",
+    "Reserved",
+    "票務",
+    "歌迷",
+    "粉絲",
+    "播客",
+    "Joe Rogan",
     "串流",
-    "K-pop",
-    "加拿大",
-    "音樂平台",
-    "成長"
+    "音樂"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要呈現正面態勢，尤其體現在 K-pop 男團 CORTIS 在平台上創下串流紀錄，以及加拿大串流市場的整體強勁成長。儘管競爭對手 Qobuz 表現亮眼，但整體討論仍聚焦於 Spotify 及其所屬產業的積極發展。",
+  "daily_summary": "今日 Spotify 的輿情呈現兩極化發展：新推出的「Reserved」票務功能，讓忠實歌迷能提前購票，獲得普遍正面評價。然而，知名播客主持人 Joe Rogan 聲稱其節目受到美國總統施壓，要求 Spotify 取消，此爭議性事件為平台帶來負面關注。",
   "article_analyses": [
     {
-      "title": "CORTIS Spotify 累計串流突破 8 億，創 K-pop 男團最快紀錄",
+      "title": "Joe Rogan 聲稱美國總統施壓 Spotify 取消他的播客",
+      "sentiment": "negative",
+      "key_points": [
+        "Joe Rogan 指控美國總統施壓 Spotify。",
+        "內容涉及播客節目的取消爭議。",
+        "引發對平台言論自由及政治干預的討論。"
+      ]
+    },
+    {
+      "title": "Spotify 推出 Reserved 功能 提供忠實歌迷提前購票機會",
       "sentiment": "positive",
       "key_points": [
-        "CORTIS 在 Spotify 達成 8 億串流次數",
-        "創下 K-pop 男團最快紀錄",
-        "突顯 Spotify 在 K-pop 內容推廣上的成功"
+        "Spotify 推出「Reserved」新功能。",
+        "旨在讓忠實歌迷提前購票。",
+        "提升用戶福利和參與度。"
+      ]
+    },
+    {
+      "title": "Spotify Launches Ticket Reservation System for True Fans - Zamin.uz",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出票務預訂系統。",
+        "專為「真正粉絲」設計。",
+        "增強粉絲體驗。"
+      ]
+    },
+    {
+      "title": "Spotify Will Now Reserve Tickets for Superfans Before General Sales Can Skyrocket in Price - Gizmodo",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 將為超級粉絲預留門票。",
+        "旨在防止門票價格暴漲。",
+        "確保忠實粉絲的購票權益。"
       ]
     },
     {
       "title": "Streaming is Surging in Canada: Report From Digital Media Association (DIMA) - Billboard Canada",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "數位媒體協會（DIMA，含 Spotify）報告指出加拿大串流音樂市場成長",
-        "數據來自對 1000 名加拿大受訪者的調查",
-        "反映整體串流產業的積極趨勢"
+        "加拿大串流媒體市場成長強勁。",
+        "Spotify 作為 DIMA 成員被提及。",
+        "反映整體串流產業的積極趨勢。"
       ]
     },
     {
       "title": "Music Streaming Platform Qobuz Bucks The Trend With 45.7% Growth In 2025 - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "音樂串流平台 Qobuz 在 2025 年實現 45.7% 的成長",
-        "文章主要聚焦 Qobuz 的獨立成功案例",
-        "未直接提及 Spotify 的表現，但為競爭市場提供參考"
+        "競爭對手 Qobuz 實現高速增長。",
+        "文章主要關注 Qobuz 的表現。",
+        "間接反映串流市場的競爭態勢。"
+      ]
+    },
+    {
+      "title": "Spotify’s reserved ticket sales to music superfans are now going live - TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 的 Reserved 門票銷售功能正式上線。",
+        "首波合作藝人巡演啟動。",
+        "擴展平台在現場音樂領域的服務。"
+      ]
+    },
+    {
+      "title": "Murdochs’ aversion to big buyouts meets its match in the streaming age - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章討論串流時代的大型併購趨勢。",
+        "未直接提及 Spotify 的具體事件。",
+        "提供串流媒體行業的宏觀背景。"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260618_055753.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260618.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260619_062346.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260619.jpg"
 }
