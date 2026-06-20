@@ -1,109 +1,80 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.5,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.4
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.2
   },
   "events": [
     {
-      "title": "Spotify 推出 Reserved 票務功能",
-      "description": "Spotify 推出一項名為「Reserved」的新功能，提供忠實歌迷和超級粉絲提前購票的機會，避免一般發售時價格飆升。",
+      "title": "Spotify 大規模服務故障",
+      "description": "Spotify 音樂串流服務出現大規模故障，使用者無法登入或播放音樂，引發用戶不滿。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "推出票務預訂系統",
+      "description": "Spotify 推出新的票務預訂系統，旨在讓「超級粉絲」在公開發售前預訂門票，以避免價格飆升，提升粉絲體驗。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Joe Rogan 播客受美國總統施壓爭議",
-      "description": "知名播客主持人 Joe Rogan 聲稱美國總統施壓 Spotify 要求取消他的播客節目，引發關於言論自由和平台內容審查的討論。",
-      "severity": "high",
-      "sentiment": "negative"
+      "title": "Joe Rogan 播客內容爭議",
+      "description": "播客主 Joe Rogan 聲稱美國總統施壓 Spotify 要求取消他的播客節目，引發言論自由與內容審核的討論。",
+      "severity": "medium",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "Reserved",
-    "票務",
-    "歌迷",
-    "粉絲",
-    "播客",
+    "故障",
+    "當機",
+    "串流服務",
+    "票務預訂系統",
+    "超級粉絲",
+    "新功能",
     "Joe Rogan",
-    "串流",
-    "音樂"
+    "播客",
+    "政治壓力"
   ],
-  "daily_summary": "今日 Spotify 的輿情呈現兩極化發展：新推出的「Reserved」票務功能，讓忠實歌迷能提前購票，獲得普遍正面評價。然而，知名播客主持人 Joe Rogan 聲稱其節目受到美國總統施壓，要求 Spotify 取消，此爭議性事件為平台帶來負面關注。",
+  "daily_summary": "今日 Spotify 輿情呈現兩極，一方面經歷了服務大規模故障，導致用戶無法登入和播放音樂，引發負面討論；另一方面則推出了備受期待的票務預訂系統，讓超級粉絲能提前購票並鎖定價格，受到正面關注。此外，平台上的 Joe Rogan 播客內容也因政治壓力傳聞而再度浮現討論。",
   "article_analyses": [
     {
-      "title": "Joe Rogan 聲稱美國總統施壓 Spotify 取消他的播客",
+      "title": "Spotify 音樂串流服務出現大規模故障 使用者無法登入或播放音樂！",
       "sentiment": "negative",
       "key_points": [
-        "Joe Rogan 指控美國總統施壓 Spotify。",
-        "內容涉及播客節目的取消爭議。",
-        "引發對平台言論自由及政治干預的討論。"
+        "Spotify 服務出現大規模故障",
+        "使用者無法登入",
+        "使用者無法播放音樂"
       ]
     },
     {
-      "title": "Spotify 推出 Reserved 功能 提供忠實歌迷提前購票機會",
-      "sentiment": "positive",
+      "title": "Joe Rogan 聲稱美國總統施壓 Spotify 取消他的播客",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 推出「Reserved」新功能。",
-        "旨在讓忠實歌迷提前購票。",
-        "提升用戶福利和參與度。"
+        "Joe Rogan 播客內容",
+        "聲稱美國總統施壓 Spotify",
+        "關於播客取消的爭議"
       ]
     },
     {
       "title": "Spotify Launches Ticket Reservation System for True Fans - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出票務預訂系統。",
-        "專為「真正粉絲」設計。",
-        "增強粉絲體驗。"
+        "Spotify 推出票務預訂系統",
+        "專為忠實粉絲設計",
+        "提供優先購票服務"
       ]
     },
     {
       "title": "Spotify Will Now Reserve Tickets for Superfans Before General Sales Can Skyrocket in Price - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 將為超級粉絲預留門票。",
-        "旨在防止門票價格暴漲。",
-        "確保忠實粉絲的購票權益。"
-      ]
-    },
-    {
-      "title": "Streaming is Surging in Canada: Report From Digital Media Association (DIMA) - Billboard Canada",
-      "sentiment": "neutral",
-      "key_points": [
-        "加拿大串流媒體市場成長強勁。",
-        "Spotify 作為 DIMA 成員被提及。",
-        "反映整體串流產業的積極趨勢。"
-      ]
-    },
-    {
-      "title": "Music Streaming Platform Qobuz Bucks The Trend With 45.7% Growth In 2025 - Forbes",
-      "sentiment": "neutral",
-      "key_points": [
-        "競爭對手 Qobuz 實現高速增長。",
-        "文章主要關注 Qobuz 的表現。",
-        "間接反映串流市場的競爭態勢。"
-      ]
-    },
-    {
-      "title": "Spotify’s reserved ticket sales to music superfans are now going live - TechCrunch",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 的 Reserved 門票銷售功能正式上線。",
-        "首波合作藝人巡演啟動。",
-        "擴展平台在現場音樂領域的服務。"
-      ]
-    },
-    {
-      "title": "Murdochs’ aversion to big buyouts meets its match in the streaming age - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章討論串流時代的大型併購趨勢。",
-        "未直接提及 Spotify 的具體事件。",
-        "提供串流媒體行業的宏觀背景。"
+        "為超級粉絲預留門票",
+        "防止門票價格飆升",
+        "票務預訂新功能上線"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260619_062346.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260619.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260620_051712.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260620.jpg"
 }
