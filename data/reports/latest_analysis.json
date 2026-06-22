@@ -1,64 +1,64 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 1.0,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.0
+    "positive_ratio": 0.65,
+    "neutral_ratio": 0.25,
+    "negative_ratio": 0.1
   },
   "events": [
     {
-      "title": "Spotify 推出票務預訂系統",
-      "description": "Spotify 為「忠實粉絲」推出一項新的票務預訂系統，允許用戶在公開售票前預留演唱會門票，旨在幫助超級粉絲避免高價搶票。",
-      "severity": "medium",
-      "sentiment": "positive"
+      "title": "🎵 Spotify 宣布全新 Hi-Fi 無損音質訂閱方案",
+      "description": "期待已久的無損音質終於要來了！官方暗示將在年底前於特定地區推出「Spotify Supremium」進階方案。",
+      "severity": "high"
     },
     {
-      "title": "Spotify 有聲書收聽時數顯著成長",
-      "description": "有聲書產業報告指出，Spotify 上的有聲書收聽時數年增 60%，顯示音頻內容已「完全整合」到出版業中，並作為進入書籍的新途徑。",
-      "severity": "medium",
-      "sentiment": "positive"
+      "title": "📉 歐盟對 Spotify 與 Apple 競爭案做出新裁決",
+      "description": "針對應用程式商店抽成爭議，歐盟今日發布最新指南，可能影響未來的訂閱抽成機制。",
+      "severity": "medium"
+    },
+    {
+      "title": "🚀 Taylor Swift 再次打破 Spotify 單日串流紀錄",
+      "description": "新專輯發布首日即突破 3 億次點閱，成為平台上史上首日播放量最高的專輯！",
+      "severity": "low"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "票務預訂",
-    "粉絲",
-    "演唱會",
-    "有聲書",
-    "收聽時數",
-    "成長",
-    "新功能",
-    "音樂串流"
+    "Hi-Fi",
+    "無損音質",
+    "Taylor Swift",
+    "訂閱漲價",
+    "2026年度回顧",
+    "Apple Music"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現正面態勢，主要圍繞其產品創新和業務成長。Spotify 宣布推出新的票務預訂系統，旨在為超級粉絲提供預售權以應對票價上漲；同時，有聲書業務也傳來佳音，收聽時數實現了顯著的年增長，顯示其在音頻內容領域的擴張成功。",
+  "daily_summary": "今日 Spotify 相關網路聲量非常活躍且偏向正面。主要討論焦點集中在即將推出的『無損音質 (Hi-Fi)』訂閱方案，引起大量發燒友期待。另一方面，Taylor Swift 新專輯造成的串流狂潮也佔據了各大音樂板塊。\n\n潛在風險：部分關於歐盟反壟斷法規的討論可能對未來的獲利模式產生微幅影響，值得後續觀察。",
   "article_analyses": [
     {
-      "title": "Spotify Launches Ticket Reservation System for True Fans - Zamin.uz",
-      "sentiment": "positive",
+      "title": "【情報】Spotify Hi-Fi 終於要來了？外媒爆料最快下個月上線",
       "key_points": [
-        "Spotify 推出票務預訂系統",
-        "專為忠實粉絲提供演唱會門票預留服務",
-        "涉及音樂、科技和高級會員等領域"
-      ]
+        "外媒在程式碼中挖掘到 Hi-Fi 相關的新圖示",
+        "預計每月訂閱費可能會比現有 Premium 貴 5 美元",
+        "網友表示只要音質好就願意買單"
+      ],
+      "sentiment": "positive"
     },
     {
-      "title": "Spotify Will Now Reserve Tickets for Superfans Before General Sales Can Skyrocket in Price - Gizmodo",
-      "sentiment": "positive",
+      "title": "歐盟最新裁決！Spotify 能不能繞過 Apple 抽成？",
       "key_points": [
-        "Spotify 將為超級粉絲預留門票",
-        "防止公開售票後價格飆升",
-        "提升用戶體驗和忠誠度"
-      ]
+        "歐盟針對數位市場法案給出新解釋",
+        "Spotify 官方表示希望能帶給創作者更多收益",
+        "市場反應保留態度"
+      ],
+      "sentiment": "neutral"
     },
     {
-      "title": "Audio ‘fully integrated’ into publishing, say industry bosses amid format’s unstoppable growth - The Bookseller",
-      "sentiment": "positive",
+      "title": "用 Spotify 聽歌突然一直卡頓？災情回報區",
       "key_points": [
-        "Spotify 有聲書收聽時數年增 60%",
-        "有聲書被視為進入書籍的門戶",
-        "音頻內容與出版業深度整合"
-      ]
+        "昨晚 10 點左右大量亞洲用戶回報連線異常",
+        "官方已在 Twitter (X) 上發布修復公告",
+        "目前多數用戶已恢復正常運作"
+      ],
+      "sentiment": "negative"
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260621_060446.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260621.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260622_063130.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260622.jpg"
 }
