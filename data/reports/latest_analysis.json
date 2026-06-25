@@ -1,372 +1,384 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.8,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.1
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.8
   },
   "events": [
     {
-      "title": "BTS柾國《Seven》播放量破30億，創韓國Solo歌手紀錄",
-      "description": "防彈少年團成員柾國的歌曲《Seven》在Spotify上突破30億播放量，成為首位達成此成就的韓國Solo歌手，刷新了平台紀錄。",
+      "title": "Spotify推出「Reserved by Spotify」票務預訂系統",
+      "description": "Spotify上線新功能，識別符合資格的超級粉絲，並在其最喜愛藝人演唱會門票公開銷售前，為他們保留兩張門票。此舉旨在回饋忠實用戶並對抗高價黃牛票。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify應用程式圖示恢復舊版，回應用戶反彈",
-      "description": "Spotify在收到大量用戶對「迪斯科球」圖示的不滿反饋後，迅速將iPhone應用程式圖示恢復為原始的2D版本，展現對用戶意見的重視。",
+      "title": "Spotify在倫敦打造Listening Lounge實體空間",
+      "description": "Spotify於倫敦開設名為「Listening Lounge」的實體空間，專為深度聆聽體驗設計，強調音響工藝與材質細節，旨在提供用戶沉浸式的音樂享受。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify成功駁回兩起關鍵訴訟",
-      "description": "Spotify成功駁回了指控其允許「數十億」詐欺性Drake串流的訴訟，以及獨立音樂人指控其新串流政策減少版稅的不公平商業行為訴訟，對其平台聲譽和營運具有重要意義。",
-      "severity": "high",
+      "title": "Spotify與流行文化IP（如DCU《超少女》）進行內容合作",
+      "description": "Spotify透過與DCU《超少女》合作推出尋寶歌單，並收錄《怪奇物語》相關熱門歌曲，強化了平台與流行文化的連結，拓展內容廣度。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify推出多項新功能及增強用戶互動",
-      "description": "平台新增了播放列表資料夾、批量編輯、背景下載、社群表情符號回應等功能，並推出了為超級粉絲預留演唱會門票的「Reserved」系統，旨在提升用戶體驗和參與度。",
-      "severity": "medium",
+      "title": "Spotify積極推動英國藝人發現與音樂市場發展",
+      "description": "Spotify高層討論在英國市場拓展藝人發現的策略，並指出英國錄製音樂產業的顯著增長，顯示平台對扶持新興藝人的投入。",
+      "severity": "low",
       "sentiment": "positive"
-    },
-    {
-      "title": "Spotify與環球音樂合作推動AI音樂內容創作",
-      "description": "Spotify與環球音樂集團達成戰略協議，允許Premium訂閱者創作AI生成的歌曲翻唱和混音，並與參與藝人分享收益，開創了新的音樂創作與商業模式。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify加強平台內容審核，移除數千個非法播客",
-      "description": "一項調查發現Spotify已移除數萬個宣傳非法線上藥品的虛假播客，顯示平台在內容管理和維護健康生態系統方面的積極行動。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify服務曾短暫中斷，隨後迅速恢復正常",
-      "description": "數千名用戶報告Spotify服務出現問題，但平台隨後發布「一切正常」聲明，顯示問題已迅速解決，影響範圍有限。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Joe Rogan聲稱前美國總統曾施壓Spotify移除其播客",
-      "description": "知名播客主持人Joe Rogan再次提及，在COVID-19疫情期間，多位前美國總統曾試圖向Spotify施壓，要求移除其播客，引發對內容審查和言論自由的討論。",
-      "severity": "medium",
-      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "BTS柾國",
-    "Seven",
-    "播放量",
-    "AI音樂",
-    "新功能",
-    "訴訟",
-    "版稅",
-    "演唱會門票",
     "超級粉絲",
-    "播客",
-    "App圖示",
-    "環球音樂",
-    "Olivia Rodrigo"
+    "門票預訂",
+    "演唱會",
+    "新功能",
+    "音樂體驗",
+    "藝人發現",
+    "Listening Lounge",
+    "品牌合作",
+    "播放列表"
   ],
-  "daily_summary": "今日Spotify輿情以正面消息為主，主要關注藝人在平台上的播放量里程碑（如BTS柾國的《Seven》破30億），以及Spotify推出多項創新功能（如為超級粉絲預留演唱會門票、AI生成音樂合作、個人化播客等）以提升用戶體驗。此外，Spotify成功駁回兩起重要訴訟，並迅速處理App圖示爭議和服務中斷，顯示其在平台營運和公關應對上的積極表現。",
+  "daily_summary": "今日 Spotify 輿情呈現顯著正面趨勢，主要聚焦於平台為提升用戶體驗及回饋忠實粉絲所推出的創新服務。最受關注的是「Reserved by Spotify」票務預訂系統的上線，讓超級粉絲能優先購買演唱會門票，廣受好評。此外，Spotify 也積極透過打造深度聆聽空間和流行文化合作，持續豐富其音樂生態圈，並致力於英國市場的藝人發現與推廣。",
   "article_analyses": [
     {
-      "title": "BTS柾國刷新Spotify紀錄！〈Seven〉達30億播放量　寫下韓國Solo歌手第一人紀錄",
+      "title": "Spotify在倫敦打造Listening Lounge！為深度聆聽而生的美感空間，以音響工藝與材質細節讓你「好好聽音樂」",
       "sentiment": "positive",
       "key_points": [
-        "BTS柾國歌曲《Seven》播放量達30億",
-        "創韓國Solo歌手第一人紀錄"
+        "Spotify於倫敦開設Listening Lounge",
+        "專為深度聆聽設計的實體空間",
+        "強調音響工藝與材質細節，提升音樂體驗"
       ]
     },
     {
-      "title": "防彈柾國《Seven》Spotify播放量破30億大關",
+      "title": "DCU《超少女》開啟Spotify尋寶歌單 《怪奇物語》「史帝夫」Djo暴紅歌曲也收進官方歌單",
       "sentiment": "positive",
       "key_points": [
-        "防彈柾國《Seven》播放量破30億"
+        "Spotify與DCU《超少女》合作推出尋寶歌單",
+        "收錄《怪奇物語》Djo暴紅歌曲",
+        "透過流行文化合作強化內容整合"
       ]
     },
     {
-      "title": "Spotify Reverts iPhone App Icon to Original After Disco-Ball Backlash",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify恢復iPhone應用程式原版圖示",
-        "回應用戶對「迪斯科球」圖示的反彈"
-      ]
-    },
-    {
-      "title": "BTS' Jungkook tops 3 bln Spotify streams with 'Seven,' first for Korean artist",
-      "sentiment": "positive",
-      "key_points": [
-        "BTS柾國《Seven》播放量破30億",
-        "首位達成此成就的韓國藝人"
-      ]
-    },
-    {
-      "title": "Spotify wins dismissal of lawsuit claiming it allowed 'billions' of fraudulent Drake streams",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify贏得詐欺性Drake串流訴訟駁回",
-        "饒舌歌手RBX指控平台未能遏止大規模詐欺串流"
-      ]
-    },
-    {
-      "title": "Spotify accused of using new streaming policy to reduce indie artist's royalties",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify被控利用新串流政策減少獨立藝人版稅",
-        "音樂人Mark Kratter起訴Spotify不公平商業行為"
-      ]
-    },
-    {
-      "title": "Spotify is doubling down on AI-generated music",
+      "title": "HER VOICE 9/5高雄巨蛋開唱 薇娟、鄭恩地將來台",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify加倍投入AI生成音樂",
-        "不強制藝人揭露AI使用，但提供自願選擇"
-      ]
-    },
-    {
-      "title": "What song is going to rule the summer? Spotify wants you to vote",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出夏季熱門歌曲投票功能",
-        "用戶可投票選出夏季歌曲"
-      ]
-    },
-    {
-      "title": "Spotify adds playlist folders, bulk editing and background downloads",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify新增播放列表資料夾、批量編輯和背景下載功能",
-        "部分功能僅限Premium訂閱者"
-      ]
-    },
-    {
-      "title": "Spotify's reserved ticket sales to music superfans are now going live",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出為音樂超級粉絲預留門票系統",
-        "「Reserved」系統讓粉絲搶先購買演唱會門票"
-      ]
-    },
-    {
-      "title": "Spotify Issues 'All Clear' After Outage Reports",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify在服務中斷報告後發布「一切正常」",
-        "數千名用戶報告服務問題"
-      ]
-    },
-    {
-      "title": "Spotify soars 13% after announcing AI music deal with UMG, guidance",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股價飆升13%",
-        "宣布與UMG達成AI音樂協議"
-      ]
-    },
-    {
-      "title": "Spotify Drops Disco Ball App Icon Reverts Back to Old Logo",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify放棄「迪斯科球」App圖示，恢復舊版",
-        "「迪斯科球」曾用於宣傳20週年內容"
-      ]
-    },
-    {
-      "title": "Olivia Rodrigo Is Now the Youngest Female Artist Ever to Hit No. 1 on Spotify's Top Artists Chart",
-      "sentiment": "positive",
-      "key_points": [
-        "Olivia Rodrigo成為Spotify頂級藝人榜最年輕登頂女歌手",
-        "新專輯創2026年女性專輯首周最高播放量紀錄"
-      ]
-    },
-    {
-      "title": "TXT adds another song to 100m Spotify streams list",
-      "sentiment": "positive",
-      "key_points": [
-        "TXT歌曲《Devil by the Window》在Spotify突破1億播放量",
-        "該團體第19首破億歌曲"
-      ]
-    },
-    {
-      "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與環球音樂達成協議，允許粉絲製作AI翻唱和混音",
-        "Premium訂閱者可創作，藝人分享收益"
-      ]
-    },
-    {
-      "title": "Spotify's new AI app can generate daily briefings and personalized podcasts for you",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出新的AI應用程式",
-        "可生成基於用戶收聽歷史、日曆和收件箱的個人化播客和每日摘要"
-      ]
-    },
-    {
-      "title": "Spotify's latest feature is ready to help you avoid concert ticket resellers",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify新功能幫助用戶避免演唱會黃牛",
-        "與Live Nation合作為「忠實粉絲」提前銷售門票"
-      ]
-    },
-    {
-      "title": "Netflix and Spotify Partner Up for Jay Shetty's 'On Purpose' Podcast",
-      "sentiment": "positive",
-      "key_points": [
-        "Netflix與Spotify合作推出Jay Shetty的《On Purpose》播客",
-        "達成多年期協議，價值超過1億美元"
-      ]
-    },
-    {
-      "title": "Spotify And Universal Put AI Music Behind A Paywall",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與環球音樂將AI音樂內容設為付費牆",
-        "粉絲製作的翻唱和混音成為Premium功能"
-      ]
-    },
-    {
-      "title": "Barometer Partners with Spotify to Deliver Episode-Level Brand Suitability Targeting, Launching on The Trade Desk",
-      "sentiment": "positive",
-      "key_points": [
-        "Barometer與Spotify合作提供節目級別品牌適配性定位",
-        "將於The Trade Desk上推出，適用於程式化播客廣告"
-      ]
-    },
-    {
-      "title": "Spotify removed thousands of phony drug sales podcasts, investigation finds",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify移除數千個虛假販毒播客",
-        "回應媒體報導後清理平台內容"
-      ]
-    },
-    {
-      "title": "Spotify opens Istanbul office as Turkish music tops 294 billion all-time streams on the platform",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify在伊斯坦堡開設新辦公室",
-        "土耳其音樂在平台上的總播放量突破2940億"
-      ]
-    },
-    {
-      "title": "Tell your friends on Spotify what you really think about their music taste with an emoji",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出透過表情符號回應朋友音樂品味的功能",
-        "提升社群互動"
-      ]
-    },
-    {
-      "title": "Drake and Spotify score huge wins in the same week: Here's how",
-      "sentiment": "positive",
-      "key_points": [
-        "Drake與Spotify同週取得巨大成功",
-        "Drake憑藉三張專輯重回Global Spotify榜首"
-      ]
-    },
-    {
-      "title": "Joe Rogan claims former presidents threw 'a lot of money' at Spotify removal effort over COVID controversy",
-      "sentiment": "neutral",
-      "key_points": [
-        "Joe Rogan聲稱前總統曾試圖讓Spotify移除其播客",
-        "與COVID-19疫苗資訊爭議有關"
-      ]
-    },
-    {
-      "title": "Judge dismisses lawsuit accusing Spotify of turning 'blind eye' to bots faking Drake streams",
-      "sentiment": "positive",
-      "key_points": [
-        "法官駁回指控Spotify對Drake假串流視而不見的訴訟",
-        "訴訟由一名饒舌歌手提出"
-      ]
-    },
-    {
-      "title": "5 Cool Things You Didn't Know Spotify Can Do",
-      "sentiment": "positive",
-      "key_points": [
-        "介紹Spotify鮮為人知的五項酷功能",
-        "提升用戶聆聽體驗"
-      ]
-    },
-    {
-      "title": "Joe Rogan Alleges US Presidents Pressured Spotify To Drop Podcast",
-      "sentiment": "neutral",
-      "key_points": [
-        "Joe Rogan指控美國總統施壓Spotify下架其播客",
-        "圍繞疫苗錯誤資訊的爭議"
-      ]
-    },
-    {
-      "title": "Where Will Spotify Be In 2028?",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析Spotify在2028年的前景",
-        "擁有7.61億月活躍用戶，2.93億付費訂閱者"
-      ]
-    },
-    {
-      "title": "A Connecticut musician says Spotify's algorithm tanked his audience. Now he's suing",
-      "sentiment": "negative",
-      "key_points": [
-        "康乃狄克州音樂人起訴Spotify，稱其演算法導致聽眾減少",
-        "指控平台演算法優先大型藝人"
-      ]
-    },
-    {
-      "title": "Rogan: Multiple former US presidents 'threw a lot of money' at Spotify to remove my podcast",
-      "sentiment": "neutral",
-      "key_points": [
-        "Joe Rogan聲稱多位前美國總統曾大量出資欲移除其播客",
-        "提及Peter Thiel的Dialog會議爭議"
+        "報導韓國藝人在高雄巨蛋的演唱會資訊",
+        "內容與Spotify平台無直接相關"
       ]
     },
     {
       "title": "Spotify Launches Ticket Reservation System for True Fans - Zamin.uz",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出為忠實粉絲預留門票系統",
-        "音樂科技領域的新舉措"
+        "Spotify推出票務預訂系統",
+        "針對忠實粉絲",
+        "確保真愛粉能取得演唱會門票"
       ]
     },
     {
       "title": "Spotify Will Now Reserve Tickets for Superfans Before General Sales Can Skyrocket in Price - Gizmodo",
       "sentiment": "positive",
       "key_points": [
-        "Spotify為超級粉絲預留門票，防止價格飆升",
-        "在公開銷售前提供專屬機會"
+        "Spotify將為超級粉絲保留門票",
+        "優先於一般銷售前進行",
+        "旨在避免票價飆漲問題"
       ]
     },
     {
       "title": "Spotify’s reserved ticket sales to music superfans are now going live - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify的超級粉絲預留門票服務正式上線",
-        "識別合格的頂級粉絲並預留演唱會門票"
+        "「Reserved by Spotify」系統正式上線",
+        "為藝人的頂級粉絲預留兩張巡演門票",
+        "凸顯平台對超級粉絲的重視"
       ]
     },
     {
       "title": "Spotify’s Andy Sloan-Vincent on Scaling Artist Discovery in the U.K.: ‘We’ve Always Been a Musical Nation’ - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "Spotify英國區負責人談論擴大藝人發掘",
-        "強調英國作為音樂國家的特點及市場增長"
+        "Spotify高層討論英國藝人發現策略",
+        "英國錄製音樂產業顯著增長",
+        "平台在扶植新興藝人方面扮演角色"
       ]
     },
     {
-      "title": "Audio ‘fully integrated’ into publishing, say industry bosses amid format’s unstoppable growth - The Bookseller",
+      "title": "Fox to Acquire Roku for $22 Billion, Apple Products Are Getting More Expensive, and the World Cup - CNET",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Fox收購Roku、Apple產品漲價及世界盃等科技及商業新聞",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "The Latest Podcast Stats Show That People Want Their Niches - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "分析播客收聽趨勢，強調小眾內容需求",
+        "提及Spotify是主要的播客收聽平台之一 (佔26%)",
+        "內容為播客行業趨勢，非Spotify具體動態"
+      ]
+    },
+    {
+      "title": "Atonemo And NTS Radio Launch Streamer For Those Who’d Rather Not Choose - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Atonemo與NTS Radio推出非演算法推薦的串流服務",
+        "提及此類服務與Spotify等演算法驅動平台的差異",
+        "內容非Spotify具體動態"
+      ]
+    },
+    {
+      "title": "From old to new: unsold concert T-shirts repurposed for music tours - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導演唱會T恤再利用的環保趨勢",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Non-Profit creates community through vinyl record listening sessions - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導非營利組織透過黑膠唱片聆聽活動建立社群",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "NewsNight | 19 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Sky News Australia的訂閱內容",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "U.S. tech megacaps slide as SpaceX extends slump, AI expense concerns grow - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導美國科技巨頭股價下滑及AI投資疑慮",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Netflix open to more deals with traditional TV - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Netflix與傳統電視合作策略",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Hyperscalers sell off as markets question big AI spend - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導大型雲端服務商股票拋售及AI投資市場反應",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Mark Zuckerberg directed Meta to create a prediction markets app, NYT reports - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Meta執行長Mark Zuckerberg指示開發預測市場應用",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "The Bond Report | 19 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Sky News Australia的訂閱內容",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Alphabet Stock Sinks as Nobel AI Scientist Defects to Anthropic - Yahoo Finance",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Alphabet股價下跌及AI科學家人事變動",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Review: What works best for the CSO’s America250 season finale? Variety - Chicago Tribune",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導芝加哥交響樂團音樂會評論",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "The Nord Stream Conspiracy — the murky space between peace and outright state-on-state conflict - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導北溪管道事件相關地緣政治分析",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "SpaceX's Mega Rally Is Hitting Its First Stumble - Business Insider",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導SpaceX股價波動及電動車產業新聞",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "This Week in Chancery Court: Chewy Inc., Brookfield Settlements - Bloomberg Law News",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導法律訴訟新聞，提及音樂授權相關爭議",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "SpaceX IPO is 'a huge bubble and dangerous for markets,' Israeli fund chief warns - Ynetnews",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導SpaceX潛在IPO的市場風險警示",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "SpaceX Draws $89 Billion Demand for Debut High-Grade Bond Sale - Bloomberg",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導SpaceX首次高評級債券發行的市場反應",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Clough Capital Partners L P Grows Position in Kinross Gold Corporation $KGC - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導投資公司持股變動及股票分析",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Engle Capital Management L.P. Makes New Investment in Cipher Mining Inc. $CIFR - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導投資公司新的投資組合變動",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, June 22, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導出版界新聞，包括AI與數位轉型會議",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Add to playlist: the wild club-pop of Zara Larsson cowriter Helena Gao and the week’s best new tracks - The Guardian",
       "sentiment": "positive",
       "key_points": [
-        "音頻內容被視為出版業的完全整合",
-        "Spotify上聽書時長年增長60%"
+        "推薦新歌曲及播放列表",
+        "鼓勵用戶將推薦歌曲加入Spotify或Apple Music等平台"
+      ]
+    },
+    {
+      "title": "What to Stream: Paul Simon, 'In the Hand of Dante,' 'Avatar: The Last Airbender' and Star Fox - Greenwich Time",
+      "sentiment": "neutral",
+      "key_points": [
+        "推薦串流電影、電視節目及新遊戲",
+        "內容非Spotify平台特定動態"
+      ]
+    },
+    {
+      "title": "The Week in Numbers: SpaceX's colossal climb, Pizza Hut's price tag - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導科技公司與商業新聞的數據分析",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Atonemo and NTS launch Radio Player with icon wheel for genre selection - Dezeen",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Atonemo與NTS推出新型電台播放器",
+        "強調其「非演算法」特色，與Spotify等平台對比",
+        "內容非Spotify具體動態"
+      ]
+    },
+    {
+      "title": "Paul Murray Live | 21 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Sky News Australia的節目內容",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "The Macpherson Angle | 21 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Sky News Australia的節目內容",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Mexican immigrant takes $28/hour welding job at SpaceX — now his stake is worth over $1M. How to build big wealth quick - Yahoo Finance",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導SpaceX員工透過投資致富的個人故事",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "The Week in Tech: Snap brings back its Specs and Google at the movies - Marketing Week",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導科技週報，包括Snap與Google的最新動態",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "A mariner put 10% of her paycheck into SpaceX for 2 years. Now it's public — and she won't say what her shares are worth - Yahoo Finance",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導SpaceX早期投資者的個人故事",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Savox Communications' IPO Oversubscribed - TradingView",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Savox Communications首次公開募股超額認購",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "Taylor Swift's 'Toy Story' song debuts at No. 1 on the Billboard charts - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Taylor Swift新歌登上Billboard榜首",
+        "內容與Spotify平台無直接相關"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章無內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章無內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260624_050446.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260624.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260625_050824.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260625.jpg"
 }
