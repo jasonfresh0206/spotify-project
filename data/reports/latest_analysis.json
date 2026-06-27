@@ -1,382 +1,145 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.3,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.5
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "應用程式圖示回歸爭議與解決",
-      "description": "Spotify 因「迪斯可球」風格的應用程式圖示引起大量用戶不滿，隨後迅速將其還原回原始的 2D 圖標，顯示對用戶反饋的重視。",
+      "title": "Spotify獲升級",
+      "description": "CMoney研究員報告指出Spotify獲得升級，顯示市場对其前景的看好。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "多項新功能上線",
-      "description": "Spotify 推出了播放清單資料夾、批量編輯、背景下載等功能（部分為Premium專屬），並新增了表情符號回應好友品味、超級粉絲預售演唱會門票系統以及讓用戶投票選出夏季歌曲等社群與票務功能。",
-      "severity": "high",
+      "title": "知名歌手單曲播放量破紀錄",
+      "description": "韓國歌手柾國的單曲播放量突破30億，雖非直接Spotify事件，但反映了音樂串流平台整體的高用戶參與度及市場活力。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "AI 音樂策略爭議",
-      "description": "Spotify 積極發展 AI 生成音樂和相關工具，但引發了關於藝術家是否需揭露 AI 使用、版稅分配以及 AI 內容可能過多的質疑，並有其他串流平台以此作為差異化競爭點。",
-      "severity": "high",
+      "title": "Spotify探討行銷策略轉變",
+      "description": "Spotify認為「以渠道為先」的行銷模式已過時，正轉向更流動、結合內容、商業、娛樂和廣告的策略，並受AI加速影響。",
+      "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "藝術家版稅與詐欺串流訴訟",
-      "description": "多項報導指出 Spotify 的藝術家版稅支付率低於競爭對手（如 Amazon Music），並面臨獨立藝術家關於不公平商業行為的訴訟。儘管 Spotify 成功駁回了針對「Drake 詐欺串流」的訴訟，但版稅透明度和公平性仍是持續性爭議。",
+      "title": "Spotify被指支付創作者費率低於競爭對手",
+      "description": "有報導稱Amazon Music向創作者支付的費用是Spotify的兩倍，Spotify對此反駁並強調其已向音樂產業支付了巨額費用。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "平台濫用與服務穩定性",
-      "description": "Spotify 曾發生服務中斷，儘管迅速恢復，但也揭露出平台搜尋排名被藥物詐騙網站利用假播客劫持的問題，引發對內容審核與安全性的擔憂。",
+      "title": "Spotify在播客市場的佔有率",
+      "description": "根據Edison Research報告，Spotify在每週播客聽眾中的佔有率為26%，顯示其在播客領域的領先地位，但仍落後於YouTube。",
       "severity": "medium",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "title": "市場擴張與內容合作",
-      "description": "Spotify 在伊斯坦堡設立辦事處，顯示其在土耳其音樂市場的顯著增長。同時，與 Barometer 合作提升播客廣告的品牌適用性，並引進 Adam Friedland 等新播客內容。",
+      "title": "AI在音樂創作中的應用與爭議",
+      "description": "Fenix Flexin的歌曲「Rubberz」因被質疑是否為AI創作而引發討論，凸顯AI在音樂產業中對藝術家信譽和創作的影響。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Spotify在英國推動藝人發掘",
+      "description": "Spotify在英國市場積極推動藝人發掘，成功協助多位新星如Lola Young和Olivia Dean嶄露頭角，促進了英國音樂產業的增長。",
       "severity": "medium",
       "sentiment": "positive"
+    },
+    {
+      "title": "新電台播放器挑戰Spotify的演算法主導模式",
+      "description": "Atonemo和NTS推出新電台播放器，提供更多人工策展的音樂體驗，以滿足部分用戶擺脫Spotify等平台演算法推薦的需求。",
+      "severity": "low",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "AI 音樂",
-    "新功能",
-    "藝術家版稅",
-    "訴訟",
-    "App 圖示",
-    "播客",
-    "演唱會票務",
-    "平台穩定性"
+    "Spotify",
+    "音樂串流",
+    "創作者支付",
+    "播客市場",
+    "AI音樂",
+    "行銷策略",
+    "藝人發掘",
+    "競爭對手"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現兩極化趨勢。一方面，多項新功能（如播放清單管理、演唱會預售票和社群互動）及市場擴張為平台帶來正面評價；另一方面，Spotify 仍受困於 AI 音樂策略爭議、版稅分配不公的指控以及平台被濫用和服務中斷等負面新聞。",
+  "daily_summary": "今日Spotify輿情顯示平台獲得市場升級肯定，並積極在英國推動藝人發掘，有助於其品牌形象與市場增長。然而，Spotify面臨來自Amazon Music在創作者支付費率方面的競爭挑戰，且其演算法主導的音樂推薦模式受到新興人工策展電台播放器的審視。此外，音樂產業正持續關注AI在創作中的應用及潛在影響。",
   "article_analyses": [
     {
-      "title": "男團CORTIS出道專輯Spotify播放量破6億",
+      "title": "Spotify獲升級，Lowe's回暖！FedEx與Micron面臨調整風險-CMoney 研究員",
       "sentiment": "positive",
       "key_points": [
-        "男團CORTIS出道專輯播放量突破6億次",
-        "顯示在Spotify上的高人氣"
+        "Spotify獲分析師升級",
+        "市場對Spotify前景樂觀"
       ]
     },
     {
-      "title": "手機「吃容量新怪獸」他清出20GB 4招無痛釋放空間 | EBC 東森新聞",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify可能佔用大量手機儲存空間",
-        "暗示Spotify可能是「吃容量新怪獸」"
-      ]
-    },
-    {
-      "title": "CORTIS出道專輯9個月 Spotify播放破6億次",
+      "title": "一週韓娛：JOSHUA在UNESCO演講 柾國單曲播放破30億",
       "sentiment": "positive",
       "key_points": [
-        "CORTIS出道專輯在Spotify上9個月內播放量超過6億次",
-        "音樂內容在平台上的成功"
+        "韓國歌手柾國單曲播放量突破30億",
+        "顯示音樂串流平台用戶參與度高"
       ]
     },
     {
-      "title": "Amazon Music Pays Creators At Twice The Rate Of Spotify, Law Firm Claims",
-      "sentiment": "negative",
-      "key_points": [
-        "律師事務所聲稱 Amazon Music 支付創作者的費用是 Spotify 的兩倍",
-        "Spotify 在版稅分配方面受批評"
-      ]
-    },
-    {
-      "title": "Spotify Reverts iPhone App Icon to Original After Disco-Ball Backlash",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 在收到用戶強烈不滿後，將 iPhone 應用程式圖示恢復為原始的 2D 版本",
-        "快速響應用戶反饋"
-      ]
-    },
-    {
-      "title": "Spotify is doubling down on AI-generated music",
+      "title": "Why Spotify believes the age of channel-first marketing is over - The Drum",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 加強對 AI 生成音樂的投入",
-        "目前不強制藝術家披露 AI 使用"
-      ]
-    },
-    {
-      "title": "Spotify's reserved ticket sales to music superfans are now going live",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出「Reserved」系統，為超級粉絲保留演唱會門票",
-        "提升粉絲體驗和忠誠度"
-      ]
-    },
-    {
-      "title": "Tell your friends on Spotify what you really think about their music taste with an emoji",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出新功能，允許用戶用表情符號回應朋友的音樂品味",
-        "增加社交互動性"
-      ]
-    },
-    {
-      "title": "Spotify adds playlist folders, bulk editing and background downloads",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 增加播放清單資料夾、批量編輯功能",
-        "Premium 用戶可使用背景下載和重新排序功能"
-      ]
-    },
-    {
-      "title": "Drug Sites Hijacked Spotify's Search Ranking Through Fake Podcasts",
-      "sentiment": "negative",
-      "key_points": [
-        "國會報告指出藥物網站通過虛假播客劫持 Spotify 搜尋排名",
-        "平台安全性和內容審核漏洞"
-      ]
-    },
-    {
-      "title": "Spotify Issues 'All Clear' After Outage Reports",
-      "sentiment": "negative",
-      "key_points": [
-        "數千名用戶報告 Spotify 服務問題",
-        "Spotify 宣布已解決中斷問題"
-      ]
-    },
-    {
-      "title": "5 Cool Things You Didn't Know Spotify Can Do",
-      "sentiment": "positive",
-      "key_points": [
-        "介紹 Spotify 幾個隱藏功能，提升用戶聆聽體驗",
-        "宣傳平台實用功能"
-      ]
-    },
-    {
-      "title": "Spotify accused of using new streaming policy to reduce indie artist's royalties",
-      "sentiment": "negative",
-      "key_points": [
-        "獨立音樂人 Mark Kratter 起訴 Spotify 涉嫌「不公平商業行為」",
-        "指控 Spotify 調整串流指標以偏袒大牌藝人"
-      ]
-    },
-    {
-      "title": "Spotify's latest feature is ready to help you avoid concert ticket resellers",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 與 Live Nation 合作，讓「忠實粉絲」提前購買演唱會門票",
-        "幫助用戶避免黃牛票"
-      ]
-    },
-    {
-      "title": "What Does The Blue Dot Mean On Spotify?",
-      "sentiment": "neutral",
-      "key_points": [
-        "解釋 Spotify 應用程式中藍點的含義",
-        "應用程式重新設計帶來的新通知方式"
-      ]
-    },
-    {
-      "title": "Spotify wins dismissal of lawsuit claiming it allowed 'billions' of fraudulent Drake streams",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 贏得了關於允許「數十億」詐欺性 Drake 串流的訴訟",
-        "成功駁回饒舌歌手 RBX 的指控"
-      ]
-    },
-    {
-      "title": "Spotify's AI bet: more of everything, less of what you want",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 的 AI 工具鼓勵用戶創造更多內容",
-        "評論認為 AI 內容可能「有點過度」"
-      ]
-    },
-    {
-      "title": "What song is going to rule the summer? Spotify wants you to vote",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 讓用戶投票選出 2026 年夏季熱門歌曲",
-        "增加用戶參與度"
-      ]
-    },
-    {
-      "title": "Qobuz Is the Anti-Spotify Music Streamer You've Been Waiting For",
-      "sentiment": "negative",
-      "key_points": [
-        "推廣競爭對手 Qobuz 為「反 Spotify」的音樂串流服務",
-        "強調 Qobuz 的高音質和更高藝術家版稅，吸引 Spotify 用戶轉移"
-      ]
-    },
-    {
-      "title": "Adam Friedland to Launch Podcast and Mini-Series with Ringer On Spotify",
-      "sentiment": "positive",
-      "key_points": [
-        "喜劇演員 Adam Friedland 的播客將在 Spotify 上重新推出",
-        "Spotify 擴展播客內容"
-      ]
-    },
-    {
-      "title": "Spotify Drops Disco Ball App Icon Reverts Back to Old Logo",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 取消了備受爭議的迪斯可球應用程式圖標",
-        "圖標變更為紀念 20 週年活動，後應反饋恢復"
-      ]
-    },
-    {
-      "title": "Spotify opens Istanbul office as Turkish music tops 294 billion all-time streams on the platform",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 在伊斯坦堡開設新辦事處",
-        "土耳其音樂在平台上的串流總量超過 2940 億次，增長強勁"
-      ]
-    },
-    {
-      "title": "Barometer Partners with Spotify to Deliver Episode-Level Brand Suitability Targeting, Launching on The Trade Desk",
-      "sentiment": "neutral",
-      "key_points": [
-        "Barometer 與 Spotify 合作，為播客廣告提供節目級別的品牌適用性定位",
-        "提升播客廣告精準度"
-      ]
-    },
-    {
-      "title": "Spotify: Strong Margins, Stretched Valuation",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify 實現盈利轉折點，利潤率和自由現金流飆升",
-        "廣告收入滯後，估值過高"
-      ]
-    },
-    {
-      "title": "Spotify: What Changed My Mind From Hold To Buy (Rating Upgrade)",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 評級從「持有」上調至「買入」",
-        "基本面改善，有新催化劑"
-      ]
-    },
-    {
-      "title": "Spotify Beats Rapper RBX In Fake Drake Streams Lawsuit",
-      "sentiment": "positive",
-      "key_points": [
-        "聯邦法官駁回針對 Spotify 忽略假串流的訴訟",
-        "Spotify 在法律戰中獲勝"
-      ]
-    },
-    {
-      "title": "Joe Rogan claims former presidents threw 'a lot of money' at Spotify removal effort over COVID controversy",
-      "sentiment": "neutral",
-      "key_points": [
-        "Joe Rogan 聲稱前總統曾試圖讓 Spotify 下架其播客",
-        "Spotify 抵制了移除播客的壓力"
-      ]
-    },
-    {
-      "title": "AI Watchdog: Spotify Tracks Dataset",
-      "sentiment": "neutral",
-      "key_points": [
-        "Hugging Face 上出現一個包含 114,000 首 Spotify 音樂曲目的 AI 數據集",
-        "Spotify 與該數據集無關"
-      ]
-    },
-    {
-      "title": "5 brand new Spotify features that I can't get enough of, and how to use them",
-      "sentiment": "positive",
-      "key_points": [
-        "介紹五個新的 Spotify 功能，提升串流體驗",
-        "積極評價新功能"
-      ]
-    },
-    {
-      "title": "Where Will Spotify Be In 2028?",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析 Spotify 在 2028 年的市場地位和未來發展",
-        "擁有大量用戶和訂閱者，但股價下跌"
-      ]
-    },
-    {
-      "title": "Here is what to know beyond why Spotify Technology (SPOT) is a trending stock",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析 Spotify 成為熱門股票的原因及其影響因素",
-        "提供投資者參考訊息"
-      ]
-    },
-    {
-      "title": "RBX Gets 21 Days To Refile Lawsuit Against Spotify Over Drake Bot Claims",
-      "sentiment": "negative",
-      "key_points": [
-        "聯邦法院駁回 RBX 對 Spotify 的集體訴訟",
-        "RBX 有 21 天重新提交訴訟，顯示訴訟仍在進行中"
-      ]
-    },
-    {
-      "title": "Joe Rogan Alleges US Presidents Pressured Spotify To Drop Podcast",
-      "sentiment": "neutral",
-      "key_points": [
-        "Joe Rogan 再次聲稱美國前總統在 COVID-19 疫情期間施壓 Spotify 下架其播客",
-        "強調 Spotify 在爭議中保持獨立性"
-      ]
-    },
-    {
-      "title": "Spotify’s Andy Sloan-Vincent on Scaling Artist Discovery in the U.K.: ‘We’ve Always Been a Musical Nation’ - Billboard",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 在英國推動藝術家發現和成長",
-        "英國音樂市場的強勁增長"
-      ]
-    },
-    {
-      "title": "Music in training sets is the new Spotify Wrapped: how genAI uses your music - CDM Create Digital Music",
-      "sentiment": "negative",
-      "key_points": [
-        "批評生成式 AI 如何使用音樂數據集",
-        "質疑藝術家在 AI 時代的補償問題"
+        "Spotify主張「以渠道為先」的行銷時代已結束",
+        "提倡更流動、結合內容、商業、娛樂和廣告的行銷策略",
+        "AI正在加速這些轉變"
       ]
     },
     {
       "title": "Amazon Music Pays Creators At Twice The Rate Of Spotify, Law Firm Claims - Forbes",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 支付音樂行業超過 110 億美元，但律師事務所聲稱 Amazon Music 支付率是其兩倍",
-        "Spotify 版稅支付模式仍受質疑"
-      ]
-    },
-    {
-      "title": "Deezer says its new feature lets fans remix songs with artist consent - TechCrunch",
-      "sentiment": "neutral",
-      "key_points": [
-        "Deezer 推出允許粉絲在藝術家同意下混音歌曲的新功能",
-        "與 Spotify 在 AI 混音方面的策略不同，可能引發對人類藝術家地位的討論"
+        "據稱Amazon Music向創作者支付的費用是Spotify的兩倍",
+        "Spotify反駁並聲稱2025年已向音樂產業支付超過110億美元，總計超過700億美元"
       ]
     },
     {
       "title": "The Latest Podcast Stats Show That People Want Their Niches - Forbes",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 在播客收聽平台中佔比 26%",
-        "顯示其在播客市場中的重要地位，但 YouTube 仍領先"
+        "播客市場報告顯示用戶偏好利基內容",
+        "Spotify在每週播客聽眾中的佔有率為26%，次於YouTube (33%)"
+      ]
+    },
+    {
+      "title": "'Rubberz' by Fenix Flexin is going viral. But some people think it's AI - Modern Ghana",
+      "sentiment": "neutral",
+      "key_points": [
+        "Fenix Flexin歌曲被質疑是否為AI創作，引發廣泛討論",
+        "探討AI音樂對藝術家職業生涯和信譽的影響"
+      ]
+    },
+    {
+      "title": "Spotify’s Andy Sloan-Vincent on Scaling Artist Discovery in the U.K.: ‘We’ve Always Been a Musical Nation’ - Billboard",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify在英國市場積極推動藝人發掘",
+        "英國音樂產業在2025年增長顯著，多位新星透過平台嶄露頭角"
+      ]
+    },
+    {
+      "title": "Beck’s ‘Odelay’ at 30, Mitski covers One Direction, more - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章中提及播客評論可在Apple或Spotify上留下",
+        "Spotify作為播客平台之一的輔助性提及"
       ]
     },
     {
       "title": "Atonemo and NTS launch Radio Player with icon wheel for genre selection - Dezeen",
       "sentiment": "neutral",
       "key_points": [
-        "Atonemo 和 NTS 推出新的電台播放器",
-        "滿足尋求擺脫 Spotify 等平台演算法推薦的用戶需求"
+        "新電台播放器Atonemo NTS推出，提供人工策展的音樂體驗",
+        "與Spotify等演算法驅動的串流平台形成對比，滿足用戶對不同聆聽模式的需求"
       ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260626_051049.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260626.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260627_045626.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260627.jpg"
 }
