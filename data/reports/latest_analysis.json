@@ -1,145 +1,430 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
+    "positive_ratio": 0.0,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.6
+    "neutral_ratio": 0.9
   },
   "events": [
     {
-      "title": "Spotify獲升級",
-      "description": "CMoney研究員報告指出Spotify獲得升級，顯示市場对其前景的看好。",
+      "title": "創作者分成爭議",
+      "description": "據稱 Amazon Music 支付給創作者的費率是 Spotify 的兩倍，但 Spotify 否認此說法，並強調其歷年總支付額龐大。",
       "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "知名歌手單曲播放量破紀錄",
-      "description": "韓國歌手柾國的單曲播放量突破30億，雖非直接Spotify事件，但反映了音樂串流平台整體的高用戶參與度及市場活力。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify探討行銷策略轉變",
-      "description": "Spotify認為「以渠道為先」的行銷模式已過時，正轉向更流動、結合內容、商業、娛樂和廣告的策略，並受AI加速影響。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Spotify被指支付創作者費率低於競爭對手",
-      "description": "有報導稱Amazon Music向創作者支付的費用是Spotify的兩倍，Spotify對此反駁並強調其已向音樂產業支付了巨額費用。",
-      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify在播客市場的佔有率",
-      "description": "根據Edison Research報告，Spotify在每週播客聽眾中的佔有率為26%，顯示其在播客領域的領先地位，但仍落後於YouTube。",
+      "title": "AI 音樂應用與倫理討論",
+      "description": "Spotify 透過與環球音樂集團的合作，推動 AI 產生音樂的發展，但外界擔憂這類技術恐邊緣化人類藝術家。",
       "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "AI在音樂創作中的應用與爭議",
-      "description": "Fenix Flexin的歌曲「Rubberz」因被質疑是否為AI創作而引發討論，凸顯AI在音樂產業中對藝術家信譽和創作的影響。",
+      "title": "用戶尋求擺脫演算法推薦",
+      "description": "報導顯示，越來越多用戶希望擺脫串流平台（包括 Spotify）演算法主導的音樂推薦，轉向尋求更具人情味的策劃體驗。",
       "severity": "medium",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "title": "Spotify在英國推動藝人發掘",
-      "description": "Spotify在英國市場積極推動藝人發掘，成功協助多位新星如Lola Young和Olivia Dean嶄露頭角，促進了英國音樂產業的增長。",
-      "severity": "medium",
+      "title": "加強英國市場藝人發掘",
+      "description": "Spotify 正在英國市場積極投入藝人發掘工作，以響應該地區音樂產業的強勁增長趨勢。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "新電台播放器挑戰Spotify的演算法主導模式",
-      "description": "Atonemo和NTS推出新電台播放器，提供更多人工策展的音樂體驗，以滿足部分用戶擺脫Spotify等平台演算法推薦的需求。",
+      "title": "Podcast 市場佔有率穩固",
+      "description": "根據最新報告，Spotify 穩居播客收聽平台的第二名，僅次於 YouTube，顯示其在播客領域的強勁市場地位。",
       "severity": "low",
-      "sentiment": "neutral"
+      "sentiment": "positive"
+    },
+    {
+      "title": "Sonos 裁員事件",
+      "description": "與 Spotify 有合作關係的音響品牌 Sonos 宣布裁員，可能對整個音頻生態系產生間接影響。",
+      "severity": "low",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "音樂串流",
-    "創作者支付",
-    "播客市場",
-    "AI音樂",
-    "行銷策略",
+    "AI 音樂",
+    "藝人分成",
+    "播客",
+    "演算法推薦",
     "藝人發掘",
-    "競爭對手"
+    "音樂串流"
   ],
-  "daily_summary": "今日Spotify輿情顯示平台獲得市場升級肯定，並積極在英國推動藝人發掘，有助於其品牌形象與市場增長。然而，Spotify面臨來自Amazon Music在創作者支付費率方面的競爭挑戰，且其演算法主導的音樂推薦模式受到新興人工策展電台播放器的審視。此外，音樂產業正持續關注AI在創作中的應用及潛在影響。",
+  "daily_summary": "今日 Spotify 輿情呈現多元但偏中性的討論。主要焦點圍繞著與 Amazon Music 之間的創作者分成爭議、Spotify 與環球音樂集團的 AI 音樂合作及其衍生的倫理擔憂，以及用戶對平台演算法推薦的不滿。正面消息則有 Spotify 在播客市場持續穩居第二的強勁地位，以及其在英國市場積極推動藝人發掘的策略。",
   "article_analyses": [
-    {
-      "title": "Spotify獲升級，Lowe's回暖！FedEx與Micron面臨調整風險-CMoney 研究員",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify獲分析師升級",
-        "市場對Spotify前景樂觀"
-      ]
-    },
-    {
-      "title": "一週韓娛：JOSHUA在UNESCO演講 柾國單曲播放破30億",
-      "sentiment": "positive",
-      "key_points": [
-        "韓國歌手柾國單曲播放量突破30億",
-        "顯示音樂串流平台用戶參與度高"
-      ]
-    },
     {
       "title": "Why Spotify believes the age of channel-first marketing is over - The Drum",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify主張「以渠道為先」的行銷時代已結束",
-        "提倡更流動、結合內容、商業、娛樂和廣告的行銷策略",
-        "AI正在加速這些轉變"
+        "Spotify 認為以渠道為先的行銷時代已結束",
+        "媒體內容、商業、娛樂和廣告界線日漸模糊",
+        "AI 正在加速這種趨勢"
+      ]
+    },
+    {
+      "title": "Fox to Acquire Roku for $22 Billion, Apple Products Are Getting More Expensive, and the World Cup - CNET",
+      "sentiment": "neutral",
+      "key_points": [
+        "Fox 將收購 Roku",
+        "Apple 產品價格上漲",
+        "WWDC 新軟體發布"
       ]
     },
     {
       "title": "Amazon Music Pays Creators At Twice The Rate Of Spotify, Law Firm Claims - Forbes",
       "sentiment": "negative",
       "key_points": [
-        "據稱Amazon Music向創作者支付的費用是Spotify的兩倍",
-        "Spotify反駁並聲稱2025年已向音樂產業支付超過110億美元，總計超過700億美元"
+        "律師事務所聲稱 Amazon Music 給創作者的費率是 Spotify 的兩倍",
+        "Spotify 否認指控並表示 2025 年向音樂產業支付超過 110 億美元",
+        "Spotify 歷來已支付超過 700 億美元"
+      ]
+    },
+    {
+      "title": "Deezer says its new feature lets fans remix songs with artist consent - TechCrunch",
+      "sentiment": "neutral",
+      "key_points": [
+        "Deezer 推出新功能讓粉絲在藝術家同意下混音歌曲",
+        "Spotify 近期與環球音樂集團合作進行 AI 生成的翻唱和混音",
+        "擔憂 AI 音樂可能掩蓋人類藝術家的光芒"
+      ]
+    },
+    {
+      "title": "GLP-1 and women, the AI office boom, and RTO: CEO ego? : The Indicator from Planet Money - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR 播客節目在 Spotify 等平台發布",
+        "探討 GLP-1、AI 辦公室熱潮和回辦公室工作趨勢"
       ]
     },
     {
       "title": "The Latest Podcast Stats Show That People Want Their Niches - Forbes",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "key_points": [
-        "播客市場報告顯示用戶偏好利基內容",
-        "Spotify在每週播客聽眾中的佔有率為26%，次於YouTube (33%)"
+        "播客聽眾偏好利基內容",
+        "YouTube 是最常用播客平台 (33%)",
+        "Spotify 為第二常用播客平台 (26%)"
       ]
     },
     {
-      "title": "'Rubberz' by Fenix Flexin is going viral. But some people think it's AI - Modern Ghana",
+      "title": "April Monthly Content Review Memo - NPR",
       "sentiment": "neutral",
       "key_points": [
-        "Fenix Flexin歌曲被質疑是否為AI創作，引發廣泛討論",
-        "探討AI音樂對藝術家職業生涯和信譽的影響"
+        "內容審查應聚焦於『為何』，確保與受眾生活相關"
+      ]
+    },
+    {
+      "title": "Morning news brief - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "委內瑞拉地震後持續搜救失蹤人員",
+        "美國最高法院裁決賦予川普更大移民政策權力"
+      ]
+    },
+    {
+      "title": "AI Music Platform Suno Reveals Incubator Program for Indie Artists - The Hollywood Reporter",
+      "sentiment": "neutral",
+      "key_points": [
+        "AI 音樂平台 Suno 推出獨立藝術家孵化計畫"
+      ]
+    },
+    {
+      "title": "From old to new: unsold concert T-shirts repurposed for music tours - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "未售出的演唱會 T 恤被重新利用於音樂巡演"
+      ]
+    },
+    {
+      "title": "Morning news brief - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "美國解除對伊朗的石油制裁",
+        "川普訪問賓州宣揚經濟成就"
+      ]
+    },
+    {
+      "title": "Suit Over ‘Star Wars’ Music, Protest Arrest Reaches Settlement - Bloomberg Law News",
+      "sentiment": "neutral",
+      "key_points": [
+        "《星際大戰》音樂版權訴訟達成和解",
+        "抗議活動逮捕事件達成和解"
+      ]
+    },
+    {
+      "title": "Weekend NewsDay | 27 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "Sky News Australia 提供澳洲觀眾新聞訂閱服務",
+        "涵蓋時事評論、政治報導、突發新聞等"
+      ]
+    },
+    {
+      "title": "Atonemo and NTS launch Radio Player with icon wheel for genre selection - Dezeen",
+      "sentiment": "negative",
+      "key_points": [
+        "Atonemo 和 NTS 推出新的廣播播放器",
+        "音樂愛好者試圖擺脫 Spotify 等平台的演算法推薦",
+        "用戶尋求更多元化、人性化的音樂體驗"
+      ]
+    },
+    {
+      "title": "Saily eSIM Plans Now Cover Cruise Ships and It’s About Time - Kotaku",
+      "sentiment": "neutral",
+      "key_points": [
+        "Saily eSIM 方案現已覆蓋郵輪",
+        "Xbox 提高主機價格並提供貸款"
+      ]
+    },
+    {
+      "title": "Of course Meta thinks gambling is the future - The Verge",
+      "sentiment": "neutral",
+      "key_points": [
+        "Meta 認為博弈是未來趨勢",
+        "討論 AI 危險性及無人機使用規範"
+      ]
+    },
+    {
+      "title": "Transcript: Tech shares zigzag - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "科技股走勢震盪",
+        "Apple 增加 MacBook 和 iPad 價格 20%"
+      ]
+    },
+    {
+      "title": "Alphabet Stock Sinks as Nobel AI Scientist Defects to Anthropic - Yahoo Finance",
+      "sentiment": "neutral",
+      "key_points": [
+        "Alphabet 股價下跌，諾貝爾 AI 科學家跳槽 Anthropic",
+        "華爾街關注聯準會利率決策"
+      ]
+    },
+    {
+      "title": "Stevie Wonder remembers Clive Davis - CNN",
+      "sentiment": "neutral",
+      "key_points": [
+        "Stevie Wonder 緬懷 Clive Davis"
+      ]
+    },
+    {
+      "title": "Nasdaq expected to announce SpaceX's inclusion into the Nasdaq 100 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "Nasdaq 預計宣布 SpaceX 納入 Nasdaq 100 指數",
+        "聯準會應觀察能源價格對通膨的影響"
+      ]
+    },
+    {
+      "title": "Netflix Monthly Subscriber Churn Still Leads At 2% 06/26/2026 - MediaPost",
+      "sentiment": "neutral",
+      "key_points": [
+        "Netflix 月度訂戶流失率仍維持 2%",
+        "YouTube 觀看量增長，Fox-Roku 可能成為第三大播放平台"
+      ]
+    },
+    {
+      "title": "This Week in Chancery Court: Chewy Inc., Brookfield Settlements - Bloomberg Law News",
+      "sentiment": "neutral",
+      "key_points": [
+        "CBS Broadcasting Inc. 同意為其節目使用《查理布朗》音樂支付許可費"
+      ]
+    },
+    {
+      "title": "Apple’s Price Increase Spooks Markets | June 25 Review & Preview - Barron's",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple 產品漲價嚇壞市場"
+      ]
+    },
+    {
+      "title": "For the Record: An Incomplete History of Music review – it’s amazing that this staggering show exists - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "《For the Record: An Incomplete History of Music》節目評論"
+      ]
+    },
+    {
+      "title": "SpaceX IPO is 'a huge bubble and dangerous for markets,' Israeli fund chief warns - Ynetnews",
+      "sentiment": "neutral",
+      "key_points": [
+        "以色列基金主管警告 SpaceX IPO 是一個巨大泡沫"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, June 22, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "BookTech Collective 推出關注 AI 和數位轉型的全球會議"
+      ]
+    },
+    {
+      "title": "Karl Stefanovic's new \"correspondent\" Drew Pavlou has launched a petition to save his colleague amid reports Nine will axe him from the Today show over his interview with Tommy Robinson. - facebook.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "Drew Pavlou 發起請願，以挽救同事在 Today 節目中的職位"
       ]
     },
     {
       "title": "Spotify’s Andy Sloan-Vincent on Scaling Artist Discovery in the U.K.: ‘We’ve Always Been a Musical Nation’ - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "Spotify在英國市場積極推動藝人發掘",
-        "英國音樂產業在2025年增長顯著，多位新星透過平台嶄露頭角"
+        "Spotify 致力於在英國擴大藝人發掘",
+        "英國錄製音樂產業在 2025 年國內外皆有增長",
+        "Lola Young 等新星推動英國單曲銷量"
       ]
     },
     {
-      "title": "Beck’s ‘Odelay’ at 30, Mitski covers One Direction, more - NPR",
+      "title": "SpaceX's trading gives rest of the IPO market a green light, says JPMorgan's David Bauer - CNBC",
       "sentiment": "neutral",
       "key_points": [
-        "文章中提及播客評論可在Apple或Spotify上留下",
-        "Spotify作為播客平台之一的輔助性提及"
+        "摩根大通認為 SpaceX 交易為其他 IPO 市場帶來綠燈"
       ]
     },
     {
-      "title": "Atonemo and NTS launch Radio Player with icon wheel for genre selection - Dezeen",
+      "title": "Sonos Cuts 3% of Staff Across User Experience, Product Teams - Bloomberg.com",
+      "sentiment": "negative",
+      "key_points": [
+        "Sonos 裁員 3% 的員工，影響用戶體驗和產品團隊"
+      ]
+    },
+    {
+      "title": "U.S. tech megacaps slide as SpaceX extends slump, AI expense concerns grow - Reuters",
       "sentiment": "neutral",
       "key_points": [
-        "新電台播放器Atonemo NTS推出，提供人工策展的音樂體驗",
-        "與Spotify等演算法驅動的串流平台形成對比，滿足用戶對不同聆聽模式的需求"
+        "美國科技巨頭股價下跌",
+        "SpaceX 跌勢擴大，AI 成本擔憂加劇"
       ]
+    },
+    {
+      "title": "Paul Murray Live | 21 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "Sky News Australia 提供新聞訂閱服務"
+      ]
+    },
+    {
+      "title": "The Macpherson Angle | 21 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "Sky News Australia 提供新聞訂閱服務"
+      ]
+    },
+    {
+      "title": "Morning Bid: SpaceXhaust - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "加拿大 Fairfax 購買近 10 億美元印度債券",
+        "歐洲央行獲得議會支持數位歐元計畫"
+      ]
+    },
+    {
+      "title": "Mark Zuckerberg directed Meta to create a prediction markets app, NYT reports - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "Mark Zuckerberg 指示 Meta 開發預測市場應用程式",
+        "Elon Musk 的 SpaceX 尋求籌資 250 億美元用於 AI 擴張"
+      ]
+    },
+    {
+      "title": "Hyperscalers sell off as markets question big AI spend - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "超大規模業者股票拋售，市場質疑 AI 巨額支出"
+      ]
+    },
+    {
+      "title": "Sharri | 25 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "Sky News Australia 提供獨家評論、新聞報導和原創紀錄片"
+      ]
+    },
+    {
+      "title": "Weekend First Edition | 28 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "美國和伊朗交換打擊，委內瑞拉地震死亡人數逾千",
+        "工黨提議提高對違反社群媒體法律的科技公司罰款"
+      ]
+    },
+    {
+      "title": "SpaceX bonds sell off days after AI and rocket group’s $25bn debt deal - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX 發行 250 億美元債券後，債券在數日後下跌"
+      ]
+    },
+    {
+      "title": "SpaceX bonds sell off days after AI and rocket group’s $25bn debt deal - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX 發行 250 億美元債券後，債券在數日後下跌"
+      ]
+    },
+    {
+      "title": "Florida restaurant review of The Service Alley in Vero Beach - USA Today",
+      "sentiment": "neutral",
+      "key_points": [
+        "佛羅里達餐廳 The Service Alley 評論",
+        "音樂巨頭 Clive Davis 去世"
+      ]
+    },
+    {
+      "title": "Quantum Computing Stocks Rally After Trump Signs New Industry Support Measures - Yahoo Finance",
+      "sentiment": "neutral",
+      "key_points": [
+        "量子計算股票上漲，川普簽署新產業支持措施",
+        "市場關注 AI 科技的電力消耗問題"
+      ]
+    },
+    {
+      "title": "30 years of ‘Reasonable Doubt': New York celebrates Jay-Z's debut album - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "紐約慶祝 Jay-Z 首張專輯《Reasonable Doubt》發行 30 週年"
+      ]
+    },
+    {
+      "title": "SpaceX Draws $89 Billion Demand for Debut High-Grade Bond Sale - Bloomberg",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX 首次高評級債券銷售需求達 890 億美元",
+        "SpaceX 短期債務在 250 億美元銷售中最具吸引力"
+      ]
+    },
+    {
+      "title": "SpaceX's wild ride is just getting started - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX 的旅程才剛開始",
+        "AI 相關議題被提及"
+      ]
+    },
+    {
+      "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX 將正式加入 Nasdaq 100 指數"
+      ]
+    },
+    {
+      "title": "Geese, Audrey Hobert and the breakthrough bands Gen Z love this summer - USA Today",
+      "sentiment": "neutral",
+      "key_points": [
+        "Gen Z 世代今夏喜愛的突破性樂團"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": []
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260627_045626.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260627.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260628_052029.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260628.jpg"
 }
