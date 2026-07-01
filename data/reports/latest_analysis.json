@@ -1,13 +1,433 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.0,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.0
+    "positive_ratio": 0.5,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.2
   },
-  "events": [],
-  "trending_keywords": [],
-  "daily_summary": "今日未搜集到任何 Spotify 相關討論或新聞。",
-  "article_analyses": [],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260630_050650.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260630.jpg"
+  "events": [
+    {
+      "title": "新功能與用戶體驗升級",
+      "description": "Spotify推出多項新功能，包括播放清單資料夾、批量編輯、背景下載（Premium專享），藝術家可以直接上傳音樂影片和現場表演，並為超級粉絲提供預留演唱會門票的服務。此外，還新增了用戶投票「夏日歌曲」及播客評論功能，並全面解鎖免費帳戶的點播、搜尋和分享功能。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI音樂政策與合作引發爭議",
+      "description": "Spotify加強在AI音樂領域的發展，推出AI有聲書工具並與環球音樂集團合作，允許Premium用戶創作AI翻唱與混音並分享收益。然而，其較為寬鬆的AI內容揭露政策受到批評，與競爭對手Tidal的嚴格規範形成對比，瑞典甚至有AI冠軍單曲因非人類創作被官方榜單禁止。",
+      "severity": "high",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "藝術家版稅與平台公平性訴訟及抗議",
+      "description": "獨立藝術家對Spotify提起訴訟，指控其透過「篩選實踐」和演算法操控減少獨立音樂人版稅。美國加州更爆發「Spotify去死」抗議行動，凸顯了藝術家對低分潤和平台控制的不滿，環球音樂也因「泰勒絲條款」出售部分Spotify股份以確保藝人收益。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "全球訂閱價格調漲計畫",
+      "description": "Spotify宣布將在美國以外的多個國家和地區調漲訂閱價格，其中歐洲市場的漲幅較為顯著。此舉可能對用戶造成直接影響，引發不滿。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "服務中斷與數據安全疑慮",
+      "description": "近期有報導指出Spotify曾發生服務中斷，導致大量用戶登入錯誤，影響平台穩定性。同時，有資料平台指出盜版團體正大規模爬取並釋出Spotify的音樂資料，引發嚴重的數據安全與隱私洩露擔憂。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Joe Rogan播客內容爭議",
+      "description": "知名播客主持人Joe Rogan聲稱有前任美國總統曾施壓Spotify，試圖下架其播客節目，原因涉及COVID-19疫苗相關資訊的爭議。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "財務表現與市場拓展",
+      "description": "Spotify在第一季度財報中實現利潤超預期，訂閱用戶持續增長。此外，與印度電信商Vodafone Idea達成合作，將Premium訂閱綑綁至電信方案中，並與Barometer合作提升播客廣告的品牌適用性與精準度。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "機器人農場訴訟勝訴",
+      "description": "Spotify成功駁回了一項關於「機器人農場」刷流量的集體訴訟，保護了平台聲譽。",
+      "severity": "low",
+      "sentiment": "positive"
+    }
+  ],
+  "trending_keywords": [
+    "AI音樂",
+    "藝術家權益與版稅",
+    "新功能",
+    "訂閱價格",
+    "播客內容",
+    "數據安全"
+  ],
+  "daily_summary": "今日Spotify輿情呈現兩極化。一方面，平台積極推出多項新功能，如改善用戶體驗的播放清單工具、藝術家直接上傳影片、超級粉絲票務系統及免費帳戶功能升級，並在AI音樂合作與市場拓展方面取得進展，推動了財務表現的增長。另一方面，Spotify面臨多起爭議與挑戰，包括獨立藝術家對低版稅和演算法不公的訴訟及抗議、即將實施的全球訂閱價格調漲、瑞典對AI歌曲的禁榜，以及服務中斷和大規模數據爬取事件帶來的平台穩定與數據安全疑慮。",
+  "article_analyses": [
+    {
+      "title": "Spotify is doubling down on AI-generated music",
+      "sentiment": "neutral",
+      "key_points": [
+        "AI音樂發展",
+        "AI內容保護政策",
+        "藝術家可選擇揭露AI使用"
+      ]
+    },
+    {
+      "title": "Spotify adds playlist folders, bulk editing and background downloads",
+      "sentiment": "positive",
+      "key_points": [
+        "播放清單資料夾",
+        "批量編輯",
+        "背景下載",
+        "Premium訂閱專享功能"
+      ]
+    },
+    {
+      "title": "Spotify accused of using new streaming policy to reduce indie artist's royalties",
+      "sentiment": "negative",
+      "key_points": [
+        "獨立藝術家版稅訴訟",
+        "不公平商業行為指控",
+        "演算法偏袒主流藝術家"
+      ]
+    },
+    {
+      "title": "Why Spotify And ElevenLabs' AI Tool Is More Than A Major Update For Audiobooks",
+      "sentiment": "positive",
+      "key_points": [
+        "AI有聲書工具",
+        "投資者日發布",
+        "ElevenLabs合作"
+      ]
+    },
+    {
+      "title": "Spotify Issues 'All Clear' After Outage Reports",
+      "sentiment": "negative",
+      "key_points": [
+        "服務中斷報告",
+        "用戶登入錯誤",
+        "服務穩定性問題"
+      ]
+    },
+    {
+      "title": "Spotify vs Netflix: One Growth Stock Has an Edge",
+      "sentiment": "positive",
+      "key_points": [
+        "Q1財報利潤超預期",
+        "訂閱戶持續增長",
+        "股價表現"
+      ]
+    },
+    {
+      "title": "Spotify's reserved ticket sales to music superfans are now going live",
+      "sentiment": "positive",
+      "key_points": [
+        "超級粉絲專屬門票預訂",
+        "演唱會票務系統",
+        "提前購票權益"
+      ]
+    },
+    {
+      "title": "What Does The Blue Dot Mean On Spotify?",
+      "sentiment": "neutral",
+      "key_points": [
+        "應用程式介面更新",
+        "藍點通知功能",
+        "用戶困惑"
+      ]
+    },
+    {
+      "title": "Spotify opens direct uploads for music videos and live performances in beta",
+      "sentiment": "positive",
+      "key_points": [
+        "藝術家直接上傳影片功能",
+        "音樂影片",
+        "現場表演",
+        "創作人收益"
+      ]
+    },
+    {
+      "title": "Joe Rogan claims former presidents threw 'a lot of money' at Spotify removal effort over COVID controversy",
+      "sentiment": "negative",
+      "key_points": [
+        "Joe Rogan播客爭議",
+        "COVID-19疫苗資訊",
+        "前總統施壓移除"
+      ]
+    },
+    {
+      "title": "What song is going to rule the summer? Spotify wants you to vote",
+      "sentiment": "positive",
+      "key_points": [
+        "夏日歌曲投票活動",
+        "用戶參與功能",
+        "互動式票選"
+      ]
+    },
+    {
+      "title": "Spotify's latest feature is ready to help you avoid concert ticket resellers",
+      "sentiment": "positive",
+      "key_points": [
+        "打擊黃牛票",
+        "忠實粉絲專屬門票",
+        "與Live Nation合作"
+      ]
+    },
+    {
+      "title": "'Supergirl' Exclusive Clips Land on Spotify for Fans Who Can Solve In-App Scavenger Hunt",
+      "sentiment": "positive",
+      "key_points": [
+        "超級女孩獨家片段",
+        "DC Studios合作",
+        "應用程式內尋寶遊戲"
+      ]
+    },
+    {
+      "title": "Billy Joel's 'Vienna' joins the Spotify Billions Club",
+      "sentiment": "positive",
+      "key_points": [
+        "Billy Joel歌曲里程碑",
+        "突破十億串流播放量",
+        "藝術家成就"
+      ]
+    },
+    {
+      "title": "Spotify adds editor-led videos to New Music Friday so you can meet the people picking your music",
+      "sentiment": "positive",
+      "key_points": [
+        "新音樂星期五播放清單",
+        "編輯導向影片",
+        "個性化音樂推薦"
+      ]
+    },
+    {
+      "title": "Qobuz Is the Anti-Spotify Music Streamer You've Been Waiting For",
+      "sentiment": "negative",
+      "key_points": [
+        "Qobuz對比Spotify",
+        "AI內容政策更嚴格",
+        "藝術家版稅較高"
+      ]
+    },
+    {
+      "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
+      "sentiment": "positive",
+      "key_points": [
+        "與環球音樂集團合作",
+        "AI生成歌曲翻唱/混音",
+        "藝術家收益分成"
+      ]
+    },
+    {
+      "title": "Spotify Will Now Reserve Tickets for Superfans Before General Sales Can Skyrocket in Price",
+      "sentiment": "positive",
+      "key_points": [
+        "超級粉絲預留門票",
+        "避免票價飆升",
+        "與Live Nation合作"
+      ]
+    },
+    {
+      "title": "Barometer Partners with Spotify to Deliver Episode-Level Brand Suitability Targeting, Launching on The Trade Desk",
+      "sentiment": "positive",
+      "key_points": [
+        "播客廣告品牌適用性",
+        "AI語境定位",
+        "與Barometer合作"
+      ]
+    },
+    {
+      "title": "Tidal lays down the rules for AI music. I wish Spotify and everyone else would follow",
+      "sentiment": "negative",
+      "key_points": [
+        "Tidal嚴格AI音樂規定",
+        "AI內容標籤化",
+        "藝術家保護"
+      ]
+    },
+    {
+      "title": "Spotify: Long Runway For Pricing, Margins, And Free Cash Flow",
+      "sentiment": "positive",
+      "key_points": [
+        "投資分析",
+        "平台策略轉型",
+        "提升利潤與現金流"
+      ]
+    },
+    {
+      "title": "Spotify faces expanded 'filtering practices' manipulation lawsuit",
+      "sentiment": "negative",
+      "key_points": [
+        "藝術家過濾實踐訴訟擴大",
+        "潛在臨時禁令",
+        "平台內容操控爭議"
+      ]
+    },
+    {
+      "title": "Joe Rogan Alleges US Presidents Pressured Spotify To Drop Podcast",
+      "sentiment": "negative",
+      "key_points": [
+        "Joe Rogan播客下架爭議",
+        "美國總統施壓",
+        "疫苗不實資訊指控"
+      ]
+    },
+    {
+      "title": "Spotify: Strong Margins, Stretched Valuation",
+      "sentiment": "neutral",
+      "key_points": [
+        "盈利能力增強",
+        "自由現金流上升",
+        "廣告收入滯後",
+        "估值偏高"
+      ]
+    },
+    {
+      "title": "Spotify Lures Fans to Reserved With a Promise: No More Extreme Lengths Necessary",
+      "sentiment": "positive",
+      "key_points": [
+        "預留門票功能行銷",
+        "吸引粉絲參與",
+        "優化購票體驗"
+      ]
+    },
+    {
+      "title": "Spotify bundles three months of Premium with Vodafone Idea's postpaid plans in its first Indian telco partnership",
+      "sentiment": "positive",
+      "key_points": [
+        "印度市場拓展",
+        "與Vodafone Idea合作",
+        "Premium會員捆綁方案"
+      ]
+    },
+    {
+      "title": "Where Will Spotify Be In 2028?",
+      "sentiment": "neutral",
+      "key_points": [
+        "長期展望分析",
+        "龐大用戶群與付費訂閱數",
+        "股價波動"
+      ]
+    },
+    {
+      "title": "Rogan: \"PACs, Presidents, and Former Presidents\" Tried To Get Spotify To Remove Me For \"Vaccine Misinformation\"",
+      "sentiment": "negative",
+      "key_points": [
+        "Joe Rogan播客爭議",
+        "政治團體與前總統干預",
+        "疫苗不實資訊"
+      ]
+    },
+    {
+      "title": "Spotify Wins Dismissal of Bot-Farming Lawsuit",
+      "sentiment": "positive",
+      "key_points": [
+        "機器人農場訴訟勝訴",
+        "法律糾紛解決",
+        "平台聲譽維護"
+      ]
+    },
+    {
+      "title": "I swapped Spotify for a Navidrome server, and my music finally feels like mine again",
+      "sentiment": "negative",
+      "key_points": [
+        "用戶轉用Navidrome",
+        "Spotify個人音樂庫體驗不滿",
+        "自主託管音樂"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益",
+      "sentiment": "neutral",
+      "key_points": [
+        "環球音樂出售Spotify股份",
+        "「泰勒絲條款」",
+        "確保藝人收益"
+      ]
+    },
+    {
+      "title": "想聽哪首就點哪首！Spotify免費帳號全面解放 台灣音樂市場面臨新挑戰 | 張啟敏 | 全解析",
+      "sentiment": "positive",
+      "key_points": [
+        "免費帳號功能解鎖",
+        "台灣市場更新",
+        "隨選播放/搜尋"
+      ]
+    },
+    {
+      "title": "涉AI創作爭議，瑞典禁止這首Spotify冠軍單曲進入官方排行榜",
+      "sentiment": "negative",
+      "key_points": [
+        "AI創作歌曲爭議",
+        "瑞典官方排行榜禁播",
+        "AI音樂藝術價值討論"
+      ]
+    },
+    {
+      "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
+      "sentiment": "positive",
+      "key_points": [
+        "播客評論功能",
+        "社群互動",
+        "打造音樂社群平台"
+      ]
+    },
+    {
+      "title": "摩根士丹利將Spotify Technology的目標股價從$650下調至$630，同時維持其「增持」評級。",
+      "sentiment": "neutral",
+      "key_points": [
+        "摩根士丹利目標股價下調",
+        "維持「增持」評級",
+        "投資評級"
+      ]
+    },
+    {
+      "title": "Spotify將在美國以外地區調漲訂閱價格 歐洲漲37元",
+      "sentiment": "negative",
+      "key_points": [
+        "全球訂閱價格調漲",
+        "歐洲市場漲價",
+        "用戶訂閱成本增加"
+      ]
+    },
+    {
+      "title": "Spotify詳述長期展望及與Universal簽署AI音樂協議；股份急升美股US Stocks Quote - 外圍新聞內容Golbal News Content",
+      "sentiment": "positive",
+      "key_points": [
+        "長期財務目標",
+        "與環球音樂AI協議",
+        "股價飆升"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
+      "sentiment": "positive",
+      "key_points": [
+        "免費會員功能升級",
+        "點播/搜尋/分享",
+        "用戶體驗改善"
+      ]
+    },
+    {
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」",
+      "sentiment": "negative",
+      "key_points": [
+        "大規模資料爬取",
+        "數據安全洩露",
+        "盜版風險"
+      ]
+    },
+    {
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度",
+      "sentiment": "negative",
+      "key_points": [
+        "獨立音樂人抗議",
+        "「Spotify去死」行動",
+        "低分潤與演算法控制批評"
+      ]
+    }
+  ],
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260701_052445.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260701.jpg"
 }
