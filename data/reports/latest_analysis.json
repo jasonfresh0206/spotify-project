@@ -1,359 +1,76 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.1,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.9
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "Stray Kids專輯Spotify播放量破10億",
-      "description": "韓國流行團體Stray Kids有兩張專輯在Spotify上的播放量突破10億次，顯示其在全球音樂市場的巨大影響力及Spotify作為主要音樂平台的地位。",
+      "title": "Spotify要求預測市場平台下架其標誌",
+      "description": "Spotify發現有預測市場平台涉及操縱音樂排行榜，因此要求該平台移除其Spotify標誌，以維護內容公正性。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify實施AI音樂政策",
+      "description": "串流音樂業界普遍應對AI生成音樂的挑戰，Spotify去年已修訂政策以標註AI音樂並更好地管理相關內容。",
       "severity": "medium",
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "title": "Tr33 Spotify收聽量破千萬",
-      "description": "唱作才子Tr33在Spotify上的收聽量突破千萬，並獲得張敬軒和呂爵安等知名歌手支持，顯示新興藝人在Spotify上的成功。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify調整行銷策略，擺脫「渠道優先」",
-      "description": "Spotify認為「渠道優先」的營銷時代已經結束，正將AI應用於其行銷策略，並模糊內容、商業、娛樂和廣告之間的界限，預示著更整合的市場推廣方式。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify透過創意廣告活動吸引粉絲",
-      "description": "Spotify透過在葛萊美獎提名歌手家鄉設置特色廣告看板，以創意且個人化的方式吸引粉絲並展現對藝人的支持。",
+      "title": "Spotify的創新粉絲行銷策略",
+      "description": "Spotify透過情境式廣告（例如在葛萊美獎前夕，於提名藝術家家鄉設置童年照片看板）來吸引粉絲參與，強化品牌與用戶的連結。",
       "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "藝人成就",
-    "串流播放量",
-    "音樂行銷",
-    "粉絲互動",
-    "AI應用",
-    "專輯"
+    "排行榜操縱",
+    "AI音樂",
+    "行銷策略",
+    "粉絲參與",
+    "串流平台"
   ],
-  "daily_summary": "今日Spotify的輿情主要為正面，有兩組藝人Stray Kids和Tr33在平台上達成顯著的串流播放量里程碑，凸顯其作為主要音樂串流平台的影響力。此外，Spotify正積極調整其行銷策略，強調內容、商業與廣告的整合，並透過創意活動增強粉絲互動，展現其在市場推動和用戶體驗上的創新。",
+  "daily_summary": "今日Spotify的輿情主要聚焦於其品牌形象維護與內容策略。Spotify因偵測到排行榜操縱而要求相關平台下架其標誌，展現了對內容公正性的重視。同時，Spotify也持續透過創新的情境式廣告吸引粉絲，並已實施AI音樂內容的相關政策，顯示其在行業趨勢中的積極應對。",
   "article_analyses": [
     {
-      "title": "Stray Kids又有兩張專輯Spotify播放量破10億",
-      "sentiment": "positive",
+      "title": "Spotify要求預測市場平台下架其標誌，此前發現有人操縱排行榜 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
       "key_points": [
-        "Stray Kids",
-        "Spotify",
-        "專輯播放量破10億",
-        "K-pop"
-      ]
-    },
-    {
-      "title": "唱作才子Tr33背景起底 獲張敬軒呂爵安力撐Spotify破千萬收聽",
-      "sentiment": "positive",
-      "key_points": [
-        "Tr33",
-        "Spotify",
-        "破千萬收聽",
-        "張敬軒",
-        "呂爵安"
+        "Spotify要求預測市場平台移除其標誌",
+        "發現有平台操縱音樂排行榜行為",
+        "Spotify採取行動維護音樂串流的公正性"
       ]
     },
     {
       "title": "Why Spotify believes the age of channel-first marketing is over - The Drum",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify行銷策略",
-        "渠道優先",
-        "AI應用",
-        "內容整合"
+        "Spotify認為傳統渠道優先的行銷時代已結束",
+        "媒體內容、商業、娛樂和廣告之間的界線日益模糊",
+        "AI加速了行銷模式的轉變"
       ]
     },
     {
       "title": "Spotify Lures Fans to Reserved With a Promise: No More Extreme Lengths Necessary - ADWEEK",
       "sentiment": "positive",
       "key_points": [
-        "Spotify",
-        "粉絲互動",
-        "創意行銷",
-        "葛萊美獎"
+        "Spotify透過情境式廣告吸引粉絲",
+        "以葛萊美獎提名人為例進行宣傳活動",
+        "加強粉絲與音樂內容的連結和參與感"
       ]
     },
     {
-      "title": "Opinion | Congress Can Just Shrivel. Or It Can Do What It Did After Nixon. - The New York Times",
+      "title": "TIDAL cracks down on AI music by cutting off monetization - TechCrunch",
       "sentiment": "neutral",
       "key_points": [
-        "播客",
-        "播放列表",
-        "政治新聞"
-      ]
-    },
-    {
-      "title": "Ruling on Trans Athletes Gave the G.O.P. a Win. Most Democrats Looked the Other Way. - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客",
-        "播放列表",
-        "體育政治"
-      ]
-    },
-    {
-      "title": "Crypto Brought Trump a Huge Windfall, Even as Many Investors Lost Big - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客",
-        "播放列表",
-        "加密貨幣",
-        "政治人物"
-      ]
-    },
-    {
-      "title": "More Than 1 Million Migrants Apply for Legal Status in Spain - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客",
-        "播放列表",
-        "西班牙移民"
-      ]
-    },
-    {
-      "title": "‘No One’s Coming to Save Us but Us’: Gen Z Runs for Office - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客",
-        "播放列表",
-        "Z世代",
-        "政治參與"
-      ]
-    },
-    {
-      "title": "Trump Remakes Washington, D.C., Into a Maze of Fences and Guard Members - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客",
-        "播放列表",
-        "華盛頓",
-        "政治事件"
-      ]
-    },
-    {
-      "title": "‘Enola Holmes 3’ Review: A Kidnapping in Malta - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "電影評論",
-        "音樂",
-        "流行文化"
-      ]
-    },
-    {
-      "title": "Apple hikes prices as memory chip costs skyrocket - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "Apple",
-        "記憶體晶片",
-        "價格上漲"
-      ]
-    },
-    {
-      "title": "Today, In Short - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "今日新聞",
-        "評論",
-        "音頻內容"
-      ]
-    },
-    {
-      "title": "$600,000 Homes in Washington, D.C., Colorado and Ohio - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "房地產",
-        "音樂",
-        "流行文化"
-      ]
-    },
-    {
-      "title": "Saily eSIM Plans Now Cover Cruise Ships and It’s About Time - Kotaku",
-      "sentiment": "neutral",
-      "key_points": [
-        "Saily eSIM",
-        "郵輪服務",
-        "科技服務"
-      ]
-    },
-    {
-      "title": "Of course Meta thinks gambling is the future - The Verge",
-      "sentiment": "neutral",
-      "key_points": [
-        "Meta",
-        "賭博",
-        "AI技術"
-      ]
-    },
-    {
-      "title": "Transcript: Tech shares zigzag - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "科技股",
-        "市場分析",
-        "Apple價格上漲"
-      ]
-    },
-    {
-      "title": "Forbes Daily: OpenAI May Delay Its IPO After SpaceX’s Rocky Start - Forbes",
-      "sentiment": "neutral",
-      "key_points": [
-        "OpenAI",
-        "IPO",
-        "SpaceX"
-      ]
-    },
-    {
-      "title": "Nasdaq expected to announce SpaceX's inclusion into the Nasdaq 100 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "Nasdaq 100",
-        "SpaceX",
-        "股票市場"
-      ]
-    },
-    {
-      "title": "‘China’s Instagram’ targets men to grow audience ahead of IPO - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "中國社群平台",
-        "IPO",
-        "市場拓展"
-      ]
-    },
-    {
-      "title": "AOL and Eventbrite owner Bending Spoons jumps on Nasdaq debut - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "AOL",
-        "Eventbrite",
-        "Bending Spoons",
-        "Nasdaq上市"
-      ]
-    },
-    {
-      "title": "Apple’s Price Increase Spooks Markets | June 25 Review & Preview - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "Apple",
-        "價格上漲",
-        "市場反應"
-      ]
-    },
-    {
-      "title": "The Pre-Market Rundown: June 29, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "盤前分析",
-        "Apple",
-        "經濟議題"
-      ]
-    },
-    {
-      "title": "For the Record: An Incomplete History of Music review – it’s amazing that this staggering show exists - The Guardian",
-      "sentiment": "neutral",
-      "key_points": [
-        "電視評論",
-        "音樂歷史",
-        "YouTube"
-      ]
-    },
-    {
-      "title": "Market Open: June 26, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "股市開盤",
-        "投資",
-        "加密貨幣"
-      ]
-    },
-    {
-      "title": "Apple’s Sweeping Price Increases Bring Home the Costs of the AI Era - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "Apple",
-        "價格上漲",
-        "AI時代成本"
-      ]
-    },
-    {
-      "title": "'Rubberz' by Fenix Flexin is going viral. But some people think it's AI - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": [
-        "AI音樂",
-        "Fenix Flexin",
-        "歌曲爆紅",
-        "藝人可信度"
-      ]
-    },
-    {
-      "title": "TikTok, iHeartMedia Embrace 'Phygital' For Upcoming Madonna Album 06/30/2026 - MediaPost",
-      "sentiment": "neutral",
-      "key_points": [
-        "TikTok",
-        "iHeartMedia",
-        "Madonna專輯",
-        "虛實整合行銷"
-      ]
-    },
-    {
-      "title": "‘The Bear’ Finale: I Hope You Saved Room for Cake - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "電視影集評論",
-        "劇情分析"
-      ]
-    },
-    {
-      "title": "Assenagon Asset Management S.A. Grows Position in Kinross Gold Corporation $KGC - MarketBeat",
-      "sentiment": "neutral",
-      "key_points": [
-        "投資",
-        "股票",
-        "資產管理"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, June 29th, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "出版業",
-        "印度新聞",
-        "圖書平台"
-      ]
-    },
-    {
-      "title": "SpaceX IPO Left Korea Broker With No Shares on Misunderstanding - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "SpaceX",
-        "IPO",
-        "韓國券商"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容"
+        "TIDAL針對AI音樂採取貨幣化政策",
+        "Spotify去年已修訂政策以標註AI音樂",
+        "串流音樂平台普遍應對AI生成內容帶來的挑戰"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260702_050015.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260702.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260703_044414.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260703.jpg"
 }
