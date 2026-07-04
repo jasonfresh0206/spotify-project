@@ -1,76 +1,395 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.3,
-    "neutral_ratio": 0.5
+    "positive_ratio": 0.1,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.7
   },
   "events": [
     {
-      "title": "Spotify要求預測市場平台下架其標誌",
-      "description": "Spotify發現有預測市場平台涉及操縱音樂排行榜，因此要求該平台移除其Spotify標誌，以維護內容公正性。",
+      "title": "Spotify打擊串流詐欺事件",
+      "description": "Spotify 因可疑的 Kalshi 賭注，刪除了約 50 萬首歌曲的串流數據，以打擊平台上的串流詐欺和播放量操縱行為。此事件主要影響獨立音樂，並引發了平台公平性的討論。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify實施AI音樂政策",
-      "description": "串流音樂業界普遍應對AI生成音樂的挑戰，Spotify去年已修訂政策以標註AI音樂並更好地管理相關內容。",
+      "title": "AI應用與App用戶體驗爭議",
+      "description": "Spotify 積極宣稱每日部署 4,500 次 AI 生產環境，但社群和網民普遍批評其 App 介面十年未有實質改善，甚至認為體驗變得更差，質疑 AI 成果未能有效轉化為用戶體驗提升。",
       "severity": "medium",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "title": "Spotify的創新粉絲行銷策略",
-      "description": "Spotify透過情境式廣告（例如在葛萊美獎前夕，於提名藝術家家鄉設置童年照片看板）來吸引粉絲參與，強化品牌與用戶的連結。",
+      "title": "分析師維持買入評級",
+      "description": "聯博集團維持對 Spotify Technology (SPOT.US) 的「買入」評級，並將目標價維持在 625 美元，顯示市場分析師對公司財務前景持樂觀態度。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "粉絲營銷活動「Reserved」",
+      "description": "Spotify 透過推出「Reserved」服務並進行創意廣告宣傳，旨在吸引粉絲，承諾提供更為優質和便捷的音樂體驗，以加強用戶互動與忠誠度。",
       "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "排行榜操縱",
-    "AI音樂",
-    "行銷策略",
-    "粉絲參與",
-    "串流平台"
+    "串流詐欺",
+    "AI",
+    "App體驗",
+    "播放量",
+    "Kalshi",
+    "獨立音樂",
+    "買入評級"
   ],
-  "daily_summary": "今日Spotify的輿情主要聚焦於其品牌形象維護與內容策略。Spotify因偵測到排行榜操縱而要求相關平台下架其標誌，展現了對內容公正性的重視。同時，Spotify也持續透過創新的情境式廣告吸引粉絲，並已實施AI音樂內容的相關政策，顯示其在行業趨勢中的積極應對。",
+  "daily_summary": "今日 Spotify 輿情主要聚焦於平台打擊串流詐欺的行動，因可疑賭注刪除了大量播放量，引發負面關注。同時，儘管 Spotify 宣稱大量應用 AI，卻面臨用戶對 App 體驗停滯甚至倒退的批評。然而，公司在財務面仍獲得分析師的買入評級。",
   "article_analyses": [
     {
-      "title": "Spotify要求預測市場平台下架其標誌，此前發現有人操縱排行榜 作者 Investing.com - Investing.com 香港",
+      "title": "Spotify因可疑賭注刪除50萬串流！獨立音樂引發風波",
       "sentiment": "negative",
       "key_points": [
-        "Spotify要求預測市場平台移除其標誌",
-        "發現有平台操縱音樂排行榜行為",
-        "Spotify採取行動維護音樂串流的公正性"
+        "Spotify刪除50萬串流",
+        "可疑賭注",
+        "串流詐欺",
+        "獨立音樂受影響"
       ]
     },
     {
-      "title": "Why Spotify believes the age of channel-first marketing is over - The Drum",
-      "sentiment": "neutral",
+      "title": "聯博集團維持Spotify Technology(SPOT.US)買入評級，維持目標價625美元",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify認為傳統渠道優先的行銷時代已結束",
-        "媒體內容、商業、娛樂和廣告之間的界線日益模糊",
-        "AI加速了行銷模式的轉變"
+        "聯博集團維持買入評級",
+        "Spotify Technology",
+        "目標價625美元"
+      ]
+    },
+    {
+      "title": "Spotify 標榜積極應用 AI 生產環境每日部署 4,500 次 網民狂轟：個 App 10 年未有改變",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify應用AI",
+        "每日部署4500次",
+        "網民批評App十年未變",
+        "用戶體驗不佳"
+      ]
+    },
+    {
+      "title": "一天部署4500次，然後呢？Anthropic與Spotify炫耀AI開發成果，社群反問「App 比以前更難用了」",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify炫耀AI成果",
+        "社群反問App更難用",
+        "AI開發與用戶體驗落差"
+      ]
+    },
+    {
+      "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify移除熱門歌曲串流",
+        "可疑Kalshi賭注",
+        "串流詐欺行為"
+      ]
+    },
+    {
+      "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify移除詐欺串流",
+        "可疑Kalshi賭注"
+      ]
+    },
+    {
+      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Flags Suspicious Malcolm Todd Numbers - Stereogum",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify確認串流詐欺",
+        "Kalshi交易員揭發",
+        "Malcolm Todd數據異常"
+      ]
+    },
+    {
+      "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation - Mashable",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify刪除50萬串流",
+        "Kalshi及Polymarket用戶操縱",
+        "預測市場問題"
+      ]
+    },
+    {
+      "title": "Spotify lowers play counts for hit songs amid allegations of cheating linked to prediction marketplace Kalshi gambling. - GIGAZINE",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify降低熱門歌曲播放量",
+        "Kalshi賭博作弊指控",
+        "打擊操縱播放量"
       ]
     },
     {
       "title": "Spotify Lures Fans to Reserved With a Promise: No More Extreme Lengths Necessary - ADWEEK",
       "sentiment": "positive",
       "key_points": [
-        "Spotify透過情境式廣告吸引粉絲",
-        "以葛萊美獎提名人為例進行宣傳活動",
-        "加強粉絲與音樂內容的連結和參與感"
+        "Spotify吸引粉絲",
+        "Reserved服務",
+        "創新營銷策略"
       ]
     },
     {
-      "title": "TIDAL cracks down on AI music by cutting off monetization - TechCrunch",
+      "title": "Ruling on Trans Athletes Gave the G.O.P. a Win. Most Democrats Looked the Other Way. - The New York Times",
       "sentiment": "neutral",
       "key_points": [
-        "TIDAL針對AI音樂採取貨幣化政策",
-        "Spotify去年已修訂政策以標註AI音樂",
-        "串流音樂平台普遍應對AI生成內容帶來的挑戰"
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40 - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Stevie Nicks Is Expected to Perform With Taylor Swift at MSG Wedding Celebration - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂產業名人新聞",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "提及預測市場",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Mamdani Is a Taylor Swift Fan. Here Are His Top 12 Songs. - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂品味分享",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Connections Companion No. 1,119 - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "‘Enola Holmes 3’ Review: A Kidnapping in Malta - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Taylor Swift spent two decades selling a fairy tale. Her wedding is the payoff. - Business Insider",
+      "sentiment": "neutral",
+      "key_points": [
+        "名人新聞與分析",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Today, In Short - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "$600,000 Homes in Washington, D.C., Colorado and Ohio - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "10 Numbers That Define 2026 So Far - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "串流與Podcast趨勢",
+        "非Spotify專屬"
+      ]
+    },
+    {
+      "title": "Wharton's Jeremy Siegel on Apple's price hikes: 'Technology's supposed to go down in price' - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple價格政策討論",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "The Pre-Market Rundown: June 29, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "市場預報",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Apple’s Sweeping Price Increases Bring Home the Costs of the AI Era - Bloomberg.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple與AI時代成本",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "TikTok, iHeartMedia Embrace 'Phygital' For Upcoming Madonna Album 06/30/2026 - MediaPost",
+      "sentiment": "neutral",
+      "key_points": [
+        "TikTok與iHeartMedia合作",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "‘The Bear’ Finale: I Hope You Saved Room for Cake - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "SpaceX IPO Left Korea Broker With No Shares on Misunderstanding - Bloomberg.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX IPO新聞",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "What to Stream: Rolling Stones, 'Little House on the Prairie' and 'Backrooms' - Greenwich Time",
+      "sentiment": "neutral",
+      "key_points": [
+        "一般串流內容推薦",
+        "非Spotify專屬"
+      ]
+    },
+    {
+      "title": "Weekend NewsDay | 27 June - Sky News Australia",
+      "sentiment": "neutral",
+      "key_points": [
+        "Sky News Australia串流服務",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Digital Banking Made Easy: The Best Apps and Features for Kids and Teens - CNET",
+      "sentiment": "neutral",
+      "key_points": [
+        "兒童/青少年數位銀行App",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "A new banger to add to your K-pop playlist. 🎧 Link to full story in the comment section. - facebook.com",
+      "sentiment": "positive",
+      "key_points": [
+        "K-pop播放清單",
+        "新音樂",
+        "用戶參與熱情"
+      ]
+    },
+    {
+      "title": "Meta Fury AI Glasses Review: The Worst Company Still Makes the Best Smart Glasses - Gizmodo",
+      "sentiment": "neutral",
+      "key_points": [
+        "Meta AI眼鏡評論",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Mrs. GREEN APPLE’s Two-Day ‘CEREMONY’ Show Celebrates Music With Fellow Artists and Audiences: Review - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂會評論",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "John Ross Bowie on ‘Stuart Fails to Save the Universe' & the perfect summer album - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "專輯推薦",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "It's Official: SpaceX To Join Nasdaq 100. Here's When It'll Join - Investor's Business Daily",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX納斯達克指數",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Watch CNBC's full interview with Bending Spoons CEO Luca Ferrari - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "公司CEO訪談",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Starlink satellite captures Starlink 'train' in amazing view from space - Yahoo",
+      "sentiment": "neutral",
+      "key_points": [
+        "Starlink衛星景象",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Welcome to The 7: Live! - The Washington Post",
+      "sentiment": "neutral",
+      "key_points": [
+        "華盛頓郵報新聞更新",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Assenagon Asset Management S.A. Grows Position in Kinross Gold Corporation $KGC - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "金融投資新聞",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "SpaceX Stock (SPCX): Will Russell 1000 Inclusion Reverse Its Post-IPO Slump? - Barron's",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX股票分析",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Trading 5.3% Higher - Still a Buy? - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "台積電股票分析",
+        "無直接Spotify相關內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260703_044414.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260703.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260704_043747.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260704.jpg"
 }
