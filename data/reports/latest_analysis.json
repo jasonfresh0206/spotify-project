@@ -1,74 +1,61 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.1,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.7
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.8,
+    "neutral_ratio": 0.0
   },
   "events": [
     {
-      "title": "串流播放詐欺與操縱事件",
-      "description": "多篇文章報導 Spotify 移除了數十萬次可疑的串流播放次數，因其與 Kalshi 等預測市場的投注操作有關，Spotify 已證實存在串流詐欺行為，並表示正積極打擊此類播放次數操縱以維護平台誠信。",
+      "title": "大規模串流詐騙與平台清理行動",
+      "description": "Spotify 偵測到並移除了與預測市場 Kalshi 和 Polymarket 相關的數十萬次可疑或詐欺性串流，特別是針對熱門歌曲（如 Malcolm Todd 的作品）。此舉旨在打擊串流計數操縱行為，維護平台公平性。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "App 使用者體驗下降引發社群不滿",
-      "description": "儘管 Spotify 積極發展 AI 技術並炫耀其開發成果，社群卻反饋 App 的使用體驗反而變得更差，引發了使用者對產品可用性的質疑。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "透過行銷活動吸引粉絲",
-      "description": "Spotify 透過精準的上下文廣告和向葛萊美獎新晉藝人致敬的活動，積極吸引並留住粉絲，展現其在行銷方面的努力。",
+      "title": "Spotify 行銷活動與藝人推廣",
+      "description": "Spotify 透過創意行銷活動吸引粉絲，例如在葛萊美獎前夕向最佳新人提名者致敬的看板廣告，展現其在藝人推廣上的努力。",
       "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "串流詐欺",
+    "Spotify",
+    "串流詐騙",
     "Kalshi",
-    "播放次數",
-    "App 使用體驗",
-    "AI 技術",
-    "音樂",
-    "行銷"
+    "Polymarket",
+    "串流計數",
+    "音樂串流",
+    "行銷活動",
+    "藝人推廣",
+    "平台操縱"
   ],
-  "daily_summary": "今日 Spotify 輿情主要受到串流播放詐欺事件的負面影響，多篇文章指出 Spotify 針對可疑的 Kalshi 預測市場操作進行播放次數移除。此外，儘管平台強調 AI 開發成果，社群仍對 App 的使用體驗表達不滿。整體而言，雖然 Spotify 亦有透過行銷活動吸引粉絲的正面消息，但負面討論仍佔主導地位。",
+  "daily_summary": "今日 Spotify 輿情主要聚焦於平台打擊大規模串流詐騙的行動，因數十萬次可疑串流被移除，凸顯了串流平台面臨的誠信挑戰。同時，Spotify 也透過創新行銷活動積極推廣藝人並吸引粉絲。",
   "article_analyses": [
-    {
-      "title": "一天部署4500次，然後呢？Anthropic與Spotify炫耀AI開發成果，社群反問「App 比以前更難用了」",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 炫耀 AI 開發成果",
-        "社群反饋 App 使用體驗下降",
-        "使用者認為 App 比以前更難用"
-      ]
-    },
     {
       "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 移除榜首歌曲的串流播放次數",
-        "因涉嫌 Kalshi 預測市場可疑投注",
-        "打擊播放次數操縱行為"
+        "Spotify 移除熱門歌曲串流",
+        "涉及可疑的 Kalshi 賭注",
+        "打擊串流計數操縱"
       ]
     },
     {
       "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 移除詐欺性串流播放",
-        "與 Kalshi 可疑投注有關",
-        "打擊平台上的操縱行為"
+        "Spotify 移除詐欺性串流",
+        "與可疑的 Kalshi 賭注相關",
+        "應對平台操縱行為"
       ]
     },
     {
       "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Flags Suspicious Malcolm Todd Numbers - Stereogum",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 證實串流詐欺",
-        "Kalshi 交易員標記 Malcolm Todd 歌曲數據可疑",
-        "保護平台數據真實性"
+        "Spotify 證實串流詐騙",
+        "Kalshi 交易員指出 Malcolm Todd 數據可疑",
+        "平台處理欺詐行為"
       ]
     },
     {
@@ -76,279 +63,29 @@
       "sentiment": "negative",
       "key_points": [
         "Spotify 刪除 50 萬次熱門歌曲串流",
-        "涉嫌 Kalshi 和 Polymarket 使用者操縱",
-        "預測市場面臨內幕交易和市場操縱問題"
+        "疑為 Kalshi 和 Polymarket 用戶操縱",
+        "預測市場導致市場操縱問題"
       ]
     },
     {
       "title": "Spotify lowers play counts for hit songs amid allegations of cheating linked to prediction marketplace Kalshi gambling. - GIGAZINE",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 調降熱門歌曲播放次數",
-        "因涉嫌與預測市場 Kalshi 賭博相關的作弊行為",
-        "Spotify 強調打擊操縱播放的行業領先標準"
+        "Spotify 調低熱門歌曲播放次數",
+        "涉嫌與 Kalshi 預測市場賭博作弊有關",
+        "平台致力於打擊操縱性播放"
       ]
     },
     {
       "title": "Spotify Lures Fans to Reserved With a Promise: No More Extreme Lengths Necessary - ADWEEK",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 透過行銷活動吸引粉絲",
-        "運用情境式廣告",
-        "向葛萊美獎新晉藝人致敬"
-      ]
-    },
-    {
-      "title": "Ruling on Trans Athletes Gave the G.O.P. a Win. Most Democrats Looked the Other Way. - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般政治新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40 - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般國際新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Funeral Procession for Khamenei Will Visit 5 Cities in Iran and Iraq - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般國際新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Stevie Nicks Is Expected to Perform With Taylor Swift at MSG Wedding Celebration - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般娛樂新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "綜合科技及社會新聞",
-        "間接提及預測市場，但非 Spotify 核心議題"
-      ]
-    },
-    {
-      "title": "Mamdani Is a Taylor Swift Fan. Here Are His Top 12 Songs. - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般娛樂新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Connections Companion No. 1,119 - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "‘Enola Holmes 3’ Review: A Kidnapping in Malta - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般電影評論",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Taylor Swift spent two decades selling a fairy tale. Her wedding is the payoff. - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "名人與娛樂分析",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "As Xi Looks to Extend His Rule, He Leans on a Longtime Ally - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般國際政治新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Today, In Short - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般新聞摘要",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "$600,000 Homes in Washington, D.C., Colorado and Ohio - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般房地產新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "10 Numbers That Define 2026 So Far - Forbes",
-      "sentiment": "neutral",
-      "key_points": [
-        "2026 年趨勢數據",
-        "提及播客增長和串流媒體主導地位，但非 Spotify 獨有",
-        "廣泛的行業觀察"
-      ]
-    },
-    {
-      "title": "The Pre-Market Rundown: June 29, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般財經市場分析",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Apple’s Sweeping Price Increases Bring Home the Costs of the AI Era - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Apple 的新聞",
-        "提及 AI 時代成本，但非 Spotify 相關"
-      ]
-    },
-    {
-      "title": "TikTok, iHeartMedia Embrace 'Phygital' For Upcoming Madonna Album 06/30/2026 - MediaPost",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 TikTok 和 iHeartMedia 的行銷活動",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "SpaceX IPO Left Korea Broker With No Shares on Misunderstanding - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "What to Stream: Rolling Stones, 'Little House on the Prairie' and 'Backrooms' - Greenwich Time",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般串流內容推薦",
-        "未明確提及 Spotify"
-      ]
-    },
-    {
-      "title": "Digital Banking Made Easy: The Best Apps and Features for Kids and Teens - CNET",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般科技產品評論與指南",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "A new banger to add to your K-pop playlist. 🎧 Link to full story in the comment section. - facebook.com",
-      "sentiment": "positive",
-      "key_points": [
-        "推廣 K-pop 新歌",
-        "鼓勵用戶建立播放列表",
-        "提升音樂內容參與度"
-      ]
-    },
-    {
-      "title": "Meta Fury AI Glasses Review: The Worst Company Still Makes the Best Smart Glasses - Gizmodo",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Meta AI 眼鏡的評論",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "AOL and Eventbrite owner Bending Spoons jumps on Nasdaq debut - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於其他公司上市的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Mrs. GREEN APPLE’s Two-Day ‘CEREMONY’ Show Celebrates Music With Fellow Artists and Audiences: Review - Billboard",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般音樂團體演唱會評論",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "John Ross Bowie on ‘Stuart Fails to Save the Universe' & the perfect summer album - NBC New York",
-      "sentiment": "neutral",
-      "key_points": [
-        "一般娛樂新聞與音樂專輯推薦",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "SpaceX Stock Is Joining the Nasdaq 100 Soon. What History Says Happens Next. - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 股票的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Starlink satellite captures Starlink 'train' in amazing view from space - Yahoo",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Starlink 衛星的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Welcome to The 7: Live! - The Washington Post",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於華盛頓郵報內部變革的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "SpaceX Stock (SPCX): Will Russell 1000 Inclusion Reverse Its Post-IPO Slump? - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 SpaceX 股票的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "Steam Week in Review: Steam sales are the best time to hoard dozens of forgotten '90s PC gaming oddities - pcgamer.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於 Steam 遊戲平台的新聞",
-        "未提及 Spotify 相關內容"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容文章",
-        "無法判斷與 Spotify 相關性"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容文章",
-        "無法判斷與 Spotify 相關性"
+        "Spotify 透過行銷吸引粉絲",
+        "向葛萊美獎最佳新人提名者致敬",
+        "採用情境式廣告策略"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260705_045917.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260705.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260706_051426.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260706.jpg"
 }
