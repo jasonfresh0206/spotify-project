@@ -1,91 +1,393 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.8,
-    "neutral_ratio": 0.0
+    "positive_ratio": 0.1,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.8
   },
   "events": [
     {
-      "title": "大規模串流詐騙與平台清理行動",
-      "description": "Spotify 偵測到並移除了與預測市場 Kalshi 和 Polymarket 相關的數十萬次可疑或詐欺性串流，特別是針對熱門歌曲（如 Malcolm Todd 的作品）。此舉旨在打擊串流計數操縱行為，維護平台公平性。",
+      "title": "環球音樂出售部分Spotify股份並落實「泰勒絲條款」",
+      "description": "環球音樂集團出售部分Spotify持股，並依照泰勒絲2018年合約中的「不可回收」條款，將部分收益分配給旗下藝人，確保藝人分潤。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify免費用戶功能全面解放",
+      "description": "Spotify免費帳號用戶迎來重大更新，可直接選歌、搜尋播放，甚至一鍵分享，大幅提升免費使用體驗。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify攜手Live Nation推演唱會優先購票引發爭議",
+      "description": "Spotify與Live Nation合作，根據用戶聆聽數據提供演唱會優先購票權，旨在打擊黃牛，但因評選標準不透明引發公平性與市場壟斷的爭議。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Spotify新增Podcast評論功能",
+      "description": "Spotify為Podcast節目加入了評論功能，此舉旨在擴大平台用戶間的互動性，並朝著成為專注於音樂的社群平台邁進。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify全球多地區調漲訂閱價格",
+      "description": "Spotify計畫在美國以外的數十個地區調漲訂閱費用，例如歐洲地區的月費將調漲37元，以應對「串流2.0」時代的成本壓力。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 行銷活動與藝人推廣",
-      "description": "Spotify 透過創意行銷活動吸引粉絲，例如在葛萊美獎前夕向最佳新人提名者致敬的看板廣告，展現其在藝人推廣上的努力。",
-      "severity": "low",
+      "title": "Spotify爆發大規模資料盜取事件",
+      "description": "開源資料平台Anna's Archive指出，一個盜版行動團體正在爬取並釋出大量來自Spotify的音樂資料，包含逾2億筆曲目中繼資料與數千萬個音訊檔，引發資安疑慮。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify獨家簽下播客主持人Joe Rogan",
+      "description": "Spotify以1億美元的價格與知名播客節目《The Joe Rogan Experience》簽署多年獨家協議，該節目將於今年9月起獨家上線Spotify。",
+      "severity": "medium",
       "sentiment": "positive"
+    },
+    {
+      "title": "獨立音樂人發起「Spotify去死」行動",
+      "description": "美國奧克蘭的獨立音樂人響應「Spotify去死」行動，抗議Spotify的低分潤制度、串流演算法控制以及軍事投資爭議，呼籲拒絕演算法和版稅剝削。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify移除詐欺性串流歌曲",
+      "description": "Spotify移除了因可疑的Kalshi投注平台活動而產生詐欺性串流的歌曲，以維護平台內容的公平性和誠信。",
+      "severity": "medium",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "串流詐騙",
-    "Kalshi",
-    "Polymarket",
-    "串流計數",
-    "音樂串流",
-    "行銷活動",
-    "藝人推廣",
-    "平台操縱"
+    "免費帳號",
+    "訂閱價格",
+    "藝人收益",
+    "播客",
+    "資料盜取",
+    "演唱會",
+    "泰勒絲條款",
+    "串流",
+    "社群功能",
+    "演算法",
+    "資安"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於平台打擊大規模串流詐騙的行動，因數十萬次可疑串流被移除，凸顯了串流平台面臨的誠信挑戰。同時，Spotify 也透過創新行銷活動積極推廣藝人並吸引粉絲。",
+  "daily_summary": "今日Spotify的輿情呈現兩極化，一方面有免費帳號功能解放與Podcast評論功能上線等利好消息，增強了用戶體驗和社群互動。但另一方面，訂閱價格調漲、大規模資料盜取事件以及獨立音樂人對低分潤制度的抗議，引發了用戶不滿與平台信任危機。此外，與Live Nation的優先購票合作也因公平性問題而備受爭議。",
   "article_analyses": [
     {
-      "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
+      "title": "AI摘要掏空媒體，陷零點擊「死亡螺旋」？Spotify模式能救新聞業嗎？",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討AI摘要對媒體業的衝擊",
+        "Spotify模式被提出作為新聞業潛在解決方案"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益",
+      "sentiment": "positive",
+      "key_points": [
+        "環球音樂出售Spotify持股",
+        "將部分收益分配給旗下藝人",
+        "落實泰勒絲條約確保藝人分潤"
+      ]
+    },
+    {
+      "title": "想聽哪首就點哪首！Spotify免費帳號全面解放 台灣音樂市場面臨新挑戰 | 張啟敏 | 全解析",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify免費帳號功能全面解放",
+        "用戶可直接選歌、搜尋播放",
+        "對台灣音樂市場產生新挑戰"
+      ]
+    },
+    {
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Live Nation合作推優先購票",
+        "購票權基於聆聽數據",
+        "引發評選標準不透明及市場壟斷爭議"
+      ]
+    },
+    {
+      "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify新增Podcast評論功能",
+        "旨在擴大用戶互動並打造音樂社群"
+      ]
+    },
+    {
+      "title": "Spotify將在美國以外地區調漲訂閱價格 歐洲漲37元",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 移除熱門歌曲串流",
-        "涉及可疑的 Kalshi 賭注",
-        "打擊串流計數操縱"
+        "Spotify計畫在美國以外地區調漲訂閱價格",
+        "歐洲地區漲價37元"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify免費用戶升級，解禁三大功能",
+        "用戶可直接選歌、搜尋播放、一鍵分享"
+      ]
+    },
+    {
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify發生大規模資料盜取事件",
+        "逾2億筆曲目中繼資料與數千萬音訊檔被爬取"
+      ]
+    },
+    {
+      "title": "Spotify第一季財報超越每股盈餘預期,股價卻下跌 作者 Investing.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify Q1財報每股盈餘超預期",
+        "營收超出預期",
+        "股價下跌"
+      ]
+    },
+    {
+      "title": "Spotify以1億美元獨家簽下播客主持人Joe Rogan",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify與Joe Rogan簽署1億美元獨家播客協議"
+      ]
+    },
+    {
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度",
+      "sentiment": "negative",
+      "key_points": [
+        "獨立音樂人抗議Spotify低分潤",
+        "質疑串流演算法控制與軍事投資爭議"
+      ]
+    },
+    {
+      "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify移除因可疑Kalshi投注而產生詐欺性串流的歌曲"
       ]
     },
     {
       "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 移除詐欺性串流",
-        "與可疑的 Kalshi 賭注相關",
-        "應對平台操縱行為"
+        "Spotify移除詐欺性串流",
+        "與可疑的Kalshi投注有關"
       ]
     },
     {
       "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Flags Suspicious Malcolm Todd Numbers - Stereogum",
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 證實串流詐騙",
-        "Kalshi 交易員指出 Malcolm Todd 數據可疑",
-        "平台處理欺詐行為"
+        "Spotify證實有串流詐欺行為",
+        "因Kalshi交易員指出可疑的Malcolm Todd數字"
       ]
     },
     {
-      "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation - Mashable",
-      "sentiment": "negative",
+      "title": "Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama - The New York Times",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 刪除 50 萬次熱門歌曲串流",
-        "疑為 Kalshi 和 Polymarket 用戶操縱",
-        "預測市場導致市場操縱問題"
+        "關於Fable禁令、AI育兒、預測市場的綜合新聞",
+        "與 Spotify 無直接關聯"
       ]
     },
     {
-      "title": "Spotify lowers play counts for hit songs amid allegations of cheating linked to prediction marketplace Kalshi gambling. - GIGAZINE",
-      "sentiment": "negative",
+      "title": "Ruling on Trans Athletes Gave the G.O.P. a Win. Most Democrats Looked the Other Way. - The New York Times",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 調低熱門歌曲播放次數",
-        "涉嫌與 Kalshi 預測市場賭博作弊有關",
-        "平台致力於打擊操縱性播放"
+        "關於跨性別運動員的政治新聞",
+        "與 Spotify 無直接關聯"
       ]
     },
     {
-      "title": "Spotify Lures Fans to Reserved With a Promise: No More Extreme Lengths Necessary - ADWEEK",
-      "sentiment": "positive",
+      "title": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40 - The New York Times",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 透過行銷吸引粉絲",
-        "向葛萊美獎最佳新人提名者致敬",
-        "採用情境式廣告策略"
+        "巴基斯坦巴士墜谷事件新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "From Haiti to Venezuela, Quakes Reveal Shift in U.S. Relief Efforts - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於海地和委內瑞拉地震救援的新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Funeral Procession for Khamenei Will Visit 5 Cities in Iran and Iraq - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於哈梅內伊葬禮遊行的新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Stevie Nicks Is Expected to Perform With Taylor Swift at MSG Wedding Celebration - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於Stevie Nicks與Taylor Swift可能在婚禮表演的新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Connections Companion No. 1,119 - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "紐約時報Connections遊戲相關內容",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Mamdani Is a Taylor Swift Fan. Here Are His Top 12 Songs. - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於Mamdani喜歡Taylor Swift及其歌曲列表",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "What to Stream: Rolling Stones, 'Little House on the Prairie' and 'Backrooms' - Greenwich Time",
+      "sentiment": "neutral",
+      "key_points": [
+        "推薦串流內容，提及滾石樂團等",
+        "與 Spotify 無直接關聯，為一般性串流內容推薦"
+      ]
+    },
+    {
+      "title": "‘Enola Holmes 3’ Review: A Kidnapping in Malta - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "電影《Enola Holmes 3》影評",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "As Xi Looks to Extend His Rule, He Leans on a Longtime Ally - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於習近平延長統治的新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "$600,000 Homes in Washington, D.C., Colorado and Ohio - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於華盛頓、科羅拉多、俄亥俄州房產的新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "FUKOKU MUTUAL LIFE INSURANCE Co Increases Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "富國生命保險增持台積電股票",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "AOL and Eventbrite owner Bending Spoons jumps on Nasdaq debut - Financial Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "AOL和Eventbrite母公司Bending Spoons在納斯達克上市新聞",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Reclaiming the lost art of listening to music - CBS News",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討找回傳統音樂聆聽方式",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "John Ross Bowie on ‘Stuart Fails to Save the Universe' & the perfect summer album - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "關於演員John Ross Bowie的訪談",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Hudson Edge Investment Partners Inc. Increases Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "Hudson Edge增持台積電股票",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "SpaceX Stock Is Joining the Nasdaq 100 Soon. What History Says Happens Next. - Barron's",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX股票將加入納斯達克100指數",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Starlink satellite captures Starlink 'train' in amazing view from space - Yahoo",
+      "sentiment": "neutral",
+      "key_points": [
+        "星鏈衛星在太空中捕獲星鏈列車的影像",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "The Rolling Stones keep the tunes coming: best podcasts of the week - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "推薦本週最佳播客，提及滾石樂團",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "Welcome to The 7: Live! - The Washington Post",
+      "sentiment": "neutral",
+      "key_points": [
+        "華盛頓郵報新節目《The 7: Live!》介紹",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "SpaceX IPO Left Korea Broker With No Shares on Misunderstanding - Bloomberg.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "SpaceX IPO導致韓國經紀商因誤解而未獲配股",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "BRAI News Today | Why did Braiin stock go up today? $BRAI - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "Braiin股票上漲原因分析",
+        "與 Spotify 無直接關聯"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容文章"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容文章"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260706_051426.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260706.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260707_045516.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260707.jpg"
 }
