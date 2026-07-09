@@ -1,92 +1,150 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.0,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.9
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.4,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify 移除與預測市場相關的詐欺性串流播放量",
-      "description": "Spotify 證實其平台上存在串流播放量詐欺行為，並已移除數十萬次異常播放量。這些詐欺行為與預測市場平台 Kalshi 和 Polymarket 上的可疑下注活動有關，其中一名交易員指出藝人 Malcolm Todd 的播放數字異常。Spotify 表示已降低受影響歌曲的播放量，並重申其業界領先的標準，以偵測和打擊操控播放量的行為，且不會支付與這些操控相關的版稅。",
+      "title": "音樂庫釘選上限提高與桌面版功能更新",
+      "description": "Spotify推出超實用更新，將音樂庫釘選上限提高至20個，並支援免費版用戶，同時桌面版也新增了釘選功能，提升用戶體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "串流播放次數欺詐及Kalshi賭注操縱事件",
+      "description": "Spotify發現並移除了數十萬次因涉嫌Kalshi預測市場賭博和Polymarket用戶操縱導致的欺詐性串流播放次數，強調其打擊播放量作弊的決心，此事件對平台誠信造成負面影響。",
       "severity": "high",
       "sentiment": "negative"
+    },
+    {
+      "title": "第三方工具SpotMate提供免費歌曲下載",
+      "description": "名為SpotMate的第三方工具聲稱可讓用戶免費下載Spotify歌曲並離線收聽，繞過Premium訂閱限制，可能對Spotify的付費模式構成潛在威脅。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify董事售股",
+      "description": "Spotify Technology的一名董事售出了價值約996.75萬美元的普通股股份。",
+      "severity": "low",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "串流詐欺",
-    "播放量",
+    "串流欺詐",
     "Kalshi",
-    "預測市場",
-    "Malcolm Todd",
-    "音樂操縱"
+    "音樂庫釘選",
+    "免費下載",
+    "Premium"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於平台上的串流播放量詐欺事件。Spotify 證實已針對與預測市場 Kalshi 相關的可疑下注行為，移除了數十萬次詐欺性播放量，此舉引發了外界對平台內容真實性的關注。Spotify 重申其打擊操控播放量的承諾，以維護平台的公平性與創作者的權益。",
+  "daily_summary": "今日Spotify輿情呈兩極化趨勢：正面消息來自音樂庫釘選功能上限提高等實用更新，提升了用戶體驗。然而，負面消息主導討論，聚焦於平台內發生的數十萬次串流播放次數欺詐，這些作弊行為與預測市場Kalshi賭注操縱有關，Spotify已採取行動移除相關串流以維護平台誠信。此外，一款允許免費下載歌曲的第三方工具SpotMate的出現，也引發了對Premium訂閱模式潛在威脅的關注。",
   "article_analyses": [
+    {
+      "title": "Spotify超實用更新！音樂庫釘選上限提高至20個 免費版也有",
+      "sentiment": "positive",
+      "key_points": [
+        "音樂庫釘選上限提高至20個",
+        "免費版用戶亦可使用"
+      ]
+    },
+    {
+      "title": "Spotify Technology(SPOT.US)董事售出2.08萬股普通股股份，價值約996.75萬美元",
+      "sentiment": "neutral",
+      "key_points": [
+        "董事售出股份",
+        "價值約996.75萬美元"
+      ]
+    },
+    {
+      "title": "SpotMate 免費下載 Spotify 歌曲，離線聽歌唔使再煩 Premium",
+      "sentiment": "negative",
+      "key_points": [
+        "SpotMate工具提供免費下載Spotify歌曲",
+        "繞過Premium訂閱離線收聽"
+      ]
+    },
     {
       "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 移除串流播放量",
-        "懷疑與 Kalshi 賭注有關",
-        "針對熱門歌曲的行為"
+        "移除冠軍歌曲串流",
+        "涉嫌可疑Kalshi賭注",
+        "串流欺詐"
+      ]
+    },
+    {
+      "title": "Spotify added this 'most requested' update - USA Today",
+      "sentiment": "positive",
+      "key_points": [
+        "新增「最受歡迎」更新",
+        "桌面版釘選功能"
       ]
     },
     {
       "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 移除詐欺性串流",
-        "涉及可疑的 Kalshi 賭注",
-        "科技新聞報導此事件"
+        "移除欺詐性串流",
+        "可疑Kalshi賭注"
       ]
     },
     {
       "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Flags Suspicious Malcolm Todd Numbers - Stereogum",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 證實串流詐欺",
-        "Kalshi 交易員指出 Malcolm Todd 數字可疑",
-        "音樂故事與八卦的綜合報導"
+        "確認串流欺詐",
+        "Kalshi交易員揭發Malcolm Todd歌曲數據異常"
       ]
     },
     {
       "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation - Mashable",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 刪除 50 萬次流行歌曲播放量",
-        "懷疑為 Kalshi 和 Polymarket 用戶操縱",
-        "預測市場的普及及其操縱問題"
+        "刪除50萬次熱門歌曲串流",
+        "涉嫌Kalshi和Polymarket用戶操縱"
       ]
     },
     {
       "title": "Spotify lowers play counts for hit songs amid allegations of cheating linked to prediction marketplace Kalshi gambling. - GIGAZINE",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 降低熱門歌曲播放量",
-        "涉及與預測市場 Kalshi 賭博相關的作弊指控",
-        "Spotify 表示不支付與操控播放量相關的版稅"
+        "降低熱門歌曲播放次數",
+        "涉嫌Kalshi賭博作弊",
+        "強調防作弊標準"
       ]
     },
     {
       "title": "Reclaiming the lost art of listening to music - CBS News",
       "sentiment": "neutral",
       "key_points": [
-        "探討數位音樂時代的聽音樂方式",
-        "提及串流與模擬聽音趨勢",
-        "未直接評論 Spotify 平台營運"
+        "探討數位音樂與類比音樂的聆聽習慣",
+        "Spotify作為數位音樂平台之一"
       ]
     },
     {
-      "title": "10 Numbers That Define 2026 So Far - Forbes",
+      "title": "Famed permabear warns SpaceX IPO could be laughed at in 50 years, 'craziest' market bet for Main Street - Fox Business",
       "sentiment": "neutral",
       "key_points": [
-        "提及播客聽眾增加",
-        "串流媒體主導趨勢",
-        "未直接評論 Spotify 平台營運"
+        "Fox Business內容在Spotify上可聽"
+      ]
+    },
+    {
+      "title": "2026-07-11 - Billboard Canada",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導提及串流科技",
+        "Spotify是串流產業一員"
+      ]
+    },
+    {
+      "title": "The Rolling Stones keep the tunes coming: best podcasts of the week - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "介紹播客",
+        "Spotify是播客播放平台之一"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260708_041620.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260708.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260709_045620.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260709.jpg"
 }
