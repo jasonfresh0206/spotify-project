@@ -1,150 +1,120 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.4,
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.2,
     "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "音樂庫釘選上限提高與桌面版功能更新",
-      "description": "Spotify推出超實用更新，將音樂庫釘選上限提高至20個，並支援免費版用戶，同時桌面版也新增了釘選功能，提升用戶體驗。",
+      "title": "利好投資評級與股價展望",
+      "description": "Wells Fargo和富瑞集團等金融機構紛紛維持Spotify的「增持」或「買入」評級，並給予高達600美元的目標價，顯示市場對Spotify的投資前景持樂觀態度。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "串流播放次數欺詐及Kalshi賭注操縱事件",
-      "description": "Spotify發現並移除了數十萬次因涉嫌Kalshi預測市場賭博和Polymarket用戶操縱導致的欺詐性串流播放次數，強調其打擊播放量作弊的決心，此事件對平台誠信造成負面影響。",
+      "title": "推出備受要求的新釘選功能",
+      "description": "Spotify為其桌面和行動應用程式推出了廣受使用者期待的「釘選」功能，允許用戶在資料庫中快速存取喜愛的內容，顯著改善了使用者體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "移除詐欺性串流與打擊市場操縱",
+      "description": "Spotify移除了數十萬次被懷疑與Kalshi和Polymarket等預測市場操縱相關的詐欺性串流播放，此舉旨在維護平台公平性和內容真實性，但事件本身暴露出平台可能被濫用的問題。",
       "severity": "high",
       "sentiment": "negative"
-    },
-    {
-      "title": "第三方工具SpotMate提供免費歌曲下載",
-      "description": "名為SpotMate的第三方工具聲稱可讓用戶免費下載Spotify歌曲並離線收聽，繞過Premium訂閱限制，可能對Spotify的付費模式構成潛在威脅。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Spotify董事售股",
-      "description": "Spotify Technology的一名董事售出了價值約996.75萬美元的普通股股份。",
-      "severity": "low",
-      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "串流欺詐",
-    "Kalshi",
-    "音樂庫釘選",
-    "免費下載",
-    "Premium"
+    "投資評級",
+    "股票目標價",
+    "新功能",
+    "釘選功能",
+    "使用者體驗",
+    "詐欺性串流",
+    "市場操縱",
+    "預測市場",
+    "類比音樂",
+    "聆聽習慣"
   ],
-  "daily_summary": "今日Spotify輿情呈兩極化趨勢：正面消息來自音樂庫釘選功能上限提高等實用更新，提升了用戶體驗。然而，負面消息主導討論，聚焦於平台內發生的數十萬次串流播放次數欺詐，這些作弊行為與預測市場Kalshi賭注操縱有關，Spotify已採取行動移除相關串流以維護平台誠信。此外，一款允許免費下載歌曲的第三方工具SpotMate的出現，也引發了對Premium訂閱模式潛在威脅的關注。",
+  "daily_summary": "今日Spotify輿情呈兩極分化。正面消息包括多家金融機構維持其積極的投資評級，以及推出了備受好評的使用者釘選新功能，提升了使用者體驗。然而，Spotify也面臨移除數十萬次與預測市場操縱相關的詐欺性串流的挑戰，顯示其平台內容管理機制的重要性。此外，也有報導討論類比音樂回歸與數位串流的對比，反映了部分用戶對更專注聆聽體驗的需求。",
   "article_analyses": [
     {
-      "title": "Spotify超實用更新！音樂庫釘選上限提高至20個 免費版也有",
+      "title": "Spotify Technology Is Maintained at Overweight by Wells Fargo",
       "sentiment": "positive",
       "key_points": [
-        "音樂庫釘選上限提高至20個",
-        "免費版用戶亦可使用"
+        "Wells Fargo維持Spotify的「增持」評級",
+        "顯示對公司未來發展的信心"
       ]
     },
     {
-      "title": "Spotify Technology(SPOT.US)董事售出2.08萬股普通股股份，價值約996.75萬美元",
-      "sentiment": "neutral",
+      "title": "富瑞集團維持Spotify Technology(SPOT.US)買入評級，維持目標價600美元",
+      "sentiment": "positive",
       "key_points": [
-        "董事售出股份",
-        "價值約996.75萬美元"
-      ]
-    },
-    {
-      "title": "SpotMate 免費下載 Spotify 歌曲，離線聽歌唔使再煩 Premium",
-      "sentiment": "negative",
-      "key_points": [
-        "SpotMate工具提供免費下載Spotify歌曲",
-        "繞過Premium訂閱離線收聽"
-      ]
-    },
-    {
-      "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets - CBS News",
-      "sentiment": "negative",
-      "key_points": [
-        "移除冠軍歌曲串流",
-        "涉嫌可疑Kalshi賭注",
-        "串流欺詐"
+        "富瑞集團維持Spotify「買入」評級",
+        "目標價設定為600美元，看好股價潛力"
       ]
     },
     {
       "title": "Spotify added this 'most requested' update - USA Today",
       "sentiment": "positive",
       "key_points": [
-        "新增「最受歡迎」更新",
-        "桌面版釘選功能"
+        "推出備受要求的新功能：在資料庫中釘選項目",
+        "改善桌面及行動應用程式的使用者體驗"
       ]
     },
     {
       "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
       "sentiment": "negative",
       "key_points": [
-        "移除欺詐性串流",
-        "可疑Kalshi賭注"
+        "Spotify移除了詐欺性串流播放",
+        "事件涉及可疑的Kalshi預測市場賭注",
+        "打擊平台上的市場操縱行為"
       ]
     },
     {
-      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Flags Suspicious Malcolm Todd Numbers - Stereogum",
-      "sentiment": "negative",
+      "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
+      "sentiment": "positive",
       "key_points": [
-        "確認串流欺詐",
-        "Kalshi交易員揭發Malcolm Todd歌曲數據異常"
+        "Spotify根據使用者回饋推出了高度要求的功能",
+        "持續改進產品以提升使用者滿意度"
       ]
     },
     {
       "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation - Mashable",
       "sentiment": "negative",
       "key_points": [
-        "刪除50萬次熱門歌曲串流",
-        "涉嫌Kalshi和Polymarket用戶操縱"
+        "Spotify刪除了50萬次串流播放",
+        "懷疑與Kalshi及Polymarket使用者操縱相關",
+        "維護平台內容的真實性與公平性"
       ]
     },
     {
-      "title": "Spotify lowers play counts for hit songs amid allegations of cheating linked to prediction marketplace Kalshi gambling. - GIGAZINE",
-      "sentiment": "negative",
+      "title": "The Newest Way to Go Analog - The Atlantic",
+      "sentiment": "neutral",
       "key_points": [
-        "降低熱門歌曲播放次數",
-        "涉嫌Kalshi賭博作弊",
-        "強調防作弊標準"
+        "探討類比音樂回歸的趨勢",
+        "部分使用者尋求更專注的音樂聆聽體驗",
+        "將Spotify作為與類比聆聽方式對比的數位平台"
+      ]
+    },
+    {
+      "title": "Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章提及預測市場爭議",
+        "與Spotify處理詐欺性串流事件的背景有所關聯"
       ]
     },
     {
       "title": "Reclaiming the lost art of listening to music - CBS News",
       "sentiment": "neutral",
       "key_points": [
-        "探討數位音樂與類比音樂的聆聽習慣",
-        "Spotify作為數位音樂平台之一"
-      ]
-    },
-    {
-      "title": "Famed permabear warns SpaceX IPO could be laughed at in 50 years, 'craziest' market bet for Main Street - Fox Business",
-      "sentiment": "neutral",
-      "key_points": [
-        "Fox Business內容在Spotify上可聽"
-      ]
-    },
-    {
-      "title": "2026-07-11 - Billboard Canada",
-      "sentiment": "neutral",
-      "key_points": [
-        "報導提及串流科技",
-        "Spotify是串流產業一員"
-      ]
-    },
-    {
-      "title": "The Rolling Stones keep the tunes coming: best podcasts of the week - The Guardian",
-      "sentiment": "neutral",
-      "key_points": [
-        "介紹播客",
-        "Spotify是播客播放平台之一"
+        "探討重新發掘聆聽音樂樂趣的趨勢",
+        "比較數位與類比聆聽方式的差異",
+        "暗示對深度音樂體驗的需求超越單純的便利性"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260709_045620.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260709.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260710_045430.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260710.jpg"
 }
