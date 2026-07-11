@@ -1,120 +1,454 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.4,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.4
+    "positive_ratio": 0.1,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.9
   },
   "events": [
     {
-      "title": "利好投資評級與股價展望",
-      "description": "Wells Fargo和富瑞集團等金融機構紛紛維持Spotify的「增持」或「買入」評級，並給予高達600美元的目標價，顯示市場對Spotify的投資前景持樂觀態度。",
+      "title": "Spotify Release Radar功能更新與自訂選項提升",
+      "description": "Spotify更新了其「Release Radar」功能，加入了新的篩選選項，大幅提升了用戶自訂每週推薦音樂的體驗，受到多篇報導正面評價。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "推出備受要求的新釘選功能",
-      "description": "Spotify為其桌面和行動應用程式推出了廣受使用者期待的「釘選」功能，允許用戶在資料庫中快速存取喜愛的內容，顯著改善了使用者體驗。",
+      "title": "Spotify推出備受期待的「釘選」功能",
+      "description": "Spotify回應用戶多年來的反饋，推出了允許用戶釘選內容至程式庫頂端的功能，顯著改善了用戶在桌面和行動應用上的音樂管理體驗。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "移除詐欺性串流與打擊市場操縱",
-      "description": "Spotify移除了數十萬次被懷疑與Kalshi和Polymarket等預測市場操縱相關的詐欺性串流播放，此舉旨在維護平台公平性和內容真實性，但事件本身暴露出平台可能被濫用的問題。",
-      "severity": "high",
-      "sentiment": "negative"
+      "title": "UBS Securities對Spotify財務表現及評級調整",
+      "description": "UBS Securities預期Spotify第二季度業績將「大致符合」其指引，並維持「買入」評級，但將目標價下調至690美元，顯示市場對其財務狀況保持中性但略帶審慎的態度。",
+      "severity": "low",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美國藝術家在Spotify上的主導地位及串流趨勢",
+      "description": "報導指出在美國國慶期間，美國藝術家（特別是泰勒絲）在Spotify上的串流表現強勁，專輯創下單日串流紀錄，顯示平台在音樂消費趨勢中的重要性。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "投資評級",
-    "股票目標價",
+    "Release Radar",
     "新功能",
+    "音樂推薦",
+    "自訂功能",
+    "用戶體驗",
     "釘選功能",
-    "使用者體驗",
-    "詐欺性串流",
-    "市場操縱",
-    "預測市場",
-    "類比音樂",
-    "聆聽習慣"
+    "財務評級",
+    "串流",
+    "美國藝術家",
+    "專輯紀錄"
   ],
-  "daily_summary": "今日Spotify輿情呈兩極分化。正面消息包括多家金融機構維持其積極的投資評級，以及推出了備受好評的使用者釘選新功能，提升了使用者體驗。然而，Spotify也面臨移除數十萬次與預測市場操縱相關的詐欺性串流的挑戰，顯示其平台內容管理機制的重要性。此外，也有報導討論類比音樂回歸與數位串流的對比，反映了部分用戶對更專注聆聽體驗的需求。",
+  "daily_summary": "今日Spotify輿情主要聚焦於其產品更新，包括Release Radar的全新篩選與自訂功能，以及備受用戶期待的「釘選」功能，這些改進顯著提升了用戶的音樂推薦與管理體驗。同時，市場對Spotify第二季度業績預計符合指引，且其股票評級被維持，儘管目標價有所下調，整體財務面仍趨於中性穩定，並有報導關注美國藝術家在平台上的強勁串流表現。",
   "article_analyses": [
     {
-      "title": "Spotify Technology Is Maintained at Overweight by Wells Fargo",
+      "title": "Spotify 更新 Release Radar 加入新篩選功能 用戶自訂每週推薦",
       "sentiment": "positive",
       "key_points": [
-        "Wells Fargo維持Spotify的「增持」評級",
-        "顯示對公司未來發展的信心"
+        "Release Radar功能更新",
+        "新增音樂推薦篩選功能",
+        "提升用戶自訂推薦體驗"
       ]
     },
     {
-      "title": "富瑞集團維持Spotify Technology(SPOT.US)買入評級，維持目標價600美元",
+      "title": "UBS Securities表示，Spotify第二季度業績可能「大致符合」其指引。",
+      "sentiment": "neutral",
+      "key_points": [
+        "UBS Securities對Spotify第二季度業績預期",
+        "業績預計符合公司指引"
+      ]
+    },
+    {
+      "title": "Spotify 更新 Release Radar 提升音樂推薦自訂功能",
       "sentiment": "positive",
       "key_points": [
-        "富瑞集團維持Spotify「買入」評級",
-        "目標價設定為600美元，看好股價潛力"
+        "Release Radar功能更新",
+        "增強音樂推薦自訂選項"
+      ]
+    },
+    {
+      "title": "瑞士銀行維持Spotify Technology(SPOT.US)買入評級，下調目標價至690美元",
+      "sentiment": "neutral",
+      "key_points": [
+        "瑞士銀行維持Spotify買入評級",
+        "目標價下調至690美元"
       ]
     },
     {
       "title": "Spotify added this 'most requested' update - USA Today",
       "sentiment": "positive",
       "key_points": [
-        "推出備受要求的新功能：在資料庫中釘選項目",
-        "改善桌面及行動應用程式的使用者體驗"
-      ]
-    },
-    {
-      "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets - Gizmodo",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify移除了詐欺性串流播放",
-        "事件涉及可疑的Kalshi預測市場賭注",
-        "打擊平台上的市場操縱行為"
+        "Spotify新增「最受歡迎」的釘選功能",
+        "支援桌面版和行動版程式庫管理"
       ]
     },
     {
       "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "Spotify根據使用者回饋推出了高度要求的功能",
-        "持續改進產品以提升使用者滿意度"
-      ]
-    },
-    {
-      "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation - Mashable",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify刪除了50萬次串流播放",
-        "懷疑與Kalshi及Polymarket使用者操縱相關",
-        "維護平台內容的真實性與公平性"
+        "Spotify推出備受期待的功能",
+        "積極回應用戶多年來的反饋",
+        "改善用戶體驗"
       ]
     },
     {
       "title": "The Newest Way to Go Analog - The Atlantic",
       "sentiment": "neutral",
       "key_points": [
-        "探討類比音樂回歸的趨勢",
-        "部分使用者尋求更專注的音樂聆聽體驗",
-        "將Spotify作為與類比聆聽方式對比的數位平台"
+        "探討類比音樂聆聽方式的回歸",
+        "對比Spotify等數位平台與個人選擇的差異"
       ]
     },
     {
-      "title": "Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama - The New York Times",
+      "title": "Sony to End Game Discs, Anthropic's Deal With California and Meta Smart Glasses Rate Limits | Tech Today - CNET",
       "sentiment": "neutral",
       "key_points": [
-        "文章提及預測市場爭議",
-        "與Spotify處理詐欺性串流事件的背景有所關聯"
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Platner Suspends Senate Bid in Maine After Rape Accusation - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Oil Prices Jump After Trump Says Deal With Iran Is ‘Over’ - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Democrats Grow Frustrated as Graham Platner Resists Dropping Out Quickly in Maine - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "From Haiti to Venezuela, Quakes Reveal Shift in U.S. Relief Efforts - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Trump’s Plans for Nuclear Power Lurch Ahead - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Dog Food Maker Recalls Feed It Says Was Sold Despite Failing Quality Control - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Here Are the Maine Democrats Who Might Replace Graham Platner - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "China Launches Reusable Rocket, Clearing a Key Hurdle in Race With SpaceX - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Indian Diaspora, Now the Largest Foreign-Born Group in Australia, Welcomes Modi - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Book Review: ‘The Simp,’ by Roshan Sethi - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Famed permabear warns SpaceX IPO could be laughed at in 50 years, 'craziest' market bet for Main Street - Fox Business",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品 (Spotify在頁腳作為連結提及)"
+      ]
+    },
+    {
+      "title": "Starbucks will pay baristas to create TikToks - NBC News",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "As Xi Looks to Extend His Rule, He Leans on a Longtime Ally - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "\"The long arc is relentlessly up\" - As Xbox and PlayStation flounder, Steam is reportedly having another record year - Eurogamer.net",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "MoffettNathanson's Zhu on why SpaceX is a difficult company to value as stock falls below IPO price - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "SpaceX joins the Nasdaq 100 as passive buying drives momentum - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Meta slammed for charging $20 a month for built-in smart glasses feature - Ynetnews",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
       ]
     },
     {
       "title": "Reclaiming the lost art of listening to music - CBS News",
       "sentiment": "neutral",
       "key_points": [
-        "探討重新發掘聆聽音樂樂趣的趨勢",
-        "比較數位與類比聆聽方式的差異",
-        "暗示對深度音樂體驗的需求超越單純的便利性"
+        "討論數位音樂聆聽趨勢",
+        "強調回歸專注聆聽的價值"
+      ]
+    },
+    {
+      "title": "\"My 'Microsoft will probably be a good steward of the brand' statement isn't aging well\" - id Software co-founder John Carmack speaks out after devastating Xbox layoffs - Eurogamer.net",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Breakingviews - Wall Street gets high on Elon Musk's SpaceX supply - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Netflix plans to stream videos from media outlets such as BuzzFeed and Variety. - GIGAZINE",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Elon Musk ditches MSNBC interview at last minute, leaving reporter hanging on air - New York Post",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, July 6th, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Wall Street is ready to tell us how it really feels about SpaceX as it enters the Nasdaq - Business Insider",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Grantham Warns SpaceX Valuation Faces Sharp Reversal - Let's Data Science",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "American artists dominate Spotify this Fourth of July — see who’s leading the pack - New York Post",
+      "sentiment": "positive",
+      "key_points": [
+        "美國藝術家在Spotify上的音樂串流表現",
+        "泰勒絲專輯創下串流紀錄",
+        "展示熱門音樂趨勢"
+      ]
+    },
+    {
+      "title": "What to Stream: 'Heartstopper Forever,' 'Lucky' and Steve Lacy - Greenwich Time",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "'Voicemails for Isabelle' review: everyone fell for this Netflix rom-com, and so did we - Ynetnews",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Market Open: July 8, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "We are all Madonna now - The Washington Post",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "2026-07-11 - Billboard Canada",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Canadian Music Sales Report: Week Ending July 2, 2026 - Billboard Canada",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "FUKOKU MUTUAL LIFE INSURANCE Co Increases Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Billboard Videos to Be Featured on Netflix as Part of New Partnership - Billboard Canada",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Billboard Hot 100 Top 10 Countdown for July 11, 2026 - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "These three artists are poised to invade the top of the pop charts - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "SpaceX Joins Nasdaq 100 Riding A Wave Of Buy Ratings - Investor's Business Daily",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Fandango Bets One Name Can Fix A Two-Screen Problem - Forbes",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Benson Boone Surprises Megan Moroney Crowd For Back-to-Back Performances of Their ‘Beautiful Things’ Hits - Billboard",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "‘It’s Not Like That’ Canceled By Prime Video After One Season - TV News Check",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "SpaceX Joins the Nasdaq-100. What the Fast-Track Addition Means for the Stock. - Barron's",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Billboard Hot Latin Songs Top 10 Countdown For July 11th, 2026 | Billboard Latin - Yahoo",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Wall Street warms to SpaceX ahead of Nasdaq 100 index inclusion - Reuters",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "The Rolling Stones keep the tunes coming: best podcasts of the week - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品 (廣泛提及播客)"
+      ]
+    },
+    {
+      "title": "Macy's promises its biggest show yet as weather threatens Fourth of July - NBC New York",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "Could Taylor Swift's wedding dress look like this? Dior couture gives clues - USA Today",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容未直接討論Spotify服務或產品"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容空白，無法判斷"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容空白，無法判斷"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260710_045430.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260710.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260711_041449.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260711.jpg"
 }
