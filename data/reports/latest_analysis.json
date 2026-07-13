@@ -1,224 +1,103 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.1,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.9
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.2
   },
   "events": [
     {
-      "title": "用戶資料庫新增「釘選」功能",
-      "description": "Spotify 推出用戶期待已久的「釘選」功能，允許用戶在桌面和行動應用程式中將喜愛的項目釘選在資料庫頂部，提升存取便利性。",
+      "title": "新功能上線：個人媒體庫釘選功能",
+      "description": "Spotify 推出備受期待的「釘選」功能，允許使用者將歌曲、專輯或播放清單釘選到其個人媒體庫頂部，提升內容管理與瀏覽的便利性。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 持續回應用戶回饋，修復「迪斯科球圖標」問題",
-      "description": "除了新增釘選功能，Spotify 也被提及曾修復引起爭議的「迪斯科球圖標」問題，顯示平台積極聽取用戶意見並進行產品調整。",
-      "severity": "low",
+      "title": "播放清單強化：Release Radar 精準調整",
+      "description": "Spotify 持續改進其旗艦播放清單及音樂探索功能，讓使用者能更精準地微調「Release Radar」播放清單，並增加編輯精選推薦，回應了對演算法內容的部份不滿。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "唱片公司推動AI音樂標籤系統",
-      "description": "唱片公司正推動針對AI生成音樂的標籤系統，以解決藝術家版權、未獲授權訓練模型及低品質AI音樂充斥串流平台等問題。Spotify 作為主要串流服務提供商將受此行業趨勢影響。",
-      "severity": "medium",
-      "sentiment": "neutral"
+      "title": "音樂產業對 AI 音樂的擔憂加劇",
+      "description": "唱片公司正積極推動新的標記系統，以應對 AI 生成音樂所帶來的挑戰。業界擔憂低品質 AI 曲目充斥串流服務，且藝術家的作品可能在未獲報酬的情況下被用於訓練 AI 模型，此議題對 Spotify 等平台造成間接影響。",
+      "severity": "high",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
     "新功能",
-    "用戶回饋",
+    "使用者體驗",
     "釘選功能",
-    "資料庫管理",
-    "AI音樂",
-    "標籤系統",
-    "串流服務趨勢",
-    "類比音樂",
-    "數位音樂",
-    "音樂聆聽習慣"
+    "播放清單",
+    "Release Radar",
+    "AI 音樂",
+    "音樂產業",
+    "演算法"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要圍繞其新功能上線，其中「釘選」功能因回應用戶長期需求而獲得正面評價。此外，平台也面臨唱片公司推動AI音樂標籤系統的行業挑戰。部分討論則觸及數位串流背景下，用戶對類比音樂聆聽體驗的關注。",
+  "daily_summary": "今日 Spotify 的輿情主要集中在產品功能改進上，包括推出使用者期待已久的釘選功能和優化 Release Radar 播放清單，普遍獲得正面評價。然而，音樂產業對於 AI 生成音樂及其對藝術家版權和串流服務內容品質的潛在影響，則持續引發高度關注和擔憂。",
   "article_analyses": [
     {
       "title": "Spotify added this 'most requested' update - USA Today",
       "sentiment": "positive",
       "key_points": [
-        "新增「釘選」功能至用戶資料庫",
-        "支援桌面與行動應用程式",
-        "為用戶期待已久的功能"
+        "Spotify 新增了備受使用者請求的「釘選」功能。",
+        "允許使用者在桌面版和行動應用程式中將項目釘選到個人媒體庫頂部。",
+        "提升了內容管理的便利性。"
       ]
     },
     {
       "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "推出用戶高度要求的功能",
-        "持續聽取用戶回饋並進行調整",
-        "此前已修復「迪斯科球圖標」問題"
+        "Spotify 根據多年使用者回饋推出了高度需求的功能。",
+        "顯示 Spotify 正在傾聽使用者聲音。",
+        "提到之前「迪斯科球圖標」的修復，也屬於使用者體驗優化。"
+      ]
+    },
+    {
+      "title": "Spotify will let you fine-tune your weekly Release Radar playlist - The Verge",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 允許使用者微調其每週的「Release Radar」播放清單。",
+        "這是 Spotify 近期對其旗艦播放清單和音樂探索功能做出的最新改變。",
+        "此舉旨在回應使用者對演算法推薦內容日益增長的不滿。"
       ]
     },
     {
       "title": "The Newest Way to Go Analog - The Atlantic",
       "sentiment": "neutral",
       "key_points": [
-        "探討用戶回歸類比音樂播放器（如Nano）的趨勢",
-        "強調個人選擇與策展音樂的體驗",
-        "與 Spotify 等串流平台提供的廣泛選擇形成對比"
+        "文章將 Spotify 與類比音樂體驗（如 iPod Nano）進行對比。",
+        "強調了使用者在類比裝置上能完全掌控音樂選擇的吸引力。",
+        "指出 Spotify 雖然可透過播放清單個人化，但與完全手動控制仍有差異。"
       ]
-    },
-    {
-      "title": "Sony to End Game Discs, Anthropic's Deal With California and Meta Smart Glasses Rate Limits | Tech Today - CNET",
-      "sentiment": "neutral",
-      "key_points": []
     },
     {
       "title": "Record Labels Push New Tagging System for AI Tunes - Newser",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "key_points": [
-        "唱片公司推動AI音樂標籤系統",
-        "解決藝術家版權及未獲報酬的訓練模型問題",
-        "應對低品質AI音樂充斥串流服務的現狀"
+        "唱片公司正推動針對 AI 生成音樂的新標記系統。",
+        "擔憂低品質的 AI 曲目充斥串流服務。",
+        "部分音樂人擔心作品在未獲報酬的情況下被用於訓練 AI 模型。"
       ]
-    },
-    {
-      "title": "Platner Suspends Senate Bid in Maine After Rape Accusation - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Boat Carrying Tourists Capsizes in Vietnam, Killing 15 - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Democrats Grow Frustrated as Graham Platner Resists Dropping Out Quickly in Maine - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "From Haiti to Venezuela, Quakes Reveal Shift in U.S. Relief Efforts - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Trump’s Plans for Nuclear Power Lurch Ahead - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Oil Prices Jump After Trump Says Deal With Iran Is ‘Over’ - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Dog Food Maker Recalls Feed It Says Was Sold Despite Failing Quality Control - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Here Are the Maine Democrats Who Might Replace Graham Platner - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "China Launches Reusable Rocket, Clearing a Key Hurdle in Race With SpaceX - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Indian Diaspora, Now the Largest Foreign-Born Group in Australia, Welcomes Modi - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Book Review: ‘The Simp,’ by Roshan Sethi - The New York Times",
-      "sentiment": "neutral",
-      "key_points": []
     },
     {
       "title": "Famed permabear warns SpaceX IPO could be laughed at in 50 years, 'craziest' market bet for Main Street - Fox Business",
       "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "EU admits it cannot stop Sony killing physical disc – \"companies are free to offer games and services in the manner that they see fit\" - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "\"It was like being back in 2016\" Pokémon Go celebrates 10th anniversary by recreating the original trailer's Times Square Mewtwo raid - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Meta Removes Latest AI Integration On Instagram Following SAG-AFTRA Backlash - Kotaku",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "MoffettNathanson's Zhu on why SpaceX is a difficult company to value as stock falls below IPO price - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "\"The long arc is relentlessly up\" - As Xbox and PlayStation flounder, Steam is reportedly having another record year - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "SpaceX joins the Nasdaq 100 as passive buying drives momentum - CNBC",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Meta slammed for charging $20 a month for built-in smart glasses feature - Ynetnews",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Reclaiming the lost art of listening to music - CBS News",
-      "sentiment": "neutral",
       "key_points": [
-        "探討數位音樂時代下回歸類比聽音方式的趨勢",
-        "暗示部分用戶尋求更主動、沈浸式的音樂體驗",
-        "與數位串流（如Spotify）的便利性形成對照"
+        "文章中提及 Spotify 僅作為一個媒體平台（如 Twitter, Instagram），非主要討論對象。",
+        "核心內容是關於 SpaceX 的市場價值和 IPO 警告。"
       ]
     },
     {
-      "title": "Obsidian game director reacts to people \"spouting off\" about the studio and how it's not what it \"used to be\" - Eurogamer.net",
+      "title": "Tunes Music Inc. Announces Global Expansion of Digital Music Promotion Network from New York Headquarters - markets.businessinsider.com",
       "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Breakingviews - Wall Street gets high on Elon Musk's SpaceX supply - Reuters",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Elon Musk ditches MSNBC interview at last minute, leaving reporter hanging on air - New York Post",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Around the Book World: Monday, July 6th, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Wall Street is ready to tell us how it really feels about SpaceX as it enters the Nasdaq - Business Insider",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "文章主要關於 Tunes Music Inc. 數位音樂推廣網絡的全球擴張。",
+        "未提及 Spotify 或其服務的具體影響。"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260712_042710.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260712.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260713_043151.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260713.jpg"
 }
