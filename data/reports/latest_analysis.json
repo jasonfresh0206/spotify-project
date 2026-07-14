@@ -1,103 +1,92 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.2
+    "positive_ratio": 0.3,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.7
   },
   "events": [
     {
-      "title": "新功能上線：個人媒體庫釘選功能",
-      "description": "Spotify 推出備受期待的「釘選」功能，允許使用者將歌曲、專輯或播放清單釘選到其個人媒體庫頂部，提升內容管理與瀏覽的便利性。",
+      "title": "Spotify 推出「置頂」功能",
+      "description": "Spotify 針對桌面版和行動版應用程式推出了一項備受用戶期待的「置頂」功能，允許用戶將喜歡的播放清單、專輯或藝人固定在資料庫頂端，提升使用便利性。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "播放清單強化：Release Radar 精準調整",
-      "description": "Spotify 持續改進其旗艦播放清單及音樂探索功能，讓使用者能更精準地微調「Release Radar」播放清單，並增加編輯精選推薦，回應了對演算法內容的部份不滿。",
-      "severity": "medium",
+      "title": "Spotify 改善 UI/UX 並回應用戶反饋",
+      "description": "Spotify 在修正了之前引起爭議的「迪斯可球圖標」後，持續聽取用戶意見，推出易於實施的改動，顯示其對用戶體驗的重視，並滿足了多年來的許多請求。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "音樂產業對 AI 音樂的擔憂加劇",
-      "description": "唱片公司正積極推動新的標記系統，以應對 AI 生成音樂所帶來的挑戰。業界擔憂低品質 AI 曲目充斥串流服務，且藝術家的作品可能在未獲報酬的情況下被用於訓練 AI 模型，此議題對 Spotify 等平台造成間接影響。",
-      "severity": "high",
-      "sentiment": "negative"
+      "title": "唱片公司推動 AI 音樂標籤系統",
+      "description": "唱片公司正在推動新的標籤系統，以應對部分音樂人擔憂 AI 在未經付費情況下訓練模型，以及低品質 AI 音樂充斥串流服務的問題。這是一個影響整個音樂產業的趨勢，可能對 Spotify 未來的內容管理和版權保護帶來影響。",
+      "severity": "medium",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "新功能",
-    "使用者體驗",
-    "釘選功能",
-    "播放清單",
-    "Release Radar",
+    "功能更新",
+    "置頂功能",
+    "用戶體驗",
     "AI 音樂",
-    "音樂產業",
-    "演算法"
+    "數位串流"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要集中在產品功能改進上，包括推出使用者期待已久的釘選功能和優化 Release Radar 播放清單，普遍獲得正面評價。然而，音樂產業對於 AI 生成音樂及其對藝術家版權和串流服務內容品質的潛在影響，則持續引發高度關注和擔憂。",
+  "daily_summary": "Spotify 今日輿情主要圍繞其積極回應用戶需求。平台推出了備受期待的「置頂」功能，允許用戶在資料庫中固定喜愛的內容，提升了使用便利性。同時，音樂產業正關注唱片公司推動 AI 音樂標籤系統的發展，這預示著未來串流服務在內容管理和版權保護方面可能面臨新的挑戰。",
   "article_analyses": [
+    {
+      "title": "Sakurashimeji「郵票」將於7月17日（星期五）發售，預購/預存活動已啟動！",
+      "sentiment": "neutral",
+      "key_points": [
+        "偶像團體Sakurashimeji發售周邊商品「郵票」",
+        "預購及預存活動已啟動"
+      ]
+    },
     {
       "title": "Spotify added this 'most requested' update - USA Today",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 新增了備受使用者請求的「釘選」功能。",
-        "允許使用者在桌面版和行動應用程式中將項目釘選到個人媒體庫頂部。",
-        "提升了內容管理的便利性。"
+        "Spotify 推出「置頂」功能，回應用戶請求",
+        "用戶可將播放清單、專輯等項目固定在資料庫頂端",
+        "此功能支援桌面版和行動應用程式"
       ]
     },
     {
       "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 根據多年使用者回饋推出了高度需求的功能。",
-        "顯示 Spotify 正在傾聽使用者聲音。",
-        "提到之前「迪斯科球圖標」的修復，也屬於使用者體驗優化。"
-      ]
-    },
-    {
-      "title": "Spotify will let you fine-tune your weekly Release Radar playlist - The Verge",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 允許使用者微調其每週的「Release Radar」播放清單。",
-        "這是 Spotify 近期對其旗艦播放清單和音樂探索功能做出的最新改變。",
-        "此舉旨在回應使用者對演算法推薦內容日益增長的不滿。"
+        "Spotify 針對用戶回饋推出「高度請求」的功能",
+        "平台持續聽取用戶意見並進行易於實施的改動",
+        "繼修正「迪斯可球圖標」後再次提升用戶體驗"
       ]
     },
     {
       "title": "The Newest Way to Go Analog - The Atlantic",
       "sentiment": "neutral",
       "key_points": [
-        "文章將 Spotify 與類比音樂體驗（如 iPod Nano）進行對比。",
-        "強調了使用者在類比裝置上能完全掌控音樂選擇的吸引力。",
-        "指出 Spotify 雖然可透過播放清單個人化，但與完全手動控制仍有差異。"
+        "探討數位串流（如Spotify）與類比音樂體驗（如iPod Nano）的對比",
+        "部分用戶認為類比音樂的「額外摩擦」是其吸引力的一部分",
+        "強調個人音樂選擇和策劃的重要性"
       ]
     },
     {
       "title": "Record Labels Push New Tagging System for AI Tunes - Newser",
-      "sentiment": "negative",
-      "key_points": [
-        "唱片公司正推動針對 AI 生成音樂的新標記系統。",
-        "擔憂低品質的 AI 曲目充斥串流服務。",
-        "部分音樂人擔心作品在未獲報酬的情況下被用於訓練 AI 模型。"
-      ]
-    },
-    {
-      "title": "Famed permabear warns SpaceX IPO could be laughed at in 50 years, 'craziest' market bet for Main Street - Fox Business",
       "sentiment": "neutral",
       "key_points": [
-        "文章中提及 Spotify 僅作為一個媒體平台（如 Twitter, Instagram），非主要討論對象。",
-        "核心內容是關於 SpaceX 的市場價值和 IPO 警告。"
+        "唱片公司推動新的 AI 音樂標籤系統",
+        "旨在解決 AI 音樂未經授權訓練及低品質內容充斥問題",
+        "音樂人對於 AI 作為創作工具的態度存在分歧"
       ]
     },
     {
       "title": "Tunes Music Inc. Announces Global Expansion of Digital Music Promotion Network from New York Headquarters - markets.businessinsider.com",
       "sentiment": "neutral",
       "key_points": [
-        "文章主要關於 Tunes Music Inc. 數位音樂推廣網絡的全球擴張。",
-        "未提及 Spotify 或其服務的具體影響。"
+        "Tunes Music Inc. 宣布全球擴展其數位音樂推廣網絡",
+        "旨在為藝術家提供更廣泛的全球曝光機會",
+        "反映數位音樂推廣市場的成長與競爭"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260713_043151.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260713.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260714_035847.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260714.jpg"
 }
