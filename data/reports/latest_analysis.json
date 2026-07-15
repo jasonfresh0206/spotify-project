@@ -1,92 +1,170 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
+    "positive_ratio": 0.7,
     "negative_ratio": 0.0,
-    "neutral_ratio": 0.7
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "Spotify 推出「置頂」功能",
-      "description": "Spotify 針對桌面版和行動版應用程式推出了一項備受用戶期待的「置頂」功能，允許用戶將喜歡的播放清單、專輯或藝人固定在資料庫頂端，提升使用便利性。",
+      "title": "Spotify 推出 AI 語音助手「Talk to Spotify」",
+      "description": "Spotify 為 Premium 用戶推出全新的 AI 語音助手功能「Talk to Spotify」，讓用戶能透過語音指令點播音樂、查詢 Podcast 及與應用程式互動，被視為提升用戶體驗的重大創新。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "推出高度要求的「釘選」功能",
+      "description": "Spotify 實施了桌面與行動版資料庫的「釘選」功能，允許用戶將喜歡的歌曲或專輯固定在頂端，方便快速存取，此為用戶期待已久的更新。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 改善 UI/UX 並回應用戶反饋",
-      "description": "Spotify 在修正了之前引起爭議的「迪斯可球圖標」後，持續聽取用戶意見，推出易於實施的改動，顯示其對用戶體驗的重視，並滿足了多年來的許多請求。",
+      "title": "CORTIS 歌曲在韓國榜單創紀錄",
+      "description": "韓國藝人 CORTIS 的歌曲《REDRED》在 Spotify 韓國榜單上創下70冠的新紀錄，顯示該平台在韓國市場的活躍與內容影響力。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "唱片公司推動 AI 音樂標籤系統",
-      "description": "唱片公司正在推動新的標籤系統，以應對部分音樂人擔憂 AI 在未經付費情況下訓練模型，以及低品質 AI 音樂充斥串流服務的問題。這是一個影響整個音樂產業的趨勢，可能對 Spotify 未來的內容管理和版權保護帶來影響。",
-      "severity": "medium",
+      "title": "巴克萊銀行維持 Spotify 買入評級",
+      "description": "巴克萊銀行維持對 Spotify Technology (SPOT.US) 的買入評級，並維持目標價565美元，反映市場對其財務前景的樂觀看法。",
+      "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "功能更新",
-    "置頂功能",
-    "用戶體驗",
-    "AI 音樂",
-    "數位串流"
+    "AI 語音助手",
+    "AI 聊天機器人",
+    "Talk to Spotify",
+    "新功能",
+    "Premium 用戶",
+    "釘選功能",
+    "串流",
+    "音樂",
+    "Podcast",
+    "用戶體驗"
   ],
-  "daily_summary": "Spotify 今日輿情主要圍繞其積極回應用戶需求。平台推出了備受期待的「置頂」功能，允許用戶在資料庫中固定喜愛的內容，提升了使用便利性。同時，音樂產業正關注唱片公司推動 AI 音樂標籤系統的發展，這預示著未來串流服務在內容管理和版權保護方面可能面臨新的挑戰。",
+  "daily_summary": "今日 Spotify 的輿情主要聚焦於其最新推出的 AI 語音助手「Talk to Spotify」，這項創新功能允許 Premium 用戶透過語音互動點歌和查詢，廣獲媒體正面報導。此外，Spotify 也推出了備受用戶期待的「釘選」功能，進一步優化了用戶體驗，整體輿情呈現積極向好態勢。",
   "article_analyses": [
     {
-      "title": "Sakurashimeji「郵票」將於7月17日（星期五）發售，預購/預存活動已啟動！",
+      "title": "Spotify 推出 AI 語音助手 Premium 用戶可查詢音樂與Podcast",
+      "sentiment": "positive",
+      "key_points": [
+        "推出 AI 語音助手功能",
+        "Premium 用戶可查詢音樂與 Podcast"
+      ]
+    },
+    {
+      "title": "Spotify 讓你「開口點歌」：對話式 AI 助理上線，串流大戰打進聊天框",
+      "sentiment": "positive",
+      "key_points": [
+        "對話式 AI 助理上線",
+        "用戶能透過語音點歌"
+      ]
+    },
+    {
+      "title": "Spotify 推出 AI 聊天功能「Talk to Spotify」",
+      "sentiment": "positive",
+      "key_points": [
+        "推出 AI 聊天功能",
+        "功能名稱為「Talk to Spotify」"
+      ]
+    },
+    {
+      "title": "Spotify變AI聊天機器人！用說的就能點歌、查紀錄",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 轉變為 AI 聊天機器人",
+        "支援語音點歌與查詢播放紀錄"
+      ]
+    },
+    {
+      "title": "Spotify 的 AI 聊天機器人「Talk to Spotify」正式登場！來看看它能做什麼",
+      "sentiment": "positive",
+      "key_points": [
+        "AI 聊天機器人「Talk to Spotify」正式登場",
+        "介紹其功能與應用"
+      ]
+    },
+    {
+      "title": "CORTIS《REDRED》創Spotify韓國榜70冠新紀錄",
+      "sentiment": "positive",
+      "key_points": [
+        "韓國藝人 CORTIS 創下新紀錄",
+        "歌曲《REDRED》在 Spotify 韓國榜單獲70冠"
+      ]
+    },
+    {
+      "title": "巴克萊銀行維持Spotify Technology(SPOT.US)買入評級，維持目標價565美元",
       "sentiment": "neutral",
       "key_points": [
-        "偶像團體Sakurashimeji發售周邊商品「郵票」",
-        "預購及預存活動已啟動"
+        "巴克萊銀行維持買入評級",
+        "目標價維持在565美元"
+      ]
+    },
+    {
+      "title": "Spotify 推出人工智能對話功能「Talk to Spotify」 逐步推廣至 Premium 用户",
+      "sentiment": "positive",
+      "key_points": [
+        "推出人工智能對話功能「Talk to Spotify」",
+        "逐步推廣至 Premium 用戶"
+      ]
+    },
+    {
+      "title": "Spotify expands its AI push with a ChatGPT-like music assistant - TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 擴大 AI 發展",
+        "推出類似 ChatGPT 的音樂助手"
       ]
     },
     {
       "title": "Spotify added this 'most requested' update - USA Today",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「置頂」功能，回應用戶請求",
-        "用戶可將播放清單、專輯等項目固定在資料庫頂端",
-        "此功能支援桌面版和行動應用程式"
+        "Spotify 增加最受歡迎的更新",
+        "桌面版和行動版支援「釘選」功能"
+      ]
+    },
+    {
+      "title": "Spotify Now Lets You Ask AI Questions in Its Mobile App - CNET",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 行動應用程式引入 AI 問答",
+        "用戶可向 AI 提出問題"
       ]
     },
     {
       "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 針對用戶回饋推出「高度請求」的功能",
-        "平台持續聽取用戶意見並進行易於實施的改動",
-        "繼修正「迪斯可球圖標」後再次提升用戶體驗"
+        "Spotify 推出用戶高度要求的功能",
+        "改善用戶體驗，回應長期反饋"
       ]
     },
     {
       "title": "The Newest Way to Go Analog - The Atlantic",
       "sentiment": "neutral",
       "key_points": [
-        "探討數位串流（如Spotify）與類比音樂體驗（如iPod Nano）的對比",
-        "部分用戶認為類比音樂的「額外摩擦」是其吸引力的一部分",
-        "強調個人音樂選擇和策劃的重要性"
+        "討論類比音樂與數位串流的對比",
+        "Spotify 作為數位串流平台的代表之一"
       ]
     },
     {
       "title": "Record Labels Push New Tagging System for AI Tunes - Newser",
       "sentiment": "neutral",
       "key_points": [
-        "唱片公司推動新的 AI 音樂標籤系統",
-        "旨在解決 AI 音樂未經授權訓練及低品質內容充斥問題",
-        "音樂人對於 AI 作為創作工具的態度存在分歧"
+        "唱片公司推動 AI 音樂標記系統",
+        "旨在解決 AI 生成音樂的版權和品質問題"
       ]
     },
     {
       "title": "Tunes Music Inc. Announces Global Expansion of Digital Music Promotion Network from New York Headquarters - markets.businessinsider.com",
       "sentiment": "neutral",
       "key_points": [
-        "Tunes Music Inc. 宣布全球擴展其數位音樂推廣網絡",
-        "旨在為藝術家提供更廣泛的全球曝光機會",
-        "反映數位音樂推廣市場的成長與競爭"
+        "Tunes Music Inc. 宣布全球擴展",
+        "數位音樂推廣網路的發展"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260714_035847.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260714.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260715_040705.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260715.jpg"
 }
