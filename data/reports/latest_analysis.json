@@ -1,170 +1,415 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.7,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.1
   },
   "events": [
     {
-      "title": "Spotify 推出 AI 語音助手「Talk to Spotify」",
-      "description": "Spotify 為 Premium 用戶推出全新的 AI 語音助手功能「Talk to Spotify」，讓用戶能透過語音指令點播音樂、查詢 Podcast 及與應用程式互動，被視為提升用戶體驗的重大創新。",
+      "title": "AI 聊天功能/語音助理上線 (Talk to Spotify)",
+      "description": "Spotify 推出多項 AI 相關新功能，包括 AI 聊天機器人及語音助理，用戶可透過語音控制音樂、查詢歌手與專輯背景，甚至查看個人收聽統計，無需等待 Spotify Wrapped。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "推出高度要求的「釘選」功能",
-      "description": "Spotify 實施了桌面與行動版資料庫的「釘選」功能，允許用戶將喜歡的歌曲或專輯固定在頂端，方便快速存取，此為用戶期待已久的更新。",
+      "title": "兒童專屬帳戶免費開放給所有用戶",
+      "description": "Spotify 擴大提供兒童專屬帳戶，所有用戶（包括免費方案訂閱者）現在都可為孩子創建附帶家長監護功能的帳戶，內容以音樂為主。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "CORTIS 歌曲在韓國榜單創紀錄",
-      "description": "韓國藝人 CORTIS 的歌曲《REDRED》在 Spotify 韓國榜單上創下70冠的新紀錄，顯示該平台在韓國市場的活躍與內容影響力。",
+      "title": "串流詐欺與排行榜操控事件",
+      "description": "多起報導指出 Spotify 移除數十萬次被懷疑與 Kalshi 預測市場賭博詐欺相關的串流播放量，並表示將加強榜單檢查，也澄清與預測市場無合作關係。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "獨立藝術家版稅爭議",
+      "description": "有獨立音樂人控訴 Spotify 透過新的串流政策，改變衡量標準，以減少獨立藝術家的版稅，並優先處理主流藝人與唱片公司。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "平台內容品質問題：移除假歌曲與 AI 音樂垃圾",
+      "description": "Spotify 移除高達 7500 萬首假歌曲，以打擊 AI 音樂內容濫用與垃圾訊息，並努力防止人工智慧公司刮取其內容庫。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "服務中斷與恢復",
+      "description": "Spotify 報告部分用戶遭遇服務中斷問題，但隨後宣布問題已解決，服務恢復正常。",
+      "severity": "low",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Release Radar 播放清單微調功能",
+      "description": "Spotify 推出新功能，讓用戶可以更精細地調整其「Release Radar」播放清單，例如篩選特定音樂類型。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "巴克萊銀行維持 Spotify 買入評級",
-      "description": "巴克萊銀行維持對 Spotify Technology (SPOT.US) 的買入評級，並維持目標價565美元，反映市場對其財務前景的樂觀看法。",
+      "title": "獨家內容與超級粉絲福利",
+      "description": "韓國團體 BTS 獨家發布音樂錄影帶，且 Spotify 推出「Reserved」系統，為藝人超級粉絲預留演唱會門票。",
       "severity": "low",
-      "sentiment": "neutral"
+      "sentiment": "positive"
+    },
+    {
+      "title": "《哈利波特》有聲書全數上架",
+      "description": "全部七本《哈利波特》系列有聲書現在已可在 Spotify Premium 上收聽。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI 語音助手",
     "AI 聊天機器人",
-    "Talk to Spotify",
+    "AI 助理",
+    "兒童專屬帳戶",
+    "家長監護",
+    "串流詐欺",
+    "排行榜操控",
+    "Kalshi",
+    "獨立藝術家",
+    "版稅爭議",
     "新功能",
-    "Premium 用戶",
-    "釘選功能",
-    "串流",
-    "音樂",
-    "Podcast",
-    "用戶體驗"
+    "Release Radar",
+    "有聲書"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要聚焦於其最新推出的 AI 語音助手「Talk to Spotify」，這項創新功能允許 Premium 用戶透過語音互動點歌和查詢，廣獲媒體正面報導。此外，Spotify 也推出了備受用戶期待的「釘選」功能，進一步優化了用戶體驗，整體輿情呈現積極向好態勢。",
+  "daily_summary": "今日 Spotify 輿情呈現兩極化趨勢：一方面多項 AI 新功能（如 AI 聊天機器人、語音助理）及兒童專屬帳戶免費開放獲得高度正面評價；另一方面，平台也持續應對串流詐欺、排行榜操控等負面事件，並採取措施移除假歌曲以維護內容品質，同時面臨獨立藝術家版稅的爭議。",
   "article_analyses": [
     {
-      "title": "Spotify 推出 AI 語音助手 Premium 用戶可查詢音樂與Podcast",
+      "title": "Spotify 新功能推出，孩子可免費獲得附帶家長監護功能的帳戶",
       "sentiment": "positive",
       "key_points": [
-        "推出 AI 語音助手功能",
-        "Premium 用戶可查詢音樂與 Podcast"
+        "Spotify 推出新功能",
+        "孩子可免費獲得帳戶",
+        "帳戶附帶家長監護功能"
       ]
     },
     {
-      "title": "Spotify 讓你「開口點歌」：對話式 AI 助理上線，串流大戰打進聊天框",
+      "title": "終於可以口頭要求 Spotify 放音樂！Spotify 開放 Beta 版 AI 音樂助理功能",
       "sentiment": "positive",
       "key_points": [
-        "對話式 AI 助理上線",
-        "用戶能透過語音點歌"
+        "Spotify 開放 Beta 版 AI 音樂助理",
+        "用戶可口頭要求播放音樂",
+        "提升互動體驗"
       ]
     },
     {
-      "title": "Spotify 推出 AI 聊天功能「Talk to Spotify」",
+      "title": "AI應用｜Spotify推AI聊天功能「Talk to Spotify」 用戶可問歌手專輯背景",
       "sentiment": "positive",
       "key_points": [
-        "推出 AI 聊天功能",
-        "功能名稱為「Talk to Spotify」"
+        "Spotify 推出 AI 聊天功能「Talk to Spotify」",
+        "用戶可詢問歌手與專輯背景",
+        "加強音樂探索體驗"
       ]
     },
     {
-      "title": "Spotify變AI聊天機器人！用說的就能點歌、查紀錄",
+      "title": "Spotify 開放所有用户創建兒童專屬帳户 無需付費訂閲",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 轉變為 AI 聊天機器人",
-        "支援語音點歌與查詢播放紀錄"
+        "Spotify 開放兒童專屬帳戶",
+        "所有用戶均可創建",
+        "無需付費訂閱"
       ]
     },
     {
-      "title": "Spotify 的 AI 聊天機器人「Talk to Spotify」正式登場！來看看它能做什麼",
+      "title": "Spotify expands parent-managed accounts to users on its free tier",
       "sentiment": "positive",
       "key_points": [
-        "AI 聊天機器人「Talk to Spotify」正式登場",
-        "介紹其功能與應用"
+        "Spotify 擴展家長管理帳戶",
+        "開放給免費方案用戶",
+        "此功能之前僅限付費訂戶"
       ]
     },
     {
-      "title": "CORTIS《REDRED》創Spotify韓國榜70冠新紀錄",
+      "title": "Spotify launches AI chatbot for music and listening history",
       "sentiment": "positive",
       "key_points": [
-        "韓國藝人 CORTIS 創下新紀錄",
-        "歌曲《REDRED》在 Spotify 韓國榜單獲70冠"
+        "Spotify 推出 AI 聊天機器人",
+        "可變更音樂並搜尋收聽歷史",
+        "公司 AI 計畫的延伸"
       ]
     },
     {
-      "title": "巴克萊銀行維持Spotify Technology(SPOT.US)買入評級，維持目標價565美元",
+      "title": "Spotify is now an AI chatbot, too",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 嘗試新 AI 功能",
+        "Premium 訂閱者可與聊天機器人互動",
+        "「Talk to Spotify」功能出現在行動應用程式中"
+      ]
+    },
+    {
+      "title": "Spotify's new conversational AI can play tracks you request and answer your music questions",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出對話式 AI 功能",
+        "可播放請求曲目",
+        "回答音樂相關問題"
+      ]
+    },
+    {
+      "title": "Spotify Launches Free Managed Accounts for Kids in the US",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 在美國推出免費兒童管理帳戶",
+        "適用於任何訂閱方案的家長",
+        "帳戶僅限音樂串流，不含播客和影片內容"
+      ]
+    },
+    {
+      "title": "Your child can now get a free Spotify account with parental controls",
+      "sentiment": "positive",
+      "key_points": [
+        "兒童現在可免費獲得 Spotify 帳戶",
+        "包含家長監護功能",
+        "提供播放清單、推薦與專屬 Wrapped 總結"
+      ]
+    },
+    {
+      "title": "You Can Now Talk to Spotify (and You Might Actually Want To)",
+      "sentiment": "positive",
+      "key_points": [
+        "新功能讓用戶可以與 Spotify 對話",
+        "可詢問音樂和收聽歷史相關問題",
+        "提升用戶互動性"
+      ]
+    },
+    {
+      "title": "Spotify's managed accounts are no longer limited to Premium subscribers",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 兒童管理帳戶不再限制 Premium 訂閱者",
+        "多國用戶可免費為子女創建帳戶",
+        "擴大免費使用範圍"
+      ]
+    },
+    {
+      "title": "Spotify will let you fine-tune your weekly Release Radar playlist",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 讓用戶微調 Release Radar 播放清單",
+        "可縮小清單至特定音樂類型",
+        "改善音樂發現功能"
+      ]
+    },
+    {
+      "title": "Spotify Pulls Streams From Song After Alleged Kalshi Betting Fraud",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 移除涉嫌 Kalshi 賭博詐欺的歌曲串流",
+        "公司將增加榜單檢查",
+        "Kalshi 正在積極調查此事"
+      ]
+    },
+    {
+      "title": "Spotify added this 'most requested' update",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出「最受歡迎」的更新",
+        "新功能於 7 月 8 日向所有用戶開放",
+        "改善用戶體驗"
+      ]
+    },
+    {
+      "title": "Spotify Issues 'All Clear' After Outage Reports",
       "sentiment": "neutral",
       "key_points": [
-        "巴克萊銀行維持買入評級",
-        "目標價維持在565美元"
+        "Spotify 在服務中斷報告後發出「一切正常」通知",
+        "數千用戶報告服務問題",
+        "距離上次登錄錯誤僅一個月"
       ]
     },
     {
-      "title": "Spotify 推出人工智能對話功能「Talk to Spotify」 逐步推廣至 Premium 用户",
+      "title": "Spotify adds its own AI chatbot - here's what you can do with it [Video]",
       "sentiment": "positive",
       "key_points": [
-        "推出人工智能對話功能「Talk to Spotify」",
-        "逐步推廣至 Premium 用戶"
+        "Spotify 推出新的 AI 聊天機器人功能",
+        "用戶可以像與 AI 聊天機器人一樣與應用程式對話",
+        "可發出指令或詢問媒體相關問題"
+      ]
+    },
+    {
+      "title": "Spotify's reserved ticket sales to music superfans are now going live",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出「Reserved」系統",
+        "為藝人超級粉絲預留演唱會門票",
+        "門票在公開銷售前提供"
+      ]
+    },
+    {
+      "title": "Spotify accused of using new streaming policy to reduce indie artist's royalties",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 被指控使用新串流政策",
+        "降低獨立藝術家版稅",
+        "訴訟稱優先考慮主要藝人與唱片公司"
+      ]
+    },
+    {
+      "title": "Spotify removes streams of No. 1 song after suspicious Kalshi bets",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 移除榜首歌曲的串流數據",
+        "因 Kalshi 上的可疑賭博活動",
+        "認定非真實聽眾播放"
+      ]
+    },
+    {
+      "title": "Spotify Challenges Prediction Markets After Song Chart Rigging",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 要求 Kalshi 和 Polymarket 移除其品牌標誌",
+        "澄清與預測市場無合作關係",
+        "因用戶操縱榜單以進行預測市場下注"
+      ]
+    },
+    {
+      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 證實串流詐欺",
+        "在 Kalshi 交易者投訴後",
+        "交易者表示在問題解決前將停止相關市場活動"
+      ]
+    },
+    {
+      "title": "Drug Sites Hijacked Spotify's Search Ranking Through Fake Podcasts",
+      "sentiment": "negative",
+      "key_points": [
+        "藥物網站透過假播客劫持 Spotify 搜尋排名",
+        "數萬個假播客成為非法藥房和詐騙網站的誘餌",
+        "國會報告描述垃圾訊息操作"
+      ]
+    },
+    {
+      "title": "BTS to release 'Normal' music video exclusively on Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 將在 Spotify 獨家發布「Normal」音樂錄影帶",
+        "為其第五張專輯的 B 面曲",
+        "增加獨家內容吸引力"
+      ]
+    },
+    {
+      "title": "Spotify is the latest app to get an AI chatbot. Here's what it can do",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 是最新獲得 AI 聊天機器人的應用程式",
+        "「Talk to Spotify」功能類似 ChatGPT",
+        "適用於 Premium 用戶，支援 Android 和 iOS"
+      ]
+    },
+    {
+      "title": "Spotify removes 75m fake songs as it battles flood of AI music spammers",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 移除 7500 萬首假歌曲",
+        "打擊 AI 音樂垃圾內容",
+        "投入大量資金防止 AI 巨頭抓取資料庫"
+      ]
+    },
+    {
+      "title": "Spotify's new AI bot lets you see your listening stats without waiting for Wrapped",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 推出新 AI 工具",
+        "用戶無需等待 Wrapped 即可查看收聽統計",
+        "提供即時數據洞察"
+      ]
+    },
+    {
+      "title": "Spotify deletes 500K streams of popular song for suspected Kalshi, Polymarket user manipulation",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 刪除流行歌曲的 50 萬次串流",
+        "因涉嫌 Kalshi 和 Polymarket 用戶操縱",
+        "回應預測市場交易者的指控"
+      ]
+    },
+    {
+      "title": "Spotify is expanding free access to kid-friendly managed accounts",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 擴大兒童友善管理帳戶的免費使用權",
+        "針對 13 歲以下兒童",
+        "提升家庭用戶便利性"
+      ]
+    },
+    {
+      "title": "All 7 Harry Potter Audiobooks Now Available on Spotify Premium",
+      "sentiment": "positive",
+      "key_points": [
+        "所有七本《哈利波特》有聲書上線",
+        "可在 Spotify Premium 上收聽",
+        "與 Pottermore Publishing 合作"
+      ]
+    },
+    {
+      "title": "Spotify Removes Fraudulent Streams Amid Suspicious Kalshi Bets",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 移除詐欺性串流",
+        "因 Kalshi 上出現可疑投注",
+        "超過 50 萬次播放被移除"
+      ]
+    },
+    {
+      "title": "Spotify catches users manipulating song charts for cash",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 發現用戶為金錢操縱歌曲排行榜",
+        "播放量一夜暴增引發調查",
+        "排行榜已進行修正"
+      ]
+    },
+    {
+      "title": "This Song Is the No. 1 for Road Trip Playlists, According to Spotify—and No, It's Not 'Life is a Highway'",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 數據顯示「Mr. Brightside」是公路旅行播放清單榜首",
+        "分析熱門歌曲趨勢",
+        "提供用戶有趣的數據洞察"
+      ]
+    },
+    {
+      "title": "Anthropic's new Claude Reflect is basically Spotify Wrapped crossed with Digital Wellbeing",
+      "sentiment": "neutral",
+      "key_points": [
+        "Anthropic 推出新 AI 儀表板 Claude Reflect",
+        "其功能被比喻為 Spotify Wrapped 與 Digital Wellbeing 的結合",
+        "僅為類比提及 Spotify Wrapped"
       ]
     },
     {
       "title": "Spotify expands its AI push with a ChatGPT-like music assistant - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 擴大 AI 發展",
-        "推出類似 ChatGPT 的音樂助手"
-      ]
-    },
-    {
-      "title": "Spotify added this 'most requested' update - USA Today",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 增加最受歡迎的更新",
-        "桌面版和行動版支援「釘選」功能"
+        "Spotify 擴展其 AI 策略",
+        "Premium 用戶可與 ChatGPT 類似的音樂助理互動",
+        "提升聽歌體驗"
       ]
     },
     {
       "title": "Spotify Now Lets You Ask AI Questions in Its Mobile App - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 行動應用程式引入 AI 問答",
-        "用戶可向 AI 提出問題"
-      ]
-    },
-    {
-      "title": "Spotify just gave users a highly requested feature after years of feedback - 9to5Mac",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 推出用戶高度要求的功能",
-        "改善用戶體驗，回應長期反饋"
+        "Spotify 現在允許用戶在其行動應用程式中提問 AI",
+        "提供更直觀的互動方式",
+        "增強音樂發現與控制"
       ]
     },
     {
       "title": "The Newest Way to Go Analog - The Atlantic",
       "sentiment": "neutral",
       "key_points": [
-        "討論類比音樂與數位串流的對比",
-        "Spotify 作為數位串流平台的代表之一"
-      ]
-    },
-    {
-      "title": "Record Labels Push New Tagging System for AI Tunes - Newser",
-      "sentiment": "neutral",
-      "key_points": [
-        "唱片公司推動 AI 音樂標記系統",
-        "旨在解決 AI 生成音樂的版權和品質問題"
-      ]
-    },
-    {
-      "title": "Tunes Music Inc. Announces Global Expansion of Digital Music Promotion Network from New York Headquarters - markets.businessinsider.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "Tunes Music Inc. 宣布全球擴展",
-        "數位音樂推廣網路的發展"
+        "文章探討回歸類比音樂的方式",
+        "對比 Spotify 播放清單與個人音樂選擇",
+        "未直接報導 Spotify 產品或事件"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260715_040705.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260715.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260716_041152.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260716.jpg"
 }
