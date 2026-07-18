@@ -1,320 +1,134 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.8,
+    "negative_ratio": 0.0,
+    "neutral_ratio": 0.2
   },
   "events": [
     {
-      "title": "Spotify 推出多項 AI 語音互動功能",
-      "description": "Spotify 為 Premium 用戶推出「Talk to Spotify」AI 對話功能，允許用戶透過語音指令點歌、查詢資訊和探索收聽紀錄。這項新功能將 AI 技術深度整合到應用程式中，預計將大幅提升使用者體驗，並已在 iOS 和 Android 應用程式中上線。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 上線「Managed Accounts」家長管理功能",
-      "description": "Spotify 推出「Managed Accounts」功能，旨在讓家長能更有效地管理家庭成員的帳號，提供更多控制權限，確保家庭用戶的使用體驗更加安全和受控。",
+      "title": "BTS新歌〈NORMAL〉MV Spotify獨家首播",
+      "description": "韓國流行團體BTS發布新歌〈NORMAL〉MV，並在Spotify上進行獨家首播，引起粉絲熱烈討論，內容包含重現經典「廁所排排站」畫面。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 大規模移除 AI 生成歌曲以維護內容品質",
-      "description": "Spotify 在過去一年中移除了超過 7500 萬首 AI 生成的歌曲，此舉是為打擊平台上的低品質內容、垃圾訊息，並應對人工智慧音樂快速增長所帶來的挑戰，顯示平台對於內容審核的重視。",
-      "severity": "high",
+      "title": "Spotify推出ChatGPT-like AI音樂助理",
+      "description": "Spotify為Premium用戶推出類似ChatGPT的AI音樂助理功能，用戶將能夠與App進行互動對話，以選擇想聽的音樂或其他音檔，提升個人化體驗。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "數位音樂推廣透明度與演算法操縱疑慮",
-      "description": "有報導指出音樂網紅收費推廣歌曲卻未揭露，引發了對數位音樂推廣透明度以及平台演算法可能被操縱的疑慮。這可能影響 Spotify 等音樂平台內容的可信度和公平性。",
+      "title": "Spotify移除大量AI生成歌曲",
+      "description": "Spotify在過去一年中移除了超過7500萬首AI生成歌曲，此舉旨在打擊低品質內容、垃圾訊息以及音樂產業中人工智慧的濫用。",
       "severity": "medium",
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Sakurashimeji數位單曲《Stamp》發行及Spotify Canvas活動",
+      "description": "為慶祝Sakurashimeji數位單曲《Stamp》的發行，Spotify啟動了Canvas分享活動，鼓勵用戶參與並分享音樂。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI 功能",
-    "AI 音樂",
+    "BTS",
+    "AI",
     "新功能",
-    "語音互動",
-    "帳號管理",
-    "內容審核",
-    "演算法",
-    "音樂推廣"
+    "MV",
+    "獨家首播",
+    "歌曲移除",
+    "音樂助理",
+    "Premium"
   ],
-  "daily_summary": "今日 Spotify 輿情主要聚焦於平台在 AI 技術的積極佈局，包括推出創新的 AI 語音對話功能和提升帳號管理的新功能，獲得了市場的正面評價。同時，Spotify 為了維護內容品質，也大規模移除了 AI 生成歌曲。然而，關於音樂網紅推廣透明度的疑慮，則為輿情帶來了些許負面討論。",
+  "daily_summary": "今日Spotify的輿情主要由新內容和技術發展驅動。韓國流行團體BTS新歌〈NORMAL〉MV在Spotify獨家首播，吸引大量關注，同時平台也推出類似ChatGPT的AI音樂助理新功能。此外，Spotify為維護內容品質，在過去一年中移除了7500萬首AI生成歌曲，顯示其在創新與內容管理上的雙重努力。",
   "article_analyses": [
     {
-      "title": "Spotify推「Managed Accounts」帳號由家長管理",
+      "title": "BTS新歌〈NORMAL〉MV正式上線！Spotify獨家首播，重現爆紅「廁所排排站」經典畫面",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「Managed Accounts」新功能。",
-        "允許家長管理家庭成員的帳號，提升控制權限。"
+        "BTS新歌〈NORMAL〉MV正式上線",
+        "Spotify獨家首播",
+        "重現爆紅「廁所排排站」經典畫面"
       ]
     },
     {
-      "title": "Spotify 推出「Talk to Spotify」AI 對話功能，聊天就能點歌、查資訊、 探索收聽紀錄",
+      "title": "BTS〈NORMAL〉MV 正式公開！重現爆紅「七人廁所」畫面、Spotify 搶先首播",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出「Talk to Spotify」AI 對話功能。",
-        "Premium 用戶可透過語音點歌、查詢資訊、探索收聽紀錄。"
+        "BTS〈NORMAL〉MV正式公開",
+        "Spotify搶先首播",
+        "重現爆紅「七人廁所」畫面"
+      ]
+    },
+    {
+      "title": "ARMY近期太忙了！BTS〈NORMAL〉MV Spotify搶先播、BT21 X CASETiFY聯名同步登場",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS〈NORMAL〉MV Spotify搶先播",
+        "ARMY粉絲熱烈",
+        "BT21 X CASETiFY聯名同步登場"
+      ]
+    },
+    {
+      "title": "為了慶祝Sakurashimeji數位單曲《Stamp》的發行，Spotify Canvas 分享活動正式啟動！",
+      "sentiment": "positive",
+      "key_points": [
+        "Sakurashimeji數位單曲《Stamp》發行",
+        "Spotify Canvas分享活動正式啟動"
+      ]
+    },
+    {
+      "title": "BTS 新曲〈NORMAL〉MV 搶先登 Spotify 《ARIRANG》展現七人真實面貌",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS新曲〈NORMAL〉MV搶先登Spotify",
+        "展現七人真實面貌"
+      ]
+    },
+    {
+      "title": "BTS新MV〈NORMAL〉重磅公開！七人「廁所前並肩」經典畫面再現 揭私下真實模樣",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS新MV〈NORMAL〉重磅公開",
+        "七人「廁所前並肩」經典畫面再現",
+        "揭私下真實模樣"
       ]
     },
     {
       "title": "Spotify expands its AI push with a ChatGPT-like music assistant - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 再次推動 AI 技術融入其收聽體驗。",
-        "Premium 用戶可與應用程式互動選擇音樂。"
+        "Spotify擴展AI應用",
+        "推出ChatGPT-like音樂助理",
+        "Premium用戶可互動對話選擇音樂"
       ]
     },
     {
       "title": "Spotify has removed more than 75 million AI-generated tracks over the past year as it battles low-effort content, spam and the rapid rise of artificial intelligence in music. - facebook.com",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 過去一年移除超過 7500 萬首 AI 生成歌曲。",
-        "此舉旨在打擊低品質內容、垃圾訊息及應對 AI 音樂增長。"
+        "Spotify移除超過7500萬首AI生成歌曲",
+        "打擊低品質內容和垃圾訊息",
+        "應對音樂中AI的快速崛起"
       ]
     },
     {
       "title": "Spotify Now Lets You Ask AI Questions in Its Mobile App - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 手機 App 新增 AI 問答功能。",
-        "強化用戶與 App 的互動體驗。"
-      ]
-    },
-    {
-      "title": "Spotify adds its own AI chatbot – here’s what you can do with it [Video] - 9to5Google",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 增添 AI 聊天機器人功能。",
-        "文章提及 Spotify 將取消用戶名登入、新增播放列表資料夾等更新。"
+        "Spotify行動App現可讓用戶詢問AI問題",
+        "AI功能提升音樂選擇體驗"
       ]
     },
     {
       "title": "Your iPhone’s Spotify App Is Getting a Cool New Ability - Gear Patrol",
       "sentiment": "positive",
       "key_points": [
-        "iPhone 的 Spotify App 將獲得新功能。",
-        "文章形容為「酷炫的新能力」。"
-      ]
-    },
-    {
-      "title": "Record Labels Push New Tagging System for AI Tunes - Newser",
-      "sentiment": "neutral",
-      "key_points": [
-        "唱片公司推動 AI 音樂新標籤系統。",
-        "業界擔憂 AI 訓練模型未付費及低品質 AI 歌曲充斥。"
-      ]
-    },
-    {
-      "title": "China Launches Reusable Rocket, Clearing a Key Hurdle in Race With SpaceX - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "中國發射可重複使用火箭。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Trump Administration Subpoenas Law Firms, Escalating Pressure Campaign - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "川普政府傳喚律師事務所。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "AI Music App Suno Got Hacked, Giving a Glimpse of Just How Much Music It Scraped - Gizmodo",
-      "sentiment": "neutral",
-      "key_points": [
-        "AI 音樂應用程式 Suno 遭到駭客攻擊。",
-        "事件揭示該應用程式可能爬取了大量音樂內容。"
-      ]
-    },
-    {
-      "title": "The CEO behind Megyn Kelly and Tucker Carlson podcasts says 'clipping' is a bad idea - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客公司 CEO 認為「剪輯」是個錯誤策略。",
-        "討論短影片市場的龐大商機。"
-      ]
-    },
-    {
-      "title": "\"It was like being back in 2016\" Pokémon Go celebrates 10th anniversary by recreating the original trailer's Times Square Mewtwo raid - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": [
-        "Pokémon Go 慶祝十週年。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Music influencers are getting paid to promote songs — and they're not telling you - KUOW",
-      "sentiment": "negative",
-      "key_points": [
-        "音樂網紅收費推廣歌曲但未揭露。",
-        "文章質疑演算法可能被操縱，影響內容公平性。"
-      ]
-    },
-    {
-      "title": "EU admits it cannot stop Sony killing physical disc – \"companies are free to offer games and services in the manner that they see fit\" - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": [
-        "歐盟承認無法阻止 Sony 終止實體光碟。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "England beats Norway 2-1 to make World Cup semi-final - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "英格蘭在世界盃比賽中擊敗挪威。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Bloomberg Loses Landmark Libel Case in Singapore - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "彭博社在新加坡的誹謗案敗訴。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "US Senator Lindsey Graham dies aged 71 - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "美國參議員 Lindsey Graham 逝世。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Anthropic Inches Toward a Mega-I.P.O. - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "AI 公司 Anthropic 接近進行大規模 IPO。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "\"The long arc is relentlessly up\" - As Xbox and PlayStation flounder, Steam is reportedly having another record year - Eurogamer.net",
-      "sentiment": "neutral",
-      "key_points": [
-        "Steam 平台據報創下另一紀錄年，Xbox 和 PlayStation 則面臨困境。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Marine Le Pen’s redemption story - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "法國政治人物 Marine Le Pen 的故事。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Apple sues OpenAI, alleging it stole top-secret information - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "蘋果公司控告 OpenAI 竊取機密資訊。",
-        "屬於廣泛的科技產業新聞，與 Spotify 直接業務無關。"
-      ]
-    },
-    {
-      "title": "Iran is seeing through Trump’s bluff - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "伊朗看穿川普的虛張聲勢。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Nvidia halves Asia buyer list in China chip crackdown - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "Nvidia 因中國晶片禁令將亞洲買家名單減半。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "MoffettNathanson's Zhu on why SpaceX is a difficult company to value as stock falls below IPO price - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析師朱解釋 SpaceX 估值困難，因股價跌破 IPO 價格。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Tunes Music Inc. Announces Global Expansion of Digital Music Promotion Network from New York Headquarters - markets.businessinsider.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "Tunes Music Inc. 宣布從紐約總部擴展其數位音樂推廣網路。",
-        "與 Spotify 相關但非其直接行動，更多是行業動態。"
-      ]
-    },
-    {
-      "title": "Stockpickers: BTG Consulting, Jet2, Currys - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "提供股票投資建議。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Mastercard examines sale of UK payments subsidiary Vocalink - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "萬事達卡考慮出售其英國支付子公司 Vocalink。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Wall Street feasts on fees from SpaceX IPO and mega-mergers - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "華爾街從 SpaceX IPO 及大型併購中獲取豐厚費用。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Expensive Games Are Fueling Steam’s Most Lucrative Year Despite Players Trending Towards Older Releases - Kotaku",
-      "sentiment": "neutral",
-      "key_points": [
-        "高價遊戲助推 Steam 創下最賺錢的一年。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Elon Musk ditches MSNBC interview at last minute, leaving reporter hanging on air - New York Post",
-      "sentiment": "neutral",
-      "key_points": [
-        "Elon Musk 在最後一刻取消 MSNBC 採訪。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "Big banks and Big Tech are surfing the same wave - Financial Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "大型銀行與大型科技公司共同面臨相似趨勢。",
-        "內容與 Spotify 無關。"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章無標題和內容。",
-        "無法進行分析。"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章無標題和內容。",
-        "無法進行分析。"
+        "Spotify iPhone App將獲得新功能",
+        "被形容為「很酷」的能力"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260717_040932.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260717.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260718_035641.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260718.jpg"
 }
