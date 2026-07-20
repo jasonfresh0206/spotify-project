@@ -1,145 +1,337 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.5,
+    "positive_ratio": 0.6,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.4
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "Spotify推出AI音樂助理與行動應用AI問答功能",
-      "description": "Spotify為其Premium用戶推出了一項類似ChatGPT的AI音樂助理，並在行動應用中增加了AI問答功能，旨在提升用戶互動和音樂選擇體驗。",
+      "title": "AI功能擴展與創辦人投資爭議",
+      "description": "Spotify一方面推出類似ChatGPT的AI音樂助理和AI問答等新功能，並積極移除低品質AI生成曲目以維護內容品質；另一方面，創辦人投資AI軍事公司引發獨立音樂人強烈不滿，導致部分作品被下架，且AI歌曲描述的準確性也受到歌手Lorde公開質疑。",
       "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify移除7500萬首AI生成歌曲",
-      "description": "為打擊低品質內容、垃圾郵件以及音樂中人工智慧的快速崛起，Spotify在過去一年中移除了超過7500萬首AI生成的音樂曲目。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Lorde批評Spotify的AI歌曲描述不準確",
-      "description": "藝人Lorde公開批評Spotify的AI歌曲描述功能不準確，並表示「我們不想要這個」，對該測試中的功能提出了質疑。",
-      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "BTS以NORMA（clean ver.）打破Spotify紀錄",
-      "description": "韓國團體BTS以其歌曲NORMA（clean ver.）在Spotify上打破了新紀錄，展現了其在全球串流平台上的巨大影響力。",
+      "title": "免費與付費服務重大升級",
+      "description": "Spotify針對免費版用戶推出重大更新，全面開放隨選即播、歌詞及自訂封面等功能。同時，Premium用戶期待已久的「無損音質」功能也已在台灣上線，顯著提升用戶聆聽體驗。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Apple Music訂閱費用上漲",
-      "description": "競爭對手Apple Music及其Apple One訂閱服務因授權成本上升而提高價格，這可能對串流音樂市場帶來間接影響。",
-      "severity": "low",
+      "title": "藝人權益與分潤制度調整",
+      "description": "獨立音樂人發起抵制Spotify行動，抗議平台低分潤制度與演算法控制。與此同時，環球音樂成功推動「泰勒絲條款」，透過出售Spotify股份提高旗下藝人分潤，顯示業界在權益分配上的調整。",
+      "severity": "high",
       "sentiment": "neutral"
+    },
+    {
+      "title": "大規模資料盜取事件",
+      "description": "Spotify爆發大規模資料盜取事件，有報告指出約8600萬個音訊檔案和中繼資料被非法存取並可能在P2P網路散布，引發用戶對數據安全的擔憂。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "平台年度回顧與藝人成就",
+      "description": "Spotify年度回顧功能如期發布，展現全球與台灣的熱門音樂趨勢。多位藝人創下亮眼成績，包括世界盃主題曲串流破2億、泰勒絲成為首位每月聽眾破億女藝人、BTS新專輯預售創紀錄，以及周杰倫連續六年蟬聯台灣最受歡迎歌手。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "市場擴展與創新行銷",
+      "description": "Spotify積極拓展新業務，推出Podcast評論功能、新的Podcast製作應用及實體網上書店。同時也透過與Live Nation合作演唱會優先購票、以及與Liquid Death聯名骨灰罈等獨特行銷手法，強化品牌連結與用戶參與。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "Spotify",
     "AI",
-    "人工智慧",
-    "音樂助理",
-    "AI生成歌曲",
-    "Premium",
-    "藝人",
-    "串流",
-    "Apple Music",
+    "藝人分潤",
+    "免費用戶升級",
+    "資料盜取",
+    "年度回顧",
     "新功能",
-    "紀錄"
+    "獨立音樂人",
+    "無損音質",
+    "泰勒絲",
+    "Podcast"
   ],
-  "daily_summary": "今日Spotify的輿情核心圍繞著其在AI技術的進展與挑戰。平台積極推出AI音樂助理和行動應用AI問答等新功能，以增強用戶體驗；同時，為確保內容品質，Spotify也採取行動移除了數千萬首AI生成歌曲。然而，這些AI創新也引發了藝人對其準確性的批評，顯示技術導入仍面臨挑戰。此外，市場也關注到BTS等藝人在平台上的佳績，以及競爭對手Apple Music的訂閱價格上漲。",
+  "daily_summary": "今日Spotify輿情呈現兩極化。正面消息包括免費版與Premium功能大幅升級、多位藝人創下串流新紀錄以及年度回顧的熱烈發布。然而，負面消息如大規模資料盜取事件、獨立音樂人因不滿創辦人投資AI軍事公司而發起的抵制，以及對AI歌曲描述準確性的質疑，也引發廣泛關注。",
   "article_analyses": [
     {
-      "title": "BTS以NORMAL（clean ver.）打破Spotify紀錄後進軍美國流行廣播",
+      "title": "世界盃主題曲〈Dai Dai〉在 Spotify 串流破2億",
       "sentiment": "positive",
       "key_points": [
-        "BTS歌曲NORMAL（clean ver.）打破Spotify紀錄。",
-        "BTS進軍美國流行廣播市場。"
+        "世界盃主題曲在Spotify串流破2億"
       ]
     },
     {
       "title": "Spotify expands its AI push with a ChatGPT-like music assistant - TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify為Premium用戶推出類似ChatGPT的AI音樂助理。",
-        "旨在將AI技術融入聽歌體驗。"
+        "Spotify為Premium用戶推出類似ChatGPT的AI音樂助理"
       ]
     },
     {
       "title": "Spotify has removed more than 75 million AI-generated tracks over the past year as it battles low-effort content, spam and the rapid rise of artificial intelligence in music. - facebook.com",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify在過去一年移除了超過7500萬首AI生成曲目。",
-        "此舉旨在打擊低品質內容與垃圾訊息。"
+        "Spotify移除超過7500萬首AI生成曲目以打擊低質內容和垃圾郵件"
       ]
     },
     {
       "title": "Lorde Slams ‘Inaccurate’ Spotify AI Song Descriptions of ‘Current Affairs’: ‘We Don’t Want This’ - Billboard",
       "sentiment": "negative",
       "key_points": [
-        "藝人Lorde批評Spotify AI歌曲描述不準確。",
-        "Spotify表示該功能仍在測試階段，資訊來源於網路文章。"
+        "歌手Lorde批評Spotify的AI歌曲描述不準確"
       ]
     },
     {
       "title": "Spotify Now Lets You Ask AI Questions in Its Mobile App - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Spotify行動應用程式新增AI問答功能。",
-        "進一步整合AI技術以提升用戶互動。"
+        "Spotify在行動App中推出AI問答功能"
       ]
     },
     {
       "title": "Apple Music and Apple One subscriptions get more expensive - GSMArena.com news - GSMArena.com",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music及Apple One訂閱價格上漲。",
-        "漲價原因為授權成本增加。"
+        "Apple Music和Apple One訂閱費用上漲"
       ]
     },
     {
       "title": "Apple Music Now Costs $11.99 as Apple Increases Subscription Prices - MacRumors",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music訂閱費調漲至11.99美元。",
-        "討論提及藝人收入問題。"
+        "Apple Music訂閱價格上漲至$11.99"
       ]
     },
     {
       "title": "Musk's X, major labels end dispute over music on social-media platform - Reuters",
       "sentiment": "neutral",
       "key_points": [
-        "X平台與主要唱片公司結束音樂版權糾紛。",
-        "關乎社群媒體平台上的音樂內容使用。"
+        "X平台與主要唱片公司結束音樂版權糾紛"
       ]
     },
     {
       "title": "Madonna's new album hits No. 1 on the Billboard charts - NPR",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Madonna新專輯登上Billboard排行榜榜首。",
-        "反映音樂產業的動態與藝人成功。"
+        "瑪丹娜新專輯登上Billboard榜首"
       ]
     },
     {
-      "title": "Your iPhone’s Spotify App Is Getting a Cool New Ability - Gear Patrol",
-      "sentiment": "positive",
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "Spotify iPhone應用程式將獲得一項新功能。",
-        "這項「酷炫」新功能預計能提升用戶體驗。"
+        "獨立音樂人抵制Spotify，抗議低分潤和演算法控制",
+        "創辦人投資AI軍事公司引發下架作品"
       ]
     },
     {
-      "title": "Latin and country surge in the US as more music is being streamed than ever before - Greenwich Time",
+      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "多組音樂人因不滿Spotify創辦人投資AI軍事公司，將作品下架"
+      ]
+    },
+    {
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify爆發大規模資料盜取事件",
+        "約8600萬個音訊檔案可能被洩漏"
+      ]
+    },
+    {
+      "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
       "sentiment": "positive",
       "key_points": [
-        "美國拉丁音樂和鄉村音樂串流播放量激增。",
-        "整體音樂串流播放量持續增長，R&B/Hip-Hop的歷史主導地位趨於平衡。"
+        "Spotify新增Podcast評論功能，強化社群互動"
+      ]
+    },
+    {
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Live Nation合作推演唱會優先購票，引發正反討論"
+      ]
+    },
+    {
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify執行長揭示工程師工作模式轉變，強調AI應用"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "環球音樂出售Spotify股份，落實「泰勒絲條款」提升藝人分潤"
+      ]
+    },
+    {
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify年度回顧推出聆聽年齡等新功能與全球熱門榜單"
+      ]
+    },
+    {
+      "title": "報新聞七月全球實體跟數位行銷當紅關鍵案例評論：瑪丹娜《Confessions II》全球專輯發行策略與市場影響分析 | 蕃新聞",
+      "sentiment": "positive",
+      "key_points": [
+        "瑪丹娜新專輯在Spotify創下60歲以上藝人紀錄"
+      ]
+    },
+    {
+      "title": "Spotify 推出新 Podcast 製作應用，挑戰 Google 的 NotebookLM",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify推出新的Podcast製作應用，拓展內容創作工具"
+      ]
+    },
+    {
+      "title": "泰勒絲成為首位Spotify每月聽眾破1億女藝人 | 大紀元",
+      "sentiment": "positive",
+      "key_points": [
+        "泰勒絲成為首位Spotify每月聽眾破1億的女藝人"
+      ]
+    },
+    {
+      "title": "越大膽越熱銷！　Supreme 棺材、Spotify x Liquid Death 聯名骨灰罈，讓死亡議題不再沈重",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Liquid Death合作推出聯名骨灰罈，探索創新行銷"
+      ]
+    },
+    {
+      "title": "泰勒絲輸了！「1巨星」全球播放量達200億次，Spotify 年度最強歌手排名出爐",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify年度總回顧揭曉全球播放量達200億次的巨星"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶迎來重大升級，全面開放隨選即播、歌詞功能、自訂封面",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify免費版用戶迎來重大升級，開放隨選即播、歌詞和自訂封面"
+      ]
+    },
+    {
+      "title": "為來世打造！Liquid Death x Spotify 骨灰罈無線喇叭「Eternal Playlist Urn」 | Hypebeast",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Liquid Death合作推出「永恆播放清單骨灰罈」"
+      ]
+    },
+    {
+      "title": "Spotify 推出實體網上書店　同步支援有聲書 Page Match",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify推出實體網上書店，支援有聲書"
+      ]
+    },
+    {
+      "title": "「Spotify」全新 Exclusive Mode 登陸 Windows　帶來 bit-perfect 級完美音質",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Windows版推出「Exclusive Mode」，提供無損音質"
+      ]
+    },
+    {
+      "title": "Spotify 開放使用者直接調整 Taste Profile，個人化推薦更透明",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify開放用戶調整Taste Profile，提升個人化推薦的透明度"
+      ]
+    },
+    {
+      "title": "2023台灣人最愛聽歌曲排行榜出爐，五月天周杰倫沒進前十名！Spotify 年度回顧1鍵查詢 | 風生活綜合報導 | 風生活 - 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "2023 Spotify年度回顧揭曉台灣熱門歌曲與K-Pop歌手榜單"
+      ]
+    },
+    {
+      "title": "亀梨和也 1st Album『WAVE』全曲解説ボイス入りプレイリストをSpotifyで公開！｜亀梨和也｜Storm Labels OFFICIAL SITE",
+      "sentiment": "positive",
+      "key_points": [
+        "龜梨和也首張專輯語音評論播放清單在Spotify上架"
+      ]
+    },
+    {
+      "title": "泰勒絲新專輯創紀錄 評論認缺乏新意 - 台灣醒報 Awakening News Networks",
+      "sentiment": "neutral",
+      "key_points": [
+        "泰勒絲新專輯創Spotify串流紀錄，但評論指其缺乏新意"
+      ]
+    },
+    {
+      "title": "BTS新專輯《ARIRANG》預售7天狂賣406萬張，刷新自身巔峰紀錄！Spotify預存飆破200萬直追泰勒絲神話 | 韓星網 | LINE TODAY",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS新專輯預售成績驚人，Spotify預存數追平泰勒絲紀錄"
+      ]
+    },
+    {
+      "title": "2024 Spotify 年度回顧怎麼看？最新音樂排行榜曝光，周杰倫連續6 年奪得全台最受歡迎歌手",
+      "sentiment": "positive",
+      "key_points": [
+        "2024 Spotify年度回顧發布，周杰倫連續6年蟬聯台灣最受歡迎歌手"
+      ]
+    },
+    {
+      "title": "Spotify「無損音質」功能台灣上線，網友實測結果如何？",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify「無損音質」功能在台灣上線，用戶反應良好"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify免費版用戶升級，開放直接選歌、搜尋播放等功能"
+      ]
+    },
+    {
+      "title": "Spotify爆紅的The Velvet Sundown，只是一場惡作劇？成功騙倒所有人的AI樂團真相解密",
+      "sentiment": "neutral",
+      "key_points": [
+        "AI樂團The Velvet Sundown在Spotify爆紅後被揭露為惡作劇"
+      ]
+    },
+    {
+      "title": "昆仑万维AI商业化快速增长，AI版Netflix和AI版Spotify驱动，25年营收同比增长44.78%至81.98亿",
+      "sentiment": "neutral",
+      "key_points": [
+        "昆侖萬維AI商業化增長，提及AI版Spotify商業模式"
+      ]
+    },
+    {
+      "title": "巴萨球员将在国家德比中身穿带有滚石乐队徽章的球衣，首发球员签名的限量版球衣本月底发售！",
+      "sentiment": "neutral",
+      "key_points": [
+        "巴塞羅那足球俱樂部與Spotify合作，球衣將印有滾石樂隊徽章"
+      ]
+    },
+    {
+      "title": "為了慶祝Sakurashimeji數位單曲《Stamp》的發行，Spotify Canvas 分享活動正式啟動！",
+      "sentiment": "positive",
+      "key_points": [
+        "為慶祝Sakurashimeji單曲發行，Spotify Canvas分享活動啟動"
+      ]
+    },
+    {
+      "title": "#LISA# 单飞后发布的5️⃣首单曲【全部】空降Spotify🌍全球榜前十，本人透露二专已在筹备中",
+      "sentiment": "positive",
+      "key_points": [
+        "LISA單飛後單曲全部空降Spotify全球榜前十"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260719_042301.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260719.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260720_043810.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260720.jpg"
 }
