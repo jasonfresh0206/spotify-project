@@ -1,347 +1,125 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.18,
-    "negative_ratio": 0.03,
-    "neutral_ratio": 0.79
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "Spotify推出AI音樂助理",
-      "description": "Spotify為Premium用戶推出了類ChatGPT的AI音樂助理功能，允許用戶透過互動式語音對話來選擇音樂和其他音頻內容，旨在提升聆聽體驗。",
+      "title": "Spotify 移除 7500 萬首 AI 生成歌曲",
+      "description": "Spotify 在過去一年中，為打擊低品質內容和垃圾郵件，已移除超過 7500 萬首 AI 生成的音樂曲目。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify移除大量AI生成歌曲",
-      "description": "Spotify在過去一年中移除了超過7500萬首AI生成的音樂曲目，此舉是為了打擊低品質內容、垃圾資訊，並維護音樂平台生態系統的品質。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "藝人Lorde批評Spotify AI歌曲描述不準確",
-      "description": "藝人Lorde公開批評Spotify的「關於歌曲」(About the Song) AI功能提供的歌曲描述不準確，表達了對該功能的擔憂和不滿。",
+      "title": "藝術家 Lorde 批評 Spotify AI 歌曲描述功能不準確",
+      "description": "歌手 Lorde 公開抨擊 Spotify 的 AI 歌曲描述功能「About the Song」不準確，Spotify 方面回應此功能仍在測試階段，資訊來自網路文章。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify股價上漲",
-      "description": "Spotify Technology SA(SPOT)股票在7月20日盤中上漲3.16%，顯示市場對其表現的積極訊號。",
+      "title": "Spotify App 新增語音控制功能「Talk to Spotify」",
+      "description": "Spotify 為 iPhone 用戶推出名為「Talk to Spotify」的新語音控制功能，讓用戶能透過語音或文字指令操作 App，提升互動體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Miki Matsubara 經典歌曲在 Spotify 串流播放突破 5 億次",
+      "description": "松原美紀的 City Pop 經典歌曲〈Mayonaka no Door ～ Stay With Me〉在 Spotify 上的串流播放量已突破 5 億次，顯示平台對經典音樂的影響力。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "藝人優先在Spotify發布MV",
-      "description": "有報導指出藝人傾向選擇先在Spotify而非YouTube上發布音樂錄影帶，這突顯了Spotify在藝人合作方面的吸引力。",
+      "title": "三星信用卡提供 Spotify 相關優惠",
+      "description": "三星 Galaxy Card 信用卡服務登場，用戶在購買三星生態產品或訂閱 Netflix、Spotify 等服務時可享有優惠，有望刺激用戶訂閱意願。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "競爭對手Apple Music訂閱價格上漲",
-      "description": "Apple Music和Apple One的訂閱費用因授權成本上升而調漲，可能對Spotify的市場競爭力產生間接影響。",
+      "title": "Apple Music 訂閱價格上漲",
+      "description": "競爭對手 Apple Music 和 Apple One 訂閱服務的價格均有所上漲，這可能間接影響 Spotify 在串流音樂市場的競爭定位，使其相對更具價格優勢。",
       "severity": "medium",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "音樂助理",
-    "歌曲描述",
-    "藝人",
-    "串流音樂",
-    "內容審核",
-    "股價表現",
-    "訂閱費用",
-    "平台競爭"
+    "Spotify",
+    "AI 歌曲",
+    "語音控制",
+    "串流播放",
+    "新功能",
+    "訂閱優惠",
+    "Apple Music",
+    "內容管理",
+    "藝人批評"
   ],
-  "daily_summary": "今日Spotify輿情焦點圍繞在人工智慧的應用與挑戰。Spotify一方面推出創新的AI音樂助理功能並積極移除大量AI生成歌曲以維護內容品質，另一方面也面臨藝人如Lorde對AI歌曲描述準確性的批評。市場方面，Spotify股價表現上揚，同時競爭對手Apple Music的訂閱價格調漲，可能為Spotify帶來潛在的競爭優勢。",
+  "daily_summary": "今日 Spotify 輿情以正面消息為主導，包括成功移除大量 AI 生成內容、推出創新的語音控制功能以及平台歌曲播放量達成新里程碑。然而，其 AI 歌曲描述的準確性遭到藝術家批評，同時競爭對手 Apple Music 的訂閱價格上漲，可能間接影響串流音樂市場的動態。",
   "article_analyses": [
     {
-      "title": "Spotify Technology SA(SPOT)股票7月20日盤中上漲3.16%：釋放什麼訊號？",
+      "title": "三星Galaxy Card信用卡服務登場｜購買三星生態與 Netflix、Spotify 有優惠",
       "sentiment": "positive",
       "key_points": [
-        "Spotify股價上漲3.16%",
-        "市場表現良好"
+        "三星信用卡提供 Spotify 優惠",
+        "提升 Spotify 訂閱吸引力"
       ]
     },
     {
-      "title": "為何藝人選擇先在Spotify而非YouTube發MV – 馬丁西德雜誌",
+      "title": "Miki Matsubara City Pop 經典〈Mayonaka no Door ～ Stay With Me〉Spotify 串流播放突破 5 億次",
       "sentiment": "positive",
       "key_points": [
-        "藝人傾向在Spotify而非YouTube發布MV",
-        "平台對藝人的吸引力"
-      ]
-    },
-    {
-      "title": "Spotify expands its AI push with a ChatGPT-like music assistant - TechCrunch",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出類ChatGPT音樂助理",
-        "Premium用戶可進行互動式語音對話",
-        "AI技術融入聆聽體驗"
+        "松原美紀歌曲在 Spotify 播放量破 5 億",
+        "平台對經典音樂的傳播力與用戶活躍度高"
       ]
     },
     {
       "title": "Spotify has removed more than 75 million AI-generated tracks over the past year as it battles low-effort content, spam and the rapid rise of artificial intelligence in music. - facebook.com",
       "sentiment": "positive",
       "key_points": [
-        "Spotify移除逾7500萬首AI生成歌曲",
-        "打擊低品質內容和垃圾資訊",
-        "維護音樂生態系統品質"
+        "Spotify 移除 7500 萬首 AI 生成歌曲",
+        "積極打擊低品質內容，維護平台健康生態"
       ]
     },
     {
       "title": "Lorde Slams ‘Inaccurate’ Spotify AI Song Descriptions of ‘Current Affairs’: ‘We Don’t Want This’ - Billboard",
       "sentiment": "negative",
       "key_points": [
-        "藝人Lorde批評Spotify AI歌曲描述不準確",
-        "對「關於歌曲」功能表示不滿",
-        "Spotify稱該功能仍在測試階段並根據回饋改進"
-      ]
-    },
-    {
-      "title": "Spotify Now Lets You Ask AI Questions in Its Mobile App - CNET",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify手機應用程式新增AI問答功能",
-        "提升用戶互動體驗"
-      ]
-    },
-    {
-      "title": "Trump to Impose 50% Tariff on Many Canadian Goods - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Trump Administration Subpoenas Law Firms, Escalating Pressure Campaign - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Trump Administration Fires U.S. Attorney Minutes After His Appointment - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
+        "歌手 Lorde 批評 Spotify 的 AI 歌曲描述不準確",
+        "Spotify 回應 AI 功能仍在測試階段，需改進"
       ]
     },
     {
       "title": "Apple Music and Apple One subscriptions get more expensive - GSMArena.com news - GSMArena.com",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music和Apple One訂閱價格上漲",
-        "因授權費用上升"
-      ]
-    },
-    {
-      "title": "China’s Latest A.I. Breakthrough Threatens America’s Lead - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "America’s Enterprising Spirit Is Booming After Decades-Long Slump - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
+        "Apple Music 訂閱價格上漲",
+        "可能間接有利於 Spotify 的市場競爭"
       ]
     },
     {
       "title": "Apple Music Now Costs $11.99 as Apple Increases Subscription Prices - MacRumors",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music訂閱費用漲至$11.99"
-      ]
-    },
-    {
-      "title": "The CEO behind Megyn Kelly and Tucker Carlson podcasts says 'clipping' is a bad idea - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix says live hours will help with new sign ups - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix’s mixed quarter highlights slowing growth and modest engagement gains - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Japan Criminalizes Flag Desecration in Nationalist Push - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Bloomberg Loses Landmark Libel Case in Singapore - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Musk's X, major labels end dispute over music on social-media platform - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "The Late Morning Rundown: July 20, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX's slide risks turning blockbuster IPO into confidence test - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Madonna's new album hits No. 1 on the Billboard charts - NPR",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Short sellers notch $8.7 bln profit as SpaceX shares dip to IPO price - Reuters",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix Pushes Back At Season 2 Woes Narrative, Doesn’t Release Video Podcast Data - TV News Check",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix Viewership Concerns: A Remedy? Think France's TF1 07/13/2026 - MediaPost",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, July 20th, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
+        "Apple Music 訂閱費用增加",
+        "對手漲價，Spotify 相對價格優勢可能顯現"
       ]
     },
     {
       "title": "Your iPhone’s Spotify App Is Getting a Cool New Ability - Gear Patrol",
       "sentiment": "positive",
       "key_points": [
-        "Spotify iPhone應用程式新增新功能",
-        "提升用戶體驗"
+        "Spotify App 新增語音控制功能「Talk to Spotify」",
+        "提升用戶操作便利性與互動體驗"
       ]
     },
     {
       "title": "Latin and country surge in the US as more music is being streamed than ever before - Greenwich Time",
       "sentiment": "positive",
       "key_points": [
-        "美國音樂串流增長",
-        "拉丁音樂和鄉村音樂流行度激增",
-        "音樂流派多元化"
-      ]
-    },
-    {
-      "title": "LET’S TALK | OPINION: All the news is odd these days, but some is odder - The Arkansas Democrat-Gazette",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix faces pressure to revive viewing growth after a steep selloff in shares - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Napalm Death make history with NPR Tiny Desk Performance - LiveWire Music",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Rick Beato’s Paul McCartney Video Calls Out The Music Publicity Machine - Forbes",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX bears are taking a victory lap as the stock struggles a month after the IPO - Business Insider",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "‘Heartstopper Forever’ Review: Facing a Grown-Up Reality - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "SpaceX Stock Breaks The IPO Price—and Cathie Wood Keeps Buying the Dip - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "Netflix To Stop Releasing Viewership Data Every 6 Months, Will Shift To Annual Reports - TV News Check",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "'Burnham's new era' and 'Viva España!' - BBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify無直接關聯"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無具體內容可供分析"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無具體內容可供分析"
+        "美國串流音樂整體市場增長",
+        "拉丁樂與鄉村音樂播放量顯著上升，利好所有串流平台"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260721_041723.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260721.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260722_041842.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260722.jpg"
 }
