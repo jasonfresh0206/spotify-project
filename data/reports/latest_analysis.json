@@ -1,125 +1,104 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.4,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify 移除 7500 萬首 AI 生成歌曲",
-      "description": "Spotify 在過去一年中，為打擊低品質內容和垃圾郵件，已移除超過 7500 萬首 AI 生成的音樂曲目。",
+      "title": "Spotify目標價遭Benchmark下調",
+      "description": "Benchmark下調Spotify目標價至650美元，主要是由於對其利潤率前景的擔憂。",
       "severity": "high",
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "title": "藝術家 Lorde 批評 Spotify AI 歌曲描述功能不準確",
-      "description": "歌手 Lorde 公開抨擊 Spotify 的 AI 歌曲描述功能「About the Song」不準確，Spotify 方面回應此功能仍在測試階段，資訊來自網路文章。",
+      "title": "Spotify移除7500萬首AI生成音樂",
+      "description": "Spotify在過去一年中移除了超過7500萬首AI生成音樂，以打擊低質內容、垃圾內容以及應對AI音樂的迅速興起。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Lorde批評Spotify AI歌曲描述不準確",
+      "description": "歌手Lorde公開批評Spotify的AI歌曲描述功能（'About the Song'）存在不準確，表示用戶不希望看到此類錯誤資訊。Spotify回應稱該功能仍在測試階段。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify App 新增語音控制功能「Talk to Spotify」",
-      "description": "Spotify 為 iPhone 用戶推出名為「Talk to Spotify」的新語音控制功能，讓用戶能透過語音或文字指令操作 App，提升互動體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Miki Matsubara 經典歌曲在 Spotify 串流播放突破 5 億次",
-      "description": "松原美紀的 City Pop 經典歌曲〈Mayonaka no Door ～ Stay With Me〉在 Spotify 上的串流播放量已突破 5 億次，顯示平台對經典音樂的影響力。",
+      "title": "WhatsApp支援分享Spotify活動",
+      "description": "WhatsApp推出新功能，允許用戶分享Apple Music和Spotify上的音樂活動，增強了平台的社交互動性。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "三星信用卡提供 Spotify 相關優惠",
-      "description": "三星 Galaxy Card 信用卡服務登場，用戶在購買三星生態產品或訂閱 Netflix、Spotify 等服務時可享有優惠，有望刺激用戶訂閱意願。",
+      "title": "競爭對手Apple Music訂閱價格上漲",
+      "description": "Apple Music宣布上調其訂閱價格，這雖然是競爭對手的行動，但可能間接影響串流音樂市場的整體格局和用戶對Spotify價格的感知。",
       "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Apple Music 訂閱價格上漲",
-      "description": "競爭對手 Apple Music 和 Apple One 訂閱服務的價格均有所上漲，這可能間接影響 Spotify 在串流音樂市場的競爭定位，使其相對更具價格優勢。",
-      "severity": "medium",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
     "Spotify",
-    "AI 歌曲",
-    "語音控制",
-    "串流播放",
-    "新功能",
-    "訂閱優惠",
-    "Apple Music",
-    "內容管理",
-    "藝人批評"
+    "AI",
+    "音樂",
+    "訂閱",
+    "利潤率",
+    "移除",
+    "批評",
+    "漲價",
+    "功能"
   ],
-  "daily_summary": "今日 Spotify 輿情以正面消息為主導，包括成功移除大量 AI 生成內容、推出創新的語音控制功能以及平台歌曲播放量達成新里程碑。然而，其 AI 歌曲描述的準確性遭到藝術家批評，同時競爭對手 Apple Music 的訂閱價格上漲，可能間接影響串流音樂市場的動態。",
+  "daily_summary": "今日Spotify輿情呈現喜憂參半。一方面，Spotify面臨分析師下調目標價和歌手Lorde對AI歌曲描述功能不準確的批評，顯示其在財務前景和功能體驗上存在挑戰；另一方面，平台積極移除了數千萬首AI生成音樂以維護內容品質，並透過WhatsApp支援分享活動來提升社交整合，同時競爭對手Apple Music的漲價也間接影響了市場討論。",
   "article_analyses": [
     {
-      "title": "三星Galaxy Card信用卡服務登場｜購買三星生態與 Netflix、Spotify 有優惠",
-      "sentiment": "positive",
+      "title": "Benchmark下調Spotify目標價至650美元，憂慮利潤率前景 作者 Investing.com - Investing.com 香港",
+      "sentiment": "negative",
       "key_points": [
-        "三星信用卡提供 Spotify 優惠",
-        "提升 Spotify 訂閱吸引力"
-      ]
-    },
-    {
-      "title": "Miki Matsubara City Pop 經典〈Mayonaka no Door ～ Stay With Me〉Spotify 串流播放突破 5 億次",
-      "sentiment": "positive",
-      "key_points": [
-        "松原美紀歌曲在 Spotify 播放量破 5 億",
-        "平台對經典音樂的傳播力與用戶活躍度高"
+        "Benchmark下調Spotify目標價至650美元",
+        "對利潤率前景表示擔憂"
       ]
     },
     {
       "title": "Spotify has removed more than 75 million AI-generated tracks over the past year as it battles low-effort content, spam and the rapid rise of artificial intelligence in music. - facebook.com",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify 移除 7500 萬首 AI 生成歌曲",
-        "積極打擊低品質內容，維護平台健康生態"
+        "Spotify移除了超過7500萬首AI生成音樂",
+        "旨在打擊低質內容、垃圾內容和AI音樂的快速增長"
       ]
     },
     {
       "title": "Lorde Slams ‘Inaccurate’ Spotify AI Song Descriptions of ‘Current Affairs’: ‘We Don’t Want This’ - Billboard",
       "sentiment": "negative",
       "key_points": [
-        "歌手 Lorde 批評 Spotify 的 AI 歌曲描述不準確",
-        "Spotify 回應 AI 功能仍在測試階段，需改進"
+        "歌手Lorde批評Spotify AI歌曲描述不準確",
+        "Spotify表示'About the Song'功能仍在測試階段",
+        "資訊來源於網路文章"
       ]
     },
     {
       "title": "Apple Music and Apple One subscriptions get more expensive - GSMArena.com news - GSMArena.com",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music 訂閱價格上漲",
-        "可能間接有利於 Spotify 的市場競爭"
+        "Apple Music訂閱價格上漲",
+        "漲價原因為授權成本上升"
       ]
     },
     {
       "title": "Apple Music Now Costs $11.99 as Apple Increases Subscription Prices - MacRumors",
       "sentiment": "neutral",
       "key_points": [
-        "Apple Music 訂閱費用增加",
-        "對手漲價，Spotify 相對價格優勢可能顯現"
+        "Apple Music現在每月費用為11.99美元",
+        "訂閱價格整體上漲"
       ]
     },
     {
-      "title": "Your iPhone’s Spotify App Is Getting a Cool New Ability - Gear Patrol",
+      "title": "WhatsApp launches Apple Music sharing, plus more - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "Spotify App 新增語音控制功能「Talk to Spotify」",
-        "提升用戶操作便利性與互動體驗"
-      ]
-    },
-    {
-      "title": "Latin and country surge in the US as more music is being streamed than ever before - Greenwich Time",
-      "sentiment": "positive",
-      "key_points": [
-        "美國串流音樂整體市場增長",
-        "拉丁樂與鄉村音樂播放量顯著上升，利好所有串流平台"
+        "WhatsApp推出新功能，支援分享Apple Music和Spotify活動",
+        "增強社群媒體的音樂分享體驗"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260722_041842.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260722.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260723_041716.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260723.jpg"
 }
