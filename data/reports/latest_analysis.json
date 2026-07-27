@@ -6,61 +6,316 @@
   },
   "events": [
     {
-      "title": "Spotify捲入AI音樂詐欺爭議",
-      "description": "有文章指出Spotify在人工智慧音樂詐欺中扮演始作俑者及最大受益者角色，引發平台責任的負面討論。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "WhatsApp整合Spotify分享功能",
-      "description": "WhatsApp推出新功能，允許用戶直接分享Spotify活動，提升了應用程式間的互動與社群分享體驗。",
+      "title": "CORTIS歌曲Spotify累計播放量破10億",
+      "description": "韓國藝人CORTIS的歌曲在Spotify上累計播放量突破10億次，展現了其在全球音樂串流平台上的巨大影響力。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Consumer Reports肯定Spotify演算法",
-      "description": "Consumer Reports將Spotify列為最佳音樂串流服務之一，並特別肯定其推薦演算法的卓越表現。",
+      "title": "Spotify獲消費者報告評為最佳音樂串流服務",
+      "description": "消費者報告將Spotify評為2026年最佳音樂串流服務之一，特別讚揚其推薦演算法的強大功能，並提及了其多樣的訂閱方案。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify推出「粉絲生活」行銷活動",
+      "description": "Spotify發起了其「粉絲生活」（Fan Life）行銷活動的第三階段，旨在慶祝和連結音樂愛好者的熱情，強化品牌與用戶之間的情感聯繫。",
       "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "WhatsApp新增分享Spotify活動功能",
+      "description": "通訊應用程式WhatsApp推出新功能，允許用戶分享其Apple Music和Spotify的活動狀態，增加了Spotify的社群互動與可見度。",
+      "severity": "medium",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI音樂詐欺",
-    "推薦演算法",
-    "應用程式整合",
-    "訂閱服務",
-    "播客平台"
+    "Spotify",
+    "音樂串流",
+    "播放量",
+    "演算法",
+    "行銷活動",
+    "訂閱",
+    "播客",
+    "WhatsApp整合"
   ],
-  "daily_summary": "今日Spotify的輿情呈現兩極分化。一方面，平台因被指控涉及人工智慧音樂詐欺而面臨嚴峻的負面聲浪與道德質疑。另一方面，Spotify也獲得了正面的評價，包括Consumer Reports對其推薦演算法的高度讚揚，以及WhatsApp推出整合分享功能，預計將能提升用戶的社群互動與平台黏著度。",
+  "daily_summary": "今日Spotify的輿情主要呈現正面態勢，重要事件包括藝人CORTIS在平台上達成10億播放量里程碑，以及Spotify被消費者報告評選為最佳音樂串流服務之一，其推薦演算法受到高度肯定。此外，Spotify也透過「粉絲生活」行銷活動和WhatsApp整合功能，積極提升用戶參與度與平台曝光。",
   "article_analyses": [
     {
-      "title": "平台悖論：Spotify 如何成為人工智慧音樂詐欺的始作俑者和最大受益者",
-      "sentiment": "negative",
+      "title": "CORTIS歌曲Spotify累計播放量破10億",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify被指為AI音樂詐欺的推動者",
-        "平台從AI詐欺中獲利",
-        "引發平台責任的討論"
+        "CORTIS歌曲在Spotify上累計播放量突破10億次",
+        "顯示藝人在Spotify平台上的成功與影響力"
       ]
     },
     {
       "title": "Best music streaming services of 2026, per Consumer Reports - qz.com",
       "sentiment": "positive",
       "key_points": [
-        "Consumer Reports讚揚Spotify推薦演算法",
-        "提供多樣化訂閱方案",
-        "被評為最佳音樂串流服務之一"
+        "Spotify被消費者報告列為2026年最佳音樂串流服務之一",
+        "其推薦演算法被認為是獨特優勢",
+        "文章提及了Spotify的免費和付費訂閱方案"
+      ]
+    },
+    {
+      "title": "Spotify celebrates passions of music fans in third installment of ‘Fan Life’ - Ad Age",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify啟動其「粉絲生活」行銷活動的第三階段",
+        "旨在慶祝和連結音樂粉絲的熱情"
+      ]
+    },
+    {
+      "title": "Did the Cyclospora Outbreak Start Here? ‘They’re Always Going to Blame Us Mexicans.’ - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "Oil Prices Waver as Gulf Ship Traffic Falls to Lowest Level in Months - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "Trump Administration Pressures Some Immigrants to Self-Deport With Fines Up to $1.8 Million - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "Trump to Impose 50% Tariff on Many Canadian Goods - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "Barstool Sports' Dave Portnoy on why he \"stays up at night\" worrying about politics - NPR",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR播客可在Spotify等平台收聽",
+        "內容主軸為Barstool Sports創辦人Dave Portnoy的政治觀點，與Spotify本身無關"
+      ]
+    },
+    {
+      "title": "SoundCloud acquires Nina Protocol, a platform for independent artists - Zamin.uz",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容主要關於SoundCloud收購Nina Protocol",
+        "與Spotify本身無直接關聯"
+      ]
+    },
+    {
+      "title": "The Last Song That Made Me Cry, and 4 Other Recommendations - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容為音樂推薦與評論",
+        "未具體提及Spotify平台"
+      ]
+    },
+    {
+      "title": "Google Hit With $1 Billion Fine By EU Over Search Engine Practices - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "僅提及「所有播客」和「播放列表」等通用詞彙"
+      ]
+    },
+    {
+      "title": "K-Pop’s NewJeans Hints at Comeback After Monthslong Feud With Its Label - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容關於K-Pop團體NewJeans",
+        "未具體提及Spotify平台相關消息"
+      ]
+    },
+    {
+      "title": "New Music Friday: The best albums out July 24 - Louisville Public Media",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR's All Songs Considered播客可在Spotify等平台收聽",
+        "內容主軸為新發行音樂推薦，與Spotify本身無關"
       ]
     },
     {
       "title": "WhatsApp launches Apple Music sharing, plus more - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "WhatsApp新增Spotify活動分享功能",
-        "提升用戶社群互動體驗",
-        "強化跨應用程式整合"
+        "WhatsApp推出新功能，支援分享Apple Music和Spotify的活動",
+        "提升了Spotify在社交媒體上的可見度和互動性"
+      ]
+    },
+    {
+      "title": "MoffettNathanson's Craig Moffett: Idea SpaceX is a threat to cable is 'significantly overstated' - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為經濟和科技產業分析"
+      ]
+    },
+    {
+      "title": "Tim Cook’s final Apple earnings report puts pricing power to the test - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "關於Apple的財報與商業策略"
+      ]
+    },
+    {
+      "title": "The Late Morning Rundown: July 20, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為市場與商業新聞摘要"
+      ]
+    },
+    {
+      "title": "Post Market Wrap: July 24, 2026 - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為市場與商業新聞摘要"
+      ]
+    },
+    {
+      "title": "'Weird Al' Yankovic says he walked away from a seven-figure comedy festival offer in Saudi Arabia - Fox News",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容關於藝人「怪人」艾爾·揚科維奇",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "The subscription tipping point: how much more will subscribers pay? - InternetRetailing",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章討論訂閱模式的整體趨勢和消費者支付意願",
+        "未具體提及Spotify或其訂閱政策"
+      ]
+    },
+    {
+      "title": "Apple brings melodrama to new iPhone microdrama inspired by telenovelas - Ad Age",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容關於Apple iPhone的行銷活動",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags and more in Morning Squawk - CNBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為市場與商業新聞摘要"
+      ]
+    },
+    {
+      "title": "Netflix denies reports it considered delaying Michael Jackson documentary release - Minute Mirror",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容關於Netflix的紀錄片",
+        "與Spotify無關"
+      ]
+    },
+    {
+      "title": "Around the Book World: Monday, July 20th, 2026 - Publishing Perspectives",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章討論有聲書和AI旁白技術的趨勢",
+        "未具體提及Spotify的有聲書服務或相關內容"
+      ]
+    },
+    {
+      "title": "From Charli xcx to Secret Lives of Gypsy Wives: the week in rave reviews - The Guardian",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容為音樂專輯和作品評論",
+        "未具體提及Spotify平台"
+      ]
+    },
+    {
+      "title": "Experts: Latin, country music surge in US but hip hop fans shouldn’t worry - Modern Ghana",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章討論拉丁音樂和鄉村音樂在美國的興起趨勢，以及串流媒體的「革命」",
+        "提及串流媒體在音樂流派發展中的作用，但未具體討論Spotify本身"
+      ]
+    },
+    {
+      "title": "How Conor Oberst Survived Teenage Rock Stardom - The New York Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容關於藝人Conor Oberst的音樂生涯",
+        "未具體提及Spotify平台"
+      ]
+    },
+    {
+      "title": "The Bobby Lees: New Self - Spectrum Culture",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容為音樂評論",
+        "未具體提及Spotify平台"
+      ]
+    },
+    {
+      "title": "Why Alphabet’s Multibillion-Dollar SpaceX Investment Has Become a Stock Headwind - Barron's",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為商業和投資分析"
+      ]
+    },
+    {
+      "title": "SpaceX Set to Unlock $116 Billion in Shares After IPO Restrictions Lift - Bloomberg.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為商業和金融新聞"
+      ]
+    },
+    {
+      "title": "Prince George turns 13! See the day he was first introduced to the world - USA Today",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要內容與Spotify無關",
+        "為名人與娛樂新聞"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容為空或無法解析",
+        "無法提取任何與Spotify相關的資訊"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容為空或無法解析",
+        "無法提取任何與Spotify相關的資訊"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260726_042854.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260726.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260727_043806.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260727.jpg"
 }
