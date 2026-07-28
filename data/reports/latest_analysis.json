@@ -1,321 +1,616 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.1,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.9
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.26,
+    "neutral_ratio": 0.14
   },
   "events": [
     {
-      "title": "CORTIS歌曲Spotify累計播放量破10億",
-      "description": "韓國藝人CORTIS的歌曲在Spotify上累計播放量突破10億次，展現了其在全球音樂串流平台上的巨大影響力。",
+      "title": "大規模服務當機與播放問題",
+      "description": "多篇文章指出Spotify服務出現大規模中斷，包括應用程式與網頁播放器無法運作，用戶回報頻繁出現「現在無法播放」錯誤，甚至有歌單消失的情況，引發用戶廣泛抱怨。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AI功能拓展與內容管理挑戰",
+      "description": "Spotify積極推出AI聊天機器人、對話式音樂助理等新AI功能，旨在提升用戶探索體驗。然而，平台也面臨AI生成內容氾濫（已刪除數千萬曲目）、藝人批評AI歌曲描述錯誤、以及需開發新工具防止AI內容錯誤歸屬等挑戰。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "新功能與合作夥伴關係提升用戶體驗",
+      "description": "平台推出了全球音樂影片排行榜、高音質無損音質、可供用戶直接調整的Taste Profile，並升級了免費版功能（如直接選歌）。此外，與Snapchat和WhatsApp的深度整合也強化了音樂分享的社交體驗，同時推出了針對兒童的託管帳戶。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify獲消費者報告評為最佳音樂串流服務",
-      "description": "消費者報告將Spotify評為2026年最佳音樂串流服務之一，特別讚揚其推薦演算法的強大功能，並提及了其多樣的訂閱方案。",
+      "title": "訂閱價格上漲",
+      "description": "Spotify宣布再次調漲訂閱價格，漲幅最高達3美元，引發部分用戶的不滿，認為平台應更專注於音樂服務而非持續漲價。",
       "severity": "medium",
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "title": "Spotify推出「粉絲生活」行銷活動",
-      "description": "Spotify發起了其「粉絲生活」（Fan Life）行銷活動的第三階段，旨在慶祝和連結音樂愛好者的熱情，強化品牌與用戶之間的情感聯繫。",
-      "severity": "low",
-      "sentiment": "positive"
+      "title": "數據安全與詐騙風險",
+      "description": "近期爆發大規模資料盜取事件，有報告指出大量音樂資料被爬取，潛在風險高。同時，針對Spotify用戶的詐騙郵件和網路釣魚行為也持續存在，提醒用戶注意帳戶安全。",
+      "severity": "high",
+      "sentiment": "negative"
     },
     {
-      "title": "WhatsApp新增分享Spotify活動功能",
-      "description": "通訊應用程式WhatsApp推出新功能，允許用戶分享其Apple Music和Spotify的活動狀態，增加了Spotify的社群互動與可見度。",
+      "title": "財務表現與市場評價",
+      "description": "Spotify公布了強勁的第四季度財報，實現了首次全年盈利，CEO對公司未來發展持樂觀態度，並帶動股價上漲。然而，仍有分析指出儘管擁有龐大用戶群，平台在實現持續盈利方面仍面臨挑戰，也有報導提及短期股價下跌。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "藝人權益與分潤機制調整",
+      "description": "環球音樂出售部分Spotify股份，將實施「泰勒絲條款」，旨在保障旗下藝人的收益，這被視為音樂產業在串流時代調整權益分配的一大進展，也顯示藝人在平台合作中的影響力。",
       "severity": "medium",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "音樂串流",
-    "播放量",
-    "演算法",
-    "行銷活動",
-    "訂閱",
-    "播客",
-    "WhatsApp整合"
+    "AI",
+    "當機",
+    "新功能",
+    "合作",
+    "訂閱漲價",
+    "音樂影片",
+    "藝人收益",
+    "數據安全",
+    "免費版升級",
+    "無損音質"
   ],
-  "daily_summary": "今日Spotify的輿情主要呈現正面態勢，重要事件包括藝人CORTIS在平台上達成10億播放量里程碑，以及Spotify被消費者報告評選為最佳音樂串流服務之一，其推薦演算法受到高度肯定。此外，Spotify也透過「粉絲生活」行銷活動和WhatsApp整合功能，積極提升用戶參與度與平台曝光。",
+  "daily_summary": "今日Spotify輿情呈現兩極分化，一方面用戶對大規模服務當機、訂閱漲價以及數據盜取等負面事件表達強烈不滿；另一方面，平台積極透過AI聊天機器人、無損音質和音樂影片榜單等新功能提升體驗，並與Snapchat等夥伴深化合作。此外，Spotify公布了首次全年盈利的積極財報，同時也正著手應對AI生成內容的挑戰與藝人收益分配問題。",
   "article_analyses": [
+    {
+      "title": "Snapchat 與 Spotify 合作推出即時音樂分享功能Now Playing 於 Snap Map 展示朋友所聆聽歌曲",
+      "sentiment": "positive",
+      "key_points": [
+        "Snapchat合作",
+        "Now Playing功能",
+        "即時音樂分享",
+        "Snap Map"
+      ]
+    },
+    {
+      "title": "'Spotify can't play this right now.' Is music streaming service down?",
+      "sentiment": "negative",
+      "key_points": [
+        "服務當機",
+        "播放問題",
+        "用戶回報"
+      ]
+    },
+    {
+      "title": "Spotify experienced another major outage",
+      "sentiment": "negative",
+      "key_points": [
+        "大規模當機",
+        "應用程式故障",
+        "無法串流音樂"
+      ]
+    },
+    {
+      "title": "Is Spotify working? Hundreds of reports claim it's down",
+      "sentiment": "negative",
+      "key_points": [
+        "服務當機",
+        "數百起報告",
+        "Downdetector"
+      ]
+    },
+    {
+      "title": "Is Spotify Down Right Now? Latest Outage Leaves Web Player Not Working",
+      "sentiment": "negative",
+      "key_points": [
+        "最新當機",
+        "Web Player故障",
+        "播放失敗"
+      ]
+    },
+    {
+      "title": "Spotify goes full MTV with new music video charts",
+      "sentiment": "positive",
+      "key_points": [
+        "推出音樂影片排行榜",
+        "全球前50名"
+      ]
+    },
+    {
+      "title": "Spotify is now an AI chatbot, too",
+      "sentiment": "positive",
+      "key_points": [
+        "AI聊天機器人",
+        "Premium訂閱者",
+        "音樂探索",
+        "音頻內容"
+      ]
+    },
+    {
+      "title": "'I never thought I'd fall for a scam': the fake Spotify emails that put you at risk of fraud",
+      "sentiment": "negative",
+      "key_points": [
+        "詐騙郵件",
+        "網路釣魚",
+        "資料洩露風險"
+      ]
+    },
+    {
+      "title": "Spotify expands its AI push with a ChatGPT-like music assistant",
+      "sentiment": "positive",
+      "key_points": [
+        "擴展AI功能",
+        "對話式音樂助理",
+        "音樂探索"
+      ]
+    },
+    {
+      "title": "Spotify is putting a conversational chatbot right inside its app",
+      "sentiment": "positive",
+      "key_points": [
+        "內建聊天機器人",
+        "控制音頻",
+        "追蹤收聽習慣"
+      ]
+    },
+    {
+      "title": "Snapchat's newest feature turns Snap Map into a live Spotify listening feed",
+      "sentiment": "positive",
+      "key_points": [
+        "Snapchat整合",
+        "Snap Map音樂動態",
+        "實時收聽"
+      ]
+    },
+    {
+      "title": "Kids messing up your Spotify Wrapped? There's a new solution for that.",
+      "sentiment": "positive",
+      "key_points": [
+        "兒童託管帳戶",
+        "獨立收聽體驗"
+      ]
+    },
+    {
+      "title": "Spotify launches its first global music video chart",
+      "sentiment": "positive",
+      "key_points": [
+        "全球音樂影片榜單",
+        "藝人推廣工具"
+      ]
+    },
+    {
+      "title": "Spotify Premium users can now 'talk to' the app to choose music and learn about what they're playing",
+      "sentiment": "positive",
+      "key_points": [
+        "Premium用戶",
+        "語音互動",
+        "選擇音樂",
+        "了解歌曲"
+      ]
+    },
+    {
+      "title": "12 Spotify Features You Could Be Using To Level-Up Your Listening Experience",
+      "sentiment": "positive",
+      "key_points": [
+        "功能介紹",
+        "提升收聽體驗"
+      ]
+    },
+    {
+      "title": "Spotify raising prices by up to $3 as frustrated subs beg it to \"just do music\"",
+      "sentiment": "negative",
+      "key_points": [
+        "訂閱價格上漲",
+        "用戶不滿",
+        "第二次漲價"
+      ]
+    },
+    {
+      "title": "Snapchat now lets users share and save Spotify songs via Snap Map, used by 450m people a month",
+      "sentiment": "positive",
+      "key_points": [
+        "Snapchat整合",
+        "分享歌曲",
+        "Snap Map"
+      ]
+    },
+    {
+      "title": "Spotify is deleting millions of AI-generated music tracks to fend off spammers",
+      "sentiment": "neutral",
+      "key_points": [
+        "刪除AI生成歌曲",
+        "打擊垃圾內容",
+        "保護平台"
+      ]
+    },
+    {
+      "title": "Spotify Launches Free Managed Accounts for Kids in the US",
+      "sentiment": "positive",
+      "key_points": [
+        "美國推出兒童託管帳戶",
+        "排除播客與影片"
+      ]
+    },
+    {
+      "title": "Lorde Slams Spotify Over Sloppy AI-Generated Song Descriptions",
+      "sentiment": "negative",
+      "key_points": [
+        "Lorde批評",
+        "AI生成歌曲描述錯誤",
+        "資訊不準確"
+      ]
+    },
+    {
+      "title": "Lorde blasts Spotify's AI song feature over error",
+      "sentiment": "negative",
+      "key_points": [
+        "Lorde批評",
+        "AI歌曲功能錯誤",
+        "描述不符"
+      ]
+    },
+    {
+      "title": "Here's Why Your Spotify Music Might Suddenly Sound Much Better",
+      "sentiment": "positive",
+      "key_points": [
+        "推出無損音質",
+        "提升音質",
+        "與競爭對手持平"
+      ]
+    },
+    {
+      "title": "Taylor Swift Sneakily Tweaked 3 Songs on Spotify—and Sparked New Album Rumors",
+      "sentiment": "neutral",
+      "key_points": [
+        "Taylor Swift修改歌曲",
+        "引發新專輯謠言"
+      ]
+    },
+    {
+      "title": "Is Spotify not working right now? Spotify can't play this right now PC",
+      "sentiment": "negative",
+      "key_points": [
+        "電腦版當機",
+        "播放問題"
+      ]
+    },
+    {
+      "title": "Spotify Is A Buy-The-Dip Opportunity, Here's Why",
+      "sentiment": "positive",
+      "key_points": [
+        "股票投資機會",
+        "基本面強勁",
+        "用戶增長"
+      ]
+    },
+    {
+      "title": "Spotify CEO Daniel Ek Calls 2024 \"A Year We Really Showed What We Are Capable Of\" As Q4 Sings, Stock Pops",
+      "sentiment": "positive",
+      "key_points": [
+        "CEO正面展望",
+        "第四季度業績強勁",
+        "首次全年盈利",
+        "股價上漲"
+      ]
+    },
+    {
+      "title": "10 biggest AI music artists have made $6.1 million on Spotify and YouTube, report suggests",
+      "sentiment": "neutral",
+      "key_points": [
+        "AI音樂藝人收入",
+        "AI生成音樂爭議"
+      ]
+    },
+    {
+      "title": "Spotify Doubles Down on AI Slop As It's Being Flooded With It",
+      "sentiment": "negative",
+      "key_points": [
+        "AI內容氾濫",
+        "平台處理策略批評"
+      ]
+    },
+    {
+      "title": "The 'Wagon Wheel' turns more than a billion times on Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "Darius Rucker",
+        "歌曲播放量破10億"
+      ]
+    },
+    {
+      "title": "Spotify has 600 million users, but struggles to consistently turn a profit",
+      "sentiment": "negative",
+      "key_points": [
+        "用戶數龐大",
+        "盈利困難",
+        "市場份額"
+      ]
+    },
+    {
+      "title": "Spotify Not Working on PC? Here's Why & How to Fix Web Player",
+      "sentiment": "neutral",
+      "key_points": [
+        "電腦版故障排除",
+        "解決播放問題",
+        "Web Player"
+      ]
+    },
+    {
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "大規模數據盜取",
+        "Anna's Archive",
+        "音樂資料被爬取"
+      ]
+    },
+    {
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
+      "sentiment": "neutral",
+      "key_points": [
+        "與Live Nation合作",
+        "演唱會優先購票",
+        "商業模式討論"
+      ]
+    },
+    {
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
+      "sentiment": "positive",
+      "key_points": [
+        "AI影響工作模式",
+        "工程師職能轉變",
+        "執行長訪談"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Wrapped",
+        "年度歌手排名",
+        "播放量紀錄"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "環球音樂股權出售",
+        "泰勒絲條款",
+        "藝人收益保障"
+      ]
+    },
+    {
+      "title": "快訊／ Spotify大當機！音樂播不了「歌單全蒸發」　用戶崩潰│TVBS新聞網",
+      "sentiment": "negative",
+      "key_points": [
+        "大當機",
+        "音樂無法播放",
+        "歌單消失",
+        "用戶抱怨"
+      ]
+    },
+    {
+      "title": "Spotify 開放使用者直接調整 Taste Profile，個人化推薦更透明 - INSIDE",
+      "sentiment": "positive",
+      "key_points": [
+        "Taste Profile功能",
+        "個人化推薦",
+        "用戶主導權"
+      ]
+    },
+    {
+      "title": "Music review: My Spotify Wrapped | The Review",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify Wrapped評論",
+        "個人收聽報告"
+      ]
+    },
+    {
+      "title": "TuneFab Spotify Music Converter Review: Why Modern Spotify Downloaders Are Becoming Personal Music Library Platforms",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂下載器評論",
+        "個人音樂庫趨勢"
+      ]
+    },
+    {
+      "title": "Spotify fights back against AI, removing 75m mass-produced spam tracks",
+      "sentiment": "neutral",
+      "key_points": [
+        "打擊AI垃圾歌曲",
+        "移除7500萬曲目"
+      ]
+    },
+    {
+      "title": "Spotify Technology SA(SPOT)股票7月20日盤中上漲3.16%：釋放什麼訊號？",
+      "sentiment": "positive",
+      "key_points": [
+        "股票上漲",
+        "產業穩定",
+        "獲利轉型"
+      ]
+    },
+    {
+      "title": "Spotify lets users steer their own algorithm with new Taste Profile feature | MusicTech",
+      "sentiment": "positive",
+      "key_points": [
+        "用戶控制算法",
+        "Taste Profile",
+        "推薦自由度"
+      ]
+    },
+    {
+      "title": "An Honest Review of Spotify's New Fitness Library - InsideHook",
+      "sentiment": "neutral",
+      "key_points": [
+        "健身音樂庫評論",
+        "內容擴展"
+      ]
+    },
+    {
+      "title": "Spotify Deleted 75 Million AI-Generated Tracks - and It's Not Done Yet - Gadget Review",
+      "sentiment": "neutral",
+      "key_points": [
+        "刪除AI生成歌曲",
+        "反擊垃圾內容"
+      ]
+    },
+    {
+      "title": "Spotify上架新節目 進一步擴充文史內容題材",
+      "sentiment": "positive",
+      "key_points": [
+        "新增節目",
+        "擴充文史內容",
+        "多元題材"
+      ]
+    },
+    {
+      "title": "為何藝人選擇先在Spotify而非YouTube發MV – 馬丁西德雜誌",
+      "sentiment": "neutral",
+      "key_points": [
+        "MV發行策略",
+        "視覺先行",
+        "K-pop影響"
+      ]
+    },
+    {
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple Music與Spotify比較",
+        "市場策略討論"
+      ]
+    },
+    {
+      "title": "The Measured Listener | Los Angeles Review of Books",
+      "sentiment": "neutral",
+      "key_points": [
+        "音樂平台角色",
+        "推薦系統哲學"
+      ]
+    },
+    {
+      "title": "Spotify tests new tool to stop AI slop from being attributed to real artists | TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "測試AI保護工具",
+        "防止AI內容歸屬錯誤",
+        "藝人控制權"
+      ]
+    },
+    {
+      "title": "Spotify爆災情！音樂播不了「重載後歌單全消失」　一票用戶崩潰",
+      "sentiment": "negative",
+      "key_points": [
+        "當機問題",
+        "歌單消失",
+        "用戶抱怨"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
+      "sentiment": "positive",
+      "key_points": [
+        "免費版功能升級",
+        "直接選歌",
+        "搜尋播放"
+      ]
+    },
+    {
+      "title": "Bad Bunny Performs His First-Ever Concert in Japan: Review",
+      "sentiment": "neutral",
+      "key_points": [
+        "Bad Bunny演唱會",
+        "Spotify億萬俱樂部"
+      ]
+    },
+    {
+      "title": "爲何Spotify Technology（SPOT）股價今日下跌",
+      "sentiment": "negative",
+      "key_points": [
+        "股價下跌",
+        "業績公布前謹慎"
+      ]
+    },
+    {
+      "title": "Can Spotify Become a Wellness Company? - Athletech News",
+      "sentiment": "neutral",
+      "key_points": [
+        "健康公司潛力",
+        "內容拓展方向"
+      ]
+    },
+    {
+      "title": "Snapchat 與 Spotify 合作推出即時音樂分享功能 Now Playing 於 Snap Map 展示朋友所聆聽歌曲 | Techritual 香港",
+      "sentiment": "positive",
+      "key_points": [
+        "Snapchat合作",
+        "Now Playing功能"
+      ]
+    },
+    {
+      "title": "它來了！現在就來回顧 Spotify 2025 年的願景吧！",
+      "sentiment": "positive",
+      "key_points": [
+        "2025年願景",
+        "Bad Bunny年度藝人"
+      ]
+    },
     {
       "title": "CORTIS歌曲Spotify累計播放量破10億",
       "sentiment": "positive",
       "key_points": [
-        "CORTIS歌曲在Spotify上累計播放量突破10億次",
-        "顯示藝人在Spotify平台上的成功與影響力"
+        "CORTIS歌曲",
+        "播放量破10億"
+      ]
+    },
+    {
+      "title": "松原美紀經典神曲〈Stay With Me〉Spotify 播放量突破 5 億大關！創 20 世紀日語歌曲新紀錄",
+      "sentiment": "positive",
+      "key_points": [
+        "松原美紀歌曲",
+        "播放量破5億",
+        "日語歌曲紀錄"
+      ]
+    },
+    {
+      "title": "Spotify Founder's Body-Scan Startup Neko Health Raises $700 Million in Latest Fundraising",
+      "sentiment": "neutral",
+      "key_points": [
+        "創辦人其他事業",
+        "Neko Health",
+        "融資"
       ]
     },
     {
       "title": "Best music streaming services of 2026, per Consumer Reports - qz.com",
       "sentiment": "positive",
       "key_points": [
-        "Spotify被消費者報告列為2026年最佳音樂串流服務之一",
-        "其推薦演算法被認為是獨特優勢",
-        "文章提及了Spotify的免費和付費訂閱方案"
+        "消費者報告",
+        "最佳音樂串流服務",
+        "推薦算法優勢"
       ]
     },
     {
       "title": "Spotify celebrates passions of music fans in third installment of ‘Fan Life’ - Ad Age",
       "sentiment": "positive",
       "key_points": [
-        "Spotify啟動其「粉絲生活」行銷活動的第三階段",
-        "旨在慶祝和連結音樂粉絲的熱情"
-      ]
-    },
-    {
-      "title": "Did the Cyclospora Outbreak Start Here? ‘They’re Always Going to Blame Us Mexicans.’ - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "Oil Prices Waver as Gulf Ship Traffic Falls to Lowest Level in Months - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "Trump Administration Pressures Some Immigrants to Self-Deport With Fines Up to $1.8 Million - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "Trump to Impose 50% Tariff on Many Canadian Goods - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "Barstool Sports' Dave Portnoy on why he \"stays up at night\" worrying about politics - NPR",
-      "sentiment": "neutral",
-      "key_points": [
-        "NPR播客可在Spotify等平台收聽",
-        "內容主軸為Barstool Sports創辦人Dave Portnoy的政治觀點，與Spotify本身無關"
-      ]
-    },
-    {
-      "title": "SoundCloud acquires Nina Protocol, a platform for independent artists - Zamin.uz",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容主要關於SoundCloud收購Nina Protocol",
-        "與Spotify本身無直接關聯"
-      ]
-    },
-    {
-      "title": "The Last Song That Made Me Cry, and 4 Other Recommendations - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容為音樂推薦與評論",
-        "未具體提及Spotify平台"
-      ]
-    },
-    {
-      "title": "Google Hit With $1 Billion Fine By EU Over Search Engine Practices - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "僅提及「所有播客」和「播放列表」等通用詞彙"
-      ]
-    },
-    {
-      "title": "K-Pop’s NewJeans Hints at Comeback After Monthslong Feud With Its Label - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容關於K-Pop團體NewJeans",
-        "未具體提及Spotify平台相關消息"
-      ]
-    },
-    {
-      "title": "New Music Friday: The best albums out July 24 - Louisville Public Media",
-      "sentiment": "neutral",
-      "key_points": [
-        "NPR's All Songs Considered播客可在Spotify等平台收聽",
-        "內容主軸為新發行音樂推薦，與Spotify本身無關"
+        "Fan Life活動",
+        "慶祝樂迷熱情",
+        "市場行銷"
       ]
     },
     {
       "title": "WhatsApp launches Apple Music sharing, plus more - 9to5Mac",
       "sentiment": "positive",
       "key_points": [
-        "WhatsApp推出新功能，支援分享Apple Music和Spotify的活動",
-        "提升了Spotify在社交媒體上的可見度和互動性"
-      ]
-    },
-    {
-      "title": "MoffettNathanson's Craig Moffett: Idea SpaceX is a threat to cable is 'significantly overstated' - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為經濟和科技產業分析"
-      ]
-    },
-    {
-      "title": "Tim Cook’s final Apple earnings report puts pricing power to the test - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "關於Apple的財報與商業策略"
-      ]
-    },
-    {
-      "title": "The Late Morning Rundown: July 20, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為市場與商業新聞摘要"
-      ]
-    },
-    {
-      "title": "Post Market Wrap: July 24, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為市場與商業新聞摘要"
-      ]
-    },
-    {
-      "title": "'Weird Al' Yankovic says he walked away from a seven-figure comedy festival offer in Saudi Arabia - Fox News",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容關於藝人「怪人」艾爾·揚科維奇",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "The subscription tipping point: how much more will subscribers pay? - InternetRetailing",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章討論訂閱模式的整體趨勢和消費者支付意願",
-        "未具體提及Spotify或其訂閱政策"
-      ]
-    },
-    {
-      "title": "Apple brings melodrama to new iPhone microdrama inspired by telenovelas - Ad Age",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容關於Apple iPhone的行銷活動",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags and more in Morning Squawk - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為市場與商業新聞摘要"
-      ]
-    },
-    {
-      "title": "Netflix denies reports it considered delaying Michael Jackson documentary release - Minute Mirror",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容關於Netflix的紀錄片",
-        "與Spotify無關"
-      ]
-    },
-    {
-      "title": "Around the Book World: Monday, July 20th, 2026 - Publishing Perspectives",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章討論有聲書和AI旁白技術的趨勢",
-        "未具體提及Spotify的有聲書服務或相關內容"
-      ]
-    },
-    {
-      "title": "From Charli xcx to Secret Lives of Gypsy Wives: the week in rave reviews - The Guardian",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容為音樂專輯和作品評論",
-        "未具體提及Spotify平台"
-      ]
-    },
-    {
-      "title": "Experts: Latin, country music surge in US but hip hop fans shouldn’t worry - Modern Ghana",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章討論拉丁音樂和鄉村音樂在美國的興起趨勢，以及串流媒體的「革命」",
-        "提及串流媒體在音樂流派發展中的作用，但未具體討論Spotify本身"
-      ]
-    },
-    {
-      "title": "How Conor Oberst Survived Teenage Rock Stardom - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容關於藝人Conor Oberst的音樂生涯",
-        "未具體提及Spotify平台"
-      ]
-    },
-    {
-      "title": "The Bobby Lees: New Self - Spectrum Culture",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容為音樂評論",
-        "未具體提及Spotify平台"
-      ]
-    },
-    {
-      "title": "Why Alphabet’s Multibillion-Dollar SpaceX Investment Has Become a Stock Headwind - Barron's",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為商業和投資分析"
-      ]
-    },
-    {
-      "title": "SpaceX Set to Unlock $116 Billion in Shares After IPO Restrictions Lift - Bloomberg.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為商業和金融新聞"
-      ]
-    },
-    {
-      "title": "Prince George turns 13! See the day he was first introduced to the world - USA Today",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章主要內容與Spotify無關",
-        "為名人與娛樂新聞"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容為空或無法解析",
-        "無法提取任何與Spotify相關的資訊"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章內容為空或無法解析",
-        "無法提取任何與Spotify相關的資訊"
+        "WhatsApp分享功能",
+        "支持Spotify活動"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260727_043806.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260727.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260728_041404.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260728.jpg"
 }
