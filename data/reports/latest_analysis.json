@@ -1,366 +1,390 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.0,
-    "neutral_ratio": 0.8
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "J-POP海外串流暴增20%",
-      "description": "Spotify指出J-POP在海外的串流播放量暴增20%，顯示平台在推廣多樣化音樂類型上的成功，且爆紅音樂不再僅限於動漫歌曲。",
+      "title": "大規模資料盜取事件",
+      "description": "Anna's Archive聲稱爬取了Spotify大量音樂資料，其規模可能超越現有最大型的開放音樂資料庫，引發資安與版權疑慮。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美國Premium訂閱價格調漲",
+      "description": "Spotify在美國調漲Premium月費至13美元，為一年內第二次調漲，旨在推動長期獲利，但引發用戶流失擔憂。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "獨立音樂人發起「Spotify去死」行動",
+      "description": "獨立音樂人抗議Spotify的低分潤制度與演算法控制，呼籲抵制平台並下架作品，批評其壓榨音樂人。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "音樂人下架作品因創辦人投資AI軍事公司",
+      "description": "Deerhoof、Xiu Xiu等多組音樂人因不滿Spotify創辦人Daniel Ek投資AI軍事公司，決定將作品從平台下架以示抗議。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "免費用戶3大功能解禁",
+      "description": "Spotify為免費用戶解禁了部分功能，使其能夠直接選擇想聽的歌曲，大幅提升了免費版的使用體驗。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Snapchat新增音樂即時分享功能",
-      "description": "Snapchat推出新功能，允許用戶即時分享正在收聽的Spotify活動，這項整合有助於增強Spotify的社群互動性及音樂發現。",
+      "title": "Spotify Wrapped 年度回顧功能上線",
+      "description": "Spotify發布2025年度回顧，統計用戶聆聽數據並公布年度最強歌手排名，廣受用戶期待與討論。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify「Fan Life」行銷活動發布",
-      "description": "Spotify發布了其第三波「Fan Life」行銷活動，旨在慶祝樂迷對音樂的熱情，此舉有助於強化品牌與用戶之間的連結。",
-      "severity": "low",
+      "title": "開放使用者直接調整Taste Profile",
+      "description": "Spotify推出新功能，允許使用者直接調整Taste Profile，提升個人化推薦的透明度與用戶主導權。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Consumer Reports肯定Spotify推薦演算法",
-      "description": "根據Consumer Reports的報告，Spotify的推薦演算法被視為其一大優勢，提升了用戶體驗。",
-      "severity": "low",
+      "title": "Snapchat與Spotify合作推出即時音樂分享功能",
+      "description": "Spotify與Snapchat合作，推出「Now Playing」功能，讓用戶能在Snap Map上即時分享正在聆聽的歌曲，強化社交互動性。",
+      "severity": "medium",
       "sentiment": "positive"
+    },
+    {
+      "title": "環球音樂出售Spotify股份並落實「泰勒絲條款」",
+      "description": "環球音樂出售部分Spotify股份，並聲稱將落實「泰勒絲條款」，確保旗下藝人從串流平台中獲得更公平的收益。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify與Live Nation推演唱會優先購票引發爭議",
+      "description": "Spotify攜手Live Nation推出演唱會優先購票服務，但引發部分用戶對於此合作是否構成「商業綁架」的質疑。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AI樂團The Velvet Sundown爆紅後被揭露為惡作劇",
+      "description": "AI樂團The Velvet Sundown在Spotify上意外走紅，但隨後被揭露為一場惡作劇，引發對平台內容真實性的討論。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "哈利王子與梅根的Podcast合作被批「近乎失敗」",
+      "description": "哈利王子與梅根與Spotify簽訂的天價Podcast合約被媒體和資深記者批評為「近乎失敗」，節目表現不如預期。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify創辦人Daniel Ek的爭議性投資",
+      "description": "Spotify創辦人Daniel Ek對AI軍事公司的投資，引發部分獨立音樂人不滿，導致多組音樂人從Spotify下架作品以示抗議。",
+      "severity": "high",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "Spotify",
-    "音樂串流",
-    "Snapchat",
-    "分享功能",
-    "J-POP",
-    "推薦演算法",
-    "訂閱",
-    "Podcast"
+    "漲價",
+    "藝人權益",
+    "功能更新",
+    "資料安全",
+    "AI爭議",
+    "股價",
+    "K-POP"
   ],
-  "daily_summary": "今日Spotify輿情整體呈現正面，主要亮點包括J-POP海外串流的顯著增長，以及Snapchat整合音樂即時分享功能，有效提升了Spotify的社群互動與用戶參與度。此外，Consumer Reports亦對Spotify的推薦演算法給予高度肯定。目前並無直接指向Spotify的重大負面事件。",
+  "daily_summary": "今日Spotify輿情呈現兩極化趨勢。一方面，多項新功能與合作提升了用戶體驗（如免費用戶功能解禁、Taste Profile調整、Snapchat合作），且平台在K-POP等音樂內容上持續展現強勁的影響力。另一方面，近期漲價、大規模資料盜取事件、以及獨立音樂人因低分潤和創辦人爭議性投資而發起的抵制行動，引發了用戶和音樂產業的負面聲浪與擔憂。",
   "article_analyses": [
     {
-      "title": "J-POP海外串流暴增20％ Spotify：爆紅不再只靠動漫歌",
+      "title": "國際科網投資巨頭3.2億買迎夏複式 呎價8萬購4022呎 DST沾手京東滴滴Spotify等 - 20260730 - 經濟",
+      "sentiment": "neutral",
+      "key_points": [
+        "DST Global投資Spotify等科技公司",
+        "國際科網投資巨頭的財務動態"
+      ]
+    },
+    {
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "positive",
       "key_points": [
-        "J-POP海外串流播放量成長20%",
-        "Spotify助力非動漫相關J-POP音樂爆紅",
-        "平台展現多元音樂推廣能力"
+        "Spotify執行長揭示工程師工作模式轉變",
+        "公司內部正擁抱AI浪潮與創新工作方式"
       ]
     },
     {
-      "title": "不是LINE！手機「吃容量怪獸」曝光 內行人驚：一鍵清出8Ｇ",
-      "sentiment": "neutral",
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "探討手機應用程式佔用儲存空間問題",
-        "提供清理手機容量的建議",
-        "與Spotify相關性間接，未直接點名"
+        "Anna's Archive爬取Spotify大量音樂資料",
+        "此事件可能超越現有最大開放音樂資料庫規模",
+        "引發對資料安全與音樂版權的擔憂"
       ]
     },
     {
-      "title": "Best music streaming services of 2026, per Consumer Reports - qz.com",
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify與Live Nation合作推出演唱會優先購票",
+        "輿論質疑此舉是否構成「商業綁架」",
+        "探討新功能對粉絲與商業利益的影響"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Consumer Reports評選最佳音樂串流服務",
-        "提及Spotify的訂閱方案及價格",
-        "讚揚Spotify的推薦演算法為一大優勢"
+        "Spotify Wrapped 2025年度回顧功能上線",
+        "公布全球播放量最高的巨星及其成就"
       ]
     },
     {
-      "title": "Spotify celebrates passions of music fans in third installment of ‘Fan Life’ - Ad Age",
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出第三波「Fan Life」行銷活動",
-        "活動旨在慶祝樂迷對音樂的熱情",
-        "強化品牌與用戶間的情感連結"
+        "Spotify免費用戶新增直接選歌等3大功能",
+        "提升免費版用戶體驗",
+        "文章提供免費與付費版功能比較"
       ]
     },
     {
-      "title": "Did the Cyclospora Outbreak Start Here? ‘They’re Always Going to Blame Us Mexicans.’ - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Snapchat now lets you share what you’re listening to in real time - NewsBreak: Local News & Alerts",
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "Snapchat新增音樂即時分享功能",
-        "支援串流服務內容分享",
-        "有助於提升音樂發現和社群互動"
+        "環球音樂出售部分Spotify股份",
+        "宣布將落實「泰勒絲條款」以保障藝人收益",
+        "凸顯泰勒絲在音樂產業版稅議題的影響力"
       ]
     },
     {
-      "title": "Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On - The New York Times",
-      "sentiment": "neutral",
+      "title": "Spotify Technology SA(SPOT)股票7月20日盤中上漲3.16%：釋放什麼訊號？",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify股價盤中上漲3.16%",
+        "市場擔憂版稅訴訟與漲價後訂閱戶流失風險",
+        "公司獲利能力面臨挑戰"
       ]
     },
     {
-      "title": "Trump Administration Pressures Some Immigrants to Self-Deport With Fines Up to $1.8 Million - The New York Times",
-      "sentiment": "neutral",
+      "title": "Spotify漲價了！美國月費上調至13美元 力拚長期獲利",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify宣布調漲美國Premium訂閱月費至13美元",
+        "此為一年內第二次漲價，旨在推動長期獲利",
+        "可能導致部分價格敏感型用戶流失"
       ]
     },
     {
-      "title": "Hundreds of Thousands Evacuate as Fires Tear Through Europe - The New York Times",
-      "sentiment": "neutral",
+      "title": "【即時新聞】最新！Spotify(SPOT)目標價遭下調至695美元，AI變現面臨嚴峻考驗",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify股票目標價被下調至695美元",
+        "分析師對其成本結構和AI變現能力表示擔憂"
       ]
     },
     {
-      "title": "Mamdani’s Grocery Stores Will Offer 30 Percent Discount on Some Products - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Oil Prices Waver as Gulf Ship Traffic Falls to Lowest Level in Months - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Chinese Chip Champion’s Stock Soars 470% in Start of Trading, Amid A.I. Race - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "SoundCloud acquires Nina Protocol, a platform for independent artists - Zamin.uz",
-      "sentiment": "neutral",
-      "key_points": [
-        "SoundCloud收購獨立藝術家平台Nina Protocol",
-        "關注音樂串流產業的競爭者動態"
-      ]
-    },
-    {
-      "title": "Snapchat now lets you share what you’re listening to in real time - TechCrunch",
+      "title": "Spotify 開放使用者直接調整 Taste Profile，個人化推薦更透明 - INSIDE",
       "sentiment": "positive",
       "key_points": [
-        "Snapchat新功能支援即時分享音樂",
-        "明確提及可分享Spotify活動",
-        "促進用戶社群互動與音樂分享"
+        "Spotify推出新功能，允許用戶直接調整Taste Profile",
+        "提升個人化音樂推薦的透明度與主導權",
+        "反映平台在用戶自由度與彈性上的強化"
       ]
     },
     {
-      "title": "Google Hit With $1 Billion Fine By EU Over Search Engine Practices - The New York Times",
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "探討Apple Music與Spotify商業模式之爭",
+        "《彭博》評論認為Apple Music應效法Spotify",
+        "《AppleInsider》反駁此推論為「邏輯荒謬」"
       ]
     },
     {
-      "title": "Snapchat Now Lets Users Share Music Tracks in Real Time - Zamin.uz",
+      "title": "Spotify Technology SA(SPOT)股票4月27日盤中下跌4.76%：投資者必看的核心資訊",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify股價盤中下跌4.76%",
+        "內部人士出現顯著持股拋售模式",
+        "與Peloton合作消息未獲市場積極反應，監管審查風險增加"
+      ]
+    },
+    {
+      "title": "J-POP海外串流暴增20％ Spotify：爆紅不再只靠動漫歌 - 科技 - 中時",
       "sentiment": "positive",
       "key_points": [
-        "Snapchat推出即時音樂分享功能",
-        "用戶可透過此功能分享正在收聽的音樂",
-        "有助於音樂發現和社群互動"
+        "J-POP在Spotify海外串流播放量暴增20%",
+        "顯示日本音樂爆紅不再僅依賴動漫歌曲",
+        "創作者透過數據分析拓展海外市場"
       ]
     },
     {
-      "title": "K-Pop’s NewJeans Hints at Comeback After Monthslong Feud With Its Label - The New York Times",
+      "title": "【2026 最新】Spotify 免費版和付費版之間的全面對比!選擇免費版和付費版的標準__财经头条__新浪财经",
       "sentiment": "neutral",
       "key_points": [
-        "K-Pop團體NewJeans預告回歸",
-        "與Spotify平台無直接相關，但間接反映音樂產業動態"
+        "文章比較Spotify免費版與付費版功能差異",
+        "為用戶提供選擇訂閱標準的參考資訊"
       ]
     },
     {
-      "title": "New Music Friday: The best albums out July 24 - Louisville Public Media",
+      "title": "Snapchat 與 Spotify 合作推出即時音樂分享功能 Now Playing 於 Snap Map 展示朋友所聆聽歌曲 | Techritual 香港",
       "sentiment": "positive",
       "key_points": [
-        "推薦新發行音樂專輯",
-        "提及NPR Podcast可在Spotify上收聽",
-        "Spotify作為Podcast平台的重要性"
+        "Snapchat與Spotify合作推出「Now Playing」功能",
+        "用戶可即時於Snap Map分享正在聆聽的歌曲",
+        "強化平台的社交互動性"
       ]
     },
     {
-      "title": "Torsten Slok: This week's mega-tech earnings will be very important for markets and the economy - CNBC",
+      "title": "Spotify股價或於8月4日財報發布後波動8.6% 作者 Investing.com",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "分析預測Spotify股價在財報發布後將波動8.6%",
+        "投資者應關注即將發布的財報結果"
       ]
     },
     {
-      "title": "MoffettNathanson's Craig Moffett: Idea SpaceX is a threat to cable is 'significantly overstated' - CNBC",
-      "sentiment": "neutral",
+      "title": "爲何Spotify Technology（SPOT）股價今日下跌",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify股價下跌3.1%",
+        "原因可能與業績公佈前的謹慎情緒有關"
       ]
     },
     {
-      "title": "Tim Cook’s final Apple earnings report puts pricing power to the test - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "How Conor Oberst Survived Teenage Rock Stardom - The New York Times",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Post Market Wrap: July 24, 2026 - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "'Weird Al' Yankovic says he walked away from a seven-figure comedy festival offer in Saudi Arabia - Fox News",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "The subscription tipping point: how much more will subscribers pay? - InternetRetailing",
-      "sentiment": "neutral",
-      "key_points": [
-        "探討訂閱服務市場趨勢",
-        "分析消費者對訂閱費用的敏感度",
-        "對Spotify的訂閱模式有間接影響，但文章未直接評論Spotify"
-      ]
-    },
-    {
-      "title": "Apple brings melodrama to new iPhone microdrama inspired by telenovelas - Ad Age",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags and more in Morning Squawk - CNBC",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Netflix denies reports it considered delaying Michael Jackson documentary release - Minute Mirror",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Exclusive: Prediction markets get their own media company - Axios",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "Netflix Executives Considered Pulling 'Michael Jackson: The Verdict' Docuseries a Week Before Its Release (EXCLUSIVE) - Variety Australia",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "What to Stream: 'Devil Wears Prada 2,' Ariana Grande, 'Super Mario Galaxy' and 'Diarra from Detroit' - Greenwich Time",
-      "sentiment": "neutral",
-      "key_points": [
-        "推薦最新串流音樂、電影和節目",
-        "未明確提及Spotify為播放平台"
-      ]
-    },
-    {
-      "title": "From Charli xcx to Secret Lives of Gypsy Wives: the week in rave reviews - The Guardian",
-      "sentiment": "neutral",
-      "key_points": [
-        "內容與Spotify無關"
-      ]
-    },
-    {
-      "title": "WhatsApp launches Apple Music sharing, plus more - 9to5Mac",
+      "title": "Spotify Technology SA(SPOT)股票7月20日盘中上涨3.16%：真相来了",
       "sentiment": "positive",
       "key_points": [
-        "WhatsApp推出新功能",
-        "支援分享Apple Music和Spotify活動",
-        "增加Spotify內容在社交平台上的可見性"
+        "Spotify股票盤中上漲3.16%",
+        "跑贏所屬的軟體與資訊科技服務行業漲幅"
       ]
     },
     {
-      "title": "Auteur-core! 9 Great Songs That Reference Filmmakers - The New York Times",
+      "title": "Spotify Founder's Body-Scan Startup Neko Health Raises $700 Million in Latest Fundraising",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify創辦人Daniel Ek的另一家公司Neko Health完成7億美元募資",
+        "該公司主要發展身體掃描技術"
       ]
     },
     {
-      "title": "Movie Review Podcasts Are Big Box Office For Fans - Forbes",
-      "sentiment": "neutral",
+      "title": "《聲入Spotify》：泰勒絲的抵制，讓Spotify面臨史上最嚴重的公關危機 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "討論電影評論Podcast的興起",
-        "Podcast產業的發展，與Spotify作為Podcast平台有間接關聯"
+        "回顧泰勒絲2014年抵制Spotify事件",
+        "該事件曾對Spotify造成嚴重的公關危機",
+        "探討藝人與串流平台之間的版稅與權益爭議"
       ]
     },
     {
-      "title": "Missed out on Outside Lands tickets? Here’s how to stream the festival for free - San Francisco Chronicle",
-      "sentiment": "neutral",
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "獨立音樂人發起「Spotify去死」行動",
+        "批評Spotify的演算法控制與極低分潤制度",
+        "認為平台壓榨音樂人並鼓勵「缺乏特色」的音樂"
       ]
     },
     {
-      "title": "Charli XCX drops new album 'Music, Fashion, Film' - Modern Ghana",
-      "sentiment": "neutral",
+      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "內容與Spotify無關"
+        "多組音樂人不滿Spotify創辦人Daniel Ek投資AI軍事公司",
+        "Deerhoof、Xiu Xiu等樂團因此從Spotify下架作品",
+        "抵制行動對平台與創辦人產生壓力"
       ]
     },
     {
-      "title": "The Bobby Lees: New Self - Spectrum Culture",
-      "sentiment": "neutral",
+      "title": "報新聞七月全球實體跟數位行銷當紅關鍵案例評論：瑪丹娜《Confessions II》全球專輯發行策略與市場影響分析 | 蕃新聞",
+      "sentiment": "positive",
       "key_points": [
-        "內容與Spotify無關"
+        "瑪丹娜新專輯《Confessions II》在Spotify創下多項歷史紀錄",
+        "展示平台對高齡藝人作品的廣泛影響力"
       ]
     },
     {
-      "title": "Prince George turns 13! See the day he was first introduced to the world - USA Today",
-      "sentiment": "neutral",
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
       "key_points": [
-        "內容與Spotify無關"
+        "Spotify年度回顧發布，新增「計算聆聽年齡」等功能",
+        "與YouTube、Apple Music共同發布全球熱門榜單",
+        "提供用戶個人化數據與音樂趨勢洞察"
       ]
     },
     {
-      "title": "Photos show Starship megarocket as SpaceX launches 13th flight test - USA Today",
+      "title": "Spotify各國受歡迎KPOP統整！柾國SOLO成績超強　韓國人竟最愛「他」 | 娛樂星聞",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify統計K-POP在全球各國的受歡迎程度",
+        "分析不同地區聽眾對K-POP歌手的偏好",
+        "柾國等K-POP藝人在平台上取得亮眼成績"
+      ]
+    },
+    {
+      "title": "[官方]CORTIS《FaSHioN》Spotify 累计播放量突破 2 亿..生涯第 2 首 | STARNEWS",
+      "sentiment": "positive",
+      "key_points": [
+        "韓國藝人CORTIS歌曲《FaSHioN》在Spotify播放量突破2億",
+        "顯示其在平台上的受歡迎程度與商業成功"
+      ]
+    },
+    {
+      "title": "BTS柾國〈Seven〉連續101周上榜Spotify！創亞洲個人歌手最長紀錄 - 新頭條-TheHubNews",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS成員柾國單曲〈Seven〉連續101周登上Spotify全球熱門歌曲榜",
+        "創下亞洲個人歌手在榜最長紀錄",
+        "再次證明K-POP在全球串流平台的影響力"
+      ]
+    },
+    {
+      "title": "紀錄片遭諷只想洗白與賺錢 退出王室的哈利王子與梅根如何「生財」? | DQ 地球圖輯隊",
+      "sentiment": "negative",
+      "key_points": [
+        "哈利王子與梅根在Spotify的Podcast合作被批評「近乎失敗」",
+        "其節目表現不如預期，未進入熱門前100名",
+        "凸顯名人跨界合作的挑戰與壓力"
+      ]
+    },
+    {
+      "title": "Spotify爆紅的The Velvet Sundown，只是一場惡作劇？成功騙倒所有人的AI樂團真相解密",
+      "sentiment": "negative",
+      "key_points": [
+        "AI樂團The Velvet Sundown在Spotify上意外爆紅",
+        "隨後被揭露為一場惡作劇，引起廣泛討論",
+        "引發對平台內容真實性、演算法推薦機制及AI生成內容的省思"
+      ]
+    },
+    {
+      "title": "EXO台北小巨蛋演唱會歌單一覽！Kai證實EXO團體成員剩6人 | Vogue Taiwan",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "報導EXO台北小巨蛋演唱會歌單",
+        "Kai證實EXO團體成員調整為6人"
+      ]
+    },
+    {
+      "title": "國民天團27年傳奇落幕！粉絲東京巨蛋淚別ARASHI嵐",
+      "sentiment": "neutral",
+      "key_points": [
+        "日本國民天團ARASHI嵐在東京巨蛋舉行告別演出",
+        "為27年團體活動畫下句點"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "無具體內容"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "內容與Spotify無關"
+        "無具體內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260729_041439.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260729.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260730_035954.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260730.jpg"
 }
