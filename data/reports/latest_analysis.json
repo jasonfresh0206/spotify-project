@@ -1,330 +1,310 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
+    "positive_ratio": 0.4,
     "negative_ratio": 0.1,
-    "neutral_ratio": 0.7
+    "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "工程師工作模式變革",
-      "description": "Spotify執行長揭示公司頂尖工程師工作模式轉變，部分人今年可能未寫一行程式碼，暗示AI在內部運作中扮演重要角色。",
+      "title": "Spotify增強社群功能",
+      "description": "Spotify正積極轉型為社交平台，新增Podcast評論功能，並計畫擴展至音樂作品，旨在提升用戶互動及建立更強大的音樂社群。",
       "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "新增Podcast評論功能",
-      "description": "Spotify推出Podcast評論功能，旨在增強用戶社群互動，並將平台定位為綜合性社交媒體，而不僅是音樂串流服務。",
-      "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "大規模資料盜取事件",
-      "description": "Spotify爆發大規模資料爬取事件，有報導指出相關音訊資料若流出，足以建立「個人版Spotify」，引發資安疑慮。",
+      "title": "大規模資料爬取事件",
+      "description": "「Anna's Archive」對Spotify進行了大規模的資料爬取，專家指出流出的音訊資料足以建立「個人版Spotify」，引發外界對資料安全與隱私的擔憂。",
       "severity": "high",
       "sentiment": "negative"
-    },
-    {
-      "title": "攜手Live Nation推演唱會優先購票",
-      "description": "Spotify與Live Nation合作推出演唱會優先購票服務，引發社群討論，探討這項功能是真為粉絲謀福利還是變相的商業綁架。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Spotify Wrapped 2025揭曉年度最強歌手",
-      "description": "Spotify公佈2025年度Wrapped回顧，其中一位巨星的全球播放量高達200億次，成為年度最強歌手。",
-      "severity": "medium",
-      "sentiment": "positive"
     },
     {
       "title": "免費用戶功能升級",
-      "description": "Spotify免費用戶服務迎來升級，解禁了三項重要功能，包括讓用戶能夠直接選擇想聽的歌曲。",
-      "severity": "high",
+      "description": "Spotify為免費用戶解鎖了三項主要功能，包括能直接選擇想聽的歌曲，大幅提升了免費服務的使用體驗。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "股票評級維持「買入」並下調目標價",
-      "description": "奧本海默控股維持Spotify Technology股票「買入」評級，但同時將目標價下調至550美元。",
+      "title": "環球音樂出售股份及「泰勒絲條款」",
+      "description": "環球音樂集團出售部分Spotify股份，並將實施「泰勒絲條款」以保障旗下藝人收益，此舉再次凸顯泰勒絲在音樂產業中為藝人爭取公平報酬的影響力。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "與Live Nation合作推演唱會優先購票",
+      "description": "Spotify攜手Live Nation推出演唱會優先購票服務，旨在提供粉絲福利，但也引發了關於這是否為變相商業綁架的討論。",
       "severity": "low",
       "sentiment": "neutral"
     },
     {
-      "title": "環球音樂出售部分Spotify股份及「泰勒絲條款」",
-      "description": "環球音樂集團出售部分Spotify股份，並將落實「泰勒絲條款」以保證旗下藝人的收益，反映藝人與平台之間的收益分配議題。",
-      "severity": "medium",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "單日兩次全網癱瘓",
-      "description": "Spotify在一天內經歷兩次全網癱瘓，導致全球用戶無法播放音樂，嚴重影響用戶體驗。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "藝術家Charli XCX跳過Spotify發行音樂",
-      "description": "歌手查理·XCX選擇以YouTube完整影片形式發行其新作品，跳過Spotify等傳統串流平台，引發對藝術家發行策略的討論。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "歌手歌曲達成億級串流播放",
-      "description": "多位歌手（如New Jeans和Colde）的歌曲在Spotify上達成1億及2億串流里程碑，顯示平台在音樂傳播上的影響力。",
+      "title": "Spotify Wrapped 2025年度排名公布",
+      "description": "Spotify公布了2025年度Wrapped數據，揭曉了年度最強歌手及全球播放量，其中一位巨星的播放量達到200億次，成為年度的音樂盛事。",
       "severity": "low",
       "sentiment": "positive"
+    },
+    {
+      "title": "分析師維持Spotify股票買入/持有評級",
+      "description": "多位分析師維持對Spotify股票的買入或持有評級，儘管部分分析師下調了目標價，但仍看好其利潤率擴張和戰略增長潛力。",
+      "severity": "low",
+      "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "社群功能",
     "Podcast評論",
+    "社群功能",
+    "資料安全",
     "資料盜取",
-    "服務癱瘓",
-    "免費用戶升級",
-    "Spotify Wrapped",
+    "免費用戶",
+    "藝人收益",
+    "泰勒絲條款",
     "演唱會購票",
-    "藝術家收益",
-    "AI",
-    "串流播放量"
+    "Spotify Wrapped",
+    "串流播放量",
+    "投資評級"
   ],
-  "daily_summary": "今日Spotify輿情呈現多重面向。正面消息包括新增Podcast評論功能、免費用戶升級以及Wrapped年度回顧的成功，強化了其社群與用戶體驗；然而，大規模資料盜取和單日兩次服務癱瘓則嚴重衝擊用戶信任。此外，亦有藝人選擇繞過平台發行音樂，顯示平台在內容方關係上仍面臨挑戰。",
+  "daily_summary": "今日Spotify輿情顯示平台正積極拓展其社群功能，透過新增Podcast評論與提升免費用戶體驗，旨在強化用戶互動及黏著度。然而，大規模資料爬取事件仍是重大負面議題，而環球音樂因「泰勒絲條款」出售股份則為藝人收益保障帶來正面進展。整體而言，Spotify在產品演進與市場策略上動作頻頻，但同時也需應對資料安全挑戰。",
   "article_analyses": [
     {
       "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify執行長談論工程師工作模式的轉變",
-        "AI浪潮對科技公司內部運作模式的影響"
+        "Spotify執行長討論工程師工作模式改變",
+        "AI浪潮對工作模式的影響"
       ]
     },
     {
       "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局|數位時代 BusinessNext",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出Podcast評論功能",
-        "探討Spotify如何為其龐大用戶群建立音樂社群"
+        "新增Podcast評論功能",
+        "打造音樂社群",
+        "6.15億活躍用戶"
       ]
     },
     {
       "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
       "key_points": [
-        "Spotify發生大規模資料爬取事件",
-        "專家警告流出的音訊資料可能足以建立「個人版Spotify」"
+        "大規模資料爬取事件",
+        "Anna's Archive",
+        "資料安全隱憂"
       ]
     },
     {
       "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify與Live Nation合作推演唱會優先購票",
-        "社群討論此舉是否為粉絲福利或商業策略"
+        "與Live Nation合作",
+        "演唱會優先購票",
+        "粉絲福利與商業化爭議"
       ]
     },
     {
       "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped 2025公佈年度最強歌手",
-        "一位巨星全球播放量達到200億次奪冠"
+        "Spotify Wrapped 2025公布",
+        "年度最強歌手",
+        "200億次全球播放量"
       ]
     },
     {
-      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
+      "title": "Spotify 不再只是聽音樂！轉型為社交平台，新增 Podcast 評論功能 | TechOrange 科技報橘",
       "sentiment": "positive",
       "key_points": [
-        "Spotify免費用戶功能升級，可直接選歌",
-        "比較免費版與付費版功能的差異"
+        "轉型為社交平台",
+        "新增Podcast評論功能",
+        "計畫擴展至音樂作品"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "免費用戶功能升級",
+        "解禁直接選歌功能",
+        "提升免費版用戶體驗"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "環球音樂出售Spotify股份",
+        "落實「泰勒絲條款」",
+        "保障藝人收益"
       ]
     },
     {
       "title": "奧本海默控股維持Spotify Technology(SPOT.US)買入評級，下調目標價至550美元",
       "sentiment": "neutral",
       "key_points": [
-        "奧本海默控股維持Spotify Technology(SPOT.US)「買入」評級",
-        "下調Spotify的目標價至550美元"
+        "奧本海默維持買入評級",
+        "目標價下調"
       ]
     },
     {
-      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
       "sentiment": "neutral",
       "key_points": [
-        "環球音樂集團出售部分Spotify股份",
-        "計劃實施「泰勒絲條款」以保障旗下藝人收益"
+        "Spotify商業模式作為參考",
+        "與Apple Music的市場策略比較"
       ]
     },
     {
-      "title": "Spotify单日两次全网瘫痪，全球用户无歌可听_新浪财经_新浪网",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify在一天內經歷兩次全球性服務癱瘓",
-        "導致全球用戶無法正常聽歌"
-      ]
-    },
-    {
-      "title": "Spotify 不再只是聽音樂！轉型為社交平台，新增 Podcast 評論功能",
+      "title": "Spotify Technology(SPOT)股票股價, 市值, 即時行情, 走勢圖, 財報",
       "sentiment": "positive",
       "key_points": [
-        "Spotify轉型為社交平台",
-        "新增Podcast評論功能以強化社群互動"
+        "分析師重申買入評級",
+        "利潤率擴張",
+        "匯率利好因素"
       ]
     },
     {
-      "title": "Evercore維持Spotify Technology(SPOT.US)買入評級 - 富途资讯",
-      "sentiment": "positive",
+      "title": "Monness維持Spotify Technology(SPOT.US)持有評級 - 富途资讯",
+      "sentiment": "neutral",
       "key_points": [
-        "Evercore分析師維持Spotify Technology(SPOT.US)「買入」評級",
-        "該分析師過去一年的總勝率和平均回報率表現"
+        "Monness維持持有評級"
       ]
     },
     {
-      "title": "查理·XCX以《Music, Fashion, Film》YouTube完整影片形式發行，跳過Spotify – 馬丁西德雜誌",
-      "sentiment": "negative",
+      "title": "季盈- 十年了",
+      "sentiment": "neutral",
       "key_points": [
-        "藝術家查理·XCX選擇在YouTube發行完整影片，跳過Spotify",
-        "探討藝術家發行策略與串流平台生態系統的取捨"
+        "音樂產業對Spotify的批評",
+        "Spotify強調支付權利金"
+      ]
+    },
+    {
+      "title": "拉斐爾、海頓、莫札特……他們全是資本豢養的垃圾，風格與 ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify作為地下文化收聽平台",
+        "獨立音樂人收聽人數"
       ]
     },
     {
       "title": "No.45 数学双星摘奖、AI 进厂上岗、高分志愿转向、快递末端算账、数据买卖开张 - 半拿铁·周刊",
       "sentiment": "neutral",
       "key_points": [
-        "該文章為一份周刊的標題列表",
-        "其中提及了Spotify的社群和投資者資訊，但未有具體事件討論"
+        "Spotify公司資訊（boilerplate）"
       ]
     },
     {
       "title": "[公式] カムバックの重なる喜び..ニュージンズの『Right Now』が1億ストリーミングを達成し、全曲が億単位で再生 | STARNEWS",
       "sentiment": "positive",
       "key_points": [
-        "女團New Jeans歌曲在Spotify上達成1億串流播放",
-        "另一歌手Colde的『FaSHioN』在Spotify達成2億串流"
+        "NewJeans歌曲破億串流",
+        "Cortis歌曲達2億串流",
+        "藝人在Spotify上的成功"
       ]
     },
     {
       "title": "Spotify Founder's Body-Scan Startup Neko Health Raises $700 Million in Latest Fundraising",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify創辦人的另一間公司Neko Health完成新一輪7億美元募資",
-        "與Spotify平台本身無直接關聯"
+        "Spotify創辦人其他事業Neko Health融資"
       ]
     },
     {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」",
+      "title": "中国基层选举操盘手预言政治回摆已经快到头了，年轻人应该为未来变革做准备 by CANNEWS | News Matters to All Chinese",
       "sentiment": "neutral",
       "key_points": [
-        "討論Apple Music是否應學習Spotify的商業模式",
-        "《AppleInsider》反駁彭博專欄作家的觀點"
-      ]
-    },
-    {
-      "title": "這是美國史上最大的泡沫，但重點不是嚇你 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及達里歐的經濟預警及播客節目",
-        "Spotify被提及為全球第二大每月播客收聽平台"
-      ]
-    },
-    {
-      "title": "【最新出炉】 大摩周期论剑闭门会（2026-7-15附文稿）《当下不同行业投资策略分析指南》 文字稿件和精华要点已经发布于解读君推特X",
-      "sentiment": "neutral",
-      "key_points": [
-        "文章提及該金融分析播客可在Spotify上收聽",
-        "內容主要為財經市場分析，與Spotify本身業務無直接關聯"
+        "Spotify作為Podcast播放平台提及"
       ]
     },
     {
       "title": "樋口毅宏×山崎洋一郎対談【前編】「何故、樋口さんは昭和40年代をそこまで真剣に背負うんですか？」 | 著名人 | LEON レオン オフィシャルWebサイト",
       "sentiment": "neutral",
       "key_points": [
-        "文化評論對談，探討不同世代的音樂偏好",
-        "未直接提及Spotify的特定事件或功能"
+        "無Spotify相關內容"
+      ]
+    },
+    {
+      "title": "「#spotify_mazzel」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+      "sentiment": "neutral",
+      "key_points": [
+        "非Spotify相關熱門推文"
       ]
     },
     {
       "title": "#427『なぜ今、イズミヤのイートインスペースが最強なのか？｜フードコートの現状と飲食業界に与える影響を考察』_season7 #2 by 好きです土曜日べしゃりんぐないと",
       "sentiment": "neutral",
       "key_points": [
-        "該文章為一個播客節目的描述",
-        "內容與Spotify的輿情分析不直接相關"
+        "提及Podcast新聞"
       ]
     },
     {
-      "title": "川普重啓關稅牆！對60國加稅，中國商品12.5%；川普公開警告 ...",
+      "title": "Listener Numbers, Contacts, Similar Podcasts - 哔哩分享涨粉的站内裂变术，本社交媒体官方平台提供动态转发与分享抽奖",
       "sentiment": "neutral",
       "key_points": [
-        "該文章內容與Spotify無關，主要討論國際政治經濟議題"
+        "Spotify作為Podcast數據來源"
       ]
     },
     {
-      "title": "#041 虚構よりも、現実の方が面白い？ by やじま・ほそやまの「桶屋ラジオ」",
+      "title": "【連載】プレルーディウム 第21回／舩木篤也 | レコ芸ONLINE",
       "sentiment": "neutral",
       "key_points": [
-        "該文章為一個播客節目的描述",
-        "內容與Spotify的輿情分析不直接相關"
+        "無Spotify相關內容"
       ]
     },
     {
-      "title": "福音館がラジオを始めました！ インスタでのお知らせが遅くなり ...",
+      "title": "爭議撚最大問題，是社會明明無人爭論",
       "sentiment": "neutral",
       "key_points": [
-        "福音館推出新的廣播/播客節目",
-        "節目可在Spotify和Apple播客上收聽"
+        "無Spotify相關內容"
       ]
     },
     {
-      "title": "中國基層選舉操盤手預言政治回擺已經快到頭了，年輕人應該為未來變革做準備 by CANNEWS | News Matters to All Chinese",
+      "title": "【傑斯短打】阿根廷反勝英格蘭再入決賽；換多兩個中堅入來",
       "sentiment": "neutral",
       "key_points": [
-        "該文章內容與Spotify無關，主要討論中國政治議題"
-      ]
-    },
-    {
-      "title": "「#spotify_mazzel」のYahoo!リアルタイム検索 - X（舊Twitter ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "顯示「#spotify_mazzel」標籤在X（前Twitter）上的即時搜尋結果",
-        "未提供具體內容或事件細節"
-      ]
-    },
-    {
-      "title": "奥特曼黃仁勳為“AI失業論”踩剎車 人類護城河曝光 | 文學城",
-      "sentiment": "neutral",
-      "key_points": [
-        "該文章主要討論AI對勞動市場的影響",
-        "內容與Spotify的輿情分析不直接相關"
-      ]
-    },
-    {
-      "title": "【連載】プレルーディウム 第21回／舩木篤也",
-      "sentiment": "neutral",
-      "key_points": [
-        "音樂評論家舩木篤也的連載文章",
-        "內容為一般音樂評論，未涉及Spotify特定事件"
+        "無Spotify相關內容"
       ]
     },
     {
       "title": "Instagram",
       "sentiment": "neutral",
       "key_points": [
-        "頁面內容為Instagram登入/註冊提示",
-        "缺乏Spotify相關資訊"
+        "無Spotify相關內容"
+      ]
+    },
+    {
+      "title": "重溫美前情報官員如何評價菲律賓：美國的工具，用完即棄 ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "無Spotify相關內容"
       ]
     },
     {
       "title": "Instagram",
       "sentiment": "neutral",
       "key_points": [
-        "頁面內容為Instagram播客討論「ドパガキ」現象",
-        "缺乏Spotify相關資訊"
+        "無Spotify相關內容"
+      ]
+    },
+    {
+      "title": "Instagram",
+      "sentiment": "neutral",
+      "key_points": [
+        "福音館推出Podcast節目",
+        "Spotify為潛在播放平台"
+      ]
+    },
+    {
+      "title": "Instagram",
+      "sentiment": "neutral",
+      "key_points": [
+        "提及Podcast節目討論音樂"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "文章內容空白",
-        "缺乏Spotify相關資訊"
+        "無內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260803_043250.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260803.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260804_042836.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260804.jpg"
 }
