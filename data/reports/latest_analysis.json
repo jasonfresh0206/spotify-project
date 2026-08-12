@@ -1,445 +1,481 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.68,
+    "negative_ratio": 0.16,
+    "neutral_ratio": 0.16
   },
   "events": [
     {
-      "title": "大規模資料盜取事件",
-      "description": "開源搜尋引擎Anna's Archive揭露Spotify爆發大規模資料盜取事件，包含約2.56億筆曲目中繼資料及8600萬個音訊檔案，引發潛在安全疑慮。",
+      "title": "AI內容規範與透明化",
+      "description": "Spotify將引入「AI Persona」徽章來標記AI生成藝術家，並將這些內容從個人化推薦中排除。此舉旨在回應用戶對AI音樂內容的擔憂，並提升平台內容的真實性與透明度。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Podcast廣告跳過功能爭議",
+      "description": "Spotify正在測試一項讓Premium用戶跳過Podcast廣告（非Spotify直售）的功能。此功能引發了Podcast產業對於廣告收益模式和業務持續性的擔憂，被認為可能顛覆現有生態。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "測試Podcast「一鍵跳過廣告」按鈕",
-      "description": "Spotify測試Podcast一鍵跳過廣告按鈕功能，此舉恐動搖現有Podcast商業模式，引發內容創作者與廣告商的廣泛擔憂。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美國Premium訂閱費用調漲",
-      "description": "Spotify宣布調漲美國Premium月費至13美元，漲幅約8%，旨在推動公司長期獲利目標，對用戶而言可能感受偏負面。",
+      "title": "訂閱用戶數成長與價格調整",
+      "description": "Spotify在2026年第二季度付費訂閱用戶達到3億里程碑，顯示強勁的業務成長。然而，為實現長期獲利目標，美國地區的Premium訂閱月費已上調約8%。",
       "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "第二季財報亮眼及用戶成長",
-      "description": "Spotify第二季轉虧為盈，盈利達5.45億歐羅，營業額成長13.93%，全球登記用戶人數按年增長9%至3億，優於市場預期。",
+      "title": "大規模用戶資料外洩疑慮",
+      "description": "有報導指出Spotify存在大規模資料爬取事件，涉及數億筆曲目中繼資料及部分音訊檔案的未經授權存取，引發了用戶資料安全的疑慮。",
       "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "「無損音質」功能在台灣上線",
-      "description": "Spotify宣布「無損音質」功能正式在台灣上線，提供Premium用戶更豐富、細緻的聽覺體驗，提升付費方案價值。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "免費版用戶功能升級",
-      "description": "Spotify免費用戶獲得升級，解禁了三項重要功能，包括可直接選擇想聽的歌曲，大幅提升免費用戶體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "推出AI程式開發工具Xirp",
-      "description": "Spotify推出AI程式開發工具Xirp，跨足AI程式開發工具市場，旨在協助管理AI Agent，優化企業的AI開發流程。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "打擊AI生成垃圾音樂並實施藝人審核機制",
-      "description": "Spotify積極應對AI生成垃圾音樂，已移除7500萬首大量生產的垃圾音軌，並實施藝人審核批准機制以確保內容品質及版權。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "環球音樂出售股份並落實「泰勒絲條款」",
-      "description": "環球音樂出售部分Spotify股份，並將落實「泰勒絲條款」，確保旗下藝人從串流平台獲得更公平的收益分配，被視為產業權益分配的重要進展。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify Wrapped年度回顧廣受好評",
-      "description": "Spotify Wrapped年度回顧功能再次大受歡迎，用戶普遍給予高度評價，甚至成為其他平台爭相模仿的年度活動標竿。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "股價表現強勁",
-      "description": "Spotify股價於盤中大幅上漲，反映投資者對其財務前景和經營策略的樂觀預期。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "每股收益（EPS）低於預期",
-      "description": "Spotify Technology S.A. 的每股收益（EPS）低於預期5.1%，分析師正在評估對後續走勢的影響，對投資者情緒產生輕微負面影響。",
-      "severity": "medium",
       "sentiment": "negative"
+    },
+    {
+      "title": "新功能與內容策略多元化",
+      "description": "Spotify推出多項新功能及策略，包括台灣地區上線無損音質、為有聲書新增AI探索工具、與環球音樂等合作合法化粉絲翻唱及混音、推出Premium Duo方案、升級免費版用戶功能，以及與Live Nation合作演唱會優先購票等。",
+      "severity": "medium",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "推薦技術",
+    "AI Persona",
+    "AI音樂",
+    "Podcast廣告",
+    "Premium訂閱",
+    "價格調漲",
+    "資料外洩",
     "無損音質",
-    "Podcast",
-    "廣告",
-    "漲價",
-    "股價",
-    "用戶成長",
-    "藝人收益",
-    "資料盜取",
-    "Spotify Wrapped",
-    "Xirp",
-    "商業模式"
+    "粉絲翻唱",
+    "新功能",
+    "有聲書"
   ],
-  "daily_summary": "Spotify近期輿情呈現正面主導，得益於其AI技術創新（如Xirp推出、打擊AI垃圾音樂）、無損音質上線、免費版功能升級及強勁的財報與用戶成長，推動股價上漲並獲得用戶好評。然而，大規模資料盜取事件、測試Podcast跳過廣告按鈕引發業界擔憂，以及美國區訂閱漲價和EPS未達預期，為其帶來挑戰與部分負面聲量。",
+  "daily_summary": "今日Spotify輿情主要聚焦於其對AI生成音樂的嚴格規範，包括推出「AI Persona」徽章並停止推薦，此舉獲得正面評價。儘管平台訂閱用戶數達3億，業務成長顯著，但美國區訂閱價格上漲及Podcast廣告跳過功能引發的行業擔憂，以及大規模資料盜取疑慮，則為輿情帶來負面聲音。同時，多項新功能與合作夥伴關係也持續豐富平台生態。",
   "article_analyses": [
     {
-      "title": "不靠購買紀錄也能精準推薦？Malachyte 用 Spotify 推薦技術改寫電商個人化",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推薦技術應用",
-        "Malachyte創業",
-        "電商個人化",
-        "AI預測"
-      ]
-    },
-    {
-      "title": "Spotify 推出 Xirp，跨足 AI 程式開發工具市場",
-      "sentiment": "positive",
-      "key_points": [
-        "Xirp推出",
-        "AI程式開發工具",
-        "管理AI Agent"
-      ]
-    },
-    {
-      "title": "8億人在用的Spotify推薦引擎幕後工程師創業！Malachyte要把AI預測技術帶入電商領域",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推薦引擎",
-        "Malachyte應用",
-        "AI預測技術",
-        "電商領域"
-      ]
-    },
-    {
-      "title": "動搖Podcast商業模式？Spotify測試一鍵跳過廣告按鈕 引業界恐慌",
-      "sentiment": "negative",
-      "key_points": [
-        "Podcast廣告",
-        "一鍵跳過按鈕",
-        "業界恐慌",
-        "商業模式衝擊"
-      ]
-    },
-    {
-      "title": "Spotify股價今日為何大漲？ 作者 Investing.com - Investing.com 香港",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股價大漲",
-        "投資者信心",
-        "第二季財報利好"
-      ]
-    },
-    {
-      "title": "SEVENTEEN三成員官宣將入伍！DK、勝寬小隊DxS同日推新歌《One》",
+      "title": "Spotify新功能測試！跳過Podcast節目廣告 料不影響投放",
       "sentiment": "neutral",
       "key_points": [
-        "SEVENTEEN",
-        "成員入伍",
-        "新歌發布"
+        "測試跳過Podcast廣告功能",
+        "預計不影響廣告投放"
+      ]
+    },
+    {
+      "title": "Spotify says it won't recommend music from 'AI Personas'",
+      "sentiment": "positive",
+      "key_points": [
+        "推出「AI Persona」標籤",
+        "不推薦AI音樂"
+      ]
+    },
+    {
+      "title": "Spotify's AI Persona Label to Pluck AI Artists From Your Algorithm",
+      "sentiment": "positive",
+      "key_points": [
+        "標記AI藝術家",
+        "從推薦演算法中移除"
+      ]
+    },
+    {
+      "title": "Spotify to Label AI Artists on the Platform With New 'AI Persona' Badge",
+      "sentiment": "positive",
+      "key_points": [
+        "識別AI藝術家",
+        "排除音樂從個人化推薦"
+      ]
+    },
+    {
+      "title": "Spotify will now tell you when an artist isn't real",
+      "sentiment": "positive",
+      "key_points": [
+        "新增AI Persona徽章",
+        "區分AI與真人藝術家"
+      ]
+    },
+    {
+      "title": "Spotify asks artists to disclose whether they're humans or AI",
+      "sentiment": "positive",
+      "key_points": [
+        "要求藝術家揭露是否為AI生成",
+        "增強透明度"
+      ]
+    },
+    {
+      "title": "Spotify to Start Labeling AI Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "開始標記AI藝術家",
+        "提供自願揭露選項"
+      ]
+    },
+    {
+      "title": "Spotify to label AI artists with new 'AI Persona' badge - and keep their music out of recommendations by default",
+      "sentiment": "positive",
+      "key_points": [
+        "標記AI藝術家",
+        "預設不推薦其音樂"
+      ]
+    },
+    {
+      "title": "Spotify to launch badge identifying AI music",
+      "sentiment": "positive",
+      "key_points": [
+        "推出AI音樂識別徽章",
+        "提升內容透明度"
+      ]
+    },
+    {
+      "title": "Spotify Creates New 'AI Persona' Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "新增AI Persona標籤",
+        "確保藝術家與粉絲間信任"
+      ]
+    },
+    {
+      "title": "Spotify Unveils \"AI Personas\" Feature to Label AI Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "推出AI Persona功能",
+        "將AI藝術家排除於推薦"
+      ]
+    },
+    {
+      "title": "Spotify Tests Ad-Skip Button That Could Upend Podcast Advertising",
+      "sentiment": "negative",
+      "key_points": [
+        "測試Podcast廣告跳過功能",
+        "可能影響廣告生態"
+      ]
+    },
+    {
+      "title": "Spotify Hits 300 Million Premium Subscribers in Q2 2026",
+      "sentiment": "positive",
+      "key_points": [
+        "Q2 2026付費訂閱用戶達3億"
+      ]
+    },
+    {
+      "title": "Spotify to label AI-generated artist profiles with 'AI Persona' badges",
+      "sentiment": "positive",
+      "key_points": [
+        "將標記AI生成藝術家個人檔案"
+      ]
+    },
+    {
+      "title": "Spotify Adds 'AI Persona' Labels as It Cracks Down on AI-Generated Artist Identities",
+      "sentiment": "positive",
+      "key_points": [
+        "加強打擊AI生成藝術家身分"
+      ]
+    },
+    {
+      "title": "Spotify to Will Soon Roll Out AI Persona Badges on Relevant Artist Profiles",
+      "sentiment": "positive",
+      "key_points": [
+        "預計9月推出AI Persona徽章"
+      ]
+    },
+    {
+      "title": "Spotify Will Label A.I. Artists and Avoid Promoting Them",
+      "sentiment": "positive",
+      "key_points": [
+        "將標記AI藝術家",
+        "不進行推廣"
+      ]
+    },
+    {
+      "title": "Spotify to flag AI slop with special new label in wake of user complaints",
+      "sentiment": "positive",
+      "key_points": [
+        "因應用戶投訴",
+        "標記AI生成內容"
+      ]
+    },
+    {
+      "title": "Spotify to add 'AI Persona' badges to flag AI-generated artists",
+      "sentiment": "positive",
+      "key_points": [
+        "推出AI Persona徽章",
+        "識別AI生成藝術家"
+      ]
+    },
+    {
+      "title": "Spotify asks artists to disclose whether they're human",
+      "sentiment": "positive",
+      "key_points": [
+        "要求藝術家揭露是否為人類",
+        "確保信任"
+      ]
+    },
+    {
+      "title": "Spotify Announces It Will Not Include AI Artists In Any Algorithm Recommendations, Will Roll Out \"AI Persona\" Badges Next Month",
+      "sentiment": "positive",
+      "key_points": [
+        "不將AI藝術家納入推薦演算法"
+      ]
+    },
+    {
+      "title": "Spotify just hit 300 million Premium subscribers",
+      "sentiment": "positive",
+      "key_points": [
+        "付費訂閱用戶達到3億",
+        "營收55億美元"
+      ]
+    },
+    {
+      "title": "Spotify Adds More AI-Powered Discovery Tools for Audiobooks",
+      "sentiment": "positive",
+      "key_points": [
+        "為有聲書新增AI探索工具"
+      ]
+    },
+    {
+      "title": "Spotify's New Ad-Skipping Feature Is Not Scaring Off Podcast Advertisers Yet",
+      "sentiment": "neutral",
+      "key_points": [
+        "Podcast廣告跳過功能測試中",
+        "專家認為短期影響不大"
+      ]
+    },
+    {
+      "title": "Spotify to label 'AI personas' and exclude AI music from personal recommendations",
+      "sentiment": "positive",
+      "key_points": [
+        "標記AI音樂人物",
+        "排除其音樂從推薦"
+      ]
+    },
+    {
+      "title": "Spotify and Pinterest Delivered the Growth. Investors Wanted More",
+      "sentiment": "negative",
+      "key_points": [
+        "儘管業績超預期",
+        "投資者仍不滿導致股價下跌"
+      ]
+    },
+    {
+      "title": "Spotify to slap 'AI persona' badges on AI-generated artist profiles",
+      "sentiment": "positive",
+      "key_points": [
+        "將標記AI生成藝術家個人檔案"
+      ]
+    },
+    {
+      "title": "Spotify to distinguish AI artists from real people - and stop recommending them",
+      "sentiment": "positive",
+      "key_points": [
+        "區分AI藝術家",
+        "停止推薦"
+      ]
+    },
+    {
+      "title": "Spotify to label AI music, not recommend it to users",
+      "sentiment": "positive",
+      "key_points": [
+        "標記AI生成音樂",
+        "不推薦給用戶"
+      ]
+    },
+    {
+      "title": "Spotify Just Legalized Fan Remixes, So What Does It Mean For SPOT?",
+      "sentiment": "positive",
+      "key_points": [
+        "簽署授權協議",
+        "支持粉絲製作翻唱和混音"
+      ]
+    },
+    {
+      "title": "The Very Cool New Ad-Skipping Button for Spotify Podcasts Is Not Very Cool for Podcast Businesspeople",
+      "sentiment": "negative",
+      "key_points": [
+        "Podcast廣告跳過功能對廣告商不利"
       ]
     },
     {
       "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "neutral",
       "key_points": [
-        "工程師工作模式轉變",
-        "AI浪潮",
-        "工作效率"
+        "執行長透露工程師工作模式因AI而改變"
       ]
     },
     {
       "title": "Spotify「無損音質」功能台灣上線，網友實測結果如何？ - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "無損音質上線",
-        "台灣市場",
-        "Premium用戶",
-        "實測體驗"
+        "無損音質功能在台灣上線"
       ]
     },
     {
       "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
       "key_points": [
-        "大規模資料盜取",
-        "中繼資料洩漏",
-        "音訊檔案",
-        "安全漏洞"
+        "大規模資料盜取事件",
+        "涉及中繼資料與音訊檔案"
       ]
     },
     {
       "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "key_points": [
-        "Live Nation合作",
-        "演唱會優先購票",
-        "粉絲福利",
-        "商業化爭議"
+        "與Live Nation合作優先購票",
+        "引發商業綁架爭議"
       ]
     },
     {
       "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped",
-        "年度最強歌手",
-        "Bad Bunny",
-        "全球播放量"
-      ]
-    },
-    {
-      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "免費用戶升級",
-        "直接選歌功能",
-        "付費版比較"
+        "Spotify Wrapped 2025年度報告",
+        "揭曉頂尖歌手"
       ]
     },
     {
       "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "環球音樂售股",
-        "泰勒絲條款",
-        "藝人收益保障",
-        "版權分配"
-      ]
-    },
-    {
-      "title": "Spotify x Merlin 獲藝人批准的 AI 混音作品詳解 | Hypebeast",
-      "sentiment": "positive",
-      "key_points": [
-        "AI混音作品",
-        "藝人批准",
-        "Merlin合作",
-        "知識產權保護"
-      ]
-    },
-    {
-      "title": "Drake「ICEMAN」時代橫掃 Spotify 串流紀錄 | Hypebeast",
-      "sentiment": "neutral",
-      "key_points": [
-        "Drake",
-        "串流紀錄",
-        "藝人成就"
-      ]
-    },
-    {
-      "title": "動搖Podcast商業模式？Spotify測試一鍵跳過廣告按鈕 引業界恐慌 | 社群/APP/網紅 | udn科技玩家",
-      "sentiment": "negative",
-      "key_points": [
-        "Podcast廣告",
-        "一鍵跳過按鈕",
-        "業界恐慌",
-        "商業模式衝擊"
+        "環球音樂出售Spotify股份",
+        "實施泰勒絲條款保障藝人收益"
       ]
     },
     {
       "title": "Spotify漲價了！美國月費上調至13美元 力拚長期獲利",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "key_points": [
-        "美國訂閱漲價",
-        "Premium月費",
-        "長期獲利目標"
+        "美國Premium訂閱價格上調至13美元"
       ]
     },
     {
-      "title": "信報即時新聞 - 國際財經 - Spotify第二季轉賺5.45億歐羅 用戶增至3億 - 信報網站 hkej.com",
-      "sentiment": "positive",
-      "key_points": [
-        "第二季財報",
-        "轉虧為盈",
-        "用戶增長3億"
-      ]
-    },
-    {
-      "title": "Music review: My Spotify Wrapped | The Review",
+      "title": "它來了！現在就來回顧 Spotify 2025 年的願景吧！",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify Wrapped",
-        "年度回顧評論"
+        "回顧Spotify 2025年的願景",
+        "展望未來"
       ]
     },
     {
       "title": "Spotify 推出 Xirp，跨足 AI 程式開發工具市場 - 硬是要學",
       "sentiment": "positive",
       "key_points": [
-        "Xirp推出",
-        "AI程式開發工具",
-        "管理AI Agent"
-      ]
-    },
-    {
-      "title": "Spotify fights back against AI, removing 75m mass-produced spam tracks",
-      "sentiment": "positive",
-      "key_points": [
-        "打擊AI垃圾音樂",
-        "移除7500萬音軌",
-        "內容品質維護"
-      ]
-    },
-    {
-      "title": "Spotify 年度回顧大受歡迎 但 YouTube Recap 卻負評連連？ - Business Insider Taiwan",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped成功",
-        "年度回顧受歡迎",
-        "YouTube Recap對比"
-      ]
-    },
-    {
-      "title": "Spotify takes its first major step in tackling AI slop — now artists can review and approve what music appears on their profile | TechRadar",
-      "sentiment": "positive",
-      "key_points": [
-        "AI音樂審核",
-        "藝人批准機制",
-        "內容管理"
-      ]
-    },
-    {
-      "title": "Spotify Technology SA(SPOT)股票8月7日盤中上漲3.20%：原因全解讀",
-      "sentiment": "positive",
-      "key_points": [
-        "股價上漲",
-        "演算法推薦",
-        "用戶留存率"
-      ]
-    },
-    {
-      "title": "I Tested Spotify's New, Enhanced Audio, and It's Music to My Ears | PCMag",
-      "sentiment": "positive",
-      "key_points": [
-        "增強音訊功能",
-        "個人化推薦",
-        "有聲書支援"
-      ]
-    },
-    {
-      "title": "不靠購買紀錄也能精準推薦？Malachyte 用 Spotify 推薦技術改寫電商個人化 | TechNews 科技新報",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推薦技術應用",
-        "Malachyte創業",
-        "電商個人化",
-        "AI預測"
-      ]
-    },
-    {
-      "title": "ChatGPT launches a year-end review like Spotify Wrapped | TechCrunch",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped",
-        "年終回顧模式",
-        "ChatGPT模仿"
-      ]
-    },
-    {
-      "title": "「VIRTUA FIGHTER CROSSROADS」原創歌曲「LEGACY」於Spotify等平台開始配信！搶先體驗世界觀 | Saiga NAK(電競與遊戲新聞媒體)",
-      "sentiment": "neutral",
-      "key_points": [
-        "遊戲原聲帶",
-        "新歌配信",
-        "VIRTUA FIGHTER"
-      ]
-    },
-    {
-      "title": "Spotify Technology S.A. 的每股收益（EPS）剛剛低於預期5.1%，以下是分析師對後續走勢的看法",
-      "sentiment": "negative",
-      "key_points": [
-        "EPS低於預期",
-        "財報分析",
-        "股價影響"
-      ]
-    },
-    {
-      "title": "Spotify股價今日為何大漲？ 作者 Investing.com",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股價大漲",
-        "第二季財報利好",
-        "前景指引"
-      ]
-    },
-    {
-      "title": "Spotify Technology | 6-K：外國發行人報告（業績相關）",
-      "sentiment": "neutral",
-      "key_points": [
-        "財務報告",
-        "業績相關"
-      ]
-    },
-    {
-      "title": "Bad Bunny Performs His First-Ever Concert in Japan: Review",
-      "sentiment": "neutral",
-      "key_points": [
-        "Bad Bunny",
-        "日本演唱會",
-        "音樂表演"
-      ]
-    },
-    {
-      "title": "8億人在用的Spotify推薦引擎幕後工程師創業！Malachyte要把AI預測技術帶入電商領域",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推薦引擎",
-        "Malachyte應用",
-        "AI預測技術",
-        "電商領域"
-      ]
-    },
-    {
-      "title": "它來了！現在就來回顧 Spotify 2025 年的願景吧！",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 2025願景",
-        "年度回顧",
-        "Bad Bunny"
-      ]
-    },
-    {
-      "title": "Sega 於 Spotify 與 Apple Music 推出 100 首 Jun Senoue 精選曲目 | GAMES.GG",
-      "sentiment": "neutral",
-      "key_points": [
-        "Sega音樂",
-        "Jun Senoue",
-        "音樂上架平台"
+        "推出AI程式開發工具Xirp"
       ]
     },
     {
       "title": "Spotify Founder's Body-Scan Startup Neko Health Raises $700 Million in Latest Fundraising",
       "sentiment": "neutral",
       "key_points": [
-        "Daniel Ek",
-        "Neko Health",
-        "創業融資"
+        "Spotify創辦人旗下健康科技公司Neko Health募資"
       ]
     },
     {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": []
+      "title": "Spotify team up with Reading & Leeds 2026 to help fans discover new favourite artists",
+      "sentiment": "positive",
+      "key_points": [
+        "與音樂節合作",
+        "幫助粉絲發現新藝術家"
+      ]
     },
     {
-      "title": "無標題",
+      "title": "單身狗不要看！Spotify 推出全新「Premium Duo」訂閱計畫：雙人共享只要月付 198 元 | T客邦 | LINE TODAY",
+      "sentiment": "positive",
+      "key_points": [
+        "推出Premium Duo雙人訂閱方案"
+      ]
+    },
+    {
+      "title": "Spotify Technology S.A. to Announce Results for Second Quarter 2026",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "公布2026年第二季度財報預告"
+      ]
+    },
+    {
+      "title": "Spotify’s new ‘skip’ button could end the podcast business as we know it | Semafor",
+      "sentiment": "negative",
+      "key_points": [
+        "Podcast廣告跳過功能可能顛覆Podcast商業模式"
+      ]
+    },
+    {
+      "title": "AI Bots Stole My Music",
+      "sentiment": "negative",
+      "key_points": [
+        "AI機器人盜用音樂的擔憂",
+        "版權爭議"
+      ]
+    },
+    {
+      "title": "【帶你看 Podcast】Apple 演算法解密／Spotify 終於奪冠／四千萬鎂的 Podcast 騙局 - INSIDE",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify在Podcast領域取得領先地位"
+      ]
+    },
+    {
+      "title": "Spotify to Label AI Artists with AI Persona Badge, Keep Them Out of Personalized Recommendations",
+      "sentiment": "positive",
+      "key_points": [
+        "將標記AI藝術家",
+        "排除其音樂於推薦"
+      ]
+    },
+    {
+      "title": "Spotify and Universal Music Announce Agreements for Fan-Made Covers",
+      "sentiment": "positive",
+      "key_points": [
+        "與環球音樂簽署協議",
+        "允許粉絲製作翻唱"
+      ]
+    },
+    {
+      "title": "Your Summer 2026 Soundtrack? Spotify’s Predictions Are In — Spotify",
+      "sentiment": "positive",
+      "key_points": [
+        "發布2026年夏季音樂預測"
+      ]
+    },
+    {
+      "title": "HomePod 開箱評測：超棒的音箱，但沒想像中智慧 - 蘋果仁 - 果仁 iPhone/iOS/好物推薦科技媒體",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論HomePod對Spotify的兼容性"
+      ]
+    },
+    {
+      "title": "Toby Keith topped the most streamed songs on Spotify in America on Independence Day 2026 | OutKick",
+      "sentiment": "positive",
+      "key_points": [
+        "Toby Keith在美國國慶日登上Spotify串流榜首"
+      ]
+    },
+    {
+      "title": "SEVENTEEN's DxS unveils 'One' for Spotify, esports team T1 | ABS-CBN Entertainment",
+      "sentiment": "positive",
+      "key_points": [
+        "SEVENTEEN成員為Spotify和電競團隊推出音樂"
+      ]
+    },
+    {
+      "title": "2017 付费音乐服务选哪家？五大音乐平台横评",
+      "sentiment": "neutral",
+      "key_points": [
+        "2017年主要付費音樂服務平台對比"
+      ]
+    },
+    {
+      "title": "Must Read: Depop and Spotify Partner, Keke Palmer to Host the 2026 CFDA Fashion Awards",
+      "sentiment": "positive",
+      "key_points": [
+        "Depop與Spotify合作"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "免費版用戶升級",
+        "增加直接選歌等功能"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260811_030617.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260811.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260812_032524.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260812.jpg"
 }

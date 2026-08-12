@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Premium Pulse</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --spotify-green: #1ed760;
+            --spotify-neon: #33ff77;
+            --bg-dark: #070a09;
+            --text-primary: #ffffff;
+            --text-secondary: #8b99a6;
+            --positive: #1ed760;
+            --neutral: #58a6ff;
+            --negative: #ff4b4b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 3rem 1rem;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(29, 185, 84, 0.03) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(88, 166, 255, 0.03) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* 頂部標題 */
+        .header {
+            text-align: center;
+            position: relative;
+            margin-bottom: 3rem;
+            padding-top: 3rem;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            display: inline-block;
+        }
+
+        .header-bg-wave {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120%;
+            height: 150px;
+            z-index: 1;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        /* 情緒雷達 */
+        .radar-section {
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+        }
+        
+        .title-green { color: var(--spotify-green); }
+        .title-gold { color: #f2c94c; }
+        .title-red { color: #ff6b6b; }
+
+        .radar-container {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            margin-top: 2rem;
+            background: linear-gradient(to top, rgba(255,255,255,0.03) 0%, transparent 100%);
+        }
+
+        .radar-svg {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+
+        .node-label {
+            position: absolute;
+            padding: 4px 12px;
+            border-radius: 14px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transform: translate(-50%, -150%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            z-index: 10;
+        }
+
+        .label-positive { background: rgba(30, 215, 96, 0.15); border-color: rgba(30, 215, 96, 0.3); }
+        .label-neutral { background: rgba(88, 166, 255, 0.15); border-color: rgba(88, 166, 255, 0.3); }
+        .label-negative { background: rgba(255, 75, 75, 0.15); border-color: rgba(255, 75, 75, 0.3); }
+
+        /* 雙欄佈局 */
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        /* 內部樣式：事件 */
+        .event-item {
+            margin-bottom: 1.5rem;
+            padding-left: 10px;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 8px;
+        }
+        .event-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateX(4px);
+        }
+        .event-item:active {
+            transform: translateX(4px) scale(0.98);
+        }
+
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            padding: 8px;
+        }
+
+        .event-title {
+            font-weight: 600;
+            color: #fff;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .event-title-icon {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .event-badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+            background: transparent;
+        }
+
+        .badge-high { color: var(--negative); border: 1px solid var(--negative); }
+        .badge-medium { color: #f2c94c; border: 1px solid #f2c94c; }
+        .badge-low { color: var(--positive); border: 1px solid var(--positive); }
+
+        .event-body {
+            position: relative;
+            padding-left: 28px; /* For the vertical line alignment */
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .event-item.active .event-body {
+            max-height: 500px;
+            opacity: 1;
+            padding-bottom: 12px;
+            margin-top: 8px;
+        }
+        
+        .event-line {
+            position: absolute;
+            left: 10px;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .event-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            padding-top: 4px;
+        }
+
+        /* 內部樣式：關鍵字 DNA */
+        .dna-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            margin-top: 1rem;
+            position: relative;
+        }
+        
+        .dna-pill {
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            background: #111413;
+            white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .dna-pill:hover {
+            transform: scale(1.05) !important;
+            z-index: 10;
+        }
+
+        .pill-green { color: var(--spotify-neon); border-color: rgba(30, 215, 96, 0.2); }
+        .pill-purple { color: #b19cd9; border-color: rgba(177, 156, 217, 0.2); }
+
+        /* DNA Sine Wave Offsets */
+        .dna-pill:nth-child(1) { transform: translateX(30px); }
+        .dna-pill:nth-child(2) { transform: translateX(60px); }
+        .dna-pill:nth-child(3) { transform: translateX(70px); }
+        .dna-pill:nth-child(4) { transform: translateX(50px); }
+        .dna-pill:nth-child(5) { transform: translateX(10px); }
+        .dna-pill:nth-child(6) { transform: translateX(-30px); }
+        .dna-pill:nth-child(7) { transform: translateX(-60px); }
+        .dna-pill:nth-child(8) { transform: translateX(-70px); }
+        .dna-pill:nth-child(9) { transform: translateX(-50px); }
+        .dna-pill:nth-child(10) { transform: translateX(-10px); }
+        .dna-pill:nth-child(11) { transform: translateX(30px); }
+        .dna-pill:nth-child(12) { transform: translateX(60px); }
+        .dna-pill:nth-child(13) { transform: translateX(70px); }
+        
+        /* 由於有兩條交織的感覺，我們可以加上虛密的背景雙螺旋作裝飾，不過光是偏移也很有感覺了 */
+
+        @media (max-width: 768px) {
+            .bottom-grid {
+                grid-template-columns: 1fr;
+            }
+            .dna-pill { transform: translateX(0) !important; align-self: flex-start; }
+            .dna-container { align-items: flex-start; }
+        }
+
+        /* 舊版卡片延續樣式（用於每日摘要與文章） */
+        .simple-card {
+            background: rgba(20, 24, 32, 0.3);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .summary-text { color: var(--text-secondary); font-size: 0.95rem; white-space: pre-wrap; }
+        .article-title { color: #fff; font-weight: 500; font-size: 1rem; margin-bottom: 0.5rem; }
+        .article-item { border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 1rem; margin-bottom: 1rem;}
+        .article-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <!-- Background Glow Wavy Line -->
+            <svg class="header-bg-wave" viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-100 120 Q 50 20 200 80 T 500 60 T 800 120 T 1100 50" stroke="rgba(30, 215, 96, 0.4)" stroke-width="2"/>
+                <path d="M-100 140 Q 150 200 300 100 T 700 80 T 1100 130" stroke="rgba(30, 215, 96, 0.7)" stroke-width="3" filter="url(#glow-green)"/>
+            </svg>
+            <h1>Spotify Premium Pulse</h1>
+        </div>
+
+        <!-- 品牌情緒雷達 Radar Layout -->
+        <div class="radar-section">
+            <div class="section-title">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--spotify-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+                品牌情緒雷達
+            </div>
+
+            <div class="radar-container">
+                <svg class="radar-svg" viewBox="0 0 1000 250" preserveAspectRatio="none">
+                    <defs>
+                        <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <linearGradient id="fade-green" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--positive)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--positive)" stop-opacity="0"/></linearGradient>
+                        <linearGradient id="fade-blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--neutral)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--neutral)" stop-opacity="0"/></linearGradient>
+                        <linearGradient id="fade-red" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--negative)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--negative)" stop-opacity="0"/></linearGradient>
+                    </defs>
+                    
+                    <!-- Solid Lines -->
+                    <path d="M0 250 Q 80 150 150 200 T 300 90 T 500 150 T 700 220 T 850 180 T 1000 220" fill="none" stroke="var(--positive)" stroke-width="3" filter="url(#glow-green)"/>
+                    <path d="M0 250 Q 150 280 250 220 T 450 150 T 650 200 T 800 240 T 1000 200" fill="none" stroke="var(--neutral)" stroke-width="3" filter="url(#glow-blue)"/>
+                    <path d="M0 200 Q 100 180 200 220 T 400 240 T 600 180 T 900 200 T 1000 250" fill="none" stroke="var(--negative)" stroke-width="3" filter="url(#glow-red)"/>
+                    
+                    <!-- Fills (Optional visually) -->
+                    <path d="M0 250 Q 80 150 150 200 T 300 90 T 500 150 T 700 220 T 850 180 T 1000 220 V250 H0 Z" fill="url(#fade-green)"/>
+                    <path d="M0 250 Q 150 280 250 220 T 450 150 T 650 200 T 800 240 T 1000 200 V250 H0 Z" fill="url(#fade-blue)"/>
+                    <path d="M0 200 Q 100 180 200 220 T 400 240 T 600 180 T 900 200 T 1000 250 V250 H0 Z" fill="url(#fade-red)"/>
+
+                    <!-- Nodes -->
+                    <circle cx="300" cy="90" r="5" fill="#1ed760" stroke="#fff" stroke-width="2"/>
+                    <circle cx="450" cy="150" r="5" fill="#58a6ff" stroke="#fff" stroke-width="2"/>
+                    <circle cx="600" cy="180" r="5" fill="#ff4b4b" stroke="#fff" stroke-width="2"/>
+                </svg>
+                
+                <!-- dynamic label overlays mapped closely to the static node x/y percentages -->
+                <!-- Note: The heights in the user's image matched their % roughly. I will adapt them. -->
+                <div class="node-label label-positive" style="left: 30%; top: 36%;">😊 68.0%</div>
+                <div class="node-label label-neutral" style="left: 45%; top: 60%;">😐 16.0%</div>
+                <div class="node-label label-negative" style="left: 60%; top: 72%;">😡 16.0%</div>
+            </div>
+        </div>
+
+        <div class="bottom-grid">
+            <!-- 重大事件追蹤 -->
+            <div class="events-col">
+                <div class="section-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    重大事件追蹤
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">🧠</span>
+                                    
+                                    AI內容規範與透明化
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify將引入「AI Persona」徽章來標記AI生成藝術家，並將這些內容從個人化推薦中排除。此舉旨在回應用戶對AI音樂內容的擔憂，並提升平台內容的真實性與透明度。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">🎁</span>
+                                    
+                                    Podcast廣告跳過功能爭議
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify正在測試一項讓Premium用戶跳過Podcast廣告（非Spotify直售）的功能。此功能引發了Podcast產業對於廣告收益模式和業務持續性的擔憂，被認為可能顛覆現有生態。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">⭐</span>
+                                    
+                                    訂閱用戶數成長與價格調整
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify在2026年第二季度付費訂閱用戶達到3億里程碑，顯示強勁的業務成長。然而，為實現長期獲利目標，美國地區的Premium訂閱月費已上調約8%。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    大規模用戶資料外洩疑慮
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">有報導指出Spotify存在大規模資料爬取事件，涉及數億筆曲目中繼資料及部分音訊檔案的未經授權存取，引發了用戶資料安全的疑慮。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    新功能與內容策略多元化
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify推出多項新功能及策略，包括台灣地區上線無損音質、為有聲書新增AI探索工具、與環球音樂等合作合法化粉絲翻唱及混音、推出Premium Duo方案、升級免費版用戶功能，以及與Live Nation合作演唱會優先購票等。</div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+
+            <!-- 關鍵字雲 -->
+            <div class="keywords-col">
+                <div class="section-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f2c94c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" y1="9" x2="20" y2="9"></line>
+                        <line x1="4" y1="15" x2="20" y2="15"></line>
+                        <line x1="10" y1="3" x2="8" y2="21"></line>
+                        <line x1="16" y1="3" x2="14" y2="21"></line>
+                    </svg>
+                    關鍵字雲
+                </div>
+                <div class="dna-container">
+                    
+                        
+                        <div class="dna-pill pill-green">
+                            #AI Persona
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #AI音樂
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #Podcast廣告
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #Premium訂閱
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #價格調漲
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #資料外洩
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #無損音質
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #粉絲翻唱
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #新功能
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #有聲書
+                        </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 每日摘要 (延續極簡風格) -->
+        <div class="simple-card">
+            <div class="section-title" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                AI 深度洞察
+            </div>
+            <p class="summary-text">今日Spotify輿情主要聚焦於其對AI生成音樂的嚴格規範，包括推出「AI Persona」徽章並停止推薦，此舉獲得正面評價。儘管平台訂閱用戶數達3億，業務成長顯著，但美國區訂閱價格上漲及Podcast廣告跳過功能引發的行業擔憂，以及大規模資料盜取疑慮，則為輿情帶來負面聲音。同時，多項新功能與合作夥伴關係也持續豐富平台生態。</p>
+        </div>
+
+        <!-- 文章清單 -->
+        
+        <div class="simple-card" style="margin-top: 1.5rem;">
+            <div class="section-title" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                📰 關鍵報導剖析
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify新功能測試！跳過Podcast節目廣告 料不影響投放</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>測試跳過Podcast廣告功能</div>
+                    
+                    <div>預計不影響廣告投放</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify says it won't recommend music from 'AI Personas'</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出「AI Persona」標籤</div>
+                    
+                    <div>不推薦AI音樂</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify's AI Persona Label to Pluck AI Artists From Your Algorithm</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>標記AI藝術家</div>
+                    
+                    <div>從推薦演算法中移除</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to Label AI Artists on the Platform With New 'AI Persona' Badge</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>識別AI藝術家</div>
+                    
+                    <div>排除音樂從個人化推薦</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify will now tell you when an artist isn't real</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>新增AI Persona徽章</div>
+                    
+                    <div>區分AI與真人藝術家</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify asks artists to disclose whether they're humans or AI</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>要求藝術家揭露是否為AI生成</div>
+                    
+                    <div>增強透明度</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to Start Labeling AI Artists</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>開始標記AI藝術家</div>
+                    
+                    <div>提供自願揭露選項</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to label AI artists with new 'AI Persona' badge - and keep their music out of recommendations by default</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>標記AI藝術家</div>
+                    
+                    <div>預設不推薦其音樂</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to launch badge identifying AI music</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出AI音樂識別徽章</div>
+                    
+                    <div>提升內容透明度</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Creates New 'AI Persona' Label To Flag AI-Generated Artists</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>新增AI Persona標籤</div>
+                    
+                    <div>確保藝術家與粉絲間信任</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Unveils "AI Personas" Feature to Label AI Artists</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出AI Persona功能</div>
+                    
+                    <div>將AI藝術家排除於推薦</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Tests Ad-Skip Button That Could Upend Podcast Advertising</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>測試Podcast廣告跳過功能</div>
+                    
+                    <div>可能影響廣告生態</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Hits 300 Million Premium Subscribers in Q2 2026</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Q2 2026付費訂閱用戶達3億</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to label AI-generated artist profiles with 'AI Persona' badges</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>將標記AI生成藝術家個人檔案</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Adds 'AI Persona' Labels as It Cracks Down on AI-Generated Artist Identities</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>加強打擊AI生成藝術家身分</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to Will Soon Roll Out AI Persona Badges on Relevant Artist Profiles</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>預計9月推出AI Persona徽章</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Will Label A.I. Artists and Avoid Promoting Them</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>將標記AI藝術家</div>
+                    
+                    <div>不進行推廣</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to flag AI slop with special new label in wake of user complaints</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>因應用戶投訴</div>
+                    
+                    <div>標記AI生成內容</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to add 'AI Persona' badges to flag AI-generated artists</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出AI Persona徽章</div>
+                    
+                    <div>識別AI生成藝術家</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify asks artists to disclose whether they're human</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>要求藝術家揭露是否為人類</div>
+                    
+                    <div>確保信任</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Announces It Will Not Include AI Artists In Any Algorithm Recommendations, Will Roll Out "AI Persona" Badges Next Month</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>不將AI藝術家納入推薦演算法</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify just hit 300 million Premium subscribers</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>付費訂閱用戶達到3億</div>
+                    
+                    <div>營收55億美元</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Adds More AI-Powered Discovery Tools for Audiobooks</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>為有聲書新增AI探索工具</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify's New Ad-Skipping Feature Is Not Scaring Off Podcast Advertisers Yet</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Podcast廣告跳過功能測試中</div>
+                    
+                    <div>專家認為短期影響不大</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to label 'AI personas' and exclude AI music from personal recommendations</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>標記AI音樂人物</div>
+                    
+                    <div>排除其音樂從推薦</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify and Pinterest Delivered the Growth. Investors Wanted More</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>儘管業績超預期</div>
+                    
+                    <div>投資者仍不滿導致股價下跌</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to slap 'AI persona' badges on AI-generated artist profiles</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>將標記AI生成藝術家個人檔案</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to distinguish AI artists from real people - and stop recommending them</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>區分AI藝術家</div>
+                    
+                    <div>停止推薦</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to label AI music, not recommend it to users</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>標記AI生成音樂</div>
+                    
+                    <div>不推薦給用戶</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Just Legalized Fan Remixes, So What Does It Mean For SPOT?</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>簽署授權協議</div>
+                    
+                    <div>支持粉絲製作翻唱和混音</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">The Very Cool New Ad-Skipping Button for Spotify Podcasts Is Not Very Cool for Podcast Businesspeople</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Podcast廣告跳過功能對廣告商不利</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>執行長透露工程師工作模式因AI而改變</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify「無損音質」功能台灣上線，網友實測結果如何？ - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>無損音質功能在台灣上線</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>大規模資料盜取事件</div>
+                    
+                    <div>涉及中繼資料與音訊檔案</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>與Live Nation合作優先購票</div>
+                    
+                    <div>引發商業綁架爭議</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify Wrapped 2025年度報告</div>
+                    
+                    <div>揭曉頂尖歌手</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>環球音樂出售Spotify股份</div>
+                    
+                    <div>實施泰勒絲條款保障藝人收益</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify漲價了！美國月費上調至13美元 力拚長期獲利</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>美國Premium訂閱價格上調至13美元</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">它來了！現在就來回顧 Spotify 2025 年的願景吧！</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>回顧Spotify 2025年的願景</div>
+                    
+                    <div>展望未來</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify 推出 Xirp，跨足 AI 程式開發工具市場 - 硬是要學</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出AI程式開發工具Xirp</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Founder's Body-Scan Startup Neko Health Raises $700 Million in Latest Fundraising</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify創辦人旗下健康科技公司Neko Health募資</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify team up with Reading & Leeds 2026 to help fans discover new favourite artists</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>與音樂節合作</div>
+                    
+                    <div>幫助粉絲發現新藝術家</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">單身狗不要看！Spotify 推出全新「Premium Duo」訂閱計畫：雙人共享只要月付 198 元 | T客邦 | LINE TODAY</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>推出Premium Duo雙人訂閱方案</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Technology S.A. to Announce Results for Second Quarter 2026</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>公布2026年第二季度財報預告</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify’s new ‘skip’ button could end the podcast business as we know it | Semafor</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Podcast廣告跳過功能可能顛覆Podcast商業模式</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">AI Bots Stole My Music</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>AI機器人盜用音樂的擔憂</div>
+                    
+                    <div>版權爭議</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">【帶你看 Podcast】Apple 演算法解密／Spotify 終於奪冠／四千萬鎂的 Podcast 騙局 - INSIDE</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify在Podcast領域取得領先地位</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify to Label AI Artists with AI Persona Badge, Keep Them Out of Personalized Recommendations</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>將標記AI藝術家</div>
+                    
+                    <div>排除其音樂於推薦</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify and Universal Music Announce Agreements for Fan-Made Covers</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>與環球音樂簽署協議</div>
+                    
+                    <div>允許粉絲製作翻唱</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Your Summer 2026 Soundtrack? Spotify’s Predictions Are In — Spotify</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>發布2026年夏季音樂預測</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">HomePod 開箱評測：超棒的音箱，但沒想像中智慧 - 蘋果仁 - 果仁 iPhone/iOS/好物推薦科技媒體</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>討論HomePod對Spotify的兼容性</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Toby Keith topped the most streamed songs on Spotify in America on Independence Day 2026 | OutKick</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Toby Keith在美國國慶日登上Spotify串流榜首</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">SEVENTEEN's DxS unveils 'One' for Spotify, esports team T1 | ABS-CBN Entertainment</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>SEVENTEEN成員為Spotify和電競團隊推出音樂</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">2017 付费音乐服务选哪家？五大音乐平台横评</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>2017年主要付費音樂服務平台對比</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Must Read: Depop and Spotify Partner, Keke Palmer to Host the 2026 CFDA Fashion Awards</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Depop與Spotify合作</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風傳媒</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>免費版用戶升級</div>
+                    
+                    <div>增加直接選歌等功能</div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+    </div>
+</body>
+</html>
