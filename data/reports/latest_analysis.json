@@ -1,295 +1,338 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.5,
-    "negative_ratio": 0.3,
-    "neutral_ratio": 0.2
+    "positive_ratio": 0.3,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "JYP Entertainment 全新影音 Podcast 登陸 Spotify",
-      "description": "JYP Entertainment 在 Spotify 上線全新影音 Podcast，首檔節目由 Stray Kids 3RACHA 主持，為平台帶來新內容與明星合作。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 付費用戶破 3 億並轉虧為盈",
-      "description": "Spotify 付費用戶突破 3 億，並在第二季度實現轉虧為盈，顯示其在市場上的強勁表現與財務健康改善。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 積極擁抱 AI 策略與工程師轉型",
-      "description": "Spotify 執行長與法務長強調公司積極面對 AI 帶來的機遇與挑戰，頂尖工程師已轉向 AI 相關工作，展現創新與前瞻性。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "「泰勒絲條款」保障藝人收益",
-      "description": "環球音樂出售部分 Spotify 股份，並落實「泰勒絲條款」，確保旗下藝人從串流平台獲得合理收益，被視為音樂產業權益分配的重要進展。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify Wrapped 年度回顧與新功能推出",
-      "description": "Spotify 推出 2025 年度回顧 (Wrapped)，揭曉熱門藝人榜單，並提供如「聆聽年齡」等個人化數據，同時推出跑步模式、可能提供離線音樂視訊等新功能，增強用戶互動與體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "音樂串流市場競爭加劇",
-      "description": "Barclays 報告指出其他音樂串流平台的成長正在縮小與 Spotify 的差距，暗示市場競爭日益激烈，對 Spotify 的領先地位構成挑戰。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "藝術家因創辦人投資 AI 軍事公司而抵制",
-      "description": "多組音樂人（如 Deerhoof, Xiu Xiu 等）因不滿 Spotify 創辦人投資 AI 軍事公司，決定從平台下架作品，引發道德爭議與抵制潮。",
+      "title": "大規模資料盜取事件",
+      "description": "Spotify爆發大規模資料盜取事件，Anna's Archive爬取了大量音樂資料，可能影響超過現有最大的開放音樂資料庫。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 爆發大規模資料盜取事件",
-      "description": "Spotify 爆發大規模資料盜取事件，包含曲目中繼資料與高達 8600 萬個音訊檔案，引發用戶數據安全與隱私的嚴重擔憂。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Podcast 廣告跳過功能引發業界恐慌",
-      "description": "Spotify 測試一鍵跳過 Podcast 廣告功能，引發 Podcast 業界對其商業模式及廣告收益的恐慌與討論，可能動搖現有產業生態。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Spotify 計劃裁員",
-      "description": "報導指出 Spotify 計劃在本週進行裁員，加入科技業普遍的 workforce reduction 趨勢，對員工與公司士氣可能造成負面影響。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Spotify 攜手 Live Nation 推演唱會優先購票",
-      "description": "Spotify 與 Live Nation 合作推出演唱會優先購票服務，引發討論這究竟是粉絲福音還是變相的商業綑綁。",
+      "title": "攜手Live Nation推演唱會優先購票",
+      "description": "Spotify與Live Nation合作推出演唱會優先購票服務，引發「真粉絲福利」或「變相商業綁架」的討論。",
       "severity": "medium",
       "sentiment": "neutral"
+    },
+    {
+      "title": "落實「泰勒絲條款」保障藝人收益",
+      "description": "環球音樂出售部分Spotify股份，並將落實「泰勒絲條款」，旨在保障旗下藝人的收益，泰勒絲在音樂產業的影響力再次凸顯。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "訂閱用戶突破3億大關",
+      "description": "Spotify訂閱用戶首次突破3億大關，月度活躍用戶達7.77億，儘管部分國家提高了訂閱價格，用戶基數仍持續增長。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "計劃裁員",
+      "description": "有報導指出Spotify計畫最快本周進行裁員。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "可能提供離線音樂視訊服務",
+      "description": "Spotify可能將其服務擴展至提供離線音樂視訊內容，進一步豐富平台功能。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "推出跑步模式",
+      "description": "Spotify推出全新的跑步模式，提供個人化播放清單及與跑步節奏同步的音樂。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "免費用戶功能重大升級",
+      "description": "Spotify免費用戶迎來重大升級，全面開放隨選即播、歌詞功能及自訂封面，旨在提升用戶體驗並促進付費轉換。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "年度回顧報告與新功能",
+      "description": "Spotify年度回顧（Wrapped）報告出爐，推出如計算聆聽年齡等全新功能，並公布全球熱門榜單。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "無損音質功能台灣上線",
+      "description": "Spotify的無損音質功能在台灣上線，儘管外媒評價其提升有限，實際聽感差異取決於硬體條件。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Joe Rogan播客爭議",
+      "description": "Joe Rogan聲稱美國總統曾施壓Spotify，試圖因其播客內容涉嫌散播錯誤資訊而將其下架。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "與Liquid Death聯名推出骨灰盒音箱",
+      "description": "Spotify與Liquid Death聯名推出限量版「永恆歌單骨灰盒」無線藍牙音箱，展現大膽的行銷策略。",
+      "severity": "low",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "K-POP藝人月聽眾增長",
+      "description": "K-POP藝人如ROSÉ月聽眾重回2700萬，ATEEZ聽眾人數創新高，顯示Spotify在K-POP市場的強勁影響力。",
+      "severity": "low",
+      "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "Spotify Wrapped",
-    "Podcast",
-    "AI",
-    "藝人抵制",
-    "資料盜取",
-    "裁員",
+    "訂閱用戶",
     "新功能",
-    "音樂串流",
-    "泰勒絲條款",
-    "用戶成長"
+    "裁員",
+    "資料安全",
+    "藝人收益",
+    "播客爭議",
+    "年度回顧"
   ],
-  "daily_summary": "今日 Spotify 的輿情呈現喜憂參半的局面。積極方面，平台在用戶增長與財務上表現亮眼，並展現了對 AI 的前瞻性策略及透過「泰勒絲條款」提升藝人收益的努力；同時，年度回顧與多項新功能也持續提升用戶體驗。然而，負面消息包括因創辦人投資 AI 軍事公司引發的藝人抵制、大規模資料盜取事件、Podcast 廣告跳過功能對業界的衝擊，以及計劃中的裁員，這些都為平台帶來了挑戰與爭議。",
+  "daily_summary": "Spotify近期輿情呈現兩極，一方面，平台用戶數突破3億，並為免費用戶帶來多項功能升級（如隨選即播、歌詞），同時上線跑步模式與台灣的無損音質。另一方面，Spotify也面臨大規模資料盜取事件、裁員計畫以及Joe Rogan播客內容的政治施壓爭議。",
   "article_analyses": [
     {
-      "title": "Barclays：音樂串流成長縮小與Spotify的差距 作者 Investing.com - Investing.com 香港",
-      "sentiment": "negative",
-      "key_points": [
-        "音樂串流市場競爭加劇",
-        "Spotify 市場領先優勢縮小"
-      ]
-    },
-    {
-      "title": "JYP Entertainment全新影音Podcast登陸Spotify！首檔節目由Stray Kids 3RACHA主持",
-      "sentiment": "positive",
-      "key_points": [
-        "JYP Entertainment 全新影音 Podcast 上線 Spotify",
-        "Stray Kids 3RACHA 主持首檔節目"
-      ]
-    },
-    {
-      "title": "科蒂斯凭借两张专辑在 Spotify 上突破 10 亿次流媒体播放量 | STARNEWS",
-      "sentiment": "positive",
-      "key_points": [
-        "藝人科蒂斯在 Spotify 達成 10 億播放量",
-        "平台助力 K-pop 藝人成功"
-      ]
-    },
-    {
-      "title": "Block 的法務長跟 Spotify 的總法律顧問一起上台，講了一句我覺得台灣老闆會很有感的話：對 AI 說不的風險，比說好更高，因為你落後得太快。 Spotify 那位的做法更主動，他說要在問題被提上來之前，就先把附帶但書的 yes 給出去。 其實多數公司真正卡住的地方很單純：沒有人敢簽字。而「還在研議中」聽起來很安全，但它只是把成本轉嫁給每天在等答案的同事。我自己的做法是花十分鐘把「今天不做什麼」寫成三到五條，例如客戶個資不得貼進外部工具、對外署名的東西一律人工過目再送。剩下的一律預設可以做。",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 積極擁抱 AI 策略",
-        "法務長強調不拒絕 AI 的風險"
-      ]
-    },
-    {
-      "title": "付费用户破3亿　Spotify次季转亏为盈",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 付費用戶突破 3 億",
-        "公司第二季度轉虧為盈"
-      ]
-    },
-    {
-      "title": "川普出手救助10多萬精神病遊民！民主黨為何拼命阻攔？加州輪胎新規惹眾怒！70%現有輪胎或被淘汰；Costco進軍醫保市場！將推出老年人醫保計劃；20260819",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "无人知晓 - 播客 - Apple 播客",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "全国最佳的STPM学生！可是奖学金其实没有想象中的美好 ...",
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 作為教育 Podcast 平台"
-      ]
-    },
-    {
-      "title": "美国之音中文网",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "大家聽過我們的全新Podcast《Yes & No》了嗎？ 第二集已經 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "Podcast 內容創作與流量探討",
-        "AI 時代創作者的挑戰"
-      ]
-    },
-    {
-      "title": "也将成为本集讨论重点。透过国际政治、军事安全 ...",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "yo88 fashion",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "《聲入Spotify》：泰勒絲的抵制，讓Spotify面臨史上最嚴重的公關危機 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "泰勒絲抵制曾引發 Spotify 公關危機",
-        "Spotify 商業模式與財務挑戰"
-      ]
-    },
-    {
-      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "音樂人因創辦人投資 AI 軍事公司而抵制",
-        "多組藝人從 Spotify 下架作品"
+        "Spotify執行長透露工程師工作模式改變，暗示可能受AI浪潮影響。",
+        "文章主要內容為聯合新聞網的產品與服務速覽，與標題關聯性不高。"
       ]
     },
     {
       "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 發生大規模資料盜取",
-        "8600 萬音訊檔恐遭散布"
+        "Anna's Archive爬取了大量Spotify音樂資料，引發大規模資料盜取事件。",
+        "專家警告若資料流出，影響可能超越現有大型開放音樂資料庫。"
       ]
     },
     {
       "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 與 Live Nation 合作優先購票",
-        "服務模式引發商業綁架疑慮"
-      ]
-    },
-    {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped 2025 年度榜單揭曉",
-        "全球播放量冠軍藝人出爐"
-      ]
-    },
-    {
-      "title": "動搖Podcast商業模式？Spotify測試一鍵跳過廣告按鈕 引業界恐慌 | 社群/APP/網紅 | udn科技玩家",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 測試 Podcast 廣告跳過功能",
-        "業界擔憂影響 Podcast 商業模式"
+        "Spotify與Live Nation合作推出演唱會優先購票服務。",
+        "此服務引發了關於其是粉絲福利或變相商業策略的討論。"
       ]
     },
     {
       "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "環球音樂出售 Spotify 股份",
-        "落實「泰勒絲條款」保障藝人收益"
+        "環球音樂出售Spotify股份，並將落實「泰勒絲條款」保障藝人收益。",
+        "泰勒絲在音樂產業的影響力再次凸顯，推動更公平的藝人待遇。"
       ]
     },
     {
-      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 工程師工作模式轉變",
-        "執行長強調 AI 在工作中的重要性"
+        "Spotify Wrapped 2025年度最強歌手排名公布。",
+        "某巨星以全球200億次播放量奪冠。"
       ]
     },
     {
-      "title": "報新聞七月全球實體跟數位行銷當紅關鍵案例評論：瑪丹娜《Confessions II》全球專輯發行策略與市場影響分析 | 蕃新聞",
+      "title": "流媒體Spotify現在擁有超過3億訂閱用戶 - 禁聞網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify訂閱用戶首次突破3億大關，月度活躍用戶達7.77億。",
+        "儘管提高訂閱價格，訂閱用戶基數仍增長9%，並嘗試擴展健身內容、雜誌朗讀等服務。"
+      ]
+    },
+    {
+      "title": "紐時賞析／受夠AI垃圾內容？科技巨頭也是 | 2026九合一選舉",
       "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
-      "sentiment": "positive",
       "key_points": [
-        "Spotify 年度回顧推出新功能",
-        "公布全球熱門榜單"
+        "文章主要探討AI生成內容對資訊生態系統的影響。",
+        "內容未直接提及Spotify的具體情況或事件。"
       ]
     },
     {
-      "title": "Spotify可能會提供離線音樂視訊服務 - Root-Nation.com",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 可能推出離線音樂視訊服務"
-      ]
-    },
-    {
-      "title": "報導：Spotify計劃最快本周裁員",
+      "title": "報導：Spotify計劃最快本周裁員 - WSJ",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 計劃本週進行裁員",
-        "加入科技業裁員趨勢"
+        "華爾街日報報導Spotify計畫在本周進行裁員。"
       ]
     },
     {
       "title": "它來了！現在就來回顧 Spotify 2025 年的願景吧！",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped 2025 回顧",
-        "Bad Bunny 成為年度播放量最高藝人"
+        "文章回顧Spotify 2025年的願景和發展方向。"
+      ]
+    },
+    {
+      "title": "Spotify可能會提供離線音樂視訊服務",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify可能將推出離線音樂視訊服務，豐富訂閱用戶的節目內容。"
+      ]
+    },
+    {
+      "title": "Instagram",
+      "sentiment": "positive",
+      "key_points": [
+        "藝人透過Instagram感謝Spotify編輯團隊對其音樂的推廣與支持。"
+      ]
+    },
+    {
+      "title": "Spotify – bgd33.us.com",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容顯示Spotify的全球地區與語言選擇資訊。"
       ]
     },
     {
       "title": "個人化歌單與跑步技巧：Spotify推出跑步模式",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出跑步模式",
-        "提供個人化歌單與語音提示"
+        "Spotify推出全新跑步模式，提供個人化播放清單及與跑步節奏同步的音樂。"
+      ]
+    },
+    {
+      "title": "pkokfyi",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容提及Spotify的廣告選擇退出選項及語言設定，強調用戶控制權。"
+      ]
+    },
+    {
+      "title": "yo88 fashion",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容為Spotify應用程式的通用導航文本。"
+      ]
+    },
+    {
+      "title": "厌倦沉重，就飞去热带的岛屿禅修｜嘉宾：杨译杰",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容為播客節目描述，非關於Spotify平台本身的資訊。"
+      ]
+    },
+    {
+      "title": "藝情指揮中心的podcast ，有幾集就在探討類似的專業術語問題",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容為播客節目描述，非關於Spotify平台本身的資訊。"
+      ]
+    },
+    {
+      "title": "Finding meaning in life amidst busyness with new song ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容為歌曲描述，非關於Spotify平台本身的資訊。"
+      ]
+    },
+    {
+      "title": "Ep 202｜不同居一下，都不知道别人的生活习惯有多！奇！ ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容為播客節目描述，非關於Spotify平台本身的資訊。"
+      ]
+    },
+    {
+      "title": "gemwinvipfyi",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容過於簡短，無法判斷具體資訊。"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶迎來重大升級，全面開放隨選即播、歌詞功能、自訂封面 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify免費用戶功能大幅升級，全面開放隨選即播、歌詞和自訂封面。",
+        "旨在提升用戶體驗，同時平衡付費方案差異與廣告收入。"
+      ]
+    },
+    {
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify年度回顧報告出爐，推出計算聆聽年齡等新功能。",
+        "公布全球熱門專輯、歌手及Podcast榜單，顯示平台內容的廣泛受歡迎度。"
+      ]
+    },
+    {
+      "title": "Spotify「無損音質」功能台灣上線，網友實測結果如何？ - TNL The News Lens 關鍵評論網",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify無損音質功能在台灣上線，被視為重要升級。",
+        "外媒及實測結果顯示，對多數用戶而言，音質提升有限，差異感知取決於硬體。"
+      ]
+    },
+    {
+      "title": "【2026 最新】Spotify 免費版和付費版之間的全面對比!選擇免費版和付費版的標準__财经头条__新浪财经",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章對比Spotify免費版與付費版的功能差異，提供用戶選擇指南。"
+      ]
+    },
+    {
+      "title": "凭《大展鸿图》排名超越周杰伦，說唱歌手攬佬回應“赚了1.2亿”",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要報導說唱歌手攬佬的事業成就與收入，非關於Spotify平台本身的資訊。"
+      ]
+    },
+    {
+      "title": "Joe Rogan 聲稱美國總統施壓 Spotify 取消他的播客 -  - Gamereactor",
+      "sentiment": "negative",
+      "key_points": [
+        "Joe Rogan聲稱美國總統曾施壓Spotify，試圖取消其播客節目。",
+        "羅根指控政治人物因所謂的「錯誤資訊」而試圖讓他噤聲。"
+      ]
+    },
+    {
+      "title": "台灣熱門科技 Podcast 推薦",
+      "sentiment": "positive",
+      "key_points": [
+        "文章推薦台灣熱門科技Podcast，並指出Spotify為主要的收聽平台之一。"
+      ]
+    },
+    {
+      "title": "越大膽越熱銷！ Supreme 棺材、Spotify x Liquid Death 聯名骨灰罈，讓死亡議題不再沈重",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Liquid Death聯名推出「永恆歌單骨灰盒」，展現創新大膽的品牌行銷策略。"
+      ]
+    },
+    {
+      "title": "K-POP Spotify月听众人数 ROSÉ重回2700万 ATEEZ创新高",
+      "sentiment": "positive",
+      "key_points": [
+        "K-POP藝人ROSÉ的Spotify月聽眾人數重回2700萬，ATEEZ則創下新高。",
+        "數據顯示Spotify在K-POP音樂市場的活躍與成長。"
+      ]
+    },
+    {
+      "title": "售价495美元限量100个 Spotify推出全球首款骨灰盒音箱",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Liquid Death聯名推出限量版骨灰盒音箱，售價495美元。",
+        "這是一項獨特的產品和行銷嘗試。"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "文章無內容，無法提取具體資訊。"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "文章無內容，無法提取具體資訊。"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260822_022349.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260822.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260823_022519.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260823.jpg"
 }
