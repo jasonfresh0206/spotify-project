@@ -6,496 +6,316 @@
   },
   "events": [
     {
-      "title": "新功能：Playlist Notes上線",
-      "description": "Spotify推出「Playlist Notes」功能，讓用戶和編輯能夠為歌單中的歌曲添加文字描述，分享選歌的故事和理由。",
-      "severity": "medium",
-      "sentiment": "positive"
+      "title": "美國訂閱價格調漲",
+      "description": "Spotify宣佈在美國調漲Premium訂閱價格至每月12.99美元。此舉被一些分析師和媒體認為是必要且對音樂經濟有利，但同時也引發用戶對費用負擔增加的擔憂，部分觀點認為可能導致用戶流失。",
+      "severity": "high",
+      "sentiment": "neutral"
     },
     {
-      "title": "打擊AI冒充人類藝術家：引入「AI Persona」標籤",
-      "description": "Spotify宣布將對冒充人類藝術家的AI帳號貼上「AI Persona」標籤，並將其音樂從編輯推薦、演算法推薦和個人化推薦中排除，以提高透明度並支持人類創作者。",
+      "title": "推出多項創新功能與內容",
+      "description": "Spotify持續擴展平台功能，新增包括與《The Atlantic》等出版商合作的「敘事式雜誌文章」、允許用戶和編輯解釋歌曲選擇的「播放列表筆記」、優化AI DJ互動方式（支援西班牙語和文字請求）、為Premium用戶提供「無損音訊」、推出「音樂錄影帶」、與Live Nation合作提供「優先購票」服務，並更新了「Wrapped 年度回顧」功能，增加如「派對遊戲」和「聆聽年齡」等體驗，同時也正加大對AI封面等AI技術的投入。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "訂閱費用再度上漲",
-      "description": "Spotify宣布將在2024年7月再次提高Premium訂閱費用，最高漲價3美元，引發部分用戶不滿。",
+      "title": "藝術家報酬與AI內容版權爭議",
+      "description": "關於串流經濟下藝術家報酬不足的問題持續存在爭議，部分報導甚至提及「Spotify出走潮」。Spotify則回應已向音樂產業支付破紀錄的110億美元，並計劃推出新的驗證系統以打擊利用AI生成低品質內容來規避版稅的「不良行為者」。",
       "severity": "high",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "title": "免費版用戶功能大幅升級",
-      "description": "Spotify免費版用戶解禁了三項重要功能，包括可直接選擇想聽的歌曲、進行搜尋播放和一鍵分享，大幅提升了免費使用體驗。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "達成3億付費訂閱用戶里程碑",
-      "description": "Spotify達到3億付費訂閱用戶的歷史性里程碑，鞏固其在音樂串流市場的領導地位。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "獨立音樂人抗議行動與低分潤爭議",
-      "description": "美國加州獨立音樂人發起「Spotify去死」行動，抗議平台過低的音樂分潤制度、Discovery Mode進一步降低報酬，以及聯合創辦人投資AI軍事技術公司Helsing的倫理爭議，導致部分藝人下架音樂。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "大規模資料盜取事件",
-      "description": "Spotify爆發大規模資料爬取事件，專家指出若相關音訊流出，足以建立「個人版Spotify」，引發資安與隱私疑慮。",
+      "title": "音樂庫遭海盜團體洩露",
+      "description": "Spotify的音樂庫據報導遭到名為「Anna's Archive」的海盜活動團體洩露，可能涉及大量音訊文件，引發了內容安全和版權問題的擔憂。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Android版App卡頓問題",
-      "description": "多名Android用戶反映Spotify應用程式使用體驗卡頓，官方已證實並著手調查。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "擴大股票回購計畫",
-      "description": "Spotify董事會批准增加15億美元的股票回購授權，使總授權金額達到約22億美元，提振投資者信心。",
+      "title": "與韓國NAVER策略合作",
+      "description": "Spotify與韓國NAVER達成合作，將Spotify服務嵌入NAVER平台，旨在擴大在韓國市場的用戶基礎並提高用戶留存率。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "攜手UMG推出「合法AI翻唱」功能",
-      "description": "Spotify與環球音樂集團(UMG)合作，開放Premium用戶付費進行合法AI翻唱和混音，並確保藝人能獲得分潤。",
+      "title": "股市表現與財務報告",
+      "description": "Spotify股價近期呈現波動，儘管第三季度財報顯示MAU和Premium訂閱數、營收和毛利率均有強勁增長，但仍受到CEO變動和重組消息的影響，股價曾有下滑。然而，新推出的音樂錄影帶等功能也曾帶動股價上漲。",
       "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "環球音樂出售部分股份並落實「泰勒絲條款」",
-      "description": "環球音樂出售部分Spotify股份，並落實「泰勒絲條款」，確保旗下藝人能獲得不可回收的分潤收益。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "新功能：個人化跑步模式上線",
-      "description": "Spotify推出個人化跑步模式，能根據用戶的運動節奏和音樂喜好自動生成播放清單，提升運動體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "與Live Nation合作推演唱會優先購票",
-      "description": "Spotify攜手Live Nation推出「Reserved」功能，為Premium訂閱用戶提供演唱會優先購票機會，但引發「真粉絲福利或變相綁架」的討論。",
-      "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "Playlist Notes",
-    "價格上漲",
-    "免費用戶",
-    "藝人分潤",
-    "訂閱數",
-    "Running Mode",
-    "資料盜取",
-    "演唱會購票",
-    "Spotify Wrapped"
+    "Spotify Wrapped",
+    "訂閱價格調漲",
+    "新功能",
+    "敘事式雜誌文章",
+    "AI DJ",
+    "藝術家報酬",
+    "音樂錄影帶",
+    "無損音訊",
+    "社群功能",
+    "內容洩露",
+    "股價波動",
+    "競爭",
+    "用戶參與"
   ],
-  "daily_summary": "今日Spotify輿情呈兩極化趨勢：一方面，新功能如「Playlist Notes」、個人化跑步模式以及免費用戶的重大功能解禁獲得廣泛正面評價，平台用戶數也再創新高。另一方面，訂閱價格再度上漲、獨立音樂人因低分潤和CEO投資AI軍事技術而發起的抗議，以及大規模資料盜取事件，引發了強烈的負面討論和用戶擔憂。",
+  "daily_summary": "今日Spotify輿情主要圍繞在美國訂閱價格調漲的討論，以及多項新功能如敘事式雜誌文章、AI DJ互動改進和無損音訊的推出。同時，藝術家報酬爭議和音樂庫洩露事件仍是負面焦點，儘管公司積極回應並展現其在用戶增長和財務上的良好表現。",
   "article_analyses": [
     {
-      "title": "Spotify Technology S.A.的Price to book forward – NYSE:SPOT",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於Spotify的財報或股價分析"
-      ]
-    },
-    {
-      "title": "5 reasons I may not go back to Spotify after trying YouTube Music",
+      "title": "Spotify Stock Today (SPOT): Price, Fresh News and Outlook for 23 November 2025 - ts2.tech",
       "sentiment": "negative",
       "key_points": [
-        "用戶不滿意Spotify體驗",
-        "考慮轉用YouTube Music"
+        "討論串流經濟、AI與藝術家報酬問題",
+        "提及藝術家「出走潮」"
       ]
     },
     {
-      "title": "Spotify's new Playlist Notes let users and editors explain their song picks",
+      "title": "Spotify Launches 650+ Narrated Magazine Articles From The Atlantic, Rolling Stone, Vogue, And More... - Forbes",
       "sentiment": "positive",
       "key_points": [
-        "推出Playlist Notes新功能",
-        "用戶可為歌單加註說明"
+        "推出650多篇敘事式雜誌文章",
+        "與知名出版商合作，擴展內容類型"
       ]
     },
     {
-      "title": "Cortis logs 100m Spotify plays with debut single",
+      "title": "Spotify (SPOT) Stock News Today, Dec. 16, 2025: NAVER Korea Deal, Trade-Tension Headlines, and 2026 Forecasts - ts2.tech",
       "sentiment": "positive",
       "key_points": [
-        "藝人Cortis單曲在Spotify播放量破億",
-        "彰顯平台成功"
+        "確認美國將在2026年Q1漲價",
+        "與韓國NAVER達成合作，提升使用率和留存率",
+        "視訊內容擴展用戶參與度"
       ]
     },
     {
-      "title": "Spotify's playlist editors now explain their picks to listeners, and get their own public profiles",
+      "title": "Spotify Adds Narrated Long-Form Magazine Articles for Premium Subscribers - CNET",
       "sentiment": "positive",
       "key_points": [
-        "Playlist Notes功能擴展至編輯",
-        "編輯可解釋選歌，擁有公開檔案"
+        "為Premium訂閱者新增650多篇敘事式長篇文章",
+        "合作夥伴包括Rolling Stone、The Atlantic等"
       ]
     },
     {
-      "title": "The best Spotify alternatives to ease your conscience",
+      "title": "Spotify now lets you stream narrated magazine articles, too - TechCrunch",
+      "sentiment": "positive",
+      "key_points": [
+        "推出敘事式雜誌文章串流服務",
+        "提供來自多個知名出版商的內容"
+      ]
+    },
+    {
+      "title": "Spotify’s new Playlist Notes let users and editors explain their song picks - NewsBreak: Local News & Alerts",
+      "sentiment": "positive",
+      "key_points": [
+        "推出「播放列表筆記」功能，讓用戶和編輯解釋選曲",
+        "新增編輯個人資料頁面，提升社群互動"
+      ]
+    },
+    {
+      "title": "Spotify launches 'narrated articles' from publications like The Atlantic, Vogue - Reuters",
+      "sentiment": "positive",
+      "key_points": [
+        "推出敘事式文章",
+        "與Live Nation合作，推出Premium訂閱者「優先購票」服務"
+      ]
+    },
+    {
+      "title": "It’s About Time Spotify Raised Subscription Prices in the U.S. (Opinion) - Variety",
+      "sentiment": "positive",
+      "key_points": [
+        "意見文章支持美國訂閱漲價",
+        "認為漲價對音樂經濟是必要的"
+      ]
+    },
+    {
+      "title": "Upcoming Changes to Spotify Premium Subscriptions - Spotify",
+      "sentiment": "neutral",
+      "key_points": [
+        "官方公告Premium訂閱將有變動"
+      ]
+    },
+    {
+      "title": "Spotify’s price hike: necessary lifeline or risky move? - InternetRetailing",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論美國漲價的必要性與潛在風險",
+        "引用Variety觀點支持漲價以支援音樂人"
+      ]
+    },
+    {
+      "title": "Spotify launches lossless audio for premium users - NME",
+      "sentiment": "positive",
+      "key_points": [
+        "為Premium用戶推出無損音訊"
+      ]
+    },
+    {
+      "title": "Spotify bets big on AI covers and early concert tickets - Los Angeles Times",
+      "sentiment": "positive",
+      "key_points": [
+        "大力投入AI翻唱和演唱會優先購票",
+        "旨在創新並安撫投資者對成本控制的疑慮"
+      ]
+    },
+    {
+      "title": "In celebration of the music platform's 20th year, Spotify launched a new in-app experience that lets users revisit their listening milestones. Full story link in the comment section. - Facebook",
+      "sentiment": "positive",
+      "key_points": [
+        "慶祝成立20週年",
+        "推出回顧用戶聆聽里程碑的應用內體驗"
+      ]
+    },
+    {
+      "title": "Wrapped helps Spotify add users despite artists' criticism over fees - BBC",
+      "sentiment": "neutral",
+      "key_points": [
+        "Wrapped功能幫助Spotify增加用戶",
+        "儘管面臨藝術家對費用的批評"
+      ]
+    },
+    {
+      "title": "Following a Golden Globe win and a Netflix premiere, Spotify is raising its prices - Los Angeles Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導Spotify在成功後調漲價格",
+        "提及公司龐大的用戶基礎和內容庫"
+      ]
+    },
+    {
+      "title": "Spotify paid out a record $11 billion into the music industry last year - latimes.com",
+      "sentiment": "positive",
+      "key_points": [
+        "去年向音樂產業支付110億美元的紀錄",
+        "將推出措施保護藝術家身份並打擊AI濫用"
+      ]
+    },
+    {
+      "title": "Canadian Music Sales Report: Week Ending December 18, 2025 - Billboard Canada",
+      "sentiment": "neutral",
+      "key_points": [
+        "提及Spotify音樂文件總量與潛在洩露事件的對比"
+      ]
+    },
+    {
+      "title": "Spotify once had a reputation for underpaying music artists. It hopes to change that perception - Los Angeles Times",
+      "sentiment": "neutral",
+      "key_points": [
+        "承認過去藝術家報酬不足的聲譽，並希望改變",
+        "解釋其支付模式並非按單次串流計算"
+      ]
+    },
+    {
+      "title": "Spotify Raising U.S. Price Of Premium Subscription - Deadline",
+      "sentiment": "neutral",
+      "key_points": [
+        "報導美國Premium訂閱價格上漲",
+        "股價下跌，華爾街分析師曾敦促漲價以穩定營收"
+      ]
+    },
+    {
+      "title": "Spotify Music Library Leaked Online by Pirate Activist Group - billboard.com",
       "sentiment": "negative",
       "key_points": [
-        "提及Spotify市場主導地位",
-        "探討Spotify的爭議與替代方案"
+        "Spotify音樂庫遭到海盜活動團體「Anna's Archive」洩露",
+        "可能超越現有大型音樂檔案庫規模"
       ]
     },
     {
-      "title": "Spotify will now label AI creators posing as human artists",
-      "sentiment": "positive",
-      "key_points": [
-        "將對AI藝術家進行標籤",
-        "提高透明度"
-      ]
-    },
-    {
-      "title": "Spotify will label 'AI Persona' profiles and exclude their music from recommendations",
-      "sentiment": "positive",
-      "key_points": [
-        "引入「AI Persona」標籤",
-        "AI音樂將不被推薦"
-      ]
-    },
-    {
-      "title": "Spotify Now Allows Users to Add a Story Behind Their Playlists",
-      "sentiment": "positive",
-      "key_points": [
-        "Playlist Notes功能讓用戶為歌單增添故事性"
-      ]
-    },
-    {
-      "title": "Gemini for Home sharpens Spotify control, lighting tweaks, and message broadcasts",
-      "sentiment": "positive",
-      "key_points": [
-        "Google Gemini改進對Spotify的控制功能"
-      ]
-    },
-    {
-      "title": "Spotify raising prices by up to $3 as frustrated subs beg it to \"just do music\"",
+      "title": "Spotify’s New CEOs Are Battling Algo Fatigue and Angry Artists - Bloomberg.com",
       "sentiment": "negative",
       "key_points": [
-        "Spotify將再次漲價3美元",
-        "用戶不滿"
+        "新任CEO面臨演算法疲勞和藝術家不滿的挑戰",
+        "希望AI能協助解決這些問題"
       ]
     },
     {
-      "title": "12 Spotify Features You Could Be Using To Level-Up Your Listening Experience",
+      "title": "Spotify Is Giving You New Ways to Talk to Its AI DJ - CNET",
       "sentiment": "positive",
       "key_points": [
-        "介紹Spotify提升聆聽體驗的功能"
+        "Premium會員現在可透過西班牙語或文字與AI DJ互動"
       ]
     },
     {
-      "title": "Spotify (SPOT) Stock Rises as Company Expands Buyback Authorization by $1.5 Billion",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股價上漲",
-        "擴大15億美元股票回購計畫"
-      ]
-    },
-    {
-      "title": "Spotify expands its share buyback program by $1.5B, raising total authorization to around $2.2B",
-      "sentiment": "positive",
-      "key_points": [
-        "股票回購計畫總額增至22億美元"
-      ]
-    },
-    {
-      "title": "Spotify's Running Mode Is Now Available On Android",
-      "sentiment": "positive",
-      "key_points": [
-        "Running Mode功能現在可用於Android"
-      ]
-    },
-    {
-      "title": "Think you're listening to AI? Now Spotify will tell you for sure",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將標示AI藝術家，增加透明度"
-      ]
-    },
-    {
-      "title": "Spotify Just Reached 300 Million Paying Subscribers. No Audio Streaming Service Has Ever Done That.",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify付費訂閱用戶達到3億",
-        "創下歷史紀錄"
-      ]
-    },
-    {
-      "title": "In Canada: Drake Dominates 80% of Spotify's Global Impact List for the First Half of 2026",
-      "sentiment": "positive",
-      "key_points": [
-        "Drake在Spotify全球榜單中佔據主導地位"
-      ]
-    },
-    {
-      "title": "Spotify Will Label A.I. Artists and Avoid Promoting Them",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將標籤AI藝術家並避免推廣其音樂"
-      ]
-    },
-    {
-      "title": "Spotify Strikes Back Against AI Artists with 'AI Persona' Label",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出「AI Persona」標籤打擊AI藝術家"
-      ]
-    },
-    {
-      "title": "Spotify to slap 'AI Persona' badges on AI-generated artist profiles",
-      "sentiment": "positive",
-      "key_points": [
-        "9月中旬起將實施AI Persona標籤"
-      ]
-    },
-    {
-      "title": "México Canta and Spotify partner up to amplify young talent across Mexico-US border",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify與México Canta合作",
-        "推廣年輕人才"
-      ]
-    },
-    {
-      "title": "5 Disadvantages Of Using Spotify Instead Of Apple Music",
+      "title": "Spotify is basically telling its subscribers to switch with latest price hike - Android Central",
       "sentiment": "negative",
       "key_points": [
-        "列舉使用Spotify而非Apple Music的缺點"
+        "批評最新漲價政策，認為會導致訂閱者流失"
       ]
     },
     {
-      "title": "Trade Tracker: Josh Brown buys Spotify",
+      "title": "Exclusive | Apple Makes Music Push in Radio After Losing Ground to Spotify - The Wall Street Journal",
       "sentiment": "positive",
       "key_points": [
-        "投資者Josh Brown購入Spotify股票"
+        "蘋果在廣播領域發力，因在音樂市場輸給Spotify，暗示Spotify市場領先"
       ]
     },
     {
-      "title": "How to use Spotify: Building your library, downloading music and more",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify使用指南，關於建立音樂庫和下載"
-      ]
-    },
-    {
-      "title": "Spotify responds as their 'AI' DJ is actually a real person you can meet",
-      "sentiment": "neutral",
-      "key_points": [
-        "澄清Spotify的AI DJ背後是真人"
-      ]
-    },
-    {
-      "title": "\"The Shards\" Audiobook Sees 1,100% Listening Increase on Spotify After TV Show Premiere",
+      "title": "Spotify Wrapped Party Could Be Viral Event's Most Buzzy Feature - CNET",
       "sentiment": "positive",
       "key_points": [
-        "有聲書在Spotify上收聽量激增"
+        "Spotify Wrapped推出「派對遊戲」等新功能",
+        "提升年度回顧的互動性和病毒性"
       ]
     },
     {
-      "title": "Spotify's new running mode takes workout playlists to another level",
+      "title": "Spotify Touts $11 Billion Paid to Music Industry, Addresses Streaming Criticism - Billboard",
       "sentiment": "positive",
       "key_points": [
-        "新Running Mode功能可配合跑步節奏"
+        "強調向音樂產業支付110億美元",
+        "回應串流平台報酬爭議，承諾支持藝術家"
       ]
     },
     {
-      "title": "Spotify Car Thing Is Back From the Dead Thanks to Mira 1.0 Open Source Firmware",
+      "title": "Artists From 75 Different Countries Made at Least $500,000 On Spotify Last Year - The Hollywood Reporter",
+      "sentiment": "positive",
+      "key_points": [
+        "去年有來自75個國家的藝術家在Spotify上賺取至少50萬美元"
+      ]
+    },
+    {
+      "title": "Spotify Stock Jumps on Music‑Video Launch: What to Know Before the December 10, 2025 Open - ts2.tech",
+      "sentiment": "positive",
+      "key_points": [
+        "因音樂錄影帶推出導致股價上漲",
+        "Q3 2025財報顯示MAU、Premium訂閱數、營收和利潤表現強勁"
+      ]
+    },
+    {
+      "title": "It's time to unpack Spotify Wrapped. Here's how the music streamer compiled your 2025 recap - Greenwich Time",
       "sentiment": "neutral",
       "key_points": [
-        "Car Thing透過開源韌體復活",
-        "原產品已停產"
+        "解釋2025年Spotify Wrapped如何彙編用戶回顧"
       ]
     },
     {
-      "title": "5 reasons abandoning Spotify for Tidal is the right choice",
+      "title": "Spotify Shares Down 8% This Week, Have Fallen 20% Since CEO Change Announcement - billboard.com",
       "sentiment": "negative",
       "key_points": [
-        "建議放棄Spotify轉用Tidal的理由"
+        "本週股價下跌8%，自CEO變動公告以來已下跌20%"
       ]
     },
     {
-      "title": "Spotify at 20: Winners, Losers and What Comes Next for Music",
-      "sentiment": "neutral",
-      "key_points": [
-        "回顧Spotify過去20年的影響",
-        "音樂產業的未來"
-      ]
-    },
-    {
-      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
+      "title": "Apple Music just made leaving Spotify a whole lot easier - AV Club",
       "sentiment": "negative",
       "key_points": [
-        "獨立音樂人抗議低分潤制度",
-        "批評演算法主導，CEO投資AI軍事技術引發爭議"
+        "Apple Music推出功能，使離開Spotify變得更簡單，增加競爭壓力"
       ]
     },
     {
-      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
+      "title": "Spotify launches push to back L.A.’s independent music venues - Los Angeles Times",
       "sentiment": "positive",
       "key_points": [
-        "Spotify CEO談AI如何改變工程師工作模式"
-      ]
-    },
-    {
-      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "發生大規模資料爬取事件",
-        "資安疑慮"
-      ]
-    },
-    {
-      "title": "受夠Spotify亂推歌？全新「筆記」功能曝光 直接打字調教演算法 | 社群/APP/網紅 | udn科技玩家",
-      "sentiment": "positive",
-      "key_points": [
-        "Playlist Notes功能可幫助用戶調教演算法"
-      ]
-    },
-    {
-      "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
-      "sentiment": "positive",
-      "key_points": [
-        "新增Podcast評論功能",
-        "致力於打造音樂社群"
-      ]
-    },
-    {
-      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Live Nation合作推優先購票",
-        "服務於Premium用戶"
-      ]
-    },
-    {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped榜單出爐",
-        "藝人全球播放量創新高"
-      ]
-    },
-    {
-      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
-      "sentiment": "positive",
-      "key_points": [
-        "環球音樂出售股份，引入「泰勒絲條款」保障藝人收益"
-      ]
-    },
-    {
-      "title": "Spotify 正在推出個人化跑步模式 - Root-Nation.com",
-      "sentiment": "positive",
-      "key_points": [
-        "推出個人化跑步模式"
-      ]
-    },
-    {
-      "title": "Spotify攜手UMG開放「合法AI翻唱」：Premium用戶付費玩翻唱、混音，藝人也能分潤 | 數位時代 | LINE TODAY",
-      "sentiment": "positive",
-      "key_points": [
-        "與UMG合作開放合法AI翻唱",
-        "Premium用戶可創作，藝人有分潤"
-      ]
-    },
-    {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
-      "sentiment": "neutral",
-      "key_points": [
-        "對比Spotify和Apple Music的策略",
-        "探討串流市場競爭"
-      ]
-    },
-    {
-      "title": "它來了！現在就來回顧 Spotify 2025 年的願景吧！",
-      "sentiment": "neutral",
-      "key_points": [
-        "無具體內容"
-      ]
-    },
-    {
-      "title": "Spotify用戶哀號！Android版愈用愈卡　官方證實調查中 - 自由電子報 3C科技",
-      "sentiment": "negative",
-      "key_points": [
-        "Android版App出現卡頓問題",
-        "官方證實並調查"
-      ]
-    },
-    {
-      "title": "越大膽越熱銷！　Supreme 棺材、Spotify x Liquid Death 聯名骨灰罈，讓死亡議題不再沈重",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify聯名推出骨灰罈周邊商品",
-        "話題性行銷"
-      ]
-    },
-    {
-      "title": "奧本海默控股維持Spotify Technology(SPOT.US)買入評級，下調目標價至550美元",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析師維持買入評級",
-        "目標價下調"
-      ]
-    },
-    {
-      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」， 付費版比較一次看",
-      "sentiment": "positive",
-      "key_points": [
-        "免費版用戶功能大幅升級",
-        "可直接選歌、搜尋、分享"
-      ]
-    },
-    {
-      "title": "為了慶祝Sakurashimeji數位單曲《Stamp》的發行，Spotify Canvas 分享活動正式啟動！",
-      "sentiment": "positive",
-      "key_points": [
-        "為藝人單曲發行舉辦Spotify Canvas分享活動"
-      ]
-    },
-    {
-      "title": "松原美紀經典神曲〈Stay With Me〉Spotify 播放量突破 5 億大關！創 20 世紀日語歌曲新紀錄",
-      "sentiment": "positive",
-      "key_points": [
-        "松原美紀歌曲在Spotify播放量破5億",
-        "創日語歌曲紀錄"
-      ]
-    },
-    {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": [
-        "無相關內容"
-      ]
-    },
-    {
-      "title": "Spotify 20 週年個人回顧　解鎖你專屬的一生聆聽數據 | Hypebeast",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 20週年紀念活動",
-        "提供個人化聆聽數據回顧"
+        "發起支持洛杉磯獨立音樂場館的倡議，展現社區支持"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": [
-        "無內容"
-      ]
+      "key_points": []
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": [
-        "無內容"
-      ]
+      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260826_022628.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260826.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260827_105938.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260827.jpg"
 }
