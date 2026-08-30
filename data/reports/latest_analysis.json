@@ -1,266 +1,244 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.5,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.4
+    "positive_ratio": 0.6,
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.1
   },
   "events": [
     {
-      "title": "用戶數突破里程碑",
-      "description": "Spotify訂閱用戶首次突破3億大關，月活躍用戶達7.77億，顯示其在全球市場的強勁用戶成長與擴張力。",
-      "severity": "high",
+      "title": "Podcast評論功能上線",
+      "description": "Spotify 新增 Podcast 評論功能，旨在為其龐大用戶群打造更強的音樂社群互動。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "多項新功能上線與AI整合",
-      "description": "Spotify推出Podcast評論功能、AI DJ（提供個人化音樂與評論）、個人化跑步模式，並將首頁設計改版以模仿TikTok風格，同時也推出20週年個人回顧功能，全面提升用戶體驗與互動。",
-      "severity": "high",
+      "title": "工程師工作模式因AI變革",
+      "description": "Spotify 執行長透露，頂尖工程師的工作模式已轉變，不再單純編寫程式碼，而是更多利用 AI 技術。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "Joe Rogan節目下架與藝人抵制爭議",
-      "description": "在Neil Young與Indie-Arie等藝人因內容爭議發起抵制後，Spotify下架了Joe Rogan百餘集節目，引發關於平台內容審核與藝人關係的廣泛討論。",
+      "title": "攜手Live Nation推演唱會優先購票引爭議",
+      "description": "Spotify 與 Live Nation 合作推出演唱會優先購票服務，但此舉引發市場壟斷疑慮，且有音樂人因不滿平台及創辦人行為而抵制。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "股價波動與財務表現關注",
-      "description": "Spotify股價在8月28日盤中上漲4.27%，但也有因公司發布「疲軟指引」而下跌3.7%的情況，顯示市場對其財務前景的持續關注與敏感性。",
+      "title": "環球音樂出售Spotify股份並落實「泰勒絲條款」",
+      "description": "環球音樂出售部分 Spotify 股份，並將落實「泰勒絲條款」，旨在保證旗下藝人收益，顯示泰勒絲對音樂產業的影響力。",
       "severity": "medium",
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "title": "與Live Nation合作推演唱會優先購票",
-      "description": "Spotify攜手Live Nation，依據用戶聆聽數據提供演唱會優先購票權，旨在打擊黃牛，但也引發了以數據定義粉絲的公平性及市場壟斷的爭議。",
+      "title": "Spotify Wrapped 年度總結與藝人成就",
+      "description": "Spotify 發布年度最強歌手排名，泰勒絲被認證為史上串流次數最高的歌手，多位巨星和歌曲創下播放量紀錄，年度回顧功能持續受歡迎。",
       "severity": "medium",
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "title": "環球音樂出售股份並實施「泰勒絲條款」",
-      "description": "環球音樂集團出售部分Spotify持股，並將部分收益分配給旗下藝人，以落實「泰勒絲條款」，確保藝人無論是否回本皆能獲得分潤。",
-      "severity": "medium",
-      "sentiment": "neutral"
+      "title": "股價上漲與財務表現樂觀",
+      "description": "Spotify 股價盤中上漲，反映市場對其估值重新評估，歸因於強勁的營運指標、突破3億付費訂閱用戶，以及行銷和AI投資的潛力。",
+      "severity": "low",
+      "sentiment": "positive"
     },
     {
-      "title": "Spotify Wrapped年度回顧及藝人串流紀錄",
-      "description": "Spotify年度總結活動Wrapped公布頂尖藝人（如Taylor Swift達成200億次全球播放量）及歌曲（如The Weeknd的《Blinding Lights》）的驚人播放量紀錄，彰顯平台在數據敘事上的主導地位。",
+      "title": "AI DJ 功能推出",
+      "description": "Spotify 推出 AI DJ 功能，可根據用戶喜好自動播放音樂並提供簡短評論，利用 OpenAI 和 Sonantic 技術實現個人化體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "裁員計畫報導",
+      "description": "有報導指出 Spotify 計劃本周裁員，加入科技業裁員浪潮，反映公司在放慢招聘後的營運調整。",
       "severity": "high",
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "title": "工程師工作模式因AI浪潮轉變",
-      "description": "Spotify執行長透露，受AI浪潮影響，公司頂尖工程師的工作模式發生轉變，今年甚至有「一行Code都沒寫」的情況，轉而更側重策略與創新。",
-      "severity": "low",
-      "sentiment": "positive"
-    },
-    {
-      "title": "熱門歌曲串流播放量突破里程碑",
-      "description": "松原美紀的經典神曲〈Stay With Me〉Spotify播放量突破5億大關，創20世紀日語歌曲新紀錄；BABYMONSTER的《PSYCHO》播放量也破億，Dolly Parton首次登上美國Spotify頂級藝人排行榜。",
-      "severity": "low",
-      "sentiment": "positive"
+      "title": "音樂人因創辦人投資AI軍事公司而下架作品",
+      "description": "Deerhoof、Xiu Xiu 等多組獨立音樂人因不滿 Spotify 創辦人投資 AI 軍事公司，而相繼從平台下架作品，表達強烈抗議。",
+      "severity": "high",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
+    "Spotify",
     "AI",
+    "藝人",
+    "音樂串流",
+    "功能",
+    "訂閱",
+    "股價",
+    "裁員",
+    "壟斷",
+    "泰勒絲",
     "Podcast",
-    "新功能",
-    "用戶成長",
-    "藝人串流",
-    "股價波動",
-    "社群互動"
+    "社群"
   ],
-  "daily_summary": "Spotify近期輿情呈現多面向發展：正面消息集中於用戶數與新功能推出，如訂閱用戶突破3億、推出AI DJ、Podcast評論及個人化跑步模式等。財務面則有股價漲跌波動，而內容版權方面，Joe Rogan節目下架與藝人抵制事件引發較大爭議。",
+  "daily_summary": "今日 Spotify 輿情呈兩極化發展。一方面，平台推出了 Podcast 評論、AI DJ 等創新功能，並在年度回顧和藝人播放量上取得亮眼成績，股價也因財務表現受肯定；另一方面，公司面臨裁員、股價下跌等內部挑戰，且因與 Live Nation 合作引發壟斷爭議，以及創辦人投資 AI 軍事公司導致多組音樂人抵制並下架作品，引發了嚴重的負面討論。",
   "article_analyses": [
-    {
-      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify執行長曝工程師工作模式因AI浪潮轉變"
-      ]
-    },
     {
       "title": "Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
       "sentiment": "positive",
       "key_points": [
         "新增Podcast評論功能",
-        "首頁設計模仿TikTok增強社群互動",
-        "策略性布局打造音樂社群"
+        "打造音樂社群",
+        "6.15億活躍用戶"
       ]
     },
     {
-      "title": "Spotify Technology SA(SPOT)股票8月28日盤中上漲4.27%：真相來了",
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "positive",
       "key_points": [
-        "SPOT股價上漲4.27%",
-        "機構法人布局與華爾街分析師正面評論",
-        "預期有顯著上行潛力"
+        "Spotify工程師工作模式轉變",
+        "AI浪潮影響",
+        "執行長談創新"
       ]
     },
     {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
-      "sentiment": "neutral",
-      "key_points": [
-        "比較Apple Music與Spotify的成長策略",
-        "提及Spotify的「爆炸性用戶數」"
-      ]
-    },
-    {
-      "title": "流媒體Spotify現在擁有超過3億訂閱用戶 - 禁聞網",
-      "sentiment": "positive",
-      "key_points": [
-        "訂閱用戶突破3億大關",
-        "月度活躍用戶達7.77億",
-        "儘管漲價訂閱用戶仍增長9%",
-        "擴展健身內容、雜誌朗讀等服務"
-      ]
-    },
-    {
-      "title": "考古podcast 😺 ✨簡體字幕是Spotify 本身逐字稿打開就這樣唷",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及Spotify的Podcast逐字稿功能"
-      ]
-    },
-    {
-      "title": "Spotify股價下跌，因投資者仍在消化該公司在近期回購提振後發佈的疲軟指引。",
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
-      "key_points": [
-        "Spotify股價下跌3.7%",
-        "投資者消化公司發布的疲軟指引"
-      ]
-    },
-    {
-      "title": "Spotify 推出 AI DJ 功能，會根據你的喜好自動播放音樂和提供簡短評論",
-      "sentiment": "positive",
-      "key_points": [
-        "推出AI DJ功能",
-        "提供個人化音樂播放與簡短評論",
-        "順應AI人工智慧發展趨勢"
-      ]
-    },
-    {
-      "title": "中场沉思录 | Podcast on Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Podcast討論AI與人類關係及其影響"
-      ]
-    },
-    {
-      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？",
-      "sentiment": "neutral",
       "key_points": [
         "與Live Nation合作推演唱會優先購票",
-        "旨在打擊黃牛，但引發公平性與壟斷爭議"
+        "引發市場壟斷疑慮",
+        "音樂人抵制及下架作品"
       ]
     },
     {
-      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益",
-      "sentiment": "neutral",
-      "key_points": [
-        "環球音樂出售Spotify持股",
-        "依「泰勒絲條款」將收益分配給旗下藝人"
-      ]
-    },
-    {
-      "title": "Neil Young抵制事件後，Spotify下架Joe Rogan百餘集節目，但原因與疫苗陰謀論無關",
-      "sentiment": "negative",
-      "key_points": [
-        "下架Joe Rogan百餘集節目",
-        "受Neil Young等藝人抵制事件影響"
-      ]
-    },
-    {
-      "title": "多莉·巴顿在8月26日首次登上美国Spotify頂級藝人排行榜的 ...",
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "Dolly Parton首次登上美國Spotify頂級藝人排行榜",
-        "多首歌曲進入前十"
-      ]
-    },
-    {
-      "title": "【2026 最新】Spotify 免費版和付費版之間的全面對比!選擇免費版和付費版的標準",
-      "sentiment": "neutral",
-      "key_points": [
-        "比較Spotify免費版與付費版功能與差異"
-      ]
-    },
-    {
-      "title": "Spotify – bgd33.us.com",
-      "sentiment": "neutral",
-      "key_points": [
-        "列出Spotify支持的國家與語言列表"
-      ]
-    },
-    {
-      "title": "松原美紀經典神曲〈Stay With Me〉Spotify 播放量突破 5 億大關！創 20 世紀日語歌曲新紀錄",
-      "sentiment": "positive",
-      "key_points": [
-        "松原美紀〈Stay With Me〉播放量突破5億",
-        "創20世紀日語歌曲新紀錄"
-      ]
-    },
-    {
-      "title": "Spotify – yo88 fashion",
-      "sentiment": "neutral",
-      "key_points": [
-        "列出Spotify支持的國家列表"
-      ]
-    },
-    {
-      "title": "BABYMONSTER《PSYCHO》Spotify 流媒破亿",
-      "sentiment": "positive",
-      "key_points": [
-        "BABYMONSTER《PSYCHO》播放量破億",
-        "成為組合第7首破億流媒歌曲"
-      ]
-    },
-    {
-      "title": "pkokfyi",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及Spotify的自訂廣告選擇及語言設定"
+        "環球音樂出售Spotify股份",
+        "落實「泰勒絲條款」",
+        "保障藝人收益"
       ]
     },
     {
       "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped年度最強歌手排名出爐",
-        "頂尖藝人全球播放量達200億次"
+        "Spotify Wrapped 年度歌手排名",
+        "泰勒絲全球播放量200億次奪冠",
+        "熱門歌手成就"
       ]
     },
     {
-      "title": "Spotify 正在推出個人化跑步模式 - Root-Nation.com",
+      "title": "Spotify Technology SA(SPOT)股票8月28日盤中上漲4.27%：真相來了",
       "sentiment": "positive",
       "key_points": [
-        "推出個人化跑步模式",
-        "針對高級用戶在特定地區上線"
+        "Spotify股價上漲",
+        "Q2數據強勁",
+        "付費訂閱用戶突破3億",
+        "AI計畫投資"
+      ]
+    },
+    {
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Apple Music比較",
+        "生態系協同效應",
+        "市場策略討論"
+      ]
+    },
+    {
+      "title": "Spotify 推出 AI DJ 功能，會根據你的喜好自動播放音樂和提供簡短評論 - 電腦王阿達",
+      "sentiment": "positive",
+      "key_points": [
+        "推出AI DJ功能",
+        "個人化音樂播放",
+        "利用OpenAI技術"
       ]
     },
     {
       "title": "Spotify 20 週年個人回顧　解鎖你專屬的一生聆聽數據 | Hypebeast",
       "sentiment": "positive",
       "key_points": [
-        "推出20週年個人回顧功能",
-        "Taylor Swift與Bad Bunny為兩大巨頭，The Weeknd歌曲播放量最高",
-        "Spotify在互動數據敘事中具主導地位"
+        "Spotify 20週年紀念",
+        "個人化聆聽數據回顧",
+        "泰勒絲與Bad Bunny為串流巨頭"
+      ]
+    },
+    {
+      "title": "報導：Spotify計劃最快本周裁員",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify計畫裁員",
+        "加入科技業裁員潮"
+      ]
+    },
+    {
+      "title": "Spotify股價下跌，因投資者仍在消化該公司在近期回購提振後發佈的疲軟指引。",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify股價下跌",
+        "投資者消化疲軟指引"
+      ]
+    },
+    {
+      "title": "松原美紀經典神曲〈Stay With Me〉Spotify 播放量突破 5 億大關！創 20 世紀日語歌曲新紀錄",
+      "sentiment": "positive",
+      "key_points": [
+        "松原美紀歌曲播放量破5億",
+        "創20世紀日語歌曲紀錄",
+        "平台歌曲成就"
+      ]
+    },
+    {
+      "title": "《聲入Spotify》：泰勒絲的抵制，讓Spotify面臨史上最嚴重的公關危機 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "泰勒絲抵制事件回顧",
+        "Spotify面臨公關危機",
+        "音樂產業商業模式挑戰"
+      ]
+    },
+    {
+      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "音樂人下架作品抗議",
+        "創辦人投資AI軍事公司",
+        "抵制串流平台"
+      ]
+    },
+    {
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "年度回顧功能",
+        "聆聽年齡等新功能",
+        "全球熱門榜單"
+      ]
+    },
+    {
+      "title": "報新聞七月全球實體跟數位行銷當紅關鍵案例評論：瑪丹娜《Confessions II》全球專輯發行策略與市場影響分析 | 蕃新聞",
+      "sentiment": "positive",
+      "key_points": [
+        "瑪丹娜新專輯發行",
+        "60歲以上藝人Spotify紀錄",
+        "數位行銷案例"
+      ]
+    },
+    {
+      "title": "LISA 新专《PRESS PLAY》Spotify 预存数据|lisa|press play_新浪新闻",
+      "sentiment": "positive",
+      "key_points": [
+        "LISA新專輯Spotify預存數據",
+        "預存量突破16.8萬",
+        "專輯發行宣傳"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": [
-        "無內容可供分析"
-      ]
+      "key_points": []
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": [
-        "無內容可供分析"
-      ]
+      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260829_074344.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260829.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260830_061948.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260830.jpg"
 }
