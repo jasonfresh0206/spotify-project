@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Premium Pulse</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --spotify-green: #1ed760;
+            --spotify-neon: #33ff77;
+            --bg-dark: #070a09;
+            --text-primary: #ffffff;
+            --text-secondary: #8b99a6;
+            --positive: #1ed760;
+            --neutral: #58a6ff;
+            --negative: #ff4b4b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 3rem 1rem;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(29, 185, 84, 0.03) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(88, 166, 255, 0.03) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* 頂部標題 */
+        .header {
+            text-align: center;
+            position: relative;
+            margin-bottom: 3rem;
+            padding-top: 3rem;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            display: inline-block;
+        }
+
+        .header-bg-wave {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120%;
+            height: 150px;
+            z-index: 1;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        /* 情緒雷達 */
+        .radar-section {
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+        }
+        
+        .title-green { color: var(--spotify-green); }
+        .title-gold { color: #f2c94c; }
+        .title-red { color: #ff6b6b; }
+
+        .radar-container {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            margin-top: 2rem;
+            background: linear-gradient(to top, rgba(255,255,255,0.03) 0%, transparent 100%);
+        }
+
+        .radar-svg {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+
+        .node-label {
+            position: absolute;
+            padding: 4px 12px;
+            border-radius: 14px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transform: translate(-50%, -150%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            z-index: 10;
+        }
+
+        .label-positive { background: rgba(30, 215, 96, 0.15); border-color: rgba(30, 215, 96, 0.3); }
+        .label-neutral { background: rgba(88, 166, 255, 0.15); border-color: rgba(88, 166, 255, 0.3); }
+        .label-negative { background: rgba(255, 75, 75, 0.15); border-color: rgba(255, 75, 75, 0.3); }
+
+        /* 雙欄佈局 */
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        /* 內部樣式：事件 */
+        .event-item {
+            margin-bottom: 1.5rem;
+            padding-left: 10px;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 8px;
+        }
+        .event-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateX(4px);
+        }
+        .event-item:active {
+            transform: translateX(4px) scale(0.98);
+        }
+
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            padding: 8px;
+        }
+
+        .event-title {
+            font-weight: 600;
+            color: #fff;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .event-title-icon {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .event-badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+            background: transparent;
+        }
+
+        .badge-high { color: var(--negative); border: 1px solid var(--negative); }
+        .badge-medium { color: #f2c94c; border: 1px solid #f2c94c; }
+        .badge-low { color: var(--positive); border: 1px solid var(--positive); }
+
+        .event-body {
+            position: relative;
+            padding-left: 28px; /* For the vertical line alignment */
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .event-item.active .event-body {
+            max-height: 500px;
+            opacity: 1;
+            padding-bottom: 12px;
+            margin-top: 8px;
+        }
+        
+        .event-line {
+            position: absolute;
+            left: 10px;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .event-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            padding-top: 4px;
+        }
+
+        /* 內部樣式：關鍵字 DNA */
+        .dna-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            margin-top: 1rem;
+            position: relative;
+        }
+        
+        .dna-pill {
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            background: #111413;
+            white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .dna-pill:hover {
+            transform: scale(1.05) !important;
+            z-index: 10;
+        }
+
+        .pill-green { color: var(--spotify-neon); border-color: rgba(30, 215, 96, 0.2); }
+        .pill-purple { color: #b19cd9; border-color: rgba(177, 156, 217, 0.2); }
+
+        /* DNA Sine Wave Offsets */
+        .dna-pill:nth-child(1) { transform: translateX(30px); }
+        .dna-pill:nth-child(2) { transform: translateX(60px); }
+        .dna-pill:nth-child(3) { transform: translateX(70px); }
+        .dna-pill:nth-child(4) { transform: translateX(50px); }
+        .dna-pill:nth-child(5) { transform: translateX(10px); }
+        .dna-pill:nth-child(6) { transform: translateX(-30px); }
+        .dna-pill:nth-child(7) { transform: translateX(-60px); }
+        .dna-pill:nth-child(8) { transform: translateX(-70px); }
+        .dna-pill:nth-child(9) { transform: translateX(-50px); }
+        .dna-pill:nth-child(10) { transform: translateX(-10px); }
+        .dna-pill:nth-child(11) { transform: translateX(30px); }
+        .dna-pill:nth-child(12) { transform: translateX(60px); }
+        .dna-pill:nth-child(13) { transform: translateX(70px); }
+        
+        /* 由於有兩條交織的感覺，我們可以加上虛密的背景雙螺旋作裝飾，不過光是偏移也很有感覺了 */
+
+        @media (max-width: 768px) {
+            .bottom-grid {
+                grid-template-columns: 1fr;
+            }
+            .dna-pill { transform: translateX(0) !important; align-self: flex-start; }
+            .dna-container { align-items: flex-start; }
+        }
+
+        /* 舊版卡片延續樣式（用於每日摘要與文章） */
+        .simple-card {
+            background: rgba(20, 24, 32, 0.3);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .summary-text { color: var(--text-secondary); font-size: 0.95rem; white-space: pre-wrap; }
+        .article-title { color: #fff; font-weight: 500; font-size: 1rem; margin-bottom: 0.5rem; }
+        .article-item { border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 1rem; margin-bottom: 1rem;}
+        .article-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <!-- Background Glow Wavy Line -->
+            <svg class="header-bg-wave" viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-100 120 Q 50 20 200 80 T 500 60 T 800 120 T 1100 50" stroke="rgba(30, 215, 96, 0.4)" stroke-width="2"/>
+                <path d="M-100 140 Q 150 200 300 100 T 700 80 T 1100 130" stroke="rgba(30, 215, 96, 0.7)" stroke-width="3" filter="url(#glow-green)"/>
+            </svg>
+            <h1>Spotify Premium Pulse</h1>
+        </div>
+
+        <!-- 品牌情緒雷達 Radar Layout -->
+        <div class="radar-section">
+            <div class="section-title">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--spotify-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+                品牌情緒雷達
+            </div>
+
+            <div class="radar-container">
+                <svg class="radar-svg" viewBox="0 0 1000 250" preserveAspectRatio="none">
+                    <defs>
+                        <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over" /></filter>
+                        <linearGradient id="fade-green" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--positive)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--positive)" stop-opacity="0"/></linearGradient>
+                        <linearGradient id="fade-blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--neutral)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--neutral)" stop-opacity="0"/></linearGradient>
+                        <linearGradient id="fade-red" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="var(--negative)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--negative)" stop-opacity="0"/></linearGradient>
+                    </defs>
+                    
+                    <!-- Solid Lines -->
+                    <path d="M0 250 Q 80 150 150 200 T 300 90 T 500 150 T 700 220 T 850 180 T 1000 220" fill="none" stroke="var(--positive)" stroke-width="3" filter="url(#glow-green)"/>
+                    <path d="M0 250 Q 150 280 250 220 T 450 150 T 650 200 T 800 240 T 1000 200" fill="none" stroke="var(--neutral)" stroke-width="3" filter="url(#glow-blue)"/>
+                    <path d="M0 200 Q 100 180 200 220 T 400 240 T 600 180 T 900 200 T 1000 250" fill="none" stroke="var(--negative)" stroke-width="3" filter="url(#glow-red)"/>
+                    
+                    <!-- Fills (Optional visually) -->
+                    <path d="M0 250 Q 80 150 150 200 T 300 90 T 500 150 T 700 220 T 850 180 T 1000 220 V250 H0 Z" fill="url(#fade-green)"/>
+                    <path d="M0 250 Q 150 280 250 220 T 450 150 T 650 200 T 800 240 T 1000 200 V250 H0 Z" fill="url(#fade-blue)"/>
+                    <path d="M0 200 Q 100 180 200 220 T 400 240 T 600 180 T 900 200 T 1000 250 V250 H0 Z" fill="url(#fade-red)"/>
+
+                    <!-- Nodes -->
+                    <circle cx="300" cy="90" r="5" fill="#1ed760" stroke="#fff" stroke-width="2"/>
+                    <circle cx="450" cy="150" r="5" fill="#58a6ff" stroke="#fff" stroke-width="2"/>
+                    <circle cx="600" cy="180" r="5" fill="#ff4b4b" stroke="#fff" stroke-width="2"/>
+                </svg>
+                
+                <!-- dynamic label overlays mapped closely to the static node x/y percentages -->
+                <!-- Note: The heights in the user's image matched their % roughly. I will adapt them. -->
+                <div class="node-label label-positive" style="left: 30%; top: 36%;">😊 40.0%</div>
+                <div class="node-label label-neutral" style="left: 45%; top: 60%;">😐 40.0%</div>
+                <div class="node-label label-negative" style="left: 60%; top: 72%;">😡 20.0%</div>
+            </div>
+        </div>
+
+        <div class="bottom-grid">
+            <!-- 重大事件追蹤 -->
+            <div class="events-col">
+                <div class="section-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    重大事件追蹤
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">🧠</span>
+                                    
+                                    分潤與演算法控制爭議
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">獨立音樂人響應「反Spotify」行動，批評平台低分潤制度與演算法對音樂創作的壓榨和控制，認為其鼓勵缺乏特色的音樂。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">🎁</span>
+                                    
+                                    大規模音訊資料盜取事件
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Anna's Archive 網站揭露大規模爬取 Spotify 音訊資料的事件，雖然聲稱旨在保存音樂，但引發資安與版權重大隱憂，可能足以建立「個人版Spotify」。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">⭐</span>
+                                    
+                                    多項新功能上線與免費用戶升級
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify 推出多項新功能，包括 Podcast 評論、筆記（調教演算法）、AI DJ、Playlist Notes、Fitness Library，並解禁免費用戶直接選歌等功能，旨在提升用戶體驗和社交互動。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    藝人權益與AI創作標準確立
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">環球音樂出售 Spotify 股份並將收益回饋藝人，落實「泰勒絲條款」以確保藝人公平分潤。同時，Spotify 攜手獨立廠牌 Merlin，以「同意、署名、補償」三大原則為 AI 創作訂定新標準。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    裁員與財務展望不佳
+                                </div>
+                                <span class="event-badge badge-high">HIGH LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify Podcast 部門裁員 15%，且因第三季度用戶增長和營運收入展望不及預期，導致公司股價下跌，目標價被調低。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    演唱會優先購票功能引發爭議
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Spotify 與 Live Nation 合作推出「Reserved」演唱會優先購票功能，雖旨在打擊黃牛，但因評選標準不透明，引發以數據定義粉絲的公平性與市場壟斷爭議。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    網路釣魚詐騙警報
+                                </div>
+                                <span class="event-badge badge-medium">MEDIUM LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">發現有針對 Spotify 用戶的 Podcast 投票網路釣魚詐騙，旨在竊取用戶登入憑證和個人資訊，提醒用戶提高警覺。</div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-item" onclick="this.classList.toggle('active')" title="點擊展開/收合詳細內容">
+                            <div class="event-header">
+                                <div class="event-title">
+                                    
+                                    <span class="event-title-icon">💡</span>
+                                    
+                                    藝人串流紀錄創佳績
+                                </div>
+                                <span class="event-badge badge-low">LOW LEVEL</span>
+                            </div>
+                            <div class="event-body">
+                                <div class="event-line"></div>
+                                <div class="event-desc">Drake 新專輯「ICEMAN」在 Spotify 創下多項串流紀錄，成為 2026 年單日串流次數最高的藝人和專輯。BTS 新專輯預售量亦創紀錄，在 Spotify 上的預存量飆破 200 萬，顯示頂級藝人對平台活躍度的巨大貢獻。</div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+
+            <!-- 關鍵字雲 -->
+            <div class="keywords-col">
+                <div class="section-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f2c94c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" y1="9" x2="20" y2="9"></line>
+                        <line x1="4" y1="15" x2="20" y2="15"></line>
+                        <line x1="10" y1="3" x2="8" y2="21"></line>
+                        <line x1="16" y1="3" x2="14" y2="21"></line>
+                    </svg>
+                    關鍵字雲
+                </div>
+                <div class="dna-container">
+                    
+                        
+                        <div class="dna-pill pill-green">
+                            #分潤制度
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #演算法
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #音樂人
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #新功能
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #Podcast
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #AI
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #用戶體驗
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #免費方案
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #資料安全
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #泰勒絲
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #股價
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #裁員
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #串流紀錄
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #社群功能
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #優先購票
+                        </div>
+                        
+                        <div class="dna-pill pill-green">
+                            #網路詐騙
+                        </div>
+                        
+                        <div class="dna-pill pill-purple">
+                            #Wrapped
+                        </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 每日摘要 (延續極簡風格) -->
+        <div class="simple-card">
+            <div class="section-title" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                AI 深度洞察
+            </div>
+            <p class="summary-text">今日 Spotify 輿情呈現兩極化趨勢：一方面，平台積極推出 AI DJ、筆記、Playlist Notes 等多項新功能並升級免費用戶體驗，同時透過「泰勒絲條款」與 Merlin 合作改善藝人分潤與 AI 創作權益，獲得不少正面關注。然而，另一方面也面臨獨立音樂人對低分潤與演算法的長期不滿、大規模資料盜取風險、Podcast 部門裁員、股價展望不佳以及演唱會優先購票公平性等嚴峻挑戰，資安詐騙也引發用戶擔憂。</p>
+        </div>
+
+        <!-- 文章清單 -->
+        
+        <div class="simple-card" style="margin-top: 1.5rem;">
+            <div class="section-title" style="margin-bottom: 1rem; font-size: 1.1rem;">
+                📰 關鍵報導剖析
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>獨立音樂人對 Spotify 的低分潤制度和演算法控制表達強烈不滿。</div>
+                    
+                    <div>批評其商業模式壓榨音樂人，特別是「Discovery Mode」導致報酬降低。</div>
+                    
+                    <div>認為平台機制鼓勵製作「易於播放、缺乏特色」的音樂。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Anna's Archive 網站揭露大規模爬取 Spotify 音訊資料事件。</div>
+                    
+                    <div>被盜取資料量龐大，可能超越現有最大型的開放音樂資料庫。</div>
+                    
+                    <div>儘管聲稱旨在保存音樂，但引發資安與版權隱憂。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify新增Podcast評論功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 新增 Podcast 評論功能，旨在提升用戶互動和社群建立。</div>
+                    
+                    <div>平台積極布局社交元素，以吸引和留住其龐大的活躍用戶。</div>
+                    
+                    <div>文章中提及其他不相關新聞，但主要分析 Spotify 的新功能和社群策略。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">受夠Spotify亂推歌？全新「筆記」功能曝光 直接打字調教演算法 | 社群/APP/網紅 | udn科技玩家</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 曝光全新「筆記」功能，允許用戶直接調教演算法。</div>
+                    
+                    <div>此功能旨在解決用戶對音樂推薦不滿的問題。</div>
+                    
+                    <div>有望提升用戶對個性化推薦的滿意度與控制感。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 解禁免費用戶 3 大功能，包括直接選歌的權利。</div>
+                    
+                    <div>同步推出個人化播放清單（daylist）等新功能。</div>
+                    
+                    <div>此舉旨在提升免費用戶黏著度並帶動廣告收益，同時維持 Premium 優勢。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>環球音樂出售部分 Spotify 股份，將收益回饋藝人，落實「泰勒絲條款」。</div>
+                    
+                    <div>泰勒絲在音樂產業中扮演關鍵角色，致力於為藝人爭取公平待遇。</div>
+                    
+                    <div>此舉有助於改善音樂人與串流平台之間的分潤制度。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>市場對 Apple Music 是否應效法 Spotify 商業模式存在爭議。</div>
+                    
+                    <div>《AppleInsider》反駁此觀點，認為其推論「荒謬且邏輯錯誤」。</div>
+                    
+                    <div>文章主要比較兩大串流平台，未直接評價 Spotify 自身的優劣。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">堅持「同意、署名、補償」三大原則，Spotify 攜手獨立廠牌奠定 AI 創作新標準 | 科技新報 | LINE TODAY</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 與獨立音樂廠牌 Merlin 合作，為 AI 音樂創作訂定新標準。</div>
+                    
+                    <div>新標準強調「同意、署名、補償」三大原則，確保藝人權益。</div>
+                    
+                    <div>將 AI 音樂實驗從傳統唱片公司延伸至獨立音樂市場。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>報導 Spotify Wrapped 的製作過程，耗時一年。</div>
+                    
+                    <div>提及用戶對 2024 年 Wrapped 的一些不滿意見。</div>
+                    
+                    <div>Wrapped 是 Spotify 重要的年度行銷活動，旨在總結用戶的聆聽習慣。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">【2026 最新】Spotify 免費版和付費版之間的全面對比!選擇免費版和付費版的標準__财经头条__新浪财经</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章比較 Spotify 免費版與付費版的功能差異。</div>
+                    
+                    <div>提及第三方工具可下載高品質音樂並移除 DRM。</div>
+                    
+                    <div>旨在提供用戶選擇參考，並未直接評價 Spotify 服務。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify Lays Off 15 Percent Of Podcasting Group, The Ringer</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 在其 Podcast 部門和 The Ringer 裁員 15%。</div>
+                    
+                    <div>儘管用戶數量增長至 7.51 億 MAU，創歷史新高。</div>
+                    
+                    <div>公司仍積極推動視訊 Podcast 策略。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">An Honest Review of Spotify's New Fitness Library - InsideHook</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>評論 Spotify 新推出的 Fitness Library 功能。</div>
+                    
+                    <div>與 Peloton 合作，旨在成為用戶運動激勵的一站式平台。</div>
+                    
+                    <div>對新功能進行了試用和評測。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify再爲平台加入社交元素，推出全新Playlist Notes功能 - 富途资讯</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 推出全新 Playlist Notes 功能，增強社交互動性。</div>
+                    
+                    <div>用戶可在歌單中加入註解，分享歌曲背後的故事或記憶。</div>
+                    
+                    <div>此舉旨在提升用戶的個人化和社群互動體驗。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE)</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 股價下跌，因第三季度用戶增長和營運收入展望不及預期。</div>
+                    
+                    <div>儘管第二季度業績穩健，但市場對未來表現持擔憂態度。</div>
+                    
+                    <div>反映投資者對公司短期盈利能力的疑慮。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify 推出 AI DJ 功能，會根據你的喜好自動播放音樂和提供簡短評論</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 推出 AI DJ 功能，整合人工智慧服務。</div>
+                    
+                    <div>AI DJ 可根據用戶喜好自動播放音樂並提供簡短評論。</div>
+                    
+                    <div>反映 AI 技術在串流服務中應用的新趨勢。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Podcast 圈最近又發生了哪些值得關注的事？ 1. Spotify 測試跳過廣告 ...</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 正在測試跳過 Podcast 廣告功能。</div>
+                    
+                    <div>文章討論 Podcast 評分、評論和下載數對排名的影響。</div>
+                    
+                    <div>Spotify 關注每週不重複受眾和近期成長因素。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Evercore ISI lowers Spotify stock price target on valuation review</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Evercore ISI 下調 Spotify 股票目標價。</div>
+                    
+                    <div>此舉反映了對 Spotify 估值的重新評估。</div>
+                    
+                    <div>儘管仍維持「跑贏大市」評級，但表達了對未來表現的謹慎態度。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Drake「ICEMAN」時代橫掃 Spotify 串流紀錄 | Hypebeast</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Drake 新專輯「ICEMAN」在 Spotify 上創下多項串流紀錄。</div>
+                    
+                    <div>成為 2026 年 Spotify 單日串流次數最高的藝人和專輯。</div>
+                    
+                    <div>凸顯 Drake 在串流音樂平台上的巨大影響力與人氣。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify推出歌单备注功能，让每首歌都能留下专属故事</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 推出 Playlist Notes 功能，讓用戶可在歌單中留下評論。</div>
+                    
+                    <div>用戶可分享歌曲的意義、個人故事或提供背景資訊。</div>
+                    
+                    <div>旨在提升用戶的個人化和社群互動體驗。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">BTS新專輯《ARIRANG》預售7天狂賣406萬張，刷新自身巔峰紀錄！Spotify預存飆破200萬直追泰勒絲神話 | 韓星網 | LINE TODAY</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>BTS 新專輯《ARIRANG》預售量創下新高，顯示其全球影響力。</div>
+                    
+                    <div>在 Spotify 上的預存量飆破 200 萬，直追泰勒絲的成就。</div>
+                    
+                    <div>證明 K-Pop 天團在串流平台上的強勁號召力。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Fake Spotify podcast vote phishing targets user login credentials | Fox News</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>發現針對 Spotify 用戶的 Podcast 投票網路釣魚詐騙。</div>
+                    
+                    <div>詐騙旨在竊取用戶登入憑證和個人資訊。</div>
+                    
+                    <div>提醒用戶警惕此類安全威脅，避免點擊可疑連結。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">為了慶祝Sakurashimeji數位單曲《Stamp》的發行，Spotify Canvas 分享活動正式啟動！</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>為慶祝 Sakurashimeji 數位單曲《Stamp》發行，Spotify 啟動 Canvas 分享活動。</div>
+                    
+                    <div>鼓勵用戶在 Instagram 分享並使用指定標籤，增加互動。</div>
+                    
+                    <div>旨在推廣新音樂和增加藝人曝光。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">OpenClaw and Claude can put your AI-generated podcasts in Spotify | The Verge</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>報導提及 OpenClaw 和 Claude 等工具可將 AI 生成的 Podcast 上傳至 Spotify。</div>
+                    
+                    <div>代表 AI 在內容創作和發布領域的應用趨勢。</div>
+                    
+                    <div>此類工具可能影響 Spotify 未來的內容生態和平台管理策略。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">38K views · 375 reactions | 本集介绍：
+欢迎收看《谦言谦语》播出，本集聚焦中东局势、亚洲安全与国际政治的最新发展。从北京相关议题引发的讨论，到中东地区逐步形成新的安全框架，节目将解析区域国家之间的力量重新排列，以及美国在中东战略中的角色是否正在发生变化。此外，加拿大与越南之间的摩擦持续受到关注，台海相关政治动向也再次成为焦点。从中东到东亚，从外交博弈到区域安全，本集将深入分析各方利益与战略盘算，带您掌握新闻事件背后更值得关注的国际局势变化。
+
+《谦言谦语》节目介绍：频道的会员节目，针对每周最重要的十则新闻进行深入解说，内容涵括国际政治、军事、经济以及两岸关系。公开版每期节目两则新闻，会员独家版每期五则新闻。各位观众若喜欢的话记得加入会员，成为谦谦之友，就能收看所有会员专属影片，敬请期待!每周二、四、五早上十点播出。
+
+#赖岳谦 #谦秋论 #谦言谦语 #琴问谦答 #周玉琴 #时事讨论 #国际关系 #专题演讲 #情势分析  #地缘政治 #新闻解说
+
+頻道重要資訊：
+
+頻道名稱：賴岳謙TV
+
+廣告及業務合作邀約請洽詢：lai.studio2019@gmail.com
+
+社群媒體：
+▼赖教授Facebook粉丝专页▼
+https://www.facebook.com/%E8%B3%B4%E5%B2%B3%E8%AC%99-%E8%AC%99%E7%A7%8B%E8%AB%96-104356064653367/
+
+▼微博▼
+https://weibo.com/professorlai
+
+在视频平台上支持订阅赖岳謙TV频道：
+
+▼Youtube▼
+https://www.youtube.com/@TV-od5nb/featured
+
+成為這個頻道的會員並獲得獎勵：
+https://www.youtube.com/@TV-od5nb/UCnrxxRlv2ZSSW4ApuEy8C0w/join
+
+▼抖音▼
+抖音号：Professor_Lai_YC
+
+▼哔哩哔哩▼
+https://space.bilibili.com/2004191662
+
+▼今日头条▼
+https://www.toutiao.com/c/user/token/MS4wLjABAAAABliVSoh-hsFvMXW8WdOJsh1g6_-u_Ikud20YBanfwfk/?source=list&log_from=ebab1b03f5e23_1677148656533
+
+在播客平台上支持订阅赖岳謙TV频道：
+
+▼小宇宙▼
+https://www.xiaoyuzhoufm.com/podcast/689e205971d080f97ac79f85
+
+▼喜马拉雅▼
+https://www.ximalaya.com/zhubo/552702870
+
+▼Youtube Music▼
+https://music.youtube.com/channel/UCnrxxRlv2ZSSW4ApuEy8C0w?si=mXStBvW3Nj0j_Goi
+
+▼Apple Podcasts▼
+https://podcasts.apple.com/us/podcast/%E8%B5%96%E5%B2%B3%E8%B0%A6tv/id1830206012
+
+▼Spotify▼
+https://open.spotify.com/show/15S6irCPQP2zMGJPduwEM1?si=c6b1cb81222a4c58
+
+▼Amazon Music▼
+https://music.amazon.com/playlists/PLjL4A71s6Vw-B8W8b7M8k7L6Y6j6G6x6H?si=mXStBvW3Nj0j_Goi | 賴岳謙TV</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>此文章主要介紹一個名為《謙言謙語》的 Podcast 節目。</div>
+                    
+                    <div>Spotify 僅被列為其播出平台之一。</div>
+                    
+                    <div>內容與 Spotify 平台本身無直接相關的輿情。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">她行星HerPlanet | Podcast on Spotify</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>此文章介紹一個名為「她行星HerPlanet」的中文 Podcast。</div>
+                    
+                    <div>Spotify 僅被列為其播出平台。</div>
+                    
+                    <div>內容與 Spotify 平台本身無直接相關的輿情。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">你为什么用Spotify？ : r/truespotify - Reddit</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Reddit 用戶討論為何偏好使用 Spotify。</div>
+                    
+                    <div>主要原因包括熟悉度、大部分朋友都在使用。</div>
+                    
+                    <div>用戶也提及並稱讚其健身功能（如跑步模式）。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">2026EP18【移民局没疯，是我们先疯了】从462乌龙聊到澳洲移民寒冬</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容主要討論澳洲移民相關議題。</div>
+                    
+                    <div>與 Spotify 平台本身無直接相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">可是我們也想給你朋友知道欸 - Threads</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容為 Podcast 《HOT 基礎英文新聞》的宣傳。</div>
+                    
+                    <div>與 Spotify 平台本身無直接相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">网易新闻阅读播放增长，本社交媒体官方提供思路引导用户合规运营 ...</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容主要討論網易新聞的運營與流量真實性。</div>
+                    
+                    <div>與 Spotify 平台本身無直接相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">《聲入Spotify》：泰勒絲的抵制，讓Spotify面臨史上最嚴重的公關危機 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>回顧 Spotify 創業歷程及其對音樂產業的影響。</div>
+                    
+                    <div>提及泰勒絲曾抵制 Spotify，導致公司面臨嚴重的公關危機。</div>
+                    
+                    <div>肯定 Spotify 透過技術創新解決盜版問題並改變唱片銷售模式。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify 與 Live Nation 合作推出「Reserved」演唱會優先購票功能。</div>
+                    
+                    <div>此功能基於聆聽數據為忠實付費用戶提供優先權。</div>
+                    
+                    <div>引發評選標準不透明、以數據定義粉絲的公平性及市場壟斷爭議。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">報新聞七月全球實體跟數位行銷當紅關鍵案例評論：瑪丹娜《Confessions II》全球專輯發行策略與市場影響分析 | 蕃新聞</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容主要分析瑪丹娜新專輯的發行策略與市場影響。</div>
+                    
+                    <div>與 Spotify 平台本身無直接相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>報導 Spotify 等平台年度回顧功能及全球熱門榜單。</div>
+                    
+                    <div>提及 Lady Gaga、Billie Eilish、BTS 等藝人作品表現亮眼。</div>
+                    
+                    <div>Wrapped 2025 提供新功能如「聆聽年齡」等。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Spotify CEO’s Stepping Down Stokes Ongoing Discussion on Streaming Ethics – The Oberlin Review</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>Spotify CEO 辭職引發對串流倫理的持續討論。</div>
+                    
+                    <div>平台長期因低版稅支付（每串流僅一小部分）而受到批評。</div>
+                    
+                    <div>提及 Neil Young 和 Joni Mitchell 曾因 Joe Rogan Podcast 而下架音樂。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">Ը্টۡȫ¼ Ŷŭ-йt-ά԰棩</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容為亂碼，無法判斷具體資訊。</div>
+                    
+                    <div>與 Spotify 平台本身無明確相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">無標題</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容為空，無法判斷具體資訊。</div>
+                    
+                    <div>與 Spotify 平台本身無明確相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="article-item">
+                <div class="article-title">無標題</div>
+                
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-left: 12px; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 10px;">
+                    
+                    <div>文章內容為空，無法判斷具體資訊。</div>
+                    
+                    <div>與 Spotify 平台本身無明確相關性。</div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+    </div>
+</body>
+</html>
