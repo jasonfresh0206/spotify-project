@@ -1,239 +1,226 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.44,
-    "negative_ratio": 0.16,
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.2,
     "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify 推出 AI 藝術家標籤及反促銷政策",
-      "description": "Spotify 宣布將開始標記 AI 生成的藝術家，並調整演算法以避免推廣這些內容，旨在提高透明度並支持人類藝術家。",
+      "title": "Spotify Wrapped 2025發布及年度最強歌手",
+      "description": "Spotify發布年度回顧功能Wrapped 2025，並公布年度最強歌手，其中一位巨星全球播放量達200億次。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify 測試藝術家保護功能以打擊 AI 假冒內容",
-      "description": "Spotify 正在測試一項名為「藝術家檔案保護」的新功能，允許藝術家在發布前審查內容，以應對元數據混淆和 AI 假冒。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "「願榮光歸香港」歌曲遭 Spotify 等平台移除",
-      "description": "因應香港法院禁制令，蘇格蘭和美國發行商將歌曲「願榮光歸香港」從 Spotify 等主要音樂平台下架，儘管部分版本曾短暫重新上架。",
+      "title": "Spotify服務中斷/當機",
+      "description": "數千名用戶回報Spotify服務出現中斷情況，公司已進行調查並解決問題。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 股價因用戶及盈利展望不佳而下跌",
-      "description": "Spotify 的股價因市場對其用戶增長和盈利前景持悲觀態度而下跌。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Spotify Wrapped 2025 年度總結發布與相關討論",
-      "description": "Spotify Wrapped 2025 結果公布，並詳細說明了其數據彙編方式，吸引了大量用戶和媒體的關注。",
+      "title": "Spotify推出AI生成藝人身份標籤及手動批准功能",
+      "description": "Spotify引入新標籤以識別AI生成的藝人身份，並允許藝術家手動批准發行內容，以打擊AI偽造。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Lorde 批評 Spotify 的 AI 歌曲資訊功能",
-      "description": "藝術家 Lorde 公開批評 Spotify 尚在測試中的「關於歌曲」AI 工具，指出其提供的音樂資訊不準確且來源不明。",
+      "title": "藝人Lorde批評Spotify的AI功能",
+      "description": "知名藝人Lorde公開表達對Spotify某項AI功能的不滿。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify 推出用戶期盼已久的「釘選」功能更新",
-      "description": "Spotify 推出一項小但備受用戶期待的更新，允許用戶在「你的音樂庫」中釘選更多歌曲、專輯或播放列表。",
+      "title": "LE SSERAFIM單曲未上架Spotify",
+      "description": "韓國團體LE SSERAFIM發布的《Made My Night》中有2首單曲未能同步上架Spotify。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify股價下跌與財務預期疲軟",
+      "description": "由於第三季度的用戶增長和營運收入指引低於預期，Spotify股價出現下跌。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "IKEA產品整合Spotify Tap功能",
+      "description": "IKEA最新推出的藍牙喇叭支援Spotify Tap功能，提升用戶體驗。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify推出用戶高度要求的小更新",
+      "description": "Spotify針對用戶高度要求的功能（可能為Your Library的釘選）進行了更新。",
       "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI音樂",
     "Spotify Wrapped",
-    "播放量",
-    "平台政策",
-    "藝人保護",
-    "歌曲移除",
-    "股價",
+    "AI功能",
+    "藝人",
+    "服務中斷",
     "新功能",
-    "用戶體驗"
+    "股價"
   ],
-  "daily_summary": "今日 Spotify 的輿情主要聚焦於平台對 AI 音樂的積極應對，包括推出 AI 藝術家標籤及藝術家保護功能，普遍獲得正面評價。然而，負面消息則來自於「願榮光歸香港」歌曲的下架以及 Spotify 股價因財測不佳而下跌。年度盛事 Spotify Wrapped 2025 持續引發熱議，同時也有藝術家對其 AI 資訊功能提出質疑。",
+  "daily_summary": "今日Spotify輿情聚焦於年度盛事Spotify Wrapped 2025的發布及年度最強歌手，同時也因AI相關功能（如AI藝人標籤、藝術家手動批准）的推出與藝人Lorde的批評而受到關注。然而，平台亦經歷了服務中斷，且因用戶增長和盈利預期疲軟導致股價下跌。",
   "article_analyses": [
     {
-      "title": "IU發布新単曲Unknown Planet，是HEREH巡回演奏後首張個人単曲",
-      "sentiment": "positive",
-      "key_points": [
-        "IU 發布新單曲《Unknown Planet》",
-        "為 HEREH 巡迴演奏後首張個人單曲"
-      ]
-    },
-    {
-      "title": "萨尔加多案第三证人获释，柯克遇刺案迎来预审最后环节：控方要求维持死刑指控，辩方称\"命中的就是本来要打的人\" | 话说美国 | 唐韵 | 热点节目 | 希望之声 | 希望之声",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及 Spotify 播客連結為收聽平台"
-      ]
-    },
-    {
-      "title": "我們以為自己拿到的是評論權。 但每一次停留、留言、爭論，也都成 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify 和 Apple Podcast 被提及為平台，用戶互動成為平台賺錢資源"
-      ]
-    },
-    {
-      "title": "都是大場面！NaNa說美股(2026.09.08) - YouTube",
-      "sentiment": "neutral",
-      "key_points": [
-        "YouTube 影片中引用來自 Spotify 的音樂連結"
-      ]
-    },
-    {
-      "title": "有沒有哪些加勒比海盜類遊戲的音樂和氛圍感最讓人沉浸？ - 遊戲時光",
-      "sentiment": "positive",
-      "key_points": [
-        "《黑旗》船歌《Leave Her Johnny》在 Spotify 播放量突破 9 億次"
-      ]
-    },
-    {
-      "title": "你打開Spotify top 50, 然後睇下其他國家再睇下香港就會發現香港人音樂品味全球最差，基本上係用眼聽歌",
+      "title": "LE SSERAFIM發布《Made My Night》，2曲單曲未上Spotify",
       "sentiment": "negative",
       "key_points": [
-        "批評香港人音樂品味差，以 Spotify Top 50 作為依據"
+        "LE SSERAFIM新單曲有部分未上架Spotify",
+        "影響用戶收聽體驗"
       ]
     },
     {
-      "title": "願榮光歸香港 - 維基百科，自由的百科全書",
-      "sentiment": "negative",
-      "key_points": [
-        "「願榮光歸香港」歌曲因香港法院禁制令從 Spotify 等平台移除",
-        "歌曲版權持有人表示重上架可能性極低"
-      ]
-    },
-    {
-      "title": "每日討論- 2026年8月26日: r/popheads",
-      "sentiment": "neutral",
-      "key_points": [
-        "R/popheads 的每日討論串，內容不限於音樂"
-      ]
-    },
-    {
-      "title": "中国社会最深的秘密是什么？蔡霞从“黑五类”讲到红二代 - YouTube",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "吃瓜也能學英文！English from Trending News（Part 1） 最近陳幸妤 ...",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Meta发布个人AI智能体Muse，可代为购物、发邮件与规划行程 - 环球网",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
+      "title": "頂尖工程師今年「一行Code都沒寫」！Spotify執行長曝他們工作模式變了 | AI浪潮 | udn科技玩家",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped 2025 年度最強歌手排名出爐，有巨星全球播放量達 200 億次",
-        "說明 Spotify Wrapped 計算歌曲、藝人、專輯、有聲書和播客的標準"
-      ]
-    },
-    {
-      "title": "Drake、Travis Scott 都輸他！Spotify 播放量第一名的嘻哈專輯是「這張」！網友：實至名歸⋯⋯ | COOL-STYLE潮流生活網 | LINE TODAY",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 上播放量最高的嘻哈專輯被公布，超越 Drake 和 Travis Scott"
-      ]
-    },
-    {
-      "title": "Spotify Will Label A.I. Artists and Avoid Promoting Them - The New York Times",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 將標記 AI 藝術家並避免推廣，以增加透明度"
+        "Spotify工程師工作模式轉變",
+        "AI浪潮影響公司內部運作"
       ]
     },
     {
       "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify — Spotify",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 官方宣布推出針對 AI 生成藝術家身份的新標籤",
-        "平台將調整演算法以凸顯人類藝術家並過濾低品質內容"
-      ]
-    },
-    {
-      "title": "Spotify is letting artists manually approve releases to combat AI fakes | The Verge",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 測試「藝術家檔案保護」功能，允許藝術家審核發行內容",
-        "此功能旨在打擊 AI 假冒和元數據錯誤"
-      ]
-    },
-    {
-      "title": "Drake 'Iceman' Sets 2026 Spotify Single-Day Record for Album ...",
-      "sentiment": "positive",
-      "key_points": [
-        "Drake 的「Iceman」專輯在 2026 年創下 Spotify 單日串流紀錄"
-      ]
-    },
-    {
-      "title": "Question of the Day: What is the most streamed song on Spotify?",
-      "sentiment": "neutral",
-      "key_points": [
-        "提出 Spotify 上串流次數最多的歌曲問題"
+        "Spotify推出AI生成藝人身份標籤",
+        "提高平台透明度"
       ]
     },
     {
       "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
       "sentiment": "positive",
       "key_points": [
-        "解釋 Spotify Wrapped 2025 的數據彙編方式",
-        "強調 Wrapped 是最受期待的年度數據總結之一"
-      ]
-    },
-    {
-      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 股價因用戶增長和盈利前景疲軟而下跌"
-      ]
-    },
-    {
-      "title": "Louder Than Life partner with Spotify for select festival content on and off-site - Lambgoat",
-      "sentiment": "positive",
-      "key_points": [
-        "Louder Than Life 音樂節與 Spotify 合作提供精選內容",
-        "Spotify 將作為音樂節表演影片的串流平台"
+        "Spotify Wrapped 2025年度回顧功能發布",
+        "廣受用戶期待的年度活動"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "Lorde 批評 Spotify 的「關於歌曲」AI 工具提供不準確資訊"
+        "藝人Lorde批評Spotify的AI功能",
+        "對平台AI策略的挑戰"
+      ]
+    },
+    {
+      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE)",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify股價下跌",
+        "第三季度用戶增長及營運收入預期疲軟"
+      ]
+    },
+    {
+      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify為AI生成藝人推出新標籤",
+        "回應用戶對真實性的需求"
+      ]
+    },
+    {
+      "title": "Spotify is letting artists manually approve releases to combat AI fakes | The Verge",
+      "sentiment": "positive",
+      "key_points": [
+        "藝術家可手動批准發行內容",
+        "打擊AI偽造音樂，保護藝術家權益"
+      ]
+    },
+    {
+      "title": "Question of the Day: What is the most streamed song on Spotify?",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論Spotify上播放量最高的歌曲"
+      ]
+    },
+    {
+      "title": "Louder Than Life partner with Spotify for select festival content on and off-site - Lambgoat",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify與Louder Than Life音樂節合作",
+        "提供獨家音樂節內容"
+      ]
+    },
+    {
+      "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要討論手機載具與發票對獎",
+        "與Spotify服務本身無直接關聯"
+      ]
+    },
+    {
+      "title": "IKEA's latest boxy Bluetooth speaker comes with Spotify Tap, stereo pairing, and a temptingly low price | TechRadar",
+      "sentiment": "positive",
+      "key_points": [
+        "IKEA新藍牙喇叭整合Spotify Tap功能",
+        "擴展Spotify生態系，方便用戶使用"
+      ]
+    },
+    {
+      "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要討論跨境電商載具歸戶",
+        "Spotify作為其中一個服務被提及"
       ]
     },
     {
       "title": "Spotify rolls out a small, but highly requested update to users",
       "sentiment": "positive",
       "key_points": [
-        "Spotify 推出新功能，允許用戶在音樂庫中釘選更多內容"
+        "Spotify推出用戶高度要求的小更新",
+        "提升用戶體驗及滿意度"
+      ]
+    },
+    {
+      "title": "電子郵件載具歸戶設定一次看Netflix、Spotify訂閱發票不漏對| 生活",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章主要討論電子郵件載具歸戶",
+        "Spotify作為訂閱服務被提及"
+      ]
+    },
+    {
+      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "sentiment": "neutral",
+      "key_points": [
+        "文章內容與Spotify無關"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Wrapped 2025公布年度最強歌手",
+        "反映平台在全球音樂市場的影響力"
+      ]
+    },
+    {
+      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
+      "sentiment": "negative",
+      "key_points": [
+        "數千名Spotify用戶回報服務中斷",
+        "公司已確認問題並進行處理"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無可分析內容"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無可分析內容"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260911_054143.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260911.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260912_052852.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260912.jpg"
 }
