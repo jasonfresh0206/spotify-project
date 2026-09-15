@@ -1,253 +1,208 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.4,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.4
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "獨立音樂人抗議與低分潤爭議",
-      "description": "美國加州獨立音樂人發起「Spotify去死」行動，抗議Spotify的低分潤制度、演算法控制以及對音樂產業的負面影響，引發廣泛關注。",
+      "title": "Spotify AI音樂政策與藝人權益",
+      "description": "Spotify積極推動AI生成音樂的標記政策，將創建「AI Persona」標籤，並賦予藝人手動審批發行的權力，以打擊AI假冒作品並維護真實性。然而，部分藝人如Lorde對AI功能表示擔憂，引發業界討論。",
       "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI音樂內容治理與平台政策",
-      "description": "面對AI生成歌曲大量入侵，Spotify推出多項反制措施，包括標籤AI藝術家、避免推廣AI內容、過濾垃圾音樂、禁止深偽冒名，並允許藝術家手動批准作品發布，以維護內容真實性與藝術家權益。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "新功能上線與免費用戶策略",
-      "description": "Spotify持續推出新功能與更新，包括台灣市場上線無損音質、新增Podcast評論功能、免費用戶解鎖更多功能，以及與IKEA藍牙音箱整合Spotify Tap，旨在提升用戶體驗和參與度。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "財務表現與盈利挑戰",
-      "description": "儘管用戶增長超出預期，但Spotify的第二季度每股收益（EPS）低於預期，公司面臨盈利挑戰，投資者對其獲利前景表現擔憂，導致股價下跌。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "與Live Nation合作推演唱會優先購票",
-      "description": "Spotify與Live Nation合作推出「Reserved」優先購票機制，透過聆聽數據為忠實粉絲提供演唱會門票。此舉旨在打擊黃牛，但也引發了評選標準不透明及公平性的爭議。",
-      "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "年度Spotify Wrapped發布",
-      "description": "Spotify年度總結「Wrapped」如期發布，揭曉年度最強歌手排名及用戶個人收聽數據，為平台帶來廣泛的用戶參與和社交媒體討論。",
-      "severity": "low",
+      "title": "Spotify Wrapped 2025 年度回顧發布",
+      "description": "Spotify年度個人化音樂回顧「Wrapped 2025」如期發布，引起用戶熱烈分享與討論，同時也公布了年度最強歌手排名，顯示其在用戶參與度和文化現象上的重要地位。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify 財務表現預期與股價下跌",
+      "description": "Spotify發布了較弱的用戶增長和盈利前景預期，導致投資者信心受挫，公司股價出現下跌。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "環球音樂出售股份並實施「泰勒絲條款」",
+      "description": "環球音樂集團出售部分Spotify股份，並宣布將落實「泰勒絲條款」，旨在確保旗下藝人從串流平台獲得更公平的收益分配，此舉對音樂產業的藝人權益具有重大意義。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "新功能與合作夥伴關係",
+      "description": "Spotify與Live Nation合作推出演唱會優先購票服務，IKEA新藍牙喇叭也整合了Spotify Tap功能。此外，Spotify也推出了用戶高度期待的小型更新，如增加收藏上限。",
+      "severity": "medium",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI內容治理",
-    "音樂人權益",
+    "AI音樂",
+    "Spotify Wrapped",
+    "藝人權益",
+    "財務表現",
     "新功能",
-    "財務盈利",
-    "Podcast",
-    "Wrapped",
-    "無損音質"
+    "合作夥伴",
+    "電子發票",
+    "泰勒絲條款"
   ],
-  "daily_summary": "今日Spotify輿情呈現兩極化趨勢：一方面，平台積極推出多項新功能，如無損音質、Podcast評論及免費用戶升級，並大力反擊AI音樂內容濫用，展現產品創新與內容治理的決心。另一方面，公司仍面臨獨立音樂人對低分潤制度的抗議，以及財報表現不如預期的盈利挑戰，引發市場擔憂。",
+  "daily_summary": "今日Spotify輿情主要聚焦於AI音樂政策的推動與藝人對此的反應，同時年度盛事Spotify Wrapped 2025持續引發熱議。在財務方面，雖然用戶與盈利前景疲軟導致股價下跌，但環球音樂集團實施「泰勒絲條款」保障藝人收益的舉動獲得正面關注。",
   "article_analyses": [
     {
-      "title": "LE SSERAFIM 發布《Made My Night》放慢版，測試降速後旋律還剩什麼",
-      "sentiment": "positive",
-      "key_points": [
-        "偶像團體LE SSERAFIM發布新歌",
-        "提升平台音樂內容多樣性"
-      ]
-    },
-    {
-      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "獨立音樂人抗議Spotify低分潤制度",
-        "批評演算法控制與壓榨音樂人",
-        "引發對音樂產業模式的討論"
-      ]
-    },
-    {
-      "title": "Spotify「無損音質」功能台灣上線，網友實測結果如何？ - TNL The News Lens 關鍵評論網",
+      "title": "Spotify將標記AI歌手，推薦曝光怎麼變？",
       "sentiment": "neutral",
       "key_points": [
-        "無損音質功能在台灣上線",
-        "提升付費方案價值",
-        "一般用戶不易感受差異"
+        "Spotify將標記AI生成音樂",
+        "探討對推薦系統和藝人曝光的影響"
       ]
-    },
-    {
-      "title": "Spotify新增「Podcast評論」功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局 - VERSE",
-      "sentiment": "positive",
-      "key_points": [
-        "新增Podcast評論功能",
-        "嘗試打造音樂社群，提高受眾參與度",
-        "模仿TikTok改版首頁，增強互動性"
-      ]
-    },
-    {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped年度總結",
-        "公布年度最強歌手排名",
-        "提升用戶參與度與平台知名度"
-      ]
-    },
-    {
-      "title": "Spotify免費用戶升級，聽歌不再靠運氣「3功能開放」！和Spotify Premium有何差異？ | 今周刊 | LINE TODAY",
-      "sentiment": "positive",
-      "key_points": [
-        "免費用戶功能更新，解禁部分限制",
-        "旨在提升免費用戶參與度",
-        "為Spotify帶來廣告收益"
-      ]
-    },
-    {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
-      "sentiment": "neutral",
-      "key_points": [
-        "比較Apple Music與Spotify的成長策略",
-        "批評單一產品短期訂閱增幅評估邏輯謬誤",
-        "強調蘋果生態系的協同效應"
-      ]
-    },
-    {
-      "title": "AI歌曲每日3萬首入侵串流市場！Spotify三招反擊：AI標籤、垃圾過濾器、禁深偽冒名",
-      "sentiment": "positive",
-      "key_points": [
-        "AI歌曲大量入侵平台，構成挑戰",
-        "Spotify推出AI標籤、垃圾過濾、禁止深偽冒名三招反擊",
-        "保護藝術家權益與平台內容真實性"
-      ]
-    },
-    {
-      "title": "Spotify新功能測試！跳過Podcast節目廣告 料不影響投放 - 國際 - 中時",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify測試跳過Podcast廣告功能",
-        "可能改善用戶體驗"
-      ]
-    },
-    {
-      "title": "Spotify Q4用户增长再超预期，但为何还是赚不到钱？",
-      "sentiment": "neutral",
-      "key_points": [
-        "Q4用戶增長超出預期",
-        "公司仍面臨盈利挑戰"
-      ]
-    },
-    {
-      "title": "Spotify Technology S.A. 的每股收益（EPS）刚刚低于预期5.1%，以下是分析师对后续走势的看法",
-      "sentiment": "negative",
-      "key_points": [
-        "第二季度EPS低於預期",
-        "市場反應不積極，股價受影響"
-      ]
-    },
-    {
-      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
-      "sentiment": "neutral",
-      "key_points": []
-    },
-    {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": []
     },
     {
       "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
       "sentiment": "neutral",
       "key_points": [
-        "與Live Nation合作推出演唱會優先購票功能",
-        "旨在打擊黃牛，但也引發公平性爭議",
-        "對數據定義粉絲的方式引發討論"
-      ]
-    },
-    {
-      "title": "Spotify Will Label A.I. Artists and Avoid Promoting Them - The New York Times",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify將標籤AI生成藝術家",
-        "避免推廣AI生成音樂",
-        "保護藝術家身份和內容真實性"
+        "Spotify與Live Nation合作提供演唱會優先購票",
+        "引發對粉絲福利與商業行為的討論"
       ]
     },
     {
       "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
       "sentiment": "positive",
       "key_points": [
-        "解釋Spotify Wrapped年度總結機制",
-        "提供用戶年度收聽回顧"
+        "2025年Spotify Wrapped發布",
+        "介紹年度個人音樂回顧的編製方式"
       ]
     },
     {
       "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "用戶增長和盈利前景疲軟",
-        "導致Spotify股價下跌"
+        "Spotify用戶和盈利前景預期疲軟",
+        "導致公司股價下跌"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "歌手Lorde批評Spotify的AI功能",
-        "引發對AI內容和藝術家權益的討論"
+        "歌手Lorde公開批評Spotify的AI功能"
+      ]
+    },
+    {
+      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify推出「AI Persona」標籤",
+        "旨在標示AI生成藝人以維護信任和真實性"
       ]
     },
     {
       "title": "Spotify is letting artists manually approve releases to combat AI fakes | The Verge",
       "sentiment": "positive",
       "key_points": [
-        "允許藝術家手動批准作品發布",
-        "加強打擊AI偽造音樂的措施"
+        "Spotify允許藝人手動審批發行",
+        "以打擊AI假冒音樂"
+      ]
+    },
+    {
+      "title": "Question of the Day: What is the most streamed song on Spotify?",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討Spotify上播放量最高的歌曲"
+      ]
+    },
+    {
+      "title": "How to find Spotify Wrapped, YouTube Recap and more as 2025 comes to a close - WXXV News 25",
+      "sentiment": "positive",
+      "key_points": [
+        "2025年Spotify Wrapped發布",
+        "提供用戶查詢個人回顧的方法"
+      ]
+    },
+    {
+      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
+      "sentiment": "neutral",
+      "key_points": [
+        "說明如何綁定載具",
+        "讓Netflix和Spotify訂閱發票自動對獎入帳"
+      ]
+    },
+    {
+      "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
+      "sentiment": "neutral",
+      "key_points": [
+        "提供發票載具使用技巧",
+        "與Spotify訂閱發票相關但非直接公司新聞"
       ]
     },
     {
       "title": "IKEA's latest boxy Bluetooth speaker comes with Spotify Tap, stereo pairing, and a temptingly low price | TechRadar",
       "sentiment": "positive",
       "key_points": [
-        "IKEA藍牙音箱整合Spotify Tap功能",
-        "擴展Spotify生態系統和使用場景"
+        "IKEA新藍牙喇叭整合Spotify Tap功能",
+        "提供方便的音樂播放體驗"
       ]
     },
     {
-      "title": "Question of the Day: What is the most streamed song on Spotify?",
+      "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "教導如何設定跨境電商載具歸戶",
+        "確保Spotify等平台發票自動對獎"
+      ]
     },
     {
       "title": "Spotify rolls out a small, but highly requested update to users",
       "sentiment": "positive",
       "key_points": [
-        "推出用戶請求的更新",
-        "提升用戶體驗，例如釘選更多歌曲"
+        "Spotify推出用戶高度期待的小更新",
+        "例如增加可釘選的歌曲/專輯數量"
       ]
     },
     {
-      "title": "Spotify Creates New ‘AI Personas’ Label To Flag AI-Generated Artists",
+      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "sentiment": "neutral",
+      "key_points": [
+        "TBS電台節目討論推薦給中小學生的漫畫"
+      ]
+    },
+    {
+      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
+      "sentiment": "neutral",
+      "key_points": [
+        "TBS電台節目探討國旗損壞罪的法案爭議"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
       "sentiment": "positive",
       "key_points": [
-        "推出「AI人格」標籤",
-        "標示AI生成藝術家，增強內容透明度"
+        "環球音樂出售Spotify股份並落實「泰勒絲條款」",
+        "旨在確保藝人收益公平性"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Wrapped 2025公布年度最強歌手",
+        "某巨星全球播放量達200億次"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無內容"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無內容"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260914_055538.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260914.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260915_055656.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260915.jpg"
 }
