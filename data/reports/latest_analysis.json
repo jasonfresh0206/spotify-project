@@ -6,177 +6,125 @@
   },
   "events": [
     {
-      "title": "Spotify 服務中斷",
-      "description": "數千名用戶回報 Spotify 服務中斷，公司已進行調查並確認服務恢復正常。",
+      "title": "獨立音樂人抗議行動與低分潤爭議",
+      "description": "獨立音樂人發起「Spotify去死」行動，抗議平台分潤制度過低、演算法控制，以及聯合創辦人投資AI軍事技術引發的爭議，導致部分音樂人下架作品。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "推出家長排除兒童音樂推薦功能",
-      "description": "Spotify 推出新功能，允許家長將兒童音樂從推薦演算法中排除，以改善用戶的音樂推薦體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "「泰勒絲條款」保障藝人收益",
-      "description": "環球音樂出售部分 Spotify 股份，並將落實「泰勒絲條款」，旨在確保旗下藝人從串流平台獲得更公平的收益分配。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "用戶與盈利前景疲軟導致股價下跌",
-      "description": "由於用戶增長前景不如預期以及盈利預期疲軟，Spotify 的股價受到影響而下跌。",
+      "title": "Spotify應用程式當機與性能問題",
+      "description": "數千名用戶回報Spotify服務中斷，Android用戶也遭遇應用程式卡頓和背景播放中斷的災情。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "應對 AI 生成音樂問題",
-      "description": "Spotify 推出「AI Persona」標籤來標示 AI 生成藝術家，並允許藝術家手動批准發布，以打擊假冒歌曲並維護內容的真實性。",
+      "title": "財務前景疲軟導致股價下跌",
+      "description": "Spotify對用戶增長和利潤前景給出較弱預期，導致公司股價下跌。",
       "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify Wrapped 2025 年度回顧上線",
-      "description": "Spotify Wrapped 2025 年度回顧功能上線，提供用戶個人聆聽數據、年度歌手排名及全球熱門榜單，並加入計算聆聽年齡等新功能。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "「無損音質」功能台灣上線",
-      "description": "Spotify 在台灣推出無損音質功能，為 Premium 用戶提供更豐富、更細緻的聆聽體驗。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "KPOP 女團數據灌水疑慮",
-      "description": "KPOP 女團 ILLIT 雖然創下 Spotify 聽眾紀錄，但其數據的真實性受到外界質疑，引發灌水爭議。",
-      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "與 Kakao M 達成協議，韓國音樂回歸",
-      "description": "Spotify 與 Kakao M 達成合約協議，此前下架的 IU、泫雅等韓國歌手音樂作品重新上架，解決了內容版權問題。",
+      "title": "推出多項AI歌曲反制措施",
+      "description": "為打擊AI生成歌曲和深偽內容，Spotify推出AI標籤、垃圾過濾器，並嚴禁冒名頂替和聲音克隆，同時讓藝術家可手動批准發行。",
       "severity": "high",
       "sentiment": "positive"
     },
     {
-      "title": "Joe Rogan 播客遭總統施壓爭議",
-      "description": "知名播客主持人 Joe Rogan 聲稱美國總統曾施壓 Spotify 取消其播客，引發了關於言論自由和錯誤資訊的討論。",
+      "title": "「泰勒絲條款」與環球音樂股權出售",
+      "description": "環球音樂出售部分Spotify股份，並落實「泰勒絲條款」，旨在確保旗下藝人的收益，象徵著藝術家分潤制度的積極轉變。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "「無損音質」功能上線台灣",
+      "description": "Spotify在台灣為Premium用戶推出「無損音質」功能，提升聆聽體驗，儘管用戶實測結果對差異感受不一。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "新增Podcast評論與社群功能",
+      "description": "Spotify推出Podcast評論功能，並持續優化社群互動，期望為6.15億活躍用戶打造更緊密的音樂社群。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "免費用戶功能升級",
+      "description": "Spotify對免費用戶開放部分功能，如聽歌不再完全隨機，旨在提升免費用戶參與度並增加廣告收益。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "推出兒童音樂排除功能",
+      "description": "Spotify新增功能，允許家長將兒童音樂排除在推薦演算法的品味檔案之外，提升個人化體驗。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "推出Running Mode運動模式",
+      "description": "Spotify推出Running Mode，為用戶提供運動時的音樂與語音提示，專為健身場景設計。",
+      "severity": "medium",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify Wrapped 2025年度回顧",
+      "description": "年度Spotify Wrapped活動發布，總結用戶和全球藝術家的年度收聽數據，吸引廣泛關注。",
       "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "攜手Live Nation推演唱會優先購票",
+      "description": "Spotify與Live Nation合作，提供演唱會優先購票權益，引發是粉絲福音還是商業綁架的討論。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "新漏洞影響用戶",
+      "description": "有報導指出Spotify用戶受到新漏洞影響，但具體細節未明確提及。",
+      "severity": "medium",
       "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "Spotify Wrapped",
-    "AI 生成音樂",
-    "新功能",
-    "藝人收益",
-    "服務中斷"
+    "Spotify",
+    "AI",
+    "音樂",
+    "藝術家",
+    "分潤",
+    "功能",
+    "Podcast",
+    "無損音質",
+    "演算法",
+    "社群",
+    "用戶",
+    "當機",
+    "泰勒絲",
+    "Wrapped"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現兩極，一方面因服務當機、用戶增長及盈利前景疲軟導致股價下跌，且有藝人播客爭議及KPOP數據灌水疑慮等負面消息；另一方面，平台積極推出多項新功能，如家長控制、無損音質、AI生成音樂標籤與藝人批准機制，並成功解決與Kakao M的版權問題，顯示其在產品創新和市場拓展上的努力。",
+  "daily_summary": "今日Spotify輿情呈兩極化趨勢。正面來看，平台積極推出無損音質、Podcast評論、家庭音樂排除等多項新功能，並強化AI歌曲的辨識與防堵機制，同時年度Wrapped活動也帶來高度關注。然而，Spotify也面臨低分潤爭議導致藝術家抗議、平台當機及疲軟的財務展望等負面挑戰，顯示其在創新與用戶/創作者平衡間仍需努力。",
   "article_analyses": [
     {
-      "title": "Spotify 推出新功能 允許家長排除兒童音樂影響推薦演算法",
-      "sentiment": "positive",
-      "key_points": [
-        "推出家長控制新功能",
-        "允許排除兒童音樂影響推薦"
-      ]
-    },
-    {
-      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
-      "sentiment": "positive",
-      "key_points": [
-        "環球音樂出售股份",
-        "落實「泰勒絲條款」保障藝人收益"
-      ]
-    },
-    {
-      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
-      "sentiment": "negative",
-      "key_points": [
-        "數千用戶回報服務當機",
-        "Spotify正進行調查"
-      ]
-    },
-    {
-      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶與盈利前景疲軟",
-        "Spotify股價下跌"
-      ]
-    },
-    {
-      "title": "Lorde Calls Out Spotify Over AI Feature",
-      "sentiment": "negative",
-      "key_points": [
-        "藝人Lorde批評Spotify的AI功能",
-        "對AI功能表達擔憂"
-      ]
-    },
-    {
-      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
-      "sentiment": "positive",
-      "key_points": [
-        "推出「AI Persona」標籤",
-        "標示AI生成藝術家以維護真實性"
-      ]
-    },
-    {
-      "title": "How to find Spotify Wrapped, YouTube Recap and more as 2025 comes to a close - WXXV News 25",
+      "title": "Spotify 前高層創辦 A Vinyl Bar in Shibuya，不必提示詞也能創作音樂",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify Wrapped年度回顧功能",
-        "提供用戶聆聽數據"
+        "Spotify前高層創辦新音樂空間",
+        "專注於音樂創作與體驗"
       ]
     },
     {
-      "title": "Spotify is letting artists manually approve releases to combat AI fakes | The Verge",
-      "sentiment": "positive",
-      "key_points": [
-        "允許藝術家手動批准發布",
-        "打擊AI假冒歌曲問題"
-      ]
-    },
-    {
-      "title": "Drake 'Iceman' Sets 2026 Spotify Single-Day Record for Album Streams",
-      "sentiment": "positive",
-      "key_points": [
-        "Drake專輯創下Spotify單日串流紀錄",
-        "藝人成就推動平台熱度"
-      ]
-    },
-    {
-      "title": "Spotify rolls out a small, but highly requested update to users",
-      "sentiment": "positive",
-      "key_points": [
-        "推出小型但高度要求的功能更新",
-        "允許釘選更多項目至音樂庫"
-      ]
-    },
-    {
-      "title": "Katseye, Addison Rae, Lola Young and more light up pre-Grammy Spotify showcase",
-      "sentiment": "positive",
-      "key_points": [
-        "舉辦葛萊美獎前展示活動",
-        "多位藝人參與推廣"
-      ]
-    },
-    {
-      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "title": "Spotify 前高層創辦A Vinyl Bar in Shibuya，不必提示詞也能創作音樂- 股市爆料同學會",
       "sentiment": "neutral",
       "key_points": [
-        "討論推薦給小中學生的漫畫",
-        "內容與Spotify平台無直接關聯"
+        "Spotify前高層的新創業",
+        "與Spotify平台無直接關係"
       ]
     },
     {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
       "key_points": [
-        "探討國旗損壞罪的法案議題",
-        "內容與Spotify平台無直接關聯"
+        "獨立音樂人抗議低分潤制度",
+        "批評演算法主導音樂創作",
+        "創辦人投資AI軍事技術引發藝術家抵制"
       ]
     },
     {
@@ -184,98 +132,195 @@
       "sentiment": "positive",
       "key_points": [
         "無損音質功能在台灣上線",
-        "提升Premium用戶的聆聽體驗"
+        "提升付費方案價值",
+        "用戶對音質提升感受不一"
+      ]
+    },
+    {
+      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
+      "sentiment": "neutral",
+      "key_points": [
+        "與Live Nation合作推出優先購票",
+        "引發商業模式與粉絲權益的討論"
+      ]
+    },
+    {
+      "title": "環球音樂出售部分Spotify股份 ，將落實「泰勒絲條款」保證旗下藝人收益 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "環球音樂出售Spotify股份",
+        "實施「泰勒絲條款」保障藝人收益",
+        "泰勒絲對串流產業影響力凸顯"
+      ]
+    },
+    {
+      "title": "Spotify新增「Podcast評論」功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局 - VERSE",
+      "sentiment": "positive",
+      "key_points": [
+        "新增Podcast評論功能",
+        "嘗試打造音樂社群平台",
+        "借鑒TikTok介面和互動模式"
       ]
     },
     {
       "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Wrapped 2025年度歌手排名",
-        "某巨星全球播放量達200億次奪冠"
+        "Spotify Wrapped 2025發布",
+        "揭曉年度最受歡迎歌手",
+        "年度總結活動引發用戶參與"
       ]
     },
     {
-      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "title": "Spotify免費用戶升級，聽歌不再靠運氣「3功能開放」！和Spotify Premium有何差異？ | 今周刊 | LINE TODAY",
       "sentiment": "positive",
       "key_points": [
-        "年度回顧功能上線",
-        "推出計算聆聽年齡等新功能"
+        "免費用戶獲得部分功能升級",
+        "旨在提升免費用戶參與度",
+        "增加廣告收益的策略"
       ]
     },
     {
-      "title": "ILLIT打破BLACKPINK成績！登「Spotify聽眾最多KPOP女團」遭疑灌水 | 娛樂 | Newtalk新聞",
+      "title": "受新漏洞影响的 Spotify 用户 - Notebookcheck-cn.com News",
       "sentiment": "negative",
       "key_points": [
-        "KPOP女團ILLIT的聽眾數據被質疑灌水",
-        "引發數據真實性爭議"
+        "Spotify用戶受新漏洞影響",
+        "可能涉及安全或服務問題"
       ]
     },
     {
-      "title": "IU、泫雅等眾多歌手回來了！Spotify與Kakao M達成協議 - 自由娛樂",
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網 - 美股雷達",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討Apple Music是否應效仿Spotify模式",
+        "不同媒體對商業策略的看法爭論"
+      ]
+    },
+    {
+      "title": "Spotify Grammy Party Review: Katseye, Lola Young, Addison Rae and more | AP News",
       "sentiment": "positive",
       "key_points": [
-        "與Kakao M達成協議",
-        "韓國歌手音樂作品重新上架"
+        "Spotify舉辦葛萊美派對",
+        "介紹參與藝人與活動內容"
       ]
     },
     {
-      "title": "Joe Rogan 聲稱美國總統施壓 Spotify 取消他的播客 - - Gamereactor",
+      "title": "AI歌曲每日3萬首入侵串流市場！Spotify三招反擊：AI標籤、垃圾過濾器、禁深偽冒名",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify應對AI歌曲入侵",
+        "推出AI標籤和垃圾過濾器",
+        "嚴禁深度偽造和冒名頂替"
+      ]
+    },
+    {
+      "title": "Spotify新功能測試！跳過Podcast節目廣告 料不影響投放 - 國際 - 中時",
+      "sentiment": "neutral",
+      "key_points": [
+        "測試Podcast廣告跳過功能",
+        "預計不影響廣告投放效益",
+        "Android用戶曾遇卡頓和中斷問題",
+        "與遠傳電信擴大娛樂版圖合作"
+      ]
+    },
+    {
+      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "Joe Rogan聲稱總統施壓取消播客",
-        "引發言論自由與錯誤資訊爭議"
+        "Spotify用戶和利潤前景疲軟",
+        "導致公司股價下跌"
       ]
     },
     {
-      "title": "纽约歡迎科技業 音乐服务商Spotify入驻世贸 | 大纪元",
+      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
+      "sentiment": "negative",
+      "key_points": [
+        "數千名用戶回報服務中斷",
+        "Spotify啟動調查並表示已解決"
+      ]
+    },
+    {
+      "title": "Spotify 推出新功能 允許家長排除兒童音樂影響推薦演算法 | Techritual 香港",
       "sentiment": "positive",
       "key_points": [
-        "Spotify入駐紐約世貿中心",
-        "為紐約帶來新工作機會"
+        "推出家長控制功能",
+        "可排除兒童音樂影響推薦列表",
+        "提升用戶個人化體驗"
       ]
     },
     {
-      "title": "亞洲女一無誤！Lisa再獲「2項金氏世界紀錄」　打破KPOP紀錄 | 娛樂星聞",
+      "title": "Spotify gets a Running Mode - GSMArena.com news",
       "sentiment": "positive",
       "key_points": [
-        "Lisa獲得金氏世界紀錄",
-        "打破KPOP藝人紀錄"
+        "推出「Running Mode」運動模式",
+        "提供運動音頻提示和健身內容"
       ]
     },
     {
-      "title": "凭《大展鸿图》排名超越周杰伦，说唱歌手揽佬回应“赚了1.2亿”",
-      "sentiment": "neutral",
+      "title": "Lorde Calls Out Spotify Over AI Feature",
+      "sentiment": "negative",
       "key_points": [
-        "說唱歌手攬佬超越周杰倫登頂Spotify榜",
-        "針對其收入聲明作出回應"
+        "歌手Lorde公開批評Spotify的AI功能",
+        "可能涉及對AI生成內容的疑慮"
       ]
     },
     {
-      "title": "台灣熱門科技 Podcast 推薦",
-      "sentiment": "neutral",
+      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
       "key_points": [
-        "推薦台灣科技Podcast",
-        "為聽眾提供收聽指引"
+        "建立「AI Persona」標籤",
+        "標示AI生成藝術家內容",
+        "強調音樂產業的信任與真實性"
       ]
     },
     {
-      "title": "無標題",
-      "sentiment": "neutral",
+      "title": "Spotify is letting artists manually approve releases to combat AI fakes | The Verge",
+      "sentiment": "positive",
       "key_points": [
-        "無具體內容",
-        "不影響Spotify輿情"
+        "推出「Artist Profile Protection」功能",
+        "允許藝術家手動審核發行內容",
+        "有效打擊AI假冒作品"
       ]
     },
     {
-      "title": "無標題",
+      "title": "Spotify rolls out a small, but highly requested update to users",
+      "sentiment": "positive",
+      "key_points": [
+        "推出小而受歡迎的更新",
+        "允許用戶釘選更多內容到資料庫頂部"
+      ]
+    },
+    {
+      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
       "sentiment": "neutral",
       "key_points": [
-        "無具體內容",
-        "不影響Spotify輿情"
+        "內容與Spotify無關"
+      ]
+    },
+    {
+      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容與Spotify無關"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
+      "sentiment": "positive",
+      "key_points": [
+        "介紹Spotify Wrapped的運作方式",
+        "年度總結活動廣受用戶喜愛"
+      ]
+    },
+    {
+      "title": "Drake 'Iceman' Sets 2026 Spotify Single-Day Record for Album Streams",
+      "sentiment": "positive",
+      "key_points": [
+        "Drake新專輯創Spotify單日串流紀錄",
+        "展現平台熱門藝人的影響力"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260916_054406.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260916.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260917_055253.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260917.jpg"
 }
