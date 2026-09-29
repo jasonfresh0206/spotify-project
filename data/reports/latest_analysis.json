@@ -1,345 +1,375 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
-    "negative_ratio": 0.1,
-    "neutral_ratio": 0.6
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "新星LAWA獲選Spotify大使並登上時代廣場",
-      "description": "樂壇新星LAWA因發行首張專輯獲選為Spotify EQUAL大使，其形象登上紐約時代廣場巨幕，引起廣泛關注，被媒體報導為「剛出道就登上時代廣場」的超強新人，且其真實身分為大學生也引發討論。",
-      "severity": "high",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify處理AI生成音樂與藝術家相關爭議",
-      "description": "Spotify正積極處理AI生成音樂的爭議，已開始標示AI藝術家並將其從推薦中移除，甚至移除超過7500萬首AI垃圾歌曲。然而，也有藝術家（如Lorde）公開批評Spotify的AI功能，且有聲音質疑Spotify可能藉由AI生成曲目影響藝術家收入。",
-      "severity": "high",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Spotify用戶與盈利前景疲弱導致股價下跌",
-      "description": "Spotify公布的用戶成長與盈利前景預期較為疲弱，導致公司股價下跌，引發市場對其未來表現的擔憂。",
+      "title": "大規模資料爬取事件",
+      "description": "Anna's Archive 聲稱爬取了 Spotify 的音樂資料庫，可能影響音樂資料保存及潛在的版權問題，引發資料盜取擔憂。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "小朋友將Spotify Podcast留言區當作聊天室",
-      "description": "美國國家公共電台(NPR)的Podcast在Spotify上的留言區出現大量「神秘」留言，經Gen Zer解密後發現，這些留言區已被小學生當作聊天室使用，引起媒體與聽眾的哭笑不得與廣泛討論。",
-      "severity": "medium",
+      "title": "AI 生成內容管理與政策更新",
+      "description": "Spotify 開始標記 AI 藝人、將其從推薦中移除，並據報已刪除超過 7500 萬首 AI 相關歌曲。此外，藝人 Lorde 也公開批評 Spotify 的 AI 功能。",
+      "severity": "high",
       "sentiment": "neutral"
     },
     {
-      "title": "Spotify推出AI生成個人化Podcast與20週年慶",
-      "description": "Spotify推出了「Spotify Studio」AI代理功能，能為用戶創建個人化的每日Podcast。同時，平台也舉行了20週年慶活動，推出個人聆聽回顧，並強調Taylor Swift、Bad Bunny為串流巨頭，The Weeknd歌曲為平台最高串流歌曲，展現其在數據敘事上的主導地位。",
+      "title": "Android App 效能問題與服務中斷",
+      "description": "大量 Android 用戶抱怨 App 運行卡頓，官方已證實並啟動調查；同時也發生過大規模的服務中斷，影響用戶使用體驗。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "免費用戶功能升級與 Premium 搶先體驗測試",
+      "description": "Spotify 解鎖了免費用戶的部分功能，允許直接選歌，並在部分地區測試付費用戶新專輯三天搶先聽的服務，旨在提升用戶黏著度。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify攜手Live Nation推演唱會優先購票",
-      "description": "Spotify與Live Nation合作推出演唱會優先購票服務。此舉引發正反兩面討論，有人認為是「真粉絲福音」，也有人質疑是「變相商業綁架」。",
+      "title": "無損音質功能台灣上線",
+      "description": "Spotify 在台灣推出無損音質服務，市場討論多聚焦於其音質表現與所需硬體配置，評價褒貶不一。",
       "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "跨境電商發票新制與Spotify訂閱發票",
-      "description": "台灣財政部推行跨境電商全面開立發票新制，Spotify等海外數位服務平台訂閱費也將提供發票。相關報導提供了如何綁定手機載具、自動入帳的教學，對用戶而言是便利的正面消息。",
+      "title": "測試新「筆記」功能以調教演算法",
+      "description": "Spotify 正在測試一項「筆記」功能，旨在讓用戶能直接輸入偏好以更精準地影響音樂推薦演算法，優化個人化體驗。",
       "severity": "low",
       "sentiment": "positive"
+    },
+    {
+      "title": "財務展望不佳導致股價下跌",
+      "description": "Spotify 用戶增長和利潤展望不如預期，導致公司股價下跌。",
+      "severity": "medium",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "Podcast",
-    "LAWA",
-    "時代廣場",
-    "演唱會",
-    "發票",
-    "股價",
-    "20週年"
+    "AI 音樂",
+    "無損音質",
+    "用戶體驗",
+    "App 效能",
+    "資料安全",
+    "訂閱服務",
+    "藝人",
+    "演算法推薦"
   ],
-  "daily_summary": "今日Spotify輿情呈現多樣化。正面方面，樂壇新星LAWA因獲選Spotify大使而登上時代廣場，以及Spotify推出AI個人化Podcast和慶祝20週年活動受到關注。中立方面，NPR Podcast留言區被小學生當作聊天室的事件引發討論，而Spotify與Live Nation的合作也引起褒貶不一的看法。負面方面，Spotify因用戶與盈利前景疲弱導致股價下跌，同時其處理AI生成音樂的策略雖有積極行動，但也面臨藝術家的批評與質疑。",
+  "daily_summary": "Spotify 今日輿情呈現兩極化，一方面因大規模資料爬取事件及 Android App 效能問題引發負面討論，且公司股價受用戶及利潤展望影響。另一方面，平台在應對 AI 生成音樂方面展現積極作為，推出標籤與移除機制，並持續優化用戶體驗，如免費用戶功能升級、無損音質上線及測試個人化筆記功能，多位藝人也透過平台取得佳績。",
   "article_analyses": [
     {
-      "title": "新星LAWA發行首張專輯獲選Spotify大使登時代廣場- 娛樂新聞",
+      "title": "【知識科普】 Spotify無損真的有差？聽過這套百萬音響的人全都改觀了#spotify #名展音響",
       "sentiment": "positive",
       "key_points": [
-        "新星LAWA發行首張專輯",
-        "獲選Spotify大使",
-        "登上時代廣場"
+        "Spotify 無損音質",
+        "高階音響體驗",
+        "音質差異感知"
       ]
     },
     {
-      "title": "正妹新人剛出道就登上紐約時代廣場！私下真實身份曝光",
-      "sentiment": "positive",
-      "key_points": [
-        "新人LAWA登上紐約時代廣場",
-        "私下真實身份曝光"
-      ]
-    },
-    {
-      "title": "樂壇新星首張專輯就登時代廣場 LAWA獲選Spotify EQUAL大使",
-      "sentiment": "positive",
-      "key_points": [
-        "樂壇新星LAWA首張專輯",
-        "登上時代廣場",
-        "獲選Spotify EQUAL大使"
-      ]
-    },
-    {
-      "title": "剛出道就登時代廣場! LAWA獲選Spotify大使｜TVBS新聞 @TVBSNEWS01 │ TVBS新聞網",
-      "sentiment": "positive",
-      "key_points": [
-        "LAWA剛出道登時代廣場",
-        "獲選Spotify大使"
-      ]
-    },
-    {
-      "title": "華語樂壇新聲代LAWA登上紐約時代廣場巨幕　獲選Spotify EQUAL大使 | 娛樂 | CTWANT",
-      "sentiment": "positive",
-      "key_points": [
-        "華語樂壇新聲代LAWA",
-        "登上紐約時代廣場巨幕",
-        "獲選Spotify EQUAL大使"
-      ]
-    },
-    {
-      "title": "超強新人LAWA剛出道就登「紐約時代廣場」！真實身分竟是大學生",
-      "sentiment": "positive",
-      "key_points": [
-        "新人LAWA剛出道登紐約時代廣場",
-        "真實身分是大學生"
-      ]
-    },
-    {
-      "title": "小朋友把Podcast留言區當聊天室　真相讓美媒哭笑不得",
+      "title": "華語樂壇新星LAWA發行首張專輯《活著的副作用》（行動裝置）",
       "sentiment": "neutral",
       "key_points": [
-        "小朋友將Spotify Podcast留言區當聊天室",
-        "NPR節目發現",
-        "真相讓美媒哭笑不得"
+        "LAWA 新專輯",
+        "音樂發行平台"
       ]
     },
     {
-      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
+      "title": "網絡監管｜社交平台被封？美國青少年轉戰Spotify留言區開秘密聊天室",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify攜手Live Nation推演唱會優先購票",
-        "引發真粉絲福音或變相商業綁架的討論"
+        "Spotify 留言區",
+        "青少年聊天室",
+        "社交平台轉移"
       ]
     },
     {
-      "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 資料盜取",
+        "Anna's Archive",
+        "音樂資料庫爬取",
+        "版權問題"
+      ]
+    },
+    {
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
+      "sentiment": "positive",
+      "key_points": [
+        "免費用戶功能解禁",
+        "直接選歌",
+        "個人化播放清單",
+        "提升用戶黏著度"
+      ]
+    },
+    {
+      "title": "Spotify「無損音質」功能台灣上線，網友實測結果如何？ - TNL The News Lens 關鍵評論網",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify Wrapped 2025回顧",
-        "如何編譯個人化年度總結"
+        "無損音質台灣上線",
+        "實測結果",
+        "硬體條件影響",
+        "提升有限"
+      ]
+    },
+    {
+      "title": "受夠Spotify亂推歌？全新「筆記」功能曝光 直接打字調教演算法 | 社群/APP/網紅 | udn科技玩家",
+      "sentiment": "positive",
+      "key_points": [
+        "新「筆記」功能",
+        "調教演算法",
+        "個性化推薦",
+        "用戶體驗改善"
+      ]
+    },
+    {
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網",
+      "sentiment": "neutral",
+      "key_points": [
+        "Apple Music 與 Spotify 比較",
+        "市場競爭",
+        "免費模式策略"
+      ]
+    },
+    {
+      "title": "Spotify正在測試「Premium搶先體驗」功能 - 禁聞網",
+      "sentiment": "neutral",
+      "key_points": [
+        "Premium 搶先體驗",
+        "新專輯等待期",
+        "付費訂閱優勢"
       ]
     },
     {
       "title": "Spotify starts labeling AI artists and removing them from recommendations - GSMArena.com news",
       "sentiment": "positive",
       "key_points": [
-        "Spotify開始標示AI藝術家",
-        "從推薦中移除AI內容"
+        "標記 AI 藝人",
+        "移除 AI 推薦",
+        "內容管理"
       ]
     },
     {
       "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "Spotify用戶和盈利前景疲弱",
-        "導致股價下跌"
+        "用戶增長預期",
+        "利潤展望不佳",
+        "股價下跌"
       ]
     },
     {
       "title": "UkeySoft Spotify Music Converter Review: Download Spotify to MP3 with Free Account(2026) - Latest Hacking News | Cyber Security News, Hacking Tools and Penetration Testing Courses",
       "sentiment": "neutral",
       "key_points": [
-        "UkeySoft Spotify Music Converter評測",
-        "允許免費/Premium帳戶下載Spotify音樂至MP3"
+        "Spotify 音樂轉換器",
+        "MP3 下載",
+        "DRM-free"
+      ]
+    },
+    {
+      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 服務中斷",
+        "用戶報告問題",
+        "官方調查"
+      ]
+    },
+    {
+      "title": "華語樂壇新聲代LAWA登上紐約時代廣場巨幕　獲選Spotify EQUAL大使 | Styletc | LINE TODAY",
+      "sentiment": "positive",
+      "key_points": [
+        "LAWA 獲選 EQUAL 大使",
+        "紐約時代廣場",
+        "女性創作者支持"
+      ]
+    },
+    {
+      "title": "紐約歡迎科技業 音樂服務商Spotify入駐世貿 | 大紀元",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify 入駐世貿",
+        "紐約科技業",
+        "公司擴張"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "Lorde批評Spotify的AI功能"
+        "藝人 Lorde 批評",
+        "Spotify AI 功能"
+      ]
+    },
+    {
+      "title": "「跳樓機」吸金破1.6億 血洗國際音樂榜",
+      "sentiment": "positive",
+      "key_points": [
+        "歌曲「跳樓機」",
+        "抖音神曲",
+        "Spotify 榜單成績",
+        "驚人營收"
+      ]
+    },
+    {
+      "title": "谁来阻止赛博洪水淹没世界？|Grok|Spotify|虎嗅网|短剧|账号_手机新浪网",
+      "sentiment": "negative",
+      "key_points": [
+        "AI 生成內容氾濫",
+        "真實性挑戰",
+        "平台治理"
       ]
     },
     {
       "title": "Spotify reportedly removed over 75 million AI-slop songs from its platform",
       "sentiment": "positive",
       "key_points": [
-        "Spotify移除超過7500萬首AI垃圾歌曲"
+        "移除 AI 生成歌曲",
+        "平台內容管理",
+        "用戶投訴"
+      ]
+    },
+    {
+      "title": "低价订阅Spotify，Spotify到底好用在哪？小白入门一次讲透，五大音乐平台怎么选？ | Spotify教程 | 音乐平台对比 | 流媒体音乐",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 優勢",
+        "低價訂閱",
+        "音樂平台對比",
+        "新手指南"
+      ]
+    },
+    {
+      "title": "The hottest new hangout for middle schoolers is NPR's comment section? | TechCrunch",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR 留言區",
+        "青少年社交"
+      ]
+    },
+    {
+      "title": "BTS新專輯《ARIRANG》預售7天狂賣406萬張，刷新自身巔峰紀錄！Spotify預存飆破200萬直追泰勒絲神話 | 韓星網 | LINE TODAY",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS 新專輯預售",
+        "Spotify 預存紀錄",
+        "樂壇巨星成就"
       ]
     },
     {
       "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
       "sentiment": "positive",
       "key_points": [
-        "Spotify創建新的「AI Persona」標籤",
-        "標示AI生成藝術家"
+        "AI Persona 標籤",
+        "AI 生成藝人",
+        "內容辨識"
       ]
     },
     {
       "title": "Question of the Day: What is the most streamed song on Spotify?",
       "sentiment": "neutral",
       "key_points": [
-        "每日問題：Spotify上播放次數最多的歌曲是什麼？"
-      ]
-    },
-    {
-      "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify直接關聯性低",
-        "主要討論手機載具與發票中獎"
-      ]
-    },
-    {
-      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify訂閱服務提供發票",
-        "教學如何綁定載具自動入帳"
+        "Spotify 最受歡迎歌曲",
+        "串流數據"
       ]
     },
     {
       "title": "Spotify Studio’s AI agent creates a daily podcast just for you | The Verge",
       "sentiment": "positive",
       "key_points": [
-        "Spotify Studio的AI代理功能",
-        "為用戶創建個人化每日Podcast"
+        "Spotify Studio",
+        "AI 代理",
+        "個人化播客",
+        "每日簡報"
       ]
     },
     {
-      "title": "跨境電商今年起全面開發票 1年發票將暴增2.7億張！ - 自由財經",
-      "sentiment": "neutral",
-      "key_points": [
-        "跨境電商（含Spotify）今年起全面開立發票",
-        "預計發票量暴增"
-      ]
-    },
-    {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify內容無關"
-      ]
-    },
-    {
-      "title": "セッションおなじみの出演者が語る！小中學生に薦めたい漫画",
-      "sentiment": "neutral",
-      "key_points": [
-        "與Spotify內容無關"
-      ]
-    },
-    {
-      "title": "Spotify 20 週年個人回顧　解鎖你專屬的一生聆聽數據 | Hypebeast",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify 20週年紀念",
-        "個人聆聽數據回顧",
-        "Taylor Swift與Bad Bunny為串流巨頭",
-        "The Weeknd歌曲為最高串流"
-      ]
-    },
-    {
-      "title": "‎《Spotify - 音樂和 Podcast》App - App Store",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify App Store介紹",
-        "功能概覽"
-      ]
-    },
-    {
-      "title": "When NPR staffers flagged strange comments under their ...",
+      "title": "Spotify用戶哀號！Android版愈用愈卡 官方證實調查中",
       "sentiment": "negative",
       "key_points": [
-        "NPR員工發現怪異留言",
-        "Spotify被指控透過AI生成曲目影響藝術家收入"
+        "Android App 卡頓",
+        "效能問題",
+        "官方調查"
       ]
     },
     {
-      "title": "Terms and Conditions of Use",
+      "title": "全球所有Spotify streams 中，如果一位權利人的音樂取得每 ...",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify使用條款和條件",
-        "關於用戶回饋政策"
+        "串流收益分配",
+        "版權人收入",
+        "音樂經濟"
       ]
     },
     {
-      "title": "Gen Zer Solves NPR’s Spotify Comments Mystery That Baffled Staffers: ‘These Are Not Bots’",
+      "title": "Spotify 疑似在暗示将与 凯盈娱乐官网APP下载 Games 开展 GTA6 联动",
       "sentiment": "neutral",
       "key_points": [
-        "Gen Zer揭開NPR Spotify留言之謎",
-        "確認非機器人而是青少年活動"
+        "GTA6 聯動",
+        "遊戲合作",
+        "市場傳聞"
       ]
     },
     {
-      "title": "红薯平台評論互動量提升的自動化工具 | Podcast on Spotify",
-      "sentiment": "neutral",
+      "title": "帶上你最高的能量迎接〈比就比就比〉全場大合跳！ ​ ​ Bii畢 ...",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify上的一檔Podcast",
-        "主題關於提升紅薯平台評論互動的工具",
-        "與Spotify平台本身無直接關係"
+        "Bii 畢書盡活動",
+        "Spotify 分享",
+        "粉絲應援"
       ]
     },
     {
-      "title": "The hottest new hangout for middle schoolers is NPR's ...",
+      "title": "NustarGame - SEOTOP1 | Podcast on Spotify",
       "sentiment": "neutral",
       "key_points": [
-        "NPR的Spotify Podcast留言區成為國中生新熱門聚集地"
+        "Podcast 上線",
+        "用戶數據分享",
+        "廣告投放"
       ]
     },
     {
-      "title": "Some NPR podcasts started getting mysterious comments ...",
+      "title": "OKplay - SEOTOP1 | Podcast on Spotify",
       "sentiment": "neutral",
       "key_points": [
-        "NPR部分Podcast出現神秘留言",
-        "由年輕世代解開謎團"
+        "Podcast 上線",
+        "用戶數據分享",
+        "廣告投放"
       ]
     },
     {
-      "title": "Create AI Music & Publish It to Spotify - Lyrixsa AI Review",
-      "sentiment": "neutral",
+      "title": "每日討論- 2026年9月10日: r/popheads",
+      "sentiment": "positive",
       "key_points": [
-        "Lyrixsa AI工具評論",
-        "關於創建AI音樂並發布至Spotify"
+        "社群討論",
+        "用戶投入",
+        "活動參與"
       ]
     },
     {
-      "title": "Cut your Claude Code cost by 90% using the Spotify Method : r/ClaudeAI",
-      "sentiment": "neutral",
+      "title": "Jaden Podcast 现在正式上线Spotify & Apple Podcasts 了。 . ...",
+      "sentiment": "positive",
       "key_points": [
-        "使用「Spotify方法」降低Claude Code成本",
-        "與Spotify平台本身無直接關係"
-      ]
-    },
-    {
-      "title": "Instagram",
-      "sentiment": "neutral",
-      "key_points": [
-        "與This American Life相關的Instagram貼文",
-        "可能間接提及NPR Podcast留言事件"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容"
+        "Jaden Podcast 上線",
+        "Spotify 平台"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": [
-        "無內容"
-      ]
+      "key_points": []
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": []
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260928_062743.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260928.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260929_064030.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260929.jpg"
 }
