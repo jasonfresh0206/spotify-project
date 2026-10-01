@@ -1,331 +1,220 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.5,
-    "neutral_ratio": 0.3
+    "positive_ratio": 0.4,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.4
   },
   "events": [
     {
-      "title": "Spotify全球服務當機",
-      "description": "Spotify服務在全球範圍內出現大規模故障，導致用戶無法播放音樂或使用App，美國及國際數萬名用戶受影響，官方已證實並進行搶修。此事件常與Claude AI服務的同步故障被提及。",
+      "title": "AI 內容管理新政策與爭議",
+      "description": "Spotify 推出新政策，開始為 AI 生成的藝人貼上標籤，並將其音樂從推薦中移除，以應對 AI 內容對人類音樂創作者的影響。然而，此舉也引發了藝人（如 Lorde）的批評，並重新點燃了關於藝人報酬的討論。",
+      "severity": "high",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Spotify 服務中斷與當機",
+      "description": "Spotify 遭遇了大規模的服務中斷，導致數萬名用戶無法正常連線和使用其音樂串流服務。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "泰勒絲新歌上線並創紀錄",
-      "description": "泰勒絲推出新歌《The Encore》，在Spotify上線後刷新了今年女歌手單日播放量的紀錄，顯示其在平台上的巨大影響力。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify 20週年紀念回顧功能上線",
-      "description": "Spotify推出了20週年紀念回顧功能，讓用戶查看個人專屬的聆聽數據，同時也公布了全球級里程碑，如泰勒絲被認證為史上串流次數最高的歌手。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "Spotify測試限制免費使用者收聽新歌",
-      "description": "Spotify正在測試一項新政策，限制免費使用者在歌曲發布後的頭三天內無法收聽新發行的音樂，此舉可能引發免費會員不滿。",
-      "severity": "medium",
+      "title": "財務展望疲弱與股價下跌",
+      "description": "由於用戶增長和利潤展望不如預期，Spotify 的股價受到影響而下跌。",
+      "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "K-pop歌手朴彩英單曲播放量破億",
-      "description": "K-pop歌手朴彩英的歌曲《3am》在Spotify上的播放量突破1億次，再次證明平台對於熱門音樂作品的傳播力。",
-      "severity": "low",
+      "title": "付費訂閱用戶突破 3 億大關",
+      "description": "Spotify 達到重要的里程碑，付費訂閱用戶數量突破 3 億，同時慶祝 20 週年推出個人聆聽回顧功能，並有藝人歌曲播放量破億（如 Rosé 的《3am》）。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify RADAR計畫支持新興藝術家",
-      "description": "Spotify透過其RADAR計畫與新興藝術家Becca Hatch和Lewis Love合作，為他們提供發展機會並拓展粉絲群體。",
-      "severity": "low",
+      "title": "AI 驅動的個人化播客上線",
+      "description": "Spotify Studio 推出新的 AI 代理，能夠為用戶創建每日個人化的播客內容。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "用戶對Spotify內容品質表達不滿",
-      "description": "有用戶社群反映Spotify上的歌曲版本混亂，對內容管理及產品體驗表達不滿，甚至使用「Enshittification」等詞彙。",
-      "severity": "low",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Spotify訂閱發票綁定載具政策",
-      "description": "台灣財政部宣導Netflix、Spotify等跨境電商訂閱服務的發票可綁定電子載具，以實現自動對獎和獎金入帳。",
+      "title": "青少年將播客留言區作為秘密社交空間",
+      "description": "有報導指出，青少年開始利用 Spotify 播客的留言區作為秘密聊天室，規避傳統社群媒體的限制。",
       "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "Spotify服務故障",
-    "當機",
-    "用戶受影響",
-    "泰勒絲",
-    "新歌上線",
-    "播放紀錄",
-    "20週年",
-    "回顧功能",
-    "免費會員限制",
-    "發票載具",
-    "Claude"
+    "人工智慧 (AI)",
+    "服務中斷 / 當機",
+    "藝人政策 / 酬勞",
+    "用戶成長 / 訂閱數",
+    "播客互動",
+    "財務表現 / 股價",
+    "發票管理"
   ],
-  "daily_summary": "今日Spotify輿情主要由全球服務當機事件主導，導致大量用戶抱怨與負面聲量。儘管如此，泰勒絲新歌上線創下播放紀錄、Spotify 20週年回顧功能推出，以及K-pop歌手音樂里程碑，為平台帶來了正面的聲量。此外，Spotify測試限制免費會員收聽新歌的政策引發部分關注，而跨境電商發票綁定載具的議題也間接提及Spotify。",
+  "daily_summary": "今日 Spotify 的輿情主要圍繞其 AI 內容政策、服務穩定性及財務表現。平台一方面積極對 AI 藝術家進行標籤與管理，另一方面卻遭遇了大規模的服務中斷及疲弱的財務展望，導致股價下跌。儘管面臨挑戰，Spotify 也取得了正面成就，如付費訂閱用戶突破三億，並推出 20 週年回顧和 AI 個人化播客等新功能，展現其在用戶體驗和創新上的努力。",
   "article_analyses": [
     {
-      "title": "Spotify、Claude當機！ 逾萬用戶集中回報服務故障",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify服務當機",
-        "逾萬用戶受影響",
-        "Claude同步故障"
-      ]
-    },
-    {
-      "title": "快訊／Spotify、Claude同時掛了！官方證實",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify與Claude服務故障",
-        "官方證實"
-      ]
-    },
-    {
-      "title": "音樂聽不了、AI也罷工！Spotify與Claude爆大當機　萬人受害",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify及Claude大規模當機",
-        "用戶無法使用音樂及AI服務"
-      ]
-    },
-    {
-      "title": "快訊／Spotify、Claude掛了！用戶崩潰：歌聽到一半　官方搶修中",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify服務中斷",
-        "用戶體驗受損",
-        "官方正在搶修"
-      ]
-    },
-    {
-      "title": "美國 Spotify 宕機！近2萬人回報App打不開、歌放不出來，官方回應：正在查",
-      "sentiment": "negative",
-      "key_points": [
-        "美國Spotify服務宕機",
-        "近2萬用戶受影響",
-        "官方展開調查"
-      ]
-    },
-    {
-      "title": "泰勒絲 Taylor Swift《The Encore》4 首新歌上線！Spotify 單日播放刷新今年女歌手紀錄！",
+      "title": "Spotify starts labeling AI artists and removing them from recommendations - GSMArena.com news",
       "sentiment": "positive",
       "key_points": [
-        "泰勒絲新歌《The Encore》上線",
-        "刷新Spotify女歌手單日播放紀錄"
+        "Spotify 開始為 AI 藝人貼標籤",
+        "將 AI 藝人從推薦中移除"
       ]
     },
     {
-      "title": "Downdetector數據顯示，Spotify和Anthropic旗下的Claude對部分美國用戶出現故障",
+      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "Downdetector顯示Spotify和Claude對美國用戶故障",
-        "服務中斷問題"
+        "用戶及利潤展望疲弱",
+        "Spotify 股價下跌"
       ]
     },
     {
-      "title": "Spotify、Claude傳災情！逾萬名用戶集中回報服務故障",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify和Claude傳出服務故障災情",
-        "逾萬用戶回報"
-      ]
-    },
-    {
-      "title": "Spotify、Claude當機！　逾萬用戶集中回報服務故障 | 財經 | CTWANT",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify與Claude當機",
-        "逾萬用戶回報服務故障"
-      ]
-    },
-    {
-      "title": "快訊／ Spotify、Claude同時掛了！ 官方證實",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify及Claude服務同時故障",
-        "官方證實"
-      ]
-    },
-    {
-      "title": "據網絡狀況監測網站DownDetector：用戶報告顯示Spotify(SPOT.N)存在問題。",
-      "sentiment": "negative",
-      "key_points": [
-        "DownDetector指出Spotify存在問題",
-        "用戶報告顯示故障"
-      ]
-    },
-    {
-      "title": "Downdetector數據顯示，Spotify在美國數千名用戶處出現服務中斷",
-      "sentiment": "negative",
-      "key_points": [
-        "Downdetector顯示Spotify在美國數千用戶服務中斷",
-        "服務故障"
-      ]
-    },
-    {
-      "title": "‎《Spotify - 音樂和 Podcast》App - App Store",
+      "title": "UkeySoft Spotify Music Converter Review: Download Spotify to MP3 with Free Account(2026) - Latest Hacking News | Cyber Security News, Hacking Tools and Penetration Testing Courses",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify App提供音樂與Podcast服務",
-        "支援個人化推薦"
+        "第三方工具 UkeySoft Spotify Music Converter 評測",
+        "允許免費帳戶下載 DRM-free MP3"
       ]
     },
     {
-      "title": "Termos e condições de uso - Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify服務條款說明用戶回饋使用權",
-        "回饋不具機密性"
-      ]
-    },
-    {
-      "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat | Hacker News",
-      "sentiment": "neutral",
-      "key_points": [
-        "用戶將Spotify評論區轉變為秘密群組聊天",
-        "展現用戶創意互動"
-      ]
-    },
-    {
-      "title": "Spotify down for international users, Downdetector shows | The Jerusalem Post",
+      "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "Spotify全球用戶服務中斷",
-        "Downdetector顯示問題",
-        "官方正在調查"
+        "Lorde 批評 Spotify 的 AI 功能"
       ]
     },
     {
-      "title": "Is Spotify down? Thousands report streaming issues across U.S. - AS USA",
-      "sentiment": "negative",
-      "key_points": [
-        "美國數千名Spotify用戶報告串流問題",
-        "服務當機"
-      ]
-    },
-    {
-      "title": "Becca Hatch, Lewis Love Tapped For Spotify’s RADAR Program",
+      "title": "Spotify will label 'AI Persona' profiles and exclude their music from recommendations | TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify RADAR計畫選中Becca Hatch與Lewis Love",
-        "支持新興藝術家"
+        "Spotify 將標記「AI Persona」資料",
+        "將其音樂從推薦中排除"
       ]
     },
     {
-      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
+      "title": "Kids turn Spotify podcasts into a secret social network | Mediaweek",
       "sentiment": "neutral",
       "key_points": [
-        "財政部宣導Spotify等訂閱服務發票綁定載具",
-        "實現自動對獎"
+        "兒童將 Spotify 播客留言區轉為秘密社交網絡"
+      ]
+    },
+    {
+      "title": "Kids are using NPR podcast comments as secret group chats",
+      "sentiment": "neutral",
+      "key_points": [
+        "青少年利用 NPR 播客留言區作為秘密聊天室",
+        "展現青少年創造性地規避社群限制"
+      ]
+    },
+    {
+      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify 創建「AI Persona」標籤",
+        "應對 AI 生成藝術家引發的爭議"
       ]
     },
     {
       "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
       "sentiment": "neutral",
       "key_points": [
-        "載具綁定教學",
-        "提及Spotify訂閱發票",
-        "對獎方便性"
+        "關於手機載具發票對獎的實用資訊",
+        "間接提及 Spotify 訂閱發票"
+      ]
+    },
+    {
+      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
+      "sentiment": "neutral",
+      "key_points": [
+        "財政部教學如何綁定 Spotify 等跨境電商發票載具",
+        "實現發票自動入帳"
+      ]
+    },
+    {
+      "title": "Question of the Day: What is the most streamed song on Spotify?",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討 Spotify 上播放量最高的歌曲"
       ]
     },
     {
       "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify等跨境電商發票載具歸戶方法",
-        "自動對獎功能"
+        "提供兩種方法設定 Netflix、Spotify 等跨境電商發票自動對獎"
       ]
     },
     {
-      "title": "電子郵件載具歸戶設定一次看　Netflix、Spotify訂閱發票不漏對 | 生活 | 中央社 CNA",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify等訂閱服務電子發票載具歸戶設定",
-        "避免錯失中獎"
-      ]
-    },
-    {
-      "title": "Grammy Winner Tems Makes A Homecoming Performance At The Spotify Surround Sound Event",
+      "title": "Spotify Studio’s AI agent creates a daily podcast just for you | The Verge",
       "sentiment": "positive",
       "key_points": [
-        "葛萊美獎得主Tems在Spotify Surround Sound活動演出",
-        "慶祝里程碑與感謝粉絲"
-      ]
-    },
-    {
-      "title": "Having issues streaming on Spotify? You're not alone. ...",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify測試限制免費用戶新歌收聽權限",
-        "用戶可能遭遇串流問題"
-      ]
-    },
-    {
-      "title": "SPOTIFY GOT LIQUID GLASS : r/truespotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify可能推出Liquid Glass介面更新",
-        "探索新設計"
-      ]
-    },
-    {
-      "title": "You aren't the only one struggling to stream Spotify right ...",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify服務出現問題",
-        "用戶無法使用App",
-        "影響串流體驗"
-      ]
-    },
-    {
-      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
-      "sentiment": "neutral",
-      "key_points": [
-        "日本電台節目《荻上チキ・ Session》可在Spotify收聽",
-        "Spotify作為播客平台"
-      ]
-    },
-    {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": [
-        "日本電台節目《荻上チキ・Session》在Spotify上線",
-        "Spotify作為音頻內容分發平台"
+        "Spotify Studio 的 AI 代理可創建每日個人化播客"
       ]
     },
     {
       "title": "Spotify 20 週年個人回顧　解鎖你專屬的一生聆聽數據 | Hypebeast",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出20週年個人回顧功能",
-        "泰勒絲為史上串流次數最高歌手",
-        "平台數據敘事領先地位"
+        "Spotify 慶祝 20 週年推出個人化聆聽數據回顧",
+        "Taylor Swift 與 Bad Bunny 為串流巨頭，The Weeknd 歌曲播放量最高"
       ]
     },
     {
-      "title": "The (Continuing and) Unbridled Enshittification of Spotify",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶抱怨Spotify歌曲版本混亂",
-        "對內容管理不滿",
-        "產品品質下降的擔憂"
-      ]
-    },
-    {
-      "title": "#朴彩英亚女一# ❤️‍🔥 #朴彩英kpop女一# 【朴彩英消息】260923@roses_are_rosie 的《3am》在 Spotify 上的播放量现已突破1 亿🔥专辑《rosie》中第6 首达到这一里程碑的歌曲。【非常重要】‼️美区iTunes教程：http://t.cn/A6n70l1n📊声破天、电台教程：http://t.cn/A6EDh2j",
+      "title": "Spotify Hits 300 Million Premium Subscribers. Here’s What’s Next for the Stock | TIKR.com",
       "sentiment": "positive",
       "key_points": [
-        "K-pop歌手朴彩英單曲《3am》在Spotify播放量突破1億",
-        "展現藝人在平台上的影響力"
+        "Spotify 付費訂閱用戶突破 3 億大關",
+        "分析股票未來走勢"
+      ]
+    },
+    {
+      "title": "‎《Spotify - 音樂和 Podcast》App - App Store",
+      "sentiment": "neutral",
+      "key_points": [
+        "介紹 Spotify App 的音樂與播客功能",
+        "提供搜尋、播放清單、推薦等服務"
+      ]
+    },
+    {
+      "title": "用户报告显示SPOTIFY出现问题。",
+      "sentiment": "negative",
+      "key_points": [
+        "用戶報告 Spotify 服務出現問題"
+      ]
+    },
+    {
+      "title": "Spotify、Claude當機！　逾萬用戶集中回報服務故障 | CTWANT | LINE TODAY",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify 與 Claude 服務當機",
+        "逾萬用戶回報服務故障"
+      ]
+    },
+    {
+      "title": "NPR 節目的Spotify 留言區突然冒出一串看似機器人的短訊息",
+      "sentiment": "neutral",
+      "key_points": [
+        "國中生將 NPR 節目的 Spotify 留言區用作秘密聊天室"
+      ]
+    },
+    {
+      "title": "Sylvan Esso 在抵制這個平台一年後重返Spotify : r/popheads",
+      "sentiment": "negative",
+      "key_points": [
+        "Sylvan Esso 在抵制一年後重返 Spotify",
+        "引發對 Spotify 藝人酬勞政策的討論"
+      ]
+    },
+    {
+      "title": "#朴彩英亚女一# ❤️‍🔥 #朴彩英kpop女一# 【朴彩英消息】260923@roses_are_rosie 的《3am》在 Spotify 上的播放量现已突破 1 亿🔥专辑《rosie》中第 6 首达到这一里程碑的歌曲。【非常重要】‼️美区iTunes教程：http://t.cn/A6n70l1n📊声破天、电台教程：http://t.cn/A6EDh2jk📈刷推 ​|朴彩英|3am|spotify|播放量破亿_新浪新闻",
+      "sentiment": "positive",
+      "key_points": [
+        "朴彩英 (Rosé) 的《3am》在 Spotify 播放量突破 1 億",
+        "達成重要里程碑"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20260930_062323.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20260930.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261001_065954.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261001.jpg"
 }
