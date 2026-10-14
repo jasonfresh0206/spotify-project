@@ -1,260 +1,356 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.6,
+    "positive_ratio": 0.2,
     "negative_ratio": 0.2,
-    "neutral_ratio": 0.2
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "服務當機與恢復",
-      "description": "Spotify服務曾發生大規模當機，逾萬用戶回報故障，隨後公司表示問題已解決。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI相關功能與爭議",
-      "description": "Spotify推出『AI Persona』標籤以標示AI生成藝人，並有AI代理可生成個人化Podcast。然而，歌手Lorde對Spotify的AI功能提出批評，且有音樂人因不滿創辦人投資AI軍事公司而下架作品。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "財務與股價波動",
-      "description": "Spotify因用戶和利潤展望疲軟導致股價下跌，但隨後因有聲書業務全球化及整體看好，股價有所回升。",
+      "title": "AI音樂政策與爭議",
+      "description": "Spotify推出針對AI生成藝人身分的新標籤，並宣布將不推薦來自「AI人格」的音樂，以回應社群擔憂和藝人（如Lorde）的批評，此前曾發生真人歌曲因AI音樂風波被下架的事件。",
       "severity": "high",
       "sentiment": "neutral"
     },
     {
-      "title": "年度回顧與藝人成就",
-      "description": "Spotify Wrapped 2025推出新功能並公布熱門榜單。多位藝人（如Drake、Miki Matsubara）在平台上創下串流播放紀錄，但KPOP女團ILLIT的聽眾數突破成績也引發灌水質疑。",
+      "title": "服務當機與資安風險",
+      "description": "Spotify服務曾發生大規模當機，導致數千名用戶回報問題。同時，也出現針對Spotify播客投票的釣魚詐騙，目標為用戶登入憑證，構成資安威脅。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "有聲書業務全球擴張與股價上漲",
+      "description": "Spotify宣布計劃在年內將有聲書功能擴展至全球180多個市場，覆蓋120多種語言，此消息帶動Spotify股價上漲，並獲得分析師的正面評價。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Podcast平台擴展",
-      "description": "Spotify將支援Apple的HLS技術以擴展Podcast功能，並上架Portola Festival的現場表演及DJ套組，同時在哥倫比亞推出『Shapers』計畫以支持音樂推薦者。",
+      "title": "財報展望不佳導致股價下跌",
+      "description": "Spotify因用戶及利潤的第三季度展望疲軟，導致股價一度下跌約6.2%。",
       "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "新功能與技術整合",
+      "description": "Spotify與萬事達卡攜手推出支付音效，同時也將支援Apple的HLS技術，為播客功能開啟新的可能性。",
+      "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
-    "AI",
+    "AI音樂",
+    "有聲書",
+    "播客",
     "當機",
-    "藝人",
-    "Podcast",
     "股價",
-    "Wrapped",
-    "串流播放",
-    "KPOP",
-    "新功能",
-    "抵制"
+    "藝人",
+    "政策",
+    "發票"
   ],
-  "daily_summary": "今日Spotify輿情呈現兩極化。一方面，平台積極推出AI相關新功能、擴展Podcast內容並展現藝人成就與年度回顧的亮眼表現。另一方面，服務當機、創辦人投資引發音樂人抵制及Lorde對AI的批評，以及部分藝人數據的灌水疑慮，都為平台帶來負面討論。",
+  "daily_summary": "今日Spotify輿情呈兩極分化，一方面因應AI音樂爭議，平台推出新政策，包括為AI生成藝人設立標籤並停止推薦相關音樂，顯示官方正積極處理此類問題。另一方面，Spotify遭遇大規模服務當機與釣魚詐騙警報，影響用戶體驗與資安。不過，其有聲書業務全球擴張計劃獲得市場積極回應，提振了公司股價。",
   "article_analyses": [
     {
-      "title": "AI 時代下的品牌新商業：集結 6D-K 木住野彰悟、NVIDIA、Spotify等 8 組重磅講者的創意策略",
+      "title": "從 Spotify 看台灣與世界音樂趨勢，獨家專訪「亞洲區音樂總監Kossy」，我們該如何破圈與定位？",
       "sentiment": "positive",
       "key_points": [
-        "Spotify參與AI時代品牌商業策略討論",
-        "被視為重要講者之一"
+        "專訪亞洲區音樂總監Kossy探討音樂趨勢",
+        "分析台灣與全球市場的破圈與定位策略"
       ]
     },
     {
-      "title": "Spotify、Claude當機！　逾萬用戶集中回報服務故障 | 財經 | CTWANT",
+      "title": "萬事達卡攜手Spotify推支付音效 科特勒理論解讀品牌新策略",
+      "sentiment": "positive",
+      "key_points": [
+        "萬事達卡與Spotify合作推出支付音效",
+        "透過科特勒理論解讀品牌創新策略"
+      ]
+    },
+    {
+      "title": "真人寫的歌也被下架？AI音樂風波越燒越大- 生活新聞",
       "sentiment": "negative",
       "key_points": [
-        "Spotify服務發生大規模當機",
-        "逾萬用戶回報服務故障"
+        "AI音樂引發版權爭議，真人歌曲受影響",
+        "AI音樂風波持續擴大"
+      ]
+    },
+    {
+      "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify — Spotify",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify為AI生成藝人身分引入新標籤",
+        "旨在增加內容透明度"
       ]
     },
     {
       "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
       "sentiment": "negative",
       "key_points": [
-        "Spotify承認服務中斷並展開調查",
-        "隨後發布『all clear』表示問題已解決"
+        "Spotify服務發生大規模當機",
+        "數千名用戶回報問題，公司正在調查"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "歌手Lorde公開批評Spotify的AI功能"
-      ]
-    },
-    {
-      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出『AI Persona』標籤",
-        "旨在標示AI生成藝人，維護信任與真實性"
+        "歌手Lorde公開批評Spotify的AI功能",
+        "藝人對AI音樂表達擔憂"
       ]
     },
     {
       "title": "Spotify to add 'AI Persona' badges to AI-generated artist profiles - Culture - Images",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "key_points": [
-        "Spotify將在AI生成藝人檔案中加入『AI Persona』徽章",
-        "藝人可自行揭露，平台也將審查"
+        "Spotify將為AI生成藝人資料添加「AI人格」標誌",
+        "回應用戶對內容來源的擔憂"
+      ]
+    },
+    {
+      "title": "Spotify says it won’t recommend music from ‘AI Personas’ | The Verge",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify表示將不推薦來自「AI人格」的音樂",
+        "透過人工和AI工具識別AI生成內容"
       ]
     },
     {
       "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "Spotify因用戶和利潤展望疲軟導致股價下跌"
+        "Spotify用戶及利潤展望疲軟",
+        "導致公司股價下跌約6.2%"
       ]
     },
     {
-      "title": "Drake 'Iceman' Sets 2026 Spotify Single-Day Record for Album Streams",
-      "sentiment": "positive",
-      "key_points": [
-        "Drake專輯在Spotify創下單日串流紀錄"
-      ]
-    },
-    {
-      "title": "Spotify Studio’s AI agent creates a daily podcast just for you | The Verge",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Studio推出AI代理，為用戶生成個人化每日Podcast和播放列表"
-      ]
-    },
-    {
-      "title": "優秀",
+      "title": "Question of the Day: What is the most streamed song on Spotify?",
       "sentiment": "neutral",
       "key_points": [
-        "Podcast『亞洲教父』可在Spotify收聽"
+        "關於Spotify最常播放歌曲的提問",
+        "無直接Spotify營運新聞"
+      ]
+    },
+    {
+      "title": "Fake Spotify podcast vote phishing targets user login credentials | Fox News",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify播客投票出現釣魚詐騙",
+        "詐騙目標為用戶登入憑證"
+      ]
+    },
+    {
+      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify與Netflix訂閱開立發票",
+        "財政部教學載具歸戶自動對獎流程"
+      ]
+    },
+    {
+      "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
+      "sentiment": "neutral",
+      "key_points": [
+        "分享手機載具兌獎技巧與中獎經驗",
+        "與Spotify直接關聯性低"
+      ]
+    },
+    {
+      "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
+      "sentiment": "neutral",
+      "key_points": [
+        "教導用戶設定Netflix與Spotify跨境電商載具歸戶",
+        "確保發票自動對獎不漏接"
       ]
     },
     {
       "title": "Spotify will soon support Apple's technology to open new doors for podcasts",
       "sentiment": "positive",
       "key_points": [
-        "Spotify將支援Apple的HLS技術，有助於Podcast功能擴展"
+        "Spotify將支援Apple的HLS技術",
+        "為播客功能開闢新可能性"
       ]
     },
     {
-      "title": "Katseye, Addison Rae, Lola Young and more light up pre-Grammy Spotify showcase",
+      "title": "How to find Spotify Wrapped, YouTube Recap and more as 2025 comes to a close",
+      "sentiment": "neutral",
+      "key_points": [
+        "提供用戶查詢Spotify Wrapped等年度回顧功能指南",
+        "季節性功能提醒"
+      ]
+    },
+    {
+      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "sentiment": "neutral",
+      "key_points": [
+        "日本電台節目推薦小中學生漫畫",
+        "與Spotify營運無直接關聯"
+      ]
+    },
+    {
+      "title": "Spotify 有声书功能将在年内扩展至超 180 个市场，覆盖超 120 种语言_游戏新闻_17173.com中国游戏门户站",
       "sentiment": "positive",
       "key_points": [
-        "Spotify舉辦年度葛萊美前瞻活動，展示新銳藝人"
-      ]
-    },
-    {
-      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "多組音樂人因不滿Spotify創辦人投資AI軍事公司而下架作品",
-        "引發抵制行動"
-      ]
-    },
-    {
-      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped 2025推出新功能如計算聆聽年齡",
-        "公布全球熱門榜單"
-      ]
-    },
-    {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped 2025揭曉年度最強歌手",
-        "有巨星全球播放量達200億次"
+        "Spotify有聲書功能將大幅擴展",
+        "預計覆蓋180多個市場及120多種語言"
       ]
     },
     {
       "title": "Spotify Stock Is Up Nearly 9% Since September 30 as Audiobooks Go Global. Here’s Where It Could Go by 2030 | TIKR.com",
       "sentiment": "positive",
       "key_points": [
-        "Spotify股價自9月底以來上漲近9%",
-        "有聲書業務擴展至全球"
+        "Spotify股價因有聲書業務全球擴張上漲近9%",
+        "分析師看好長期發展潛力"
       ]
     },
     {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網",
+      "title": "本自媒体供货商平台提供文案定制，TikTok用户随机文字评论",
       "sentiment": "neutral",
       "key_points": [
-        "討論Apple Music是否應效仿Spotify的商業模式",
-        "文章反駁其必要性"
+        "自媒體平台提供文案定制與TikTok用戶評論服務",
+        "提及Spotify評論語境"
       ]
     },
     {
-      "title": "Live Performances and Longform Video DJ Sets From Portola Festival Just Dropped on Spotify — Spotify",
+      "title": "KeyBanc維持Spotify股票增持評級，看好有聲書業務增長前景",
       "sentiment": "positive",
       "key_points": [
-        "Portola Festival的現場表演和DJ套組已在Spotify上架"
+        "KeyBanc維持Spotify股票增持評級",
+        "看好有聲書業務的增長前景"
       ]
     },
     {
-      "title": "Spotify 在哥伦比亚推出 Shapers 让音乐推荐者走到台前 | 中国之星新闻网 China Star News Chicago",
+      "title": "Spotify计划到2026年底将有声书业务扩展至180多个市场。",
       "sentiment": "positive",
       "key_points": [
-        "Spotify在哥倫比亞推出『Shapers』計畫",
-        "旨在提升音樂推薦者的能見度"
+        "Spotify計劃於2026年底將有聲書業務擴展",
+        "預計覆蓋180多個市場"
       ]
     },
     {
-      "title": "Spotify各國受歡迎KPOP統整！柾國SOLO成績超強　韓國人竟最愛「他」 | 娛樂星聞",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify公布各國KPOP受歡迎程度數據",
-        "顯示多位KPOP藝人在平台上的強勁表現"
-      ]
-    },
-    {
-      "title": "Miki Matsubara〈Mayonaka no Door ～ Stay With Me〉Spotify 串流播放突破 5 億次 | Hypebeast",
-      "sentiment": "positive",
-      "key_points": [
-        "Miki Matsubara的歌曲在Spotify上串流播放突破5億次",
-        "提及Drake專輯也創下串流紀錄"
-      ]
-    },
-    {
-      "title": "ILLIT打破BLACKPINK成績！登「Spotify聽眾最多KPOP女團」遭疑灌水 | 娛樂 | Newtalk新聞",
+      "title": "台灣羚聲播客-2026年10月10日新聞評論",
       "sentiment": "neutral",
       "key_points": [
-        "ILLIT成為Spotify上每月聽眾最多的KPOP女團",
-        "但伴隨灌水疑慮的爭議"
+        "台灣羚聲播客提供新聞評論內容",
+        "與Spotify營運無直接關聯"
       ]
     },
     {
-      "title": "When Spotify Spent 13 Weeks Fixing a Problem Nobody ...",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify透過專注用戶體驗和提供合法替代方案",
-        "革新音樂消費並建立品牌"
-      ]
-    },
-    {
-      "title": "$Spotify Technology (SPOT.US)$$SPOT — Spotify正悄然將自身打造爲一家全球性音... - moomoo 社區",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify正將自身定位為一家全球性音訊公司，具備擴張潛力"
-      ]
-    },
-    {
-      "title": "Is Spotify still worth it in 2026?",
+      "title": "门户资讯互动！本自媒体供货商平台提供权重优化，提升网易新闻評論赞 | Podcast on Spotify",
       "sentiment": "neutral",
       "key_points": [
-        "討論Spotify在市場上眾多串流服務中的價值和競爭力"
+        "自媒體平台提供資訊互動與評論優化服務",
+        "提及Spotify播客作為內容發布平台"
       ]
     },
     {
-      "title": "“Patient Zero” became Spotify's most-streamed song by a ...",
+      "title": "流媒体音乐巨头Spotify如何崛起？-虎嗅网",
+      "sentiment": "neutral",
+      "key_points": [
+        "分析Spotify作為流媒體音樂巨頭的崛起歷程",
+        "探討其拓展播客業務的策略"
+      ]
+    },
+    {
+      "title": "萬事達卡攜手Spotify推支付音效 科特勒理論解讀品牌新策略 | 商傳媒 | LINE TODAY",
+      "sentiment": "positive",
+      "key_points": [
+        "萬事達卡與Spotify合作推出支付音效",
+        "透過科特勒理論解讀品牌創新策略"
+      ]
+    },
+    {
+      "title": "75 Best China News Podcasts to Listen to in 2026",
+      "sentiment": "neutral",
+      "key_points": [
+        "推薦2026年最佳中國新聞播客列表",
+        "Spotify為其中一個收聽平台"
+      ]
+    },
+    {
+      "title": "‎WalkUpJams - 评分及评论 - App Store",
       "sentiment": "negative",
       "key_points": [
-        "歌曲『Patient Zero』在Spotify全球榜單上出現單日串流大幅下降"
+        "WalkUpJams應用程式存在多項錯誤",
+        "與Spotify整合功能有時間和音量問題"
       ]
     },
     {
-      "title": "Comment regarder des podcasts vidéo sur Spotify",
+      "title": "今天的HOT 基礎英文新聞來了🔥 5 則重要 ...",
       "sentiment": "neutral",
       "key_points": [
-        "提供如何在Spotify上觀看視訊Podcast的教學"
+        "提供每日英文新聞摘要",
+        "提及Spotify作為音頻內容來源"
+      ]
+    },
+    {
+      "title": "‎《Shazam 音樂神搜》App - App Store",
+      "sentiment": "neutral",
+      "key_points": [
+        "Shazam音樂辨識應用程式介紹",
+        "未直接提及Spotify相關營運新聞"
+      ]
+    },
+    {
+      "title": "1 million streams on Spotify? Celebrate it with your own ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "鼓勵音樂人在Spotify達成百萬播放後製作實體產品",
+        "針對藝術家的推廣服務"
+      ]
+    },
+    {
+      "title": "財經起床號｜關鍵評論網共同創辦人楊士範導讀《可能內容不 ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "財經節目導讀內容不實議題",
+        "與Spotify營運無直接關聯"
+      ]
+    },
+    {
+      "title": "OpenAI推ChatGPT视觉广告、好奇号第48次钻探与世界太空周",
+      "sentiment": "neutral",
+      "key_points": [
+        "OpenAI推出ChatGPT視覺廣告",
+        "好奇號火星鑽探及世界太空週新聞"
+      ]
+    },
+    {
+      "title": "CAPITAL 958 新闻开麦啦：商家被揭买假网评消费者如何自 ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "探討商家購買虛假網評事件",
+        "與Spotify營運無直接關聯"
+      ]
+    },
+    {
+      "title": "互动权重升温！网友与AI推荐的氛围营造，增加今日头条收藏 ...",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論社群互動與AI推薦如何增加平台收藏量",
+        "與Spotify營運無直接關聯"
+      ]
+    },
+    {
+      "title": "The Jio Show",
+      "sentiment": "neutral",
+      "key_points": [
+        "播客節目介紹音樂人李偉菘的音樂歷程",
+        "與Spotify營運無直接關聯"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261013_072836.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261013.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261014_055536.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261014.jpg"
 }
