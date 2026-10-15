@@ -1,356 +1,260 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.2,
-    "negative_ratio": 0.2,
-    "neutral_ratio": 0.6
+    "negative_ratio": 0.3,
+    "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "AI音樂政策與爭議",
-      "description": "Spotify推出針對AI生成藝人身分的新標籤，並宣布將不推薦來自「AI人格」的音樂，以回應社群擔憂和藝人（如Lorde）的批評，此前曾發生真人歌曲因AI音樂風波被下架的事件。",
-      "severity": "high",
+      "title": "私訊功能爆紅引發社會討論",
+      "description": "Spotify內建的私訊功能被廣泛討論，因其隱蔽性而意外被網友戲稱為「偷情勝地」，引發情侶間查勤的社群話題。",
+      "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "服務當機與資安風險",
-      "description": "Spotify服務曾發生大規模當機，導致數千名用戶回報問題。同時，也出現針對Spotify播客投票的釣魚詐騙，目標為用戶登入憑證，構成資安威脅。",
+      "title": "大規模資料盜取事件",
+      "description": "Spotify證實有第三方未經授權存取平台資料，包含約2.56億筆曲目中繼資料及部分音訊檔案，恐足以建立「個人版Spotify」。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "有聲書業務全球擴張與股價上漲",
-      "description": "Spotify宣布計劃在年內將有聲書功能擴展至全球180多個市場，覆蓋120多種語言，此消息帶動Spotify股價上漲，並獲得分析師的正面評價。",
-      "severity": "medium",
-      "sentiment": "positive"
-    },
-    {
-      "title": "財報展望不佳導致股價下跌",
-      "description": "Spotify因用戶及利潤的第三季度展望疲軟，導致股價一度下跌約6.2%。",
+      "title": "免費用戶功能解禁與付費用戶不滿",
+      "description": "Spotify向免費用戶開放了自由選歌等三項原屬於付費會員的功能，提升了免費版體驗，但卻引發部分付費用戶「被當盤子」的抱怨。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "新功能與技術整合",
-      "description": "Spotify與萬事達卡攜手推出支付音效，同時也將支援Apple的HLS技術，為播客功能開啟新的可能性。",
+      "title": "Android版應用程式效能問題",
+      "description": "多數Android用戶反映Spotify應用程式在使用上愈來愈卡頓，官方已證實此問題並表示正在調查中。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "全球訂閱價格上漲",
+      "description": "Spotify Premium宣布自7月24日起在多個地區（如香港）調漲月費，單人月費增加10港元至68港元，為逾十年來首次加價。",
+      "severity": "high",
+      "sentiment": "negative"
+    },
+    {
+      "title": "推出全新「筆記」功能",
+      "description": "Spotify曝光全新「筆記」功能，允許用戶透過打字來調教演算法，以改善推薦歌曲的精準度與使用者體驗。",
       "severity": "low",
       "sentiment": "positive"
+    },
+    {
+      "title": "股價上漲與有聲書業務增長",
+      "description": "Spotify股價自9月底以來上漲近9%，主要受惠於有聲書業務在全球的擴展，顯示公司在多元化發展上取得進展。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify Wrapped年度回顧受好評",
+      "description": "Spotify Wrapped 2025年度回顧活動及年度最強歌手排名再次引發社群熱烈討論，某巨星全球播放量達200億次奪冠，證明其成功的用戶參與策略。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cantor Fitzgerald下調目標價",
+      "description": "投資機構Cantor Fitzgerald將Spotify的目標價下調至490美元。",
+      "severity": "medium",
+      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "AI音樂",
+    "私訊功能",
+    "免費用戶",
+    "付費用戶",
+    "訂閱費",
+    "資料外洩",
+    "加價",
+    "漲價",
+    "應用程式效能",
+    "卡頓",
+    "Spotify Wrapped",
+    "年度回顧",
     "有聲書",
-    "播客",
-    "當機",
-    "股價",
-    "藝人",
-    "政策",
-    "發票"
+    "演算法",
+    "新功能"
   ],
-  "daily_summary": "今日Spotify輿情呈兩極分化，一方面因應AI音樂爭議，平台推出新政策，包括為AI生成藝人設立標籤並停止推薦相關音樂，顯示官方正積極處理此類問題。另一方面，Spotify遭遇大規模服務當機與釣魚詐騙警報，影響用戶體驗與資安。不過，其有聲書業務全球擴張計劃獲得市場積極回應，提振了公司股價。",
+  "daily_summary": "今日Spotify輿情呈現兩極化。負面消息包括大規模資料盜取事件、Android版App卡頓及訂閱費加價，尤其免費用戶升級功能引發付費用戶不滿。正面方面，Spotify股價因有聲書業務成長而上漲，新推出的「筆記」功能及年度回顧Wrapped活動則獲得用戶好評，同時私訊功能意外成為社群熱議話題。",
   "article_analyses": [
     {
-      "title": "從 Spotify 看台灣與世界音樂趨勢，獨家專訪「亞洲區音樂總監Kossy」，我們該如何破圈與定位？",
+      "title": "連聽歌App都要查？Spotify私訊功能爆紅，網歪樓：偷情勝地再+1",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify私訊功能爆紅",
+        "被網友戲稱為「偷情勝地」"
+      ]
+    },
+    {
+      "title": "【Spotify「能私訊」！一票驚喊偷情聖地：情侶又多一個要查】 用了Spotify這麼久，現在才發現啊！！！ （#豬頭皮）",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify私訊功能被發現",
+        "引發「偷情聖地」的討論"
+      ]
+    },
+    {
+      "title": "Spotify藏1功能！老司機喊「偷情聖地」：情侶又多一個要查- 生活",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify私訊功能被「老司機」發現",
+        "情侶查勤增加項目"
+      ]
+    },
+    {
+      "title": "Spotify「能私訊」！一票驚喊偷情聖地：情侶又多一個要查",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify私訊功能引起關注",
+        "被戲稱為「偷情聖地」"
+      ]
+    },
+    {
+      "title": "Cantor Fitzgerald下調Spotify目標價至490美元",
+      "sentiment": "negative",
+      "key_points": [
+        "Cantor Fitzgerald下調Spotify目標價",
+        "目標價為490美元"
+      ]
+    },
+    {
+      "title": "圖解》梁詠琪最紅的歌不是《短髮》？30年經典金曲串流播放TOP10，《膽小鬼》《花火》誰是冠軍？",
+      "sentiment": "neutral",
+      "key_points": [
+        "梁詠琪經典金曲串流播放TOP10",
+        "討論音樂串流平台上的熱門歌曲"
+      ]
+    },
+    {
+      "title": "歌聽出偷情商機？Spotify私訊掀歪樓　網笑：情侶查勤升級 | 生活 | CTWANT",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify私訊功能引發討論",
+        "網友認為增加情侶查勤難度"
+      ]
+    },
+    {
+      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify發生大規模資料盜取事件",
+        "約2.56億筆曲目中繼資料和8600萬個音訊檔案被爬取"
+      ]
+    },
+    {
+      "title": "受夠Spotify亂推歌？全新「筆記」功能曝光 直接打字調教演算法 | 社群/APP/網紅 | udn科技玩家",
       "sentiment": "positive",
       "key_points": [
-        "專訪亞洲區音樂總監Kossy探討音樂趨勢",
-        "分析台灣與全球市場的破圈與定位策略"
+        "Spotify將推出「筆記」功能",
+        "允許用戶調教演算法"
       ]
     },
     {
-      "title": "萬事達卡攜手Spotify推支付音效 科特勒理論解讀品牌新策略",
+      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "萬事達卡與Spotify合作推出支付音效",
-        "透過科特勒理論解讀品牌創新策略"
+        "Spotify免費用戶升級，解禁3大功能",
+        "同時推出個人化播放清單和Messages功能"
       ]
     },
     {
-      "title": "真人寫的歌也被下架？AI音樂風波越燒越大- 生活新聞",
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網",
+      "sentiment": "neutral",
+      "key_points": [
+        "討論Apple Music是否應效法Spotify商業模式",
+        "《AppleInsider》反駁此觀點"
+      ]
+    },
+    {
+      "title": "Spotify重大更新！免費開放3大功能　付費用戶氣喊「被當盤子」 | 太報 | LINE TODAY",
       "sentiment": "negative",
       "key_points": [
-        "AI音樂引發版權爭議，真人歌曲受影響",
-        "AI音樂風波持續擴大"
+        "Spotify免費版開放3大功能",
+        "付費用戶抱怨權益受損"
       ]
     },
     {
-      "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify — Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify為AI生成藝人身分引入新標籤",
-        "旨在增加內容透明度"
-      ]
-    },
-    {
-      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
+      "title": "Spotify用戶哀號！Android版愈用愈卡　官方證實調查中 - 自由電子報 3C科技",
       "sentiment": "negative",
       "key_points": [
-        "Spotify服務發生大規模當機",
-        "數千名用戶回報問題，公司正在調查"
+        "Spotify Android版用戶反應卡頓",
+        "官方證實正在調查"
       ]
     },
     {
-      "title": "Lorde Calls Out Spotify Over AI Feature",
+      "title": "Spotify's Year in Review Playlists Are Confusing the Internet - Business Insider",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify年度回顧播放清單引發討論",
+        "有報導指出營收指引不佳"
+      ]
+    },
+    {
+      "title": "Spotify逾10年首加價 單人月費加10蚊至68蚊",
       "sentiment": "negative",
       "key_points": [
-        "歌手Lorde公開批評Spotify的AI功能",
-        "藝人對AI音樂表達擔憂"
+        "Spotify宣布加價",
+        "香港地區個人月費增加10港元至68港元"
       ]
     },
     {
-      "title": "Spotify to add 'AI Persona' badges to AI-generated artist profiles - Culture - Images",
+      "title": "Reddit、Spotify 紛紛收購內容審查新創，以 AI 審查不當言論有哪些隱憂？｜未來商務",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify將為AI生成藝人資料添加「AI人格」標誌",
-        "回應用戶對內容來源的擔憂"
+        "Spotify收購內容審查新創",
+        "討論AI審查言論的隱憂"
       ]
     },
     {
-      "title": "Spotify says it won’t recommend music from ‘AI Personas’ | The Verge",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify表示將不推薦來自「AI人格」的音樂",
-        "透過人工和AI工具識別AI生成內容"
-      ]
-    },
-    {
-      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify用戶及利潤展望疲軟",
-        "導致公司股價下跌約6.2%"
-      ]
-    },
-    {
-      "title": "Question of the Day: What is the most streamed song on Spotify?",
-      "sentiment": "neutral",
-      "key_points": [
-        "關於Spotify最常播放歌曲的提問",
-        "無直接Spotify營運新聞"
-      ]
-    },
-    {
-      "title": "Fake Spotify podcast vote phishing targets user login credentials | Fox News",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify播客投票出現釣魚詐騙",
-        "詐騙目標為用戶登入憑證"
-      ]
-    },
-    {
-      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與Netflix訂閱開立發票",
-        "財政部教學載具歸戶自動對獎流程"
-      ]
-    },
-    {
-      "title": "快檢查手機載具！內行實測多做1步驟「發票爽領700元」，大批網友驚呼：真的中獎了 | 林俐 | 風生活 - 風傳媒",
-      "sentiment": "neutral",
-      "key_points": [
-        "分享手機載具兌獎技巧與中獎經驗",
-        "與Spotify直接關聯性低"
-      ]
-    },
-    {
-      "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
-      "sentiment": "neutral",
-      "key_points": [
-        "教導用戶設定Netflix與Spotify跨境電商載具歸戶",
-        "確保發票自動對獎不漏接"
-      ]
-    },
-    {
-      "title": "Spotify will soon support Apple's technology to open new doors for podcasts",
+      "title": "Why YouTube Recap Flopped and Spotify Wrapped Took Off - Business Insider",
       "sentiment": "positive",
       "key_points": [
-        "Spotify將支援Apple的HLS技術",
-        "為播客功能開闢新可能性"
+        "比較YouTube Recap與Spotify Wrapped",
+        "Spotify Wrapped更受歡迎"
       ]
     },
     {
-      "title": "How to find Spotify Wrapped, YouTube Recap and more as 2025 comes to a close",
-      "sentiment": "neutral",
-      "key_points": [
-        "提供用戶查詢Spotify Wrapped等年度回顧功能指南",
-        "季節性功能提醒"
-      ]
-    },
-    {
-      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
-      "sentiment": "neutral",
-      "key_points": [
-        "日本電台節目推薦小中學生漫畫",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "Spotify 有声书功能将在年内扩展至超 180 个市场，覆盖超 120 种语言_游戏新闻_17173.com中国游戏门户站",
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
       "sentiment": "positive",
       "key_points": [
-        "Spotify有聲書功能將大幅擴展",
-        "預計覆蓋180多個市場及120多種語言"
+        "Spotify Wrapped 2025年度最強歌手排名",
+        "某巨星全球播放量達200億次奪冠"
       ]
     },
     {
       "title": "Spotify Stock Is Up Nearly 9% Since September 30 as Audiobooks Go Global. Here’s Where It Could Go by 2030 | TIKR.com",
       "sentiment": "positive",
       "key_points": [
-        "Spotify股價因有聲書業務全球擴張上漲近9%",
-        "分析師看好長期發展潛力"
+        "Spotify股價上漲近9%",
+        "有聲書業務走向全球"
       ]
     },
     {
-      "title": "本自媒体供货商平台提供文案定制，TikTok用户随机文字评论",
+      "title": "從看的變成用聽的也行！台灣人氣YouTuber經營Podcast頻道Top 10｜每日調查｜網路溫度計 DailyView",
       "sentiment": "neutral",
       "key_points": [
-        "自媒體平台提供文案定制與TikTok用戶評論服務",
-        "提及Spotify評論語境"
-      ]
-    },
-    {
-      "title": "KeyBanc維持Spotify股票增持評級，看好有聲書業務增長前景",
-      "sentiment": "positive",
-      "key_points": [
-        "KeyBanc維持Spotify股票增持評級",
-        "看好有聲書業務的增長前景"
-      ]
-    },
-    {
-      "title": "Spotify计划到2026年底将有声书业务扩展至180多个市场。",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify計劃於2026年底將有聲書業務擴展",
-        "預計覆蓋180多個市場"
-      ]
-    },
-    {
-      "title": "台灣羚聲播客-2026年10月10日新聞評論",
-      "sentiment": "neutral",
-      "key_points": [
-        "台灣羚聲播客提供新聞評論內容",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "门户资讯互动！本自媒体供货商平台提供权重优化，提升网易新闻評論赞 | Podcast on Spotify",
-      "sentiment": "neutral",
-      "key_points": [
-        "自媒體平台提供資訊互動與評論優化服務",
-        "提及Spotify播客作為內容發布平台"
-      ]
-    },
-    {
-      "title": "流媒体音乐巨头Spotify如何崛起？-虎嗅网",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析Spotify作為流媒體音樂巨頭的崛起歷程",
-        "探討其拓展播客業務的策略"
+        "台灣人氣YouTuber在Spotify等平台經營Podcast頻道",
+        "蔡阿嘎等知名創作者跨足音頻領域"
       ]
     },
     {
       "title": "萬事達卡攜手Spotify推支付音效 科特勒理論解讀品牌新策略 | 商傳媒 | LINE TODAY",
-      "sentiment": "positive",
-      "key_points": [
-        "萬事達卡與Spotify合作推出支付音效",
-        "透過科特勒理論解讀品牌創新策略"
-      ]
-    },
-    {
-      "title": "75 Best China News Podcasts to Listen to in 2026",
       "sentiment": "neutral",
       "key_points": [
-        "推薦2026年最佳中國新聞播客列表",
-        "Spotify為其中一個收聽平台"
+        "萬事達卡與Spotify合作推支付音效",
+        "此舉被視為品牌新策略"
       ]
     },
     {
       "title": "‎WalkUpJams - 评分及评论 - App Store",
       "sentiment": "negative",
       "key_points": [
-        "WalkUpJams應用程式存在多項錯誤",
-        "與Spotify整合功能有時間和音量問題"
-      ]
-    },
-    {
-      "title": "今天的HOT 基礎英文新聞來了🔥 5 則重要 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "提供每日英文新聞摘要",
-        "提及Spotify作為音頻內容來源"
-      ]
-    },
-    {
-      "title": "‎《Shazam 音樂神搜》App - App Store",
-      "sentiment": "neutral",
-      "key_points": [
-        "Shazam音樂辨識應用程式介紹",
-        "未直接提及Spotify相關營運新聞"
-      ]
-    },
-    {
-      "title": "1 million streams on Spotify? Celebrate it with your own ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "鼓勵音樂人在Spotify達成百萬播放後製作實體產品",
-        "針對藝術家的推廣服務"
-      ]
-    },
-    {
-      "title": "財經起床號｜關鍵評論網共同創辦人楊士範導讀《可能內容不 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "財經節目導讀內容不實議題",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "OpenAI推ChatGPT视觉广告、好奇号第48次钻探与世界太空周",
-      "sentiment": "neutral",
-      "key_points": [
-        "OpenAI推出ChatGPT視覺廣告",
-        "好奇號火星鑽探及世界太空週新聞"
-      ]
-    },
-    {
-      "title": "CAPITAL 958 新闻开麦啦：商家被揭买假网评消费者如何自 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "探討商家購買虛假網評事件",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "互动权重升温！网友与AI推荐的氛围营造，增加今日头条收藏 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "討論社群互動與AI推薦如何增加平台收藏量",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "The Jio Show",
-      "sentiment": "neutral",
-      "key_points": [
-        "播客節目介紹音樂人李偉菘的音樂歷程",
-        "與Spotify營運無直接關聯"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容"
-      ]
-    },
-    {
-      "title": "無標題",
-      "sentiment": "neutral",
-      "key_points": [
-        "無內容"
+        "WalkUpJams應用程式存在多個bug",
+        "與Spotify的整合功能有問題"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261014_055536.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261014.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261015_054116.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261015.jpg"
 }
