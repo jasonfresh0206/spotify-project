@@ -1,260 +1,289 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.2,
-    "negative_ratio": 0.3,
+    "positive_ratio": 0.3,
+    "negative_ratio": 0.2,
     "neutral_ratio": 0.5
   },
   "events": [
     {
-      "title": "私訊功能爆紅引發社會討論",
-      "description": "Spotify內建的私訊功能被廣泛討論，因其隱蔽性而意外被網友戲稱為「偷情勝地」，引發情侶間查勤的社群話題。",
+      "title": "YouTube進軍有聲書市場",
+      "description": "YouTube傳聞將推出有聲書功能並整合進Premium方案，直接與Spotify及Audible競爭。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Spotify私訊功能爆紅",
+      "description": "Spotify的私訊功能意外在網路上爆紅，部分用戶討論其在人際關係中的新用途，甚至被戲稱為「偷情聖地」。",
       "severity": "medium",
       "sentiment": "neutral"
     },
     {
-      "title": "大規模資料盜取事件",
-      "description": "Spotify證實有第三方未經授權存取平台資料，包含約2.56億筆曲目中繼資料及部分音訊檔案，恐足以建立「個人版Spotify」。",
+      "title": "防彈少年團歌曲播放量破50億",
+      "description": "防彈少年團的《阿里郎》在Spotify上的播放量突破50億，再創紀錄，彰顯了其在全球音樂市場的影響力。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify與FC Barcelona聯名合作",
+      "description": "Spotify與FC Barcelona攜手Tyler, The Creator及其品牌GOLF WANG，共同打造El Clásico球衣及聯乘系列。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Spotify股價評級遭下調與利潤率承壓",
+      "description": "StoneX下調Spotify評級至持有，並對其利潤率承壓及唱片公司成本上升表示擔憂，財報發布後股價或有波動。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "免費用戶功能解禁與付費用戶不滿",
-      "description": "Spotify向免費用戶開放了自由選歌等三項原屬於付費會員的功能，提升了免費版體驗，但卻引發部分付費用戶「被當盤子」的抱怨。",
+      "title": "藝人對Spotify收益模式表達不滿",
+      "description": "藝人Sylvan Esso再次公開表達對Spotify收益分配模式的不滿，呼籲用戶考慮停止付費給Spotify。",
       "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Android版應用程式效能問題",
-      "description": "多數Android用戶反映Spotify應用程式在使用上愈來愈卡頓，官方已證實此問題並表示正在調查中。",
-      "severity": "medium",
-      "sentiment": "negative"
+      "title": "NPR Podcast評論區成青少年社交熱點",
+      "description": "NPR的Spotify Podcast評論區被年輕世代發現並用作獨特的社交場所，引發科技媒體關注。",
+      "severity": "low",
+      "sentiment": "neutral"
     },
     {
-      "title": "全球訂閱價格上漲",
-      "description": "Spotify Premium宣布自7月24日起在多個地區（如香港）調漲月費，單人月費增加10港元至68港元，為逾十年來首次加價。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "推出全新「筆記」功能",
-      "description": "Spotify曝光全新「筆記」功能，允許用戶透過打字來調教演算法，以改善推薦歌曲的精準度與使用者體驗。",
+      "title": "Spotify年度回顧與新功能推出",
+      "description": "Spotify、YouTube、Apple Music年度回顧功能出爐，Spotify推出計算聆聽年齡等全新功能，並公布全球熱門榜單。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "股價上漲與有聲書業務增長",
-      "description": "Spotify股價自9月底以來上漲近9%，主要受惠於有聲書業務在全球的擴展，顯示公司在多元化發展上取得進展。",
+      "title": "歌曲「跳樓機」在Spotify上獲高額營收",
+      "description": "中國大陸歌曲「跳樓機」在Spotify及KKBOX等平台表現亮眼，營收達到1.6億新台幣，顯示了平台對爆款內容的推動作用。",
       "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify Wrapped年度回顧受好評",
-      "description": "Spotify Wrapped 2025年度回顧活動及年度最強歌手排名再次引發社群熱烈討論，某巨星全球播放量達200億次奪冠，證明其成功的用戶參與策略。",
+      "title": "Whitney Houston歌曲播放量破10億",
+      "description": "Whitney Houston的經典歌曲《I Will Always Love You》在Spotify上的播放量正式突破10億次。",
       "severity": "low",
       "sentiment": "positive"
-    },
-    {
-      "title": "Cantor Fitzgerald下調目標價",
-      "description": "投資機構Cantor Fitzgerald將Spotify的目標價下調至490美元。",
-      "severity": "medium",
-      "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "私訊功能",
-    "免費用戶",
-    "付費用戶",
-    "訂閱費",
-    "資料外洩",
-    "加價",
-    "漲價",
-    "應用程式效能",
-    "卡頓",
-    "Spotify Wrapped",
-    "年度回顧",
+    "Spotify",
     "有聲書",
-    "演算法",
-    "新功能"
+    "私訊功能",
+    "防彈少年團",
+    "播放量",
+    "FC Barcelona",
+    "聯名",
+    "股價",
+    "評級",
+    "藝人",
+    "Podcast",
+    "新功能",
+    "競爭",
+    "財報"
   ],
-  "daily_summary": "今日Spotify輿情呈現兩極化。負面消息包括大規模資料盜取事件、Android版App卡頓及訂閱費加價，尤其免費用戶升級功能引發付費用戶不滿。正面方面，Spotify股價因有聲書業務成長而上漲，新推出的「筆記」功能及年度回顧Wrapped活動則獲得用戶好評，同時私訊功能意外成為社群熱議話題。",
+  "daily_summary": "今日Spotify輿情呈現多面向發展，面臨YouTube進軍有聲書市場的競爭壓力，同時其私訊功能因用戶討論而爆紅。在財經方面，Spotify股價評級遭下調引發擔憂，但平台也透過與FC Barcelona的聯名合作、年度回顧新功能，以及防彈少年團和「跳樓機」等熱門歌曲的優異表現，持續展現其市場影響力和內容吸引力。",
   "article_analyses": [
     {
-      "title": "連聽歌App都要查？Spotify私訊功能爆紅，網歪樓：偷情勝地再+1",
+      "title": "情侶注意了！ Spotify私訊功能爆紅 網曝：Google Drive都能偷情",
       "sentiment": "neutral",
       "key_points": [
         "Spotify私訊功能爆紅",
-        "被網友戲稱為「偷情勝地」"
+        "用戶討論新應用情境"
       ]
     },
     {
-      "title": "【Spotify「能私訊」！一票驚喊偷情聖地：情侶又多一個要查】 用了Spotify這麼久，現在才發現啊！！！ （#豬頭皮）",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify私訊功能被發現",
-        "引發「偷情聖地」的討論"
-      ]
-    },
-    {
-      "title": "Spotify藏1功能！老司機喊「偷情聖地」：情侶又多一個要查- 生活",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify私訊功能被「老司機」發現",
-        "情侶查勤增加項目"
-      ]
-    },
-    {
-      "title": "Spotify「能私訊」！一票驚喊偷情聖地：情侶又多一個要查",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify私訊功能引起關注",
-        "被戲稱為「偷情聖地」"
-      ]
-    },
-    {
-      "title": "Cantor Fitzgerald下調Spotify目標價至490美元",
+      "title": "YouTube傳將推出有聲書功能！擬整合進Premium方案，正面交鋒Spotify、Audible",
       "sentiment": "negative",
       "key_points": [
-        "Cantor Fitzgerald下調Spotify目標價",
-        "目標價為490美元"
+        "YouTube進軍有聲書",
+        "競爭Spotify",
+        "整合Premium方案"
       ]
     },
     {
-      "title": "圖解》梁詠琪最紅的歌不是《短髮》？30年經典金曲串流播放TOP10，《膽小鬼》《花火》誰是冠軍？",
-      "sentiment": "neutral",
-      "key_points": [
-        "梁詠琪經典金曲串流播放TOP10",
-        "討論音樂串流平台上的熱門歌曲"
-      ]
-    },
-    {
-      "title": "歌聽出偷情商機？Spotify私訊掀歪樓　網笑：情侶查勤升級 | 生活 | CTWANT",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify私訊功能引發討論",
-        "網友認為增加情侶查勤難度"
-      ]
-    },
-    {
-      "title": "Spotify爆大規模資料盜取事件，專家：若相關音訊流出足以建立「個人版Spotify」 - TNL The News Lens 關鍵評論網",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify發生大規模資料盜取事件",
-        "約2.56億筆曲目中繼資料和8600萬個音訊檔案被爬取"
-      ]
-    },
-    {
-      "title": "受夠Spotify亂推歌？全新「筆記」功能曝光 直接打字調教演算法 | 社群/APP/網紅 | udn科技玩家",
+      "title": "影音／防彈少年團再創紀錄！《阿里郎》Spotify播放量破50億 稱霸全球",
       "sentiment": "positive",
       "key_points": [
-        "Spotify將推出「筆記」功能",
-        "允許用戶調教演算法"
+        "防彈少年團《阿里郎》",
+        "Spotify播放量破50億",
+        "全球稱霸"
       ]
     },
     {
-      "title": "Spotify免費用戶升級！3大功能解禁「能直接選想聽的歌」，付費版比較一次看 | 風生活綜合報導 | 風生活 - 風傳媒",
+      "title": "Spotify 與 FC Barcelona 攜手 Tyler, The Creator 及其品牌 GOLF WANG 打造 El Clásico 球衣及聯乘系列",
       "sentiment": "positive",
       "key_points": [
-        "Spotify免費用戶升級，解禁3大功能",
-        "同時推出個人化播放清單和Messages功能"
+        "Spotify與FC Barcelona合作",
+        "Tyler, The Creator聯名",
+        "打造El Clásico球衣"
       ]
     },
     {
-      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」 | 鉅亨網",
-      "sentiment": "neutral",
-      "key_points": [
-        "討論Apple Music是否應效法Spotify商業模式",
-        "《AppleInsider》反駁此觀點"
-      ]
-    },
-    {
-      "title": "Spotify重大更新！免費開放3大功能　付費用戶氣喊「被當盤子」 | 太報 | LINE TODAY",
+      "title": "YouTube傳進軍有聲書市場！擬納入YouTube Premium訂閱服務，正面對決Spotify與Audible",
       "sentiment": "negative",
       "key_points": [
-        "Spotify免費版開放3大功能",
-        "付費用戶抱怨權益受損"
+        "YouTube有聲書服務",
+        "挑戰Spotify與Audible",
+        "Premium訂閱整合"
       ]
     },
     {
-      "title": "Spotify用戶哀號！Android版愈用愈卡　官方證實調查中 - 自由電子報 3C科技",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify Android版用戶反應卡頓",
-        "官方證實正在調查"
-      ]
-    },
-    {
-      "title": "Spotify's Year in Review Playlists Are Confusing the Internet - Business Insider",
+      "title": "Spotify藏1功能！用戶驚喊「偷情聖地」：情侶又多一個要查",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify年度回顧播放清單引發討論",
-        "有報導指出營收指引不佳"
+        "Spotify私訊功能",
+        "「偷情聖地」稱號",
+        "用戶關注度高"
       ]
     },
     {
-      "title": "Spotify逾10年首加價 單人月費加10蚊至68蚊",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify宣布加價",
-        "香港地區個人月費增加10港元至68港元"
-      ]
-    },
-    {
-      "title": "Reddit、Spotify 紛紛收購內容審查新創，以 AI 審查不當言論有哪些隱憂？｜未來商務",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify收購內容審查新創",
-        "討論AI審查言論的隱憂"
-      ]
-    },
-    {
-      "title": "Why YouTube Recap Flopped and Spotify Wrapped Took Off - Business Insider",
+      "title": "防彈少年團再創紀錄！《阿里郎》Spotify播放量破50億 稱霸全球 | TVBS",
       "sentiment": "positive",
       "key_points": [
-        "比較YouTube Recap與Spotify Wrapped",
-        "Spotify Wrapped更受歡迎"
+        "防彈少年團成就",
+        "《阿里郎》播放量里程碑",
+        "Spotify全球影響力"
       ]
     },
     {
-      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped 2025年度最強歌手排名",
-        "某巨星全球播放量達200億次奪冠"
-      ]
-    },
-    {
-      "title": "Spotify Stock Is Up Nearly 9% Since September 30 as Audiobooks Go Global. Here’s Where It Could Go by 2030 | TIKR.com",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify股價上漲近9%",
-        "有聲書業務走向全球"
-      ]
-    },
-    {
-      "title": "從看的變成用聽的也行！台灣人氣YouTuber經營Podcast頻道Top 10｜每日調查｜網路溫度計 DailyView",
+      "title": "Spotify期權數據顯示，該股或於10月22日財報發布後波動9.3% 作者 Investing.com - Investing.com 香港",
       "sentiment": "neutral",
       "key_points": [
-        "台灣人氣YouTuber在Spotify等平台經營Podcast頻道",
-        "蔡阿嘎等知名創作者跨足音頻領域"
+        "Spotify財報發布",
+        "股價波動預期",
+        "期權數據分析"
       ]
     },
     {
-      "title": "萬事達卡攜手Spotify推支付音效 科特勒理論解讀品牌新策略 | 商傳媒 | LINE TODAY",
-      "sentiment": "neutral",
-      "key_points": [
-        "萬事達卡與Spotify合作推支付音效",
-        "此舉被視為品牌新策略"
-      ]
-    },
-    {
-      "title": "‎WalkUpJams - 评分及评论 - App Store",
+      "title": "StoneX下調Spotify評級至持有，憂利潤率承壓及唱片公司成本上升 作者 Investing.com - Investing.com 香港",
       "sentiment": "negative",
       "key_points": [
-        "WalkUpJams應用程式存在多個bug",
-        "與Spotify的整合功能有問題"
+        "Spotify評級下調",
+        "利潤率承壓",
+        "唱片公司成本上升"
+      ]
+    },
+    {
+      "title": "Spotify 與 FC Barcelona 攜手 Tyler, The Creator 及其品牌GOLF WANG 打造 El Clásico 球衣及聯乘系列",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify與巴塞羅那聯名",
+        "Tyler, The Creator參與",
+        "時尚與體育跨界合作"
+      ]
+    },
+    {
+      "title": "Tyler, the Creator 成為 FC Barcelona 最新聯乘對象",
+      "sentiment": "positive",
+      "key_points": [
+        "Tyler, the Creator聯名",
+        "FC Barcelona新合作對象",
+        "品牌影響力擴大"
+      ]
+    },
+    {
+      "title": "Sylvan Esso on confronting the Spotify dilemma, again : NPR",
+      "sentiment": "negative",
+      "key_points": [
+        "Sylvan Esso對Spotify不滿",
+        "藝人收益困境",
+        "呼籲停止付費"
+      ]
+    },
+    {
+      "title": "Ira Glass Explains NPR Podcast Spotify Mystery Comments",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR Podcast評論區",
+        "Spotify留言現象",
+        "年輕世代社交行為"
+      ]
+    },
+    {
+      "title": "🎧 Apple Podcast https://reurl.cc/mzzgb9 🎧 Spotify https://open.spotify.com/episode/5O4vJDIDuSoSZ9WMpdZ19A?si=RJrkPk1ASEm0QUAzrpqpkQ",
+      "sentiment": "neutral",
+      "key_points": [
+        "Podcast推廣",
+        "Spotify連結提供"
+      ]
+    },
+    {
+      "title": "The hottest new hangout for middle schoolers is NPR's comment section? | TechCrunch",
+      "sentiment": "neutral",
+      "key_points": [
+        "NPR評論區青少年聚集",
+        "社交媒體趨勢",
+        "意外的線上社群"
+      ]
+    },
+    {
+      "title": "Spotify for Artists - Apps on Google Play",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify for Artists應用程式",
+        "Google Play平台"
+      ]
+    },
+    {
+      "title": "Spotify (@spotify) • Instagram photos and videos",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify官方Instagram",
+        "社群媒體活動"
+      ]
+    },
+    {
+      "title": "https://www.spotify.com/ao-pt/account/overview/",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify帳戶概覽頁面"
+      ]
+    },
+    {
+      "title": "Patient Zero - song and lyrics by Taylor Swift",
+      "sentiment": "neutral",
+      "key_points": [
+        "Taylor Swift歌曲",
+        "音樂發行資訊"
+      ]
+    },
+    {
+      "title": "I Will Always Love You” has officially crossed 1 billion ...",
+      "sentiment": "positive",
+      "key_points": [
+        "Whitney Houston經典歌曲",
+        "Spotify播放量破10億",
+        "音樂里程碑"
+      ]
+    },
+    {
+      "title": "Spotify",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify榜單發布",
+        "新曲推薦"
+      ]
+    },
+    {
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify年度回顧",
+        "新功能（聆聽年齡）",
+        "全球熱門榜單"
+      ]
+    },
+    {
+      "title": "「跳樓機」吸金破1.6億 血洗國際音樂榜",
+      "sentiment": "positive",
+      "key_points": [
+        "歌曲「跳樓機」爆紅",
+        "Spotify平台高營收",
+        "國際音樂榜單表現亮眼"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261015_054116.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261015.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261016_053450.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261016.jpg"
 }
