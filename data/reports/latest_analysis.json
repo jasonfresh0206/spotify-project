@@ -1,348 +1,278 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.3,
-    "negative_ratio": 0.3,
-    "neutral_ratio": 0.4
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.6
   },
   "events": [
     {
-      "title": "Spotify服務當機事件",
-      "description": "Spotify與Claude服務週二上午陸續出現大範圍異常，逾萬用戶回報無法正常連線，導致音樂收聽功能受阻。公司已介入調查並表示問題已解決。",
-      "severity": "high",
+      "title": "平台服務當機",
+      "description": "Spotify發生服務中斷，數千名用戶受影響，公司隨後發佈「一切正常」聲明。",
+      "severity": "medium",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify針對AI內容推出新政策與標籤",
-      "description": "Spotify推出AI生成藝人身份標籤、承諾不推薦「AI Persona」音樂，並移除了超過7500萬首AI垃圾歌曲以回應用戶關切；然而，藝人Lorde對Spotify的AI功能表達批評。",
+      "title": "AI內容規範與創新",
+      "description": "Spotify為AI生成藝術家身份引入新標籤以提升透明度，並已移除超過7500萬首AI生成的垃圾歌曲。此外，推出Spotify Studio的AI代理，可為用戶生成個人化播客與播放列表。然而，歌手Lorde對Spotify的AI功能表達了不滿。",
       "severity": "high",
       "sentiment": "neutral"
     },
     {
-      "title": "Spotify推出多項新功能及服務拓展",
-      "description": "Spotify推出「User Notes」讓播放清單個人化、新增個人化跑步模式，並擴展健身內容；私訊功能則意外成為熱議話題。",
+      "title": "新推薦演算法功能「品味檔案」上線",
+      "description": "Spotify在美國向Premium訂閱戶推出「品味檔案」（Taste Profile）功能，讓用戶對其個人化推薦有更多控制權。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "財務表現與股價波動",
-      "description": "因對用戶增長和盈利的預期較弱，Spotify股價下跌並遭到分析師降級；但公司亦批准增加15億美元的股份回購計劃，展現對自身價值的信心。",
+      "title": "Joe Rogan續簽高額內容協議",
+      "description": "知名播客主持人Joe Rogan與Spotify續簽數億美元的多年授權協議。",
+      "severity": "high",
+      "sentiment": "positive"
+    },
+    {
+      "title": "藝人對平台商業模式不滿",
+      "description": "Sylvan Esso等歌手再次公開批評Spotify的商業模式，甚至鼓勵用戶停止訂閱以示抗議。",
+      "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "財報與股價下跌",
+      "description": "由於用戶增長和利潤展望疲軟，Spotify股價在盤前交易中下跌約6.2%。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "平台用戶體驗問題",
-      "description": "多名用戶抱怨Spotify應用程式變得不穩定、難以使用，且Android播客出現重複播放等問題，導致部分用戶表達退訂意願。",
-      "severity": "medium",
+      "title": "Spotify Wrapped用戶失望",
+      "description": "許多Spotify訂閱戶對2024年的Spotify Wrapped年度回顧結果表示失望。",
+      "severity": "low",
       "sentiment": "negative"
     },
     {
-      "title": "安全警示：釣魚詐騙",
-      "description": "發現有針對Spotify用戶的釣魚活動，透過假冒播客投票誘騙用戶提交登入憑證。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "藝人成就與內容亮點",
-      "description": "防彈少年團歌曲年度播放量破百億創全球組合先河；新銳藝人LAWA獲選Spotify EQUAL大使並登上紐約時代廣場；Spotify Wrapped活動持續成功，吸引大量活躍用戶。",
-      "severity": "medium",
+      "title": "K-pop團體BTS創下平台播放量紀錄",
+      "description": "BTS成為首個在Spotify上年度播放量突破100億次的團體。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "與Live Nation合作推演唱會優先購票",
-      "description": "Spotify攜手Live Nation推出演唱會優先購票服務，引發業界討論此舉是否為真粉絲福音或變相的商業綁架。",
+      "title": "「止哭神曲」播放量破紀錄",
+      "description": "一首被稱為「止哭神曲」的歌曲已流行10年，在Spotify上播放量超過4.7億次。",
+      "severity": "low",
+      "sentiment": "positive"
+    },
+    {
+      "title": "NPR播客評論區神秘現象",
+      "description": "NPR播客評論區出現不明內容，後經Z世代員工解釋為孩童利用低流量區域進行聊天，並非機器人行為。",
       "severity": "low",
       "sentiment": "neutral"
     }
   ],
   "trending_keywords": [
-    "AI",
-    "當機",
+    "AI內容",
+    "Spotify Wrapped",
+    "藝人關係",
     "新功能",
-    "股價",
-    "藝人",
-    "用戶體驗",
-    "播客",
-    "Wrapped",
-    "私訊",
-    "訂閱"
+    "平台穩定性",
+    "財務表現"
   ],
-  "daily_summary": "今日 Spotify 輿情呈現兩極化趨勢。一方面，平台積極推出「User Notes」、個人化跑步模式等新功能以提升用戶體驗，並透過AI內容標籤化、移除垃圾音樂等措施回應AI議題，更有多位藝人取得亮眼成就。另一方面，服務當機、應用程式不穩定、用戶退訂及股價下跌等負面消息也持續受到關注，顯示在創新發展的同時，核心服務的穩定性與用戶滿意度仍是重要挑戰。",
+  "daily_summary": "本日Spotify輿情呈現多重面向。正面消息包括AI個人化播客、新推薦功能「品味檔案」上線及Joe Rogan續約，同時平台也積極應對AI內容氾濫。然而，平台遭遇短暫當機、藝人對AI功能及商業模式的不滿，加上財報預期疲軟導致股價下跌與Wrapped引發用戶失望，使得負面聲量與挑戰並存。",
   "article_analyses": [
     {
-      "title": "防彈歌曲Spotify年度播放量破百億創全球組合先河",
+      "title": "寶寶一聽就不哭？「止哭神曲」紅10年 Spotify播放破4.7億次",
       "sentiment": "positive",
       "key_points": [
-        "防彈少年團歌曲年度播放量突破百億",
-        "創全球組合新紀錄"
+        "「止哭神曲」爆紅",
+        "流行10年",
+        "播放量突破4.7億次"
       ]
     },
     {
-      "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify — Spotify",
+      "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify推出AI生成藝人身份標籤",
-        "讓聽眾了解藝人是否透明化分享AI使用"
+        "推出AI生成藝術家身份新標籤",
+        "提升內容透明度"
       ]
     },
     {
-      "title": "才出道就躍上紐約時代廣場 LAWA吐感性心聲 | 音樂 | 噓！星聞",
-      "sentiment": "positive",
+      "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
+      "sentiment": "neutral",
       "key_points": [
-        "新銳藝人LAWA獲選Spotify EQUAL大使",
-        "登上紐約時代廣場巨幕"
+        "Spotify Wrapped製作過程",
+        "用戶對2024年Wrapped回顧表示失望"
       ]
     },
     {
-      "title": "Spotify、Claude當機！　逾萬用戶集中回報服務故障 | 財經 | CTWANT",
+      "title": "Sylvan Esso on confronting the Spotify dilemma, again : NPR",
       "sentiment": "negative",
       "key_points": [
-        "Spotify服務出現故障",
-        "逾萬用戶回報無法正常連線"
+        "藝人批評Spotify商業模式",
+        "鼓勵用戶停止訂閱"
       ]
     },
     {
       "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
       "sentiment": "negative",
       "key_points": [
-        "Spotify調查數千用戶回報的服務中斷問題",
-        "問題已解決並感謝用戶耐心"
+        "平台服務當機",
+        "數千名用戶回報問題",
+        "公司已解決問題"
       ]
     },
     {
-      "title": "Spotify藏1功能！老司機喊「偷情聖地」：情侶又多一個要查 - 生活 - 中時新聞網",
+      "title": "Spotify | Description, History, & Facts | Britannica Money",
       "sentiment": "neutral",
       "key_points": [
-        "發現Spotify的私訊功能",
-        "引發「偷情聖地」的趣味討論"
-      ]
-    },
-    {
-      "title": "Spotify、Claude當機！　逾萬用戶集中回報服務故障 - 科技新聞 - PChome Online 新聞",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify與Claude服務異常",
-        "大批使用者回報無法正常連線"
+        "訂閱經濟模式",
+        "Spotify歷史與事實",
+        "平台描述"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "藝人Lorde批評Spotify的AI功能"
+        "知名歌手Lorde批評Spotify的AI功能"
       ]
     },
     {
-      "title": "但服務跟效率真的是太棒沒有嫌棄我是AI協作音樂創作者，有 ...",
-      "sentiment": "positive",
-      "key_points": [
-        "對Spotify與Soundscape的串接效率給予正面評價",
-        "強調對AI協作音樂創作者的友善性"
-      ]
-    },
-    {
-      "title": "Spotify to add 'AI Persona' badges to AI-generated artist profiles - Culture - Images",
+      "title": "Ira Glass Explains NPR Podcast Spotify Mystery Comments",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify將為AI生成藝人資料添加「AI Persona」徽章",
-        "回應聽眾對擬人化AI形象的擔憂"
+        "NPR播客出現神秘評論",
+        "年輕世代解開謎團"
       ]
     },
     {
-      "title": "Spotify says it won’t recommend music from ‘AI Personas’ | The Verge",
+      "title": "Spotify is giving you the keys to its recommendation algorithm with US launch of 'Taste Profile' | TechCrunch",
       "sentiment": "positive",
       "key_points": [
-        "Spotify表示將不推薦來自「AI Personas」的音樂",
-        "結合藝人自願揭露與人工/AI審核機制"
-      ]
-    },
-    {
-      "title": "Spotify reportedly removed over 75 million AI-slop songs from its platform",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify移除超過7500萬首AI垃圾歌曲",
-        "回應用戶對AI生成音樂的抱怨"
-      ]
-    },
-    {
-      "title": "9/25新聞晚報｜7、8月統一發票開獎，千萬特別獎號碼出爐、台灣1新景點明「免門票」重新開園、普發1萬新進度曝光 | 江勳紘 | 風生活 - 風傳媒",
-      "sentiment": "neutral",
-      "key_points": [
-        "提及《華爾街日報》與Spotify共同製作Podcast"
+        "推出「品味檔案」功能",
+        "美國Premium用戶可用",
+        "增強用戶對推薦的控制權"
       ]
     },
     {
       "title": "Gen Zer Solves NPR’s Spotify Comments Mystery That Baffled Staffers: ‘These Are Not Bots’",
       "sentiment": "neutral",
       "key_points": [
-        "解決NPR播客上Spotify奇怪評論的謎團",
-        "證實評論並非由機器人生成"
+        "Z世代員工揭示NPR評論謎團",
+        "孩童將評論區作為聊天室"
       ]
     },
     {
-      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
-      "sentiment": "negative",
+      "title": "Spotify reportedly removed over 75 million AI-slop songs from its platform",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify股價下跌",
-        "因對用戶和利潤的第三季度預期較弱"
-      ]
-    },
-    {
-      "title": "Fake Spotify podcast vote phishing targets user login credentials | Fox News",
-      "sentiment": "negative",
-      "key_points": [
-        "發現假冒Spotify播客投票的釣魚詐騙",
-        "目標是竊取用戶登入憑證"
+        "移除7500萬首AI生成垃圾歌曲",
+        "應對AI音樂濫用問題"
       ]
     },
     {
       "title": "Question of the Day: What is the most streamed song on Spotify?",
       "sentiment": "neutral",
       "key_points": [
-        "探討Spotify上播放量最高的歌曲"
+        "文章內容與Spotify輿情無直接關聯"
       ]
     },
     {
-      "title": "Malcolm Todd《Do That Again》專輯解析：2026 新作的聲音 ...",
-      "sentiment": "neutral",
-      "key_points": [
-        "分析Malcolm Todd專輯《Do That Again》",
-        "提及Spotify聆聽入口"
-      ]
-    },
-    {
-      "title": "Spotify攜手Live Nation推演唱會優先購票，是真粉絲福音還是變相商業綁架？ - TNL The News Lens 關鍵評論網",
-      "sentiment": "neutral",
-      "key_points": [
-        "Spotify與Live Nation合作推出演唱會優先購票服務",
-        "引發對其商業模式的討論"
-      ]
-    },
-    {
-      "title": "Analyst Downgrade Might Change The Case For Investing In Spotify Stock (SPOT) - Simply Wall St News",
+      "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "分析師將Spotify股票評級下調至持有",
-        "指出營收增長有限"
+        "用戶增長及利潤展望疲軟",
+        "股價下跌6.2%"
       ]
     },
     {
-      "title": "聽歌、看書還要帶你練！Spotify 變身最強健身教練 2026 串流平台「大亂鬥」 - 商傳媒",
+      "title": "Joe Rogan Renews Nine-Figure Spotify Deal",
       "sentiment": "positive",
       "key_points": [
-        "Spotify擴展至健身內容",
-        "提供無需特殊器材的課程，成為「健身教練」"
+        "Joe Rogan續簽數億美元協議",
+        "續約多年授權"
       ]
     },
     {
-      "title": "Spotify「User Notes」功能將播放清單化為音樂日記 | Hypebeast",
+      "title": "BTS first group ever to log 10b annual streams on Spotify - Culture - Images",
       "sentiment": "positive",
       "key_points": [
-        "Spotify推出「User Notes」功能",
-        "讓用戶為播放清單添加情境筆記，提升個人化體驗"
+        "BTS年度播放量突破100億次",
+        "創K-pop團體新紀錄"
       ]
     },
     {
-      "title": "Spotify 歡慶 20 週年：你的第一首歌、最愛歌手、120 首人生歌單一次回顧！ - POPBEE",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify慶祝20週年",
-        "推出回顧功能讓用戶重溫音樂歷程"
-      ]
-    },
-    {
-      "title": "歌聽出偷情商機？Spotify私訊掀歪樓　網笑：情侶查勤升級 | CTWANT | LINE TODAY",
+      "title": "Spotify (@spotify) • Instagram photos and videos",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify私訊功能引發「偷情」話題",
-        "Jam功能被視為遠距離情侶共同聽歌方式"
+        "Spotify官方Instagram帳號",
+        "社群媒體活動"
       ]
     },
     {
-      "title": "Spotify 變得越來越不穩定且難以使用，還附帶一堆不必要的 ...",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶抱怨Spotify應用程式不穩定",
-        "認為其變得難以使用並有不必要的功能"
-      ]
-    },
-    {
-      "title": "Confidence by Spotify | Proven at Spotify. Now yours to use",
+      "title": "Spotify for Artists - Apps on Google Play",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify內部工具「Confidence」",
-        "旨在加速代碼編寫和優化開發效率"
+        "Spotify For Artists應用程式描述",
+        "應用商店資訊"
       ]
     },
     {
-      "title": "Spotify gets saas-y, social media fixes traffic, and what's more unpopular than AI? | UNLIMITED SUPPLY with Digital Music News",
+      "title": "Spotify Studio’s AI agent creates a daily podcast just for you | The Verge",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Studio推出AI代理",
+        "生成個人化每日播客與播放列表"
+      ]
+    },
+    {
+      "title": "https://www.spotify.com/ao-pt/account/overview/",
       "sentiment": "neutral",
       "key_points": [
-        "討論Spotify在SaaS領域的發展",
-        "提及AI在業界的普及與爭議"
+        "無相關內容"
       ]
     },
     {
-      "title": "Spotify Increases Share Buyback Plan by $1.5B",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify董事會批准額外15億美元的股份回購計劃"
-      ]
-    },
-    {
-      "title": "Spotify Stock: Why I'm Downgrading Before Q3 Earnings (NYSE:SPOT) | Seeking Alpha",
-      "sentiment": "negative",
-      "key_points": [
-        "分析師在第三季度財報前下調Spotify股票評級",
-        "指出客戶不滿和業務品質問題"
-      ]
-    },
-    {
-      "title": "Let Me Be The One comment SPOTIFY for the Dubs playlist",
-      "sentiment": "positive",
-      "key_points": [
-        "歌曲被選入Spotify的「Freshly Found」播放清單"
-      ]
-    },
-    {
-      "title": "Why does Spotify Wrapped work so well? 🎧 227 million ...",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify Wrapped活動成功",
-        "2023年達到2.27億月活躍用戶"
-      ]
-    },
-    {
-      "title": "Spotify 正在推出個人化跑步模式",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出個人化跑步模式",
-        "特色包括自訂播放清單、語音提示及音樂同步"
-      ]
-    },
-    {
-      "title": "再見了！！Spotify，我退了。 - moomoo 社區",
-      "sentiment": "negative",
-      "key_points": [
-        "用戶表達對Spotify的不滿",
-        "決定取消訂閱"
-      ]
-    },
-    {
-      "title": "Podcast episodes start over from the beginning on Android - Spotify Community",
-      "sentiment": "negative",
-      "key_points": [
-        "Android用戶回報播客節目會從頭開始播放的錯誤",
-        "問題持續存在且影響用戶體驗"
-      ]
-    },
-    {
-      "title": "Oasis粉絲看過來！這些是Oasis在Spotify上播放次數最多的歌曲",
+      "title": "Patient Zero - Song, Lyrics, and Music Video by Taylor Swift",
       "sentiment": "neutral",
       "key_points": [
-        "列出Oasis在Spotify上播放次數最多的歌曲"
+        "Spotify數據收集與分享",
+        "提及隱私政策"
+      ]
+    },
+    {
+      "title": "今天的HOT 基礎英文新聞來了🔥 5 則重要新聞+ 5 個英文單字",
+      "sentiment": "neutral",
+      "key_points": [
+        "無相關內容"
+      ]
+    },
+    {
+      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "sentiment": "neutral",
+      "key_points": [
+        "無相關內容"
+      ]
+    },
+    {
+      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
+      "sentiment": "neutral",
+      "key_points": [
+        "無相關內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無相關內容"
+      ]
+    },
+    {
+      "title": "無標題",
+      "sentiment": "neutral",
+      "key_points": [
+        "無相關內容"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261017_052454.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261017.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261018_053259.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261018.jpg"
 }
