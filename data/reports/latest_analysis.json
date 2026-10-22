@@ -1,384 +1,368 @@
 {
   "overall_sentiment": {
     "positive_ratio": 0.5,
-    "negative_ratio": 0.3,
-    "neutral_ratio": 0.2
+    "negative_ratio": 0.2,
+    "neutral_ratio": 0.3
   },
   "events": [
     {
-      "title": "Spotify嚴打家庭方案共享帳號，推強制QR Code驗證",
-      "description": "Spotify正嚴格打擊家庭方案的非同住共享帳號行為。新政策要求用戶當面掃描動態QR Code進行地址驗證，若未在指定時間內完成驗證，帳號可能被降級為免費版，甚至被禁止在一年內再次加入家庭方案，引發用戶不滿。",
+      "title": "AI內容管理與透明化",
+      "description": "Spotify積極應對AI生成音樂的挑戰，推出「AI Persona」標籤、過濾垃圾AI歌曲，並嚴禁深偽冒名。然而，此舉也引發部分藝人（如Lorde）對AI功能的擔憂與批評。",
+      "severity": "high",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "藝人分潤制度與抗議",
+      "description": "獨立音樂人響應「Spotify去死」行動，抗議平台低分潤制度、演算法控制，以及創辦人投資AI軍事技術。此事件導致多位藝人下架作品，對Spotify的品牌形象和藝人關係造成負面影響。",
       "severity": "high",
       "sentiment": "negative"
     },
     {
-      "title": "Spotify大規模移除AI生成垃圾音樂並推出AI藝人標籤",
-      "description": "為提升內容品質和維護真實性，Spotify已從推薦清單中移除數千萬首（報導數字從5000萬至7500萬不等）AI生成垃圾音樂。同時，平台也引入了「AI Persona」標籤，允許藝人自主披露或由Spotify審查團隊標示AI生成身份。",
+      "title": "訂閱政策變動與審核趨嚴",
+      "description": "Spotify提高訂閱費用，引發與Apple Music的比較和市場討論。同時，為打擊違規，開始要求部分家庭訂閱用戶掃描二維碼核實住址。",
       "severity": "high",
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "title": "Spotify推出Podcast會員制，香港首批開通",
-      "description": "Spotify在全球34個市場（包括香港）推出了Podcast會員制功能，讓創作者能直接向粉絲收取月費，並可獲得高達90%的利潤分成，為Podcast創作者提供了新的變現途徑。",
+      "title": "新功能與平台服務擴展",
+      "description": "Spotify推出了多項新功能與服務，包括Podcast付費會員（創作者高分潤）、Podcast評論功能、免費用戶部分功能解禁、測試Podcast廣告跳過功能，以及利用AI代理生成個人化每日Podcast。",
       "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "Joe Rogan節目續約及公司股票回購",
-      "description": "Spotify已續簽知名Podcast主持人Joe Rogan的獨家協議，並宣布追加15億美元用於股票回購，顯示公司對未來業務發展和投資者回報的信心。",
+      "title": "平台穩定性問題",
+      "description": "數千名用戶曾回報服務中斷的當機事件，公司隨後表示已解決問題。",
       "severity": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "title": "年度回顧與藝人里程碑",
+      "description": "Spotify Wrapped年度回顧活動持續引發用戶討論。多位藝人如Drake、NewJeans、BTS等在平台上創下播放量新高，IVE也與Spotify合作舉辦行銷活動。",
+      "severity": "low",
       "sentiment": "positive"
     },
     {
-      "title": "Spotify服務中斷與用戶體驗失望",
-      "description": "有報導指出Spotify曾發生服務中斷，導致用戶無法正常使用新推出的Wrapped-style體驗，引發部分訂閱用戶的失望情緒。",
+      "title": "財務表現與市場預期",
+      "description": "儘管有分析師維持買入評級，但對用戶增長和盈利前景的較弱預期，導致Spotify股價下跌。此外，內部人士減持股份也引發關注。",
       "severity": "medium",
       "sentiment": "negative"
     }
   ],
   "trending_keywords": [
-    "家庭方案",
-    "AI音樂",
-    "QR Code 驗證",
-    "垃圾音樂移除",
-    "Podcast 會員",
-    "帳號共享",
-    "股價"
+    "AI",
+    "Podcast",
+    "藝人分潤",
+    "訂閱費用",
+    "平台功能",
+    "Spotify Wrapped",
+    "服務中斷"
   ],
-  "daily_summary": "今日Spotify輿情主要圍繞兩大焦點：一是平台對家庭方案共享帳號的嚴格打擊，要求當面掃碼驗證，引發廣泛用戶不滿；二是大力清除AI生成垃圾音樂，並推出AI藝人標籤，以維護內容品質，此舉獲多數正面評價。此外，Spotify也上線了Podcast會員制新功能，並續簽Joe Rogan節目，同時市場對其財務展望呈現褒貶不一的看法。",
+  "daily_summary": "Spotify近日輿情呈現多面向發展，平台在積極推出如Podcast付費會員、評論功能等新服務的同時，也面臨AI內容管理、分潤制度與藝人抗議、以及訂閱漲價等挑戰。財務方面，儘管分析師維持買入評級，但對用戶增長和盈利前景的擔憂導致股價波動，同時也發生了服務中斷事件。",
   "article_analyses": [
     {
-      "title": "Spotify推薦清單刪除AI生成垃圾音樂 今年已處理5000萬首",
+      "title": "Spotify推Podcast付費會員 創作者拿9成收入",
       "sentiment": "positive",
       "key_points": [
-        "Spotify移除5000萬首AI生成垃圾音樂",
-        "改善推薦清單內容"
+        "推出Podcast付費會員制",
+        "創作者可獲9成收入",
+        "增加創作者收益管道"
       ]
     },
     {
-      "title": "Spotify家庭方案非同住開抓！驗證和破解動態QR Code方法",
+      "title": "打擊違規「家庭訂閱」 Spotify 開始要求部分訂戶掃描二維碼核實住址",
       "sentiment": "negative",
       "key_points": [
-        "家庭方案嚴打非同住用戶",
-        "推出動態QR Code驗證機制",
-        "用戶嘗試破解驗證"
+        "打擊家庭訂閱違規使用",
+        "要求用戶掃描二維碼核實住址",
+        "可能造成用戶不便"
       ]
     },
     {
-      "title": "Spotify嚴打家庭方案共享賬號，推全新驗證機制",
+      "title": "獨立音樂人響應美國加州「Spotify去死」行動，反思串流演算法控制與低分潤制度 - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
       "key_points": [
-        "嚴格打擊家庭方案共享帳號",
-        "引入全新驗證機制"
+        "獨立音樂人抗議「Spotify去死」行動",
+        "批評低分潤制度和演算法控制",
+        "創辦人投資AI軍事公司引發爭議",
+        "藝人下架作品抗議"
       ]
     },
     {
-      "title": "Spotify祭出最嚴家庭方案審查：強制要求「當面掃描動態QR Code」驗證同居地址",
-      "sentiment": "negative",
+      "title": "Spotify Wrapped 2025年度最強歌手排名出爐！「1巨星」全球播放量達200億次奪冠 | 魏甫丞 | 風生活 - 風傳媒",
+      "sentiment": "neutral",
       "key_points": [
-        "最嚴格家庭方案審查",
-        "強制要求當面掃描動態QR Code驗證地址"
+        "Spotify Wrapped 2025年度回顧",
+        "公佈最強歌手排名",
+        "展現平台數據與用戶參與度"
       ]
     },
     {
-      "title": "Spotify 家庭計劃要當面掃碼 夾錢朋友 7 日唔掃或降免費版",
-      "sentiment": "negative",
-      "key_points": [
-        "家庭方案要求當面掃碼驗證",
-        "7日內未驗證可能降級為免費版"
-      ]
-    },
-    {
-      "title": "Spotify｜打擊寄生帳號 家庭方案須現場掃QR Code驗證",
-      "sentiment": "negative",
-      "key_points": [
-        "打擊家庭方案寄生帳號",
-        "家庭方案需現場掃QR Code驗證"
-      ]
-    },
-    {
-      "title": "Spotify 更新政策應對 AI 生成音頻問題，移除 5,000 萬首「垃圾」音樂",
+      "title": "Spotify新增「Podcast評論」功能！如何為6.15億活躍用戶打造音樂社群？解密Spotify布局",
       "sentiment": "positive",
       "key_points": [
-        "更新政策應對AI音頻問題",
-        "移除5000萬首AI生成垃圾音樂"
+        "新增Podcast評論功能",
+        "擴大平台用戶互動性",
+        "朝音樂社群平台發展"
       ]
     },
     {
-      "title": "Spotify開抓「假家人」！動態QR Code驗地址 失敗變免費1年不能再加入",
-      "sentiment": "negative",
-      "key_points": [
-        "嚴查家庭方案「假家人」",
-        "動態QR Code驗證地址",
-        "失敗者1年內無法再加入家庭方案"
-      ]
-    },
-    {
-      "title": "Spotify Podcast 會員制香港首批開通 收月費 90% 利潤",
+      "title": "Spotify免費用戶升級，聽歌不再靠運氣「3功能開放」！和Spotify Premium有何差異？ | 今周刊 | LINE TODAY",
       "sentiment": "positive",
       "key_points": [
-        "Podcast會員制在香港開通",
-        "創作者可獲90%月費利潤"
-      ]
-    },
-    {
-      "title": "Spotify家庭方案要求當面掃QR碼，失敗將禁止加入一年",
-      "sentiment": "negative",
-      "key_points": [
-        "家庭方案要求當面掃QR碼驗證",
-        "失敗者將被禁止加入一年"
+        "免費用戶功能更新",
+        "開放部分功能",
+        "提升免費用戶參與度以增加廣告收益"
       ]
     },
     {
       "title": "Introducing a New Label for AI-Generated Artist Identities on Spotify — Spotify",
       "sentiment": "positive",
       "key_points": [
-        "推出AI生成藝人身份新標籤",
-        "提升透明度"
+        "為AI生成藝人身份引入新標籤",
+        "提升內容透明度",
+        "應對AI技術的挑戰"
+      ]
+    },
+    {
+      "title": "AI歌曲每日3萬首入侵串流市場！Spotify三招反擊：AI標籤、垃圾過濾器、禁深偽冒名",
+      "sentiment": "positive",
+      "key_points": [
+        "應對AI歌曲入侵串流市場",
+        "推出AI標籤、垃圾過濾器、禁止深偽冒名",
+        "打擊未經授權的聲音複製和冒名頂替"
+      ]
+    },
+    {
+      "title": "Spotify Wrapped: How the music streamer compiled your 2025 recap | AP News",
+      "sentiment": "neutral",
+      "key_points": [
+        "介紹Spotify Wrapped的製作過程",
+        "指出用戶對2024 Wrapped的一些不滿",
+        "年度回顧活動"
+      ]
+    },
+    {
+      "title": "Spotify says it is investigating after thousands of users report outages - CBS News",
+      "sentiment": "negative",
+      "key_points": [
+        "數千用戶報告服務中斷",
+        "Spotify表示正在調查",
+        "後續表示問題已解決"
+      ]
+    },
+    {
+      "title": "Spotify新功能測試！跳過Podcast節目廣告 料不影響投放 - 國際 - 中時",
+      "sentiment": "positive",
+      "key_points": [
+        "測試Podcast廣告跳過功能",
+        "預計不影響廣告投放",
+        "提升用戶體驗"
+      ]
+    },
+    {
+      "title": "富國集團維持Spotify Technology(SPOT.US)買入評級",
+      "sentiment": "positive",
+      "key_points": [
+        "富國集團維持買入評級",
+        "分析師給予目標價570美元",
+        "顯示市場對公司前景看好"
       ]
     },
     {
       "title": "Lorde Calls Out Spotify Over AI Feature",
       "sentiment": "negative",
       "key_points": [
-        "歌手Lorde批評Spotify的AI功能"
+        "藝人Lorde批評Spotify的AI功能",
+        "引發對AI技術倫理的討論",
+        "可能對藝人關係產生影響"
       ]
     },
     {
-      "title": "Spotify says it won’t recommend music from ‘AI Personas’ | The Verge",
+      "title": "美銀證券維持Spotify Technology(SPOT.US)買入評級",
       "sentiment": "positive",
       "key_points": [
-        "Spotify將不推薦來自AI Persona的音樂",
-        "結合人工與AI工具辨識AI藝人"
-      ]
-    },
-    {
-      "title": "Spotify reportedly removed over 75 million AI-slop songs from its platform",
-      "sentiment": "positive",
-      "key_points": [
-        "據報導Spotify移除超過7500萬首AI垃圾歌曲"
-      ]
-    },
-    {
-      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
-      "sentiment": "positive",
-      "key_points": [
-        "建立新的「AI Persona」標籤",
-        "確保藝術家與粉絲間的信任與真實性"
+        "美銀證券維持買入評級",
+        "分析師給予目標價685美元",
+        "顯示市場對公司前景看好"
       ]
     },
     {
       "title": "Spotify to add 'AI Persona' badges to AI-generated artist profiles - Culture - Images",
       "sentiment": "positive",
       "key_points": [
-        "為AI生成藝人資料新增「AI Persona」徽章",
-        "藝人可自行披露或由Spotify審查"
+        "為AI生成藝人資料新增「AI Persona」標章",
+        "回應聽眾對虛假身份的擔憂",
+        "增加透明度"
+      ]
+    },
+    {
+      "title": "Spotify reportedly removed over 75 million AI-slop songs from its platform",
+      "sentiment": "positive",
+      "key_points": [
+        "移除超過7500萬首AI生成垃圾歌曲",
+        "應對AI音樂內容激增",
+        "維護平台內容品質"
+      ]
+    },
+    {
+      "title": "Spotify Creates New ‘AI Persona’ Label To Flag AI-Generated Artists",
+      "sentiment": "positive",
+      "key_points": [
+        "推出新的「AI Persona」標籤",
+        "標示AI生成的藝人",
+        "強調信任與真實性在音樂產業的重要性"
+      ]
+    },
+    {
+      "title": "100 Best Japanese Language Podcasts to Listen to in 2026",
+      "sentiment": "neutral",
+      "key_points": [
+        "推薦日語Podcast列表",
+        "展示Spotify豐富的Podcast內容",
+        "無直接關聯Spotify營運事件"
+      ]
+    },
+    {
+      "title": "涨价贵过Apple music，Spotify的底气在哪里？",
+      "sentiment": "negative",
+      "key_points": [
+        "Spotify訂閱費上漲",
+        "漲幅超過Apple Music",
+        "探討漲價策略與市場競爭"
+      ]
+    },
+    {
+      "title": "柯智棠：海を隔てて育ち、座って聴く覚悟のある人だけに歌う | Taiwan.md",
+      "sentiment": "neutral",
+      "key_points": [
+        "藝人柯智棠的訪談",
+        "內容關於音樂創作與獎項",
+        "Spotify僅作為提及的串流平台"
       ]
     },
     {
       "title": "Weaker outlook on users, profit sends Spotify shares lower (SPOT:NYSE) | Seeking Alpha",
       "sentiment": "negative",
       "key_points": [
-        "Spotify用戶及利潤展望疲軟",
-        "股價盤前下跌6.2%"
+        "用戶及利潤前景展望疲弱",
+        "導致Spotify股價下跌約6.2%",
+        "第三季度財報預期未達標"
       ]
     },
     {
-      "title": "‘This is so underwhelming for what it is’: Spotify’s outage meant users couldn’t access its new Wrapped-style experience — but subscribers were still left disappointed in the calm after the storm",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify服務中斷導致新體驗無法訪問",
-        "用戶對服務故障及體驗感到失望"
-      ]
-    },
-    {
-      "title": "Question of the Day: What is the most streamed song on Spotify?",
+      "title": "Apple Music不學Spotify就完了？《AppleInsider》反擊「邏輯荒謬」",
       "sentiment": "neutral",
       "key_points": [
-        "詢問Spotify上播放量最高的歌曲"
+        "關於Apple Music與Spotify商業模式的比較",
+        "行業評論與分析",
+        "非Spotify直接營運事件"
       ]
     },
     {
       "title": "Drake 'Iceman' Sets 2026 Spotify Single-Day Record for Album Streams",
       "sentiment": "positive",
       "key_points": [
-        "Drake創下Spotify單日專輯串流紀錄"
+        "Drake在Spotify上創下單日專輯串流紀錄",
+        "藝人取得重要里程碑",
+        "顯示平台高活躍度"
       ]
     },
     {
-      "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
+      "title": "细扒Spotify：值几个腾讯音乐？",
       "sentiment": "neutral",
       "key_points": [
-        "與Spotify無關的漫畫推薦討論"
+        "對Spotify進行財務分析",
+        "與騰訊音樂進行比較",
+        "探討其盈利能力"
       ]
     },
     {
-      "title": "Spotify Renewed Joe Rogan and Added $1.5 Billion to Buybacks. Here’s What Q3 Could Bring | TIKR.com",
+      "title": "[公式] 復帰はいつ..NewJeans『Hype Boy』、Spotifyで8億ストリーミング | STARNEWS",
       "sentiment": "positive",
       "key_points": [
-        "Spotify續簽Joe Rogan協議",
-        "增加15億美元股票回購"
+        "NewJeans歌曲《Hype Boy》在Spotify達到8億串流",
+        "藝人取得重要里程碑",
+        "顯示全球影響力"
       ]
     },
     {
-      "title": "Sylvan Esso on confronting the Spotify dilemma, again : NPR",
+      "title": "Spotify Studio’s AI agent creates a daily podcast just for you | The Verge",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify Studio的AI代理可創建每日個人化Podcast",
+        "生成專屬簡報和播放列表",
+        "AI技術應用於內容生成"
+      ]
+    },
+    {
+      "title": "「BTS」、鐘の音だけ「No.29」も2億回再生…「HYBE CHEERING PARTY」も開催（WoW!Korea）｜ｄメニューニュース（NTTドコモ）",
+      "sentiment": "positive",
+      "key_points": [
+        "BTS專輯《ARIRANG》在Spotify突破50億串流",
+        "藝人取得重要里程碑",
+        "顯示其在全球範圍的受歡迎程度"
+      ]
+    },
+    {
+      "title": "Spotify Technology的一名內部人士最近減持了其持股。",
       "sentiment": "negative",
       "key_points": [
-        "Sylvan Esso討論面臨的Spotify困境",
-        "巡演成本高昂"
+        "Spotify Technology內部人士減持股份",
+        "內部人士為淨賣出方",
+        "可能反映對公司前景的看法"
       ]
     },
     {
-      "title": "Spotify Reveals Major Update in Its Fight Against AI Music Spam",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify發布打擊AI音樂垃圾的重大更新",
-        "改進推薦系統以限制AI內容"
-      ]
-    },
-    {
-      "title": "Spotify Has Removed 50 Million AI Slop Songs From Recommendations",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify從推薦清單移除5000萬首AI垃圾歌曲"
-      ]
-    },
-    {
-      "title": "‎MusicHarbor - 追踪艺术家新发行 App - App Store",
+      "title": "川習會第2天最新結果：台灣、伊朗分歧攤開！今年還要再見兩次；美國人對“社會主義”好感度突然升溫！43%創歷史新高；川普再獲最高法院放行！各州可用聯邦系統查選民公民身份；20260925",
       "sentiment": "neutral",
       "key_points": [
-        "MusicHarbor應用更新",
-        "改進Spotify認證流程及新聞演算法"
+        "文章內容與Spotify無關",
+        "討論美國政治與國際關係",
+        "與音樂串流平台無直接連結"
       ]
     },
     {
-      "title": "Spotify Says 50M AI Songs Removed From Recommendations",
+      "title": "IVE、Spotifyと手を組み、新EPのポップアップとライブを開催",
       "sentiment": "positive",
       "key_points": [
-        "Spotify表示已從推薦中移除5000萬首AI歌曲",
-        "強調不會懲罰負責任使用AI的藝人"
+        "IVE與Spotify合作",
+        "舉辦新EP的實體活動和直播",
+        "增強藝人與粉絲互動"
       ]
     },
     {
-      "title": "Morgan Stanley bullish on Spotify ahead of earnings, keeps $640 target (SPOT:NYSE) | Seeking Alpha",
-      "sentiment": "positive",
-      "key_points": [
-        "摩根士丹利看好Spotify",
-        "維持640美元目標價"
-      ]
-    },
-    {
-      "title": "串流音樂平台Spotify 近期因應AI 產生的垃圾與濫發 ...",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify應對AI垃圾音樂問題",
-        "從推薦清單清除5000萬首此類音軌"
-      ]
-    },
-    {
-      "title": "Spotify pulls 50 million AI slop and spam tracks from its recommendations | The Verge",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify從推薦中移除5000萬首AI垃圾及濫發歌曲",
-        "調整推薦系統以凸顯真人藝人"
-      ]
-    },
-    {
-      "title": "Spotify removed 50 million slop and spam tracks from recs",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify從推薦中移除5000萬首AI生成垃圾與濫發歌曲",
-        "引入新規則和檢測系統"
-      ]
-    },
-    {
-      "title": "IVE新曲LOOKS CAN KILL在Spotify首演",
-      "sentiment": "positive",
-      "key_points": [
-        "IVE新曲《LOOKS CAN KILL》在Spotify DIVE ACADEMY首演",
-        "獨家為粉絲群體呈現"
-      ]
-    },
-    {
-      "title": "Spotify Introduces Podcast Memberships - Thurrott.com",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify推出Podcast會員制",
-        "在34個市場上線，提供創作者互動新方式"
-      ]
-    },
-    {
-      "title": "Spotify (@spotify) • Instagram photos and videos",
+      "title": "獵人蟻王app Spotify圖片",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify的Instagram社群活動"
+        "TikTok上與獵人蟻王相關的Spotify圖片",
+        "社群媒體內容，非Spotify官方發布",
+        "反映用戶對平台的使用方式"
       ]
     },
     {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its ...",
-      "sentiment": "positive",
-      "key_points": [
-        "Spotify從推薦中移除5000萬首AI垃圾與濫發歌曲"
-      ]
-    },
-    {
-      "title": "Spotify和Claude在美国短暂中断后恢复 ...",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify和Claude在美國短暫中斷後恢復服務"
-      ]
-    },
-    {
-      "title": "Spotify - Music and Podcasts - Free download and install ...",
+      "title": "【80年代アイドルソング総選挙】投票開始！200曲のノミネート ...",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify免費版功能介紹"
-      ]
-    },
-    {
-      "title": "https://www.spotify.com/ao-pt/account/overview/",
-      "sentiment": "neutral",
-      "key_points": [
-        "無實質新聞內容，為帳戶頁面連結"
-      ]
-    },
-    {
-      "title": "2026/10/12 (月) 搶先播放'It's not a bad life'活動",
-      "sentiment": "neutral",
-      "key_points": [
-        "單曲《It's not a bad life》發行活動預告"
-      ]
-    },
-    {
-      "title": "Patient Zero - Song, Lyrics, and Music Video by Taylor Swift",
-      "sentiment": "neutral",
-      "key_points": [
-        "Taylor Swift歌曲相關資訊",
-        "提及Spotify的數據共享政策"
-      ]
-    },
-    {
-      "title": "Instagram",
-      "sentiment": "neutral",
-      "key_points": [
-        "無實質新聞內容，為社群媒體照片"
+        "80年代偶像歌曲總選舉",
+        "音樂內容相關活動",
+        "非Spotify直接營運事件"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無內容"
+        "文章內容空白，無法分析"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
       "key_points": [
-        "無內容"
+        "文章內容空白，無法分析"
       ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261021_054833.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261021.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261022_055233.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261022.jpg"
 }
