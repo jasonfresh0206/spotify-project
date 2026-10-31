@@ -1,153 +1,248 @@
 {
   "overall_sentiment": {
-    "positive_ratio": 0.08,
-    "negative_ratio": 0.08,
-    "neutral_ratio": 0.84
+    "positive_ratio": 0.2,
+    "negative_ratio": 0.1,
+    "neutral_ratio": 0.7
   },
   "events": [
     {
-      "title": "Spotify 計劃推出 AI 混音服務",
-      "description": "據報導，Spotify 計劃於 2027 年推出人工智慧（AI）混音服務，此舉可能為用戶帶來全新的音樂聆聽體驗。",
+      "title": "AI混音服務計畫推出",
+      "description": "Spotify 傳出將推出 AI 驅動的音樂混音服務，部分報導指明年初上市並需附加月費，另有報導則稱將於 2027 年推出，引發時間點與費用考量，顯示平台積極探索 AI 創新功能。",
       "severity": "medium",
       "sentiment": "neutral"
+    },
+    {
+      "title": "AI生成內容管理與標籤化",
+      "description": "Spotify 將對 AI 生成藝人進行標籤化，並將其音樂從推薦中移除，此舉旨在管理平台內容的真實性與品質，應對 AI 內容崛起帶來的挑戰。",
+      "severity": "medium",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "創辦人投資AI軍事公司引發藝人抵制",
+      "description": "多組獨立音樂人（如 Deerhoof、Xiu Xiu、King Gizzard & The Lizard Wizard）因不滿 Spotify 創辦人投資 AI 軍事公司，相繼下架作品以示抗議，對平台內容庫與品牌形象造成負面衝擊。",
+      "severity": "high",
+      "sentiment": "negative"
     },
     {
       "title": "第三季財報表現亮眼，用戶數超預期",
-      "description": "Spotify 公布的第三季財報顯示業績強勁，用戶數超出市場預期，營收與淨利表現良好，帶動公司股價呈現長期上漲趨勢。",
-      "severity": "high",
+      "description": "Spotify 公布第三季財報，營收和用戶增長均超出市場預期，獲得分析師正面評級，顯示公司營運狀況良好。",
+      "severity": "medium",
       "sentiment": "positive"
     },
     {
-      "title": "電子發票載具歸戶教學受關注",
-      "description": "多篇文章提供詳細教學，指引用戶如何將 Spotify 等跨境電商的訂閱發票歸戶至財政部電子發票系統，以確保自動對獎，解決許多人忽略發票中獎的問題。",
+      "title": "年度回顧及新功能上線",
+      "description": "Spotify 推出年度回顧（Wrapped）並新增如「聆聽年齡」等個人化互動功能，同時公開全球熱門榜單，持續優化用戶體驗。",
       "severity": "low",
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "title": "收緊帳號共享政策",
-      "description": "Spotify 加入其他訂閱服務行列，開始嚴格打擊帳號共享行為，要求用戶透過 QR Code 驗證家庭成員的居住地址。",
-      "severity": "medium",
-      "sentiment": "negative"
-    },
-    {
-      "title": "贊助巴塞隆納引發音樂人批評",
-      "description": "Spotify 斥資 3.1 億美元贊助巴塞隆納足球俱樂部，此舉引發部分音樂人與評論家的強烈批評，認為公司應優先改善藝術家版稅報酬，而非進行「華而不實的商業行為」。",
-      "severity": "high",
-      "sentiment": "negative"
-    },
-    {
-      "title": "推出 Wrapped 隱藏歌曲功能",
-      "description": "Spotify 引入一項實用功能，允許用戶將特定歌曲從他們的年度回顧 Wrapped 中隱藏，提升了用戶對個人聆聽數據的隱私控制權。",
+      "title": "熱門音樂內容更新與成就",
+      "description": "NewJeans 歌曲《Zero》在 Spotify 突破破億播放次數，以及《空戰奇兵8》遊戲原聲帶上線等，平台持續有新的熱門音樂內容加入並見證藝人成就。",
       "severity": "low",
       "sentiment": "positive"
     }
   ],
   "trending_keywords": [
     "AI混音服務",
+    "藝人抵制",
+    "音樂下架",
+    "AI生成內容",
     "財報",
-    "載具歸戶",
-    "帳號共享",
-    "巴塞隆納贊助",
-    "版稅"
+    "用戶增長",
+    "新功能",
+    "年度回顧"
   ],
-  "daily_summary": "今日 Spotify 輿情關注其強勁的第三季財報表現，用戶數與股價均超出預期。然而，其高額贊助巴塞隆納的決策引發音樂人對版稅分配的批評，加上收緊帳號共享政策，為其帶來負面聲量。此外，Spotify 計劃於2027年推出AI混音服務，以及多則關於電子發票載具歸戶的實用資訊也受到討論。",
+  "daily_summary": "今日 Spotify 輿情圍繞著創新與挑戰兩大主軸。正面消息包括公司第三季財報表現亮眼、用戶數超預期，以及多項 AI 新功能（如 AI 混音服務、AI 內容管理標籤）的規劃與推出。然而，平台也面臨因創辦人投資 AI 軍事公司而引發的藝人抵制潮，導致部分音樂作品下架，為 Spotify 的品牌形象和內容生態帶來負面影響。",
   "article_analyses": [
     {
-      "title": "據《金融時報》報導，Spotify計劃於2027年推出AI混音服務",
-      "sentiment": "neutral",
+      "title": "NewJeans再添一首破億神曲！《Zero》攻上Spotify，累積17首82億次播放寫紀錄",
+      "sentiment": "positive",
       "key_points": [
-        "Spotify 計劃於 2027 年推出 AI 混音服務"
+        "NewJeans歌曲《Zero》在Spotify突破破億播放次數",
+        "累積17首破億歌曲，總播放次數達82億次",
+        "展示Spotify作為熱門歌曲推廣平台的能力"
       ]
     },
     {
-      "title": "Spotify計劃於2027年初推出AI混音服務 作者 Investing.com - Investing.com 香港",
+      "title": "《空戰奇兵8 希孚之翼》原聲帶 11 首全球上線 Spotify 歌單第一彈選《空戰奇兵 ZERO》",
+      "sentiment": "positive",
+      "key_points": [
+        "《空戰奇兵8 希孚之翼》原聲帶在Spotify全球上線",
+        "收錄11首音樂，第一彈為《空戰奇兵 ZERO》",
+        "豐富平台遊戲原聲帶內容"
+      ]
+    },
+    {
+      "title": "Spotify AI混音服務傳明年初問世 月費最高約160台幣",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 計劃於 2027 年初推出 AI 混音服務"
+        "傳聞Spotify將於明年初推出AI混音服務",
+        "月費預計約160台幣（4至5美元）",
+        "為付費用戶提供新功能"
+      ]
+    },
+    {
+      "title": "《國際產業》Spotify計畫推出AI混音服務 粉絲立即二次創作",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify計畫推出AI混音服務",
+        "讓粉絲能不需專業知識即可進行二次創作",
+        "提升用戶互動與創意"
+      ]
+    },
+    {
+      "title": "傳Spotify(SPOT.US)擬明年一季度上線AI混音服務，附加月費4至5美元 作者 智通財經 - Investing.com 香港",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify擬於明年第一季度上線AI混音服務",
+        "預計收取每月4至5美元附加費用",
+        "提供新的付費功能選擇"
+      ]
+    },
+    {
+      "title": "Spotify計劃於2027年推出AI混音服務",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify計畫在2027年推出AI混音服務",
+        "與其他報導的上市時間（明年初）存在差異",
+        "顯示此功能推出時程仍有不確定性"
+      ]
+    },
+    {
+      "title": "Spotify擬明年一季度上線AI混音服務 附加月費4至5美元",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify擬於明年第一季度上線AI混音服務",
+        "預計收取每月4至5美元附加費用",
+        "為用戶帶來新的音樂創作體驗"
+      ]
+    },
+    {
+      "title": "《國際產業》Spotify計畫推出AI混音服務 粉絲立即二次創作_富聯網",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify計畫於2027年第一季推出AI驅動的音樂混音服務",
+        "目標在葛萊美獎頒獎典禮前後亮相",
+        "讓付費用戶可一鍵將歌曲二次創作"
       ]
     },
     {
       "title": "Spotify 第三季財報告捷用戶數超預期 股價波動受 AI 關注 - 商傳媒",
       "sentiment": "positive",
       "key_points": [
-        "第三季財報表現強勁，用戶數超預期",
-        "股價長期上揚，受到分析師看好",
-        "營收、淨利、每股盈餘數據亮眼"
+        "Spotify第三季財報營收和用戶數超出預期",
+        "股價受財報利好影響一度上漲",
+        "顯示市場對其表現持正面態度"
       ]
     },
     {
-      "title": "很多人都漏掉！載具歸戶教學一次看，Netflix、Spotify發票原來都沒在對獎 | 生活娛樂 | udn 女子漾",
+      "title": "Spotify - BBC News",
       "sentiment": "neutral",
       "key_points": [
-        "提供 Spotify 等訂閱服務發票載具歸戶教學",
-        "提醒用戶可自動對獎"
+        "Spotify將為AI生成藝人添加標籤",
+        "自九月中旬起將其音樂從推薦中移除",
+        "旨在管理平台內容的真實性"
       ]
     },
     {
-      "title": "Spotify uploads Irish lyrics for Dolly Parton's Welsh Jolene version - BBC News",
+      "title": "Spotify will label 'AI Persona' profiles and exclude their music from recommendations | TechCrunch",
       "sentiment": "neutral",
       "key_points": [
-        "Spotify 上傳了 Dolly Parton 威爾士版 Jolene 的愛爾蘭語歌詞"
+        "Spotify將標註'AI Persona'資料",
+        "將其音樂從推薦中排除",
+        "確保內容來源的透明度"
       ]
     },
     {
-      "title": "每月訂閱 Netflix、Spotify 都有發票！財政部教 4 步驟綁定載具自動入帳 | 科技新報 | LINE TODAY",
+      "title": "Spotify for Artists - Apps on Google Play",
       "sentiment": "neutral",
       "key_points": [
-        "財政部提供 Spotify 等訂閱服務發票載具歸戶四步驟教學",
-        "確保發票自動對獎與入帳"
+        "介紹Spotify for Artists應用程式的功能",
+        "提供內容評級與數據安全資訊",
+        "服務藝術家管理音樂內容"
       ]
     },
     {
-      "title": "The hidden Spotify feature that will keep you from blushing over your year in review: Here’s how to hide songs from your Wrapped - Meristation",
-      "sentiment": "negative",
-      "key_points": [
-        "Spotify 推出隱藏歌曲功能，可避免歌曲出現在 Wrapped 年終回顧",
-        "Spotify 收緊帳號共享政策，要求用戶驗證家庭成員身份"
-      ]
-    },
-    {
-      "title": "Netflix、Spotify發票如何自動對獎？2方法設定「跨境電商載具歸戶」：發票中獎不再漏接！ | 數位時代 | LINE TODAY",
+      "title": "https://www.spotify.com/ao-pt/account/overview/",
       "sentiment": "neutral",
       "key_points": [
-        "提供兩種方法設定跨境電商發票載具歸戶 (含 Spotify)",
-        "確保發票中獎自動入帳"
+        "無可用資訊"
+      ]
+    },
+    {
+      "title": "今天的HOT 基礎英文新聞來了🔥 5 則重要新聞+ 5 個英文單字",
+      "sentiment": "neutral",
+      "key_points": [
+        "內容與Spotify無關"
       ]
     },
     {
       "title": "セッションおなじみの出演者が語る！小中学生に薦めたい漫画",
       "sentiment": "neutral",
       "key_points": [
-        "TBS 電台節目討論小中學生推薦漫畫 (與 Spotify 無直接相關性)"
+        "內容與Spotify無關"
       ]
     },
     {
-      "title": "特集「シリーズ・国旗損壊罪～何が処罰され、何が許されるのか？法案の論点と課題」」",
-      "sentiment": "neutral",
-      "key_points": [
-        "TBS 電台節目討論國旗損壞罪的法案論點與課題 (與 Spotify 無直接相關性)"
-      ]
-    },
-    {
-      "title": "为什么宁可被音乐人骂，Spotify也要花3亿多美元赞助巴萨？_手机新浪网",
+      "title": "《聲入Spotify》：泰勒絲的抵制，讓Spotify面臨史上最嚴重的公關危機 - TNL The News Lens 關鍵評論網",
       "sentiment": "negative",
       "key_points": [
-        "Spotify 斥資 3.1 億美元贊助巴塞隆納，引發爭議",
-        "音樂人批評 Spotify 應優先解決版權報酬問題",
-        "此舉被質疑為「華而不實的商業行為」"
+        "泰勒絲抵制曾讓Spotify面臨嚴重的公關危機",
+        "Spotify在創業初期面臨盈利挑戰",
+        "音樂串流對傳統音樂產業的商業模式帶來衝擊"
+      ]
+    },
+    {
+      "title": "不滿Spotify創辦人投資AI軍事公司，Deerhoof、Xiu Xiu等多組音樂人相繼下架作品 - TNL The News Lens 關鍵評論網",
+      "sentiment": "negative",
+      "key_points": [
+        "多組音樂人因不滿Spotify創辦人投資AI軍事公司而下架作品",
+        "表達對音樂串流平台本質及其價值觀的不滿",
+        "影響Spotify的內容庫與藝人關係"
+      ]
+    },
+    {
+      "title": "Spotify、YouTube、Apple Music年度回顧出爐：計算聆聽年齡等全新功能、全球熱門榜單一次看 - TNL The News Lens 關鍵評論網",
+      "sentiment": "positive",
+      "key_points": [
+        "Spotify年度回顧（Wrapped）功能上線",
+        "推出「聆聽年齡」等全新個人化互動功能",
+        "公布全球最受歡迎專輯與Podcast榜單"
+      ]
+    },
+    {
+      "title": "Spotify AI混音服務傳明年初問世　月費最高約160台幣｜知新聞",
+      "sentiment": "neutral",
+      "key_points": [
+        "Spotify將在準備好後推出AI混音服務",
+        "傳聞明年明年初問世，月費最高160台幣",
+        "此為Spotify發展AI功能的重要一步"
+      ]
+    },
+    {
+      "title": "Spotify vs. Apple Music: I've subscribed to both streaming services, and prefer this one - ZDNET",
+      "sentiment": "neutral",
+      "key_points": [
+        "比較Spotify與Apple Music兩大音樂串流服務",
+        "為用戶選擇平台提供參考意見",
+        "評估各平台優勢與特色"
       ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無可用資訊"
+      ]
     },
     {
       "title": "無標題",
       "sentiment": "neutral",
-      "key_points": []
+      "key_points": [
+        "無可用資訊"
+      ]
     }
   ],
-  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261030_065319.html",
-  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261030.jpg"
+  "report_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/report_20261031_064521.html",
+  "image_url": "https://jasonfresh0206.github.io/spotify-project/data/reports/infographic_20261031.jpg"
 }
